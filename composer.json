@@ -391,8 +391,8 @@
             "cd shop; bin/console system:config:set core.store.apiUri http://localhost:8060",
             "cd shop; bin/console system:config:set core.update.apiUri http://localhost:8060",
             "cd shop; composer config repositories.0 '{\"type\": \"path\", \"url\": \"../src/*\"}'",
-            "cd shop; sed -i '/\\$this->verifyResponseSignature(\\$response);/d' vendor/shopware/core/Framework/Update/Services/ApiClient.php",
-            "cd shop; sed -i 's/\\$signatureHeaderName = self::SHOPWARE_SIGNATURE_HEADER;/return \\$response;/g' vendor/shopware/core/Framework/Store/Services/VerifyResponseSignatureMiddleware.php",
+            "cd shop; sed -i '/\\$this->verifyResponseSignature(\\$response);/d' vendor/haokeyingxiao/core/Framework/Update/Services/ApiClient.php",
+            "cd shop; sed -i 's/\\$signatureHeaderName = self::SHOPWARE_SIGNATURE_HEADER;/return \\$response;/g' vendor/haokeyingxiao/core/Framework/Store/Services/VerifyResponseSignatureMiddleware.php",
             "cd src/WebInstaller; composer install",
             "cd src/WebInstaller; composer build-phar",
             "mv src/WebInstaller/shopware-installer.phar.php shop/public/shopware-installer.phar.php"

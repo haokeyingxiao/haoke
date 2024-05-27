@@ -36,7 +36,7 @@ class ExpectationSubscriberTest extends TestCase
                 'dev' => false,
             ],
             'versions' => [
-                'shopware/core' => [
+                'haokeyingxiao/core' => [
                     'version' => '6.3.0.0',
                     'dev_requirement' => false,
                 ],
@@ -47,7 +47,7 @@ class ExpectationSubscriberTest extends TestCase
     public function testExpectFailsOutdatedShopwareVersion(): void
     {
         $request = $this->makeRequest();
-        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'shopware/core:~6.4');
+        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'haokeyingxiao/core:~6.4');
 
         $event = new ControllerEvent(
             $this->createMock(Kernel::class),
@@ -65,7 +65,7 @@ class ExpectationSubscriberTest extends TestCase
     public function testExpectMatchesShopwareVersion(): void
     {
         $request = $this->makeRequest();
-        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'shopware/core:~6.3.0.0');
+        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'haokeyingxiao/core:~6.3.0.0');
 
         $event = new ControllerEvent(
             $this->createMock(Kernel::class),
@@ -80,7 +80,7 @@ class ExpectationSubscriberTest extends TestCase
     public function testExpectMatchesShopwareVersionButNotPlugin(): void
     {
         $request = $this->makeRequest();
-        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'shopware/core:~6.3.0.0,swag/paypal:*');
+        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'haokeyingxiao/core:~6.3.0.0,swag/paypal:*');
 
         $event = new ControllerEvent(
             $this->createMock(Kernel::class),
@@ -100,7 +100,7 @@ class ExpectationSubscriberTest extends TestCase
         $this->expectationSubscriber = new ExpectationSubscriber('6.3.0.0', [['composerName' => 'swag/paypal', 'active' => true, 'version' => '1.0.0']]);
 
         $request = $this->makeRequest();
-        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'shopware/core:~6.3.0.0,swag/paypal:*');
+        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'haokeyingxiao/core:~6.3.0.0,swag/paypal:*');
 
         $event = new ControllerEvent(
             $this->createMock(Kernel::class),
@@ -117,7 +117,7 @@ class ExpectationSubscriberTest extends TestCase
         $this->expectationSubscriber = new ExpectationSubscriber('6.3.0.0', [['composerName' => 'swag/paypal', 'active' => false, 'version' => '1.0.0']]);
 
         $request = $this->makeRequest();
-        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'shopware/core:~6.3.0.0,swag/paypal:*');
+        $request->headers->set(PlatformRequest::HEADER_EXPECT_PACKAGES, 'haokeyingxiao/core:~6.3.0.0,swag/paypal:*');
 
         $event = new ControllerEvent(
             $this->createMock(Kernel::class),

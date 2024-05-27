@@ -76,7 +76,7 @@ class SummarizeCoverageReports extends Command
 
         $data = [
             'php' => [
-                'shopware/platform' => $this->getCoverage($phpCoveragePerArea),
+                'haokeyingxiao/platform' => $this->getCoverage($phpCoveragePerArea),
             ],
             'js' => $jsCoverages,
         ];

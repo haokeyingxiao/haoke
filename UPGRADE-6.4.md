@@ -31,7 +31,7 @@ With the upcoming major release we are going to release a new XML-schema for Sho
     Make sure to remove the attribute `openNewTab` from your `action-button` elements in your `manifest.xml` and use ActionButtonResponses as described in our [documentation](https://developer.haokeyingxiao.com/docs/guides/plugins/apps/administration/add-custom-action-button) instead.
 3. Deprecation of `manifest-1.0.xsd`
 
-    Update the `xsi:noNamespaceSchemaLocation` attribute of your `manifest` root element. to `https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd`
+    Update the `xsi:noNamespaceSchemaLocation` attribute of your `manifest` root element. to `https://raw.githubusercontent.com/haokeyingxiao/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd`
 ### MessageQueue Deprecations
 
 For v6.5.0.0 we will remove our wrapper around the symfony messenger component and remove the enqueue integration as well. Therefore, we deprecated several classes for the retry and encryption handling, without replacement, as we  will use the symfony standards for that.
@@ -373,7 +373,7 @@ In addition to requiring CRUD-permission on entity basis, apps can now also requ
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd">
+          xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/haokeyingxiao/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd">
     <meta>
     ...
     </meta>
@@ -417,7 +417,7 @@ elasticsearch:
       some_date_field: datetime
 ```
 
-See [\Shopware\Core\System\CustomField\CustomFieldTypes](https://github.com/shopware/platform/blob/0ca57ddee85e9ab00d1a15a44ddc8ff16c3bc37b/src/Core/System/CustomField/CustomFieldTypes.php#L7-L19) for the complete list of possible options
+See [\Shopware\Core\System\CustomField\CustomFieldTypes](https://github.com/haokeyingxiao/platform/blob/0ca57ddee85e9ab00d1a15a44ddc8ff16c3bc37b/src/Core/System/CustomField/CustomFieldTypes.php#L7-L19) for the complete list of possible options
 
 # 6.4.11.0
 ## Introduce BeforeDeleteEvent
@@ -732,7 +732,7 @@ In addition to requiring CRUD-permission on entity basis, apps can now also requ
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd">
+          xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/haokeyingxiao/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd">
     <meta>
     ...
     </meta>
@@ -2384,7 +2384,7 @@ You can send additional expectations via headers within your request, which is n
 
 ```http request
 GET /api/test
-sw-expect-packages: shopware/core:~6.4,swag/paypal:*
+sw-expect-packages: haokeyingxiao/core:~6.4,swag/paypal:*
 ```
 
 This example expects that the Shopware version is at least 6.4, and the PayPal extension is installed in any version. 
@@ -2453,7 +2453,7 @@ See [NEXT-13371 - Added api aware flag](/changelog/release-6-3-5-1/2021-01-25-ad
 The `league/oauth2-server` and `lcobucci/jwt` dependencies were upgraded to their next respective major versions.
 This comes with a break in our current oauth2 core implementation.
 
-See [the commit on GitHub](https://github.com/shopware/platform/commit/656c82d5232c87b75e1d6b42bd6493d674807791) for details.
+See [the commit on GitHub](https://github.com/haokeyingxiao/platform/commit/656c82d5232c87b75e1d6b42bd6493d674807791) for details.
 
 ---
 

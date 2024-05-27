@@ -52,7 +52,7 @@ class SummarizeCoverageReportsTest extends TestCase
         static::assertArrayHasKey('js', $coverageReport);
 
         static::assertEquals([
-            'shopware/platform' => [
+            'haokeyingxiao/platform' => [
                 'business-ops' => [
                     'area' => 'business-ops',
                     'percentage' => '33.11',

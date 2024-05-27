@@ -52,12 +52,12 @@ class MigrationCollectionFactory
             $coreBasePath = $this->projectDir . '/src/Core';
             $storefrontBasePath = $this->projectDir . '/src/Storefront';
             $adminBasePath = $this->projectDir . '/src/Administration';
-        } elseif (file_exists($this->projectDir . '/vendor/shopware/platform/src/Core/schema.sql')) {
-            $coreBasePath = $this->projectDir . '/vendor/shopware/platform/src/Core';
-            $storefrontBasePath = $this->projectDir . '/vendor/shopware/platform/src/Storefront';
-            $adminBasePath = $this->projectDir . '/vendor/shopware/platform/src/Administration';
+        } elseif (file_exists($this->projectDir . '/vendor/haokeyingxiao/platform/src/Core/schema.sql')) {
+            $coreBasePath = $this->projectDir . '/vendor/haokeyingxiao/platform/src/Core';
+            $storefrontBasePath = $this->projectDir . '/vendor/haokeyingxiao/platform/src/Storefront';
+            $adminBasePath = $this->projectDir . '/vendor/haokeyingxiao/platform/src/Administration';
         } else {
-            $coreBasePath = $this->projectDir . '/vendor/shopware/core';
+            $coreBasePath = $this->projectDir . '/vendor/haokeyingxiao/core';
             $storefrontBasePath = $this->projectDir . '/vendor/shopware/storefront';
             $adminBasePath = $this->projectDir . '/vendor/shopware/administration';
         }

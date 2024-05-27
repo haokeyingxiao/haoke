@@ -59,7 +59,7 @@ jobs:
           - name: Storefront
             remote: https://${{ secrets.MANYREPO_SYNC_USER }}:${{ secrets.MANYREPO_SYNC_TOKEN }}@github.com/shopware/storefront
           - name: Core
-            remote: https://${{ secrets.MANYREPO_SYNC_USER }}:${{ secrets.MANYREPO_SYNC_TOKEN }}@github.com/shopware/core
+            remote: https://${{ secrets.MANYREPO_SYNC_USER }}:${{ secrets.MANYREPO_SYNC_TOKEN }}@github.com/haokeyingxiao/core
           - name: Elasticsearch
             remote: https://${{ secrets.MANYREPO_SYNC_USER }}:${{ secrets.MANYREPO_SYNC_TOKEN }}@github.com/shopware/elasticsearch
     steps:

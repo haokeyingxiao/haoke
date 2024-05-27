@@ -4,7 +4,7 @@
           if [[ -n "$DD_CI_UPLOAD" ]]; then
             JUNIT_FILES="$(find . -maxdepth 5 -iname "*.junit.xml")"
             if [[ -n "$JUNIT_FILES" ]]; then
-              npx @datadog/datadog-ci junit upload --service shopware/platform $JUNIT_FILES >/dev/null;
+              npx @datadog/datadog-ci junit upload --service haokeyingxiao/platform $JUNIT_FILES >/dev/null;
             fi
           fi
 

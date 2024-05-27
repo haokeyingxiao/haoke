@@ -239,7 +239,7 @@ class Feature
                 ScriptTraces::addDeprecationNotice($message);
             }
 
-            trigger_deprecation('shopware/core', '', $message);
+            trigger_deprecation('haokeyingxiao/core', '', $message);
         }
     }
 

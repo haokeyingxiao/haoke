@@ -30,7 +30,7 @@ RUN --mount=type=secret,id=composer_auth,dst=/src/auth.json \
     && composer config minimum-stability dev \
     && composer config prefer-stable true \
     && composer config platform.php 8.2 \
-    && COMPOSER_CACHE_DIR=${COMPOSER_CACHE_DIR} composer require --ignore-platform-reqs --no-interaction "shopware/core:${SHOPWARE_CORE_VERSION}"
+    && COMPOSER_CACHE_DIR=${COMPOSER_CACHE_DIR} composer require --ignore-platform-reqs --no-interaction "haokeyingxiao/core:${SHOPWARE_CORE_VERSION}"
 
 ADD --chown=www-data:www-data context.tar.gz /app/custom/platform
 

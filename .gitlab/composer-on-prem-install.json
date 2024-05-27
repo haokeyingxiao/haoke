@@ -5,7 +5,7 @@
   "require": {
     "composer-runtime-api": "^2.0",
     "shopware/administration": "*",
-    "shopware/core": "*",
+    "haokeyingxiao/core": "*",
     "shopware/elasticsearch": "*",
     "shopware/storefront": "*",
     "shopware/dev-tools": "*",

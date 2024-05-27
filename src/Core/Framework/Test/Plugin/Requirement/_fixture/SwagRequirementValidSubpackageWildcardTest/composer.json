@@ -12,7 +12,7 @@
     ],
     "require": {
         "ext-json": "*",
-        "shopware/core": "*"
+        "haokeyingxiao/core": "*"
     },
     "extra": {
         "shopware-plugin-class": "SwagRequirementValidSubpackageWildcardTest\\SwagRequirementValidSubpackageWildcardTest",

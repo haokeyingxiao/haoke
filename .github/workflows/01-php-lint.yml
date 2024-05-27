@@ -77,6 +77,6 @@ jobs:
       - name: BC Checker
         run: |
           set -e
-          git remote add bc-checker-upstream https://github.com/shopware/platform.git
+          git remote add bc-checker-upstream https://github.com/haokeyingxiao/platform.git
           git fetch bc-checker-upstream
           composer run bc-check

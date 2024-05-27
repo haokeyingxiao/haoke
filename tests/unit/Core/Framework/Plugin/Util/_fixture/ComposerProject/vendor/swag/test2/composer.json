@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "shopware/platform": "6.4.*@dev"
+        "haokeyingxiao/platform": "6.4.*@dev"
     },
     "extra": {
         "shopware-plugin-class": "Swag\\Test2",

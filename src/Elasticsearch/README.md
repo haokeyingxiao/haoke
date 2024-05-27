@@ -1,7 +1,7 @@
 Elasticsearch Component
 ==============
 
-The Elasticsearch component is the elasticsearch adapter for the shopware/core.
+The Elasticsearch component is the elasticsearch adapter for the haokeyingxiao/core.
 It contains the indexing of entities and an adapter for the entity search.
 
 This repository is considered **read-only**. Please send pull requests

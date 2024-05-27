@@ -23,8 +23,8 @@ use Symfony\Component\HttpKernel\KernelEvents;
 class ExpectationSubscriber implements EventSubscriberInterface
 {
     private const SHOPWARE_CORE_PACKAGES = [
-        'shopware/platform',
-        'shopware/core',
+        'haokeyingxiao/platform',
+        'haokeyingxiao/core',
         'shopware/administration',
         'shopware/elasticsearch',
         'shopware/storefront',

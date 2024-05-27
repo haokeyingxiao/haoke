@@ -34,14 +34,14 @@ LOCK_DSN=flock
 # MAILER_DSN=null://null
 ###< symfony/mailer ###
 
-###> shopware/core ###
+###> haokeyingxiao/core ###
 APP_ENV=prod
 APP_URL=http://127.0.0.1:8000
 APP_SECRET=SECRET_PLACEHOLDER
 INSTANCE_ID=INSTANCEID_PLACEHOLDER
 BLUE_GREEN_DEPLOYMENT=0
 DATABASE_URL=mysql://root:root@localhost/shopware
-###< shopware/core ###
+###< haokeyingxiao/core ###
 
 ###> shopware/elasticsearch ###
 OPENSEARCH_URL=http://localhost:9200

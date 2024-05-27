@@ -22,4 +22,4 @@ elasticsearch:
       some_date_field: datetime
 ```
 
-See [\Shopware\Core\System\CustomField\CustomFieldTypes](https://github.com/shopware/platform/blob/0ca57ddee85e9ab00d1a15a44ddc8ff16c3bc37b/src/Core/System/CustomField/CustomFieldTypes.php#L7-L19) for the complete list of possible options
+See [\Shopware\Core\System\CustomField\CustomFieldTypes](https://github.com/haokeyingxiao/platform/blob/0ca57ddee85e9ab00d1a15a44ddc8ff16c3bc37b/src/Core/System/CustomField/CustomFieldTypes.php#L7-L19) for the complete list of possible options

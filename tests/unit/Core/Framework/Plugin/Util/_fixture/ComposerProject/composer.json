@@ -11,6 +11,6 @@
         }
     ],
     "require": {
-        "shopware/platform": "6.4.*@dev"
+        "haokeyingxiao/platform": "6.4.*@dev"
     }
 }

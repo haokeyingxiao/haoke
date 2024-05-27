@@ -83,7 +83,7 @@
         </service>
 
         <service id="shopware.jwt_signer" class="Lcobucci\JWT\Signer\Rsa\Sha256">
-            <deprecated package="shopware/core" version="6.7.0">tag:v6.7.0 - The %service_id% service will be removed in v6.7.0.0 without replacement</deprecated>
+            <deprecated package="haokeyingxiao/core" version="6.7.0">tag:v6.7.0 - The %service_id% service will be removed in v6.7.0.0 without replacement</deprecated>
         </service>
 
         <service id="Shopware\Core\Checkout\Payment\Cart\Token\JWTFactoryV2">

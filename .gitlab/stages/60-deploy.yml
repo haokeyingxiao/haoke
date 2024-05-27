@@ -84,7 +84,7 @@ push split repositories (gitlab):
       composer require \
         "shopware/administration:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
         "shopware/storefront:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
-        "shopware/core:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
+        "haokeyingxiao/core:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
         "shopware/elasticsearch:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev"
       ```
   script:
@@ -109,11 +109,11 @@ deploy to cloud staging:
     - if: '$CI_COMMIT_BRANCH =~ /^6\.*/ && ($CI_PIPELINE_SOURCE == "schedule" || $CI_MERGE_REQUEST_LABELS =~ /.*run_scheduled*/)'
       variables:
         VERSION_ORIGIN_REF: ""
-        CUSTOM_VERSION: "shopware/platform:${CI_COMMIT_BRANCH}-dev as 6.6.x-dev;swag/saas-rufus:dev-trunk;shopware/commercial:dev-trunk;"
+        CUSTOM_VERSION: "haokeyingxiao/platform:${CI_COMMIT_BRANCH}-dev as 6.6.x-dev;swag/saas-rufus:dev-trunk;shopware/commercial:dev-trunk;"
     - !reference [.rules, scheduled]
   variables:
     VERSION_ORIGIN_REF: "$CI_MERGE_REQUEST_PROJECT_PATH!$CI_MERGE_REQUEST_IID"
-    CUSTOM_VERSION: "shopware/platform:dev-${CI_COMMIT_BRANCH}${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME} as 6.6.x-dev;swag/saas-rufus:dev-trunk;shopware/commercial:dev-trunk;"
+    CUSTOM_VERSION: "haokeyingxiao/platform:dev-${CI_COMMIT_BRANCH}${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME} as 6.6.x-dev;swag/saas-rufus:dev-trunk;shopware/commercial:dev-trunk;"
     CI_FAST_DOWNSTREAM: 1
     CI_SKIP_INSTANCE_CREATING: 1
   inherit:

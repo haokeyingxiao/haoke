@@ -68,7 +68,7 @@ abstract class AbstractRuleLoader
 
     abstract public function load(Context $context): RuleCollection;
 
-    // introduced with shopware/platform v6.6
+    // introduced with haokeyingxiao/platform v6.6
     public function create(Context $context): RuleCollection 
     {
         return $this->getDecorated()->create($context);

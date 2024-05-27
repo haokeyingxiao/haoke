@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "shopware/platform": "^v6.6.2.0"
+        "haokeyingxiao/platform": "^v6.6.2.0"
     },
     "autoload": {
         "psr-4": {

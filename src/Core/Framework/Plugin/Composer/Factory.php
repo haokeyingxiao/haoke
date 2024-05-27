@@ -26,7 +26,7 @@ class Factory
         $previousRootVersion = EnvironmentHelper::hasVariable('COMPOSER_ROOT_VERSION') ? EnvironmentHelper::getVariable('COMPOSER_ROOT_VERSION') : null;
 
         // This is a workaround to make sure that the shopware platform package has the correct version
-        if (($json['name'] ?? '') === 'shopware/platform' && !isset($json['version']) && !EnvironmentHelper::hasVariable('COMPOSER_ROOT_VERSION')) {
+        if (($json['name'] ?? '') === 'haokeyingxiao/platform' && !isset($json['version']) && !EnvironmentHelper::hasVariable('COMPOSER_ROOT_VERSION')) {
             $_SERVER['COMPOSER_ROOT_VERSION'] = Kernel::SHOPWARE_FALLBACK_VERSION;
         }
 

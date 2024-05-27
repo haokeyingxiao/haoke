@@ -1,6 +1,6 @@
 ---
 title: Changed system config memoization to use separate service.
-issue: https://github.com/shopware/platform/issues/2319
+issue: https://github.com/haokeyingxiao/platform/issues/2319
 author: Andreas Allacher
 author_email: andreas.allacher@massiveart.com
 author_github: @AndreasA

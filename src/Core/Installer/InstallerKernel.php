@@ -34,12 +34,12 @@ class InstallerKernel extends HttpKernel
         parent::__construct($environment, $debug);
 
         // @codeCoverageIgnoreStart - not testable, as static calls cannot be mocked
-        if (InstalledVersions::isInstalled('shopware/platform')) {
-            $version = InstalledVersions::getVersion('shopware/platform')
-                . '@' . InstalledVersions::getReference('shopware/platform');
+        if (InstalledVersions::isInstalled('haokeyingxiao/platform')) {
+            $version = InstalledVersions::getVersion('haokeyingxiao/platform')
+                . '@' . InstalledVersions::getReference('haokeyingxiao/platform');
         } else {
-            $version = InstalledVersions::getVersion('shopware/core')
-                . '@' . InstalledVersions::getReference('shopware/core');
+            $version = InstalledVersions::getVersion('haokeyingxiao/core')
+                . '@' . InstalledVersions::getReference('haokeyingxiao/core');
         }
         // @codeCoverageIgnoreEnd
 

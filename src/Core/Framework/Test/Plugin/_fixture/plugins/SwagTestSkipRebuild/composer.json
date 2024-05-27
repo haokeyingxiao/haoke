@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "shopware/core": ">=6.0"
+        "haokeyingxiao/core": ">=6.0"
     },
     "extra": {
         "shopware-plugin-class": "SwagTestSkipRebuild\\SwagTestSkipRebuild",

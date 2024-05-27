@@ -316,9 +316,9 @@ fetched from the session.
 ## `name` attribute of `ProductFeatureSetTranslationDefinition` will be non-nullable
 
 With [NEXT-11000](https://issues.haokeyingxiao.com/issues/NEXT-11000), the `name` attribute in
-[ProductFeatureSetTranslationDefinition](https://github.com/shopware/platform/blob/master/src/Core/Content/Product/Aggregate/ProductFeatureSetTranslation/ProductFeatureSetTranslationDefinition.php)
+[ProductFeatureSetTranslationDefinition](https://github.com/haokeyingxiao/platform/blob/master/src/Core/Content/Product/Aggregate/ProductFeatureSetTranslation/ProductFeatureSetTranslationDefinition.php)
 was marked non-nullable. This change is also implemented on database-level with
-[Migration1601388975RequireFeatureSetName.php](https://github.com/shopware/platform/blob/master/src/Core/Migration/Migration1601388975RequireFeatureSetName.php).
+[Migration1601388975RequireFeatureSetName.php](https://github.com/haokeyingxiao/platform/blob/master/src/Core/Migration/Migration1601388975RequireFeatureSetName.php).
 For blue-green deployment compatibility, the now non-nullable field will have an empty string as default value.
 The upcoming **6.4.0.0** release will contain major **breaking changes** to the payment and shipping method selection templates in the storefront.
 The modal to select payment or shipping methods was removed entirely.

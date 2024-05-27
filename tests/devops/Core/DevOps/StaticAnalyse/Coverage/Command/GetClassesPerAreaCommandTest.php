@@ -44,7 +44,7 @@ class GetClassesPerAreaCommandTest extends TestCase
     {
         $projectDir = $_SERVER['PROJECT_ROOT'];
 
-        if (!file_exists($projectDir . '/vendor/shopware/core') || !file_exists($projectDir . '/vendor/shopware/platform')) {
+        if (!file_exists($projectDir . '/vendor/haokeyingxiao/core') || !file_exists($projectDir . '/vendor/haokeyingxiao/platform')) {
             static::markTestSkipped('This test expects shopware installed over composer and does not work with the git setup');
         }
     }

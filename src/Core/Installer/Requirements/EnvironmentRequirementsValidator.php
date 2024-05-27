@@ -23,9 +23,9 @@ class EnvironmentRequirementsValidator implements RequirementsValidatorInterface
 
     public function validateRequirements(RequirementsCheckCollection $checks): RequirementsCheckCollection
     {
-        $platform = $this->composer->getRepositoryManager()->getLocalRepository()->findPackage('shopware/platform', '*');
+        $platform = $this->composer->getRepositoryManager()->getLocalRepository()->findPackage('haokeyingxiao/platform', '*');
         if (!$platform) {
-            $platform = $this->composer->getRepositoryManager()->getLocalRepository()->findPackage('shopware/core', '*');
+            $platform = $this->composer->getRepositoryManager()->getLocalRepository()->findPackage('haokeyingxiao/core', '*');
         }
         if (!$platform) {
             $platform = $this->composer->getPackage();

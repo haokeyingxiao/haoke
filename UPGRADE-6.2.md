@@ -266,13 +266,13 @@ Storefront
 
         Before
         ```
-        @import "../../../../vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/base.scss";
+        @import "../../../../vendor/haokeyingxiao/platform/src/Storefront/Resources/app/storefront/src/scss/base.scss";
         ```
 
         After
         ```
-        @import "../../../../vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/base.scss";
-        @import "../../../../vendor/shopware/platform/src/Storefront/Resources/app/storefront/src/scss/skin/shopware/base";
+        @import "../../../../vendor/haokeyingxiao/platform/src/Storefront/Resources/app/storefront/src/scss/base.scss";
+        @import "../../../../vendor/haokeyingxiao/platform/src/Storefront/Resources/app/storefront/src/scss/skin/shopware/base";
 * We changed the storefront ESLint rule `comma-dangle` to `never`, so that trailing commas won't be forcefully added anymore
 * The theme manager supports now tabs. Usage: 
 ```json

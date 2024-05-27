@@ -13,7 +13,7 @@
         }
       ],
       "require": {
-        "shopware/platform": "6.4.*@dev"
+        "haokeyingxiao/platform": "6.4.*@dev"
       },
       "install-path": "../swag/composer-installed-plugin",
       "extra": {
@@ -37,7 +37,7 @@
         }
       ],
       "require": {
-        "shopware/platform": "6.4.*@dev"
+        "haokeyingxiao/platform": "6.4.*@dev"
       },
       "install-path": "../swag/composer-installed-plugin",
       "extra": {

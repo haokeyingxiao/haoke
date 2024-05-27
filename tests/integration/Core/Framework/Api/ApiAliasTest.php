@@ -27,7 +27,7 @@ class ApiAliasTest extends TestCase
         $classes = array_keys($classLoader->getClassMap());
 
         if (!\array_key_exists(Kernel::class, $classes)) {
-            static::markTestSkipped('This test does not work if the root package is shopware/platform');
+            static::markTestSkipped('This test does not work if the root package is haokeyingxiao/platform');
         }
 
         $entities = self::getContainer()->get(DefinitionInstanceRegistry::class)

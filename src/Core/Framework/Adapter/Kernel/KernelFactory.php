@@ -40,12 +40,12 @@ class KernelFactory
         ?KernelPluginLoader $pluginLoader = null,
         ?Connection $connection = null
     ): HttpKernelInterface {
-        if (InstalledVersions::isInstalled('shopware/platform')) {
-            $shopwareVersion = InstalledVersions::getVersion('shopware/platform')
-                . '@' . InstalledVersions::getReference('shopware/platform');
+        if (InstalledVersions::isInstalled('haokeyingxiao/platform')) {
+            $shopwareVersion = InstalledVersions::getVersion('haokeyingxiao/platform')
+                . '@' . InstalledVersions::getReference('haokeyingxiao/platform');
         } else {
-            $shopwareVersion = InstalledVersions::getVersion('shopware/core')
-                . '@' . InstalledVersions::getReference('shopware/core');
+            $shopwareVersion = InstalledVersions::getVersion('haokeyingxiao/core')
+                . '@' . InstalledVersions::getReference('haokeyingxiao/core');
         }
 
         $middlewares = [];

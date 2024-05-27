@@ -812,7 +812,7 @@ This fix will only prevent future duplicates. In order to remove already existin
 9. Now you should be able to delete these duplicates in the administration media section in the folder `Theme Media`
 10. Now do a `composer theme:refresh`
 
-This comment on github could also be helpful: [github how to clean theme media](https://github.com/shopware/platform/discussions/3254#discussioncomment-6666360)
+This comment on github could also be helpful: [github how to clean theme media](https://github.com/haokeyingxiao/platform/discussions/3254#discussioncomment-6666360)
 The images should not be doubled again.
 
 
@@ -2274,4 +2274,4 @@ In the new schema we remove two deprecations from the existing schema.
    Make sure to remove the attribute `openNewTab` from your `action-button` elements in your `manifest.xml` and use ActionButtonResponses as described in our [documentation](https://developer.haokeyingxiao.com/docs/guides/plugins/apps/administration/add-custom-action-button) instead.
 3. Deprecation of `manifest-1.0.xsd`
 
-   Update the `xsi:noNamespaceSchemaLocation` attribute of your `manifest` root element to `https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-2.0.xsd`
+   Update the `xsi:noNamespaceSchemaLocation` attribute of your `manifest` root element to `https://raw.githubusercontent.com/haokeyingxiao/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-2.0.xsd`

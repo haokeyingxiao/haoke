@@ -16,7 +16,7 @@ class FactoryTest extends TestCase
     {
         $composer = Factory::createComposer(__DIR__ . '/../_fixtures/core');
 
-        static::assertSame('shopware/platform', $composer->getPackage()->getName());
+        static::assertSame('haokeyingxiao/platform', $composer->getPackage()->getName());
         static::assertSame('6.6.9999999.9999999-dev', $composer->getPackage()->getVersion());
     }
 
@@ -25,7 +25,7 @@ class FactoryTest extends TestCase
         $_SERVER['COMPOSER_ROOT_VERSION'] = '6.4.9999999.9999999-dev';
         $composer = Factory::createComposer(__DIR__ . '/../_fixtures/core');
 
-        static::assertSame('shopware/platform', $composer->getPackage()->getName());
+        static::assertSame('haokeyingxiao/platform', $composer->getPackage()->getName());
         static::assertSame('6.4.9999999.9999999-dev', $composer->getPackage()->getVersion());
 
         unset($_SERVER['COMPOSER_ROOT_VERSION']);

@@ -160,10 +160,10 @@ class AnnotationTagTest extends TestCase
         $envVersion = $_SERVER['VERSION'] ?? $_SERVER['TAG'] ?? '';
         if (\is_string($envVersion) && $envVersion !== '') {
             $shopwareVersion = $envVersion;
-        } elseif (InstalledVersions::isInstalled('shopware/platform')) {
-            $shopwareVersion = InstalledVersions::getVersion('shopware/platform');
+        } elseif (InstalledVersions::isInstalled('haokeyingxiao/platform')) {
+            $shopwareVersion = InstalledVersions::getVersion('haokeyingxiao/platform');
         } else {
-            $shopwareVersion = InstalledVersions::getVersion('shopware/core');
+            $shopwareVersion = InstalledVersions::getVersion('haokeyingxiao/core');
         }
         $shopwareVersion = ltrim((string) $shopwareVersion, 'v ');
 

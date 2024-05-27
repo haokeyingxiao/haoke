@@ -35,7 +35,7 @@ custom_version_core() {
   local branch="$(deployment_branch_name)"
   local major_alias="$(current_major_alias)"
 
-  printf "shopware/platform:dev-%s as %s;shopware/commercial:dev-%s;swag/saas-rufus:dev-%s" "${branch}" "${major_alias}" "${branch}" "${branch}"
+  printf "haokeyingxiao/platform:dev-%s as %s;shopware/commercial:dev-%s;swag/saas-rufus:dev-%s" "${branch}" "${major_alias}" "${branch}" "${branch}"
 }
 
 # custom_version_extensions returns the custom version for the extension
@@ -87,7 +87,7 @@ Please review the changes and merge this MR if you are satisfied with the deploy
 <p>
 For the core dependencies, the dates of the latest commits on the branches are as follows, please make sure that all pipelines are green! 👀
 <ul>
-<li><span>shopware/platform: <b>$(commit_date "shopware%2F6%2Fproduct%2Fplatform" "${deployment_branch_name_url_encoded}")</b>(Pipeline: $(get_latest_pipeline_web_url "shopware%2F6%2Fproduct%2Fplatform" "${deployment_branch_name_url_encoded}"))</span></li>
+<li><span>haokeyingxiao/platform: <b>$(commit_date "shopware%2F6%2Fproduct%2Fplatform" "${deployment_branch_name_url_encoded}")</b>(Pipeline: $(get_latest_pipeline_web_url "shopware%2F6%2Fproduct%2Fplatform" "${deployment_branch_name_url_encoded}"))</span></li>
 <li><span>shopware/commercial: <b>$(commit_date "shopware%2F6%2Fproduct%2Fcommercial" "${deployment_branch_name_url_encoded}")</b>(Pipeline: $(get_latest_pipeline_web_url "shopware%2F6%2Fproduct%2Fcommercial" "${deployment_branch_name_url_encoded}"))</span></li>
 <li><span>swag/saas-rufus: <b>$(commit_date "shopware%2F6%2Fproduct%2Frufus" "${deployment_branch_name_url_encoded}")</b>(Pipeline: $(get_latest_pipeline_web_url "shopware%2F6%2Fproduct%2Frufus" "${deployment_branch_name_url_encoded}"))</span></li>
 </ul>

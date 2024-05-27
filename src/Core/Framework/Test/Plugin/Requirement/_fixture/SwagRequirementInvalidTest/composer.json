@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "shopware/platform": "^12.34",
+        "haokeyingxiao/platform": "^12.34",
         "test/not-installed": "~2"
     },
     "extra": {
