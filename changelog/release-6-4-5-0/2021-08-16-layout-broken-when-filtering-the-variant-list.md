@@ -2,7 +2,7 @@
 title: Layout broken when filtering the variant list
 issue: NEXT-16695
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

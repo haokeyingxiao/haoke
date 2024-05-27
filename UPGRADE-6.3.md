@@ -315,7 +315,7 @@ by calling loginService.verifyUserToken(userPassword) and provide the current us
 fetched from the session.
 ## `name` attribute of `ProductFeatureSetTranslationDefinition` will be non-nullable
 
-With [NEXT-11000](https://issues.shopware.com/issues/NEXT-11000), the `name` attribute in
+With [NEXT-11000](https://issues.haokeyingxiao.com/issues/NEXT-11000), the `name` attribute in
 [ProductFeatureSetTranslationDefinition](https://github.com/shopware/platform/blob/master/src/Core/Content/Product/Aggregate/ProductFeatureSetTranslation/ProductFeatureSetTranslationDefinition.php)
 was marked non-nullable. This change is also implemented on database-level with
 [Migration1601388975RequireFeatureSetName.php](https://github.com/shopware/platform/blob/master/src/Core/Migration/Migration1601388975RequireFeatureSetName.php).
@@ -729,7 +729,7 @@ Refactorings
 ## Flysystem adapters
 With 6.3 we have refactored the url handling of including resources like images, js, css etc. We have also created three new adapters: `asset` (plugin public files), `theme` (theme resources) and `sitemap`.
 For comparability reason they inherit from the `public` filesytem. So after the update all new filesystem are using the config from public filesystem.
-[See the updated documentation to how to configure all filesystems.](https://docs.shopware.com/en/shopware-platform-dev-en/how-to/use-s3-datastorage)
+[See the updated documentation to how to configure all filesystems.](https://docs.haokeyingxiao.com/en/shopware-platform-dev-en/how-to/use-s3-datastorage)
 All file system configuration have now an `url` config option, this url will be used for url generation to the files.
 
 ## Usage of the Symfony asset

@@ -15,7 +15,7 @@
         <privacy>https://test.com/privacy</privacy>
     </meta>
     <allowed-hosts>
-        <host>shopware.com</host>
+        <host>haokeyingxiao.com</host>
         <host>example.com</host>
     </allowed-hosts>
 </manifest>

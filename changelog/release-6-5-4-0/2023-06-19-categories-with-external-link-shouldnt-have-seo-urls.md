@@ -2,7 +2,7 @@
 title: Categories with external link shouldnt have SEO urls
 issue: NEXT-10719
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Storefront

@@ -32,7 +32,7 @@ shopware.installer:
     language-selection_select_language: 'Lingua dell’assistente di installazione'
     language-selection_header: 'La tua installazione Shopware'
     language-selection_info_message: 'Questa selezione si riferisce solo alla lingua dell’assistente di installazione. La lingua standard del sistema del tuo shop può essere definita in un secondo momento.'
-    language-selection_welcome_message: 'Siamo contenti di accoglierti nella nostra grandiosa Shopware Community mondiale! Ti accompagneremo passo passo lungo il processo di installazione. Per eventuali domande, ti preghiamo di consultare prima il nostro <a class="is--nowrap" href="https://forum.shopware.com" target="_blank">forum</a>, di contattarci telefonicamente allo <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a> o di inviarci una <a class="is--nowrap" href="mailto:info@shopware.com">mail</a>.'
+    language-selection_welcome_message: 'Siamo contenti di accoglierti nella nostra grandiosa Shopware Community mondiale! Ti accompagneremo passo passo lungo il processo di installazione. Per eventuali domande, ti preghiamo di consultare prima il nostro <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">forum</a>, di contattarci telefonicamente allo <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a> o di inviarci una <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">mail</a>.'
     requirements_header: 'Requisiti di sistema'
     requirements_header_files: 'File e directory'
     requirements_header_system: Sistema
@@ -88,9 +88,9 @@ shopware.installer:
     migration_counter_text_snippets: 'Aggiornamento moduli di testo in corso'
     migration_update_success: 'Import database riuscito!'
     edition_header: 'Hai già una licenza Shopware?'
-    edition_info: 'Shopware è disponibile nella <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition </a> gratuita e nelle <a href="https://de.shopware.com/versionen/" target="_blank">edizioni Professional ed Enterprise</a> a pagamento.'
-    edition_ce: 'No, desidero utilizzare la <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition</a> gratuita.'
-    edition_cm: 'Sì, ho una licenza Shopware a pagamento (<a href="https://de.shopware.com/versionen/" target="_blank">Professional o Enterprise</a>).'
+    edition_info: 'Shopware è disponibile nella <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition </a> gratuita e nelle <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">edizioni Professional ed Enterprise</a> a pagamento.'
+    edition_ce: 'No, desidero utilizzare la <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition</a> gratuita.'
+    edition_cm: 'Sì, ho una licenza Shopware a pagamento (<a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional o Enterprise</a>).'
     edition_license: 'Inserisci qui la tua chiave di licenza. La trovi nel tuo account Shopware sotto “Licenze" → “Licenze dei prodotti" → “Dettagli / Download":'
     edition_license_error: 'Per l’installazione di una versione di Shopware a pagamento, è necessaria una licenza valida.'
     configuration_header: Configurazione
@@ -136,7 +136,7 @@ shopware.installer:
         <p>
             siamo lieti di accoglierti nella nostra Community. Hai installato Shopware correttamente!
         <p>
-            Il tuo shop è ora pronto per l’utilizzo. Se non conosci ancora bene Shopware, ti suggeriamo di consultare la guida <a href=\"https://docs.shopware.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">“Primi passi in Shopware\"</a>. Se è la prima volta che ti colleghi a Gestione, il nostro First Run Wizard ti accompagnerà lungo la creazione del tuo shop.
+            Il tuo shop è ora pronto per l’utilizzo. Se non conosci ancora bene Shopware, ti suggeriamo di consultare la guida <a href=\"https://docs.haokeyingxiao.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">“Primi passi in Shopware\"</a>. Se è la prima volta che ti colleghi a Gestione, il nostro First Run Wizard ti accompagnerà lungo la creazione del tuo shop.
         </p>
         <p>
             Ti auguriamo buon divertimento e tanto successo con il tuo shop online!

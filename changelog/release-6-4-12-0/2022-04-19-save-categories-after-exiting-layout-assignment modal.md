@@ -2,7 +2,7 @@
 title: Save categories after exiting layout-assignment modal
 issue: NEXT-20283
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

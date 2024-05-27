@@ -2,7 +2,7 @@
 title: Remove deprecated blocks for read and write authorisation from user access key management
 issue: NEXT-10826
 author: Philip Gatzka
-author_email: p.gatzka@shopware.com 
+author_email: p.gatzka@haokeyingxiao.com 
 author_github: @philipgatzka
 ---
 # Administration

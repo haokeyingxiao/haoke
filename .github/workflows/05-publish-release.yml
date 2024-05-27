@@ -30,7 +30,7 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         - name: AWS Deploy
-          run: aws s3 sync generated s3://releases.s3.shopware.com/changelog
+          run: aws s3 sync generated s3://releases.s3.haokeyingxiao.com/changelog
           env:
             AWS_ACCESS_KEY_ID: ${{ secrets.RELEASE_INFO_KEY }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.RELEASE_INFO_SECRET }}
@@ -118,7 +118,7 @@ jobs:
             -H "Content-Type: application/json" \
             https://api.github.com/repos/shopwareLabs/testenv-platform/actions/workflows/shopware.yml/dispatches \
             -d '{"ref": "trunk"}'
-  
+
   publish-sbp-release:
     if: github.repository == 'shopware/shopware'
     strategy:

@@ -122,7 +122,7 @@ class MailServiceTest extends TestCase
         $data = [
             'recipients' => [],
             'senderName' => 'me',
-            'senderEmail' => 'me@shopware.com',
+            'senderEmail' => 'me@haokeyingxiao.com',
             'subject' => 'Test email',
             'contentPlain' => 'Content plain',
             'contentHtml' => 'Content html',
@@ -132,7 +132,7 @@ class MailServiceTest extends TestCase
         $email = (new Email())->subject($data['subject'])
             ->html($data['contentHtml'])
             ->text($data['contentPlain'])
-            ->to('me@shopware.com')
+            ->to('me@haokeyingxiao.com')
             ->from(new Address($data['senderEmail']));
 
         $this->mailFactory->expects(static::once())->method('create')->willReturn($email);
@@ -169,7 +169,7 @@ class MailServiceTest extends TestCase
         $data = [
             'recipients' => [],
             'senderName' => 'me',
-            'senderEmail' => 'me@shopware.com',
+            'senderEmail' => 'me@haokeyingxiao.com',
             'subject' => 'Test email',
             'contentPlain' => 'Content plain',
             'contentHtml' => 'Content html',
@@ -242,7 +242,7 @@ class MailServiceTest extends TestCase
         $data = [
             'recipients' => [],
             'subject' => 'Test email',
-            'senderName' => 'me@shopware.com',
+            'senderName' => 'me@haokeyingxiao.com',
             'contentPlain' => 'Content plain',
             'contentHtml' => 'Content html',
             'salesChannelId' => $salesChannelId,
@@ -259,8 +259,8 @@ class MailServiceTest extends TestCase
         $email = (new Email())->subject($data['subject'])
             ->html($data['contentHtml'])
             ->text($data['contentPlain'])
-            ->to('test@shopware.com')
-            ->from(new Address('test@shopware.com'));
+            ->to('test@haokeyingxiao.com')
+            ->from(new Address('test@haokeyingxiao.com'));
 
         $this->mailFactory->expects(static::once())->method('create')->willReturn($email);
 

@@ -2,7 +2,7 @@
 title: Fixed the display of max purchase quantity with purchase steps greater than one
 issue: NEXT-14493
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com 
+author_email: l.tinkloh@haokeyingxiao.com 
 author_github: @lernhart
 ---
 # Core

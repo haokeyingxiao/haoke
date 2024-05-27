@@ -32,7 +32,7 @@ shopware.installer:
     language-selection_select_language: 'Jazyk průvodce instalací'
     language-selection_header: 'Vaše instalace softwaru Shopware'
     language-selection_info_message: 'Tato volba se vztahuje jen na jazyk průvodce instalací. Systémový standardní jazyk svého obchodu můžete ještě definovat později.'
-    language-selection_welcome_message: 'Těší nás, že chcete být součástí naší celosvětové komunity Shopware! Nyní vás provedeme krok za krokem procesem instalace. Pokud budete mít otázky, podívejte se nejdříve na naše <a class="is--nowrap" href="https://forum.shopware.com" target="_blank">Fórum</a>, kontaktujte nás telefonicky na čísle <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a> nebo nám napište <a class="is--nowrap" href="mailto:info@shopware.com">e-mail</a>.'
+    language-selection_welcome_message: 'Těší nás, že chcete být součástí naší celosvětové komunity Shopware! Nyní vás provedeme krok za krokem procesem instalace. Pokud budete mít otázky, podívejte se nejdříve na naše <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">Fórum</a>, kontaktujte nás telefonicky na čísle <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a> nebo nám napište <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">e-mail</a>.'
     requirements_header: 'Systémové předpoklady'
     requirements_header_files: 'Soubory a adresáře'
     requirements_header_system: Systém
@@ -88,9 +88,9 @@ shopware.installer:
     migration_counter_text_snippets: 'Aktualizují se textové bloky'
     migration_update_success: 'Databáze úspěšně importována!'
     edition_header: 'Máte již licenci softwaru Shopware?'
-    edition_info: 'Shopware existuje v bezplatném vydání <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition </a> a také v hrazených verzích <a href="https://de.shopware.com/versionen/" target="_blank">Professional a Enterprise</a>.'
-    edition_ce: 'Ne, chci používat bezplatnou verzi <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition</a>.'
-    edition_cm: 'Ano, mám hrazenou licenci softwaru Shopware (<a href="https://de.shopware.com/versionen/" target="_blank">Professional nebo Enterprise</a>).'
+    edition_info: 'Shopware existuje v bezplatném vydání <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition </a> a také v hrazených verzích <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional a Enterprise</a>.'
+    edition_ce: 'Ne, chci používat bezplatnou verzi <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition</a>.'
+    edition_cm: 'Ano, mám hrazenou licenci softwaru Shopware (<a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional nebo Enterprise</a>).'
     edition_license: 'Sem zadejte svůj licenční klíč. Ten najdete na svém účtu Shopware v části "Licence" → "Licence produktů" → "Podrobnosti/stažení":'
     edition_license_error: 'Pro instalaci hrazené verze softwaru Shopware je nutná platná licence.'
     configuration_header: Konfigurace
@@ -134,7 +134,7 @@ shopware.installer:
         <p>
             těší nás, že vás můžeme uvítat v naší komunitě. Úspěšně jste instalovali software Shopware.
         <p>
-            Váš obchod je nyní připraven k využívání. Jestliže jste v Shopware ještě nováčci, doporučujeme vám průvodce <a href=\"https://docs.shopware.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">\"První kroky v Shopware\"</a>. Jakmile se poprvé přihlásíte ke správě obchodu, náš průvodce prvním přihlášením vás provede základním nastavením vašeho obchodu.
+            Váš obchod je nyní připraven k využívání. Jestliže jste v Shopware ještě nováčci, doporučujeme vám průvodce <a href=\"https://docs.haokeyingxiao.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">\"První kroky v Shopware\"</a>. Jakmile se poprvé přihlásíte ke správě obchodu, náš průvodce prvním přihlášením vás provede základním nastavením vašeho obchodu.
         </p>
         <p>
             Přejeme hodně zábavy a úspěchů s vaším novým online obchodem!

@@ -2,7 +2,7 @@
 title: Exclude categories of type folder from seo url generation
 issue: NEXT-15026
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Storefront

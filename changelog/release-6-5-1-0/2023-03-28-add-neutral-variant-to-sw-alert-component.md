@@ -2,7 +2,7 @@
 title: Add neutral variant to sw-alert component
 issue: NEXT-25553
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Administration

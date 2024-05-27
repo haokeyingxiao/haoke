@@ -5,7 +5,7 @@
   tags:
     - shopware-multi-arch
   image:
-    name: gitlab.shopware.com:5005/infrastructure/docker-base/ci
+    name: gitlab.haokeyingxiao.com:5005/infrastructure/docker-base/ci
   variables:
     GIT_DEPTH: '0'
     GIT_STRATEGY: 'clone'
@@ -19,9 +19,9 @@
 .finalize:
   extends: .split-base
   variables:
-    GIT_AUTHOR_EMAIL: 'shopwarebot@shopware.com'
+    GIT_AUTHOR_EMAIL: 'shopwarebot@haokeyingxiao.com'
     GIT_AUTHOR_NAME: 'shopwareBot'
-    GIT_COMMITTER_EMAIL: 'shopwarebot@shopware.com'
+    GIT_COMMITTER_EMAIL: 'shopwarebot@haokeyingxiao.com'
     GIT_COMMITTER_NAME: 'shopwareBot'
   needs:
     - job: 'add assets to split repositories'
@@ -52,9 +52,9 @@ add assets to split repositories:
   rules:
     - !reference [ .rules, split, rules-label-or-scheduled-or-tag ]
   variables:
-    GIT_AUTHOR_EMAIL: 'shopwarebot@shopware.com'
+    GIT_AUTHOR_EMAIL: 'shopwarebot@haokeyingxiao.com'
     GIT_AUTHOR_NAME: 'shopwareBot'
-    GIT_COMMITTER_EMAIL: 'shopwarebot@shopware.com'
+    GIT_COMMITTER_EMAIL: 'shopwarebot@haokeyingxiao.com'
     GIT_COMMITTER_NAME: 'shopwareBot'
   script:
     - >

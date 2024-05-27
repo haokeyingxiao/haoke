@@ -3,7 +3,7 @@ title: Layout assignment for category as list
 issue: NEXT-6758
 author: Niklas Limberg
 author_github: NiklasLimberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 ---
 # Administration
 * Added the `sw-sorting-select` to unify the functionally of the sorting in the `sw-cms-layout-modal` and `sw-cms-list`

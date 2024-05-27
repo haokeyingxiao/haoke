@@ -2,7 +2,7 @@
 title: Extension SDK Action Buttons
 issue: NEXT-18123
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

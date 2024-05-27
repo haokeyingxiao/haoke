@@ -2,7 +2,7 @@
 title: Fix line breaks in contact form message email
 issue: NEXT-16924
 author: Malte Janz
-author_email: m.janz@shopware.com 
+author_email: m.janz@haokeyingxiao.com 
 author_github: Malte Janz
 ---
 # Core

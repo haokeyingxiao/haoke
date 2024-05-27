@@ -2,7 +2,7 @@
 title: No ips selectable in allowlist at sales channel
 issue: NEXT-34060
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: Niklas Limberg
 ---
 # Administration

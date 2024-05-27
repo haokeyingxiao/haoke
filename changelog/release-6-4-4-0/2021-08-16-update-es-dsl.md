@@ -2,7 +2,7 @@
 title: Update es dsl
 issue: NEXT-16702
 author: Soner Sayakci
-author_email: s.sayakci@shopware.com
+author_email: s.sayakci@haokeyingxiao.com
 ---
 # Core
 * Changed dependency version of `symfony/polyfill-php80` from version `~1.16.0` to version `~1.23.0`

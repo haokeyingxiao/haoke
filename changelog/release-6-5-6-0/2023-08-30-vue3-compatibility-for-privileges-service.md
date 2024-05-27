@@ -2,7 +2,7 @@
 title: Vue3 compatibility for privileges.service
 issue: NEXT-18182
 author: Sebastian Franze
-author_email: s.franze@shopware.com
+author_email: s.franze@haokeyingxiao.com
 ---
 # Administration
 * Removed occurrences from `Vue.set` and `Vue.observable` from `src/app/service/privileges.service.js`

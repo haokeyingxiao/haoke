@@ -2,7 +2,7 @@
 title: Deprecate campaign components
 issue: NEXT-23655
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Administration

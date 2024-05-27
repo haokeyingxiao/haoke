@@ -2,7 +2,7 @@
 title: Show extension name on config page
 issue: NEXT-19195
 author: Maike Sestendrup
-author_email: m.sestendrup@shopware.com 
+author_email: m.sestendrup@haokeyingxiao.com 
 ---
 # Administration
 * Added `extension` data attribute to `src/module/sw-extension/page/sw-extension-config/index.js`

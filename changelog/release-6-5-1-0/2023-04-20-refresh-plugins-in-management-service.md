@@ -2,7 +2,7 @@
 title: Refresh plugins in management service
 issue: NEXT-26255
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

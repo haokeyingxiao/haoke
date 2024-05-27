@@ -2,7 +2,7 @@
 title: Add ACL for settings modules without CRUD operations
 issue: NEXT-9056
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

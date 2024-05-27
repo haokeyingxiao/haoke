@@ -2,7 +2,7 @@
 title: Deprecate classes that will be private in 6.5.0
 issue: NEXT-23656
 author: Adrian Les
-author_email: a.les@shopware.com
+author_email: a.les@haokeyingxiao.com
 author_github: adrianles
 ---
 # Core

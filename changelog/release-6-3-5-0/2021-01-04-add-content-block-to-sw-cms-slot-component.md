@@ -2,7 +2,7 @@
 title: Add content block to sw-cms-slot component
 issue: NEXT-13056
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ___
 # Administration

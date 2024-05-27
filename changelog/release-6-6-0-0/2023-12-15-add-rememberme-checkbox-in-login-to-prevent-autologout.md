@@ -2,7 +2,7 @@
 title: Add RememberMe checkbox in login to prevent autologout
 issue: NEXT-31593
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

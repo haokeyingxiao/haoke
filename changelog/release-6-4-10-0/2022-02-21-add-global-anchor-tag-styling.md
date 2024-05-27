@@ -2,7 +2,7 @@
 title: Add global anchor tag styling
 issue: NEXT-11979
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

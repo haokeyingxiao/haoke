@@ -2,7 +2,7 @@
 title: Fix browser back behavior on Storefront logged in routes
 issue: NEXT-17938
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com 
+author_email: m.stegmeyer@haokeyingxiao.com 
 ---
 # Storefront
 * Added new annotation `@Shopware\Storefront\Framework\Routing\Annotation\MustRevalidate` to set cache behavior to always reload on browser back

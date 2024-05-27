@@ -2,7 +2,7 @@
 title: Error notification on failed product stream delete
 issue: NEXT-15249
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

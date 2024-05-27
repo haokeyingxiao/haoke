@@ -2,7 +2,7 @@
 title: Add warning state to sw-tabs-item
 issue: NEXT-25231
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Administration

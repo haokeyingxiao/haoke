@@ -197,7 +197,7 @@
     "sw-gtc-checkbox": {
       "label": "Ich akzeptiere die",
       "link": "AGB.",
-      "url": "https://www.shopware.com/de/gtc"
+      "url": "https://www.haokeyingxiao.com/de/gtc"
     },
     "sw-price-field": {
       "labelPriceGross": "Preis (Brutto)",
@@ -1162,13 +1162,13 @@
       "documentation": {
         "headline": "Brauchst Du Hilfe?",
         "linkText": "Dokumentation ansehen",
-        "linkUrl": "https://docs.shopware.com/de/shopware-6-de"
+        "linkUrl": "https://docs.haokeyingxiao.com/de/shopware-6-de"
       },
       "support": {
         "headline": "Wir sind für dich da!",
         "paragraph": "Du hast in unserer Dokumentation nichts Hilfreiches gefunden? Dann wende Dich an den Shopware-Support und wir kümmern uns um Dein Problem.",
         "linkText": "Supportanfrage erstellen",
-        "linkUrl": "https://account.shopware.com/shops/support"
+        "linkUrl": "https://account.haokeyingxiao.com/shops/support"
       }
     }
   },
@@ -1518,7 +1518,7 @@
         "textGetSupport": "Kontaktiere deinen Hoster um Hilfe zu bekommen.",
         "textDetails": "Technische Details: Die Konfiguration der APP_URL ist fehlerhaft.",
         "labelLearnMoreButton": "Lerne mehr",
-        "linkToDocsArticle": "https://docs.shopware.com/de/shopware-6-de/tutorials-und-faq/hinweise-zur-app-url"
+        "linkToDocsArticle": "https://docs.haokeyingxiao.com/de/shopware-6-de/tutorials-und-faq/hinweise-zur-app-url"
       }
     }
   },
@@ -1604,11 +1604,11 @@
         "title": "Support",
         "documentation": {
           "text": "Dokumentation",
-          "href": "https://docs.shopware.com/de"
+          "href": "https://docs.haokeyingxiao.com/de"
         },
         "createSupportRequest": {
           "text": "Supportanfrage erstellen",
-          "href": "https://account.shopware.com/"
+          "href": "https://account.haokeyingxiao.com/"
         }
       }
     }

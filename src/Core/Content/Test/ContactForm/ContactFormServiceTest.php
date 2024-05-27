@@ -44,7 +44,7 @@ class ContactFormServiceTest extends TestCase
         $eventDidRun = false;
         $listenerClosure = function (MailSentEvent $event) use (&$eventDidRun, $phpunit): void {
             $eventDidRun = true;
-            $phpunit->assertStringContainsString('Contact email address: test@shopware.com', $event->getContents()['text/html']);
+            $phpunit->assertStringContainsString('Contact email address: test@haokeyingxiao.com', $event->getContents()['text/html']);
             $phpunit->assertStringContainsString('Lorem ipsum dolor sit amet', $event->getContents()['text/html']);
         };
 
@@ -70,7 +70,7 @@ class ContactFormServiceTest extends TestCase
             'salutationId' => $this->getValidSalutationId(),
             'firstName' => 'Firstname',
             'lastName' => 'Lastname',
-            'email' => 'test@shopware.com',
+            'email' => 'test@haokeyingxiao.com',
             'phone' => '12345/6789',
             'subject' => 'Subject',
             'comment' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
@@ -98,7 +98,7 @@ class ContactFormServiceTest extends TestCase
         $eventDidRun = false;
         $listenerClosure = function (MailSentEvent $event) use (&$eventDidRun, $phpunit): void {
             $eventDidRun = true;
-            $phpunit->assertStringContainsString('Contact email address: test@shopware.com', $event->getContents()['text/html']);
+            $phpunit->assertStringContainsString('Contact email address: test@haokeyingxiao.com', $event->getContents()['text/html']);
             $phpunit->assertStringContainsString('Lorem ipsum dolor sit amet', $event->getContents()['text/html']);
         };
 
@@ -114,7 +114,7 @@ class ContactFormServiceTest extends TestCase
             'salutationId' => $this->getValidSalutationId(),
             'firstName' => '',
             'lastName' => 'Lastname',
-            'email' => 'test@shopware.com',
+            'email' => 'test@haokeyingxiao.com',
             'phone' => '12345/6789',
             'subject' => 'Subject',
             'comment' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
@@ -139,7 +139,7 @@ class ContactFormServiceTest extends TestCase
         $eventDidRun = false;
         $listenerClosure = function (MailSentEvent $event) use (&$eventDidRun, $phpunit): void {
             $eventDidRun = true;
-            $phpunit->assertStringContainsString('Contact email address: test@shopware.com', $event->getContents()['text/html']);
+            $phpunit->assertStringContainsString('Contact email address: test@haokeyingxiao.com', $event->getContents()['text/html']);
             $phpunit->assertStringContainsString('Lorem ipsum dolor sit amet', $event->getContents()['text/html']);
         };
 
@@ -155,7 +155,7 @@ class ContactFormServiceTest extends TestCase
             'salutationId' => $this->getValidSalutationId(),
             'firstName' => 'Firstname',
             'lastName' => '',
-            'email' => 'test@shopware.com',
+            'email' => 'test@haokeyingxiao.com',
             'phone' => '12345/6789',
             'subject' => 'Subject',
             'comment' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
@@ -180,7 +180,7 @@ class ContactFormServiceTest extends TestCase
         $eventDidRun = false;
         $listenerClosure = function (MailSentEvent $event) use (&$eventDidRun, $phpunit): void {
             $eventDidRun = true;
-            $phpunit->assertStringContainsString('Contact email address: test@shopware.com', $event->getContents()['text/html']);
+            $phpunit->assertStringContainsString('Contact email address: test@haokeyingxiao.com', $event->getContents()['text/html']);
             $phpunit->assertStringContainsString('Lorem ipsum dolor sit amet', $event->getContents()['text/html']);
         };
 
@@ -196,7 +196,7 @@ class ContactFormServiceTest extends TestCase
             'salutationId' => $this->getValidSalutationId(),
             'firstName' => 'Firstname',
             'lastName' => 'Lastname',
-            'email' => 'test@shopware.com',
+            'email' => 'test@haokeyingxiao.com',
             'phone' => '',
             'subject' => 'Subject',
             'comment' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
@@ -221,7 +221,7 @@ class ContactFormServiceTest extends TestCase
         $eventDidRun = false;
         $listenerClosure = function (MailSentEvent $event) use (&$eventDidRun, $phpunit): void {
             $eventDidRun = true;
-            $phpunit->assertStringContainsString('Contact email address: test@shopware.com', $event->getContents()['text/html']);
+            $phpunit->assertStringContainsString('Contact email address: test@haokeyingxiao.com', $event->getContents()['text/html']);
             $phpunit->assertStringContainsString('Lorem ipsum dolor sit amet', $event->getContents()['text/html']);
         };
 
@@ -237,7 +237,7 @@ class ContactFormServiceTest extends TestCase
             'salutationId' => $this->getValidSalutationId(),
             'firstName' => '',
             'lastName' => '',
-            'email' => 'test@shopware.com',
+            'email' => 'test@haokeyingxiao.com',
             'phone' => '',
             'subject' => 'Subject',
             'comment' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',

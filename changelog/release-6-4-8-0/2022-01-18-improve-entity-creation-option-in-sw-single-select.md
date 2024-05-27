@@ -2,7 +2,7 @@
 title: Improve entity creation option in sw-single-select
 issue: NEXT-18179
 author: Ramona Schwering
-author_email: r.schwering@shopware.com
+author_email: r.schwering@haokeyingxiao.com
 author_github: leichteckig
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Display rebuild search index search config for non-elasticsearch shop
 issue: NEXT-26649
 author: Tam Dao
-author_email: t.dao@shopware.com
+author_email: t.dao@haokeyingxiao.com
 ---
 # Administration
 * Changed notification method when rebuilding search index successfully in `src/Administration/Resources/app/administration/src/module/sw-settings-search/component/sw-settings-search-search-index/index.js` from `createNotificationInfo` to `createNotificationSuccess`.

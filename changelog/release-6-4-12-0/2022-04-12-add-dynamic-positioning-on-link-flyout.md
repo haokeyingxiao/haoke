@@ -2,7 +2,7 @@
 title: Add dynamic positioning on link flyout
 issue: NEXT-20977
 author: Luka Brlek
-author_email: l.brlek@shopware.com
+author_email: l.brlek@haokeyingxiao.com
 ---
 # Administration
 * Added `--flyoutLinkLeftOffset` for `.sw-text-editor-toolbar-button__children` in `sw-text-editor-toolbar-button.html.twig` to position the link flyout dynamically back inside the viewport.

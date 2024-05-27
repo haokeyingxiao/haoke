@@ -2,7 +2,7 @@
 title: Vue 3 Fix promotions module
 issue: NEXT-29008
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

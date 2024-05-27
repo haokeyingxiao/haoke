@@ -137,7 +137,7 @@ class RequestTransformer implements RequestTransformerInterface
          *
          * same host, different location
          * http://shopware.fr
-         * http://shopware.com
+         * http://haokeyingxiao.com
          * http://shopware.de
          *
          * complete different host and location

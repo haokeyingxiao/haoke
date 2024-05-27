@@ -8,7 +8,7 @@ fi
 # When running in an alpine container, we need to install GNU sed if it's not
 # already available.
 #
-# Can be removed once https://gitlab.shopware.com/infrastructure/docker-base/-/merge_requests/8 is merged.
+# Can be removed once https://gitlab.haokeyingxiao.com/infrastructure/docker-base/-/merge_requests/8 is merged.
 if sed --version | grep 'This is not GNU sed' > /dev/null ; then
   apk add sed
 fi

@@ -2,7 +2,7 @@
 title:              Fixed an issue with dynamic product groups and the category association
 issue:              NEXT-10936
 author:             Patrick Stahl
-author_email:       p.stahl@shopware.com
+author_email:       p.stahl@haokeyingxiao.com
 author_github:      @PaddyS
 ---
 # Administration

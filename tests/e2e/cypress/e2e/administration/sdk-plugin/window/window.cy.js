@@ -49,7 +49,7 @@ describe('SDK Tests: Window', ()=> {
         cy.contains('.sw-button__content', 'Redirect to Shopware')
             .click();
 
-        cy.get('@Open').should('have.been.calledOnceWith', 'https://www.shopware.com');
+        cy.get('@Open').should('have.been.calledOnceWith', 'https://www.haokeyingxiao.com');
     });
 
     it('@sdk: reload page', { tags: ['ct-admin', 'VUE3'] }, ()=> {

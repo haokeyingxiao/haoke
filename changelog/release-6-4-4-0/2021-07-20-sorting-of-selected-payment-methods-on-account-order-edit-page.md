@@ -2,7 +2,7 @@
 title: Sorting of selected payment methods on account order edit page
 issue: NEXT-15940
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com 
+author_email: l.tinkloh@haokeyingxiao.com 
 author_github: @lernhart
 ---
 # Core

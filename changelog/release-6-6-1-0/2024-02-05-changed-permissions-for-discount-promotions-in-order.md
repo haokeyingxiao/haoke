@@ -2,7 +2,7 @@
 title: Changed permissions for discount promotions in order
 issue: NEXT-32365
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Administration

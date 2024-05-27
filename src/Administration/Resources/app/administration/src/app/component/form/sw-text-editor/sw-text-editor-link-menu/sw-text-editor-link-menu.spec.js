@@ -30,10 +30,10 @@ const linkDataProvider = [{
     placeholder: 'sw-text-editor-toolbar.link.placeholderPhoneNumber',
 }, {
     buttonConfig: {
-        value: 'mailto:test@shopware.com',
+        value: 'mailto:test@haokeyingxiao.com',
         type: 'email',
     },
-    value: 'test@shopware.com',
+    value: 'test@haokeyingxiao.com',
     type: 'email',
     prefix: 'mailto:',
     selector: '.sw-field--email input',

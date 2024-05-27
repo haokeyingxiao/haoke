@@ -2,7 +2,7 @@
 title: Rename Product-EAN to GTIN
 issue: NEXT-4376
 author: Simon Vorgers
-author_email: s.vorgers@shopware.com
+author_email: s.vorgers@haokeyingxiao.com
 author_github: SimonVorgers
 ---
 # Administration

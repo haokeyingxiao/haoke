@@ -234,7 +234,7 @@ export default Vue.extend({
                         label: 'Redirect to Shopware',
                         method: () => {
                             window.redirect({
-                                url: 'https://www.shopware.com',
+                                url: 'https://www.haokeyingxiao.com',
                                 newTab: true,
                             })
                         },

@@ -2,7 +2,7 @@
 title: Fix error redirect on account login
 issue: NEXT-26995
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 
 # Core

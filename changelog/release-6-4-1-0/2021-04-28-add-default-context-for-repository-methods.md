@@ -2,7 +2,7 @@
 title: Add default context for repository methods
 issue: NEXT-6492
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

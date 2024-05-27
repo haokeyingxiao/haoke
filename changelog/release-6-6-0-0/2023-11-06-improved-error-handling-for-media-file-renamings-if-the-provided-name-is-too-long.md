@@ -2,7 +2,7 @@
 title: Improved error handling for media file renamings if the provided name is too long
 issue: NEXT-30951
 author: Krzykawski
-author_email: m.krzykawski@shopware.com
+author_email: m.krzykawski@haokeyingxiao.com
 author_github: Krzykawski
 ---
 # Core

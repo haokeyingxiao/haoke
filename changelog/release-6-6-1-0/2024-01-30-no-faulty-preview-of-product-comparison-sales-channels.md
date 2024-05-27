@@ -2,7 +2,7 @@
 title: No faulty preview of product comparison sales channels
 issue: NEXT-31862
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

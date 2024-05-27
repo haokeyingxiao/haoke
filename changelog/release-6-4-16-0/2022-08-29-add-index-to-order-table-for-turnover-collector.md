@@ -2,7 +2,7 @@
 title: Add index to order table for turnover collector
 issue: NEXT-23039
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

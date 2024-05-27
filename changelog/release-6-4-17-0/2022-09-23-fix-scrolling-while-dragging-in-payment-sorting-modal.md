@@ -2,7 +2,7 @@
 title: Fix scrolling while dragging in payment sorting modal
 issue: NEXT-22515
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 author_github: cyl3x
 ---
 # Administration

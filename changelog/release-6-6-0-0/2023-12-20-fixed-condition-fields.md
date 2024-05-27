@@ -2,7 +2,7 @@
 title: Fixed condition fields in rule builder
 issue: NEXT-32736
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Administration

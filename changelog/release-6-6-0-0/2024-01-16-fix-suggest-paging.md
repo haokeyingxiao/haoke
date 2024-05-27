@@ -2,7 +2,7 @@
 title: Fix suggest paging
 issue: NEXT-30573
 author: oskroblin Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

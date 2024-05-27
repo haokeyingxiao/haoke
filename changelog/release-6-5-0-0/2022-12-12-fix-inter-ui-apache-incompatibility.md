@@ -2,7 +2,7 @@
 title: Fix inter-ui apache incompatibility
 issue: NEXT-24341
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

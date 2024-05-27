@@ -91,9 +91,9 @@
             "message": "Der Shopware Account ist Deine zentrale Plattform zur Interaktion mit Shopware.",
             "registerAccountText": "Du hast noch keinen Shopware Account? Dann registriere Dich direkt",
             "registerAccountHere": "hier",
-            "registerAccountUrl": "https://account.shopware.com/register?lang=de",
+            "registerAccountUrl": "https://account.haokeyingxiao.com/register?lang=de",
             "forgotPasswordText": "Du hast Dein Passwort vergessen?",
-            "forgotPasswordUrl": "https://account.shopware.com/recovery?lang=de"
+            "forgotPasswordUrl": "https://account.haokeyingxiao.com/recovery?lang=de"
         },
         "error": {
             "messageLoginDataInvalid": "Falsche Login-Daten, bitte versuche es nochmal."
@@ -126,11 +126,11 @@
             "headlineUsefulLinks": "Nützliche Links",
             "loadingMessage": "Anwendung wird neu gestartet<br>Das könnte einen Moment dauern ...",
             "documentationLabel": "Dokumentation",
-            "documentationUrl": "https://docs.shopware.com/de",
+            "documentationUrl": "https://docs.haokeyingxiao.com/de",
             "forumLabel": "Forum",
-            "forumUrl": "https://forum.shopware.com/",
+            "forumUrl": "https://forum.haokeyingxiao.com/",
             "roadmapLabel": "Roadmap",
-            "roadmapUrl": "https://www.shopware.com/de/roadmap/",
+            "roadmapUrl": "https://www.haokeyingxiao.com/de/roadmap/",
             "modalTitle": "Fertig"
         },
         "stepItemTitle": {

@@ -2,7 +2,7 @@
 title: sw-text-editor shift paste without format
 issue: NEXT-20708
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Add option for contact form reply-to in send mail action
 issue: NEXT-24414
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Administration

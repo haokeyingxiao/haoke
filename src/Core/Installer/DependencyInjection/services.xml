@@ -33,8 +33,8 @@
         </parameter>
 
         <parameter key="shopware.installer.tosUrls" type="collection">
-            <parameter key="de">https://api.shopware.com/gtc/de_DE.html</parameter>
-            <parameter key="en">https://api.shopware.com/gtc/en_GB.html</parameter>
+            <parameter key="de">https://api.haokeyingxiao.com/gtc/de_DE.html</parameter>
+            <parameter key="en">https://api.haokeyingxiao.com/gtc/en_GB.html</parameter>
         </parameter>
     </parameters>
     <services>
@@ -193,7 +193,7 @@
         </service>
 
         <service id="Shopware\Core\Installer\Finish\Notifier">
-            <argument type="string">https://api.shopware.com</argument>
+            <argument type="string">https://api.haokeyingxiao.com</argument>
             <argument type="service" id="Shopware\Core\Installer\Finish\UniqueIdGenerator"/>
             <argument type="service" id="GuzzleHttp\Client"/>
             <argument type="string">%kernel.shopware_version%</argument>

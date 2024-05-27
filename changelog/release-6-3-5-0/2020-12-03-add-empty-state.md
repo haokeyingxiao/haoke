@@ -2,7 +2,7 @@
 title: Add empty-state for proptery search in product-listing element settings
 issue: NEXT-12234
 author: Markus Velt
-author_email: m.velt@shopware.com 
+author_email: m.velt@haokeyingxiao.com 
 author_github: @raknison
 ---
 # Administration

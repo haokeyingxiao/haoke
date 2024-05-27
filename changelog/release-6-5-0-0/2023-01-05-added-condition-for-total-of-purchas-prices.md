@@ -2,7 +2,7 @@
 title: Added condition for total of purchas prices
 issue: NEXT-22593
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

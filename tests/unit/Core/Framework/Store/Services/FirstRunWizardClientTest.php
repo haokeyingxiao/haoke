@@ -45,7 +45,7 @@ class FirstRunWizardClientTest extends TestCase
                 '/swplatform/firstrunwizard/login',
                 [
                     'json' => [
-                        'shopwareId' => 'j.doe@shopware.com',
+                        'shopwareId' => 'j.doe@haokeyingxiao.com',
                         'password' => 'p4ssw0rd',
                     ],
                     'query' => [],
@@ -56,7 +56,7 @@ class FirstRunWizardClientTest extends TestCase
 
         static::assertEquals(
             $firstRunWizardUserToken,
-            $frwClient->frwLogin('j.doe@shopware.com', 'p4ssw0rd', $this->context)
+            $frwClient->frwLogin('j.doe@haokeyingxiao.com', 'p4ssw0rd', $this->context)
         );
     }
 

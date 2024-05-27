@@ -2,7 +2,7 @@
 title: Added rule that matches line item is in a product stream
 issue: NEXT-8057
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

@@ -2,7 +2,7 @@
 title: WYSIWYG Editor Inline toolbar modal closes on click
 issue: NEXT-16763
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

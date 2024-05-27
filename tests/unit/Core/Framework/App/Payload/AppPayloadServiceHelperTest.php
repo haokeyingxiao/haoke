@@ -45,7 +45,7 @@ class AppPayloadServiceHelperTest extends TestCase
             $this->createMock(DefinitionInstanceRegistry::class),
             $this->createMock(JsonEntityEncoder::class),
             $shopIdProvider,
-            'https://shopware.com'
+            'https://haokeyingxiao.com'
         );
 
         $app = new AppEntity();
@@ -53,7 +53,7 @@ class AppPayloadServiceHelperTest extends TestCase
 
         $source = $appPayloadServiceHelper->buildSource($app);
 
-        static::assertSame('https://shopware.com', $source->getUrl());
+        static::assertSame('https://haokeyingxiao.com', $source->getUrl());
         static::assertSame($this->ids->get('shop-id'), $source->getShopId());
         static::assertSame('1.0.0', $source->getAppVersion());
     }
@@ -67,7 +67,7 @@ class AppPayloadServiceHelperTest extends TestCase
             ->willReturn($context);
 
         $cart = new Cart($this->ids->get('cart'));
-        $source = new Source('https://shopware.com', $this->ids->get('shop-id'), '1.0.0');
+        $source = new Source('https://haokeyingxiao.com', $this->ids->get('shop-id'), '1.0.0');
         $payload = new TaxProviderPayload($cart, $salesChannelContext);
         $payload->setSource($source);
 
@@ -84,7 +84,7 @@ class AppPayloadServiceHelperTest extends TestCase
             $definitionInstanceRegistry,
             $entityEncoder,
             $this->createMock(ShopIdProvider::class),
-            'https://shopware.com'
+            'https://haokeyingxiao.com'
         );
 
         $array = $appPayloadServiceHelper->encode($payload);

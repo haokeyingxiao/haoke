@@ -59,7 +59,7 @@ describe('src/module/sw-settings-store/page/sw-settings-store', () => {
             'String with many spaces at the beginning',
         );
 
-        setTrimAndCompare(' https://www.shopware.com/de/ ', 'https://www.shopware.com/de/');
+        setTrimAndCompare(' https://www.haokeyingxiao.com/de/ ', 'https://www.haokeyingxiao.com/de/');
 
         // sets the licenseHost to the String 'set', then calls the trimHost method and compares the trimmed licenseHost
         // with the expected string

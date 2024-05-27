@@ -28,8 +28,8 @@ class CustomerBeforeDeleteSubscriberTest extends TestCase
 
     public function testCustomerDeletedEventDispatched(): void
     {
-        $email1 = Uuid::randomHex() . '@shopware.com';
-        $email2 = Uuid::randomHex() . '@shopware.com';
+        $email1 = Uuid::randomHex() . '@haokeyingxiao.com';
+        $email2 = Uuid::randomHex() . '@haokeyingxiao.com';
 
         $customerId1 = $this->createCustomer($email1);
         $customerId2 = $this->createCustomer($email2);

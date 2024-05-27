@@ -2,7 +2,7 @@
 title: Implement counterpart for CMS Block functionality in Admin SDK
 issue: NEXT-33669
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

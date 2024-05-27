@@ -14,7 +14,7 @@ use Symfony\Component\Validator\Context\ExecutionContextInterface;
 class ChangelogDefinition
 {
     private const VIOLATION_MESSAGE_SECTION_SEPARATOR = 'You should use "___" to separate %s and %s section';
-    private const VIOLATION_MESSAGE_STARTING_KEYWORD = "Changelog entry \"%s\" does not start with a valid keyword (%s).\nPlease have look at the handbook: https://handbook.shopware.com/Product/Guides/Development/WritingChangelog#changelog-entries";
+    private const VIOLATION_MESSAGE_STARTING_KEYWORD = "Changelog entry \"%s\" does not start with a valid keyword (%s).\nPlease have look at the handbook: https://handbook.haokeyingxiao.com/Product/Guides/Development/WritingChangelog#changelog-entries";
 
     #[Assert\NotBlank(message: 'The title should not be blank')]
     private string $title;

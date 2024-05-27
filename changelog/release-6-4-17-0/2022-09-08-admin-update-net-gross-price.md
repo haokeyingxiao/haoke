@@ -2,7 +2,7 @@
 title: Fixed admin automaticaly update ner gross price
 issue: NEXT-16345
 author: Dennis Höllmann
-author_email: d.hoellmann@shopware.com
+author_email: d.hoellmann@haokeyingxiao.com
 author_github: @d-hoellmann
 ___
 # Administration

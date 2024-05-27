@@ -2,7 +2,7 @@
 title: Menu items are hidden if no submenu item is available
 issue: NEXT-11046
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: @OliverSkroblin
 ---
 # Administration

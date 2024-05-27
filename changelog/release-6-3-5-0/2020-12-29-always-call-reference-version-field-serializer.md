@@ -2,7 +2,7 @@
 title:              Always call reference version field serializer
 issue:              NEXT-13022
 author:             Oliver Skroblin
-author_email:       o.skroblin@shopware.com
+author_email:       o.skroblin@haokeyingxiao.com
 author_github:      @OliverSkroblin
 ---
 # Core

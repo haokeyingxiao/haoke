@@ -2,7 +2,7 @@
 title: Additional privileges InfoController
 issue: NEXT-21868
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # API

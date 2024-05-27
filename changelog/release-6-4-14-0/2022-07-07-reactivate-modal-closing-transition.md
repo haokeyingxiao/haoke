@@ -2,7 +2,7 @@
 title: Reactivate modal closing transition
 issue: NEXT-21871
 author: Holger-Thomas Kassner
-author_email: h.kassner@shopware.com
+author_email: h.kassner@haokeyingxiao.com
 author_github: Holger-Thomas Kassner
 ---
 # Administration

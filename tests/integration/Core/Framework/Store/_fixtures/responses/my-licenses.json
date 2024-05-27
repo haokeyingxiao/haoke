@@ -10,7 +10,7 @@
       "label":"App",
       "description": "Description",
       "shortDescription":"Short Description",
-      "storeUrl":"http:\/\/store.shopware.com:80\/search?sSearch=SwagApp",
+      "storeUrl":"http:\/\/store.haokeyingxiao.com:80\/search?sSearch=SwagApp",
       "privacyPolicyLink":null,
       "permissions":null
     },
@@ -46,7 +46,7 @@
       "icon":"",
       "label":"Shopware Liveshopping",
       "shortDescription":"",
-      "storeUrl":"http:\/\/store.shopware.com:80\/search?sSearch=SwagSuperPlugin",
+      "storeUrl":"http:\/\/store.haokeyingxiao.com:80\/search?sSearch=SwagSuperPlugin",
       "privacyPolicyLink":null,
       "permissions":[
 
@@ -78,7 +78,7 @@
       "icon":"",
       "label":"Shopware Professional Edition",
       "shortDescription":"",
-      "storeUrl":"http:\/\/store.shopware.com:80\/search?sSearch=SwagCore",
+      "storeUrl":"http:\/\/store.haokeyingxiao.com:80\/search?sSearch=SwagCore",
       "privacyPolicyLink":null,
       "permissions":[
 
@@ -110,7 +110,7 @@
       "icon":"",
       "label":"Shopware Enterprise Suche",
       "shortDescription":"",
-      "storeUrl":"http:\/\/store.shopware.com:80\/search?sSearch=SwagEnterpriseSearch",
+      "storeUrl":"http:\/\/store.haokeyingxiao.com:80\/search?sSearch=SwagEnterpriseSearch",
       "privacyPolicyLink":null,
       "permissions":[
 
@@ -142,7 +142,7 @@
       "icon":"",
       "label":"Custom Products",
       "shortDescription":"",
-      "storeUrl":"http:\/\/store.shopware.com:80\/search?sSearch=SwagCustomProducts",
+      "storeUrl":"http:\/\/store.haokeyingxiao.com:80\/search?sSearch=SwagCustomProducts",
       "privacyPolicyLink":null,
       "permissions":[
 
@@ -179,7 +179,7 @@
       "icon":"swaglicense.iconpath.de",
       "label":"Shopware Lizenz-Manager",
       "shortDescription":"",
-      "storeUrl":"http:\/\/store.shopware.com:80\/search?sSearch=SwagLicense",
+      "storeUrl":"http:\/\/store.haokeyingxiao.com:80\/search?sSearch=SwagLicense",
       "privacyPolicyLink":null,
       "permissions":[
 

@@ -41,7 +41,7 @@
                         "text": Blocks only using text elements are located here.
                         "video": Blocks for YouTube and Vimeo videos reside here.
 
-                        Refer to the documentation to find out more: https://developer.shopware.com/docs/guides/plugins/plugins/content/cms/add-cms-block#custom-block-in-the-administration
+                        Refer to the documentation to find out more: https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/content/cms/add-cms-block#custom-block-in-the-administration
                     </xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>

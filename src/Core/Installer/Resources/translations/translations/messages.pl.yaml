@@ -32,7 +32,7 @@ shopware.installer:
     language-selection_select_language: 'Język asystenta instalacji'
     language-selection_header: 'Twoja instalacja Shopware'
     language-selection_info_message: 'Wybór ten odnosi się tylko do języka asystenta instalacji. Możesz później zdefiniować domyślny język systemu dla Twojego sklepu.'
-    language-selection_welcome_message: 'Cieszymy się, że chcesz być częścią naszej wielkiej światowej społeczności Shopware! Teraz pomożemy Ci przejść krok po kroku przez proces instalacji. Jeśli masz jakieś pytania, najpierw odwiedź nasze <a class="is--nowrap" href="https://forum.shopware.com" target="_blank">forum</a>, skontaktuj się z nami telefonicznie pod numerem <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a> lub wyślij nam <a class="is--nowrap" href="mailto:info@shopware.com">e-mail</a>.'
+    language-selection_welcome_message: 'Cieszymy się, że chcesz być częścią naszej wielkiej światowej społeczności Shopware! Teraz pomożemy Ci przejść krok po kroku przez proces instalacji. Jeśli masz jakieś pytania, najpierw odwiedź nasze <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">forum</a>, skontaktuj się z nami telefonicznie pod numerem <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a> lub wyślij nam <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">e-mail</a>.'
     requirements_header: 'Wymagania systemowe'
     requirements_header_files: 'Pliki i katalogi'
     requirements_header_system: System
@@ -88,9 +88,9 @@ shopware.installer:
     migration_counter_text_snippets: 'Trwa aktualizacja modułów tekstowych'
     migration_update_success: 'Baza danych została pomyślnie zaimportowana!'
     edition_header: 'Czy posiadasz już licencję Shopware?'
-    edition_info: 'Shopware jest dostępny w bezpłatnej wersji <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition</a>, jak również w wersji <a href="https://de.shopware.com/versionen/" target="_blank">Professional i Enterprise Edition</a>.'
-    edition_ce: 'Nie, chcę skorzystać z darmowej <a href="https://de.shopware.com/versionen/" target="_blank">wersji Community Edition</a>.'
-    edition_cm: 'Tak, mam płatną licencję Shopware (<a href="https://de.shopware.com/versionen/" target="_blank">Professional lub Enterprise</a>).'
+    edition_info: 'Shopware jest dostępny w bezpłatnej wersji <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition</a>, jak również w wersji <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional i Enterprise Edition</a>.'
+    edition_ce: 'Nie, chcę skorzystać z darmowej <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">wersji Community Edition</a>.'
+    edition_cm: 'Tak, mam płatną licencję Shopware (<a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional lub Enterprise</a>).'
     edition_license: 'Wprowadź tutaj swój klucz licencyjny. Znajdziesz go na swoim koncie Shopware w zakładce „Licencje” → „Licencje na produkty” → „Szczegóły / Pobierz”:'
     edition_license_error: 'Do instalacji płatnej wersji Shopware wymagana jest ważna licencja.'
     configuration_header: Konfiguracja
@@ -136,7 +136,7 @@ shopware.installer:
         <p>
             cieszymy się, że możemy powitać Cię w naszej społeczności. Udało Ci się zainstalować Shopware.
         <p>
-            Twój sklep jest gotowy. Jeśli jesteś nowym członkiem Shopware, polecamy przewodnik <a href=\"https://docs.shopware.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">„pierwsze kroki w Shopware”</a>. Po pierwszym zalogowaniu się do panelu administracyjnego, nasz Asystent Pierwszego Uruchomienia przeprowadzi Cię przez podstawową konfigurację Twojego sklepu.
+            Twój sklep jest gotowy. Jeśli jesteś nowym członkiem Shopware, polecamy przewodnik <a href=\"https://docs.haokeyingxiao.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">„pierwsze kroki w Shopware”</a>. Po pierwszym zalogowaniu się do panelu administracyjnego, nasz Asystent Pierwszego Uruchomienia przeprowadzi Cię przez podstawową konfigurację Twojego sklepu.
         </p>
         <p>
             Życzymy przyjemnego korzystania i sukcesów w prowadzeniu Twojego sklepu internetowego!

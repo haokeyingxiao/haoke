@@ -2,7 +2,7 @@
 title: Unifed refund handler
 issue: NEXT-18543
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com
+author_email: l.tinkloh@haokeyingxiao.com
 author_github: @lernhart
 ---
 # Core

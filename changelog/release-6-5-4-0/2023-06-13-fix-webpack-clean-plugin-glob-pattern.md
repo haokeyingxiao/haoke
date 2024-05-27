@@ -2,7 +2,7 @@
 title: Fix webpack clean plugin glob pattern
 issue: NEXT-28477
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

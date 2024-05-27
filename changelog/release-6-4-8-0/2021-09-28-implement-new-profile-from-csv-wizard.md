@@ -2,7 +2,7 @@
 title: Implement new profile from CSV wizard
 issue: NEXT-16083
 author: Malte Janz
-author_email: m.janz@shopware.com 
+author_email: m.janz@haokeyingxiao.com 
 author_github: Malte Janz
 ---
 # Core

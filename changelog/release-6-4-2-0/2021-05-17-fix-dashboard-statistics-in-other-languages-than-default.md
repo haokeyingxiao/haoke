@@ -2,7 +2,7 @@
 title: Fix dashboard statistics in other languages than default
 issue: NEXT-15071
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

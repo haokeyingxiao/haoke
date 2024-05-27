@@ -2,7 +2,7 @@
 title: Translate javascript services from sw-extension into TypeScript
 issue: NEXT-20617
 author: Sebastian Franze
-author_email: s.franze@shopware.com
+author_email: s.franze@haokeyingxiao.com
 ---
 # Administration
 * Removed es-lint rule `@typescript-eslint/explicit-function-return-type`.

@@ -2,7 +2,7 @@
 title: Added option to abort imports or exports in progress
 issue: NEXT-19152
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

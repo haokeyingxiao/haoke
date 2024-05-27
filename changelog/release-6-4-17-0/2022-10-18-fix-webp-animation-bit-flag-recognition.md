@@ -2,7 +2,7 @@
 title: 2022-10-18-fix-webp-animation-bit-flag-recognition
 issue: NEXT-9366
 author: dbeyer
-author_email: d.beyer@shopware.com
+author_email: d.beyer@haokeyingxiao.com
 author_github: N0Manches
 ---
 # Core

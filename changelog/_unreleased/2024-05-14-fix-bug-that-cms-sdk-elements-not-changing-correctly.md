@@ -2,7 +2,7 @@
 title: Fix bug that CMS SDK elements not changing correctly
 issue: NEXT-36065
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Check if currentUser is loaded when checking acls on dashboard
 issue: NEXT-15389
 author: Raoul Kramer
-author_email: r.kramer@shopware.com 
+author_email: r.kramer@haokeyingxiao.com 
 author_github: @djpogo
 ---
 # Administration

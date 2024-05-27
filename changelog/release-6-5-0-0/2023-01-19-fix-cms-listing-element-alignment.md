@@ -2,7 +2,7 @@
 title: Fix CMS listing element alignment
 issue: NEXT-25026
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Fix category id update in line item
 issue: NEXT-31519
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 
 # Core

@@ -2,7 +2,7 @@
 title: Add new CartTaxDisplay rule condition
 issue: NEXT-18686
 author: Krispin Lütjann
-author_email: k.luetjann@shopware.com
+author_email: k.luetjann@haokeyingxiao.com
 author_github: King-of-Babylon
 ---
 # Core

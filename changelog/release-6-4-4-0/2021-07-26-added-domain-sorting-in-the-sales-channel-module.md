@@ -2,7 +2,7 @@
 title: Added domain sorting in the sales channel module
 issue: NEXT-10568
 author: Patrick Stahl
-author_email: p.stahl@shopware.com 
+author_email: p.stahl@haokeyingxiao.com 
 author_github: @PaddyS
 ---
 # Administration

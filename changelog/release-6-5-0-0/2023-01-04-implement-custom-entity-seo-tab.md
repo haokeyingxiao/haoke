@@ -2,7 +2,7 @@
 title: Implement SEO assignment for cms aware
 issue: NEXT-24138
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

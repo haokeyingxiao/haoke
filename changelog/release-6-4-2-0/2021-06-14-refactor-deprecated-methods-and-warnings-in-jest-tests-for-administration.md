@@ -2,7 +2,7 @@
 title: Refactor deprecated Methods and warnings in Jest Tests for Administration
 issue: NEXT-10923
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg 
 ---

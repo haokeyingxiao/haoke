@@ -2,7 +2,7 @@
 title: Add translation to all SDK endpoints
 issue: NEXT-33716
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

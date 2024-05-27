@@ -2,7 +2,7 @@
 title: Fix promotion item picking mode
 issue: NEXT-30680
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 author_github: @cyl3x
 ---
 # Core

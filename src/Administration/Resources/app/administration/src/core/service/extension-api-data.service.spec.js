@@ -501,7 +501,7 @@ describe('core/service/extension-api-data.service.ts', () => {
                 null,
                 [
                     new Entity('image1', 'media', {
-                        url: 'https://shopware.com/image1.jpg',
+                        url: 'https://haokeyingxiao.com/image1.jpg',
                         tags: new EntityCollection('image1/tags', 'tag', {}, null, [
                             new Entity('tag1', 'tag', {
                                 name: 'Shopware',
@@ -515,7 +515,7 @@ describe('core/service/extension-api-data.service.ts', () => {
                         ]),
                     }),
                     new Entity('image2', 'media', {
-                        url: 'https://shopware.com/image2.jpg',
+                        url: 'https://haokeyingxiao.com/image2.jpg',
                         tags: new EntityCollection('image2/tags', 'tag', {}, null, [
                             new Entity('tag4', 'tag', {
                                 name: 'Shopware',

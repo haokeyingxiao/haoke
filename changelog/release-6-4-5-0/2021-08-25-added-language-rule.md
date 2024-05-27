@@ -2,7 +2,7 @@
 title: Added language rule
 issue: NEXT-9812
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

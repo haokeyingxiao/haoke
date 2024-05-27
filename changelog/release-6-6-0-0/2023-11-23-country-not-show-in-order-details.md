@@ -2,7 +2,7 @@
 title: Country not show in order details
 issue: NEXT-29628
 author: Florian Keller
-author_email: f.keller@shopware.com
+author_email: f.keller@haokeyingxiao.com
 author_github: Florian Keller
 ---
 # Administration

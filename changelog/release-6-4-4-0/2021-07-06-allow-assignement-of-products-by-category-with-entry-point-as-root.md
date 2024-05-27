@@ -2,7 +2,7 @@
 title: Allow assignement of products by category with entry point as root
 issue: NEXT-15970
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Administration

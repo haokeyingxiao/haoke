@@ -2,7 +2,7 @@
 title: Added relative time filters for dates in product streams
 issue: NEXT-16408
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

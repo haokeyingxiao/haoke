@@ -2,7 +2,7 @@
 title: Fix order transaction selection in order edit
 issue: NEXT-17953
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com 
+author_email: m.stegmeyer@haokeyingxiao.com 
 ---
 # Administration
 * Changed `sw-order-detail-base` to not select failed order transactions as the current transaction

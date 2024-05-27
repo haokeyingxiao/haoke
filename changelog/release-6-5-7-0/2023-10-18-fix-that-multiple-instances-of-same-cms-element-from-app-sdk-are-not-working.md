@@ -2,7 +2,7 @@
 title: Fix that multiple instances of same CMS element from app sdk are not working
 issue: NEXT-25102
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

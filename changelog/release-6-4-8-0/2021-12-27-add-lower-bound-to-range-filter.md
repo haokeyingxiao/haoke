@@ -2,7 +2,7 @@
 title: Added lower bound to Range-Filter
 issue: NEXT-18354
 author: Simon Vorgers
-author_email: s.vorgers@shopware.com
+author_email: s.vorgers@haokeyingxiao.com
 author_github: SimonVorgers
 ---
 # Storefront

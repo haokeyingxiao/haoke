@@ -2,7 +2,7 @@
 title: move copied verifyUserToken() method to loginService
 issue: NEXT-10383
 author: Johannes Rahe
-author_email: j.rahe@shopware.com 
+author_email: j.rahe@haokeyingxiao.com 
 author_github: J-Rahe
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Add check processed promotions to avoid duplicates
 issue: NEXT-30360
 author: Alexandru Dumea
-author_email: a.dumea@shopware.com
+author_email: a.dumea@haokeyingxiao.com
 author_github: Alexandru Dumea
 ---
 # Core

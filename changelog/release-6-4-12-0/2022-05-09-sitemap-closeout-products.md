@@ -2,7 +2,7 @@
 title: Consider closeout visibility of products in sitemap generation
 issue: NEXT-20020
 author: Benedikt Schulze Baek
-author_email: b.schulze-baek@shopware.com
+author_email: b.schulze-baek@haokeyingxiao.com
 ---
 # Core
 

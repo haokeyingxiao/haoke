@@ -2,7 +2,7 @@
 title: Added handler for route changes inside apps
 issue: NEXT-24207
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

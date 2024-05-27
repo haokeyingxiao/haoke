@@ -2,7 +2,7 @@
 title: Add styling property to sw-checkbox-field
 issue: NEXT-26258
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

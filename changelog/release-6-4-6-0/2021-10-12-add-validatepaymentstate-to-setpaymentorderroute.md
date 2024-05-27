@@ -2,7 +2,7 @@
 title: Add validatePaymentState to SetPaymentOrderRoute
 issue: NEXT-16231
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ---
 # Core

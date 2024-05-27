@@ -2,7 +2,7 @@
 title:              Fixed wrong currency being shown in order list in the storefront
 issue:              NEXT-10868
 author:             Patrick Stahl
-author_email:       p.stahl@shopware.com
+author_email:       p.stahl@haokeyingxiao.com
 author_github:      @PaddyS
 ---
 # Storefront

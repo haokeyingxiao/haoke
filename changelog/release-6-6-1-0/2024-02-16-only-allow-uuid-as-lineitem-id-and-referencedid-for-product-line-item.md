@@ -2,7 +2,7 @@
 title: Add validation to line item identifier
 issue: NEXT-33796
 author: Jozsef Damokos
-author_email: j.damokos@shopware.com
+author_email: j.damokos@haokeyingxiao.com
 author_github: jozsefdamokos
 ---
 # Core

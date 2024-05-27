@@ -798,7 +798,7 @@ class MyService
     }
 ```
 ## Clean duplicated theme images
-With [NEXT-25804](https://issues.shopware.com/issues/NEXT-25804) we fixed an issue with duplicated theme images on `system:update` and `theme:refresh`.
+With [NEXT-25804](https://issues.haokeyingxiao.com/issues/NEXT-25804) we fixed an issue with duplicated theme images on `system:update` and `theme:refresh`.
 This fix will only prevent future duplicates. In order to remove already existing duplicates from your setup, follow these steps:
 
 1. Open the administration media section
@@ -1952,7 +1952,7 @@ This is the recommended method for all apps/themes which don't have control over
 * Don't** use the `{{ parent() }}` call. This prevents multiple usages of jQuery. Even if multiple other plugins/apps use this method, the jQuery script will only be added once.
 * Please use jQuery version `3.5.1` (slim minified) to avoid compatibility issues between different plugins/apps.
 * If you don't want to use a CDN for jQuery, [download jQuery from the official website](https://releases.jquery.com/jquery/) (jQuery Core 3.5.1 - slim minified) and add it to `MyExtension/src/Resources/public/assets/jquery-3.5.1.slim.min.js`
-* After executing `bin/console asset:install`, you can reference the file using the `assset()` function. See also: https://developer.shopware.com/docs/guides/plugins/plugins/storefront/add-custom-assets
+* After executing `bin/console asset:install`, you can reference the file using the `assset()` function. See also: https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/storefront/add-custom-assets
 
 ```html
 {% sw_extends '@Storefront/storefront/layout/meta.html.twig' %}
@@ -2268,10 +2268,10 @@ In the new schema we remove two deprecations from the existing schema.
 1. attribute `parent` for element `module` will be required.
 
    Please make sure that every of your admin modules has this attribute set
-   like described in [our documentation](https://developer.shopware.com/docs/guides/plugins/apps/administration/add-custom-modules)
+   like described in [our documentation](https://developer.haokeyingxiao.com/docs/guides/plugins/apps/administration/add-custom-modules)
 2. attribute `openNewTab` for element `action-button` will be removed.
 
-   Make sure to remove the attribute `openNewTab` from your `action-button` elements in your `manifest.xml` and use ActionButtonResponses as described in our [documentation](https://developer.shopware.com/docs/guides/plugins/apps/administration/add-custom-action-button) instead.
+   Make sure to remove the attribute `openNewTab` from your `action-button` elements in your `manifest.xml` and use ActionButtonResponses as described in our [documentation](https://developer.haokeyingxiao.com/docs/guides/plugins/apps/administration/add-custom-action-button) instead.
 3. Deprecation of `manifest-1.0.xsd`
 
    Update the `xsi:noNamespaceSchemaLocation` attribute of your `manifest` root element to `https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-2.0.xsd`

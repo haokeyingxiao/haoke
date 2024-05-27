@@ -2,7 +2,7 @@
 title: Improve redirect manipulation
 issue: NEXT-25788
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 # Storefront
 * Added error route manipulation for `RegisterController` and `component/account/register.html.twig`

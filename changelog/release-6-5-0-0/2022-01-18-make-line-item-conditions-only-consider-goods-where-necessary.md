@@ -2,7 +2,7 @@
 title: Make line item conditions only consider goods where necessary
 issue: NEXT-19576
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

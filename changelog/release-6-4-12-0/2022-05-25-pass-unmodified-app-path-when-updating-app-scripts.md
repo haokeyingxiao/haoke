@@ -2,7 +2,7 @@
 title: Pass unmodified app path when updating app scripts
 issue: NEXT-21763
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

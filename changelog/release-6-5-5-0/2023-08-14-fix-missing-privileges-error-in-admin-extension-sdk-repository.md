@@ -2,7 +2,7 @@
 title: Fix missing privileges error in admin extension sdk repository
 issue: NEXT-29862
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Add sales channel assignment to theme detail page
 issue: NEXT-9448
 author: Patrick Stahl
-author_email: p.stahl@shopware.com 
+author_email: p.stahl@haokeyingxiao.com 
 author_github: PaddyS
 ---
 # Administration

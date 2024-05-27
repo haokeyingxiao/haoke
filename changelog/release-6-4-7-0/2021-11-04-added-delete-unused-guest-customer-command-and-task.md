@@ -2,7 +2,7 @@
 title: Added delete unused guest customer command and task
 issue: NEXT-16234
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com 
+author_email: l.tinkloh@haokeyingxiao.com 
 author_github: @lernhart
 ---
 # Core

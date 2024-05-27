@@ -2,7 +2,7 @@
 title: Fix max purchase calculation
 issue: NEXT-12706
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Core

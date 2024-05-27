@@ -2,7 +2,7 @@
 title: Fix admin cookies for subdomains
 issue: NEXT-18964
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Change sw-button-process default event
 issue: NEXT-28991
 author: Sebastian Seggewiß
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

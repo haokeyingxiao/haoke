@@ -2,7 +2,7 @@
 title: Discourage adding inactive categories and products as internal-link  
 issue: NEXT-20784
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

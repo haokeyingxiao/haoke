@@ -2,7 +2,7 @@
 title: add customer default payment method rule condition
 issue: NEXT-18206
 author: Lars Kemper
-author_email: l.kemper@shopware.com
+author_email: l.kemper@haokeyingxiao.com
 author_github: @LarsKemper
 ---
 # Core

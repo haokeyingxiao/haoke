@@ -2,7 +2,7 @@
 title: Add module sw-settings-usage-data
 issue: NEXT-25553
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

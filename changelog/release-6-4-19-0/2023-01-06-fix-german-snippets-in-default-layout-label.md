@@ -2,7 +2,7 @@
 title: Fix german snippets in default layout label
 issue: NEXT-24841
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

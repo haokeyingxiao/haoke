@@ -189,7 +189,7 @@ class EmailRuleTest extends TestCase
         yield 'operator_eq / match partially start / email' => [Rule::OPERATOR_EQ, 'test@example.com', '*@example.com', true];
         yield 'operator_eq / match partially end / email' => [Rule::OPERATOR_EQ, 'test@example.com', 'test@*', true];
         yield 'operator_eq / not match partially between / email' => [Rule::OPERATOR_EQ, 'test@example.com', 'foo@*.com', false];
-        yield 'operator_eq / not match partially start / email' => [Rule::OPERATOR_EQ, 'test@example.com', '*@shopware.com', false];
+        yield 'operator_eq / not match partially start / email' => [Rule::OPERATOR_EQ, 'test@example.com', '*@haokeyingxiao.com', false];
         yield 'operator_eq / not match partially end / email' => [Rule::OPERATOR_EQ, 'test@example.com', 'foo@*', false];
         yield 'operator_eq / no match / no customer' => [Rule::OPERATOR_EQ, 'test@example.com', 'test@example.com', false, true];
 
@@ -200,7 +200,7 @@ class EmailRuleTest extends TestCase
         yield 'operator_neq / match partially start / email' => [Rule::OPERATOR_NEQ, 'test@example.com', '*@example.com', false];
         yield 'operator_neq / match partially end / email' => [Rule::OPERATOR_NEQ, 'test@example.com', 'test@*', false];
         yield 'operator_neq / not match partially between / email' => [Rule::OPERATOR_NEQ, 'test@example.com', 'foo@*.com', true];
-        yield 'operator_neq / not match partially start / email' => [Rule::OPERATOR_NEQ, 'test@example.com', '*@shopware.com', true];
+        yield 'operator_neq / not match partially start / email' => [Rule::OPERATOR_NEQ, 'test@example.com', '*@haokeyingxiao.com', true];
         yield 'operator_neq / not match partially end / email' => [Rule::OPERATOR_NEQ, 'test@example.com', 'foo@*', true];
 
         yield 'operator_neq / match / no customer' => [Rule::OPERATOR_NEQ, 'test@example.com', 'test@example.com', true, true];

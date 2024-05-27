@@ -2,7 +2,7 @@
 title:              Fixed document generation with special utf-8 characters
 issue:              NEXT-8755
 author:             Patrick Stahl
-author_email:       p.stahl@shopware.com
+author_email:       p.stahl@haokeyingxiao.com
 author_github:      @PaddyS
 ---
 # Core

@@ -2,7 +2,7 @@
 title: CMS entities version aware
 issue: NEXT-13273
 author: Jan Pietrzyk
-author_email: j.pietrzyk@shopware.com 
+author_email: j.pietrzyk@haokeyingxiao.com 
 author_github: @JanPietrzyk
 ---
 # Core

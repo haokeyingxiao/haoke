@@ -2,7 +2,7 @@
 title: Use admin interface language for extension information
 issue: NEXT-15586
 author: Tobias Berge
-author_email: t.berge@shopware.com 
+author_email: t.berge@haokeyingxiao.com 
 author_github: @tobiasberge
 ---
 # Core

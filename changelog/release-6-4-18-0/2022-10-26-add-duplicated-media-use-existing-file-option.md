@@ -2,7 +2,7 @@
 title: Add duplicated media use existing file option
 issue: NEXT-21808
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Administration

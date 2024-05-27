@@ -23,10 +23,10 @@ class FallbackUrlPackageTest extends TestCase
 
     public function testCliUrlGiven(): void
     {
-        $package = new FallbackUrlPackage(['http://shopware.com'], new EmptyVersionStrategy());
+        $package = new FallbackUrlPackage(['http://haokeyingxiao.com'], new EmptyVersionStrategy());
         $url = $package->getUrl('test');
 
-        static::assertSame('http://shopware.com/test', $url);
+        static::assertSame('http://haokeyingxiao.com/test', $url);
     }
 
     public function testWebFallbackToRequest(): void

@@ -2,7 +2,7 @@
 title: Added import dry runs and rollback on error in CLI
 issue: NEXT-16187
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

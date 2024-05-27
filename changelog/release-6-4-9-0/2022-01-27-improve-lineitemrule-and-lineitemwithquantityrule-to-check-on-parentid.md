@@ -2,7 +2,7 @@
 title: Improve LineItemRule and LineItemWithQuantityRule to check on product parent id
 issue: NEXT-14707
 author: Krispin Lütjann
-author_email: k.luetjann@shopware.com
+author_email: k.luetjann@haokeyingxiao.com
 author_github: King-of-Babylon
 ---
 # Core

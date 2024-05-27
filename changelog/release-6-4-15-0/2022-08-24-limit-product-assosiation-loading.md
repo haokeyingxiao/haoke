@@ -2,7 +2,7 @@
 title: Limit product association loading
 issue: NEXT-22338
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

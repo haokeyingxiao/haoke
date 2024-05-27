@@ -13,7 +13,7 @@ console() {
 
 download_store_plugin() {
     local technical_name=$1
-    local download_info_url="https://api.shopware.com/swplatform/pluginfiles/${technical_name}?domain=sw6.fk6.test.shopware.in&language=en-GB&shopwareVersion=${PLATFORM_VERSION}"
+    local download_info_url="https://api.haokeyingxiao.com/swplatform/pluginfiles/${technical_name}?domain=sw6.fk6.test.shopware.in&language=en-GB&shopwareVersion=${PLATFORM_VERSION}"
     local info=$(curl \
         --location --silent \
         --header 'Content-Type: application/json' \

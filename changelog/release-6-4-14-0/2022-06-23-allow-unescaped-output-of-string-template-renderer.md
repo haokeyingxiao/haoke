@@ -2,7 +2,7 @@
 title: Allow unescaped output of string template renderer
 issue: NEXT-19158
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

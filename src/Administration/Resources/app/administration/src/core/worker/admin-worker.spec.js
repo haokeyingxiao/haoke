@@ -35,7 +35,7 @@ describe('core/worker/admin-worker.worker.js', () => {
                 apiResourcePath: 'api_resource_path',
             },
             bearerAuth: 'bearer_auth',
-            host: 'http://www.shopware.com',
+            host: 'http://www.haokeyingxiao.com',
             transports: ['default'],
         } });
 
@@ -51,7 +51,7 @@ describe('core/worker/admin-worker.worker.js', () => {
                 apiResourcePath: 'api_resource_path',
             },
             bearerAuth: 'bearer_auth',
-            host: 'http://www.shopware.com',
+            host: 'http://www.haokeyingxiao.com',
             transports: ['default'],
         } });
 
@@ -63,7 +63,7 @@ describe('core/worker/admin-worker.worker.js', () => {
                 apiResourcePath: 'api_resource_path',
             },
             bearerAuth: 'bearer_auth',
-            host: 'http://www.shopware.com',
+            host: 'http://www.haokeyingxiao.com',
             transports: ['default'],
         } });
 
@@ -84,7 +84,7 @@ describe('core/worker/admin-worker.worker.js', () => {
                 apiResourcePath: 'api_resource_path',
             },
             bearerAuth: 'bearer_auth',
-            host: 'http://www.shopware.com',
+            host: 'http://www.haokeyingxiao.com',
             transports: ['default'],
         } }); // start AdminWorker
         await jest.runAllTimers(); // start consumeMessages
@@ -113,7 +113,7 @@ describe('core/worker/admin-worker.worker.js', () => {
                 apiResourcePath: 'api_resource_path',
             },
             bearerAuth: 'bearer_auth',
-            host: 'http://www.shopware.com',
+            host: 'http://www.haokeyingxiao.com',
             transports: ['default'],
         } }); // start AdminWorker
         await jest.runAllTimers(); // start consumeMessages
@@ -140,7 +140,7 @@ describe('core/worker/admin-worker.worker.js', () => {
                 apiResourcePath: 'api_resource_path',
             },
             bearerAuth: 'bearer_auth',
-            host: 'http://www.shopware.com',
+            host: 'http://www.haokeyingxiao.com',
             transports: ['default'],
         };
 
@@ -187,7 +187,7 @@ describe('core/worker/admin-worker.worker.js', () => {
                 apiResourcePath: 'api_resource_path',
             },
             bearerAuth: 'bearer_auth',
-            host: 'http://www.shopware.com',
+            host: 'http://www.haokeyingxiao.com',
             transports: ['default'],
         };
 

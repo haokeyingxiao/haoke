@@ -2,7 +2,7 @@
 title: Add missing snippets in delivery times
 issue: NEXT-22723
 author: Daniel Meyer
-author_email: d.meyer@shopware.com
+author_email: d.meyer@haokeyingxiao.com
 author_github: @GitEvil
 ___
 # Administration

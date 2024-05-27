@@ -2,7 +2,7 @@
 title: Reschedule some scheduled tasks on failure
 issue: NEXT-32238
 author: Jozsef Damokos
-author_email: j.damokos@shopware.com
+author_email: j.damokos@haokeyingxiao.com
 author_github: jozsefdamokos
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Improve extensibility & plugin compatibility for cms list
 issue: NEXT-24238
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

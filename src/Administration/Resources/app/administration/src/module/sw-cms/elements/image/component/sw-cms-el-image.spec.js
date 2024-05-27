@@ -6,7 +6,7 @@ import 'src/module/sw-cms/mixin/sw-cms-element.mixin';
 
 const mediaDataMock = {
     id: '1',
-    url: 'http://shopware.com/image1.jpg',
+    url: 'http://haokeyingxiao.com/image1.jpg',
 };
 
 async function createWrapper() {

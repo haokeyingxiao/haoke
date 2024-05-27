@@ -2,7 +2,7 @@
 title: Display master information of a shop in mail footer
 issue: NEXT-12852
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

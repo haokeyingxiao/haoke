@@ -2,7 +2,7 @@
 title: Use consistent naming scheme for products in cross selling association
 issue: NEXT-15851
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

@@ -4,7 +4,7 @@ import EntityCollection from 'src/core/data/entity-collection.data';
 
 const mockOrderWithMailHeaderFooter = {
     orderCustomer: {
-        email: 'test@shopware.com',
+        email: 'test@haokeyingxiao.com',
         firstName: 'Test',
         lastName: 'Tester',
     },
@@ -16,7 +16,7 @@ const mockOrderWithMailHeaderFooter = {
 
 const mockOrderWithoutMailHeaderFooter = {
     orderCustomer: {
-        email: 'test@shopware.com',
+        email: 'test@haokeyingxiao.com',
     },
     salesChannel: {
         mailHeaderFooterId: null,

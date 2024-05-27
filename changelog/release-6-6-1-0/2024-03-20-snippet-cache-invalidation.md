@@ -2,7 +2,7 @@
 title: Snippet cache invalidation
 issue: NEXT-34478
 author: oskroblin Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

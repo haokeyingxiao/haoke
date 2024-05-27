@@ -2,7 +2,7 @@
 title: Improve product stream errors
 issue: NEXT-23315
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

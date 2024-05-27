@@ -2,7 +2,7 @@
 title: Fix missing icons in Media
 issue: NEXT-24973
 author: Luka Brlek
-author_email: l.brlek@shopware.com
+author_email: l.brlek@haokeyingxiao.com
 ---
 # Administration
 * Changed `src/Administration/Resources/app/administration/src/app/asyncComponent/media/sw-media-folder-item/sw-media-folder-item.html.twig` to replace old icon `multicolor-folder-thumbnail-back` with `solid-chevron-left`

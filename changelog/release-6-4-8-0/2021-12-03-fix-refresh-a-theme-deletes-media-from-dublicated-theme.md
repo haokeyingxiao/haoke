@@ -2,7 +2,7 @@
 title: Changed theme refresh command that no media will be deleted from a dublicated theme
 issue: NEXT-17465
 author: Marcel Hakvoort
-author_email: m.hakvoort@shopware.com
+author_email: m.hakvoort@haokeyingxiao.com
 author_github: @celha
 ---
 # Storefront

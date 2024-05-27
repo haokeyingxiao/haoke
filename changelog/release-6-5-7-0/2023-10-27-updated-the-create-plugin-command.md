@@ -2,7 +2,7 @@
 title: Updated the create plugin command
 issue: NEXT-30846
 author: Jozsef Damokos
-author_email: j.damokos@shopware.com
+author_email: j.damokos@haokeyingxiao.com
 author_github: jozsefdamokos
 ---
 # Core

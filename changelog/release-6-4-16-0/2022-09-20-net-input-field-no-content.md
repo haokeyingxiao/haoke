@@ -2,7 +2,7 @@
 title: Admin net input field no content visible
 issue: NEXT-23295
 author: Dennis Höllmann
-author_email: d.hoellmann@shopware.com
+author_email: d.hoellmann@haokeyingxiao.com
 author_github: @d-hoellmann
 ---
 # Storefront

@@ -2,7 +2,7 @@
 title: Fix product variant title truncation
 issue: NEXT-18719
 author: Jakob Kruse
-author_email: j.kruse@shopware.com 
+author_email: j.kruse@haokeyingxiao.com 
 author_github: jakob-kruse
 
 ---

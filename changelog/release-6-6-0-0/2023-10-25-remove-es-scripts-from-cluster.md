@@ -2,7 +2,7 @@
 title: remove-es-scripts-from-cluster
 issue: NEXT-29212
 author: Alexandru Dumea
-author_email: a.dumea@shopware.com
+author_email: a.dumea@haokeyingxiao.com
 author_github: Alexandru Dumea
 ---
 # API

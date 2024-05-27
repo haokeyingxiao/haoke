@@ -2,7 +2,7 @@
 title: remove php deprecations in the core for merchant services area
 issue: NEXT-24646
 author: Adrian Les
-author_email: a.les@shopware.com
+author_email: a.les@haokeyingxiao.com
 author_github: adrianles
 ---
 # Core

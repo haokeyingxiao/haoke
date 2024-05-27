@@ -62,7 +62,7 @@ async function createWrapper(privileges = [], options = {
                                             username: 'admin',
                                             firstName: '',
                                             lastName: 'admin',
-                                            email: 'info@shopware.com',
+                                            email: 'info@haokeyingxiao.com',
                                             accessKeys: {
                                                 entity: 'product',
                                             },
@@ -215,7 +215,7 @@ describe('modules/sw-users-permissions/page/sw-users-permissions-user-detail', (
 
         expect(fieldFirstName.attributes('value')).toBe('');
         expect(fieldLastName.attributes('value')).toBe('admin');
-        expect(fieldEmail.attributes('value')).toBe('info@shopware.com');
+        expect(fieldEmail.attributes('value')).toBe('info@haokeyingxiao.com');
         expect(fieldUsername.attributes('value')).toBe('admin');
         expect(fieldProfilePicture.attributes('value')).toBeUndefined();
         expect(fieldPassword.attributes('value')).toBeUndefined();

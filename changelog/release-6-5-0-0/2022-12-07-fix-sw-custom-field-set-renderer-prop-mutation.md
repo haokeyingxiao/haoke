@@ -2,7 +2,7 @@
 title: Fix sw-custom-field-set-renderer prop mutation
 issue: NEXT-20590
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

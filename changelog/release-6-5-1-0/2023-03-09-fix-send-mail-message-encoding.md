@@ -2,7 +2,7 @@
 title: Fix send mail message encoding
 issue: NEXT-25651
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 author_github: @OliverSkroblin
 ---
 # Core

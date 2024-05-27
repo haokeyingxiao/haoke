@@ -2,7 +2,7 @@
 title: Added import export log cleanup task
 issue: NEXT-11765
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

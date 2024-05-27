@@ -2,7 +2,7 @@
 title: Reload rules on order payment change
 issue: NEXT-15568
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

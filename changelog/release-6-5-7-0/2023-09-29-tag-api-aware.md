@@ -2,7 +2,7 @@
 title: Tag api aware
 issue: NEXT-30652
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Added `ApiAware` flag for tag entity `id` and `name` field

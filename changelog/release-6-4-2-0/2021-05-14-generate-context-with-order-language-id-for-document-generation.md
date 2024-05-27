@@ -2,7 +2,7 @@
 title: Generate context with order language id for document generation
 issue: NEXT-15087
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

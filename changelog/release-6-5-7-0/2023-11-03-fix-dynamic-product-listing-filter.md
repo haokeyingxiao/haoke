@@ -2,7 +2,7 @@
 title: Fix dynamic product listing filter
 issue: NEXT-29496
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

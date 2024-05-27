@@ -2,7 +2,7 @@
 title: Added slots for additional description in select result list
 issue: NEXT-16802
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

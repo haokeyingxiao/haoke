@@ -2,7 +2,7 @@
 title: Add skeleton to tree
 issue: NEXT-18518
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: @jleifeld
 ---
 # Administration

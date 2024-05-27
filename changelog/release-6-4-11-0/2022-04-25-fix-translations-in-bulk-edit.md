@@ -2,7 +2,7 @@
 title: Missing german translation within Bulk Edit Modal for packaging unit
 issue: NEXT-21287
 author: Simon Vorgers
-author_email: s.vorgers@shopware.com
+author_email: s.vorgers@haokeyingxiao.com
 author_github: SimonVorgers
 ---
 # Administration

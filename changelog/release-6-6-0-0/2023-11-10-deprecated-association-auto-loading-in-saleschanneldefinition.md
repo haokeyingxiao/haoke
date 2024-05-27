@@ -2,7 +2,7 @@
 title: Deprecated association auto-loading in SalesChannelDefinition
 issue: NEXT-25328
 author: Krzykawski
-author_email: m.krzykawski@shopware.com
+author_email: m.krzykawski@haokeyingxiao.com
 author_github: Krzykawski
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Updated snippets
 issue: NEXT-16241
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 # Administration
 * Changed snippets from namespace `error` to `checkout` to correctly show in checkout:

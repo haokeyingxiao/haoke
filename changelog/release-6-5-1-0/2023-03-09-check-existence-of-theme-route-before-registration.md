@@ -2,7 +2,7 @@
 title: Check existence of theme route before registration
 issue: NEXT-25707
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

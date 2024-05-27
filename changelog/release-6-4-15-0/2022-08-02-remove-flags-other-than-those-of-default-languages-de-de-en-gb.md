@@ -2,7 +2,7 @@
 title: Remove flags other than those of default languages (de-DE, en-GB)
 issue: NEXT-22725
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Storefront

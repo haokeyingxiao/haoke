@@ -2,7 +2,7 @@
 title: Check ACL read privilege for user on export
 issue: NEXT-15978
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

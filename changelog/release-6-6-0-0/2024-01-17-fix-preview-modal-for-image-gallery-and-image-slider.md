@@ -2,7 +2,7 @@
 title: Fix preview modal for image-gallery and image-slider
 issue: NEXT-33171
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

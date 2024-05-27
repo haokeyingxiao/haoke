@@ -2,7 +2,7 @@
 title: Add sw-extension-icon component
 issue: NEXT-25582
 author: Sebastian Franze
-author_email: s.franze@shopware.com
+author_email: s.franze@haokeyingxiao.com
 ---
 # Administration
 * Added component `src/app/asyncComponent/extension/sw-extension-icon`

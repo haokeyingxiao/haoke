@@ -43,7 +43,7 @@
         "writeableCheckValid": "The following directories and files are writable:<br/>{checkedDirectories}",
         "writeableCheckFailed": "The following directories and files are not writable:<br>{failedDirectories}",
         "validShopwareLicense": "Your current Shopware version is out of date. You may want to consider updating to the latest version.",
-        "invalidShopwareLicense": "No active Shopware subscription found.<br>Automatic updates cannot be performed.<br>You may want to purchase a Shopware subscription via the <a target=\"_blank\" href=\"https://account.shopware.com\">Shopware account page.</a>"
+        "invalidShopwareLicense": "No active Shopware subscription found.<br>Automatic updates cannot be performed.<br>You may want to purchase a Shopware subscription via the <a target=\"_blank\" href=\"https://account.haokeyingxiao.com\">Shopware account page.</a>"
       },
       "ready": "Ready",
       "notReady": "Not ready"

@@ -2,7 +2,7 @@
 title: Prepared payment handler interface
 issue: NEXT-17156
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com 
+author_email: l.tinkloh@haokeyingxiao.com 
 author_github: @lernhart
 ---
 # Core

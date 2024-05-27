@@ -2,7 +2,7 @@
 title: Consider inheritance for boolean config values
 issue: NEXT-9639
 author: Philip Gatzka
-author_email: p.gatzka@shopware.com 
+author_email: p.gatzka@haokeyingxiao.com 
 author_github: @philipgatzka
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Image Slider preview broken in administration shopping experiences
 issue: NEXT-35103
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: Niklas Limberg
 ---
 # Administration

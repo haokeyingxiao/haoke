@@ -2,7 +2,7 @@
 title: Prevent app & share icon to override the favicon
 issue: NEXT-13145
 author: Patrick Stahl
-author_email: p.stahl@shopware.com 
+author_email: p.stahl@haokeyingxiao.com 
 author_github: PaddyS
 ---
 # Storefront

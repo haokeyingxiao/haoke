@@ -2,7 +2,7 @@
 title: Dispatch AppDeletedEvent once
 issue: NEXT-14380
 author: Sebastian Hölscher
-author_email: s.hoelscher@shopware.com
+author_email: s.hoelscher@haokeyingxiao.com
 author_github: HoelShare 
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Remove deprecations along with removal of the feature flag of rule assignment tab
 issue: NEXT-12461
 author: Ramona Schwering
-author_email: r.schwering@shopware.com 
+author_email: r.schwering@haokeyingxiao.com 
 author_github: leichteckig
 ---
 # Administration

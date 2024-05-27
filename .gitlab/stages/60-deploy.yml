@@ -25,7 +25,7 @@ Publish entity-schema-types NPM package:
   tags:
     - shopware-multi-arch
   image:
-    name: gitlab.shopware.com:5005/infrastructure/docker-base/ci
+    name: gitlab.haokeyingxiao.com:5005/infrastructure/docker-base/ci
   needs:
     - job: "split repository"
       artifacts: false
@@ -63,20 +63,20 @@ push split repositories (gitlab):
       when: manual # Allow pushing test-tags & -branches to internal repositories
   environment:
     name: "Gitlab - Manyrepos"
-    url: "https://gitlab.shopware.com/shopware/6/product/many-repositories"
+    url: "https://gitlab.haokeyingxiao.com/shopware/6/product/many-repositories"
   variables:
-    REMOTE_BASE_URL: "https://bot:${GITLAB_MANYREPO_SYNC_TOKEN}@gitlab.shopware.com/shopware/6/product/many-repositories"
-    GITLAB_HOST: "gitlab.shopware.com"
+    REMOTE_BASE_URL: "https://bot:${GITLAB_MANYREPO_SYNC_TOKEN}@gitlab.haokeyingxiao.com/shopware/6/product/many-repositories"
+    GITLAB_HOST: "gitlab.haokeyingxiao.com"
     GITLAB_TOKEN: "${CI_GITLAB_API_TOKEN}"
     CI_COMMENT_MESSAGE: |
       The following testing branches have been created for you:
 
-      - [administration:tmp-${CI_COMMIT_SHORT_SHA}](https://gitlab.shopware.com/shopware/6/product/many-repositories/administration/-/tree/tmp-${CI_COMMIT_SHORT_SHA})
-      - [storefront:tmp-${CI_COMMIT_SHORT_SHA}](https://gitlab.shopware.com/shopware/6/product/many-repositories/storefront/-/tree/tmp-${CI_COMMIT_SHORT_SHA})
-      - [core:tmp-${CI_COMMIT_SHORT_SHA}](https://gitlab.shopware.com/shopware/6/product/many-repositories/core/-/tree/tmp-${CI_COMMIT_SHORT_SHA})
-      - [elasticsearch:tmp-${CI_COMMIT_SHORT_SHA}](https://gitlab.shopware.com/shopware/6/product/many-repositories/elasticsearch/-/tree/tmp-${CI_COMMIT_SHORT_SHA})
+      - [administration:tmp-${CI_COMMIT_SHORT_SHA}](https://gitlab.haokeyingxiao.com/shopware/6/product/many-repositories/administration/-/tree/tmp-${CI_COMMIT_SHORT_SHA})
+      - [storefront:tmp-${CI_COMMIT_SHORT_SHA}](https://gitlab.haokeyingxiao.com/shopware/6/product/many-repositories/storefront/-/tree/tmp-${CI_COMMIT_SHORT_SHA})
+      - [core:tmp-${CI_COMMIT_SHORT_SHA}](https://gitlab.haokeyingxiao.com/shopware/6/product/many-repositories/core/-/tree/tmp-${CI_COMMIT_SHORT_SHA})
+      - [elasticsearch:tmp-${CI_COMMIT_SHORT_SHA}](https://gitlab.haokeyingxiao.com/shopware/6/product/many-repositories/elasticsearch/-/tree/tmp-${CI_COMMIT_SHORT_SHA})
 
-      More info on how to use these branches can be found in the [handbook](https://handbook.shopware.com/Product/Guides/Engineering/Platform/PipelineTestSuite/PrivateComposerRegistry#creating-branches-for-testing).
+      More info on how to use these branches can be found in the [handbook](https://handbook.haokeyingxiao.com/Product/Guides/Engineering/Platform/PipelineTestSuite/PrivateComposerRegistry#creating-branches-for-testing).
 
       ---
 

@@ -2,7 +2,7 @@
 title: Removed hard coded dependency on redis in shopware config
 issue: NEXT-34648
 author: Jozsef Damokos
-author_email: j.damokos@shopware.com
+author_email: j.damokos@haokeyingxiao.com
 author_github: jozsefdamokos
 ---
 # Core

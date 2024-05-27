@@ -117,12 +117,12 @@ class ImageTypeDataResolverTest extends TestCase
         $result = new ElementDataCollection();
 
         $fieldConfig = new FieldConfigCollection();
-        $fieldConfig->add(new FieldConfig('url', FieldConfig::SOURCE_STATIC, 'http://shopware.com/image.jpg'));
+        $fieldConfig->add(new FieldConfig('url', FieldConfig::SOURCE_STATIC, 'http://haokeyingxiao.com/image.jpg'));
 
         $slot = new CmsSlotEntity();
         $slot->setUniqueIdentifier('id');
         $slot->setType('image');
-        $slot->setConfig(['url' => 'http://shopware.com/image.jpg']);
+        $slot->setConfig(['url' => 'http://haokeyingxiao.com/image.jpg']);
         $slot->setFieldConfig($fieldConfig);
 
         $this->imageResolver->enrich($slot, $resolverContext, $result);
@@ -130,7 +130,7 @@ class ImageTypeDataResolverTest extends TestCase
         /** @var ImageStruct|null $imageStruct */
         $imageStruct = $slot->getData();
         static::assertInstanceOf(ImageStruct::class, $imageStruct);
-        static::assertSame('http://shopware.com/image.jpg', $imageStruct->getUrl());
+        static::assertSame('http://haokeyingxiao.com/image.jpg', $imageStruct->getUrl());
         static::assertEmpty($imageStruct->getMedia());
         static::assertEmpty($imageStruct->getMediaId());
     }
@@ -141,13 +141,13 @@ class ImageTypeDataResolverTest extends TestCase
         $result = new ElementDataCollection();
 
         $fieldConfig = new FieldConfigCollection();
-        $fieldConfig->add(new FieldConfig('url', FieldConfig::SOURCE_STATIC, 'http://shopware.com/image.jpg'));
+        $fieldConfig->add(new FieldConfig('url', FieldConfig::SOURCE_STATIC, 'http://haokeyingxiao.com/image.jpg'));
         $fieldConfig->add(new FieldConfig('newTab', FieldConfig::SOURCE_STATIC, true));
 
         $slot = new CmsSlotEntity();
         $slot->setUniqueIdentifier('id');
         $slot->setType('image');
-        $slot->setConfig(['url' => 'http://shopware.com/image.jpg']);
+        $slot->setConfig(['url' => 'http://haokeyingxiao.com/image.jpg']);
         $slot->setFieldConfig($fieldConfig);
 
         $this->imageResolver->enrich($slot, $resolverContext, $result);
@@ -155,7 +155,7 @@ class ImageTypeDataResolverTest extends TestCase
         /** @var ImageStruct|null $imageStruct */
         $imageStruct = $slot->getData();
         static::assertInstanceOf(ImageStruct::class, $imageStruct);
-        static::assertSame('http://shopware.com/image.jpg', $imageStruct->getUrl());
+        static::assertSame('http://haokeyingxiao.com/image.jpg', $imageStruct->getUrl());
         static::assertTrue($imageStruct->getNewTab());
         static::assertEmpty($imageStruct->getMedia());
         static::assertEmpty($imageStruct->getMediaId());
@@ -221,12 +221,12 @@ class ImageTypeDataResolverTest extends TestCase
 
         $fieldConfig = new FieldConfigCollection();
         $fieldConfig->add(new FieldConfig('media', FieldConfig::SOURCE_STATIC, 'media123'));
-        $fieldConfig->add(new FieldConfig('url', FieldConfig::SOURCE_STATIC, 'http://shopware.com/image.jpg'));
+        $fieldConfig->add(new FieldConfig('url', FieldConfig::SOURCE_STATIC, 'http://haokeyingxiao.com/image.jpg'));
 
         $slot = new CmsSlotEntity();
         $slot->setUniqueIdentifier('id');
         $slot->setType('image');
-        $slot->setConfig(['mediaId' => 'media123', 'url' => 'http://shopware.com/image.jpg']);
+        $slot->setConfig(['mediaId' => 'media123', 'url' => 'http://haokeyingxiao.com/image.jpg']);
         $slot->setFieldConfig($fieldConfig);
 
         $this->imageResolver->enrich($slot, $resolverContext, $result);
@@ -234,7 +234,7 @@ class ImageTypeDataResolverTest extends TestCase
         /** @var ImageStruct|null $imageStruct */
         $imageStruct = $slot->getData();
         static::assertInstanceOf(ImageStruct::class, $imageStruct);
-        static::assertSame('http://shopware.com/image.jpg', $imageStruct->getUrl());
+        static::assertSame('http://haokeyingxiao.com/image.jpg', $imageStruct->getUrl());
         static::assertInstanceOf(MediaEntity::class, $imageStruct->getMedia());
         static::assertSame('media123', $imageStruct->getMediaId());
         static::assertSame($media, $imageStruct->getMedia());
@@ -386,7 +386,7 @@ class ImageTypeDataResolverTest extends TestCase
     public function testUrlWithLocal(): void
     {
         $manufacturer = new ProductManufacturerEntity();
-        $manufacturer->setLink('http://shopware.com');
+        $manufacturer->setLink('http://haokeyingxiao.com');
 
         $product = new ProductEntity();
         $product->setManufacturer($manufacturer);

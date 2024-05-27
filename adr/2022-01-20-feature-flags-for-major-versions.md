@@ -124,7 +124,7 @@ When you want to toggle different parts of the template you can use the flag in 
 
 ### Using flags in config.xml
 
-When you want to toggle config input fields in config.xml like [basicInformation.xml](https://gitlab.shopware.com/shopware/6/product/platform/-/blob/trunk/src/Core/System/Resources/config/basicInformation.xml), you can add a `flag` element like this:
+When you want to toggle config input fields in config.xml like [basicInformation.xml](https://gitlab.haokeyingxiao.com/shopware/6/product/platform/-/blob/trunk/src/Core/System/Resources/config/basicInformation.xml), you can add a `flag` element like this:
 
 ```xml
 <input-field type="bool" flag="v6.5.0.0">

@@ -2,7 +2,7 @@
 title: Preventing non-admin users from creating integrations with administrator role
 issue: NEXT-14883
 author: Markus Velt
-author_email: m.velt@shopware.com 
+author_email: m.velt@haokeyingxiao.com 
 author_github: @raknison
 ---
 # Core

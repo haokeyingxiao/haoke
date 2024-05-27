@@ -2,7 +2,7 @@
 title: Replace sw-loader with GPU variant
 issue: NEXT-17344
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

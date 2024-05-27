@@ -2,7 +2,7 @@
 title: Make administration compatible to node 18
 issue: NEXT-23904
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Fix keep editing in category module
 issue: NEXT-13005
 author: Tobias Berge
-author_email: t.berge@shopware.com 
+author_email: t.berge@haokeyingxiao.com 
 author_github: @tobiasberge
 ---
 # Administration

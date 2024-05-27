@@ -2,7 +2,7 @@
 title: Changed styling for link to the search configuration
 issue: NEXT-19799
 author: Luka Brlek
-author_email: l.brlek@shopware.com
+author_email: l.brlek@haokeyingxiao.com
 author_github: Luka Brlek
 ---
 # Administration

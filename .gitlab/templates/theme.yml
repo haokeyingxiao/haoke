@@ -1,5 +1,5 @@
 # This is a CI/CD template for shopware themes
-# - SwagThemeTemplate: https://gitlab.shopware.com/shopware/6/templates/swagthemetemplate/-/blob/trunk/.gitlab-ci.yml
+# - SwagThemeTemplate: https://gitlab.haokeyingxiao.com/shopware/6/templates/swagthemetemplate/-/blob/trunk/.gitlab-ci.yml
 # - gitlab docs: https://docs.gitlab.com/ee/ci/yaml/#include
 
 stages:
@@ -51,7 +51,7 @@ variables:
         description: 'Browser to use for cypress tests. Possible values: "chrome", "firefox", "electron"'
     PLUGIN_DEPENDENCIES:
         value: '[]'
-        description: 'Plugin dependencies. Defined in json. Example: [{ "name": "SwagPayPal", "url": "gitlab.shopware.com/shopware/6/services/paypal", "branch": "master" }]'
+        description: 'Plugin dependencies. Defined in json. Example: [{ "name": "SwagPayPal", "url": "gitlab.haokeyingxiao.com/shopware/6/services/paypal", "branch": "master" }]'
     COMPOSER_DEPENDENCIES:
         value: '[]'
         description: 'Additional composer dependencies. Defined in json. Example: ["theiconic/name-parser", "amzn/amazon-pay-api-sdk-php:2.2.1"]'
@@ -134,7 +134,7 @@ default:
         - zip -rq theme.zip .
         - mv theme.zip /tmp/theme.zip
         - rm -Rf .* * || true
-        - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.shopware.com/shopware/6/product/platform.git . --branch $PLATFORM_BRANCH
+        - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.haokeyingxiao.com/shopware/6/product/platform.git . --branch $PLATFORM_BRANCH
         - mkdir -p custom/apps || true
         - unzip -q /tmp/theme.zip -d custom/apps/$THEME_NAME
         - *base_install
@@ -259,7 +259,7 @@ cypress:
     before_script:
         - *base_env_vars
         - mv "$THEME_NAME.zip" /tmp/theme.zip
-        - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.shopware.com/shopware/6/product/platform.git . --branch $PLATFORM_BRANCH
+        - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.haokeyingxiao.com/shopware/6/product/platform.git . --branch $PLATFORM_BRANCH
         - mkdir -p custom/apps || true
         - unzip -q /tmp/theme.zip -d custom/apps
         - *base_install
@@ -299,8 +299,8 @@ cypress:
 upload zip to store:
     stage: deploy
     environment:
-        name: account.shopware.com
-        url: 'https://account.shopware.com'
+        name: account.haokeyingxiao.com
+        url: 'https://account.haokeyingxiao.com'
     image:
         name: ghcr.io/friendsofshopware/platform-plugin-dev:v6.4.13
         entrypoint: [""]

@@ -2,7 +2,7 @@
 title: Authorized transaction state allows payment method change
 issue: NEXT-16229
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com 
+author_email: l.tinkloh@haokeyingxiao.com 
 author_github: @lernhart
 ---
 # Core

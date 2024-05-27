@@ -2,7 +2,7 @@
 title: Update npm packages
 issue: NEXT-16035
 author: Raoul Kramer
-author_email: r.kramer@shopware.com 
+author_email: r.kramer@haokeyingxiao.com 
 author_github: djpogo
 ---
 # Administration

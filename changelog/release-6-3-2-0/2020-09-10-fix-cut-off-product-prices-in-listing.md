@@ -2,7 +2,7 @@
 title:              Fix cut off product prices in listing
 issue:              NEXT-9055
 author:             Markus Velt
-author_email:       m.velt@shopware.com
+author_email:       m.velt@haokeyingxiao.com
 author_github:      @raknison
 ---
 # Storefront

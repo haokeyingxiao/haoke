@@ -2,7 +2,7 @@
 title: Batch cart price calculation
 issue: NEXT-31153
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

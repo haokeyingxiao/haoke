@@ -61,7 +61,7 @@ With 6.4.6.0 we have implemented a rate limit by default to reduce the risk of b
 ### Rate Limiter configuration
 
 The confiuration for the rate limit can be found in the `shopware.yaml` under the map `shopware.api.rate_limiter`.
-More information about the configuration can be found at the [developer documentation](https://developer.shopware.com/docs/guides/hosting/infrastructure/rate-limiter).
+More information about the configuration can be found at the [developer documentation](https://developer.haokeyingxiao.com/docs/guides/hosting/infrastructure/rate-limiter).
 Below you can find an example configuration.
 
 ```yaml
@@ -81,4 +81,4 @@ shopware:
             interval: '60 seconds'
 ```
 
-If you plan to create your own rate limits, head over to our [developer documentation](https://developer.shopware.com/docs/guides/plugins/plugins/framework/rate-limiter/add-rate-limiter-to-api-route).
+If you plan to create your own rate limits, head over to our [developer documentation](https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/framework/rate-limiter/add-rate-limiter-to-api-route).

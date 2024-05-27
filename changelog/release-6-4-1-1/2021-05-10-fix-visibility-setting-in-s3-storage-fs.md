@@ -2,7 +2,7 @@
 title: fix visibility setting in s3 storage fs
 issue: NEXT-14744
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

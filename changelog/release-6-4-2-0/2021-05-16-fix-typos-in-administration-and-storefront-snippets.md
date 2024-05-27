@@ -2,7 +2,7 @@
 title: Fix typos in Administration and Storefront snippets
 issue: NEXT-15290
 author: Kai Neuwerth
-author_email: k.neuwerth@shopware.com
+author_email: k.neuwerth@haokeyingxiao.com
 ---
 # Administration
 * Changed snippet identifier `global.sw-multi-tag-ip-select.addIpAdress` to `global.sw-multi-tag-ip-select.addIpAddress`, due to a typo fix.

@@ -2,7 +2,7 @@
 title: Clean-up temp files after use of MediaService
 issue: NEXT-11827
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Core

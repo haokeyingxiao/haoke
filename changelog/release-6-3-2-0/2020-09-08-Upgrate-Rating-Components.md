@@ -2,7 +2,7 @@
 title: Upgrade rating components
 issue: NEXT-10063
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github:
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Fix Elasticsearch indexer usage of unused languages
 issue: NEXT-16928
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ---
 # Core

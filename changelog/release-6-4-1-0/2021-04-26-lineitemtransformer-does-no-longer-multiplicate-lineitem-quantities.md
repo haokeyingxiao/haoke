@@ -2,7 +2,7 @@
 title: LineItemTransformer does no longer multiplicate LineItem quantities
 issue: NEXT-14956
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Admin search fix
 issue: NEXT-29389
 author: oskroblin Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Administration

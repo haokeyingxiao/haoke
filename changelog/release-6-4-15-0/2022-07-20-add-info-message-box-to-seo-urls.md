@@ -2,7 +2,7 @@
 title: Add info message box to seo urls
 issue: NEXT-20076
 author: Marcel Hakvoort
-author_email: m.hakvoort@shopware.com
+author_email: m.hakvoort@haokeyingxiao.com
 author_github: @celha
 ---
 # Administration

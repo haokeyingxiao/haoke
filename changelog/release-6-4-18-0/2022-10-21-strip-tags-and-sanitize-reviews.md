@@ -2,7 +2,7 @@
 title: Strip tags and sanitize reviews
 issue: NEXT-23804
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Storefront

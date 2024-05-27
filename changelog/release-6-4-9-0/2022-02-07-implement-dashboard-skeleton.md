@@ -2,7 +2,7 @@
 title: Implement dashboard skeleton
 issue: NEXT-18513
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

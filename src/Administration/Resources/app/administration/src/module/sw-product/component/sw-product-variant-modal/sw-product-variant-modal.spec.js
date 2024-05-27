@@ -9,13 +9,13 @@ function getMedias() {
         {
             id: '1',
             media: {
-                url: 'http://shopware.com/image1.jpg',
+                url: 'http://haokeyingxiao.com/image1.jpg',
             },
         },
         {
             id: '2',
             media: {
-                url: 'http://shopware.com/image2.jpg',
+                url: 'http://haokeyingxiao.com/image2.jpg',
             },
         },
     ];

@@ -2,7 +2,7 @@
 title: Fix deprecation of 'PromotionActionController'
 issue: NEXT-21442
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 author_github: @cyl3x
 ---
 # API

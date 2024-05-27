@@ -2,7 +2,7 @@
 title: Convert rare core components to lazy load
 issue: NEXT-20069
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

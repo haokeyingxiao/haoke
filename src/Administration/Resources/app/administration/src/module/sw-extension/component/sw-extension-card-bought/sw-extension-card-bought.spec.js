@@ -399,7 +399,7 @@ describe('src/module/sw-extension/component/sw-extension-card-bought', () => {
                                 code: 'FRAMEWORK__STORE_ERROR',
                                 detail: 'The download of the extension is not allowed, please purchase a corresponding license or contact the customer service',
                                 meta: {
-                                    documentationLink: 'https://docs.shopware.com/en/shopware-6-en',
+                                    documentationLink: 'https://docs.haokeyingxiao.com/en/shopware-6-en',
                                 },
                                 status: '500',
                                 title: 'Download not allowed',
@@ -442,14 +442,14 @@ describe('src/module/sw-extension/component/sw-extension-card-bought', () => {
             message: 'The download of the extension is not allowed, please purchase a corresponding license or contact the customer service',
             details: null,
             parameters: {
-                documentationLink: 'https://docs.shopware.com/en/shopware-6-en',
+                documentationLink: 'https://docs.haokeyingxiao.com/en/shopware-6-en',
             },
         });
 
         expect(wrapper.find('.sw-extension-card-bought__installation-failed-modal h3').text()).toBe('Download not allowed');
         expect(wrapper.find('.sw-extension-card-bought__installation-failed-modal h3 + p').text())
             .toBe('The download of the extension is not allowed, please purchase a corresponding license or contact the customer service');
-        expect(wrapper.find('.sw-extension-card-bought__installation-failed-modal p > a').text()).toBe('https://docs.shopware.com/en/shopware-6-en');
+        expect(wrapper.find('.sw-extension-card-bought__installation-failed-modal p > a').text()).toBe('https://docs.haokeyingxiao.com/en/shopware-6-en');
     });
 
     describe('test display of rent and trail phase information', () => {

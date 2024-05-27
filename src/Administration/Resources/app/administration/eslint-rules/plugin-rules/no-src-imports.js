@@ -15,7 +15,7 @@ module.exports = {
                         loc: node.source.loc.start,
                         message: `\
 You can't use imports directly from the Shopware Core via "${node.source.value}". \
-Use the global Shopware object directly instead (https://developer.shopware.com/docs/guides/plugins/plugins/administration/the-shopware-object)`,
+Use the global Shopware object directly instead (https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/administration/the-shopware-object)`,
                     });
                 }
             },

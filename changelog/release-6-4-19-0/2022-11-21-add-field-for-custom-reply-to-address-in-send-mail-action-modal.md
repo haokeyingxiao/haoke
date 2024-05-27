@@ -2,7 +2,7 @@
 title: Add field for custom reply-to address in send mail action modal
 issue: NEXT-14677
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Administration

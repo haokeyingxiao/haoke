@@ -2,7 +2,7 @@
 title: Remove app navigation entries app name prefix
 issue: NEXT-20741
 author: Fabian Hüske
-author_email: f.hueske@shopware.com
+author_email: f.hueske@haokeyingxiao.com
 ---
 # Administration
 * Changed `getNavigationFromApp()` in `src/app/service/menu.service.js` to only use `moduleLabel` instead of `appLabel - moduleLabel` to generate the navigation entry label.

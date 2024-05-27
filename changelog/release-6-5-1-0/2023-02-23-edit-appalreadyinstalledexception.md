@@ -1,7 +1,7 @@
 ---
 title: Edit App Already installed Exception
 issue: NEXT-19982
-author: t.goldbach@shopware.com
+author: t.goldbach@haokeyingxiao.com
 ---
 # Core
 * Changed `AppAlreadyInstalledException` class now extends `ShopwareHttpException` instead of `\Exception`.

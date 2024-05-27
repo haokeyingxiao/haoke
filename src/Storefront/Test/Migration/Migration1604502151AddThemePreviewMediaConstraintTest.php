@@ -59,7 +59,7 @@ class Migration1604502151AddThemePreviewMediaConstraintTest extends TestCase
     /**
      * This is a regression test for the problem described in NEXT-12797.
      *
-     * @see https://issues.shopware.com/issues/NEXT-12797
+     * @see https://issues.haokeyingxiao.com/issues/NEXT-12797
      */
     #[TestWith([1])]
     #[TestWith([0])]

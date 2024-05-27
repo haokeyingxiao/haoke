@@ -2,7 +2,7 @@
 title: Document creation button disable
 issue: NEXT-16024
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com 
+author_email: l.tinkloh@haokeyingxiao.com 
 author_github: @lernhart
 ---
 # Administration

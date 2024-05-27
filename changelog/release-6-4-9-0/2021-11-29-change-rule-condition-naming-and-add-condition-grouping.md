@@ -2,7 +2,7 @@
 title: Add condition grouping
 issue: NEXT-17093
 author: Krispin Lütjann
-author_email: k.luetjann@shopware.com 
+author_email: k.luetjann@haokeyingxiao.com 
 author_github: King-of-Babylon
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Vue 3 Fix category module
 issue: NEXT-28992
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

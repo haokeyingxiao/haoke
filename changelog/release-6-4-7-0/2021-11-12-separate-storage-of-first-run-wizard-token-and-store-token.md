@@ -2,7 +2,7 @@
 title: Separate storage of First Run Wizard token and Store token
 issue: NEXT-18549
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com 
+author_email: f.schmitt@haokeyingxiao.com 
 author_github: fschmtt
 ---
 # Core

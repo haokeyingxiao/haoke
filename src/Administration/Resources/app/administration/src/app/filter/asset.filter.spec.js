@@ -22,9 +22,9 @@ describe('src/app/filter/asset.filter.ts', () => {
     });
 
     it('should use the assetsPath from the Context API', () => {
-        Shopware.Context.api.assetsPath = 'https://www.shopware.com/';
+        Shopware.Context.api.assetsPath = 'https://www.haokeyingxiao.com/';
         const result = assetFilter('/test.jpg');
 
-        expect(result).toBe('https://www.shopware.com/test.jpg');
+        expect(result).toBe('https://www.haokeyingxiao.com/test.jpg');
     });
 });

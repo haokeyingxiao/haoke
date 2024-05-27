@@ -2,7 +2,7 @@
 title: Price filter does not work for zero value
 issue: NEXT-16348
 author: Simon Vorgers
-author_email: s.vorgers@shopware.com
+author_email: s.vorgers@haokeyingxiao.com
 author_github: SimonVorgers
 ---
 # Storefront

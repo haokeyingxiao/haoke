@@ -286,7 +286,7 @@ class ProductFeatureBuilder
      * Since it's not intended to display custom field labels outside of the admin at the moment,
      * their labels are indexed by the locale code of the system language (fixed value, not translated).
      *
-     * @see https://issues.shopware.com/issues/NEXT-9321
+     * @see https://issues.haokeyingxiao.com/issues/NEXT-9321
      */
     private function getCustomFieldLabel(CustomFieldEntity $customField): ?string
     {

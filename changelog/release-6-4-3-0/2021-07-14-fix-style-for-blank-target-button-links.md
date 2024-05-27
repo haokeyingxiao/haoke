@@ -2,7 +2,7 @@
 title: Fix style for blank target button links
 issue: NEXT-16203
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

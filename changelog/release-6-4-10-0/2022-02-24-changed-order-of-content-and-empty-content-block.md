@@ -2,7 +2,7 @@
 title: Changed order of content block and empty content block
 issue: NEXT-19798
 author: Luka Brlek
-author_email: l.brlek@shopware.com
+author_email: l.brlek@haokeyingxiao.com
 author_github: Luka Brlek
 ---
 # Administration

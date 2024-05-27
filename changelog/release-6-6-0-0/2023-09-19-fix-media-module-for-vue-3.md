@@ -2,7 +2,7 @@
 title: Fix media module for Vue 3
 issue: NEXT-29001
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

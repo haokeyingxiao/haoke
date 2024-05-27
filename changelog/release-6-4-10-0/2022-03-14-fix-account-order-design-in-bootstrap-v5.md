@@ -2,7 +2,7 @@
 title: Fix account order design in Bootstrap v5
 issue: NEXT-15229
 author: Tobias Berge
-author_email: t.berge@shopware.com
+author_email: t.berge@haokeyingxiao.com
 author_github: @tobiasberge
 ---
 # Storefront

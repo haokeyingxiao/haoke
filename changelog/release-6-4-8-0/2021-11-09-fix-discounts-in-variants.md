@@ -2,7 +2,7 @@
 title: Fix discounts in Variants
 issue: NEXT-10802
 author: Simon Vorgers
-author_email: s.vorgers@shopware.com 
+author_email: s.vorgers@haokeyingxiao.com 
 ---
 # Administration
 * Changed `sw-products-variants-generator` to correctly support negative numbers

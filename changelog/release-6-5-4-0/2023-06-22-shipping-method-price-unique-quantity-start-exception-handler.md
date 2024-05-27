@@ -2,7 +2,7 @@
 title: Shipping method price unique quantity start exception handler
 issue: NEXT-27480
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com
+author_email: l.tinkloh@haokeyingxiao.com
 author_github: @lernhart
 ---
 # Core

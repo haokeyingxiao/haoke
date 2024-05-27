@@ -2,7 +2,7 @@
 title: Show shipping costs discount in offcanvas cart
 issue: NEXT-16805
 author: Jakob Kruse
-author_email: j.kruse@shopware.com
+author_email: j.kruse@haokeyingxiao.com
 author_github: jakob-kruse
 ---
 

@@ -2,7 +2,7 @@
 title: Show cart errors in Offcanvas cart
 issue: NEXT-17677
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ___
 # Storefront

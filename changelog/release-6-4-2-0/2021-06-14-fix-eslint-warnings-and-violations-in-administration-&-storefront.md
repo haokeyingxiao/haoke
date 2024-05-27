@@ -2,7 +2,7 @@
 title: Fix ESLint warnings and violations in Administration & Storefront
 issue: NEXT-11823
 author: Raoul Kramer
-author_email: r.kramer@shopware.com 
+author_email: r.kramer@haokeyingxiao.com 
 author_github: @djpogo
 ---
 # Administration

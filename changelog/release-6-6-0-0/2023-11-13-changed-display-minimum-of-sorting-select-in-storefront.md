@@ -2,7 +2,7 @@
 title: Changed display minimum of sorting select in storefront
 issue: NEXT-30405
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Storefront

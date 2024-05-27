@@ -2,7 +2,7 @@
 title: Prevent of downloading export file in processing state
 issue: NEXT-17070
 author: Krispin Lütjann
-author_email: k.luetjann@shopware.com 
+author_email: k.luetjann@haokeyingxiao.com 
 author_github: King-of-Babylon
 ---
 # Administration

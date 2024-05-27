@@ -2,7 +2,7 @@
 title: Custom Field single select safe option labels
 issue: NEXT-15941
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

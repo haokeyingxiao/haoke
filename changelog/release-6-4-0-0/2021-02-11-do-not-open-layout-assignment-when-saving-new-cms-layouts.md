@@ -2,7 +2,7 @@
 title: Do not open layout assignment when saving new CMS layouts
 issue: NEXT-13175
 author: Tobias Berge
-author_email: t.berge@shopware.com 
+author_email: t.berge@haokeyingxiao.com 
 author_github: @tobiasberge
 ---
 # Administration

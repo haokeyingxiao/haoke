@@ -2,7 +2,7 @@
 title: Improve twig performance
 issue: NEXT-23137
 author: Stefan Sluiter
-author_email: s.sluiter@shopware.com
+author_email: s.sluiter@haokeyingxiao.com
 author_github: ssltg
 ---
 # Core

@@ -67,7 +67,7 @@ describe('Review: Test ACL privileges', () => {
         }
         cy.get('#sw-field--user-email').click();
         cy.get('#sw-field--user-email').clear();
-        cy.get('#sw-field--user-email').type('changed@shopware.com');
+        cy.get('#sw-field--user-email').type('changed@haokeyingxiao.com');
 
         cy.get('.sw-profile__save-action')
             .should('be.visible')
@@ -94,7 +94,7 @@ describe('Review: Test ACL privileges', () => {
 
                 cy.get('#sw-field--user-email')
                     .should('be.visible')
-                    .should('have.value', 'changed@shopware.com');
+                    .should('have.value', 'changed@haokeyingxiao.com');
             });
     });
 });

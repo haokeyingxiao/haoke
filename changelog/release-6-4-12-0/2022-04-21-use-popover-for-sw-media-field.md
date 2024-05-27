@@ -2,7 +2,7 @@
 title: Use popover for sw-media-field
 issue: NEXT-21011
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

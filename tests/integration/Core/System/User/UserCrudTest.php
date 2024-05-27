@@ -30,7 +30,7 @@ class UserCrudTest extends TestCase
             'id' => $userId,
             'username' => 'dummy',
             'password' => 'i am safe',
-            'email' => 'some-guy@shopware.com',
+            'email' => 'some-guy@haokeyingxiao.com',
             'firstName' => 'first',
             'lastName' => 'last',
             'active' => true,

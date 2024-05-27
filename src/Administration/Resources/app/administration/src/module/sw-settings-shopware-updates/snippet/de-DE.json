@@ -43,7 +43,7 @@
         "writeableCheckValid": "Die folgenden Verzeichnisse und Dateien sind beschreibbar:<br/>{checkedDirectories}",
         "writeableCheckFailed": "Die folgenden Verzeichnisse und Dateien sind nicht beschreibbar:<br>{failedDirectories}",
         "validShopwareLicense": "Gültige Shopware-Subscription gefunden. Die Aktualisierung kann nun durchgeführt werden.",
-        "invalidShopwareLicense": "Für Deine Shopware-Version konnte keine aktive Subscription ermittelt werden.<br>Die automatische Aktualisierungen kann somit nicht durchgeführt werden.<br>Eine gültige Shopware-Subscription kannst Du aber jederzeit über den <a href=\"https://account.shopware.com\" target=\"_blank\">Shopware Account buchen.</a>"
+        "invalidShopwareLicense": "Für Deine Shopware-Version konnte keine aktive Subscription ermittelt werden.<br>Die automatische Aktualisierungen kann somit nicht durchgeführt werden.<br>Eine gültige Shopware-Subscription kannst Du aber jederzeit über den <a href=\"https://account.haokeyingxiao.com\" target=\"_blank\">Shopware Account buchen.</a>"
       },
       "ready": "Bereit",
       "notReady": "Nicht bereit"

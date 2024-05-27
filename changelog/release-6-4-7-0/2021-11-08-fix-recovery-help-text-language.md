@@ -2,7 +2,7 @@
 title: Fix recovery help text language
 issue: NEXT-16611
 author: Jakob Kruse
-author_email: j.kruse@shopware.com 
+author_email: j.kruse@haokeyingxiao.com 
 author_github: jakob-kruse
 ---
 # Core

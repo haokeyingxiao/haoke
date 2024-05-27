@@ -1234,7 +1234,7 @@ class AppLifecycleTest extends TestCase
         $allowedHosts = $app->getAllowedHosts();
         static::assertIsArray($allowedHosts);
         static::assertCount(2, $allowedHosts);
-        static::assertContains('shopware.com', $allowedHosts);
+        static::assertContains('haokeyingxiao.com', $allowedHosts);
         static::assertContains('example.com', $allowedHosts);
     }
 

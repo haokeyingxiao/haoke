@@ -2,7 +2,7 @@
 title: Slow query with criteria term
 issue: NEXT-34023
 author: oskroblin Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

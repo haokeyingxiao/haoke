@@ -2,7 +2,7 @@
 title: Implement mt-email-field
 issue: NEXT-34294
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

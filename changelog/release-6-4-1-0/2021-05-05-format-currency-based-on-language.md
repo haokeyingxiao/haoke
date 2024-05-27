@@ -2,7 +2,7 @@
 title: Format currency based on language
 issue: NEXT-11915
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

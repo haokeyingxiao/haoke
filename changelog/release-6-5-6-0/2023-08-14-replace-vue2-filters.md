@@ -2,7 +2,7 @@
 title: Replace Vue 2 filters
 issue: NEXT-29905
 author: Benedikt Schulze Baek
-author_email: b.schulze-baek@shopware.com
+author_email: b.schulze-baek@haokeyingxiao.com
 author_github: bschulzebaek
 ---
 # Administration

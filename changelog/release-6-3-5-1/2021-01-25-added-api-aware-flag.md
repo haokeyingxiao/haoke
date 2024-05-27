@@ -2,7 +2,7 @@
 title: Added api aware flag
 issue: NEXT-13371
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Core

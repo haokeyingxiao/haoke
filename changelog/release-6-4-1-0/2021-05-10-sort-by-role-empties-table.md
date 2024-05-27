@@ -2,7 +2,7 @@
 title: Sort by role empties table
 issue: NEXT-13699
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

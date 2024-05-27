@@ -2,7 +2,7 @@
 title: Secure proxy route to switch customer with ACL
 issue: NEXT-20305
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

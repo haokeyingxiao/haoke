@@ -2,7 +2,7 @@
 title: Escape hyphenated JSON properties in DAL accessor build
 issue: NEXT-15467
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

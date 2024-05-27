@@ -2,7 +2,7 @@
 title: Recalculation with live version
 issue: NEXT-31334
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

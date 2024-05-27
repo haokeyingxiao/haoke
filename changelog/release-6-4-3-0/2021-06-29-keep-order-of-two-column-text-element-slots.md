@@ -2,7 +2,7 @@
 title: Keep order of two column text element slots
 issue: NEXT-15731
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

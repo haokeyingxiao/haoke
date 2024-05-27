@@ -32,7 +32,7 @@ shopware.installer:
     language-selection_select_language: 'Idioma del asistente de instalación'
     language-selection_header: 'Tu instalación de Shopware'
     language-selection_info_message: 'Esta selección solo se aplica al idioma del asistente de instalación. El idioma estándar de sistema de tu tienda lo podrás definir posteriormente.'
-    language-selection_welcome_message: '¡Nos complace que quieras entrar a formar parte de nuestra extraordinaria Shopware Community global! Ahora te acompañaremos paso a paso en el proceso de instalación. Si tienes dudas, echa primero un vistazo en nuestro <a class="is--nowrap" href="https://forum.shopware.com" target="_blank">Foro</a>, contacta con nosotros por teléfono llamando al <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a>, o mándanos un <a class="is--nowrap" href="mailto:info@shopware.com">correo electrónico</a>.'
+    language-selection_welcome_message: '¡Nos complace que quieras entrar a formar parte de nuestra extraordinaria Shopware Community global! Ahora te acompañaremos paso a paso en el proceso de instalación. Si tienes dudas, echa primero un vistazo en nuestro <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">Foro</a>, contacta con nosotros por teléfono llamando al <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a>, o mándanos un <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">correo electrónico</a>.'
     requirements_header: 'Requisitos del sistema'
     requirements_header_files: 'Archivos y directorios'
     requirements_header_system: Sistema
@@ -88,9 +88,9 @@ shopware.installer:
     migration_counter_text_snippets: 'Actualizando bloques de texto'
     migration_update_success: '¡La base de datos se ha importado con éxito!'
     edition_header: '¿Ya tienes una licencia de Shopware?'
-    edition_info: 'Shopware dispone de una edición <a href="https://de.shopware.com/versionen/" target="_blank">Community </a> gratuita, así como de las ediciones <a href="https://de.shopware.com/versionen/" target="_blank">Professional y Enterprise</a> de pago.'
-    edition_ce: 'No, gracias, quiero utilizar la edición <a href="https://de.shopware.com/versionen/" target="_blank">Community</a> gratuita.'
-    edition_cm: 'Sí, tengo una licencia de pago de Shopware (<a href="https://de.shopware.com/versionen/" target="_blank">Professional o Enterprise</a>).'
+    edition_info: 'Shopware dispone de una edición <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community </a> gratuita, así como de las ediciones <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional y Enterprise</a> de pago.'
+    edition_ce: 'No, gracias, quiero utilizar la edición <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community</a> gratuita.'
+    edition_cm: 'Sí, tengo una licencia de pago de Shopware (<a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional o Enterprise</a>).'
     edition_license: 'Introduce aquí tu clave de licencia. La encontrarás en tu cuenta Shopware, en "Licencias" → "Licencias de producto" → "Detalles / Descargar":'
     edition_license_error: 'Para la instalación de una versión Shopware de pago, es necesaria una licencia válida.'
     configuration_header: Configuración
@@ -136,7 +136,7 @@ shopware.installer:
         <p>
             te damos la bienvenida a nuestra comunidad. Has completado con éxito la instalación de Shopware.
         <p>
-            Tu tienda ya está lista para usar. Si eres nuevo/a en Shopware, te recomendamos la guía <a href=\"https://docs.shopware.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">\"Primeros pasos en Shopware\"</a>. Cuando inicies sesión por primera vez en Administración, nuestro asistente de primera ejecución te guiará en el proceso de configuración básica de tu tienda.
+            Tu tienda ya está lista para usar. Si eres nuevo/a en Shopware, te recomendamos la guía <a href=\"https://docs.haokeyingxiao.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">\"Primeros pasos en Shopware\"</a>. Cuando inicies sesión por primera vez en Administración, nuestro asistente de primera ejecución te guiará en el proceso de configuración básica de tu tienda.
         </p>
         <p>
             ¡Que disfrutes de tu nueva tienda online!

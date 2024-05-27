@@ -2,7 +2,7 @@
 title: Update SalesChannel theme assignment
 issue: NEXT-34111
 author: Benedikt Schulze Baek
-author_email: b.schulze-baek@shopware.com
+author_email: b.schulze-baek@haokeyingxiao.com
 author_github: bschulzebaek
 ---
 # Administration

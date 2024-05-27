@@ -2,7 +2,7 @@
 title: Set default target when route does not exist
 issue: NEXT-31474
 author: Björn Meyer
-author_email: b.meyer@shopware.com
+author_email: b.meyer@haokeyingxiao.com
 author_github: BrocksiNet
 ---
 # Storefront

@@ -2,7 +2,7 @@
 title: Exclude internal routes from open api schema 
 issue: NEXT-12538
 author: Stefan Sluiter
-author_email: s.sluiter@shopware.com 
+author_email: s.sluiter@haokeyingxiao.com 
 author_github: @ssltg
 ---
 # Core

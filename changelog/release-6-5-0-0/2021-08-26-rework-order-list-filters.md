@@ -2,7 +2,7 @@
 title: Rework order list filters
 issue: NEXT-16661
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com
+author_email: l.tinkloh@haokeyingxiao.com
 author_github: @lernhart
 ---
 # Administration

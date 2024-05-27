@@ -2,7 +2,7 @@
 title: Deprecation of unused storefront plugins
 issue: NEXT-22118
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Storefront

@@ -353,7 +353,7 @@ EOF;
         $data = [
             'id' => $manufacturer,
             'name' => 'Manufacturer - 1',
-            'link' => 'https://www.shopware.com',
+            'link' => 'https://www.haokeyingxiao.com',
         ];
 
         $this->getBrowser()->request('POST', '/api/product/' . $id . '/manufacturer', [], [], [], json_encode($data, \JSON_THROW_ON_ERROR));
@@ -404,7 +404,7 @@ EOF;
         $data = [
             'id' => $manufacturer,
             'name' => 'Manufacturer - 1',
-            'link' => 'https://www.shopware.com',
+            'link' => 'https://www.haokeyingxiao.com',
         ];
 
         $browser->request('POST', '/api/product/' . $id . '/manufacturer', [], [], [], json_encode($data, \JSON_THROW_ON_ERROR));

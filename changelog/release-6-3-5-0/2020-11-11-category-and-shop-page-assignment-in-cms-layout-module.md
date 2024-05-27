@@ -2,7 +2,7 @@
 title: Category and shop page assignment in CMS layout module
 issue: NEXT-11389
 author: Tobias Berge
-author_email: t.berge@shopware.com 
+author_email: t.berge@haokeyingxiao.com 
 author_github: tobiasberge
 ---
 # Administration

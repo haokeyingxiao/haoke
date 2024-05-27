@@ -2,7 +2,7 @@
 title: Only a maximum of 25 folders in the media area 
 issue: NEXT-20815
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

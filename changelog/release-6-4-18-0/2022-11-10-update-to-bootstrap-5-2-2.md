@@ -2,7 +2,7 @@
 title: Update to Bootstrap 5.2.2
 issue: NEXT-22818
 author: Tobias Berge
-author_email: t.berge@shopware.com
+author_email: t.berge@haokeyingxiao.com
 author_github: @tobiasberge
 ---
 # Storefront

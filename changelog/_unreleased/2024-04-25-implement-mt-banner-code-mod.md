@@ -3,7 +3,7 @@ title: Implement mt-banner code mod
 issue: NEXT-34278
 flag: V6_7_0_0
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

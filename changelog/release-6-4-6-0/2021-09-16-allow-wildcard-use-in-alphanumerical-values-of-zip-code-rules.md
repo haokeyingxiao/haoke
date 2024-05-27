@@ -2,7 +2,7 @@
 title: Allow wildcard use in alphanumerical values of zip code rules
 issue: NEXT-17030
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Remove module sw-my-apps
 issue: NEXT-14065
 author: Sebastian Franze
-author_email: s.franze@shopware.com
+author_email: s.franze@haokeyingxiao.com
 ---
 # Administration
 * Removed module `sw-my-apps`

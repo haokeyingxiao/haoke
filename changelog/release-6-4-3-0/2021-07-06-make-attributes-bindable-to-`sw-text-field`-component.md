@@ -2,7 +2,7 @@
 title: Make attributes bindable to `sw-text-field` component
 issue: NEXT-11376
 author: Raoul Kramer
-author_email: r.kramer@shopware.com 
+author_email: r.kramer@haokeyingxiao.com 
 author_github: Raoul Kramer
 ---
 # Administration

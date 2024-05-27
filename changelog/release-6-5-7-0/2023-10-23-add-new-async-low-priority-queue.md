@@ -2,7 +2,7 @@
 title: Add new low_priority queue
 issue: NEXT-31249
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

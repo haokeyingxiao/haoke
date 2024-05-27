@@ -2,7 +2,7 @@
 title: Fix missing childCount update when deleting variants
 issue: NEXT-11010
 author: Ramona Schwering
-author_email: r.schwering@shopware.com 
+author_email: r.schwering@haokeyingxiao.com 
 author_github: leichteckig
 ---
 # Core

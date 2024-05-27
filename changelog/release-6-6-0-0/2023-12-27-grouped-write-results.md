@@ -2,7 +2,7 @@
 title: Grouped write results
 issue: NEXT-32251
 author: oskroblin Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Added new test stub class `EmptyEntityExistence` for easier testing

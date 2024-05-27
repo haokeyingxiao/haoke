@@ -2,7 +2,7 @@
 title: Added the "transactions" and "deliveries.stateMachineState" properties of an order as options in Import/Export
 issue: NEXT-21544
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Core

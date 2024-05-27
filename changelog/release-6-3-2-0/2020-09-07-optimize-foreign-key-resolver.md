@@ -2,7 +2,7 @@
 title:              Optimize foreign key resolver
 issue:              NEXT-10547
 author:             Oliver Skroblin
-author_email:       o.skroblin@shopware.com
+author_email:       o.skroblin@haokeyingxiao.com
 author_github:      @OliverSkroblin
 ---
 # Core

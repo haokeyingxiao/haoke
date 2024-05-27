@@ -2,7 +2,7 @@
 title: CMS Block visibility race condition
 issue: NEXT-25495
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

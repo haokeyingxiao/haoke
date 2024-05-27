@@ -2,7 +2,7 @@
 title: Build mail attachments on transport
 issue: NEXT-24474
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

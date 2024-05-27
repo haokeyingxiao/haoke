@@ -2,7 +2,7 @@
 title: Add countryState association to mail and document generation
 issue: NEXT-15584
 author: Malte Janz
-author_email: m.janz@shopware.com
+author_email: m.janz@haokeyingxiao.com
 author_github: MalteJanz
 ---
 # Core

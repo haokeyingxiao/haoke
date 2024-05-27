@@ -2,7 +2,7 @@
 title: Enhance sorting on sw-entity-listing
 issue: NEXT-29170
 author: Tam Dao
-author_email: t.dao@shopware.com
+author_email: t.dao@haokeyingxiao.com
 author_github: daothithientamm
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Right ShippingMethod for after order process
 issue: NEXT-16622
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ---
 # Storefront

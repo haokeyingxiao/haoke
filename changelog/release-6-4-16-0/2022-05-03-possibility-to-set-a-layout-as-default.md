@@ -2,7 +2,7 @@
 title: Possibility to set a layout as default
 issue: NEXT-20171
 author: Luka Brlek
-author_email: l.brlek@shopware.com
+author_email: l.brlek@haokeyingxiao.com
 author_github: Luka Brlek
 ---
 # Administration

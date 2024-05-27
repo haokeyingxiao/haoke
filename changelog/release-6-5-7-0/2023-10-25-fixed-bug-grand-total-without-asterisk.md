@@ -2,7 +2,7 @@
 title: Fixed bug grand total without star
 issue: NEXT-30942
 author: Florian Keller
-author_email: f.keller@shopware.com
+author_email: f.keller@haokeyingxiao.com
 
 ---
 # Storefront

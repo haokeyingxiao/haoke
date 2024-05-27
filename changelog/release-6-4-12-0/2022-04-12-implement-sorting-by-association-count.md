@@ -2,7 +2,7 @@
 title: Implement sorting by association count
 issue: NEXT-21006
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Implement error summary
 issue: NEXT-22372
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Added setting to make custom fields exposable in cart
 issue: NEXT-26169
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

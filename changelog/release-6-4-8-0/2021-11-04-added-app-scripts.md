@@ -36,7 +36,7 @@ ___
 # Upgrade Information
 ## AppScripts Feature
 Apps can now include scripts to run synchronous business logic inside the shopware stack.
-Visit the [official documentation](https://developer.shopware.com/docs/guides/plugins/apps) for more information on that feature.
+Visit the [official documentation](https://developer.haokeyingxiao.com/docs/guides/plugins/apps) for more information on that feature.
 ___
 # Upcoming Major Version Changes
 ## CustomerEntity changes

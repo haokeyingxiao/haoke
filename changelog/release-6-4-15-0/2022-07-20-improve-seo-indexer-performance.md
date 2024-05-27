@@ -2,7 +2,7 @@
 title: Improve seo indexer performance
 issue: NEXT-17325
 author: Soner Sayakci
-author_email: s.sayakci@shopware.com
+author_email: s.sayakci@haokeyingxiao.com
 ---
 # Core
 

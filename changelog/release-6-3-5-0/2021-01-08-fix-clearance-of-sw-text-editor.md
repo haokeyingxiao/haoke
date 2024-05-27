@@ -2,7 +2,7 @@
 title: Fix clearance of sw-text-editor
 issue: NEXT-11338
 author: Thorben Pantring
-author_email: t.panting@shopware.com 
+author_email: t.panting@haokeyingxiao.com 
 author_github: pantrtxp
 ---
 ___

@@ -2,7 +2,7 @@
 title: Announce upcoming major version changes for billing and shipping display in the storefront
 issue: NEXT-23935
 author: Tobias Berge
-author_email: t.berge@shopware.com
+author_email: t.berge@haokeyingxiao.com
 author_github: @tobiasberge
 ---
 # Storefront

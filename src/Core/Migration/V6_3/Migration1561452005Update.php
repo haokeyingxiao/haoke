@@ -26,7 +26,7 @@ class Migration1561452005Update extends MigrationStep
         $connection->insert('system_config', [
             'id' => Uuid::randomBytes(),
             'configuration_key' => 'core.update.apiUri',
-            'configuration_value' => '{"_value": "https://update-api.shopware.com"}',
+            'configuration_value' => '{"_value": "https://update-api.haokeyingxiao.com"}',
             'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT),
         ]);
 

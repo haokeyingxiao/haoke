@@ -26,7 +26,7 @@ current_major_alias() {
     return
   fi
 
-  curl -fsSL "https://releases.shopware.com/changelog/index.json" |
+  curl -fsSL "https://releases.haokeyingxiao.com/changelog/index.json" |
     jq -r '[.[] | select(test("[a-zA-Z]") | not)] | first | split(".") | [.[0], .[1], "x-dev"] | join(".")'
 }
 
@@ -44,7 +44,7 @@ custom_version_extensions() {
   set -eu
   local tmpdir="$(mktemp -d)"
 
-  git clone --depth=1 "https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.shopware.com/shopware/6/product/saas.git" "${tmpdir}"
+  git clone --depth=1 "https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.haokeyingxiao.com/shopware/6/product/saas.git" "${tmpdir}"
   composer -d "${tmpdir}" show --locked --outdated --direct --format=json >"${tmpdir}/outdated.json"
 
   jq -r \
@@ -56,7 +56,7 @@ commit_date() {
   local project="${1}"
   local branch="${2}"
 
-  export GITLAB_HOST="gitlab.shopware.com"
+  export GITLAB_HOST="gitlab.haokeyingxiao.com"
 
   glab api "projects/${project}/repository/commits/${branch}" | jq -r '.committed_date' | xargs -I '{}' date -R --date="{}"
 }

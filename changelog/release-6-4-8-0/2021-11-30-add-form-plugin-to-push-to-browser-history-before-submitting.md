@@ -2,7 +2,7 @@
 title: Add form plugin to push to browser history before submitting
 issue: NEXT-15291
 author: Jakob Kruse
-author_email: j.kruse@shopware.com 
+author_email: j.kruse@haokeyingxiao.com 
 author_github: jakob-kruse
 ---
 # API

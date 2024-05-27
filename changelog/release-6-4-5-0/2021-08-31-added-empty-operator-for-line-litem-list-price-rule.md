@@ -2,7 +2,7 @@
 title: Added empty operator for line litem list price rule
 issue: NEXT-16886
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

@@ -29,7 +29,7 @@ describe('src/module/sw-extension/page/sw-extension-config-spec', () => {
                     systemConfigApiService: {
                         getValues: () => {
                             return Promise.resolve({
-                                'core.store.apiUri': 'https://api.shopware.com',
+                                'core.store.apiUri': 'https://api.haokeyingxiao.com',
                                 'core.store.licenseHost': 'sw6.test.shopware.in',
                                 'core.store.shopSecret': 'very.s3cret',
                                 'core.store.shopwareId': 'max@muster.com',
@@ -157,7 +157,7 @@ describe('src/module/sw-extension/page/sw-extension-config-spec', () => {
 
         wrapper.vm.extension = {
             producerName: 'shopware AG',
-            producerWebsite: 'https://www.shopware.com/',
+            producerWebsite: 'https://www.haokeyingxiao.com/',
         };
 
         await wrapper.vm.$nextTick();
@@ -165,7 +165,7 @@ describe('src/module/sw-extension/page/sw-extension-config-spec', () => {
         expect(meta.text()).toContain('sw-extension-store.component.sw-extension-config.labelBy');
 
         const metaLink = wrapper.get('.sw-extension-config__producer-link');
-        expect(metaLink.attributes().href).toBe('https://www.shopware.com/');
+        expect(metaLink.attributes().href).toBe('https://www.haokeyingxiao.com/');
         expect(metaLink.text()).toBe('shopware AG');
     });
 

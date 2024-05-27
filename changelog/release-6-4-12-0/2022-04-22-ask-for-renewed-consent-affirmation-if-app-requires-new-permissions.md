@@ -2,7 +2,7 @@
 title: Ask for renewed consent affirmation if app requires new permissions
 issue: NEXT-19353
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

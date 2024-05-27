@@ -2,7 +2,7 @@
 title: Fix adding products with search term in entity multi id select
 issue: NEXT-16806
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

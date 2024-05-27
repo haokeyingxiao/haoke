@@ -2,7 +2,7 @@
 title: Add main category
 issue: NEXT-31342
 author: oskroblin Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Added `mainCategories` association, with current sales channel id filter, in `\Shopware\Storefront\Framework\Seo\SeoUrlRoute\ProductPageSeoUrlRoute::prepareCriteria`

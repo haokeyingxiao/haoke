@@ -2,7 +2,7 @@
 title: Added DPG empty filter for product cover image
 issue: NEXT-17335
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

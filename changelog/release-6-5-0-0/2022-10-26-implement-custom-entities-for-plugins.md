@@ -2,7 +2,7 @@
 title: Implement custom entities for plugins
 issue: NEXT-22734
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Core

@@ -119,7 +119,7 @@ After:
 ```bash
 php bin/console messenger:consume async low_priority
 ```
-**Note:** This is not required if you use the [`admin_worker`](https://developer.shopware.com/docs/guides/plugins/plugins/framework/message-queue/add-message-handler.html#the-admin-worker), however the admin worker should only be used in local dev or test environments, and never be used in production or production-like environments.
+**Note:** This is not required if you use the [`admin_worker`](https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/framework/message-queue/add-message-handler.html#the-admin-worker), however the admin worker should only be used in local dev or test environments, and never be used in production or production-like environments.
 
 ## Configure another transport for the "low priority" queue
 The transport defaults to use Doctrine. You can use the `MESSENGER_TRANSPORT_LOW_PRIORITY_DSN` environment variable to change it.
@@ -412,7 +412,7 @@ class MyScheduledTaskHandler extends ScheduledTaskHandler
 # General Administration Breaking Changes
 
 ## Vue 3 upgrade
-We upgraded to Vue 3, for details check out our [upgrade guide](https://developer.shopware.com/docs/resources/references/upgrades/administration/vue3.html#vue-3-upgrade).
+We upgraded to Vue 3, for details check out our [upgrade guide](https://developer.haokeyingxiao.com/docs/resources/references/upgrades/administration/vue3.html#vue-3-upgrade).
 
 ## Webpack 5 upgrade
 If your plugin uses a custom webpack configuration, you need to update the configuration to the new Webpack 5 API.
@@ -1660,7 +1660,7 @@ Due to a Vue 3 limitation the `v-tooltip` directive no longer supports component
 ```html
 <div
     v-tooltip="{
-        message: 'For more information click <a href=\"https://shopware.com\">here</a>.',
+        message: 'For more information click <a href=\"https://haokeyingxiao.com\">here</a>.',
     }"
 </div>
 ```
@@ -1669,7 +1669,7 @@ Due to a Vue 3 limitation the `v-tooltip` directive no longer supports component
 ```html
 <div
     v-tooltip="{
-        message: 'For more information visit shopware.com',
+        message: 'For more information visit haokeyingxiao.com',
     }"
 </div>
 ```

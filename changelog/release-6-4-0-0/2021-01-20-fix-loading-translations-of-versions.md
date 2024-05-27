@@ -2,7 +2,7 @@
 title: Translations of versions are not reliable read through the DAL
 issue: NEXT-13274
 author: Jan Pietrzyk
-author_email: j.pietrzyk@shopware.com
+author_email: j.pietrzyk@haokeyingxiao.com
 author_github: JanPietrzyk
 ---
 # Core

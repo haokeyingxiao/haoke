@@ -2,7 +2,7 @@
 title: Added newsletter recipient rule and indexer
 issue: NEXT-13720
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

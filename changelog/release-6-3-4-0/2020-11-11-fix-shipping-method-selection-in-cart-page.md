@@ -2,7 +2,7 @@
 title: Fix shipping method selection in cart page
 issue: NEXT-11960
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: Oliver Skroblin
 ---
 # Storefront

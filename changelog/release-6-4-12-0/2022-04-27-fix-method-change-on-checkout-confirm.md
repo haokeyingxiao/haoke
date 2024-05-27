@@ -2,7 +2,7 @@
 title: Fix method changes on checkout confirm page
 issue: NEXT-20216
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 # Storefront
 * Changed `frontend.checkout.confirm.page` to correctly reload, if the payment or shipping method has been automatically switched.

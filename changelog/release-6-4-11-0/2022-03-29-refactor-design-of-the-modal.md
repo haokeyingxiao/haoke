@@ -2,7 +2,7 @@
 title: Refactor design of the modal
 issue: NEXT-20599
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: @jleifeld
 ---
 # Administration

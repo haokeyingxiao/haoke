@@ -3,7 +3,7 @@ title: Fix media resolution in themes
 issue: NEXT-19048
 author: Niklas Limberg
 author_github: NiklasLimberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 ---
 # Storefront
 * Changed `Shopware\Storefront\Theme\ConfigLoader\DatabaseConfigLoader::resolveMediaIds` to fill the correct property in the theme config

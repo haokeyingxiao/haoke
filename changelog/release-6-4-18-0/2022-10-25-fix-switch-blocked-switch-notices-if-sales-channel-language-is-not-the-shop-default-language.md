@@ -2,7 +2,7 @@
 title: Fix switch blocked switch notices if sales channel language is not the shop default language
 issue: NEXT-23762
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 author_github: @cyl3x
 ---
 # API

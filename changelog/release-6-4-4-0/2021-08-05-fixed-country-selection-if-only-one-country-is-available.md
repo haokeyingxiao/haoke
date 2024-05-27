@@ -2,7 +2,7 @@
 title: Fixed country selection if only one country is available
 issue: NEXT-16315
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com 
+author_email: l.tinkloh@haokeyingxiao.com 
 author_github: @lernhart
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Add feature flag support for Storefront SCSS
 issue: NEXT-19448
 author: Tobias Berge
-author_email: t.berge@shopware.com
+author_email: t.berge@haokeyingxiao.com
 author_github: @tobiasberge
 ---
 # Core

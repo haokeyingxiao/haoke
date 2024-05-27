@@ -41,7 +41,7 @@ class UserProvisioner
             'id' => Uuid::randomBytes(),
             'first_name' => $additionalData['firstName'] ?? '',
             'last_name' => $additionalData['lastName'] ?? $username,
-            'email' => $additionalData['email'] ?? 'info@shopware.com',
+            'email' => $additionalData['email'] ?? 'info@haokeyingxiao.com',
             'username' => $username,
             'password' => password_hash($password, \PASSWORD_BCRYPT),
             'locale_id' => $additionalData['localeId'] ?? $this->getLocaleOfSystemLanguage(),

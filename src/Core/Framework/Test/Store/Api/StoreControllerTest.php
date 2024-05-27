@@ -59,7 +59,7 @@ class StoreControllerTest extends TestCase
     public function testLoginWithCorrectCredentials(): void
     {
         $request = new Request([], [
-            'shopwareId' => 'j.doe@shopware.com',
+            'shopwareId' => 'j.doe@haokeyingxiao.com',
             'password' => 'v3rys3cr3t',
         ]);
 
@@ -71,7 +71,7 @@ class StoreControllerTest extends TestCase
         $storeClientMock = $this->createMock(StoreClient::class);
         $storeClientMock->expects(static::once())
             ->method('loginWithShopwareId')
-            ->with('j.doe@shopware.com', 'v3rys3cr3t');
+            ->with('j.doe@haokeyingxiao.com', 'v3rys3cr3t');
 
         $storeController = $this->getStoreController($storeClientMock);
 
@@ -84,7 +84,7 @@ class StoreControllerTest extends TestCase
     public function testLoginWithInvalidCredentials(): void
     {
         $request = new Request([], [
-            'shopwareId' => 'j.doe@shopware.com',
+            'shopwareId' => 'j.doe@haokeyingxiao.com',
             'password' => 'v3rys3cr3t',
         ]);
 
@@ -149,7 +149,7 @@ class StoreControllerTest extends TestCase
         $response = json_decode($response, true, 512, \JSON_THROW_ON_ERROR);
         static::assertEquals($response['userInfo'], [
             'name' => 'John Doe',
-            'email' => 'john.doe@shopware.com',
+            'email' => 'john.doe@haokeyingxiao.com',
         ]);
     }
 
@@ -172,7 +172,7 @@ class StoreControllerTest extends TestCase
             'localeId' => $adminUser->getLocaleId(),
             'username' => 'admin-two',
             'password' => 's3cr3t12345',
-            'email' => 'jane.doe@shopware.com',
+            'email' => 'jane.doe@haokeyingxiao.com',
         ]], $this->defaultContext);
 
         $storeController = $this->getStoreController();
@@ -184,7 +184,7 @@ class StoreControllerTest extends TestCase
         $response = json_decode($response, true, 512, \JSON_THROW_ON_ERROR);
         static::assertEquals($response['userInfo'], [
             'name' => 'John Doe',
-            'email' => 'john.doe@shopware.com',
+            'email' => 'john.doe@haokeyingxiao.com',
         ]);
     }
 
@@ -214,7 +214,7 @@ class StoreControllerTest extends TestCase
         $storeClient->method('userInfo')
             ->willReturn([
                 'name' => 'John Doe',
-                'email' => 'john.doe@shopware.com',
+                'email' => 'john.doe@haokeyingxiao.com',
             ]);
 
         return $storeClient;

@@ -2,7 +2,7 @@
 title: Use entity name to determine source of slot config in contact form submit
 issue: NEXT-15703
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

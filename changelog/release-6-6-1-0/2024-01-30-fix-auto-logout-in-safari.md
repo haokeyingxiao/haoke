@@ -2,7 +2,7 @@
 title: Fix auto logout in Safari
 issue: NEXT-33394
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

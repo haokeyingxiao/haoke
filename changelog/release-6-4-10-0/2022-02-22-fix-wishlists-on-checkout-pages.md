@@ -2,7 +2,7 @@
 title: Fix wishlists on checkout pages
 issue: NEXT-20167
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com
+author_email: l.tinkloh@haokeyingxiao.com
 author_github: @lernhart
 ---
 # Storefront

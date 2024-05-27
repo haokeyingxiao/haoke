@@ -2,7 +2,7 @@
 title:              Ensure that fields will always be disabled if the user has only viewer rights 
 issue:              NEXT-11042
 author:             Ramona Schwering
-author_email:       r.schwering@shopware.com
+author_email:       r.schwering@haokeyingxiao.com
 author_github:      @leichteckig
 ---
 # Administration

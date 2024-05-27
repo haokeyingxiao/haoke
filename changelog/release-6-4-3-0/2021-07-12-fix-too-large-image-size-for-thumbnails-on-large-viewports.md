@@ -2,7 +2,7 @@
 title: Fix too large image size for thumbnails on large viewports
 issue: NEXT-15921
 author: Tobias Berge
-author_email: t.berge@shopware.com 
+author_email: t.berge@haokeyingxiao.com 
 author_github: @tobiasberge
 ---
 # Storefront

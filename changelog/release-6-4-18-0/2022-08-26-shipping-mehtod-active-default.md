@@ -2,7 +2,7 @@
 title: Change default value for active field in shipping_method table
 issue: NEXT-21286
 author: Dennis Garding
-author_email: d.garding@shopware.com
+author_email: d.garding@haokeyingxiao.com
 ---
 
 # Core

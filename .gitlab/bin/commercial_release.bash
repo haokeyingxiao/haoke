@@ -4,7 +4,7 @@ set -x
 set -e
 
 PLATFORM_TAG=$1
-COMMERCIAL_REMOTE_URL=${2:-"https://gitlab.shopware.com/shopware/6/product/commercial"}
+COMMERCIAL_REMOTE_URL=${2:-"https://gitlab.haokeyingxiao.com/shopware/6/product/commercial"}
 COMMERCIAL_VERSION="$(echo ${PLATFORM_TAG} | cut -d '.' -f2,3,4)"
 COMMERCIAL_TAG="v${COMMERCIAL_VERSION}"
 

@@ -1,8 +1,8 @@
 {
-    "name": "shopware/administration",
-    "description": "Administration frontend for the Shopware Core",
+    "name": "haokeyingxiao/administration",
+    "description": "Administration frontend for the HaoKe Core",
     "type": "library",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
             "Shopware\\Administration\\": ""
@@ -12,11 +12,11 @@
         "sort-packages": true
     },
     "support": {
-        "issues": "https://issues.shopware.com",
-        "forum": "https://forum.shopware.com",
-        "wiki": "https://developer.shopware.com",
-        "docs": "https://developer.shopware.com",
-        "chat": "https://slack.shopware.com"
+        "issues": "https://issues.haokeyingxiao.com",
+        "forum": "https://forum.haokeyingxiao.com",
+        "wiki": "https://developer.haokeyingxiao.com",
+        "docs": "https://developer.haokeyingxiao.com",
+        "chat": "https://slack.haokeyingxiao.com"
     },
     "extra": {
         "branch-alias": {
@@ -27,7 +27,7 @@
     "require": {
         "php": "~8.2.0 || ~8.3.0",
         "doctrine/dbal": "^3.7",
-        "shopware/core": "*",
+        "haokeyingxiao/core": "*",
         "symfony/framework-bundle": "~7.0.0",
         "symfony/http-foundation": "~7.0.0",
         "symfony/routing": "~7.0.0",

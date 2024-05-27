@@ -2,7 +2,7 @@
 title: Link component library icons to new icon set
 issue: NEXT-25976
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

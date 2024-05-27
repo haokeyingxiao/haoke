@@ -2,7 +2,7 @@
 title: Update Storefront to Bootstrap 5
 issue: NEXT-15229
 author: Tobias Berge
-author_email: t.berge@shopware.com 
+author_email: t.berge@haokeyingxiao.com 
 author_github: @tobiasberge
 ---
 # Storefront
@@ -410,7 +410,7 @@ This is the recommended method for all apps/themes which do not have control ove
 * Do **not** use the `{{ parent() }}` call. This prevents multiple usages of jQuery. Even if multiple other plugins/apps use this method, the jQuery script will only be added once.
 * Please use jQuery version `3.5.1` (slim minified) to avoid compatibility issues between different plugins/apps.
 * If you don't want to use a CDN for jQuery, [download jQuery from the official website](https://releases.jquery.com/jquery/) (jQuery Core 3.5.1 - slim minified) and add it to `MyExtension/src/Resources/app/storefront/src/assets/jquery-3.5.1.slim.min.js`
-* After executing `bin/console asset:install`, you can reference the file using the `assset()` function. See also: https://developer.shopware.com/docs/guides/plugins/plugins/storefront/add-custom-assets
+* After executing `bin/console asset:install`, you can reference the file using the `assset()` function. See also: https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/storefront/add-custom-assets
 
 ```html
 {% sw_extends '@Storefront/storefront/layout/meta.html.twig' %}

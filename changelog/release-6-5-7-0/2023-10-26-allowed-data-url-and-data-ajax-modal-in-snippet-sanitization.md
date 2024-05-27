@@ -2,7 +2,7 @@
 title: Allowed "data-url" and "data-ajax-modal" in snippet sanitization
 issue: NEXT-28809
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # API

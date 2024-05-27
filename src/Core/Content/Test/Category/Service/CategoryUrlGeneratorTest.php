@@ -17,7 +17,7 @@ use Shopware\Core\System\SalesChannel\SalesChannelEntity;
  */
 class CategoryUrlGeneratorTest extends TestCase
 {
-    private const EXTERNAL_URL = 'https://shopware.com/';
+    private const EXTERNAL_URL = 'https://haokeyingxiao.com/';
 
     private CategoryUrlGenerator $urlGenerator;
 

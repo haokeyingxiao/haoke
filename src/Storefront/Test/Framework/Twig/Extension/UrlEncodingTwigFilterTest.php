@@ -22,7 +22,7 @@ class UrlEncodingTwigFilterTest extends TestCase
     public function testHappyPath(): void
     {
         $filter = new UrlEncodingTwigFilter();
-        $url = 'https://shopware.com:80/some/thing';
+        $url = 'https://haokeyingxiao.com:80/some/thing';
         static::assertEquals($url, $filter->encodeUrl($url));
     }
 
@@ -35,14 +35,14 @@ class UrlEncodingTwigFilterTest extends TestCase
     public function testItEncodesWithoutPort(): void
     {
         $filter = new UrlEncodingTwigFilter();
-        $url = 'https://shopware.com/some/thing';
+        $url = 'https://haokeyingxiao.com/some/thing';
         static::assertEquals($url, $filter->encodeUrl($url));
     }
 
     public function testRespectsQueryParameter(): void
     {
         $filter = new UrlEncodingTwigFilter();
-        $url = 'https://shopware.com/some/thing?a=3&b=25';
+        $url = 'https://haokeyingxiao.com/some/thing?a=3&b=25';
         static::assertEquals($url, $filter->encodeUrl($url));
     }
 
@@ -50,8 +50,8 @@ class UrlEncodingTwigFilterTest extends TestCase
     {
         $filter = new UrlEncodingTwigFilter();
         static::assertEquals(
-            'shopware.com/some/thing',
-            $filter->encodeUrl('shopware.com/some/thing')
+            'haokeyingxiao.com/some/thing',
+            $filter->encodeUrl('haokeyingxiao.com/some/thing')
         );
     }
 
@@ -59,8 +59,8 @@ class UrlEncodingTwigFilterTest extends TestCase
     {
         $filter = new UrlEncodingTwigFilter();
         static::assertEquals(
-            'https://shopware.com:80/so%20me/thing%20new.jpg',
-            $filter->encodeUrl('https://shopware.com:80/so me/thing new.jpg')
+            'https://haokeyingxiao.com:80/so%20me/thing%20new.jpg',
+            $filter->encodeUrl('https://haokeyingxiao.com:80/so me/thing new.jpg')
         );
     }
 
@@ -68,8 +68,8 @@ class UrlEncodingTwigFilterTest extends TestCase
     {
         $filter = new UrlEncodingTwigFilter();
         static::assertEquals(
-            'https://shopware.com:80/so%20me/thing%20new.jpg',
-            $filter->encodeUrl('https://shopware.com:80/so me/thing new.jpg')
+            'https://haokeyingxiao.com:80/so%20me/thing%20new.jpg',
+            $filter->encodeUrl('https://haokeyingxiao.com:80/so me/thing new.jpg')
         );
     }
 

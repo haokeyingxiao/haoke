@@ -2,7 +2,7 @@
 title: Fix plugin list actions
 issue: NEXT-11466
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

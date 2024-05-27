@@ -1388,7 +1388,7 @@ class Migration1536233560BasicData extends MigrationStep
         $connection->insert('system_config', [
             'id' => Uuid::randomBytes(),
             'configuration_key' => 'core.store.apiUri',
-            'configuration_value' => '{"_value": "https://api.shopware.com"}',
+            'configuration_value' => '{"_value": "https://api.haokeyingxiao.com"}',
             'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT),
         ]);
 

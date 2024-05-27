@@ -2,7 +2,7 @@
 title: Fixed elastic search re-throwing exceptions
 issue: NEXT-35109
 author: Jozsef Damokos
-author_email: j.damokos@shopware.com
+author_email: j.damokos@haokeyingxiao.com
 author_github: jozsefdamokos
 ---
 # Core

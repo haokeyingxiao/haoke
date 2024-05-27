@@ -2,7 +2,7 @@
 title:              Added individual sorting support
 issue:              NEXT-9457
 author:             Lennart Tinkloh
-author_email:       l.tinkloh@shopware.com
+author_email:       l.tinkloh@haokeyingxiao.com
 author_github:      lernhart
 ---
 # Core

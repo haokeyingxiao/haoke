@@ -41,15 +41,15 @@ Additionally, the storefront theme files (JS and CSS) only need to be accessed d
 
 #### App system extension points
 
-* [Webhook](https://docs.shopware.com/en/shopware-platform-dev-en/app-system-guide/app-base-guide?category=shopware-platform-dev-en/app-system-guide#webhooks): An app can register to webhooks to be notified on a predefined URL if some events happen inside shopware.
+* [Webhook](https://docs.haokeyingxiao.com/en/shopware-platform-dev-en/app-system-guide/app-base-guide?category=shopware-platform-dev-en/app-system-guide#webhooks): An app can register to webhooks to be notified on a predefined URL if some events happen inside shopware.
 
-* [Action-Button](https://docs.shopware.com/en/shopware-platform-dev-en/app-system-guide/app-base-guide?category=shopware-platform-dev-en/app-system-guide#buttons): An app can display extra buttons on selected detail & listing pages inside the administration and can perform custom actions for the selected entities.
+* [Action-Button](https://docs.haokeyingxiao.com/en/shopware-platform-dev-en/app-system-guide/app-base-guide?category=shopware-platform-dev-en/app-system-guide#buttons): An app can display extra buttons on selected detail & listing pages inside the administration and can perform custom actions for the selected entities.
 
-* [Custom Modules](https://docs.shopware.com/en/shopware-platform-dev-en/app-system-guide/app-base-guide?category=shopware-platform-dev-en/app-system-guide#create-own-module): An app can display it's own UI inside the administration. This is done via iFrames that are embedded in the administration.
+* [Custom Modules](https://docs.haokeyingxiao.com/en/shopware-platform-dev-en/app-system-guide/app-base-guide?category=shopware-platform-dev-en/app-system-guide#create-own-module): An app can display it's own UI inside the administration. This is done via iFrames that are embedded in the administration.
 
-* [Custom Fields](https://docs.shopware.com/en/shopware-platform-dev-en/app-system-guide/app-base-guide?category=shopware-platform-dev-en/app-system-guide#custom-fields): An app can register it's own custom fields sets, that are displayed along the other custom fields inside the administration.
+* [Custom Fields](https://docs.haokeyingxiao.com/en/shopware-platform-dev-en/app-system-guide/app-base-guide?category=shopware-platform-dev-en/app-system-guide#custom-fields): An app can register it's own custom fields sets, that are displayed along the other custom fields inside the administration.
 
-* [Storefront Customizations](https://developer.shopware.com/docs/guides/plugins/apps/storefront/): An app should be able to customize the storefront in the same way a plugin does. This includes the theme system, custom twig templates and custom JS and CSS.
+* [Storefront Customizations](https://developer.haokeyingxiao.com/docs/guides/plugins/apps/storefront/): An app should be able to customize the storefront in the same way a plugin does. This includes the theme system, custom twig templates and custom JS and CSS.
 In regard to the theme system apps are treated the same way as plugins are, especially regarding the theme inheritance. Apps can be explicitly set in the inheritance chain via `@TechnicalAppName`, if they are not referenced directly they are part of the fallback `@Plugins` namespace.
 
 Extension points may be added as new features of the app system, but we have to make sure that it does not violate one of the limitations mentioned above. Additionally, it needs to be taken into account that it's possible to deploy and run that feature in the cloud environment.

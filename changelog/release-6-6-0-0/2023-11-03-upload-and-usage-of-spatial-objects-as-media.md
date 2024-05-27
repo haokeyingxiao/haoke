@@ -2,7 +2,7 @@
 title: Upload and usage of spatial objects as media
 issue: NEXT-29686
 author: Viktor Buzyka
-author_email: v.buzyka@shopware.com
+author_email: v.buzyka@haokeyingxiao.com
 ---
 # Core
 * Added static method `getMimeType` to `Shopware\Core\Content\Media\File\FileInfoHelper` for more accurate detection of mime type

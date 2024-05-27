@@ -2,7 +2,7 @@
 title: Added rate limiter to adding a line item
 issue: NEXT-23422
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 author_github: @cyl3x
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Fixed dashboard stats not responding to selected timezone
 issue: NEXT-19771
 author: Eric Heinzl
-author_email: e.heinzl@shopware.com
+author_email: e.heinzl@haokeyingxiao.com
 author_github: xPand4B
 ---
 # Administration

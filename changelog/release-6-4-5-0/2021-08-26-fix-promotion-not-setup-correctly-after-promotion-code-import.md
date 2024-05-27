@@ -2,7 +2,7 @@
 title: Fix promotion not setup correctly after promotion code import
 issue: NEXT-16505
 author: Malte Janz
-author_email: m.janz@shopware.com 
+author_email: m.janz@haokeyingxiao.com 
 author_github: Malte Janz
 ---
 # Core

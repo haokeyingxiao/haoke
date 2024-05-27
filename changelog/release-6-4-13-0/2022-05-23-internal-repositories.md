@@ -2,7 +2,7 @@
 title: Internal repositories
 issue: NEXT-21456
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Deprecated `MediaRepositoryDecorator`, the class will be removed with next major. If you typed hint this class, replace it with `EntityRepositoryInterface`

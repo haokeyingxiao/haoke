@@ -2,7 +2,7 @@
 title: Rule Builder UI improvement
 issue: NEXT-23087
 author: Adrian Szymanski
-author_email: a.szymanski@shopware.com
+author_email: a.szymanski@haokeyingxiao.com
 author_github: Adrian Szymanski
 ___
 # Administration

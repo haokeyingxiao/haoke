@@ -2,7 +2,7 @@
 title: Added abstraction for message_queue_stats
 issue: NEXT-17372
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 author_github: @OliverSkroblin
 ---
 # Core

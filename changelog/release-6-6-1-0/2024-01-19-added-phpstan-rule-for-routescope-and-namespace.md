@@ -2,7 +2,7 @@
 title: Added phpstan rule for routeScope and namespace
 issue: NEXT-26124
 author: Jozsef Damokos
-author_email: j.damokos@shopware.com
+author_email: j.damokos@haokeyingxiao.com
 author_github: jozsefdamokos
 ---
 # Core

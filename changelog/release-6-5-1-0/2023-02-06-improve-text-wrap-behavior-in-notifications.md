@@ -2,7 +2,7 @@
 title: Improve text wrap behavior in notifications
 issue: NEXT-16591
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

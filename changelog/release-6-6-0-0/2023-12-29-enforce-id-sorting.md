@@ -2,7 +2,7 @@
 title: Enforce id sorting
 issue: NEXT-29439
 author: oskroblin Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

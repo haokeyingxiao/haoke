@@ -2,7 +2,7 @@
 title: Reset selected block after CMS page load
 issue: NEXT-15003
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

@@ -61,7 +61,7 @@ class LicenseHostChangedSubscriberTest extends TestCase
                 'password' => TestDefaults::HASHED_PASSWORD,
                 'firstName' => 'admin2',
                 'lastName' => 'admin2',
-                'email' => 'admin2@shopware.com',
+                'email' => 'admin2@haokeyingxiao.com',
                 'storeToken' => null,
             ],
             [
@@ -70,7 +70,7 @@ class LicenseHostChangedSubscriberTest extends TestCase
                 'password' => TestDefaults::HASHED_PASSWORD,
                 'firstName' => 'admin3',
                 'lastName' => 'admin3',
-                'email' => 'admin3@shopware.com',
+                'email' => 'admin3@haokeyingxiao.com',
                 'storeToken' => null,
             ],
         ], $context);

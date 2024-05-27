@@ -2,7 +2,7 @@
 title: Changed routing for creating flows from templates
 issue: NEXT-34109
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Administration

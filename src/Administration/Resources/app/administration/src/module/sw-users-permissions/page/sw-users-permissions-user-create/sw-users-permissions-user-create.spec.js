@@ -40,7 +40,7 @@ async function createWrapper(privileges = []) {
                                             username: 'admin',
                                             firstName: '',
                                             lastName: 'admin',
-                                            email: 'info@shopware.com',
+                                            email: 'info@haokeyingxiao.com',
                                         },
                                     );
                                 },

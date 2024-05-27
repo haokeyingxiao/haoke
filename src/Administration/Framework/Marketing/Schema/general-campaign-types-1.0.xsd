@@ -123,7 +123,7 @@
         <xs:annotation>
             <xs:documentation>
                 Defines the look of the button.
-                <br>A preview of the button variants can be found <a href="https://component-library.shopware.com/components/sw-button">here</a>.</br>
+                <br>A preview of the button variants can be found <a href="https://component-library.haokeyingxiao.com/components/sw-button">here</a>.</br>
             </xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">

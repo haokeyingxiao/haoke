@@ -2,7 +2,7 @@
 title: Fix media module inline edit handler
 issue: NEXT-32926
 author: Benedikt Schulze Baek
-author_email: b.schulze-baek@shopware.com
+author_email: b.schulze-baek@haokeyingxiao.com
 author_github: bschulzebaek
 ---
 # Administration

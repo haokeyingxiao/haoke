@@ -2,7 +2,7 @@
 title: Message serialization
 issue: NEXT-25701
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Removed `Offset` phpstan-type in `IterableQuery`, which causes serialization errors when using symfony serializer component

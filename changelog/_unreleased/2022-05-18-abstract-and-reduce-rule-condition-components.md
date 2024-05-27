@@ -3,7 +3,7 @@ title: Abstract and reduce rule condition components
 issue: NEXT-20345
 flag: V6_5_0_0
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

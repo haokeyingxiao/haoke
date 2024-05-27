@@ -2,7 +2,7 @@
 title: Add check for empty productId for wishlist
 issue: NEXT-29424
 author: Jozsef Damokos
-author_email: j.damokos@shopware.com
+author_email: j.damokos@haokeyingxiao.com
 author_github: jozsefdamokos
 ---
 # Storefront

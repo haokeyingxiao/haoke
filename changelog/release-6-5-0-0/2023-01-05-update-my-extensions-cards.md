@@ -2,7 +2,7 @@
 title: Update my extensions cards
 issue: NEXT-24702
 author: Fabian Hüske
-author_email: f.hueske@shopware.com
+author_email: f.hueske@haokeyingxiao.com
 ___
 # Administration
 * Changed styling of component `sw-extension-card-base` to fix layout problems.

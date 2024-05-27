@@ -2,7 +2,7 @@
 title: Address UX Improvements
 issue: NEXT-29472
 author: Benedikt Schulze Baek
-author_email: b.schulze-baek@shopware.com
+author_email: b.schulze-baek@haokeyingxiao.com
 author_github: bschulzebaek
 ---
 # Storefront

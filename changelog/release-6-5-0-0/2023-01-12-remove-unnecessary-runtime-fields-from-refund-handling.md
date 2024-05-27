@@ -2,7 +2,7 @@
 title: Remove unnecessary runtime fields from refund handling
 issue: NEXT-24813
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com
+author_email: l.tinkloh@haokeyingxiao.com
 author_github: @lernhart
 ---
 # Core

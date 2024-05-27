@@ -2,7 +2,7 @@
 title: Preview of available variables in e-mail templates
 issue: NEXT-12654
 author: b.neumann
-author_email: b.neumann@shopware.com 
+author_email: b.neumann@haokeyingxiao.com 
 ---
 # Core
 *  Added new method `src/Core/Content/Mail/Service/MailService:buildRenderedTemplate`

@@ -2,7 +2,7 @@
 title: Update rule assignment appearance
 issue: NEXT-17034
 author: Krispin Lütjann
-author_email: k.luetjann@shopware.com 
+author_email: k.luetjann@haokeyingxiao.com 
 author_github: King-of-Babylon
 ---
 # Administration

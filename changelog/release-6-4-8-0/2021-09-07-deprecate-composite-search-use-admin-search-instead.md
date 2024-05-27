@@ -4,7 +4,7 @@ issue: NEXT-16926
 ---
 # Core
 *  Deprecated the class `\Shopware\Core\Framework\DataAbstractionLayer\Search\CompositeEntitySearcher`
-*  Deprecated service tag `shopware.composite_search.definition` as we are no longer using it
+*  Deprecated service tag `haokeyingxiao.composite_search.definition` as we are no longer using it
 ___
 # Administration
 *  Added new class `\Shopware\Administration\Service\AdminSearcher`

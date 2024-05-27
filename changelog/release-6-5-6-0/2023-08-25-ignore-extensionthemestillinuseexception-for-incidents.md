@@ -2,7 +2,7 @@
 title: Ignore ExtensionThemeStillInUseException for incidents
 issue: NEXT-30141
 author: Sebastian Franze
-author_email: s.franze@shopware.com
+author_email: s.franze@haokeyingxiao.com
 ---
 # Core
 * Deprecated `Shopware\Core\Framework\Store\Exception\ExtensionThemeStillInUseException`. It will be removed. Use `Shopware\Core\Framework\Store\StoreException::extensionThemeStillInUse` instead.

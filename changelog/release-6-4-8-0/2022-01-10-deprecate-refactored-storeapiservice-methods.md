@@ -2,7 +2,7 @@
 title: Deprecate refactored StoreApiService methods
 issue: NEXT-16321
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

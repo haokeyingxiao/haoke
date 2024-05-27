@@ -2,7 +2,7 @@
 title: Remove unnecessary tree item action nesting
 issue: NEXT-22504
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Price indication regulation Guideline
 issue: NEXT-19582
 author: Ramona Schwering
-author_email: r.schwering@shopware.com
+author_email: r.schwering@haokeyingxiao.com
 author_github: leichteckig
 ---
 # Core

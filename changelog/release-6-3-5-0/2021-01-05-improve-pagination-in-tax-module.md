@@ -2,7 +2,7 @@
 title: improve pagination in tax-module
 issue: NEXT-12065 
 author: Niklas Limberg
-author_email: n.limberg@shopware.com 
+author_email: n.limberg@haokeyingxiao.com 
 author_github: NiklasLimberg
 ---
 # Administration

@@ -47,8 +47,8 @@ class UserListCommandTest extends TestCase
         /** @var StaticEntityRepository<UserCollection> $repo */
         $repo = new StaticEntityRepository([
             new UserCollection([
-                $this->createUser($ids->get('user1'), 'guy@shopware.com', 'guy', 'Guy', 'Marbello'),
-                $this->createUser($ids->get('user2'), 'jen@shopware.com', 'jen', 'Jen', 'Dalimil', ['Moderator', 'CS']),
+                $this->createUser($ids->get('user1'), 'guy@haokeyingxiao.com', 'guy', 'Guy', 'Marbello'),
+                $this->createUser($ids->get('user2'), 'jen@haokeyingxiao.com', 'jen', 'Jen', 'Dalimil', ['Moderator', 'CS']),
             ]),
         ]);
 
@@ -71,8 +71,8 @@ class UserListCommandTest extends TestCase
         /** @var StaticEntityRepository<UserCollection> $repo */
         $repo = new StaticEntityRepository([
             new UserCollection([
-                $this->createUser($ids->get('user1'), 'guy@shopware.com', 'guy', 'Guy', 'Marbello'),
-                $this->createUser($ids->get('user2'), 'jen@shopware.com', 'jen', 'Jen', 'Dalimil', ['Moderator', 'CS']),
+                $this->createUser($ids->get('user1'), 'guy@haokeyingxiao.com', 'guy', 'Guy', 'Marbello'),
+                $this->createUser($ids->get('user2'), 'jen@haokeyingxiao.com', 'jen', 'Jen', 'Dalimil', ['Moderator', 'CS']),
             ]),
         ]);
 

@@ -2,7 +2,7 @@
 title: Set shipping costs to 0 for admin order
 issue: NEXT-16666
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

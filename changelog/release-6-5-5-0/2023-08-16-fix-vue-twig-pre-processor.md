@@ -2,7 +2,7 @@
 title: Fix vue-twig pre-processor
 issue: NEXT-18182
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Filter blocks and elements based on page type
 issue: NEXT-17716
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Fix wrong shipping method when changed multiple times trough address
 issue: NEXT-22790
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 ---
 # Storefront
 * Changed `redirectParameters` to be zero in `src/Storefront/Resources/views/storefront/component/shipping/shipping-form.html.twig` to avoid submitting an order with invalid shipping method

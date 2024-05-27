@@ -25,7 +25,7 @@ class SitemapHandleTest extends TestCase
     public function testWriteWithoutFinish(): void
     {
         $url = new Url();
-        $url->setLoc('https://shopware.com');
+        $url->setLoc('https://haokeyingxiao.com');
         $url->setLastmod(new \DateTime());
         $url->setChangefreq('weekly');
         $url->setResource(CategoryEntity::class);
@@ -48,7 +48,7 @@ class SitemapHandleTest extends TestCase
     public function testWrite(): void
     {
         $url = new Url();
-        $url->setLoc('https://shopware.com');
+        $url->setLoc('https://haokeyingxiao.com');
         $url->setLastmod(new \DateTime());
         $url->setChangefreq('weekly');
         $url->setResource(CategoryEntity::class);
@@ -70,7 +70,7 @@ class SitemapHandleTest extends TestCase
     public function testWrite101kItems(): void
     {
         $url = new Url();
-        $url->setLoc('https://shopware.com');
+        $url->setLoc('https://haokeyingxiao.com');
         $url->setLastmod(new \DateTime());
         $url->setChangefreq('weekly');
         $url->setResource(CategoryEntity::class);

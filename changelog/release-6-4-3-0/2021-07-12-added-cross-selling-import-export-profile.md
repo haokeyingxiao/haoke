@@ -2,7 +2,7 @@
 title: Added cross-selling import-export profile
 issue: NEXT-16042
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

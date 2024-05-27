@@ -2,7 +2,7 @@
 title: Add settings item capability extension sdk
 issue: NEXT-18121
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

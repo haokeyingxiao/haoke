@@ -2,7 +2,7 @@
 title: Fixed dropdown in PDP product configurator
 issue: NEXT-19514
 author: Ramona Schwering
-author_email: r.schwering@shopware.com
+author_email: r.schwering@haokeyingxiao.com
 author_github: leichteckig
 ---
 # Storefront

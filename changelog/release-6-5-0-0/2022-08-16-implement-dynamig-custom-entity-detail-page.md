@@ -2,7 +2,7 @@
 title: Implement dynamig Custom Entity Detail page
 issue: NEXT-22643
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

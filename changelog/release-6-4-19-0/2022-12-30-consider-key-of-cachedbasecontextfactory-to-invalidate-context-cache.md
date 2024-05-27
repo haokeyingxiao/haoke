@@ -2,7 +2,7 @@
 title: Consider key of CachedBaseContextFactory to invalidate context cache
 issue: NEXT-24759
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Fix alignment issue in sw-product-price-form component
 issue: NEXT-17701
 author: Ramona Schwering
-author_email: r.schwering@shopware.com 
+author_email: r.schwering@haokeyingxiao.com 
 author_github: leichteckig
 ---
 # Administration

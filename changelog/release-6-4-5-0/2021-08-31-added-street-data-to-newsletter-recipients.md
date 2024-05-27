@@ -2,7 +2,7 @@
 title: Added street data to newsletter recipients
 issue: NEXT-16976
 author: Malte Janz
-author_email: m.janz@shopware.com 
+author_email: m.janz@haokeyingxiao.com 
 author_github: Malte Janz
 ---
 # Core

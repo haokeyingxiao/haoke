@@ -2,7 +2,7 @@
 title: Implement VueJs 3 eslint rules
 issue: NEXT-19509
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

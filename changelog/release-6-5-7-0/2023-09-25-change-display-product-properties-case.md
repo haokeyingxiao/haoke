@@ -2,7 +2,7 @@
 title: Change display product properties case
 issue: NEXT-30315
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 ---
 # Core
 * Removed display bug when searching for nonexistent product properties in `sw-product-properties`

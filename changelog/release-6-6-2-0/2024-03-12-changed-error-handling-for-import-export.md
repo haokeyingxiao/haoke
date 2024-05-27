@@ -2,7 +2,7 @@
 title: Changed error handling for ImportExport
 issue: NEXT-33970
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Core

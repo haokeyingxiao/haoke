@@ -2,7 +2,7 @@
 title: Read runtime fields
 issue: NEXT-24403
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Added possibility to request runtime fields via DAL when using the partial data loading

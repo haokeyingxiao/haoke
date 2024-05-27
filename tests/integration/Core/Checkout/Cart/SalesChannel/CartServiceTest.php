@@ -428,7 +428,7 @@ class CartServiceTest extends TestCase
 
         $addressId = Uuid::randomHex();
 
-        $mail = 'test@shopware.com';
+        $mail = 'test@haokeyingxiao.com';
         $password = 'shopware';
 
         $this->createCustomer($addressId, $mail, $password, $context->getContext());

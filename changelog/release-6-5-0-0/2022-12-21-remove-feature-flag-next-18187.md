@@ -2,7 +2,7 @@
 title: Remove Feature Flag NEXT-18187
 issue: NEXT-24646
 author: Sebastian Franze
-author_email: s.franze@shopware.com
+author_email: s.franze@haokeyingxiao.com
 ---
 # Core
 * Removed Feature Flag FEATURE_NEXT_18187

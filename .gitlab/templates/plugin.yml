@@ -1,5 +1,5 @@
 # this is a CI/CD template for shopware plugins
-# - SwagPluginTemplate: https://gitlab.shopware.com/shopware/6/templates/swagplugintemplate/-/blob/trunk/.gitlab-ci.yml
+# - SwagPluginTemplate: https://gitlab.haokeyingxiao.com/shopware/6/templates/swagplugintemplate/-/blob/trunk/.gitlab-ci.yml
 # - gitlab docs: https://docs.gitlab.com/ee/ci/yaml/#include
 
 stages:
@@ -57,7 +57,7 @@ variables:
         description: 'Can be used instead of the tagging to define which storefront spec files should be used. Example: "cypress/integration/content/**/*,cypress/integration/catalogue/**/*"'
     PLUGIN_DEPENDENCIES:
         value: '[]'
-        description: 'Plugin dependencies. Defined in json. Example: [{ "name": "SwagPayPal", "url": "gitlab.shopware.com/shopware/6/services/paypal", "branch": "master" }]'
+        description: 'Plugin dependencies. Defined in json. Example: [{ "name": "SwagPayPal", "url": "gitlab.haokeyingxiao.com/shopware/6/services/paypal", "branch": "master" }]'
     COMPOSER_DEPENDENCIES:
         value: '[]'
         description: 'Additional composer dependencies. Defined in json. Example: ["theiconic/name-parser", "amzn/amazon-pay-api-sdk-php:2.2.1"]'
@@ -88,7 +88,7 @@ workflow:
   - tar -czf /tmp/plugin.tar.gz .
   - rm -Rf .* * || true
   - echo "Checkout platform branch $PLATFORM_BRANCH"
-  - git clone --depth=1 https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.shopware.com/shopware/6/product/platform.git . --branch $PLATFORM_BRANCH
+  - git clone --depth=1 https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.haokeyingxiao.com/shopware/6/product/platform.git . --branch $PLATFORM_BRANCH
   - >
       if ! [[ -z "${MERGE_REF_PATH}" ]]; then
         echo '$MERGE_REF_PATH is set, checking out merged result'
@@ -398,8 +398,8 @@ upload zip to store:
     stage: deploy
     allow_failure: true
     environment:
-        name: account.shopware.com
-        url: 'https://account.shopware.com'
+        name: account.haokeyingxiao.com
+        url: 'https://account.haokeyingxiao.com'
     image:
         name: ghcr.io/friendsofshopware/shopware-cli:0.4.43
         entrypoint: [ "/usr/local/bin/entrypoint.sh" ]

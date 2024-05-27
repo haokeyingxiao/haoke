@@ -2,7 +2,7 @@
 title: Added product review form send event
 issue: NEXT-13597
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Add consent banner for usage data collection
 issue: NEXT-29277
 author: Lukas Boecker
-author_email: l.boecker@shopware.com
+author_email: l.boecker@haokeyingxiao.com
 author_github: lbocker
 ---
 # Core

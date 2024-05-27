@@ -2,7 +2,7 @@
 title: Fixed image slider in category detail
 issue: NEXT-30314
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

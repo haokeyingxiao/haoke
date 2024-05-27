@@ -2,7 +2,7 @@
 title: Scheduled task still run when sales channel is disabled
 issue: NEXT-21650
 author: Marcel Hakvoort
-author_email: m.hakvoort@shopware.com
+author_email: m.hakvoort@haokeyingxiao.com
 author_github: @celha
 ---
 

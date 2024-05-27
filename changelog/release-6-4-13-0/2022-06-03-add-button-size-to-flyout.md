@@ -2,7 +2,7 @@
 title: Add button size to flyout
 issue: NEXT-21568
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

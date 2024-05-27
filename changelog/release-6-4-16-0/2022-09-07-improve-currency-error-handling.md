@@ -2,7 +2,7 @@
 title: Improve currency error handling
 issue: NEXT-22980
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Core

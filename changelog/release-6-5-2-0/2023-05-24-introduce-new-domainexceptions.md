@@ -2,7 +2,7 @@
 title: Introduce new DomainExceptions
 issue: NEXT-27122
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 
 # Core

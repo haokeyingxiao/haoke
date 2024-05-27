@@ -2,7 +2,7 @@
 title: Correct cheapest price accessor hydration and product stream preview
 issue: NEXT-18604
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

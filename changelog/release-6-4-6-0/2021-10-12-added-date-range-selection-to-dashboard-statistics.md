@@ -2,7 +2,7 @@
 title: Added date range selection to dashboard statistics
 issue: NEXT-17639
 author: Eric Heinzl
-author_email: e.heinzl@shopware.com 
+author_email: e.heinzl@haokeyingxiao.com 
 ---
 # Administration
 * Added date range selection to dashboard statistics in `src/Administration/Resources/app/administration/src/module/sw-dashboard/page/sw-dashboard-index`

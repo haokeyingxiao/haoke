@@ -46,8 +46,8 @@ class AccountOrderPageLoaderTest extends TestCase
         $unexpectedCustomer = $this->createCustomer();
         $expectedCustomer = $this->createCustomer();
 
-        $unexpectedCustomer->setEmail('identical@shopware.com');
-        $expectedCustomer->setEmail('identical@shopware.com');
+        $unexpectedCustomer->setEmail('identical@haokeyingxiao.com');
+        $expectedCustomer->setEmail('identical@haokeyingxiao.com');
         $expectedCustomer->setGuest(true);
 
         $this->customerRepository->update([

@@ -2,7 +2,7 @@
 title: Improve expired async payment token behavior
 issue: NEXT-20227
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 # Core
 * Changed return type in payment finalization if payment token is expired

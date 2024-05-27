@@ -2,7 +2,7 @@
 title: Optionally re-enable prefering IPv4 over IPv6 in Node17+
 issue: NEXT-24893
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

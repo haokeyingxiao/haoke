@@ -2,7 +2,7 @@
 title: Add error handling to promotions module
 issue: NEXT-21152
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

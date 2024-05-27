@@ -2,7 +2,7 @@
 title: Fix scssphp deprecation
 issue: NEXT-19429
 author: Tobias Berge
-author_email: t.berge@shopware.com
+author_email: t.berge@haokeyingxiao.com
 author_github: @tobiasberge
 ---
 # Storefront

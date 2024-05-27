@@ -2,7 +2,7 @@
 title: Add a separate Guzzle client for the First Run Wizard
 issue: NEXT-22671
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

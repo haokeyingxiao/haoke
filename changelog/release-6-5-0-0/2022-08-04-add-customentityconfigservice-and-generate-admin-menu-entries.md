@@ -2,7 +2,7 @@
 title: Add CustomEntityDefinitionService and generate admin menu entries
 issue: NEXT-19272
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

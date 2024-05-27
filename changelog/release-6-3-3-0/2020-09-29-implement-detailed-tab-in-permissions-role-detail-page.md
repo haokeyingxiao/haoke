@@ -2,7 +2,7 @@
 title: Implement detailed tab in permissions role detail page
 issue: NEXT-11065
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

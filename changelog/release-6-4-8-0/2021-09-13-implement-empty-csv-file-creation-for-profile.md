@@ -2,7 +2,7 @@
 title: Implement empty csv file creation for profile
 issue: NEXT-16084
 author: Malte Janz
-author_email: m.janz@shopware.com 
+author_email: m.janz@haokeyingxiao.com 
 author_github: Malte Janz
 ---
 # Core

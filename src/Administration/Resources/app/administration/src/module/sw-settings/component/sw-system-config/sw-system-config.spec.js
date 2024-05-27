@@ -243,20 +243,20 @@ function createConfig() {
             name: 'ConfigRenderer.config.urlField',
             type: 'url',
             config: {
-                defaultValue: 'https://www.shopware.com',
+                defaultValue: 'https://www.haokeyingxiao.com',
                 label: {
                     'en-GB': 'url field',
                 },
             },
             _test: {
-                defaultValueDom: 'www.shopware.com',
+                defaultValueDom: 'www.haokeyingxiao.com',
                 domValueCheck: (field, domValue) => {
                     expect(field.find('input').element.value).toBe(domValue);
                 },
                 afterValue: 'https://www.shopware.de',
                 afterValueDom: 'www.shopware.de',
-                childValue: 'https://www.child.shopware.com',
-                childValueDom: 'www.child.shopware.com',
+                childValue: 'https://www.child.haokeyingxiao.com',
+                childValueDom: 'www.child.haokeyingxiao.com',
                 changeValueFunction: async (field, afterValue) => {
                     // change input value
                     await field.find('input').setValue(afterValue);

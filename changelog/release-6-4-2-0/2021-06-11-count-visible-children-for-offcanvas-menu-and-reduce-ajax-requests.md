@@ -2,7 +2,7 @@
 title: Count visible children for offcanvas menu and reduce ajax requests
 issue: NEXT-14732
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

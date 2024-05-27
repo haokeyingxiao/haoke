@@ -2,7 +2,7 @@
 title: Add Entity Creation Option to Entity Single Select
 issue: NEXT-18179
 author: Ramona Schwering
-author_email: R.Schwering@shopware.com
+author_email: R.Schwering@haokeyingxiao.com
 author_github: leichteckig
 ---
 # Administration

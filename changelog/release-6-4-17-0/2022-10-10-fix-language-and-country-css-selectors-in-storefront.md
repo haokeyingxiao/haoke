@@ -2,7 +2,7 @@
 title: Fix language and country css selectors in storefront
 issue: NEXT-23601
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Storefront

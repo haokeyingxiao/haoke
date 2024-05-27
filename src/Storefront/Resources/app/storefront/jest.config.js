@@ -72,7 +72,7 @@ module.exports = {
     reporters: [
         'default',
         ['jest-junit', {
-            suiteName: 'Shopware 6 Storefront Unit Tests',
+            suiteName: 'HaoKe 6 Storefront Unit Tests',
             outputDirectory: artifactsPath,
             outputName: 'storefront.junit.xml',
         }],

@@ -2,7 +2,7 @@
 title: Add external link styling to global css
 issue: NEXT-16004
 author: Raoul Kramer
-author_email: r.kramer@shopware.com 
+author_email: r.kramer@haokeyingxiao.com 
 author_github: djpogo
 ---
 # Administration

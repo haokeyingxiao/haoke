@@ -2,7 +2,7 @@
 title: Fix html and implement icon cache filter
 issue: NEXT-18411
 author: Stefan Sluiter
-author_email: s.sluiter@shopware.com
+author_email: s.sluiter@haokeyingxiao.com
 ---
 # Storefront
 * Added `Shopware\Storefront\Framework\Twig\Extension\IconCacheTwigFilter` to add every icon definition only once per page.

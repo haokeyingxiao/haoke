@@ -2,7 +2,7 @@
 title: Fix entity aggregator cache
 issue: NEXT-11269
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: @OliverSkroblin
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Fetch logininformation from store
 issue: NEXT-20617
 author: Sebastian Franze
-author_email: s.franze@shopware.com
+author_email: s.franze@haokeyingxiao.com
 author_github: Sebastian Franze
 ---
 # Core

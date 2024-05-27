@@ -2,7 +2,7 @@
 title: add-flag-for-full-indexing-category
 issue: NEXT-18681
 author: Alexandru Dumea
-author_email: a.dumea@shopware.com
+author_email: a.dumea@haokeyingxiao.com
 author_github: Alexandru Dumea
 ---
 

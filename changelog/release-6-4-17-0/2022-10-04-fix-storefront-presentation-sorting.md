@@ -2,7 +2,7 @@
 title: Fix storefront presentation error
 issue: NEXT-23378
 author: Ramona Schwering
-author_email: r.schwering@shopware.com
+author_email: r.schwering@haokeyingxiao.com
 author_github: @leichteckig
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Replace element modal icon sizing
 issue: NEXT-24512
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

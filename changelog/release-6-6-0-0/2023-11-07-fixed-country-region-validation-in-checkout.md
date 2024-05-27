@@ -2,7 +2,7 @@
 title: fixed country region validation in checkout
 issue: NEXT-30785
 author: Florian Keller
-author_email: f.keller@shopware.com
+author_email: f.keller@haokeyingxiao.com
 ---
 # Core
 * Changed `Shopware\Core\Checkout\Cart\Address::validate()` to check if country region is set, when the value is required.

@@ -2,7 +2,7 @@
 title: Use correct back url from extension config
 issue: NEXT-19196
 author: Sebastian Franze
-author_email: s.franze@shopware.com
+author_email: s.franze@haokeyingxiao.com
 ---
 # Administration
 * Changed `src/app/component/meteor/sw-meteor-navigation/index.js` to `src/app/component/meteor/sw-meteor-navigation/index.ts`

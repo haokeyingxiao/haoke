@@ -2,7 +2,7 @@
 title: Fix possible null reference error in computed product title
 issue: NEXT-15699
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # API

@@ -2,7 +2,7 @@
 title: StringTemplateRenderer throws AdapterException with error code "FRAMEWORK__INVALID_TEMPLATE_SYNTAX" due invalid template syntax
 issue: NEXT-30983
 author: Krzykawski
-author_email: m.krzykawski@shopware.com
+author_email: m.krzykawski@haokeyingxiao.com
 author_github: Krzykawski
 ---
 # Core

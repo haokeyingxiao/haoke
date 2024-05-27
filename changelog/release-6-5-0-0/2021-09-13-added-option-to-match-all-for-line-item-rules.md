@@ -2,7 +2,7 @@
 title: Added option to match all for line item rules
 issue: NEXT-14317
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

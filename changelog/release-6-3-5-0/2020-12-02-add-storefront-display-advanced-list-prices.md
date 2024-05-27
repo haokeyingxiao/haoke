@@ -2,7 +2,7 @@
 title: Add storefront part to display advanced list prices
 issue: NEXT-11861
 author: Ramona Schwering
-author_email: r.schwering@shopware.com 
+author_email: r.schwering@haokeyingxiao.com 
 author_github: leichteckig
 ---
 # Storefront

@@ -2,7 +2,7 @@
 title: Allow indicating canonical URLs with a redirect (HTTP 301) instead of a link
 issue: NEXT-6753
 author: Philip Gatzka
-author_email: p.gatzka@shopware.com
+author_email: p.gatzka@haokeyingxiao.com
 author_github: philipgatzka
 ---
 # Core

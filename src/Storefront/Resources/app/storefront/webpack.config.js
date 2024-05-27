@@ -455,7 +455,7 @@ const mergedCoreConfig = merge([
         },
         plugins: [
             new WebpackBar({
-                name: 'Shopware 6 Storefront',
+                name: 'HaoKe 6 Storefront',
                 color: '#118cff',
             }),
         ],

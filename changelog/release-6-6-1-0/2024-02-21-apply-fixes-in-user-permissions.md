@@ -2,7 +2,7 @@
 title: Apply fixes in user permissions
 issue: NEXT-33338
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

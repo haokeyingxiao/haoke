@@ -2,7 +2,7 @@
 title: Improve address salutation and countryState loading
 issue: NEXT-17764
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com 
+author_email: m.stegmeyer@haokeyingxiao.com 
 ---
 # Core
 * Changed `SalesChannelContextFactory` to load `salutation` associations to addresses

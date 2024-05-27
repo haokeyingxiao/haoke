@@ -2,7 +2,7 @@
 title: Added serialization of the itemRounding and totalRounding property of an order entity
 issue: NEXT-33868
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Core

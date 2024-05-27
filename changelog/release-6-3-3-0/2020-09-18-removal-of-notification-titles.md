@@ -2,7 +2,7 @@
 title: Removal of notification titles
 issue: NEXT-8334
 author: Daniel Meyer
-author_email: d.meyer@shopware.com 
+author_email: d.meyer@haokeyingxiao.com 
 author_github: GitEvil
 ---
 # Administration

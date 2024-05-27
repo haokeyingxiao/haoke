@@ -2,7 +2,7 @@
 title: Simplify custom field rule field selection
 issue: NEXT-18219
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

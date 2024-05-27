@@ -2,7 +2,7 @@
 title: Use own identifiers for import
 issue: NEXT-16036
 author: Krispin Lütjann
-author_email: k.luetjann@shopware.com
+author_email: k.luetjann@haokeyingxiao.com
 author_github: @King-of-Babylon
 ---
 # Core

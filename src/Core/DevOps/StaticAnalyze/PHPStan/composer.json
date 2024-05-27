@@ -7,7 +7,7 @@
         "shop",
         "phpstan"
     ],
-    "homepage": "http://www.shopware.com",
+    "homepage": "http://www.haokeyingxiao.com",
     "license": "MIT",
     "autoload": {
         "exclude-from-classmap": [
@@ -18,11 +18,11 @@
         }
     },
     "support": {
-        "issues": "https://issues.shopware.com",
-        "forum": "https://forum.shopware.com",
-        "wiki": "https://developer.shopware.com",
-        "docs": "https://developer.shopware.com",
-        "chat": "https://slack.shopware.com"
+        "issues": "https://issues.haokeyingxiao.com",
+        "forum": "https://forum.haokeyingxiao.com",
+        "wiki": "https://developer.haokeyingxiao.com",
+        "docs": "https://developer.haokeyingxiao.com",
+        "chat": "https://slack.haokeyingxiao.com"
     },
     "extra": {
         "branch-alias": {

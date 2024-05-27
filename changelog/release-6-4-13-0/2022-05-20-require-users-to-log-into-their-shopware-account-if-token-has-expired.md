@@ -2,7 +2,7 @@
 title: Require users to log into their Shopware Account if token has expired
 issue: NEXT-21092
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

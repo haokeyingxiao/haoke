@@ -284,7 +284,7 @@ shopware.installer:
     language-selection_select_language: 'Installation wizard language'
     language-selection_header: 'Your Shopware installation'
     language-selection_info_message: 'The language selected here only applies to this installation wizard. If you like, you can specify another language for your shop later.'
-    language-selection_welcome_message: 'We are delighted you want to join our fantastic, global Shopware community. We will now take you through the installation process step by step. If you have any queries, simply take a look in our <a class="is--nowrap" href="https://forum.shopware.com" target="_blank">forum</a>, give us a call on <a class="is--nowrap" href="tel:0080074676260">00 800 746 7626 0 (free of charge)</a> or send us an <a class="is--nowrap" href="mailto:info@shopware.com">email</a>.'
+    language-selection_welcome_message: 'We are delighted you want to join our fantastic, global Shopware community. We will now take you through the installation process step by step. If you have any queries, simply take a look in our <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">forum</a>, give us a call on <a class="is--nowrap" href="tel:0080074676260">00 800 746 7626 0 (free of charge)</a> or send us an <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">email</a>.'
     requirements_header: 'System requirements'
     requirements_header_files: 'Files and directories'
     requirements_header_system: System
@@ -344,9 +344,9 @@ shopware.installer:
     migration_counter_text_snippets: 'Updating text snippets'
     migration_update_success: 'Database has been imported!'
     edition_header: 'Have you already purchased a Shopware licence?'
-    edition_info: 'Shopware is available in different versions. There is the free <a href="https://en.shopware.com/pricing/" target="_blank">Community Edition</a>, and there are the <a href="https://en.shopware.com/pricing/" target="_blank">Professional or Enterprise Edition</a>, that are available for a one time fee.'
-    edition_ce: 'No, I would like to use the free <a href="https://en.shopware.com/pricing/" target="_blank">Community Edition</a>.'
-    edition_cm: 'Yes, I have already purchased a Shopware licence (<a href="https://en.shopware.com/pricing/" target="_blank">Professional or Enterprise</a>).'
+    edition_info: 'Shopware is available in different versions. There is the free <a href="https://en.haokeyingxiao.com/pricing/" target="_blank">Community Edition</a>, and there are the <a href="https://en.haokeyingxiao.com/pricing/" target="_blank">Professional or Enterprise Edition</a>, that are available for a one time fee.'
+    edition_ce: 'No, I would like to use the free <a href="https://en.haokeyingxiao.com/pricing/" target="_blank">Community Edition</a>.'
+    edition_cm: 'Yes, I have already purchased a Shopware licence (<a href="https://en.haokeyingxiao.com/pricing/" target="_blank">Professional or Enterprise</a>).'
     edition_license: 'Please enter your licence key here. You can find it in your Shopware Account under "Licences" → "Product licences" → "Details / Download":'
     edition_license_error: 'A valid licence is required in order to install any of the Shopware versions that come with a fee.'
     configuration_header: Configuration
@@ -392,7 +392,7 @@ shopware.installer:
         </p>
         <p>
             You have installed Shopware successfully and we are delighted to welcome you to our community!
-        <p>Your shop is now ready to use. If you are new to Shopware, we recommend taking a look at this guide <a href=\"https://docs.shopware.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">\"First steps in Shopware\"</a>. When you log in to the administration for the first time, our \"First Run Wizard\" will take you through the basic setup.
+        <p>Your shop is now ready to use. If you are new to Shopware, we recommend taking a look at this guide <a href=\"https://docs.haokeyingxiao.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">\"First steps in Shopware\"</a>. When you log in to the administration for the first time, our \"First Run Wizard\" will take you through the basic setup.
         </p>
         <p>
             Enjoy your new online shop!

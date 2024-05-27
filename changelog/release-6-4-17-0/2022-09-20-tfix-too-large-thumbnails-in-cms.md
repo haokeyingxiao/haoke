@@ -2,7 +2,7 @@
 title: Fix too large thumbnails due to missing sizes attr
 issue: NEXT-22601
 author: Tobias Berge
-author_email: t.berge@shopware.com
+author_email: t.berge@haokeyingxiao.com
 author_github: @tobiasberge
 ---
 # Storefront

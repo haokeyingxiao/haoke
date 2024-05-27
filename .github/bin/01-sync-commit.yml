@@ -1,0 +1,50 @@
+name: 'sync commit'
+
+on:
+  push:
+    branches:
+      - '*'
+    tags:
+      - '*'
+
+env:
+  GITHUB_TOKEN: ${{ secrets.TOKEN  }}
+jobs:
+  packages_split:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # define package to repository map
+        package:
+          -
+            local_path: 'Administration'
+            split_repository: 'administration'
+          -
+            local_path: 'Core'
+            split_repository: 'core'
+          -
+            local_path: 'Storefront'
+            split_repository: 'storefront'
+          -
+            local_path: 'Elasticsearch'
+            split_repository: 'elasticsearch'
+    steps:
+      -   uses: actions/checkout@v4
+
+      # no tag
+      -
+        if: "!startsWith(github.ref, 'refs/tags/')"
+        uses: "danharrin/monorepo-split-github-action@v2.3.0"
+        with:
+          # ↓ split "packages/easy-coding-standard" directory
+          package_directory: 'src/${{ matrix.package.local_path }}'
+
+          # ↓ into https://github.com/symplify/easy-coding-standard repository
+          repository_organization: 'haokeyingxiao'
+          repository_name: '${{ matrix.package.split_repository }}'
+          branch: '${{ github.ref_name }}'
+          # ↓ the user signed under the split commit
+          user_name: "gxiaosong"
+          user_email: "lyricsong47@gmail.com"

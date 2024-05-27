@@ -2,7 +2,7 @@
 title: Improve UI settings number range detail page
 issue: NEXT-25797
 author: Tam Dao
-author_email: t.dao@shopware.com
+author_email: t.dao@haokeyingxiao.com
 author_github: @daothithientamm
 ---
 # Administration

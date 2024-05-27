@@ -2,7 +2,7 @@
 title: Make all settings module Vue3 compatible
 issue: NEXT-29011
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

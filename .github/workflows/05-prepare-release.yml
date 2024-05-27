@@ -79,9 +79,9 @@ jobs:
         ## todo use tag
         if: matrix.package.name != 'Core'
         env:
-          GIT_AUTHOR_EMAIL: "shopwarebot@shopware.com"
+          GIT_AUTHOR_EMAIL: "shopwarebot@haokeyingxiao.com"
           GIT_AUTHOR_NAME: "shopwareBot"
-          GIT_COMMITTER_EMAIL: "shopwarebot@shopware.com"
+          GIT_COMMITTER_EMAIL: "shopwarebot@haokeyingxiao.com"
           GIT_COMMITTER_NAME: "shopwareBot"
         run: |
           bash .github/split.bash commit "${package}" "${{ github.ref_name }} (+ assets)"

@@ -25,7 +25,7 @@ class UserRecoveryControllerTest extends TestCase
     use AdminFunctionalTestBehaviour;
     use EventDispatcherBehaviour;
 
-    private const VALID_EMAIL = 'info@shopware.com';
+    private const VALID_EMAIL = 'info@haokeyingxiao.com';
 
     public function testUpdateUserPassword(): void
     {

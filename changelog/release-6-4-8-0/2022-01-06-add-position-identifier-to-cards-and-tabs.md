@@ -2,7 +2,7 @@
 title: Add position identifier to cards and tabs
 issue: NEXT-18129
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: @jleifeld
 ---
 # Administration

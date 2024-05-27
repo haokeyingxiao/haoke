@@ -2,7 +2,7 @@
 title: Update existing cover product media on product import
 issue: NEXT-14710
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

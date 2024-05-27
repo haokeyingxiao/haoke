@@ -101,7 +101,7 @@ describe('User: Test acl privileges', () => {
             .should('be.visible')
             .click()
             .clear()
-            .type('changed@shopware.com');
+            .type('changed@haokeyingxiao.com');
 
         cy.get('.sw-settings-user-detail__save-action')
             .should('be.visible')
@@ -130,7 +130,7 @@ describe('User: Test acl privileges', () => {
 
         cy.get('#sw-field--user-email')
             .should('be.visible')
-            .should('have.value', 'changed@shopware.com');
+            .should('have.value', 'changed@haokeyingxiao.com');
     });
 
     it('@settings: edit user role', { tags: ['pa-system-settings', 'VUE3'] }, () => {
@@ -274,7 +274,7 @@ describe('User: Test acl privileges', () => {
         const userFields = {
             '#sw-field--user-firstName': 'Abraham',
             '#sw-field--user-lastName': 'Allison',
-            '#sw-field--user-email': 'test@shopware.com',
+            '#sw-field--user-email': 'test@haokeyingxiao.com',
             '#sw-field--user-username': 'abraham',
             '.sw-field--password__container > input[type=password]': 'mesecurepassword',
         };
@@ -382,7 +382,7 @@ describe('User: Test acl privileges', () => {
         const userFields = {
             '#sw-field--user-firstName': 'Abraham',
             '#sw-field--user-lastName': 'Allison',
-            '#sw-field--user-email': 'test@shopware.com',
+            '#sw-field--user-email': 'test@haokeyingxiao.com',
             '#sw-field--user-username': 'abraham',
             '.sw-field--password__container > input[type=password]': 'mesecurepassword',
         };

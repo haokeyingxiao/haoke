@@ -2,7 +2,7 @@
 title: Allow Symfony messenger exceptions without using domain exception pattern
 issue: NEXT-32009
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Core

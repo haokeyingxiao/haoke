@@ -2,7 +2,7 @@
 title: Changed primary identifier of product sortings in administration to product sorting id
 issue: NEXT-30554
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Core

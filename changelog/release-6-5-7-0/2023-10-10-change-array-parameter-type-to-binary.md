@@ -2,7 +2,7 @@
 title: change-array-parameter-type-to-binary
 issue: NEXT-30811
 author: Alexandru Dumea
-author_email: a.dumea@shopware.com
+author_email: a.dumea@haokeyingxiao.com
 author_github: Alexandru Dumea
 ---
 # Core

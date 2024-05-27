@@ -2,7 +2,7 @@
 title: Added defaultRangeIndex property to sw-chart-card
 issue: NEXT-25690
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

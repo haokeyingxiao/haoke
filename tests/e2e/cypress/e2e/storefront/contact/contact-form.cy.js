@@ -81,7 +81,7 @@ describe('Contact form', () => {
         /**
          * This is a regression test for NEXT-12092.
          *
-         * @see https://issues.shopware.com/issues/NEXT-12092
+         * @see https://issues.haokeyingxiao.com/issues/NEXT-12092
          */
         checkForCorrectlyLabelledPrivacyInformationCheckbox();
 

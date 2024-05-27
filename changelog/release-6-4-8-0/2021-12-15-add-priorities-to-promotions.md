@@ -2,7 +2,7 @@
 title: Add priorities to promotions
 issue: NEXT-16646
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ---
 # Core

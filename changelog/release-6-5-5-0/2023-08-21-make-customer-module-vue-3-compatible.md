@@ -2,7 +2,7 @@
 title: Make customer module Vue 3 compatible
 issue: NEXT-28997
 author: Benedikt Schulze Baek
-author_email: b.schulze-baek@shopware.com
+author_email: b.schulze-baek@haokeyingxiao.com
 author_github: bschulzebaek
 ---
 # Administration

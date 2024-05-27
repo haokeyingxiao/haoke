@@ -2,7 +2,7 @@
 title: Added product image in order confirmation mail template
 issue: NEXT-11674
 author: Marcel Hakvoort
-author_email: m.hakvoort@shopware.com
+author_email: m.hakvoort@haokeyingxiao.com
 author_github: @celha
 ---
 # Core

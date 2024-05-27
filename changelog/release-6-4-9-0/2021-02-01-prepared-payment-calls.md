@@ -2,7 +2,7 @@
 title: Prepared payment add pre-order call
 issue: NEXT-17164
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 # Core
 * Added `Shopware\Core\Checkout\Payment\PreparedPaymentService` to handle prepared payment calls from routes.

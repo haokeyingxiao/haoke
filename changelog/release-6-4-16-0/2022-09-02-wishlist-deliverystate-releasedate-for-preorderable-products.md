@@ -2,7 +2,7 @@
 title: wishlist-deliveryState-releaseDate-for-preorderable-products
 issue: NEXT-21407
 author: Susanne Hartung
-author_email: s.hartung@shopware.com
+author_email: s.hartung@haokeyingxiao.com
 author_github: Susanne Hartung
 # Storefront
 * Add snippet `wishlist.deliveryShipping`

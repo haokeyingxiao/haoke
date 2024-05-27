@@ -2,7 +2,7 @@
 title: Fix not working password change in user module
 issue: NEXT-7384
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

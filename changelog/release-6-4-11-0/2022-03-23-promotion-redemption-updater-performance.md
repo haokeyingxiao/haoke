@@ -2,7 +2,7 @@
 title: Improve promotion redemption updater performance
 issue: NEXT-17359
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 # Core
 * Added write protected column `promotionId` to `order_line_item` to allow for better indexing

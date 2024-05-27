@@ -2,7 +2,7 @@
 title: Wrong icon usage in settings
 issue: NEXT-23774
 author: Silas Hachmann
-author_email: s.hachmann@shopware.com
+author_email: s.hachmann@haokeyingxiao.com
 author_github: @xKingBlue
 ---
 # Administration

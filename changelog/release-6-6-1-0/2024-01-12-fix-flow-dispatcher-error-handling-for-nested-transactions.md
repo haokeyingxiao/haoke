@@ -2,7 +2,7 @@
 title: Fix flow dispatcher error handling for nested transactions
 issue: NEXT-33086
 author: Maximilian Rüsch, Aydin Hassan
-author_email: maximilian.ruesch@pickware.de, a.hassan@shopware.com
+author_email: maximilian.ruesch@pickware.de, a.hassan@haokeyingxiao.com
 author_github: maximilianruesch, AydinHassan
 ---
 # Core

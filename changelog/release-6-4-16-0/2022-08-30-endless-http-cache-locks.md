@@ -2,7 +2,7 @@
 title: Endless http cache locks
 issue: NEXT-23053
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 author_github: OliverSkroblin
 ---
 # Storefront

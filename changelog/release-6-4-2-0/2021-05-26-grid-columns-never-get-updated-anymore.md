@@ -2,7 +2,7 @@
 title: Grid columns never get updated anymore
 issue: NEXT-15343
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

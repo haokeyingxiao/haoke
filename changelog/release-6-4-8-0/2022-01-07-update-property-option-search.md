@@ -2,7 +2,7 @@
 title: Update property option search 
 issue: NEXT-18069
 author: Simon Vorgers
-author_email: s.vorgers@shopware.com
+author_email: s.vorgers@haokeyingxiao.com
 author_github: SimonVorgers
 ---
 # Administration

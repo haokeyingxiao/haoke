@@ -2,7 +2,7 @@
 title: Remove duplicated twig blocks in administration
 issue: NEXT-16002
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: Jannis Leifeld
 ---
 # Administration

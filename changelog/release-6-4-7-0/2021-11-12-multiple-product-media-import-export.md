@@ -2,7 +2,7 @@
 title: Multiple product media import export
 issue: NEXT-14709
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

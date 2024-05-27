@@ -2,7 +2,7 @@
 title: Fix elasticsearch update error
 issue: NEXT-15503
 author: Patrick Weyck
-author_email: p.weyck@shopware.com 
+author_email: p.weyck@haokeyingxiao.com 
 author_github: Patrick Weyck
 ---
 # Core

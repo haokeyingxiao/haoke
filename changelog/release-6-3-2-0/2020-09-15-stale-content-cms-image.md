@@ -2,7 +2,7 @@
 title:              Stale content handling for CMS image gallery and slider
 issue:              NEXT-10070
 author:             Stephan Pohl
-author_email:       s.pohl@shopware.com
+author_email:       s.pohl@haokeyingxiao.com
 author_github:      @klarstil
 ---
 # Storefront

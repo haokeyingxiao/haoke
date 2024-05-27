@@ -2,7 +2,7 @@
 title: Convert generated variant_listing_config in product to normal column
 issue: NEXT-25200
 author: Simon Vorgers
-author_email: s.vorgers@shopware.com
+author_email: s.vorgers@haokeyingxiao.com
 ---
 # Core
 * Removed following unused columns

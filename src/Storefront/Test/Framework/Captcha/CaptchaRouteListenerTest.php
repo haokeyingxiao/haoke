@@ -80,7 +80,7 @@ class CaptchaRouteListenerTest extends TestCase
 
         $data = [
             'salutationId' => $salutation->getId(),
-            'email' => 'kyln@shopware.com',
+            'email' => 'kyln@haokeyingxiao.com',
             'firstName' => 'Ky',
             'lastName' => 'Le',
             'subject' => 'Captcha',

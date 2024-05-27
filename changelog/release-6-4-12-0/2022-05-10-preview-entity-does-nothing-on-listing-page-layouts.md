@@ -2,7 +2,7 @@
 title: Preview entity does nothing on listing page layouts
 issue: NEXT-19403
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

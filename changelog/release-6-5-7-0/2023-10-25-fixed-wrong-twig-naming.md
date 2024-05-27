@@ -2,7 +2,7 @@
 title: Fixed wrong twig naming
 issue: NEXT-31087
 author: Florian Keller
-author_email: f.keller@shopware.com
+author_email: f.keller@haokeyingxiao.com
 
 ---
 # Storefront

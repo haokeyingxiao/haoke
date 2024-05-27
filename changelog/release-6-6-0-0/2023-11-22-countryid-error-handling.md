@@ -2,7 +2,7 @@
 title: countryId error handling
 issue: NEXT-31660
 author: Florian Keller
-author_email: f.keller@shopware.com
+author_email: f.keller@haokeyingxiao.com
 author_github: Florian Keller
 ---
 # Core

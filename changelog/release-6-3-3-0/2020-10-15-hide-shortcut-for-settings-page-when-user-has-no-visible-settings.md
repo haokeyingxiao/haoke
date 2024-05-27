@@ -2,7 +2,7 @@
 title: Hide shortcut for settings page when user has no visible settings
 issue: NEXT-11283
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

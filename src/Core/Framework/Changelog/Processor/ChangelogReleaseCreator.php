@@ -94,7 +94,7 @@ class ChangelogReleaseCreator extends ChangelogProcessor
             $author = $changelog->getDefinition()->getAuthor() ?? '';
             $authorEmail = $changelog->getDefinition()->getAuthorEmail() ?? '';
             $github = $changelog->getDefinition()->getAuthorGitHub() ?? '';
-            if (!empty($author) && !empty($github) && !empty($authorEmail) && !str_contains($authorEmail, '@shopware.com')) {
+            if (!empty($author) && !empty($github) && !empty($authorEmail) && !str_contains($authorEmail, '@haokeyingxiao.com')) {
                 $log .= sprintf(' ([%s](https://github.com/%s))', $author, str_replace('@', '', $github));
             }
 

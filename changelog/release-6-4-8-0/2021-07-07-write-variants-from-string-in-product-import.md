@@ -2,7 +2,7 @@
 title: Write variants from string in product import
 issue: NEXT-16038
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

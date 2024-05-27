@@ -2,7 +2,7 @@
 title: Minify flow storer
 issue: NEXT-25364
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Added new `ScalarValuesAware` and `ScalarValuesStorer` class, which allows to store scalar values for flows.

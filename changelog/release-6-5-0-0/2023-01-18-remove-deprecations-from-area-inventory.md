@@ -2,7 +2,7 @@
 title: Remove deprecations from area inventory
 issue: NEXT-24892
 author: Luke Wenkers
-author_email: l.wenkers@shopware.com
+author_email: l.wenkers@haokeyingxiao.com
 author_github: lukewenkers
 ---
 # Administration

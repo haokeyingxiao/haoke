@@ -2,7 +2,7 @@
 title: Fix migration for cover id constraint in order line items
 issue: NEXT-12033
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Core

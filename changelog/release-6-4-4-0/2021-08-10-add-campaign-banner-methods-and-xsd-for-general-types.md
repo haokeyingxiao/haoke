@@ -2,7 +2,7 @@
 title: Added campaign banner methods and XSD for general types
 issue: NEXT-16483
 author: Maike Sestendrup
-author_email: m.sestendrup@shopware.com 
+author_email: m.sestendrup@haokeyingxiao.com 
 ---
 # Administration
 * Added `src/Administration/Framework/Marketing/Schema/campaign-elements-and-types-1.0.xsd` file.

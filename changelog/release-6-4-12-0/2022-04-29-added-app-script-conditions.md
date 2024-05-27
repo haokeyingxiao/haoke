@@ -2,7 +2,7 @@
 title: Added app script conditions
 issue: NEXT-19860
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

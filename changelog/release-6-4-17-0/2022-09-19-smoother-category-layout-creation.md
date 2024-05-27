@@ -2,7 +2,7 @@
 title: Smoother category layout creation
 issue: NEXT-22637
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

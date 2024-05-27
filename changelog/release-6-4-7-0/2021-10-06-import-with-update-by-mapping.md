@@ -2,7 +2,7 @@
 title: Import with update by mapping
 issue: NEXT-16704
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

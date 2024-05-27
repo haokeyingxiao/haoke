@@ -2,7 +2,7 @@
 title: Add duplicated domain check when adding a new domain
 issue: NEXT-8170
 author: Patrick Stahl
-author_email: p.stahl@shopware.com 
+author_email: p.stahl@haokeyingxiao.com 
 author_github: @PaddyS
 ---
 # Administration

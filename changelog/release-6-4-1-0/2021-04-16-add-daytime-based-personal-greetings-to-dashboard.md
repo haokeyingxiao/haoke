@@ -2,7 +2,7 @@
 title: add daytime based personal greetings to dashboard
 issue: NEXT-14706
 author: Raoul Kramer
-author_email: r.kramer@shopware.com 
+author_email: r.kramer@haokeyingxiao.com 
 author_github: djpogo
 ---
 # Administration

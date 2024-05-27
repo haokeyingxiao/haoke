@@ -2,7 +2,7 @@
 title: Fix layout_head_javascript_tracking block on checkout confirm
 issue: NEXT-9215
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ---
 # Storefront

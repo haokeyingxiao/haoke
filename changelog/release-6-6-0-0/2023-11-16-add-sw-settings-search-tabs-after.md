@@ -2,7 +2,7 @@
 title: Add 'after' block to sw-settings-search tabs
 issue: NEXT-31579
 author: Scott Anderson
-author_email: s.anderson@shopware.com
+author_email: s.anderson@haokeyingxiao.com
 author_github: Scott Anderson
 ---
 # Administration

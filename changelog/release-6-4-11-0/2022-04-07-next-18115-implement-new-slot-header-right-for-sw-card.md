@@ -2,7 +2,7 @@
 title: NEXT-18115 - implement new slot "header-right" for sw-card
 issue: NEXT-18115
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

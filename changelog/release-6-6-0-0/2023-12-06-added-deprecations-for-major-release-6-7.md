@@ -2,7 +2,7 @@
 title: Added deprecations for major release 6.7
 issue: NEXT-31184
 author: Krzykawski
-author_email: m.krzykawski@shopware.com
+author_email: m.krzykawski@haokeyingxiao.com
 author_github: Krzykawski
 ---
 # Core

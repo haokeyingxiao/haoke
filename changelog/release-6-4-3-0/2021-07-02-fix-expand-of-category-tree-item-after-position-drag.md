@@ -2,7 +2,7 @@
 title: Fix expand of category tree item after position drag
 issue: NEXT-15977
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

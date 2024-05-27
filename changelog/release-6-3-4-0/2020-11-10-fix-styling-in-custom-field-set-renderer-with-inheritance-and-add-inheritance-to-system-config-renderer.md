@@ -2,7 +2,7 @@
 title: Fix styling in custom field set renderer with inheritance and add inheritance to system config renderer
 issue: NEXT-11437
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

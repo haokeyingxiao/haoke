@@ -2,7 +2,7 @@
 title: Display Blockname in category layout assignment
 issue: NEXT-10177
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: @NiklasLimberg
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Added new API route to update order addresses
 issue: NEXT-31922
 author: Jozsef Damokos
-author_email: j.damokos@shopware.com
+author_email: j.damokos@haokeyingxiao.com
 author_github: jozsefdamokos
 ---
 # Core

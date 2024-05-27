@@ -2,7 +2,7 @@
 title: Add extension points to sw-settings-usage-data
 issue: NEXT-34664
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Administration

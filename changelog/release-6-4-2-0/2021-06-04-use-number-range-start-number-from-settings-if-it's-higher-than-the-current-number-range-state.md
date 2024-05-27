@@ -2,7 +2,7 @@
 title: Use number range start number from settings if it's higher than the current number range state
 issue: NEXT-11038
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

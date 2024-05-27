@@ -2,7 +2,7 @@
 title: Fix timezone
 issue: NEXT-31486
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Administration

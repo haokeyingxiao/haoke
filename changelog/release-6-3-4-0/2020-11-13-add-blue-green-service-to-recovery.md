@@ -2,7 +2,7 @@
 title: Added BlueGreenDeploymentService to the Recovery app
 issue: NEXT-10525 
 author: Patrick Stahl
-author_email: p.stahl@shopware.com
+author_email: p.stahl@haokeyingxiao.com
 author_github: @PaddyS
 ---
 # Core

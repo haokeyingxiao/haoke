@@ -2,7 +2,7 @@
 title: Remove read or write access related elements from access key management interface
 issue: NEXT-10826
 author: Philip Gatzka
-author_email: p.gatzka@shopware.com 
+author_email: p.gatzka@haokeyingxiao.com 
 author_github: @philipgatzka
 ---
 # Administration

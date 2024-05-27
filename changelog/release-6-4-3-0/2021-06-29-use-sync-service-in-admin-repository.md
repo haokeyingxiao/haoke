@@ -2,7 +2,7 @@
 title: Use sync service in admin repository
 issue: NEXT-11927
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Core

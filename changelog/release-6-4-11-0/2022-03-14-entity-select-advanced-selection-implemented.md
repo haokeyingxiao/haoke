@@ -2,7 +2,7 @@
 title: Entity select advanced selection implemented
 issue: NEXT-12411
 author: Malte Janz
-author_email: m.janz@shopware.com
+author_email: m.janz@haokeyingxiao.com
 author_github: MalteJanz
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Fix display ampersand in checkout process and cart
 issue: NEXT-20299
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 ___
 # Storefront
 * Changed `src/Storefront/Resources/views/storefront/component/checkout/offcanvas-item.html.twig` to output label string of product as raw

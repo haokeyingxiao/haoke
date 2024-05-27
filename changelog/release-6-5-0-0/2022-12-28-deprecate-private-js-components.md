@@ -2,7 +2,7 @@
 title: Deprecate private JS components
 issue: NEXT-24646
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com
+author_email: f.schmitt@haokeyingxiao.com
 author_github: fschmtt
 ---
 # Administration

@@ -67,7 +67,7 @@ describe('Basic captcha', () => {
             cy.get(selector.formContactSalutation).select('Not specified');
             cy.get(selector.formContactFirstName).type('Ky');
             cy.get(selector.formContactLastName).type('Le');
-            cy.get(selector.formContactMail).type('kyln@shopware.com');
+            cy.get(selector.formContactMail).type('kyln@haokeyingxiao.com');
             cy.get(selector.formContactPhone).type('+123456789');
             cy.get(selector.formContactSubject).type('Captcha');
             cy.get(selector.formContactComment).type('Basic Captcha.');

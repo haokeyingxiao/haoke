@@ -47,7 +47,7 @@ services:
 
     shopware:
         <<: *service
-        image: gitlab.shopware.com:5005/shopware/6/product/platform/ci-e2e:trunk
+        image: gitlab.haokeyingxiao.com:5005/shopware/6/product/platform/ci-e2e:trunk
         depends_on: [ database ]
         ports:
             - '8000:8000'

@@ -2,7 +2,7 @@
 title: Enforce required constraint for feature set name
 issue: NEXT-11000
 author: Philip Gatzka
-author_email: p.gatzka@shopware.com 
+author_email: p.gatzka@haokeyingxiao.com 
 author_github: @philipgatzka
 ---
 # Core

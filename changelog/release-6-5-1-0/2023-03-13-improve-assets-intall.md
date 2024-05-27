@@ -2,7 +2,7 @@
 title: Improve assets install
 issue: NEXT-25068
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Core

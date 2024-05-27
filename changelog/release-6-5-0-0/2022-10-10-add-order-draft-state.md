@@ -2,7 +2,7 @@
 title: Add Order Draft view for new Order UX
 issue: NEXT-16673
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 # Administration
 * Added multitude of fields to `sw-order-create-details`

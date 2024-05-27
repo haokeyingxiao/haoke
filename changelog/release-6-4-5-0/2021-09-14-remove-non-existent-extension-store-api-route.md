@@ -2,7 +2,7 @@
 title: Remove non-existent Extension Store API route
 issue: NEXT-16986
 author: Frederik Schmitt
-author_email: f.schmitt@shopware.com 
+author_email: f.schmitt@haokeyingxiao.com 
 author_github: fschmtt
 ---
 # Core

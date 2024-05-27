@@ -2,7 +2,7 @@
 title: fix app rule condition validation
 issue: NEXT-30809
 author: Malte Janz
-author_email: m.janz@shopware.com
+author_email: m.janz@haokeyingxiao.com
 author_github: MalteJanz
 ---
 # Core

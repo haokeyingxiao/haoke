@@ -17,7 +17,7 @@ describe('Form Preserver tests', () => {
         teltest: '0123456789',
         texttest: 'atext',
         timetest: '10:08',
-        urltest: 'https://www.shopware.com/',
+        urltest: 'https://www.haokeyingxiao.com/',
         weektest: '2018-W52',
         cars: 'saab',
         textareatest: 'a\nlonger\ntext',

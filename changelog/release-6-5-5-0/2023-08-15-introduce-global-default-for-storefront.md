@@ -2,7 +2,7 @@
 title: Introduce Global Default for Storefront
 issue: NEXT-29916
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Storefront

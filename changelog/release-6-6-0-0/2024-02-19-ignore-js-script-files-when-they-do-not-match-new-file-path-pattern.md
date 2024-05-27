@@ -2,7 +2,7 @@
 title: Ignore JS script files if they do not match the new file path pattern
 issue: NEXT-33857
 author: Björn Meyer
-author_email: b.meyer@shopware.com
+author_email: b.meyer@haokeyingxiao.com
 author_github: BrocksiNet
 ---
 # Storefront

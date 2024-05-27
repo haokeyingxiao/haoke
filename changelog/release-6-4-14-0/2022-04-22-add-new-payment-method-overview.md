@@ -2,7 +2,7 @@
 title: Add new payment method overview
 issue: NEXT-20935
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 ---
 # Administration
 * Added new component `sw-settings-payment-overview` for route `sw.settings.payment.overview`

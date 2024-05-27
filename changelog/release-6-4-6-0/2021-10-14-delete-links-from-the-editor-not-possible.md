@@ -2,7 +2,7 @@
 title: Delete links from the editor not possible 
 issue: NEXT-17700
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 ---
 # Administration
 * Changed method `onButtonClick` in `sw-text-editor-toolbar/index.js` to allow the new button type `link-remove`

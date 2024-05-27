@@ -2,7 +2,7 @@
 title: Added import export worker notifications
 issue: NEXT-18230
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

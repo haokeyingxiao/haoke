@@ -2,7 +2,7 @@
 title: Prevent duplicated urls in sales channel domains
 issue: NEXT-8170
 author: Benedikt Schulze Baek
-author_email: b.schulze-baek@shopware.com 
+author_email: b.schulze-baek@haokeyingxiao.com 
 author_github: bschulzebaek
 ---
 # Administration

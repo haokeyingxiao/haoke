@@ -2,7 +2,7 @@
 title: Create the new tab "Details" in the order module
 issue: NEXT-16682
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com 
+author_email: m.stegmeyer@haokeyingxiao.com 
 ---
 # Administration
 * Added `fillDigits` prop to `sw-number-field` to always show zero digits in a number field.

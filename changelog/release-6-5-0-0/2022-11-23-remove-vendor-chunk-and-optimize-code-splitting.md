@@ -2,7 +2,7 @@
 title: Remove vendor chunk and optimize code splitting
 issue: NEXT-21612
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration

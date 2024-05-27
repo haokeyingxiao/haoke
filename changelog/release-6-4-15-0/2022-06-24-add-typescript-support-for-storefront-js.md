@@ -2,7 +2,7 @@
 title: Add TypeScript support for Storefront JavaScript
 issue: NEXT-18530
 author: Benedikt Schulze Baek
-author_email: b.schulze-baek@shopware.com
+author_email: b.schulze-baek@haokeyingxiao.com
 author_github: bschulzebaek
 ---
 # Storefront

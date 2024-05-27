@@ -2,7 +2,7 @@
 title: Cross-selling tab console errors
 issue: NEXT-14961
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

@@ -2,7 +2,7 @@
 title:              Consider admin order for stock update
 issue:              NEXT-10477
 author:             Oliver Skroblin
-author_email:       o.skroblin@shopware.com
+author_email:       o.skroblin@haokeyingxiao.com
 author_github:      @OliverSkroblin
 ---
 # Core

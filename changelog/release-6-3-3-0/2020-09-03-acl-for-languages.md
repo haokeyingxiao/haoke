@@ -2,7 +2,7 @@
 title:         ACL for languages
 issue:         NEXT-8951
 author:        Sy Dinh
-author_email:  s.dinh@shopware.com
+author_email:  s.dinh@haokeyingxiao.com
 author_github: @sydinh
 ---
 # Administration

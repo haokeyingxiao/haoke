@@ -2,7 +2,7 @@
 title: Fix publishing datasets from same component
 issue: NEXT-21389
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

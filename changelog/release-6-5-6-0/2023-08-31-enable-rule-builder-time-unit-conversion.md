@@ -2,7 +2,7 @@
 title: enable rule builder time unit conversion
 issue: NEXT-24941
 author: Lars Kemper
-author_email: l.kemper@shopware.com
+author_email: l.kemper@haokeyingxiao.com
 author_github: @LarsKemper
 ---
 # Core

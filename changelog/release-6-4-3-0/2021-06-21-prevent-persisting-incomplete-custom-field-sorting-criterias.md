@@ -2,7 +2,7 @@
 title: Prevent persisting incomplete custom field sorting criterias
 issue: NEXT-15790
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Administration

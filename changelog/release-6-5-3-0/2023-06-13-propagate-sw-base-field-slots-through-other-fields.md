@@ -2,7 +2,7 @@
 title: Propagate sw-base-field slots through other fields
 issue: NEXT-28475
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 author_github: @cyl3x
 ---
 # Administration

@@ -1,7 +1,7 @@
 const customer = {
     firstName: 'Y',
     lastName: 'Tran',
-    email: "y.tran@shopware.com",
+    email: "y.tran@haokeyingxiao.com",
     password: "shopware",
 };
 

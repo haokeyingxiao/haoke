@@ -2,7 +2,7 @@
 title: Fixed breadcrumbs
 issue: NEXT-13614
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com 
+author_email: l.tinkloh@haokeyingxiao.com 
 author_github: @lernhart
 ---
 # Storefront

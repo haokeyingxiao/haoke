@@ -2,7 +2,7 @@
 title: Display the position of shipping methods in the Administration
 issue: NEXT-20509
 author: Markus Velt
-author_email: m.velt@shopware.com
+author_email: m.velt@haokeyingxiao.com
 author_github: @raknison
 ---
 # Administration

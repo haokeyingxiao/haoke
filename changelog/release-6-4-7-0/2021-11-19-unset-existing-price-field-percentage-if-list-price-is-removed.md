@@ -2,7 +2,7 @@
 title: Unset existing price field percentage if list price is removed
 issue: NEXT-18611
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

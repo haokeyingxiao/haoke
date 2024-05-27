@@ -4,7 +4,7 @@
       "mainMenuItemGeneral": "Mailer",
       "textHeadline": "Mailer",
       "buttonSave": "Speichern",
-      "helpText": "Für weitere Informationen schaue bitte in die <a target=\"_blank\" href=\"https://docs.shopware.com/de/shopware-6-de\">Dokumentation</a>"
+      "helpText": "Für weitere Informationen schaue bitte in die <a target=\"_blank\" href=\"https://docs.haokeyingxiao.com/de/shopware-6-de\">Dokumentation</a>"
     },
     "mailer-configuration": {
       "card-title": "Mailer-Konfiguration",
@@ -48,7 +48,7 @@
       "ssl": "SSL",
       "tls": "TLS"
     },
-    "helpText": "Für weitere Informationen schaue bitte in die <a target=\"_blank\" href=\"https://docs.shopware.com/de/shopware-6-de\">Dokumentation</a>"
+    "helpText": "Für weitere Informationen schaue bitte in die <a target=\"_blank\" href=\"https://docs.haokeyingxiao.com/de/shopware-6-de\">Dokumentation</a>"
   }
 }
 

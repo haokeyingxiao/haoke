@@ -3,7 +3,7 @@ title: Hide configurable custom product default layout
 issue: NEXT-24968
 flag: v6.6.0.0
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: Niklas Limberg
 ---
 # Core

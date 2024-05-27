@@ -2,7 +2,7 @@
 title: Fix-Import-Export-Profile-Duplication
 issue: NEXT-12338
 author: Malte Janz
-author_email: m.janz@shopware.com 
+author_email: m.janz@haokeyingxiao.com 
 author_github: Malte Janz
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Add condition for properties to Rule Builder
 issue: NEXT-20434
 author: Lars Kemper
-author_email: l.kemper@shopware.com
+author_email: l.kemper@haokeyingxiao.com
 author_github: @LarsKemper
 ---
 # Core

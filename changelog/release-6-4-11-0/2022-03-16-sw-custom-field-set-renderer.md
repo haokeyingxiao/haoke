@@ -2,7 +2,7 @@
 title: sw-custom-field-set-renderer
 issue: NEXT-20502
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Fix default sorting input field in system-config renderer in the listing module
 issue: NEXT-15255
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

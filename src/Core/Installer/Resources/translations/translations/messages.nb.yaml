@@ -33,7 +33,7 @@ shopware.installer:
     language-selection_select_language: 'Installasjonsveiledningens språk'
     language-selection_header: 'Din Shopware installasjon'
     language-selection_info_message: 'Språket som blir valgt her gjelder kun for installasjonsveiledningen. Du kan definere systemets standardspråk senere.'
-    language-selection_welcome_message: 'Vi er glade for at du vil bli en del av vårt fantastiske Shopware Community! Vi vil nå guide deg igjennom installasjonsprosessen. Hvis du har spørsmål, se på våres <a class="is--nowrap" href="https://forum.shopware.com" target="_blank">forum</a>, kontakt oss på telefonnummer <a class="is--nowrap" href="tel:0080074676260">00 800 746 7626 0 (gratis)</a> eller send oss en <a class="is--nowrap" href="mailto:info@shopware.com">e-mail</a>.'
+    language-selection_welcome_message: 'Vi er glade for at du vil bli en del av vårt fantastiske Shopware Community! Vi vil nå guide deg igjennom installasjonsprosessen. Hvis du har spørsmål, se på våres <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">forum</a>, kontakt oss på telefonnummer <a class="is--nowrap" href="tel:0080074676260">00 800 746 7626 0 (gratis)</a> eller send oss en <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">e-mail</a>.'
     requirements_header: Systemkrav
     requirements_header_files: 'Filer og mapper'
     requirements_header_system: 'System'
@@ -93,9 +93,9 @@ shopware.installer:
     migration_counter_text_snippets: 'Oppdaterer tekst snippets'
     migration_update_success: 'Databasen ble importeret!'
     edition_header: 'Har du allerede en Shopware lisens?'
-    edition_info: 'Shopware finns i en gratis <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition </a> og i en lisensbasert <a href="https://de.shopware.com/versionen/" target="_blank">Professional &amp; Enterprise Edition</a>.'
-    edition_ce: 'Nei, jeg vil bruke <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition</a>.'
-    edition_cm: 'Ja, jeg har en Shopware-lisens (<a href="https://de.shopware.com/versionen/" target="_blank">Professional eller Enterprise</a>).'
+    edition_info: 'Shopware finns i en gratis <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition </a> og i en lisensbasert <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional &amp; Enterprise Edition</a>.'
+    edition_ce: 'Nei, jeg vil bruke <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition</a>.'
+    edition_cm: 'Ja, jeg har en Shopware-lisens (<a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional eller Enterprise</a>).'
     edition_license: 'Angi lisensnøkkelen din her. Du finner den på din Shopware-konto under "Lisenser" → "Produktlisenser" → "Detaljer/Download":'
     edition_license_error: 'Du må angi en gyldig lisensnøkkel.'
     configuration_header: 'Konfigurasjon'
@@ -143,7 +143,7 @@ shopware.installer:
             Du har installeret Shopware og vi glade for å ønske deg velkommen til vårt Community!
         </p>
         <p>
-            Din butikk er klar til bruk. Er du ny til Shopware, så anbefaler vi at du tar en titt på denne guiden <a href=\"https://docs.shopware.com/en/shopware-6-en/getting-started\" target=\"_blank\">\"Kom godt i gang med Shopware\"</a>. Når du logger inn i admin for første gang vil vår ”First Run Wizard” guide deg gjennom vår setup.
+            Din butikk er klar til bruk. Er du ny til Shopware, så anbefaler vi at du tar en titt på denne guiden <a href=\"https://docs.haokeyingxiao.com/en/shopware-6-en/getting-started\" target=\"_blank\">\"Kom godt i gang med Shopware\"</a>. Når du logger inn i admin for første gang vil vår ”First Run Wizard” guide deg gjennom vår setup.
         </p>
         <p>
             God fornøyelse med din nye online butikk!

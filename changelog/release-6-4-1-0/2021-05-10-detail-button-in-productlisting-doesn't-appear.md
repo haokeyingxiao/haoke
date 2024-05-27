@@ -2,7 +2,7 @@
 title: Detail button in productlisting doesn't appear
 issue: NEXT-12700
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

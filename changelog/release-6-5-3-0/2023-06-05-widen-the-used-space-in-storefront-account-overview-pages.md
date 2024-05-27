@@ -2,7 +2,7 @@
 title: Widen the used space in storefront account overview pages
 issue: NEXT-26230
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Storefront

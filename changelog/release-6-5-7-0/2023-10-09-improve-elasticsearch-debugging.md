@@ -2,7 +2,7 @@
 title: Improve-ElasticSearch-Debugging
 issue: NEXT-19579
 author: Alexandru Dumea
-author_email: a.dumea@shopware.com
+author_email: a.dumea@haokeyingxiao.com
 author_github: Alexandru Dumea
 ---
 # API

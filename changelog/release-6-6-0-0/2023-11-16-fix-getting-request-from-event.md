@@ -2,7 +2,7 @@
 title: fix-getting-request-from-event
 issue: NEXT-26134
 author: Alexandru Dumea
-author_email: a.dumea@shopware.com
+author_email: a.dumea@haokeyingxiao.com
 author_github: Alexandru Dumea
 ---
 # Core

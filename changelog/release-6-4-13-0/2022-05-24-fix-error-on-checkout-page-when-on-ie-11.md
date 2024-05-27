@@ -2,7 +2,7 @@
 title: Fix error on checkout page when on IE 11
 issue: NEXT-20726
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com
+author_email: l.tinkloh@haokeyingxiao.com
 author_github: @lernhart
 ---
 # Storefront

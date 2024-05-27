@@ -2,7 +2,7 @@
 title: Implement blog category type
 issue: NEXT-22646
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

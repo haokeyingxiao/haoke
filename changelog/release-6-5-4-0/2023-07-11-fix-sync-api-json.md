@@ -2,7 +2,7 @@
 title: Remove info about single-transaction header
 issue: NEXT-29195
 author: Micha Hobert
-author_email: m.hobert@shopware.com
+author_email: m.hobert@haokeyingxiao.com
 author_github: Isengo1989
 ---
 # Core

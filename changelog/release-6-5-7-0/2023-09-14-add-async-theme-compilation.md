@@ -2,7 +2,7 @@
 title: Added async theme compilation configuration
 issue: NEXT-29828
 author: Stefan Sluiter
-author_email: s.sluiter@shopware.com
+author_email: s.sluiter@haokeyingxiao.com
 ---
 # Storefront
 * Changed `sw-settings-storefront-configuration.html.twig` and `modules/sw-settings-storefront/page/sw-settings-storefront-index/index.js` to add async compilatin setting.

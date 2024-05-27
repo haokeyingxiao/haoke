@@ -24,8 +24,8 @@ const linkDataProvider = [{
     label: 'sw-text-editor-toolbar.link.linkTo',
     placeholder: 'sw-text-editor-toolbar.link.placeholderPhoneNumber',
 }, {
-    URL: 'mailto:test@shopware.com',
-    value: 'test@shopware.com',
+    URL: 'mailto:test@haokeyingxiao.com',
+    value: 'test@haokeyingxiao.com',
     type: 'email',
     prefix: 'mailto:',
     selector: '.sw-email-field',

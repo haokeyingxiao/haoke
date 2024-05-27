@@ -2,7 +2,7 @@
 title: Listing variant in the product assignment of the category configuration
 issue: NEXT-31146
 author: Thuy Le
-author_email: thuy.le@shopware.com
+author_email: thuy.le@haokeyingxiao.com
 author_github:  @thuylt
 ---
 # Administration

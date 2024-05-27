@@ -179,7 +179,7 @@ describe('core/factory/module.factory.js', () => {
                 color: '#f00',
                 label: 'FooIndex',
             }, {
-                link: 'http://de.shopware.com',
+                link: 'http://de.haokeyingxiao.com',
                 label: 'ExternalLink',
                 parent: 'sw.foo.index',
             }, {
@@ -195,7 +195,7 @@ describe('core/factory/module.factory.js', () => {
         expect(routerNavigationEntry.label).toBe('FooIndex');
 
         expect(typeof externalLinkNavigation).toBe('object');
-        expect(externalLinkNavigation.link).toBe('http://de.shopware.com');
+        expect(externalLinkNavigation.link).toBe('http://de.haokeyingxiao.com');
     });
 
     it('should be possible to get all registered modules', () => {

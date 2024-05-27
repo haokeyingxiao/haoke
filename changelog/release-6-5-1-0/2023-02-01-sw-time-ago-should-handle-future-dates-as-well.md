@@ -2,7 +2,7 @@
 title: sw-time-ago should handle future dates as well
 issue: NEXT-25236
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com
+author_email: l.tinkloh@haokeyingxiao.com
 author_github: @lernhart
 ---
 # Administration

@@ -2,7 +2,7 @@
 title:              Fix listing price view
 issue:              NEXT-10598
 author:             Oliver Skroblin
-author_email:       o.skroblin@shopware.com
+author_email:       o.skroblin@haokeyingxiao.com
 author_github:      @OliverSkroblin
 ---
 # Core

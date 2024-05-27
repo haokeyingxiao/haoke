@@ -2,7 +2,7 @@
 title: Fix local mailer step in FRW
 issue: NEXT-33018
 author: Lars Kemper
-author_email: l.kemper@shopware.com
+author_email: l.kemper@haokeyingxiao.com
 author_github: @LarsKemper
 ---
 # Administration

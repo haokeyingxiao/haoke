@@ -2,7 +2,7 @@
 title: validate order create discount privilege and generally in proxy endpoints
 issue: NEXT-15171
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

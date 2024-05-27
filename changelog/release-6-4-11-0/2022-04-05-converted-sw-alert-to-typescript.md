@@ -2,7 +2,7 @@
 title: Converted `sw-alert` to typescript
 issue: NEXT-17913
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Add company email address to documents
 issue: NEXT-14870
 author: Ramona Schwering
-author_email: r.schwering@shopware.com 
+author_email: r.schwering@haokeyingxiao.com 
 author_github: leichteckig
 ---
 # Core

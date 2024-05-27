@@ -104,7 +104,7 @@ describe('module/sw-cms/elements/manufacturer-logo/component', () => {
                 },
                 data: {
                     media: {
-                        url: 'http://shopware.com/image.jpg',
+                        url: 'http://haokeyingxiao.com/image.jpg',
                         id: '1',
                     },
                 },

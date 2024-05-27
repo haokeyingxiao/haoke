@@ -2,7 +2,7 @@
 title: generate http cache key when cart contains items
 issue: NEXT-12330
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Storefront

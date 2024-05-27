@@ -2,7 +2,7 @@
 title:          Improve the overall user experience in the account order overview
 issue:          NEXT-10487
 author:         Tobias Berge
-author_email:   t.berge@shopware.com
+author_email:   t.berge@haokeyingxiao.com
 author_github:  @tobiasberge
 ---
 # Storefront

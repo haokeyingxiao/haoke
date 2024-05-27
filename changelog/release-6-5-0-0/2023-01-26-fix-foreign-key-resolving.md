@@ -2,7 +2,7 @@
 title: Fix foreign key resolving
 issue: NEXT-22262
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

@@ -2,7 +2,7 @@
 title: Fix import export entity listing
 issue: NEXT-26002
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

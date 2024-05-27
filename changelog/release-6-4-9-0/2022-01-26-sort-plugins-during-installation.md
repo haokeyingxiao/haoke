@@ -2,7 +2,7 @@
 title: Sort plugins during installation
 issue: NEXT-19781
 author: Jan Bücker
-author_email: j.buecker@shopware.com
+author_email: j.buecker@haokeyingxiao.com
 author_github: janbuecker
 ---
 # Core

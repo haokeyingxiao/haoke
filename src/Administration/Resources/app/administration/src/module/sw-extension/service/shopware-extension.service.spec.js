@@ -134,7 +134,7 @@ describe('src/module/sw-extension/service/shopware-extension.service', () => {
         });
 
         it.each([
-            [{ userInfo: { email: 'user@shopware.com' } }],
+            [{ userInfo: { email: 'user@haokeyingxiao.com' } }],
             [{ userInfo: null }],
         ])('sets login status depending on checkLogin response', async (loginResponse) => {
             checkLoginSpy.mockImplementationOnce(() => loginResponse);

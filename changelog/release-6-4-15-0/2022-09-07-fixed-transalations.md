@@ -2,7 +2,7 @@
 title: Improve translations in storefront presentation settings
 issue: NEXT-23122
 author: Ramona Schwering
-author_email: r.schwering@shopware.com
+author_email: r.schwering@haokeyingxiao.com
 author_github: @leichteckig
 ___
 # Administration

@@ -3,7 +3,7 @@ title: WYSIWYG copying and fix text-editor toolbar position
 issue: NEXT-18745
 author: Niklas Limberg
 author_github: NiklasLimberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 ---
 # Administration
 * Changed `sw-text-editor-toolbar/index.js` to update the toolbar position on text alignment changes, scrolling and resizing

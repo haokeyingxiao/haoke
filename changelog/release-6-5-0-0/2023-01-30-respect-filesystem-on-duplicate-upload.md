@@ -2,7 +2,7 @@
 title: Respect filesystem on duplicate upload
 issue: NEXT-25129
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Administration

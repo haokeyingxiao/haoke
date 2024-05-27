@@ -2,7 +2,7 @@
 title: Add Stoplight Elements
 issue: NEXT-34151
 author: Björn Meyer
-author_email: b.meyer@shopware.com
+author_email: b.meyer@haokeyingxiao.com
 author_github: BrocksiNet
 ---
 # Core

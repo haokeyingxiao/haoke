@@ -2,7 +2,7 @@
 title: 2023-09-05-fixed-bug-custom-fields-not-shown-on-new-shipping-method
 issue: NEXT-21702
 author: Florian Keller
-author_email: f.keller@shopware.com
+author_email: f.keller@haokeyingxiao.com
 ---
 # Administration
 

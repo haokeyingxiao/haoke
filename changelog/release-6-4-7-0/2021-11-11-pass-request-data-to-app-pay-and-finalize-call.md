@@ -2,7 +2,7 @@
 title: Pass request data to app pay and finalize call
 issue: NEXT-18711
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com 
+author_email: s.seggewiss@haokeyingxiao.com 
 author_github: seggewiss
 ---
 # Core

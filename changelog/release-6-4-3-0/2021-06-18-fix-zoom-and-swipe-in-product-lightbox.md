@@ -2,7 +2,7 @@
 title: fix zoom and swipe in product lightbox
 issue: NEXT-15730
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

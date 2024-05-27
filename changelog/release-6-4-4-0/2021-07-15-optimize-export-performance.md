@@ -2,7 +2,7 @@
 title: Optimize export performance
 issue: NEXT-10315
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Core

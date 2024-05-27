@@ -2,7 +2,7 @@
 title: Prevent wrong profile mapping for import / export
 issue: NEXT-7921
 author: Krispin Lütjann
-author_email: k.luetjann@shopware.com 
+author_email: k.luetjann@haokeyingxiao.com 
 author_github: King-of-Babylon
 ---
 # Administration

@@ -54,7 +54,7 @@ class RequestTransformerTest extends TestCase
         $registeredApiPrefixes = [];
         $requestTransformer = new RequestTransformer($decorated, $resolver, $registeredApiPrefixes, $domainLoader);
 
-        $originalRequest = Request::create('http://shopware.com/api');
+        $originalRequest = Request::create('http://haokeyingxiao.com/api');
 
         static::expectException(SalesChannelMappingException::class);
         $requestTransformer->transform($originalRequest);
@@ -67,27 +67,27 @@ class RequestTransformerTest extends TestCase
     {
         yield 'Default case' => [
             'registeredApiPrefixes' => ['api'],
-            'requestUri' => 'http://shopware.com/api',
+            'requestUri' => 'http://haokeyingxiao.com/api',
         ];
 
         yield 'Case with trailing slash' => [
             'registeredApiPrefixes' => ['api'],
-            'requestUri' => 'http://shopware.com/api/',
+            'requestUri' => 'http://haokeyingxiao.com/api/',
         ];
 
         yield 'Case with double leading slashes' => [
             'registeredApiPrefixes' => ['api'],
-            'requestUri' => 'http://shopware.com//api',
+            'requestUri' => 'http://haokeyingxiao.com//api',
         ];
 
         yield 'Case with double trailing slashes' => [
             'registeredApiPrefixes' => ['api'],
-            'requestUri' => 'http://shopware.com/api//',
+            'requestUri' => 'http://haokeyingxiao.com/api//',
         ];
 
         yield 'Case with double leading and trailing slashes' => [
             'registeredApiPrefixes' => ['api'],
-            'requestUri' => 'http://shopware.com//api//',
+            'requestUri' => 'http://haokeyingxiao.com//api//',
         ];
     }
 }

@@ -35,7 +35,7 @@ async function createWrapper() {
                 systemConfigApiService: {
                     getValues: () => {
                         return Promise.resolve({
-                            'core.store.apiUri': 'https://api.shopware.com',
+                            'core.store.apiUri': 'https://api.haokeyingxiao.com',
                             'core.store.licenseHost': 'sw6.test.shopware.in',
                             'core.store.shopSecret': 'very.s3cret',
                         });

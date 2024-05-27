@@ -2,7 +2,7 @@
 title: Add domains modal to extension permissions modal
 issue: NEXT-14641
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

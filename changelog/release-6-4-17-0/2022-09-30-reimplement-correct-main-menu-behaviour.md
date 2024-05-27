@@ -2,7 +2,7 @@
 title: reimplement-correct-main-menu-behaviour
 issue: NEXT-23487
 author: Holger-Thomas Kassner
-author_email: h.kassner@shopware.com
+author_email: h.kassner@haokeyingxiao.com
 author_github: @htkassner
 ___
 # Administration

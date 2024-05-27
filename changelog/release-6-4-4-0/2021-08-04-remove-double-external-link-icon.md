@@ -2,7 +2,7 @@
 title: Removed double external link icons
 issue: NEXT-16529
 author: Maike Sestendrup
-author_email: m.sestendrup@shopware.com
+author_email: m.sestendrup@haokeyingxiao.com
 ___
 # Administration
 * Deprecated Twig block `sw_gtc_checkbox_input_label_link_icon` in `sw-gtc-checkbox` component.

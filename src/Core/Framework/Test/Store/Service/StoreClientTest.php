@@ -175,8 +175,8 @@ class StoreClientTest extends TestCase
     {
         $userInfo = [
             'name' => 'John Doe',
-            'email' => 'john.doe@shopware.com',
-            'avatarUrl' => 'https://avatar.shopware.com/john-doe.png',
+            'email' => 'john.doe@haokeyingxiao.com',
+            'avatarUrl' => 'https://avatar.haokeyingxiao.com/john-doe.png',
         ];
 
         $this->getStoreRequestHandler()->append(new Response(200, [], \json_encode($userInfo, \JSON_THROW_ON_ERROR)));
@@ -194,7 +194,7 @@ class StoreClientTest extends TestCase
     public function testMissingConnectionBecauseYouAreInGermanCellularInternet(): void
     {
         $this->getStoreRequestHandler()->append(new ConnectException(
-            'cURL error 7: Failed to connect to api.shopware.com port 443 after 4102 ms: Network is unreachable (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.shopware.com/swplatform/pluginupdates?shopwareVersion=6.4.12.0&language=de-DE&domain=',
+            'cURL error 7: Failed to connect to api.haokeyingxiao.com port 443 after 4102 ms: Network is unreachable (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.haokeyingxiao.com/swplatform/pluginupdates?shopwareVersion=6.4.12.0&language=de-DE&domain=',
             $this->createMock(RequestInterface::class)
         ));
 

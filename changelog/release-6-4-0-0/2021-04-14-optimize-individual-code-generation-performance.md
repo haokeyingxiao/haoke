@@ -2,7 +2,7 @@
 title:              Optimize individual code generation performance
 issue:              NEXT-14474
 author:             OliverSkroblin
-author_email:       o.skroblin@shopware.com
+author_email:       o.skroblin@haokeyingxiao.com
 author_github:      @OliverSkroblin
 ---
 # Core

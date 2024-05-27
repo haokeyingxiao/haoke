@@ -2,7 +2,7 @@
 title: Change `sw-url-field` component to support valid URLs
 issue: NEXT-15747
 author: Raoul Kramer
-author_email: r.kramer@shopware.com 
+author_email: r.kramer@haokeyingxiao.com 
 author_github: @djpogo
 ---
 # Administration

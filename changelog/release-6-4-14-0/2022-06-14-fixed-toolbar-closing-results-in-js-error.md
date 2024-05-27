@@ -2,7 +2,7 @@
 title: Fixed toolbar closing results in JS error
 issue: NEXT-20544
 author: Marcel Brode
-author_email: m.brode@shopware.com
+author_email: m.brode@haokeyingxiao.com
 author_github: Marcel Brode
 ---
 # Administration

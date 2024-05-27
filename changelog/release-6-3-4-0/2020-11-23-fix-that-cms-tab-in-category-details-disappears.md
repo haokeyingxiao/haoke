@@ -2,7 +2,7 @@
 title: Fix that CMS tab in category details disappears
 issue: NEXT-12332
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: update dynamic product groups purchase prices snippets
 issue: NEXT-11227
 author: Malte Janz
-author_email: m.janz@shopware.com
+author_email: m.janz@haokeyingxiao.com
 author_github: MalteJanz
 ---
 # Administration

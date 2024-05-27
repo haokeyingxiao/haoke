@@ -2,7 +2,7 @@
 title: internal-classes
 issue: NEXT-19173
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Deprecated all service __construct(), where the class is initialized over the di container. The constructor is not part of our BC promise, and we are allowed to change it in any version

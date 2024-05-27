@@ -2,7 +2,7 @@
 title: Product pricing app scripts
 issue: NEXT-19598
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Added new `services.price` service to handle price calculations in app scripts

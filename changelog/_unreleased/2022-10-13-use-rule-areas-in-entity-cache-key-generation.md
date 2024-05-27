@@ -3,7 +3,7 @@ title: Use rule areas in entity cache key generation
 issue: NEXT-23135
 flag: V6_5_0_0
 author: d.neustadt
-author_email: d.neustadt@shopware.com
+author_email: d.neustadt@haokeyingxiao.com
 author_github: dneustadt
 ---
 # Core

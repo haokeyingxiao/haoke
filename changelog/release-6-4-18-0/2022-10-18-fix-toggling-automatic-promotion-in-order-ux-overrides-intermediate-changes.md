@@ -2,7 +2,7 @@
 title: Fix toggling automatic promotion in Order UX overrides intermediate changes
 issue: NEXT-23672
 author: Michel Bade
-author_email: m.bade@shopware.com
+author_email: m.bade@haokeyingxiao.com
 author_github: @cyl3x
 ---
 # Administration

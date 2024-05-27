@@ -2,7 +2,7 @@
 title: Product Slider selected products missing checkmark
 issue: NEXT-15792
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

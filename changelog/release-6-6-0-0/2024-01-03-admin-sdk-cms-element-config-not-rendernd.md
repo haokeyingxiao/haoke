@@ -2,7 +2,7 @@
 title: Admin SDK CMS Element config not rendernd
 issue: NEXT-32895
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

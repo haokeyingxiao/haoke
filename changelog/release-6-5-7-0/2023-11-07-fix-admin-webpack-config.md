@@ -2,7 +2,7 @@
 title: Fix Admin webpack config
 issue: NEXT-31368
 author: Sebastian Seggewiß
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

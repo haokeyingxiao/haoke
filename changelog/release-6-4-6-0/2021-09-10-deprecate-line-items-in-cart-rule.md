@@ -2,7 +2,7 @@
 title: Deprecate line items in cart rule
 issue: NEXT-17052
 author: Malte Janz
-author_email: m.janz@shopware.com 
+author_email: m.janz@haokeyingxiao.com 
 author_github: Malte Janz
 ---
 # Core

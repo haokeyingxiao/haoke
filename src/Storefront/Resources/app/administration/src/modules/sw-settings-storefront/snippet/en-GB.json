@@ -4,7 +4,7 @@
       "mainMenuItemGeneral": "Storefront",
       "textHeadline": "Storefront",
       "description": "Settings for the storefront",
-      "helpText": "For more information look at <a target=\"_blank\" href='https://docs.shopware.com/en/shopware-6-de'>documentation</a>"
+      "helpText": "For more information look at <a target=\"_blank\" href='https://docs.haokeyingxiao.com/en/shopware-6-de'>documentation</a>"
     },
     "configuration": {
       "cardTitle": "Storefront configuration",
@@ -15,7 +15,7 @@
         "asyncTooltip": "Controls whether theme compilation is handled via the message queue instead of directly on changes."
       }
     },
-    "helpText": "For more information please check out the <a target=\"_blank\", href=\"https://docs.shopware.com/en/shopware-6-en\">documentation.</a>"
+    "helpText": "For more information please check out the <a target=\"_blank\", href=\"https://docs.haokeyingxiao.com/en/shopware-6-en\">documentation.</a>"
   }
 }
 

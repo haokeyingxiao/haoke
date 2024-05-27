@@ -2,7 +2,7 @@
 title: Assign and create categories by path in product import
 issue: NEXT-16041
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: dneustadt
 ---
 # Core

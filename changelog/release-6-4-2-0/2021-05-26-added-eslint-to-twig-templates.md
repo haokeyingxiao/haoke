@@ -2,7 +2,7 @@
 title: Add ESLint rules to vue templates
 issue: NEXT-12215
 author: Raoul Kramer
-author_email: r.kramer@shopware.com 
+author_email: r.kramer@haokeyingxiao.com 
 author_github: @djpogo
 ---
 ___

@@ -2,7 +2,7 @@
 title: Fix direct module navigation with SDK
 issue: NEXT-24432
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

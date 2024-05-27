@@ -42,7 +42,7 @@
                 },
                 "responses": {
                     "200": {
-                        "description": "Returns the state of the state machine\n\n    example: More information about the state machine can be found in the corresponding guide: [Using the state machine](https://developer.shopware.com/docs/guides/plugins/plugins/checkout/order/using-the-state-machine)",
+                        "description": "Returns the state of the state machine\n\n    example: More information about the state machine can be found in the corresponding guide: [Using the state machine](https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/checkout/order/using-the-state-machine)",
                         "content": {
                             "application/json": {
                                 "schema": {

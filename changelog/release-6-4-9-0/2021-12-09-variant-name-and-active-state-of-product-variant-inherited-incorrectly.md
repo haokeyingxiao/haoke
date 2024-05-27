@@ -2,7 +2,7 @@
 title: Changed variant name and active state of a product variant which inherited incorrectly
 issue: NEXT-19003
 author: Marcel Hakvoort
-author_email: m.hakvoort@shopware.com
+author_email: m.hakvoort@haokeyingxiao.com
 author_github: @celha
 ---
 # Administration

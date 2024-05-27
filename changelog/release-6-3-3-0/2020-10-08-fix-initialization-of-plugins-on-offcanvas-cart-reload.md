@@ -2,7 +2,7 @@
 title: Fix Storefront Plugin initialization on offcanvas-cart reload
 issue: NEXT-11307
 author: Max Stegmeyer
-author_email: m.stegmeyer@shopware.com
+author_email: m.stegmeyer@haokeyingxiao.com
 author_github: @m.stegmeyer
 ---
 # Storefront

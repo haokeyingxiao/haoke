@@ -2,7 +2,7 @@
 title: Overwrite recipients in business event mail send
 issue: NEXT-15178
 author: d.neustadt
-author_email: d.neustadt@shopware.com 
+author_email: d.neustadt@haokeyingxiao.com 
 author_github: d.neustadt
 ---
 # Core

@@ -2,7 +2,7 @@
 title: Fix tax rate display of line items in documents
 issue: NEXT-8382
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Core

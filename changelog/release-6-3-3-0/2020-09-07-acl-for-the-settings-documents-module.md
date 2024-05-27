@@ -2,7 +2,7 @@
 title:          ACL for the Settings > Documents module
 issue:          NEXT-8962
 author:         Niklas Limberg
-author_email:   n.limberg@shopware.com
+author_email:   n.limberg@haokeyingxiao.com
 ---
 # Administration
 * Added ACL privileges to the setting documents module

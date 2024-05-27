@@ -33,7 +33,7 @@ shopware.installer:
     language-selection_select_language: 'Installationsguidens språk'
     language-selection_header: 'Din Shopware-installation'
     language-selection_info_message: 'Detta val gäller endast för språket i installationsguiden. Du kan definiera systemets standardspråk i din butik senare.'
-    language-selection_welcome_message: 'Vi är glada över att du vill vara en del av vår världsomspännande Shopware Community! Nu följer vi dig steg för steg genom installationsprocessen. Om du har frågor, vänligen se först efter svar i vårt <a class="is--nowrap" href="https://forum.shopware.com" target="_blank">Forum</a>, kontakta oss på telefon på telefonnummer <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a> eller skriv till oss via <a class="is--nowrap" href="mailto:info@shopware.com">e-mail</a>.'
+    language-selection_welcome_message: 'Vi är glada över att du vill vara en del av vår världsomspännande Shopware Community! Nu följer vi dig steg för steg genom installationsprocessen. Om du har frågor, vänligen se först efter svar i vårt <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">Forum</a>, kontakta oss på telefon på telefonnummer <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a> eller skriv till oss via <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">e-mail</a>.'
     requirements_header: Systemkrav
     requirements_header_files: 'Filer och kataloger'
     requirements_header_system: System
@@ -89,9 +89,9 @@ shopware.installer:
     migration_counter_text_snippets: 'Textmoduler uppdateras'
     migration_update_success: 'Databasen importerades framgångsrikt!'
     edition_header: 'Har du redan en Shopware-licens?'
-    edition_info: 'Shopware finns i en gratis <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition </a> samt i en avgiftsbelagd <a href="https://de.shopware.com/versionen/" target="_blank">Professional &amp; Enterprise Edition</a>.'
-    edition_ce: 'Nej jag vill använda den kostnadsfria versionen <a href="https://de.shopware.com/versionen/" target="_blank">Community Edition</a>.'
-    edition_cm: 'Ja, jag har en avgiftsbelagd Shopware-licens (<a href="https://de.shopware.com/versionen/" target="_blank">Professional eller Enterprise</a>).'
+    edition_info: 'Shopware finns i en gratis <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition </a> samt i en avgiftsbelagd <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional &amp; Enterprise Edition</a>.'
+    edition_ce: 'Nej jag vill använda den kostnadsfria versionen <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community Edition</a>.'
+    edition_cm: 'Ja, jag har en avgiftsbelagd Shopware-licens (<a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional eller Enterprise</a>).'
     edition_license: 'Ange din licensnyckel här. Du hittar denna på ditt Shopware-konto under ”Licenser” → ”Produktlicenser” → ”Detaljer/Download”:'
     edition_license_error: 'För att installera en betalversion av Shopware krävs en giltig licens.'
     configuration_header: Konfiguration
@@ -135,7 +135,7 @@ shopware.installer:
         <p>
             vi är glada att få välkomna dig i vår Community. Du har framgångsrikt installerat Shopware.
         <p>
-            Din butik är nu klar för användning. Om Shopware är nytt för dig rekommenderar vi guiden <a href=\"https://docs.shopware.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">”Kom igång med Shopware”</a>. När du registrerar dig för första gången i administrationen kommer vår ”First Run Wizard” att guida dig genom den grundläggande installationen av din butik.
+            Din butik är nu klar för användning. Om Shopware är nytt för dig rekommenderar vi guiden <a href=\"https://docs.haokeyingxiao.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">”Kom igång med Shopware”</a>. När du registrerar dig för första gången i administrationen kommer vår ”First Run Wizard” att guida dig genom den grundläggande installationen av din butik.
         </p>
         <p>
             Vi hoppas att du får både roligt och har framgång med din nya onlinebutik!

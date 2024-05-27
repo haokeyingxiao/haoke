@@ -2,7 +2,7 @@
 title: Update Jest to V29.3
 issue: NEXT-24123
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author_github: NiklasLimberg
 ---
 # Administration

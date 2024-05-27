@@ -2,7 +2,7 @@
 title: Add jest tests for init folder
 issue: NEXT-26012
 author: Sebastian Seggewiss
-author_email: s.seggewiss@shopware.com
+author_email: s.seggewiss@haokeyingxiao.com
 author_github: @seggewiss
 ---
 # Administration

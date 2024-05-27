@@ -2,7 +2,7 @@
 title: Remove usage of JSON_EXTRACT in SalesChannelContextPersister
 issue: NEXT-13781
 author: Patrick Stahl
-author_email: p.stahl@shopware.com 
+author_email: p.stahl@haokeyingxiao.com 
 author_github: @PaddyS
 ---
 # Core

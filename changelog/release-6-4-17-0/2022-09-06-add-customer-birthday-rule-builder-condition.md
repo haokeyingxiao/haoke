@@ -2,7 +2,7 @@
 title: Add customer birthday rule builder condition
 issue: NEXT-20328
 author: Lars Kemper
-author_email: l.kemper@shopware.com
+author_email: l.kemper@haokeyingxiao.com
 author_github: LarsKemper
 ---
 # Core

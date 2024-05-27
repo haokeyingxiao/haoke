@@ -2,7 +2,7 @@
 title: Fix invalid review author item
 issue: NEXT-12801
 author: Marcel Hakvoort
-author_email: m.hakvoort@shopware.com
+author_email: m.hakvoort@haokeyingxiao.com
 author_github: @celha
 ---
 

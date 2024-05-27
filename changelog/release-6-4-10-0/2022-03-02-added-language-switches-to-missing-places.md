@@ -2,7 +2,7 @@
 title: Added language switches to missing places
 issue: NEXT-16034
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com
+author_email: j.leifeld@haokeyingxiao.com
 author_github: @jleifeld
 ---
 # Administration

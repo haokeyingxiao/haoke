@@ -2,7 +2,7 @@
 title: Fix customer groups timeout when shop has many customers
 issue: NEXT-9784
 author: Jannis Leifeld
-author_email: j.leifeld@shopware.com 
+author_email: j.leifeld@haokeyingxiao.com 
 author_github: @jleifeld
 ---
 # Administration

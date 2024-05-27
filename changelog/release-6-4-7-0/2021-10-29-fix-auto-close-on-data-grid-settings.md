@@ -2,7 +2,7 @@
 title: Fix auto-close of grid settings on outside click
 issue: NEXT-18137
 author: Ramona Schwering
-author_email: r.schwering@shopware.com 
+author_email: r.schwering@haokeyingxiao.com 
 author_github: leichteckig
 ---
 # Administration

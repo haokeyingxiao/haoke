@@ -2,7 +2,7 @@
 title: Replaced link in payment warning on sales channel detail page to point to payment settings instead of payment detail page
 issue: NEXT-21126
 author: Patrick Stahl
-author_email: p.stahl@shopware.com
+author_email: p.stahl@haokeyingxiao.com
 author_github: PaddyS
 ---
 # Administration

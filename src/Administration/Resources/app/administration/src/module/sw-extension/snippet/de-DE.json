@@ -30,15 +30,15 @@
         "isLoggedIn": "Du hast Dich erfolgreich mit dem Shopware Account verbunden. Gehe zur Registerkarte \"Apps\" oder \"Themes\" und prüfe, ob Deine gekauften Erweiterungen aufgeführt sind. Wenn nicht, gehe in den Shopware Account und stelle sicher, dass die richtige Domain für Erweiterungen eingestellt wurde.",
         "login": "Anmelden",
         "logout": "Abmelden",
-        "loginMessage": "Melde Dich im Shopware Account an, um auf die Erweiterungen zuzugreifen, die Du auf store.shopware.com gekauft hast.",
+        "loginMessage": "Melde Dich im Shopware Account an, um auf die Erweiterungen zuzugreifen, die Du auf store.haokeyingxiao.com gekauft hast.",
         "register": "Registriere Dich jetzt und werde Teil der Shopware-Community!",
         "registerNow": "Jetzt registrieren",
-        "registerUrl": "https://account.shopware.com/register?lang=de",
+        "registerUrl": "https://account.haokeyingxiao.com/register?lang=de",
         "mailLabel": "E-Mail-Adresse",
         "mailPlaceholder": "Gib Deine E-Mail-Adresse ein ...",
         "passwordLabel": "Passwort",
         "passwordPlaceholder": "Gib Dein Passwort ein ...",
-        "recoveryUrl": "https://account.shopware.com/recovery?lang=de",
+        "recoveryUrl": "https://account.haokeyingxiao.com/recovery?lang=de",
         "passwordForgot": "Hast Du Dein Passwort vergessen?",
         "loginNotificationMessage": "Du bist im Shopware Account angemeldet."
       },
@@ -208,7 +208,7 @@
           "textProblem": "Beim Installieren Deiner Erweiterung ist ein Problem aufgetreten. Der Hersteller wird von uns informiert.",
           "notificationLicense": "Beachte, dass die Miete dieser App bzw. des Themes weiterhin aktiv bleibt.",
           "textSupport": "Bei Fragen zur Lizenz wende Dich bitte an die Shopware Financial Services. Erreichbar per E-Mail unter {0} oder per Telefon unter {1}",
-          "supportEmail": "financial.services{'@'}shopware.com",
+          "supportEmail": "financial.services{'@'}haokeyingxiao.com",
           "supportPhone": "+49 (0)2555 / 9288510"
         }
       },

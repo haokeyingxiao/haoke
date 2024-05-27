@@ -2,7 +2,7 @@
 title: Fix cache control
 issue: NEXT-20309
 author: Soner Sayakci
-author_email: s.sayakci@shopware.com
+author_email: s.sayakci@haokeyingxiao.com
 ---
 
 # Storefront

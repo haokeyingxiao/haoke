@@ -2,7 +2,7 @@
 title: Add data bag to validation events
 issue: NEXT-12948
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Core

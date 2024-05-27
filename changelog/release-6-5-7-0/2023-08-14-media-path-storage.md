@@ -2,7 +2,7 @@
 title: Media path storage
 issue: NEXT-25584
 author: Oliver Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 # Core
 * Added new media path system where the path is generated externally or when the media file is uploaded. With this change we did the following deprecations and additions:

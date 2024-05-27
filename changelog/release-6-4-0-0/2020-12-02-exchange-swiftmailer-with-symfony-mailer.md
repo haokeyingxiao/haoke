@@ -2,7 +2,7 @@
 title:              Exchange SwiftMailer with Symfony mailer
 issue:              NEXT-12246
 author:             Stefan Sluiter
-author_email:       s.sluiter@shopware.com
+author_email:       s.sluiter@haokeyingxiao.com
 author_github:      @ssltg
 ---
 # Core

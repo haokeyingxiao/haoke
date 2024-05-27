@@ -42,7 +42,7 @@ compile deployment info:
     - *rules_deployment_preparation
   variables:
     CI_CURRENT_MAJOR_ALIAS: "6.6.x-dev"
-    GITLAB_HOST: "gitlab.shopware.com"
+    GITLAB_HOST: "gitlab.haokeyingxiao.com"
     GITLAB_TOKEN: "${CI_GITLAB_API_TOKEN}"
     CI_B64_ENVIRONMENT_TARGET_VAR: "CI_B64_ENVIRONMENT"
   script:

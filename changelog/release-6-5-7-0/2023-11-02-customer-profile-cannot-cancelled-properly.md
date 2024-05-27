@@ -2,7 +2,7 @@
 title: Customer profile cannot cancelled properly
 issue: NEXT-29512
 author: Florian Keller
-author_email: f.keller@shopware.com
+author_email: f.keller@haokeyingxiao.com
 
 ---
 # Administration

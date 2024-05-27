@@ -2,7 +2,7 @@
 title: Propagate request data to payment payloads during checkout
 issue: NEXT-30429
 author: Lennart Tinkloh
-author_email: l.tinkloh@shopware.com
+author_email: l.tinkloh@haokeyingxiao.com
 author_github: @lernhart
 ---
 # Core

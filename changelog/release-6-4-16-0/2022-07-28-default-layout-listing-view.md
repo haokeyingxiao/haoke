@@ -2,7 +2,7 @@
 title: Default layout - Listing view
 issue: NEXT-22597
 author: Luka Brlek
-author_email: l.brlek@shopware.com
+author_email: l.brlek@haokeyingxiao.com
 author_github: Luka Brlek
 ---
 # Administration

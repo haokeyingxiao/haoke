@@ -2,7 +2,7 @@
 title: Core fixes
 issue: NEXT-33707
 author: oskroblin Skroblin
-author_email: o.skroblin@shopware.com
+author_email: o.skroblin@haokeyingxiao.com
 ---
 
 # Core

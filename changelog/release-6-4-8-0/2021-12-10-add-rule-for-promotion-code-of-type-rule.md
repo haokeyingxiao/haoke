@@ -2,7 +2,7 @@
 title: Add rule for promotion code of type rule
 issue: NEXT-18990
 author: Krispin Lütjann
-author_email: k.luetjann@shopware.com 
+author_email: k.luetjann@haokeyingxiao.com 
 author_github: King-of-Babylon
 ---
 # Core

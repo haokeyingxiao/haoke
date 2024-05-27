@@ -2,7 +2,7 @@
 title: Reset main variant on product duplicate
 issue: NEXT-11885
 author: OliverSkroblin
-author_email: o.skroblin@shopware.com 
+author_email: o.skroblin@haokeyingxiao.com 
 author_github: OliverSkroblin
 ---
 # Administration

@@ -2,7 +2,7 @@
 title: Empty states for properties and property values overlay each other
 issue: NEXT-13172
 author: Niklas Limberg
-author_email: n.limberg@shopware.com
+author_email: n.limberg@haokeyingxiao.com
 author: NiklasLimberg
 author_github: NiklasLimberg
 ---

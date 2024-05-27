@@ -2,7 +2,7 @@
 title: Add sort criteria to shipping method selection
 issue: NEXT-25970
 author: Florian Robel
-author_email: f.robel@shopware.com
+author_email: f.robel@haokeyingxiao.com
 author_github: frobel
 ---
 # Administration
