@@ -1,0 +1,117 @@
+name: 'compile assert'
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 21 * * *'
+env:
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  GITHUB_SYNC_USER: "gxiaosong"
+  REMOTE_BASE_URL: "https://${{ secrets.TOKEN }}@github.com/haokeyingxiao"
+
+jobs:
+  php:
+    runs-on: ubuntu-latest
+    env:
+      APP_ENV: test
+      DATABASE_URL: mysql://root@127.0.0.1:3306/root
+      APP_URL: http://localhost:8000
+      APP_SECRET: def00000bb5acb32b54ff8ee130270586eec0e878f7337dc7a837acc31d3ff00f93a56b595448b4b29664847dd51991b3314ff65aeeeb761a133b0ec0e070433bff08e48
+      OPENSEARCH_URL: 127.0.0.1:9200
+      BLUE_GREEN_DEPLOYMENT: 1
+      PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Start Default MySQL
+        run: |
+          sudo mv /var/lib/mysql /var/lib/mysql-old
+          sudo mkdir /var/lib/mysql
+          sudo mount -t tmpfs tmpfs /var/lib/mysql -o size=1G
+          sudo -u mysql mysqld --datadir=/var/lib/mysql --default-time-zone=SYSTEM --initialize-insecure
+          sudo systemctl start mysql
+      - name: Get Composer Cache Directory
+        id: composer-cache
+        run: |
+          echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache Composer Archives
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+          tools: symfony-cli
+
+      - name: Setup Composer
+        run: composer install -o
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Retrieve the cached "node_modules" directory (if present)
+        uses: actions/cache@v4
+        id: admin-node-cache
+        with:
+          path: src/Administration/Resources/app/administration/node_modules
+          key: admin-node-modules-${{ runner.os }}-${{ hashFiles('src/Administration/Resources/app/administration/package-lock.json') }}
+
+      - name: Install dependencies (if the cached directory was not found)
+        if: steps.admin-node-cache.outputs.cache-hit != 'true'
+        run: npm --prefix src/Administration/Resources/app/administration ci --no-audit --prefer-offline
+
+      - name: Retrieve the cached "node_modules" directory (if present)
+        uses: actions/cache@v4
+        id: storefront-node-cache
+        with:
+          path: src/Storefront/Resources/app/storefront/node_modules
+          key: storefront-node-modules-${{ runner.os }}-${{ hashFiles('src/Storefront/Resources/app/storefront/package-lock.json') }}
+
+      - name: Install dependencies (if the cached directory was not found)
+        if: steps.storefront-node-cache.outputs.cache-hit != 'true'
+        run: npm --prefix src/Storefront/Resources/app/storefront ci --no-audit --prefer-offline
+
+      - name: Install System
+        run: |
+          php ./bin/console system:install -f --basic-setup --drop-database --create-database
+          composer run build:js:admin
+          composer run build:js:storefront
+      - name: Split Pakcages
+        run: |
+          chmod +x .github/bin/split.bash
+          for package in Administration Storefront Core Elasticsearch; do
+            .github/bin/split.bash split_repo "${package}"
+          done
+      - name: Add assets to split repositories
+        run: |
+          for package in Administration Storefront; do
+           .github/bin/split.bash copy_assets "${package}"
+          done
+          .github/bin/split.bash check_assets
+          .github/bin/split.bash include_admin_assets
+          .github/bin/split.bash include_storefront_assets
+      - name: Set git
+        run: |
+          git config --global user.email "bot@haokeyingxiao.com"
+          git config --global user.name "bot"
+      - name: Finalize split repos (protected branch)
+        run: |
+          for package in Administration Storefront Elasticsearch; do
+            .github/bin/split.bash require_core_version "${package}" "${{ github.ref_name }}" ${{ github.ref_type }}
+          done
+          for package in Administration Storefront Elasticsearch; do
+            .github/bin/split.bash commit "${package}" "${{github.ref_name}} (+ assets)"
+          done
+
+      - name: Push split repositories
+        run: |
+          for package in Administration Storefront Core Elasticsearch; do
+            .github/bin/split.bash push "${package}" "$REMOTE_BASE_URL" "${{ github.ref_name }}"
+          done
