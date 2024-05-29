@@ -1,5 +1,5 @@
 import type { PropType } from 'vue';
-import type { TabItem } from '@shopware-ag/meteor-component-library/dist/esm/components/navigation/mt-tabs/mt-tabs';
+import type { TabItem } from '@haokeyingxiao/meteor-component-library/dist/esm/components/navigation/mt-tabs/mt-tabs';
 import template from './sw-tabs.html.twig';
 
 const { Component } = Shopware;

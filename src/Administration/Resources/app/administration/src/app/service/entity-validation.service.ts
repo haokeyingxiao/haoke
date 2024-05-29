@@ -1,4 +1,4 @@
-import type { Entity } from '@shopware-ag/meteor-admin-sdk/es/_internals/data/Entity';
+import type { Entity } from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/Entity';
 import type ChangesetGenerator from 'src/core/data/changeset-generator.data';
 import type EntityDefinition from 'src/core/data/entity-definition.data';
 import type ErrorResolver from 'src/core/data/error-resolver.data';

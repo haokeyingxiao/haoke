@@ -33,7 +33,7 @@ if (isCi) {
 
 module.exports = {
     cacheDirectory: process.env.JEST_CACHE_DIR,
-    preset: '@shopware-ag/jest-preset-sw6-admin',
+    preset: '@haokeyingxiao/jest-preset-sw6-admin',
     globals: {
         adminPath: process.env.ADMIN_PATH,
         projectRoot: process.env.PROJECT_ROOT,
@@ -67,13 +67,12 @@ module.exports = {
     },
 
     transformIgnorePatterns: [
-        '/node_modules/(?!(@shopware-ag/meteor-icon-kit|uuidv7|@vue/compat|other)/)',
+        '/node_modules/(?!(@haokeyingxiao/meteor-icon-kit|uuidv7|@vue/compat|other)/)',
     ],
 
     moduleNameMapper: {
         '^test(.*)$': '<rootDir>/test$1',
-        '^\@shopware-ag\/admin-extension-sdk\/es\/(.*)': '<rootDir>/node_modules/@shopware-ag/admin-extension-sdk/umd/$1',
-        '^\@shopware-ag\/meteor-admin-sdk\/es\/(.*)': '<rootDir>/node_modules/@shopware-ag/meteor-admin-sdk/umd/$1',
+        '^\@haokeyingxiao\/meteor-admin-sdk\/es\/(.*)': '<rootDir>/node_modules/@haokeyingxiao/meteor-admin-sdk/umd/$1',
         '^lodash-es$': 'lodash',
         vue$: '@vue/compat/dist/vue.cjs.js',
     },

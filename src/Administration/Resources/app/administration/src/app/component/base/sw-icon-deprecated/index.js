@@ -6,20 +6,20 @@ import template from './sw-icon-deprecated.html.twig';
 import './sw-icon-deprecated.scss';
 
 // Prefetch specific icons to avoid loading them asynchronously to improve performance
-import '@shopware-ag/meteor-icon-kit/icons/regular/tachometer.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/products.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/shopping-bag.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/users.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/content.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/megaphone.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/plug.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/cog.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/bell.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/question-circle.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/search-s.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/chevron-down-xs.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/chevron-up-xs.svg';
-import '@shopware-ag/meteor-icon-kit/icons/regular/chevron-circle-left.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/tachometer.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/products.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/shopping-bag.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/users.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/content.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/megaphone.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/plug.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/cog.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/bell.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/question-circle.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/search-s.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/chevron-down-xs.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/chevron-up-xs.svg';
+import '@haokeyingxiao/meteor-icon-kit/icons/regular/chevron-circle-left.svg';
 
 const { Component } = Shopware;
 
@@ -151,7 +151,7 @@ Component.register('sw-icon-deprecated', {
         loadIconSvgData(variant, iconName, iconFullName) {
             if (this.feature.isActive('ADMIN_VITE')) {
                 // eslint-disable-next-line max-len
-                return import(`./../../../../../node_modules/@shopware-ag/meteor-icon-kit/icons/${variant}/${iconName}.svg?raw`).then((iconSvgData) => {
+                return import(`./../../../../../node_modules/@haokeyingxiao/meteor-icon-kit/icons/${variant}/${iconName}.svg?raw`).then((iconSvgData) => {
                     if (iconSvgData.default) {
                         this.iconSvgData = iconSvgData.default;
                     } else {
@@ -162,7 +162,7 @@ Component.register('sw-icon-deprecated', {
                 });
             }
 
-            return import(`@shopware-ag/meteor-icon-kit/icons/${variant}/${iconName}.svg`).then((iconSvgData) => {
+            return import(`@haokeyingxiao/meteor-icon-kit/icons/${variant}/${iconName}.svg`).then((iconSvgData) => {
                 if (iconSvgData.default) {
                     this.iconSvgData = iconSvgData.default;
                 } else {

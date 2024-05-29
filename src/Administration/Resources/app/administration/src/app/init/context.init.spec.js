@@ -8,7 +8,7 @@ import {
     getAppInformation,
     getUserInformation,
     getUserTimezone,
-} from '@shopware-ag/meteor-admin-sdk/es/context';
+} from '@haokeyingxiao/meteor-admin-sdk/es/context';
 import extensionsStore from '../state/extensions.store';
 
 describe('src/app/init/context.init.ts', () => {

@@ -11,7 +11,7 @@ async function main() {
     }
 
     const converter = new EntitySchemaConverter();
-    const packageName = '@shopware-ag/entity-schema-types'
+    const packageName = '@haokeyingxiao/entity-schema-types'
     const folderPackagePath = path.join(__dirname, '../../entity-schema-types');
     const definitionFileName = 'entity-schema-definition.d.ts';
     const packageVersion = gitCommitTag.replace('v6.', '');

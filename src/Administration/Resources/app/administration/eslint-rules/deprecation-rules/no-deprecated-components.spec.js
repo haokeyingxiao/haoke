@@ -1,4 +1,4 @@
-import { MtFloatingUi } from "@shopware-ag/meteor-component-library";
+import { MtFloatingUi } from "@haokeyingxiao/meteor-component-library";
 
 const RuleTester = require('eslint').RuleTester
 const rule = require('./no-deprecated-components');

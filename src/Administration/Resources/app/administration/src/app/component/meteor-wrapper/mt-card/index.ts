@@ -1,4 +1,4 @@
-import { MtCard } from '@shopware-ag/meteor-component-library';
+import { MtCard } from '@haokeyingxiao/meteor-component-library';
 import template from './mt-card.html.twig';
 
 

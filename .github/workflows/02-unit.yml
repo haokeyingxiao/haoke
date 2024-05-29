@@ -81,7 +81,7 @@ jobs:
       - name: Start Webserver
         run: symfony server:start -d
 
-      - name: Install Shopware
+      - name: Install Haoke
         run: php src/Core/TestBootstrap.php
 
       - name: Run PHPUnit
