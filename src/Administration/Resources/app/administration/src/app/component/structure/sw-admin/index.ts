@@ -1,4 +1,6 @@
-import type { Toast } from '@haokeyingxiao/meteor-component-library/dist/esm/components/feedback-indicator/mt-toast/mt-toast';
+import type {
+    Toast,
+} from '@haokeyingxiao/meteor-component-library/dist/esm/components/feedback-indicator/mt-toast/mt-toast';
 import template from './sw-admin.html.twig';
 
 const { Component } = Shopware;
