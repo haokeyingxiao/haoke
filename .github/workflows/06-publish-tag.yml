@@ -1,0 +1,80 @@
+name: Publish Tag
+
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SHOPWARE_ADMIN_SKIP_SOURCEMAP_GENERATION: "1"
+      DATABASE_URL: mysql://root:root@127.0.0.1:3306/root
+    services:
+      database:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: root
+        options: '--mount="type=tmpfs,destination=/var/lib/mysql" --health-cmd="mysqladmin ping -h 127.0.0.1" --health-interval=5s --health-timeout=2s --health-retries=3'
+        ports:
+          - "3306:3306"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "0"
+          fetch-tags: "true"
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+          coverage: none
+          extensions: gd, xml, dom, curl, pdo, mysqli, mbstring, pdo_mysql, bcmath
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: build shopware
+        run: |
+          composer setup
+      - name: Split Pakcages
+        run: |
+          chmod +x .github/bin/split.bash
+          for package in Administration Storefront Core Elasticsearch; do
+            .github/bin/split.bash split_repo "${package}"
+          done
+      - name: Add assets to split repositories
+        run: |
+          for package in Administration Storefront; do
+           .github/bin/split.bash copy_assets "${package}"
+          done
+          .github/bin/split.bash check_assets
+          .github/bin/split.bash include_admin_assets
+          .github/bin/split.bash include_storefront_assets
+      - name: Set git
+        run: |
+          git config --global user.email "bot@haokeyingxiao.com"
+          git config --global user.name "bot"
+      - name: Finalize split repos (protected branch)
+        run: |
+          for package in Administration Storefront Elasticsearch; do
+            .github/bin/split.bash require_core_version "${package}" "${{ github.ref_name }}" ${{ github.ref_type }}
+          done
+          for package in Administration Storefront Elasticsearch; do
+            .github/bin/split.bash commit "${package}" "${{github.ref_name}} (+ assets)"
+          done
+      - name: Get tag name
+        id: get_tag
+        run: echo "TAG_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Create Tag
+        run: |
+          for package in Administration Storefront Elasticsearch; do
+            .github/bin/split.bash push "${package}" "${{ env.TAG_NAME }}"
+          done
+
+      - name: Push split repositories
+        run: |
+          for package in Administration Storefront Core Elasticsearch; do
+            .github/bin/split.bash push "${package}" "$REMOTE_BASE_URL" "${{ github.ref_name }}"
+          done

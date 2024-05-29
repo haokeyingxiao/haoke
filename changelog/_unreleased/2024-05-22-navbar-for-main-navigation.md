@@ -3,7 +3,7 @@ title: Navbar for main navigation
 issue: NEXT-36185
 flag: V6_7_0_0
 author: Björn Meyer
-author_email: b.meyer@shopware.com
+author_email: b.meyer@haokeyingxiao.com
 author_github: BrocksiNet
 ---
 # Storefront
