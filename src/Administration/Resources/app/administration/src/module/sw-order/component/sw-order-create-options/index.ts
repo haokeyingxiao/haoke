@@ -1,4 +1,4 @@
-import type { Entity } from '@shopware-ag/meteor-admin-sdk/es/_internals/data/Entity';
+import type { Entity } from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/Entity';
 import type { PropType } from 'vue';
 import type CriteriaType from 'src/core/data/criteria.data';
 

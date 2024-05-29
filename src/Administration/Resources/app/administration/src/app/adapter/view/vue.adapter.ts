@@ -17,7 +17,7 @@ import type ApplicationBootstrapper from 'src/core/application';
 import type { ComponentConfig } from 'src/core/factory/async-component.factory';
 import type { ComponentPublicInstance } from '@vue/runtime-core';
 
-import * as MeteorImport from '@shopware-ag/meteor-component-library';
+import * as MeteorImport from '@haokeyingxiao/meteor-component-library';
 
 const { Component, State, Mixin } = Shopware;
 

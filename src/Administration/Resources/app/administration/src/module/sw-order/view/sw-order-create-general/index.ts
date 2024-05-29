@@ -1,4 +1,4 @@
-import type { Entity } from '@shopware-ag/meteor-admin-sdk/es/_internals/data/Entity';
+import type { Entity } from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/Entity';
 import template from './sw-order-create-general.html.twig';
 import type {
     CalculatedTax,

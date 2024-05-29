@@ -39,7 +39,7 @@ const baseRules = {
 module.exports = {
     root: true,
     extends: [
-        '@shopware-ag/eslint-config-base',
+        '@haokeyingxiao/eslint-config-base',
     ],
     env: {
         browser: true,
@@ -101,7 +101,7 @@ module.exports = {
         {
             extends: [
                 'plugin:vue/vue3-recommended',
-                '@shopware-ag/eslint-config-base',
+                '@haokeyingxiao/eslint-config-base',
             ],
             files: ['**/*.js'],
             excludedFiles: ['*.spec.js', '*.spec.vue3.js'],
@@ -235,7 +235,7 @@ module.exports = {
         }, {
             files: ['**/*.ts', '**/*.tsx'],
             extends: [
-                '@shopware-ag/eslint-config-base',
+                '@haokeyingxiao/eslint-config-base',
                 'plugin:@typescript-eslint/eslint-recommended',
                 'plugin:@typescript-eslint/recommended',
                 'plugin:@typescript-eslint/recommended-requiring-type-checking',

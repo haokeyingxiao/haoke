@@ -2,11 +2,11 @@
  * @package admin
  */
 
-import { updateSubscriber, register, handleGet } from '@shopware-ag/meteor-admin-sdk/es/data';
+import { updateSubscriber, register, handleGet } from '@haokeyingxiao/meteor-admin-sdk/es/data';
 import { get, debounce, cloneDeepWith } from 'lodash';
 import type { App } from 'vue';
-import { selectData } from '@shopware-ag/meteor-admin-sdk/es/_internals/data/selectData';
-import MissingPrivilegesError from '@shopware-ag/meteor-admin-sdk/es/_internals/privileges/missing-privileges-error';
+import { selectData } from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/selectData';
+import MissingPrivilegesError from '@haokeyingxiao/meteor-admin-sdk/es/_internals/privileges/missing-privileges-error';
 import EntityCollection from 'src/core/data/entity-collection.data';
 import Criteria from 'src/core/data/criteria.data';
 import Entity from 'src/core/data/entity.data';

@@ -1,7 +1,7 @@
 import type { PropType } from 'vue';
-import type { Entity } from '@shopware-ag/meteor-admin-sdk/es/_internals/data/Entity';
+import type { Entity } from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/Entity';
 import type Repository from 'src/core/data/repository.data';
-import type EntityCollection from '@shopware-ag/meteor-admin-sdk/es/_internals/data/EntityCollection';
+import type EntityCollection from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/EntityCollection';
 import template from './sw-settings-tax-provider-sorting-modal.html.twig';
 import './sw-settings-tax-provider-sorting-modal.scss';
 

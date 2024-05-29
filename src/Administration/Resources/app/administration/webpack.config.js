@@ -10,7 +10,7 @@ const AssetsPlugin = require('assets-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
-const WebpackCopyAfterBuildPlugin = require('@shopware-ag/webpack-copy-after-build');
+const WebpackCopyAfterBuildPlugin = require('@haokeyingxiao/webpack-copy-after-build');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -940,11 +940,11 @@ const coreUrlImageLoader = mergedCoreConfig.module.rules.find(r => {
     return r.loader === 'url-loader' && r.test.test('.png');
 });
 coreUrlImageLoader.exclude.push(path.join(__dirname, 'src/app/assets/icons/svg'));
-coreUrlImageLoader.exclude.push(/@shopware-ag\/meteor-icon-kit\/icons/);
+coreUrlImageLoader.exclude.push(/@haokeyingxiao\/meteor-icon-kit\/icons/);
 
 const coreSvgInlineLoader = mergedCoreConfig.module.rules.find(r => r.loader === 'svg-inline-loader');
 coreSvgInlineLoader.include.push(path.join(__dirname, 'src/app/assets/icons/svg'));
-coreSvgInlineLoader.include.push(/@shopware-ag\/meteor-icon-kit\/icons/);
+coreSvgInlineLoader.include.push(/@haokeyingxiao\/meteor-icon-kit\/icons/);
 
 /**
  * Export all single configs in a array. Webpack uses then the webpack-multi-compiler for isolated

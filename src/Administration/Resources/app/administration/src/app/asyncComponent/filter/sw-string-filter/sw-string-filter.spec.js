@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import { MtTextField } from '@shopware-ag/meteor-component-library';
+import { MtTextField } from '@haokeyingxiao/meteor-component-library';
 
 const { Criteria } = Shopware.Data;
 
