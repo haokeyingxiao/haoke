@@ -69,8 +69,8 @@ jobs:
 
       - name: Create Tag
         run: |
-          for package in Administration Storefront Elasticsearch; do
-            .github/bin/split.bash push "${package}" "${{ env.TAG_NAME }}"
+          for package in Administration Core Storefront Elasticsearch; do
+            .github/bin/split.bash tag "${package}" "${{ env.TAG_NAME }}"
           done
 
       - name: Push split repositories
