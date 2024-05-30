@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - trunk
+    paths:
+      - src/Administration/**/*
+      - src/Core/**/*
+      - src/Storefront/**/*
+      - src/Elasticsearch/**/*
   pull_request:
 
 jobs:
