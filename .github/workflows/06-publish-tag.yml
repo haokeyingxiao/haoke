@@ -1,4 +1,4 @@
-name: Publish Tag
+name: 'compile assert'
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
   php:
     runs-on: ubuntu-latest
     env:
-      APP_ENV: prod
+      APP_ENV: test
       DATABASE_URL: mysql://root@127.0.0.1:3306/root
       APP_URL: http://localhost:8000
       APP_SECRET: def00000bb5acb32b54ff8ee130270586eec0e878f7337dc7a837acc31d3ff00f93a56b595448b4b29664847dd51991b3314ff65aeeeb761a133b0ec0e070433bff08e48
@@ -24,8 +24,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Start Default MySQL
         run: |
           sudo mv /var/lib/mysql /var/lib/mysql-old
@@ -103,21 +101,15 @@ jobs:
         run: |
           git config --global user.email "bot@haokeyingxiao.com"
           git config --global user.name "bot"
-
       - name: Finalize split repos (protected branch)
         run: |
           for package in Administration Storefront Elasticsearch; do
             .github/bin/split.bash require_core_version "${package}" "${{ github.ref_name }}" ${{ github.ref_type }}
           done
-      - name: Get tag name
-        id: get_tag
-        run: echo "TAG_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
-
-      - name: Create Tag
-        run: |
-          for package in Administration Core Storefront Elasticsearch; do
-            .github/bin/split.bash tag "${package}" "${{ env.TAG_NAME }}"
+          for package in Administration Storefront Elasticsearch; do
+            .github/bin/split.bash commit "${package}" "${{github.ref_name}} (+ assets)"
           done
+
       - name: Push split repositories
         run: |
           for package in Administration Storefront Core Elasticsearch; do
