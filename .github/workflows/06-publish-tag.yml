@@ -1,4 +1,4 @@
-name: 'compile assert'
+name: 'Publish Tag'
 
 on:
   push:
@@ -106,10 +106,16 @@ jobs:
           for package in Administration Storefront Elasticsearch; do
             .github/bin/split.bash require_core_version "${package}" "${{ github.ref_name }}" ${{ github.ref_type }}
           done
-          for package in Administration Storefront Elasticsearch; do
-            .github/bin/split.bash commit "${package}" "${{github.ref_name}} (+ assets)"
-          done
 
+      - name: Get tag name
+        id: get_tag
+        run: echo "TAG_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Create Tag
+        run: |
+          for package in Administration Core Storefront Elasticsearch; do
+            .github/bin/split.bash tag "${package}" "${{ env.TAG_NAME }}"
+          done
       - name: Push split repositories
         run: |
           for package in Administration Storefront Core Elasticsearch; do
