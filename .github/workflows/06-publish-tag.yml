@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Start Default MySQL
         run: |
           sudo mv /var/lib/mysql /var/lib/mysql-old
@@ -117,7 +119,7 @@ jobs:
         run: |
           for package in Administration Core Storefront Elasticsearch; do
             .github/bin/split.bash tag "${package}" "${{ env.TAG_NAME }}"
-          done        
+          done
       - name: Push split repositories
         run: |
           for package in Administration Storefront Core Elasticsearch; do
