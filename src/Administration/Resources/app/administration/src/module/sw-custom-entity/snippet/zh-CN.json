@@ -1,0 +1,15 @@
+{
+  "sw-custom-entity": {
+    "general": {
+      "mainMenuItemGeneral": "自定义实体",
+      "emptyState": "尚无自定义实体",
+      "emptyStateSubline": "在这里管理自定义实体。"
+    },
+    "detail": {
+      "tabs": {
+        "layout": "布局",
+        "seo": "SEO"
+      }
+    }
+  }
+}

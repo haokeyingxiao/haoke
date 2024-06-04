@@ -42,21 +42,25 @@ class Migration1643878976AddCaptureRefundStateMachines extends MigrationStep
             OrderTransactionCaptureStates::STATE_MACHINE,
             'Bezahlstatus',
             'Capture state',
+            '捕捉状态',
             [
                 StateMachineMigration::state(
                     OrderTransactionCaptureStates::STATE_PENDING,
                     'Ausstehend',
-                    'Pending'
+                    'Pending',
+                    '挂起'
                 ),
                 StateMachineMigration::state(
                     OrderTransactionCaptureStates::STATE_COMPLETED,
                     'Abgeschlossen',
-                    'Complete'
+                    'Complete',
+                    '完成'
                 ),
                 StateMachineMigration::state(
                     OrderTransactionCaptureStates::STATE_FAILED,
                     'Fehlgeschlagen',
                     'Failed',
+                    '失败'
                 ),
             ],
             [
@@ -91,31 +95,37 @@ class Migration1643878976AddCaptureRefundStateMachines extends MigrationStep
             OrderTransactionCaptureRefundStates::STATE_MACHINE,
             'Erstattungsstatus',
             'Refund state',
+            '退款状态',
             [
                 StateMachineMigration::state(
                     OrderTransactionCaptureRefundStates::STATE_OPEN,
                     'Offen',
-                    'Open'
+                    'Open',
+                    '待处理',
                 ),
                 StateMachineMigration::state(
                     OrderTransactionCaptureRefundStates::STATE_IN_PROGRESS,
                     'In Bearbeitung',
-                    'In progress'
+                    'In progress',
+                    '处理中'
                 ),
                 StateMachineMigration::state(
                     OrderTransactionCaptureRefundStates::STATE_COMPLETED,
                     'Abgeschlossen',
                     'Completed',
+                    '完成',
                 ),
                 StateMachineMigration::state(
                     OrderTransactionCaptureRefundStates::STATE_FAILED,
                     'Fehlgeschlagen',
-                    'Failed'
+                    'Failed',
+                    '失败'
                 ),
                 StateMachineMigration::state(
                     OrderTransactionCaptureRefundStates::STATE_CANCELLED,
                     'Abgebrochen',
-                    'Cancelled'
+                    'Cancelled',
+                    '已取消'
                 ),
             ],
             [

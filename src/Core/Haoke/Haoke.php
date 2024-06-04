@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Shopware\Core\Haoke;
 
@@ -32,6 +32,7 @@ class Haoke extends Bundle
         $environment = $container->getParameter('kernel.environment');
         $this->buildConfig($container, $environment);
     }
+
     private function buildConfig(ContainerBuilder $container, string $environment): void
     {
         $locator = new FileLocator('Resources/config');

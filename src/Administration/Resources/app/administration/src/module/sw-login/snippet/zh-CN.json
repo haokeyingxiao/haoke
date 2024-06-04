@@ -1,0 +1,60 @@
+{
+  "sw-login": {
+    "general": {
+      "mainMenuItemIndex": "登录",
+      "description": "登录 SnapStore"
+    },
+    "index": {
+      "headlineForm": "登录",
+      "labelUsername": "用户名",
+      "labelPassword": "密码",
+      "labelKeepLoggedIn": "保持登录",
+      "placeholderUsername": "用户名...",
+      "placeholderPassword": "密码...",
+      "buttonLogin": "登录",
+      "messageUnsupportedGrantType": "授权服务器不支持授权授予类型.",
+      "messageInvalidRequest": "无效的请求.",
+      "messageInvalidClient": "客户端认证失败.",
+      "messageInvalidScope": "请求无效.",
+      "messageInvalidCredentials": "用户凭据不正确.",
+      "messageServerError": "授权服务器遇到意外情况.",
+      "messageInvalidRefreshToken": "刷新令牌无效.",
+      "messageAccessDenied": "请求被授权服务器拒绝.",
+      "messageGeneralRequestError": "请求出错 \"{url}\".",
+      "messageAuthThrottled": "登录尝试次数过多。请等待 {seconds} 秒，然后再尝试再次登录.",
+      "forgottenPasswordLink": "忘记密码?"
+    },
+    "recovery" : {
+      "info": {
+        "headline": "返回登录",
+        "info": "如果输入的电子邮件地址有效，您将在几分钟内收到密码恢复邮件.",
+        "warning": "请注意，恢复链接的有效期仅为 2 小时."
+      },
+      "recovery": {
+        "headline": "找回密码",
+        "newPasswordField": {
+          "label": "输入新密码..."
+        },
+        "passwordConfirmField": {
+          "label": "再次输入新密码..."
+        },
+        "submit": {
+          "label": "更新密码"
+        },
+        "errorMessage": "您的恢复链接已过期或无效!"
+      },
+      "headline": "找回密码",
+      "text": "输入账号关联的邮箱地址.",
+      "email": {
+        "label": "邮箱:",
+        "placeholder": "shop{'@'}example.com"
+      },
+      "submit": "发送恢复链接"
+    }
+  },
+  "global": {
+    "sw-admin-menu": {
+      "textShopwareAdmin": "SnapStore Administration"
+    }
+  }
+}

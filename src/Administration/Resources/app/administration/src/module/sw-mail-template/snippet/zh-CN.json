@@ -1,0 +1,152 @@
+{
+  "sw-mail-template": {
+    "general": {
+      "mainMenuItemList": "概览",
+      "mainMenuItemGeneral": "邮件模板",
+      "placeholderSearchBar": "搜索邮件模板...",
+      "notificationTestMailSalesChannelErrorMessage": "请选择一个销售渠道",
+      "notificationTestMailErrorMessage": "发送测试邮件时出错。",
+      "notificationTestMailSuccessMessage": "测试邮件已发送。",
+      "notificationSyntaxValidationErrorMessage": "无效的模板，请检查语法: {errorMsg}",
+      "notificationGeneralSyntaxValidationErrorMessage": "无效的模板，请检查语法。"
+    },
+    "list": {
+      "textMailTemplateOverview": "邮件模板",
+      "titleMailTemplateList": "模板",
+      "titleMailFooterList": "页脚",
+      "buttonAddMailTemplate": "添加",
+      "buttonAdd": "添加",
+      "columnMailType": "类型",
+      "columnDescription": "描述",
+      "columnSalesChannels": "销售渠道",
+      "contextMenuDelete": "删除",
+      "contextMenuEdit": "编辑",
+      "contextMenuDuplicate": "副本",
+      "textDeleteConfirm": "确定要删除邮件模板 \"{subject}\"?",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "titleSidebarItemRefresh": "刷新",
+      "errorMediaItemDuplicated": "媒体项已分配",
+      "columnFilename": "文件名",
+      "emptyStateTitle": "暂无邮件模板",
+      "emptyStateSubTitle": "点击“添加”按钮添加邮件模板。"
+    },
+    "detail": {
+      "basic": {
+        "titleCard": "信息",
+        "labelMailType": "类型",
+        "labelDescription": "描述",
+        "labelSalesChannels": "销售渠道",
+        "placeholderMailType": "选择类型...",
+        "placeholderDescription": "输入邮件模板描述...",
+        "placeholderSalesChannels": "选择销售渠道..."
+      },
+      "options": {
+        "titleCard": "选项",
+        "labelSenderMail": "发件人邮箱",
+        "labelSenderName": "发件人名称",
+        "labelSubject": "主题",
+        "placeholderSenderMail": "shop{'@'}example.com...",
+        "placeholderSenderName": "示例店...",
+        "placeholderSubject": "输入邮件模板主题..."
+      },
+      "mailText": {
+        "titleCard": "邮件文本",
+        "labelContentPlain": "纯文本",
+        "labelContentHtml": "HTML",
+        "placeholderPlain": "输入邮件模板纯文本...",
+        "placeholderHtml": "输入邮件模板 HTML 文本..."
+      },
+      "media": {
+        "titleCard": "附件",
+        "buttonDelete": "删除"
+      },
+      "sidebar": {
+        "labelContextMenuAddToMailTemplate": "添加为附件",
+        "placeholderTestMail": "输入邮箱地址...",
+        "buttonTestMail": "发送",
+        "labelTestMail": "收件人地址",
+        "titleTestMail": "发送测试邮件",
+        "titleShowPreview": "显示预览",
+        "titleShowAvailableVariables": "变量",
+        "copyTooltip": "复制到剪贴板。"
+      },
+      "previewModalTitle": "预览",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "textHeadline": "新邮件模板",
+      "textHeadlineEdit": "编辑邮件模板",
+      "titleResult": "邮件模板",
+      "messageSaveSuccess": "邮件模板 \"{subject}\" 已保存。",
+      "messageSaveError": "邮件模板 \"{subject}\" 无法保存。",
+      "textErrorMessage": "错误信息"
+    }
+  },
+  "sw-mail-header-footer": {
+    "general": {
+      "mainMenuItemList": "页眉和页脚",
+      "placeholderSearchBar": "搜索邮件页眉和页脚...",
+      "mainMenuItemGeneral": "页眉和页脚"
+    },
+    "list": {
+      "textMailHeaderFooterOverview": "页眉和页脚",
+      "buttonAddMailHeaderFooter": "添加",
+      "columnName": "名称",
+      "columnDescription": "描述",
+      "columnSalesChannels": "销售渠道",
+      "contextMenuDelete": "删除",
+      "contextMenuEdit": "编辑",
+      "contextMenuDuplicate": "副本",
+      "textDeleteConfirm": "确定要删除 \"{name}\"?",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "titleSidebarItemRefresh": "刷新",
+      "messageDeleteError": "在配置销售渠道时，无法删除页眉和页脚 \"{name}\"。",
+      "emptyStateTitle": "暂无邮件页眉和页脚",
+      "emptyStateSubTitle": "点击“添加”按钮添加邮件页眉和页脚。"
+    },
+    "detail": {
+      "basic": {
+        "titleCard": "信息",
+        "labelName": "名称",
+        "labelDescription": "描述",
+        "labelSalesChannels": "销售渠道",
+        "placeholderName": "输入名称...",
+        "placeholderDescription": "输入描述...",
+        "placeholderSalesChannels": "选择相关销售渠道..."
+      },
+      "header": {
+        "titleCard": "邮件页眉",
+        "labelPlain": "纯文本",
+        "labelHtml": "HTML",
+        "placeholderPlain": "输入纯文本邮件页眉...",
+        "placeholderHtml": "输入格式化文本邮件页眉..."
+      },
+      "footer": {
+        "titleCard": "邮件页脚",
+        "labelPlain": "纯文本",
+        "labelHtml": "HTML",
+        "placeholderPlain": "输入纯文本邮件页脚...",
+        "placeholderHtml": "输入格式化文本邮件页脚..."
+      },
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "textHeadline": "新邮件页眉/页脚",
+      "titleResult": "邮件页眉/页脚",
+      "messageSaveSuccess": "邮件页眉/页脚 \"{name}\" 已保存。",
+      "messageSaveError": "邮件页眉/页脚 \"{name}\" 无法保存。"
+    },
+    "modal": {
+      "title": "多重分配",
+      "mainContent": "以下销售渠道已经分配了页眉和页脚模板。如果继续保存，现有分配将被覆盖。",
+      "affectedList": "以下销售渠道受影响:"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "mail_templates": {
+        "label": "邮件模板"
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "sw-import-export": {
+    "general": {
+      "mainMenuItemGeneral": "导入/导出",
+      "descriptionTextModule": "管理导入和导出"
+    },
+    "activity": {
+      "invalidHelpText": "无效记录可以通过上下文菜单下载",
+      "dryrun": "干运行",
+      "columns": {
+        "size": "大小",
+        "profile": "配置",
+        "date": "日期",
+        "user": "用户",
+        "state": "状态",
+        "records": "记录",
+        "invalidRecords": "无效记录"
+      },
+      "contextMenu": {
+        "showLog": "打开日志条目",
+        "showLogInfo": "打开日志信息",
+        "abortProcess": "中止进程",
+        "downloadFile": "下载文件",
+        "downloadImportFile": "下载导入文件",
+        "downloadExportFile": "下载导出文件",
+        "showProfile": "显示配置",
+        "downloadInvalidFile": "下载无效记录",
+        "showResults": "显示摘要"
+      },
+      "logInfo": {
+        "modalTitle": "日志信息",
+        "labelClose": "关闭",
+        "labelFilename": "文件名",
+        "labelType": "类型",
+        "labelExportRecords": "导出记录",
+        "labelSize": "文件大小",
+        "labelUser": "用户",
+        "labelDate": "日期 / 时间",
+        "labelState": "状态",
+        "labelProfile": "配置",
+        "exportLabel": "导出",
+        "importLabel": "导入",
+        "dryrunLabel": "干运行",
+        "labelDownloadFile": "下载导出文件"
+      },
+      "result": {
+        "modalTitle": "导入摘要",
+        "activityHeadline": "导入活动：相关更改",
+        "activityDescription": "以下实体受 {entity} 导入的影响。",
+        "entityName": "数据集",
+        "changes": "更改",
+        "errors": "错误",
+        "skipped": "跳过",
+        "labelDownloadFile": "下载导入文件",
+        "labelDownloadInvalidFile": "下载失败记录",
+        "mainEntity": {
+          "title": "导入活动：{entity}",
+          "insert": "已创建",
+          "update": "已更新",
+          "insertError": "创建错误",
+          "updateError": "更新错误",
+          "otherError": "其他错误",
+          "insertSkip": "创建跳过",
+          "updateSkip": "更新跳过"
+        },
+        "logInfo": {
+          "title": "日志信息",
+          "labelFilename": "文件名",
+          "labelType": "类型",
+          "labelImported": "导入记录",
+          "labelSize": "文件大小",
+          "labelState": "状态",
+          "labelUser": "用户",
+          "labelProfile": "配置",
+          "labelDate": "日期 / 时间"
+        }
+      },
+      "status": {
+        "progress": "处理中",
+        "merging_files": "合并文件",
+        "succeeded": "成功",
+        "failed": "失败",
+        "aborted": "中止"
+      },
+      "emptyState": {
+        "titleExport": "无导出",
+        "titleImport": "无导入",
+        "subLineExport": "尚未记录任何导出活动。",
+        "subLineImport": "尚未记录任何导入活动。"
+      }
+    },
+    "profile": {
+      "messageSaveSuccess": "配置已保存。",
+      "messageSaveError": "配置无法保存。",
+      "messageDeleteSuccess": "配置已删除。",
+      "messageDeleteError": "配置无法保存。请删除此配置的所有日志。",
+      "messageDuplicateSuccess": "配置已复制。",
+      "messageDuplicateError": "配置无法复制。",
+      "messageSearchParentProfileError": "无法处理请求",
+      "messageCsvTemplateUploadError": "无法处理 CSV 文件。",
+      "messageCsvTemplateUploadEmptyError": "CSV 文件不包含任何列。",
+      "messageCsvTemplateUploadWarning": "导入的映射可能不正确。 CSV 文件仅包含一列。 请检查 CSV 分隔符设置。",
+      "productLabel": "产品",
+      "customerLabel": "客户",
+      "categoriesLabel": "分类",
+      "orderLabel": "订单",
+      "mediaLabel": "媒体",
+      "newsletterRecipientLabel": "通讯接收者",
+      "caretsLabel": "插入符号 (^)",
+      "commasLabel": "逗号 (,)",
+      "semicolonLabel": "分号 (;)",
+      "doubleQuoteLabel": "双引号 (\")",
+      "newProfileLabel": "新配置",
+      "editProfileLabel": "编辑配置",
+      "addProfileLabel": "添加配置",
+      "addNewProfileLabel": "添加新配置",
+      "addNewProfileTooltipLanguage": "配置只能在系统默认语言中创建",
+      "openLabel": "编辑",
+      "indicatorHeadline": "字段指示符",
+      "duplicateLabel": "复制",
+      "copyOfLabel": "副本：",
+      "saveProfileLabel": "保存配置",
+      "closeProfileLabel": "关闭配置",
+      "generalTab": "常规",
+      "fieldIndicatorsTab": "字段指示符",
+      "csvUploadTab": "上传 CSV 文件",
+      "mappingsTab": "映射",
+      "advancedTab": "高级设置",
+      "profileNameFieldLabel": "配置名称",
+      "objectTypeFieldLabel": "对象类型",
+      "separatorFieldLabel": "分隔符",
+      "enclosureFieldLabel": "包含符",
+      "addMappingTooltipText": "请先定义对象类型。",
+      "objectTypeFieldTooltipText": "当存在映射选项时，无法更改对象类型。",
+      "descriptionBlock": "对象类型定义了导入和导出数据的特定模式。选择对象类型将限制映射选项。请注意，在引入映射选项后无法更改对象类型。",
+      "mappingDescriptionBlock": "使用“映射”选项卡上的表格将 CSV 字段映射到各自的数据库条目。",
+      "csvDescriptionBlock": "分隔符和包含符用于指示 CSV 文件中的各个字段。分隔符用于拆分单个字段，包含符用于分组多个字段。",
+      "cancelLabel": "取消",
+      "addMappingLabel": "添加新映射",
+      "deleteMappingLabel": "删除映射",
+      "downloadTemplateLabel": "下载模板",
+      "deleteLabel": "删除配置",
+      "systemDefaultInfoText": "您正在查看无法修改的系统默认配置。您可以创建新配置或复制系统默认配置。",
+      "mapping": {
+        "fileValueLabel": "CSV 名称",
+        "entityLabel": "数据库条目",
+        "isRequired": "必需",
+        "defaultValue": "默认值",
+        "position": "位置",
+        "notMapped": "未映射"
+      },
+      "identifiers": {
+        "identifierNameLabel": "实体",
+        "mappedKeyLabel": "标识符"
+      },
+      "typeColumn": "类型",
+      "nameColumn": "名称",
+      "customTypeLabel": "自定义",
+      "defaultTypeLabel": "默认",
+      "propertyLabel": "属性",
+      "mappingAutomatedDescription": "Shopware 已自动映射 {automatedCount} 个数据库条目。请通过手动将未映射的条目分配给正确的数据库条目来完成此过程。除非设置了默认值，否则在导入过程中留空的必填字段将导致错误。默认值还将用于填写空的数据库条目。",
+      "mappingDescription": "使用下表将 CSV 列名称映射到 Shopware 数据库条目。除非设置了默认值，否则留空的必填字段将在导入过程中导致错误。",
+      "mappingEmptyState": "尚未提供自定义映射。",
+      "advancedDescription": "标识符用于明确确定可更新的实体，因此必须是唯一的。",
+      "configuratorSettingLabel": "变体配置设置",
+      "productCrossSellingLabel": "交叉销售",
+      "promotionDiscountLabel": "促销折扣",
+      "promotionIndividualCodesLabel": "促销代码",
+      "productPriceLabel": "高级价格",
+      "closeViolation": "关闭",
+      "violationMessage": "您的配置尚无效。您需要向下方显示的必填字段添加映射才能保存配置：",
+      "importSettingsHeadline": "导入设置",
+      "fieldIndicatorsHeadline": "字段指示符",
+      "createEntitiesLabel": "创建新实体",
+      "updateEntitiesLabel": "更新现有数据",
+      "typeFieldLabel": "用法",
+      "types": {
+        "importExportLabel": "导入和导出",
+        "importLabel": "导入",
+        "exportLabel": "导出"
+      },
+      "profileTypeDisabledText": "清除“对象类型”以选择任何“用法”。",
+      "objectTypeDisabledText": "清除“用法”以选择任何“对象类型”。",
+      "csvUploadText": "从现有 CSV 文件创建映射。",
+      "skipCsvUpload": "跳过 CSV 上传"
+    },
+    "exporter": {
+      "messageExportStarted": "导出已开始。",
+      "messageExportSuccess": "导出“{profile}”已完成。",
+      "messageExportError": "无法创建导出文件。 | 无法创建导出文件。请下载“无效记录”文件或更多信息。",
+      "startExportLabel": "开始导出",
+      "showLogLabel": "显示日志文件",
+      "exportActivityLabel": "导出活动",
+      "exportActivityDescription": "30 天以上的活动将自动删除。",
+      "exportLabel": "导出",
+      "directExportVariantsLabel": "导出变体设置",
+      "directExportPropertiesLabel": "导出属性",
+      "close": "关闭",
+      "variantsWarning": "<strong>警告：</strong>确保在导出的 CSV 文件中链接到产品的属性和变体在新系统中可用。如果不是这种情况，您可以选择导出属性和变体作为单个 CSV 文件并对应配置。如果两种情况都不适用，则必须在导出后手动在新系统中创建产品变体。",
+      "exportVariants": "导出产品变体"
+    },
+    "importer": {
+      "messageImportStarted": "导入已开始。",
+      "messageImportSuccess": "导入“{profile}”已完成。",
+      "messageImportError": "导入“{profile}”时发生错误",
+      "messageImportWarning": "未导入记录。请确保您的分隔符与当前配置匹配。",
+      "uploadCsvLabel": "上传 CSV 文件",
+      "startImportLabel": "开始导入",
+      "selectProfileLabel": "选择配置",
+      "profileLabel": "配置",
+      "warningBlock": "<strong>警告：</strong>确保上传的 CSV 文件中链接到产品的属性和变体在您的商店中可用。如果不是这种情况，您可以将属性和变体作为单独的 CSV 文件导入并对应配置。如果两者都不适用，则必须在导入后手动在产品模块中维护产品变体。",
+      "importActivityLabel": "导入活动",
+      "importLabel": "导入",
+      "directImportVariantsLabel": "导入变体设置",
+      "directImportPropertiesLabel": "导入属性",
+      "close": "关闭",
+      "labelUploadCaption": "选择 CSV 文件上传",
+      "variantsWarning": "<strong>注意：</strong>如果您正在导入带有变体的产品，请确保使用可以导入变体设置的配置。<br>如果不这样做，仅导入主产品，变体必须由管理员在导入后手动创建。",
+      "importVariants": "导入产品变体"
+    },
+    "page": {
+      "profileTab": "配置",
+      "importTab": "导入",
+      "exportTab": "导出"
+    },
+    "progress": {
+      "startImportLabel": "开始导入",
+      "startImportDryrunLabel": "开始干运行",
+      "startExportLabel": "开始导出"
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "import_export": "导入/导出"
+      }
+    }
+  }
+}

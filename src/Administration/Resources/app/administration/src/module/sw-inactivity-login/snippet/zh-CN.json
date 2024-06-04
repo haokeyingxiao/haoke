@@ -1,0 +1,17 @@
+{
+  "sw-inactivity-login": {
+    "general": {
+      "mainMenuItemIndex": "会话超时",
+      "description": "会话超时"
+    },
+    "modal": {
+      "title": "处于安全考虑，长时间没有操作系统会自动注销.",
+      "actions": {
+        "backToLogin": "返回登录"
+      },
+      "errors": {
+        "password": "密码不正确"
+      }
+    }
+  }
+}

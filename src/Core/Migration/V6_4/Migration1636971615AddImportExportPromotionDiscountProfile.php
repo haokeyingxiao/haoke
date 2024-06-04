@@ -64,6 +64,10 @@ class Migration1636971615AddImportExportPromotionDiscountProfile extends Migrati
             [
                 'import_export_profile_id' => $id,
                 'label' => 'Default promotion discounts',
+            ],
+            [
+                'import_export_profile_id' => $id,
+                'label' => '促销折扣',
             ]
         );
 

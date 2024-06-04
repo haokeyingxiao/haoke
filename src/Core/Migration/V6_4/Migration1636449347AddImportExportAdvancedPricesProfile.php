@@ -59,6 +59,10 @@ class Migration1636449347AddImportExportAdvancedPricesProfile extends MigrationS
             [
                 'import_export_profile_id' => $id,
                 'label' => 'Default advanced prices',
+            ],
+            [
+                'import_export_profile_id' => $id,
+                'label' => '高级定价',
             ]
         );
 

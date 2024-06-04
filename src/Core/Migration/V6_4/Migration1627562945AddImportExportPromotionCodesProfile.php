@@ -54,6 +54,10 @@ class Migration1627562945AddImportExportPromotionCodesProfile extends MigrationS
             [
                 'import_export_profile_id' => $id,
                 'label' => 'Default promotion codes',
+            ],
+            [
+                'import_export_profile_id' => $id,
+                'label' => '促销代码',
             ]
         );
 

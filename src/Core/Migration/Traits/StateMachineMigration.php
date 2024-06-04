@@ -14,15 +14,16 @@ class StateMachineMigration
         private string $technicalName,
         private string $de,
         private string $en,
+        private string $zh,
         private array $states = [],
         private array $transitions = [],
         private ?string $initialState = null
     ) {
     }
 
-    public static function state(string $technicalName, string $de, string $en): array
+    public static function state(string $technicalName, string $de, string $en, string $zh): array
     {
-        return ['technicalName' => $technicalName, 'de' => $de, 'en' => $en];
+        return ['technicalName' => $technicalName, 'de' => $de, 'en' => $en, 'zh' => $zh];
     }
 
     public static function transition(string $actionName, string $from, string $to): array
@@ -58,6 +59,16 @@ class StateMachineMigration
     public function setEn(string $en): void
     {
         $this->en = $en;
+    }
+
+    public function getZh(): string
+    {
+        return $this->zh;
+    }
+
+    public function setZh(string $zh): void
+    {
+        $this->zh = $zh;
     }
 
     public function getStates(): array

@@ -77,6 +77,10 @@ class Migration1627983652AddOrderExportProfile extends MigrationStep
             [
                 'import_export_profile_id' => $id,
                 'label' => 'Default orders',
+            ],
+            [
+                'import_export_profile_id' => $id,
+                'label' => '订单',
             ]
         );
 

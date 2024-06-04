@@ -17,12 +17,19 @@ class Translations
      */
     protected $english;
 
+    /**
+     * @var array
+     */
+    protected $chinese;
+
     public function __construct(
         array $german,
-        array $english
+        array $english,
+        array $chinese
     ) {
         $this->german = $german;
         $this->english = $english;
+        $this->chinese = $chinese;
     }
 
     public function getGerman(): array
@@ -38,5 +45,10 @@ class Translations
     public function getColumns(): array
     {
         return array_keys($this->english);
+    }
+
+    public function getChinese(): array
+    {
+        return $this->chinese;
     }
 }

@@ -1,0 +1,39 @@
+{
+  "sw-manufacturer": {
+    "general": {
+      "mainMenuItemList": "生产商",
+      "mainMenuItemGeneral": "生产商",
+      "placeholderSearchBar": "搜索生产商..."
+    },
+    "list": {
+      "textManufacturerOverview": "生产商",
+      "textTotalManufacturer": "无生产商 | 1 个生产商 | {count} 个生产商",
+      "buttonAddManufacturer": "添加",
+      "columnName": "生产商",
+      "columnLink": "网址"
+    },
+    "detail": {
+      "textHeadline": "新生产商",
+      "textMediaSelection": "媒体选择",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "cardTitleManufacturerInfo": "生产商信息",
+      "labelName": "名称",
+      "labelDescription": "描述",
+      "labelLink": "网址",
+      "placeholderName": "生产商名称...",
+      "placeholderDescription": "描述...",
+      "placeholderLink": "网址...",
+      "messageSaveSuccess": "生产商 \"{name}\" 保存成功。",
+      "labelLogo": "Logo",
+      "labelUseAsLogo": "作为 Logo"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "product_manufacturer": {
+        "label": "生产商"
+      }
+    }
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "sw-order": {
+    "general": {
+      "mainMenuItemGeneral": "订单",
+      "mainMenuItemList": "订单",
+      "descriptionTextModule": "在这里管理收到的订单.",
+      "placeholderSearchBar": "搜索全部订单..."
+    },
+    "list": {
+      "columnCustomerName": "客户名称",
+      "columnBillingAddress": "账单地址",
+      "columnDeliveryAddress": "送货地址",
+      "columnAmount": "总计",
+      "columnState": "订单状态",
+      "columnTransactionState": "支付状态",
+      "columnDeliveryState": "送货状态",
+      "columnOrderNumber": "订单号",
+      "columnSalesChannel": "销售渠道",
+      "columnAffiliateCode": "Affiliate code",
+      "columnCampaignCode": "Campaign code",
+      "orderDate": "下单时间",
+      "buttonAddOrder": "添加订单",
+      "textOrders": "订单",
+      "textOrdersTotal": "暂无订单 | 1个订单 | {count} 个订单",
+      "contextMenuView": "查看",
+      "contextMenuDelete": "删除",
+      "contextMenuConfirmPayment": "确认支付",
+      "messageEmpty": "暂无订单",
+      "titleSidebarItemRefresh": "刷新",
+      "titleSidebarItemFilter": "过滤",
+      "titleSidebarItemFilterAffiliateCode": "Affiliate code",
+      "titleSidebarItemFilterCampaignCode": "Campaign code",
+      "buttonDelete": "删除",
+      "buttonCancel": "取消",
+      "textDeleteConfirm": "Do you really want to delete this order ({orderNumber})?",
+      "labelManualOrder": "管理员创建"
+    },
+    "detail": {
+      "buttonCancel": "放弃变更",
+      "tabOrderDetails": "订单详情",
+      "tabDeliveries": "Deliveries",
+      "textHeadline": "订单",
+      "textHeadlineNew": "新订单",
+      "tabGeneral": "常规",
+      "tabDetails": "详情",
+      "tabDocuments": "文档",
+      "messageRecalculationError": "An error occurred while calculating the price: <br>",
+      "messageSaveError": "An error occurred during saving",
+      "messageShippingNotAvailable": "Delivery to the selected country not possible.",
+      "labelManualOrder": "管理员创建",
+      "textUnsavedOrderWarning": "There are unsaved changes. Please save the order before leaving this page."
+    },
+    "create": {
+      "textNewOrder": "新订单",
+      "buttonSaveOrder": "保存订单",
+      "buttonCancelOrder": "取消",
+      "messageSaveError": "Order could not be saved.",
+      "messageSwitchCustomerError": "An error occurred during switching customer",
+      "messageFetchCustomerAddressesError": "An error occurred during fetching customer addresses",
+      "remindPaymentModal": {
+        "title": "Remind payment",
+        "text": "Do you want to remind the customer to pay this order with \"{paymentMethodName}\"?",
+        "primaryAction": "Remind"
+      }
+    },
+    "createBase": {
+      "labelEmail": "邮箱地址",
+      "labelPhoneNumber": "Phone number",
+      "placeholderEmail": "Enter email address...",
+      "placeholderPhoneNumber": "Enter phone number...",
+      "labelBillingAddress": "Billing address",
+      "labelShippingAddress": "Shipping address",
+      "placeholderBillingAddress": "Select billing address...",
+      "placeholderShippingAddress": "Select shipping address...",
+      "labelSalesChannel": "Sales Channel",
+      "labelPaymentMethod": "Payment method",
+      "labelShippingMethod": "Shipping method",
+      "labelOrderLanguage": "Order language",
+      "labelCurrency": "Currency",
+      "placeholderSalesChannel": "Select Sales Channels...",
+      "placeholderPaymentMethod": "Select payment method...",
+      "placeholderShippingMethod": "Select shipping method...",
+      "placeholderOrderLanguage": "Select order language...",
+      "placeholderCurrency": "Select currency...",
+      "helpTextPaymentMethod": "Only payments which are compatible with the after-order payment process are available.",
+      "labelToggleAutomaticPromotions": "Disable automatically applied promotions",
+      "labelPromotions": "Promotions",
+      "generalTab": {
+        "labelLineItemsCard": "订单项",
+        "labelGeneralInfoCard": "信息"
+      },
+      "detailsTab": {
+        "labelTransactionCard": "支付",
+        "labelDeliveryCard": "物流",
+        "labelOrderCard": "订单"
+      },
+      "labelDetailsCard": "详情",
+      "detailsHeader": {
+        "textCustomer": "客户",
+        "placeholder": "选择客户...",
+        "buttonAddNewCustomer": "添加新客户"
+      },
+      "detailsBody": {
+        "labelEmail": "邮箱",
+        "labelPhoneNumber": "电话号码",
+        "placeholderEmail": "邮箱地址...",
+        "placeholderPhoneNumber": "电话号码...",
+        "labelBillingAddress": "账单地址",
+        "labelShippingAddress": "Shipping address",
+        "placeholder": "Select or add customer first...",
+        "textIdentical": "Billing and shipping address are identical",
+        "buttonAddNewAddress": "Add new address",
+        "placeholderAddress": "Select address..."
+      },
+      "detailsFooter": {
+        "labelSalesChannel": "销售渠道",
+        "labelPaymentMethod": "支付方式",
+        "labelShippingMethod": "Shipping method",
+        "labelOrderLanguage": "Order language",
+        "labelCurrency": "Currency",
+        "placeholderSalesChannel": "Select Sales Channels...",
+        "placeholderPaymentMethod": "Select payment method...",
+        "placeholderShippingMethod": "Select shipping method...",
+        "placeholderOrderLanguage": "Select order language...",
+        "placeholderCurrency": "Select currency...",
+        "helpTextPaymentMethod": "Only payments which are compatible with the after order payment process are available."
+      },
+      "cardTitleLineItems": "Items",
+      "placeholderSearchBarItem": "搜索订单项...",
+      "columnProductName": "Item",
+      "columnQuantity": "Quantity",
+      "columnPriceNet": "Price (net)",
+      "columnPriceGross": "Price (gross)",
+      "columnPriceTaxFree": "Price (tax-free)",
+      "columnTotalPriceNet": "Total",
+      "columnPrice": "Price",
+      "columnTotalPrice": "Total",
+      "columnTotalPriceGross": "Subtotal",
+      "columnTax": "VAT",
+      "textCreditTax": "auto",
+      "taxDetail": "{taxRate}%: {tax}",
+      "contextMenuShowProduct": "Show product",
+      "messageEmptyItem": "No items added yet",
+      "buttonAddItems": "Add items",
+      "buttonAddProduct": "Add product",
+      "buttonAddBlankProduct": "Add custom item",
+      "buttonAddCredit": "Add credit",
+      "summaryLabelAmount": "Subtotal",
+      "summaryLabelAmountGrandTotal": "Grand total",
+      "summaryLabelAmountWithoutTaxes": "总计（不含增值税）",
+      "summaryLabelAmountTotal": "总计（含增值税）",
+      "summaryLabelAmountTotalRounded": "Rounded total including VAT",
+      "labelShippingCosts": "Shipping costs",
+      "summaryLabelShippingCosts": "plus shipping costs",
+      "discountLabelShippingCosts": "discount shipping costs",
+      "summaryLabelTaxes": "+ {taxRate}% 增值税",
+      "tax": "Included taxes:",
+      "shippingCostsTax": "{taxRate}%: {tax}",
+      "labelAddPromotion": "Add promotion",
+      "placeholderAddPromotion": "Enter promotion code ...",
+      "textInvalidPromotionCode": "Invalid promotion code",
+      "textPromotionDescription": {
+        "cart": {
+          "percentage": "{value}% discount on shopping cart",
+          "absolute": "{value} discount on shopping cart",
+          "absoluteUpto": "Up to {value} discount. ({totalPrice} discount on this cart)",
+          "fixed_unit": "Fixed {value} for each specific product in shopping cart"
+        },
+        "delivery": {
+          "percentage": "{value}% discount on shipping cost",
+          "absolute": "{value} discount on shipping cost",
+          "fixed_unit": "Fixed {value} on shipping cost",
+          "fixed": "Fixed {value} on shipping cost"
+        },
+        "set": {
+          "percentage": "{value}% discount on product set",
+          "absolute": "{value} discount on product set",
+          "fixed_unit": "Fixed {value} for each specific product of product set",
+          "fixed": "Fixed {value} for each product set"
+        },
+        "setgroup": {
+          "percentage": "{value}% discount on set group {groupId}",
+          "absolute": "{value} discount on set group {groupId}",
+          "fixed_unit": "Fixed {value} for each specific product of set group {groupId}",
+          "fixed": "Fixed {value} for each set group {groupId}"
+        }
+      }
+    },
+    "detailBase": {
+      "cardTitleDetails": "详情",
+      "cardTitleLineItems": "订单项",
+      "cardTitleGeneralInfo": "信息",
+      "columnProductName": "产品名称",
+      "columnQuantity": "数量",
+      "columnPriceNet": "价格（净价）",
+      "columnPriceGross": "价格（毛价）",
+      "columnPriceTaxFree": "Price (tax-free)",
+      "columnTotalPriceNet": "Total",
+      "columnPrice": "Price",
+      "columnTotalPrice": "Total",
+      "columnTotalPriceGross": "小计",
+      "columnTax": "增值税",
+      "columnProductNumber": "产品编号",
+      "contextMenuShowProduct": "显示产品",
+      "contextMenuDelete": "从订单中移除",
+      "summaryLabelAmount": "小计",
+      "summaryLabelAmountGrandTotal": "Grand total",
+      "summaryLabelAmountWithoutTaxes": "总计（不含增值税）",
+      "summaryLabelAmountTotal": "总计（含增值税）",
+      "summaryLabelAmountTotalRounded": "Rounded total including VAT",
+      "summaryLabelShippingCosts": "+ 运费",
+      "discountLabelShippingCosts": "discount shipping costs",
+      "summaryLabelTaxes": "+ {taxRate}% 增值税",
+      "labelOrderStatus": "订单状态",
+      "labelPaymentStatus": "支付状态",
+      "labelSalesChannel": "销售渠道",
+      "labelOrderDate": "下单时间",
+      "headlineBillingAddress": "Billing address",
+      "headlineDeliveryAddress": "Shipping address",
+      "buttonPrint": "Print order",
+      "buttonCancel": "取消订单",
+      "buttonArchive": "Archive order",
+      "buttonDelete": "删除订单",
+      "buttonAddProduct": "添加产品",
+      "buttonAddBlankProduct": "Add custom item",
+      "buttonAddCredit": "Add credit",
+      "buttonEditAddress": "编辑",
+      "tooltipNestedLineItemsButton": "This line item contains sub-items.",
+      "labelNoPhoneNumber": "No phone number yet",
+      "labelNoEmail": "No emails yet",
+      "labelCustomerPhoneNumber": "Phone number",
+      "labelLanguage": "Order language",
+      "labelPaymentMethod": "支付方式",
+      "labelShippingMethod": "Shipping method",
+      "labelPartnerCode": "Partner code",
+      "labelCustomerEmail": "Email address",
+      "labelNoDeliveriesYet": "No deliveries yet",
+      "labelNoDeliveryTrackingCodeYet": "None",
+      "labelLastChange": "最后修改时间",
+      "labelNoChangesYet": "No changes yet",
+      "labelTrackingCodes": "Track and trace codes",
+      "labelAffiliateCode": "Affiliate code",
+      "labelCampaignCode": "Campaign code",
+      "labelCustomerComment": "Additional information",
+      "buttonAddDeliveryAddress": "Add new address",
+      "labelSameDeliveryAndBillingAddress": "Billing / shipping addresses are identical",
+      "buttonContinueOnVersionedOrder": "Load",
+      "tax": "Included taxes:",
+      "shippingCostsTax": "{taxRate}%: {tax}",
+      "placeholderTagSelect": "搜索标签...",
+      "placeholderTrackingCodeSelect": "Add tracking codes...",
+      "addTrackingCode": "Click here to add code",
+      "enterValidTrackingCode": "Enter tracking code",
+      "textCreditTax": "auto",
+      "taxDetail": "{taxRate}%: {tax}",
+      "textPromotionRemoved": "Discount {promotion} has been removed",
+      "textUnsavedChanges": "There are unsaved changes. Please save before editing this field.",
+      "textMissingProductLineItems": "The following items are associated to products that have been deleted:",
+      "textMissingProductLineItemsDescription": "Prices of these products cannot be recalculated. Therefore, these items will be converted to custom items when saving this order.",
+      "textConvertedProductLineItems": "The following items were associated to products that have been deleted:",
+      "textConvertedProductLineItemsDescription": "Prices of these products cannot be recalculated. Please take extra care when editing the order.",
+      "textDeleteLineItemConfirm": "确定要删除 ({label})?"
+    },
+    "nestedLineItemsModal": {
+      "titlePrefix": "Item: {lineItemLabel} - {price}",
+      "headerLabel": "Name",
+      "headerUnitPrice": "Price (gross)",
+      "headerQuantity": "Quantity",
+      "headerTotalPrice": "Subtotal",
+      "headerTax": "VAT"
+    },
+    "detailDeliveries": {
+      "cardTitleItems": "Shipment {count}",
+      "labelShippingMethod": "Shipping method",
+      "labelDeliveryDate": "Delivery date",
+      "labelShippingCosts": "Shipping costs",
+      "labelDeliveryState": "Delivery state",
+      "buttonMerge": "Merge order",
+      "buttonDelete": "Delete"
+    },
+    "detailCustomerComment": {
+      "title": "Additional information"
+    },
+    "addressSelection": {
+      "modalTitleEditAddress": "Addresses",
+      "modalTitleSelectAddress": "Change address",
+      "modalTitleAddBillingAddress": "Add new billing address",
+      "modalTitleEditBillingAddress": "Change billing address",
+      "modalTitleAddShippingAddress": "Add new shipping address",
+      "modalTitleEditShippingAddress": "Change shipping address",
+      "headlineTabEditAddress": "Edit address",
+      "headlineTabSelectAddress": "Select address",
+      "headlineTabCreateAddress": "Add address",
+      "currentlySelected": "Currently selected",
+      "searchAddressToolbarPlaceholder": "搜索地址...",
+      "emptySearchResults": "No addresses found."
+    },
+    "leavePageModal": {
+      "headline": "Warning",
+      "description": "There are unsaved changes. Are you sure you want to leave this page without saving?",
+      "confirmButton": "Leave page",
+      "cancelButton": "Stay on page"
+    },
+    "stateCard": {
+      "cardTitle": "状态",
+      "headlineOrderState": "订单状态",
+      "headlineTransactionState": "支付状态",
+      "headlineDeliveryState": "物流状态",
+      "draftPlaceholder": "Draft",
+      "labelHistory": "Status set {time} by {author}",
+      "labelShowHistoryModal": "查看历史状态",
+      "labelLastEditedBy": "Last edited by",
+      "labelSystemUser": "System",
+      "labelSelectStatePlaceholder": "Select a status...",
+      "labelSelectStateButton": "Update status",
+      "labelSendMailSwitch": "Send email to customer",
+      "labelErrorStateChange": "An error occured while updating the status:",
+      "labelErrorNoAction": "Status unchanged.",
+      "labelNoTransactionState": "No transactions yet",
+      "labelNoDeliveryState": "No deliveries yet"
+    },
+    "assignMailTemplateCard": {
+      "cardTitle": "Assign email template",
+      "headline": "No email template assigned to this order status, please assign one.",
+      "placeholderAssignMailTemplate": "Assign an email template...",
+      "alertHeadline": "Hint",
+      "alertMessage": "This assignment affects all following orders received through this sales channel.",
+      "buttonCreateMailTemplate": "Create email template",
+      "buttonAssignMailTemplate": "Assign email template",
+      "buttonNotAssignMailTemplate": "Don't assign an email template",
+      "gridColumnType": "类型",
+      "gridColumnDescription": "描述"
+    },
+    "documentCard": {
+      "searchBarPlaceholder": "搜索全部文档...",
+      "cardTitle": "文档",
+      "modalTitle": "Status update",
+      "labelDate": "Date",
+      "labelNumber": "Number",
+      "labelType": "Type",
+      "labelSent": "Sent",
+      "labelAttach": "Attach",
+      "labelAmount": "Order value",
+      "labelOpenDocument": "Open document",
+      "labelDownloadPdf": "Download document",
+      "labelPrintDocument": "Print document",
+      "labelSendDocument": "Send document",
+      "labelMarkAsSent": "Mark as sent",
+      "labelMarkAsUnsent": "Mark as unsent",
+      "labelCreateNew": "创建新文档",
+      "messageEmptyTitle": "暂无数据",
+      "messageNoDocumentFound": "No documents found",
+      "messageEmptySubline": "Manage documents here.",
+      "error": {
+        "DOCUMENT__NUMBER_ALREADY_EXISTS": "Document number {number} has already been allocated."
+      },
+      "info": {
+        "DOCUMENT__NUMBER_WAS_CHANGED": "Duplicate document number. A consecutive number has automatically been drawn from the respective number range."
+      }
+    },
+    "generalTab": {
+      "info": {
+        "summary": {
+          "and": "物流:",
+          "on": "on",
+          "by": "by",
+          "lastChanged": "最后修改时间",
+          "with": "支付方式:"
+        }
+      },
+      "tagSelect": {
+        "placeholder": "添加标签..."
+      }
+    },
+    "detailsTab": {
+      "labelTransactionCard": "支付",
+      "labelDeliveryCard": "物流",
+      "labelOrderCard": "订单",
+      "promotionsField": {
+        "labelPromotions": "Promotions",
+        "placeholderPromotions": "Enter promotion code ...",
+        "automaticPromotion":  "automatically applied",
+        "labelToggleAutomaticPromotions": "Disable automatically applied promotions"
+      }
+    },
+    "documentTab": {
+      "tooltipSaveBeforeCreateDocument": "Order is unsaved. Please save the order before creating a document"
+    },
+    "documentModal": {
+      "modalTitle": "Create document",
+      "labelDocumentDate": "Date",
+      "labelDeliveryDate": "Delivery date",
+      "labelDocumentNumber": "Number",
+      "labelDocumentStornoNumber": "Cancellation number",
+      "labelInvoiceNumber": "Invoice number",
+      "selectInvoiceNumber": "Select invoice number",
+      "labelDeliveryNoteNumber": "Delivery note number",
+      "labelDocumentComment": "Comment",
+      "labelCreateDownloadPdf": "Create and download PDF",
+      "labelCreateSend": "Create and send",
+      "labelCreate": "Create",
+      "labelCancel": "Close",
+      "labelPreview": "Preview",
+      "labelHighlightedItemsHeader": "名称",
+      "labelHighlightedItemsEntry": "Total",
+      "labelNoItems": "No credit shown",
+      "fileInputLabel": "Upload custom document"
+    },
+    "documentSendModal": {
+      "labelNumber": "Number",
+      "labelType": "Type",
+      "labelDate": "Date",
+      "labelMailTemplate": "Email template",
+      "labelRecipient": "Email address",
+      "labelContent": "Email content",
+      "labelSubject": "Subject",
+      "labelClose": "Close",
+      "errorMessage": "Something went wrong while sending the Email."
+    },
+    "stateModal": {
+      "modalTitle": "Add documents"
+    },
+    "stateHistoryModal": {
+      "modalTitle": "Status history",
+      "labelSystemUser": "System",
+      "column": {
+        "createdAt": "Date",
+        "entity": "Changed",
+        "user": "Changed By",
+        "transaction": "支付",
+        "delivery": "Shipping",
+        "order": "订单"
+      }
+    },
+    "newCustomerModal": {
+      "labelDetails": "详情",
+      "labelGuest": "Guest account"
+    },
+    "invalidPromotionModal": {
+      "modalTitle": "Removing invalid promotion codes",
+      "modalDescription": "The following invalid promotion codes will be removed:",
+      "buttonConfirm": "OK"
+    },
+    "promotionModal": {
+      "labelTitle": "Disable automatic promotions",
+      "message": "The following automatic promotions will be disabled:",
+      "messageNoItems": "No automatic promotions active.",
+      "buttonDisable": "Disable"
+    },
+    "initialModal": {
+      "titleNewOrder": "New order",
+      "tabCustomer": "Customer",
+      "tabProducts": "Products",
+      "tabCustomItem": "Custom item",
+      "tabOptions": "Options",
+      "tabCredit": "Credit",
+      "buttonPreviewOrder": "Preview order",
+      "customerGrid": {
+        "buttonAddNewCustomer": "Add new customer",
+        "placeholderSearchCustomer": "客户名称...",
+        "textEmptySearch": "No data for {name}",
+        "contextOpenButton": "Open",
+        "columnCustomerName": "Name",
+        "columnCustomerNumber": "Customer number",
+        "columnSalesChannel": "Sales Channel",
+        "columnEmailAddress": "Email address"
+      },
+      "options": {
+        "textHeadlineOrder": "Order",
+        "textHeadlinePayment": "Payment",
+        "textHeadlineShipment": "Shipment",
+        "placeholderAddPromotion": "Add promotion",
+        "labelSameAsBillingAddress": "Shipping address is same as billing address",
+        "textSameAsBillingAddress": "Same as billing address",
+        "labelShippingCosts": "Shipping costs"
+      }
+    },
+    "filters": {
+      "documentFilter": {
+        "label": "Documents",
+        "placeholder": "Select document status...",
+        "textHasCriteria": "At least one document assigned",
+        "textNoCriteria": "No documents assigned"
+      },
+      "orderDateFilter": {
+        "label": "Order date",
+        "options": {
+          "lastYear": "Last year",
+          "lastQuarter": "Last quarter",
+          "lastMonth": "Last month",
+          "lastWeek": "Last week",
+          "lastDay": "Last day",
+          "custom": "Custom"
+        }
+      },
+      "orderValueFilter": {
+        "label": "Order value"
+      },
+      "statusFilter": {
+        "label": "订单状态",
+        "placeholder": "选择支付状态..."
+      },
+      "paymentStatusFilter": {
+        "label": "支付状态",
+        "placeholder": "选择支付状态..."
+      },
+      "deliveryStatusFilter": {
+        "label": "送货状态",
+        "placeholder": "选择送货状态..."
+      },
+      "paymentMethodFilter": {
+        "label": "支付方式",
+        "placeholder": "选择支付方式..."
+      },
+      "shippingMethodFilter": {
+        "label": "送货方式",
+        "placeholder": "选择送货方式..."
+      },
+      "salesChannelFilter": {
+        "label": "销售渠道",
+        "placeholder": "选择销售渠道..."
+      },
+      "billingCountryFilter": {
+        "label": "Billing country",
+        "placeholder": "Select billing countries..."
+      },
+      "shippingCountryFilter": {
+        "label": "Shipping country",
+        "placeholder": "Select shipping countries..."
+      },
+      "customerGroupFilter": {
+        "label": "Customer group",
+        "placeholder": "Select customer group..."
+      },
+      "tagFilter": {
+        "label": "标签",
+        "placeholder": "选择标签..."
+      },
+      "productFilter": {
+        "label": "产品",
+        "placeholder": "选择产品..."
+      },
+      "affiliateCodeFilter": {
+        "label": "Affiliate code",
+        "placeholder": "Enter affiliate code..."
+      },
+      "campaignCodeFilter": {
+        "label": "Campaign code",
+        "placeholder": "Enter campaign code..."
+      },
+      "promotionCodeFilter": {
+        "label": "Promotion code",
+        "placeholder": "Enter promotion code..."
+      },
+      "messageEmptyTitle": "Nothing found",
+      "messageEmptySubline": "Edit your filters to find results."
+    },
+    "components": {
+      "selectDocumentTypeModal": {
+        "title": "创建文档",
+        "primaryAction": "创建文档",
+        "helpText": {
+          "storno": "A cancellation invoice can't be created without an invoice.",
+          "credit_note": "To create a credit note, add a credit item first."
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "order": {
+        "label": "订单"
+      },
+      "order_refund": {
+        "label": "退款"
+      }
+    },
+    "additional_permissions": {
+      "orders": {
+        "create_discounts": "Create credit items"
+      }
+    }
+  }
+}

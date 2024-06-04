@@ -23,6 +23,7 @@ class Migration1632721037OrderDocumentMailTemplate extends MigrationStep
 
     private const LOCALE_EN_GB = 'en-GB';
     private const LOCALE_DE_DE = 'de-DE';
+    private const LOCALE_ZH_CN = 'zh-CN';
 
     public function getCreationTimestamp(): int
     {
@@ -37,24 +38,28 @@ class Migration1632721037OrderDocumentMailTemplate extends MigrationStep
                 'templateId' => Uuid::randomBytes(),
                 'name' => 'Invoice',
                 'nameDe' => 'Rechnung',
+                'nameZh' => 'Invoice',
             ],
             MailTemplateTypes::MAILTYPE_DOCUMENT_DELIVERY_NOTE => [
                 'typeId' => Uuid::randomBytes(),
                 'templateId' => Uuid::randomBytes(),
                 'name' => 'Delivery note',
                 'nameDe' => 'Versandbenachrichtigung',
+                'nameZh' => 'Delivery note',
             ],
             MailTemplateTypes::MAILTYPE_DOCUMENT_CREDIT_NOTE => [
                 'typeId' => Uuid::randomBytes(),
                 'templateId' => Uuid::randomBytes(),
                 'name' => 'Credit note',
                 'nameDe' => 'Gutschrift',
+                'nameZh' => 'Credit note',
             ],
             MailTemplateTypes::MAILTYPE_DOCUMENT_CANCELLATION_INVOICE => [
                 'typeId' => Uuid::randomBytes(),
                 'templateId' => Uuid::randomBytes(),
                 'name' => 'Cancellation invoice',
                 'nameDe' => 'Stornorechnung',
+                'nameZh' => 'Cancellation invoice',
             ],
         ];
 
@@ -82,6 +87,10 @@ class Migration1632721037OrderDocumentMailTemplate extends MigrationStep
                     [
                         'mail_template_type_id' => $values['typeId'],
                         'name' => $values['name'],
+                    ],
+                    [
+                        'mail_template_type_id' => $values['typeId'],
+                        'name' => $values['nameZh'],
                     ]
                 );
 
@@ -112,6 +121,13 @@ class Migration1632721037OrderDocumentMailTemplate extends MigrationStep
                     'subject' => 'New document for your order',
                     'content_html' => $this->getMailTemplateContent($technicalName, self::LOCALE_DE_DE, true),
                     'content_plain' => $this->getMailTemplateContent($technicalName, self::LOCALE_DE_DE, false),
+                ],
+                [
+                    'mail_template_id' => $values['templateId'],
+                    'sender_name' => '{{ salesChannel.name }}',
+                    'subject' => 'New document for your order',
+                    'content_html' => $this->getMailTemplateContent($technicalName, self::LOCALE_ZH_CN, true),
+                    'content_plain' => $this->getMailTemplateContent($technicalName, self::LOCALE_ZH_CN, false),
                 ],
             );
 
@@ -152,6 +168,10 @@ class Migration1632721037OrderDocumentMailTemplate extends MigrationStep
                     'html' => $invoiceDeHtml,
                     'plain' => $invoiceDePlain,
                 ],
+                self::LOCALE_ZH_CN => [
+                    'html' => $invoiceEnHtml,
+                    'plain' => $invoiceEnPlain,
+                ],
             ],
             MailTemplateTypes::MAILTYPE_DOCUMENT_DELIVERY_NOTE => [
                 self::LOCALE_EN_GB => [
@@ -161,6 +181,10 @@ class Migration1632721037OrderDocumentMailTemplate extends MigrationStep
                 self::LOCALE_DE_DE => [
                     'html' => $deliveryNoteDeHtml,
                     'plain' => $deliveryNoteDePlain,
+                ],
+                self::LOCALE_ZH_CN => [
+                    'html' => $deliveryNoteEnHtml,
+                    'plain' => $deliveryNoteEnPlain,
                 ],
             ],
             MailTemplateTypes::MAILTYPE_DOCUMENT_CREDIT_NOTE => [
@@ -172,6 +196,10 @@ class Migration1632721037OrderDocumentMailTemplate extends MigrationStep
                     'html' => $creditNoteDeHtml,
                     'plain' => $creditNoteDePlain,
                 ],
+                self::LOCALE_ZH_CN => [
+                    'html' => $creditNoteEnHtml,
+                    'plain' => $creditNoteEnPlain,
+                ],
             ],
             MailTemplateTypes::MAILTYPE_DOCUMENT_CANCELLATION_INVOICE => [
                 self::LOCALE_EN_GB => [
@@ -181,6 +209,10 @@ class Migration1632721037OrderDocumentMailTemplate extends MigrationStep
                 self::LOCALE_DE_DE => [
                     'html' => $cancellationInvoiceDeHtml,
                     'plain' => $cancellationInvoiceDePlain,
+                ],
+                self::LOCALE_ZH_CN => [
+                    'html' => $cancellationInvoiceEnHtml,
+                    'plain' => $cancellationInvoiceEnPlain,
                 ],
             ],
         ];

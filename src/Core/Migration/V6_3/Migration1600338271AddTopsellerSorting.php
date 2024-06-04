@@ -48,7 +48,8 @@ class Migration1600338271AddTopsellerSorting extends MigrationStep
 
         $translations = new Translations(
             ['product_sorting_id' => $sorting['id'], 'label' => $translations['de-DE']],
-            ['product_sorting_id' => $sorting['id'], 'label' => $translations['en-GB']]
+            ['product_sorting_id' => $sorting['id'], 'label' => $translations['en-GB']],
+            ['product_sorting_id' => $sorting['id'], 'label' => $translations['zh-CN']]
         );
 
         $this->importTranslation('product_sorting_translation', $translations, $connection);
@@ -70,6 +71,7 @@ class Migration1600338271AddTopsellerSorting extends MigrationStep
             'translations' => [
                 'de-DE' => 'Topseller',
                 'en-GB' => 'Topseller',
+                'zh-CN' => '热销',
             ],
         ];
     }

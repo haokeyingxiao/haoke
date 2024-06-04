@@ -51,6 +51,7 @@ class Migration1607581276AddProductSearchConfigurationDefaults extends Migration
 
         $enStopwords = require __DIR__ . '/../Fixtures/stopwords/en.php';
         $deStopwords = require __DIR__ . '/../Fixtures/stopwords/de.php';
+        $zhStopwords = require __DIR__ . '/../Fixtures/stopwords/zh.php';
 
         $translations = new Translations(
             [
@@ -64,6 +65,12 @@ class Migration1607581276AddProductSearchConfigurationDefaults extends Migration
                 'and_logic' => 1,
                 'min_search_length' => 2,
                 'excluded_terms' => $enLanguageId ? json_encode($enStopwords, \JSON_THROW_ON_ERROR) : null,
+            ],
+            [
+                'id' => $searchConfigEnId,
+                'and_logic' => 1,
+                'min_search_length' => 2,
+                'excluded_terms' => json_encode($zhStopwords, \JSON_THROW_ON_ERROR),
             ]
         );
 

@@ -55,6 +55,15 @@ class Migration1619428555AddDefaultMailFooter extends MigrationStep
                 'header_plain' => null,
                 'footer_plain' => (string) \file_get_contents(__DIR__ . '/../Fixtures/mails/defaultMailFooter/en-plain.twig'),
                 'footer_html' => (string) \file_get_contents(__DIR__ . '/../Fixtures/mails/defaultMailFooter/en-html.twig'),
+            ],
+            [
+                'mail_header_footer_id' => $id,
+                'name' => 'Default email footer',
+                'description' => 'Default email footer derived from basic information',
+                'header_html' => null,
+                'header_plain' => null,
+                'footer_plain' => (string) \file_get_contents(__DIR__ . '/../Fixtures/mails/defaultMailFooter/en-plain.twig'),
+                'footer_html' => (string) \file_get_contents(__DIR__ . '/../Fixtures/mails/defaultMailFooter/en-html.twig'),
             ]
         );
 

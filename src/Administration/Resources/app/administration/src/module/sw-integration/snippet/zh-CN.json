@@ -1,0 +1,50 @@
+{
+  "sw-integration": {
+    "general": {
+      "mainMenuItemIndex": "集成",
+      "headlineIntegrations": "集成",
+      "buttonCreateIntegration": "添加",
+      "heroHeadlineIntegrations": "集成管理",
+      "heroDescriptionIntegrations": "SnapStore 提供强大的应用程序接口（API），可将第三方系统完美地集成到您的流程中。为了建立正确的通信，SnapStore 要求外部应用程序首先通过单独的安全密钥进行验证。您可以在这里创建这些单独的密钥，这样就可以分别跟踪外部应用程序引入的更改。"
+    },
+    "list": {
+      "contextMenuEdit": "编辑",
+      "contextMenuDelete": "删除",
+      "messageEmpty": "暂无数据",
+      "sublineEmpty": "在这里管理系统的所有集成。",
+      "permissions": "权限",
+      "writeAccess": "写",
+      "readAccess": "读",
+      "integrationName": "集成"
+    },
+    "detail": {
+      "deleteModalTitle": "删除",
+      "detailModalTitle": "创建",
+      "detailModalTitleEdit": "编辑:",
+      "confirmDelete": "确定要删除集成?",
+      "buttonApply": "保存",
+      "buttonApplyEdit": "保存修改",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "buttonCreateNewApiKeys": "创建新 API 密钥",
+      "hintCreateNewApiKeys": "重新生成 API 访问密钥需要更新所有关联的脚本或应用程序。",
+      "labelFieldLabel": "名称",
+      "idFieldLabel": "访问密钥 ID",
+      "secretFieldLabel": "秘密访问密钥",
+      "secretHelpText": "保存后，访问密钥将不再可见。请确保复制并将密钥存储在安全的地方。如果丢失密钥，可以在此处生成新的密钥。",
+      "permissions": "权限",
+      "readAccessFieldLabel": "读取（默认）",
+      "writeAccessFieldLabel": "写入（可选）",
+      "messageSaveSuccess": "集成已保存。",
+      "messageSaveError": "集成无法保存。",
+      "messageCreateNewError": "集成无法保存。"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "integration": {
+        "label": "集成"
+      }
+    }
+  }
+}

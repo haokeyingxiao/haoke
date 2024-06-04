@@ -61,6 +61,10 @@ class Migration1625831469AddImportExportCrossSellingProfile extends MigrationSte
             [
                 'import_export_profile_id' => $id,
                 'label' => 'Default cross-selling',
+            ],
+            [
+                'import_export_profile_id' => $id,
+                'label' => '关联销售',
             ]
         );
 

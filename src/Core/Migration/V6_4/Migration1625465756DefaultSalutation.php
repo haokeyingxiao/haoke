@@ -56,6 +56,11 @@ class Migration1625465756DefaultSalutation extends MigrationStep
                 'salutation_id' => Uuid::fromHexToBytes(self::DEFAULT_SALUTATION_ID),
                 'display_name' => self::SALUTATION_DISPLAY_NAME_EN,
                 'letter_name' => '',
+            ],
+            [
+                'salutation_id' => Uuid::fromHexToBytes(self::DEFAULT_SALUTATION_ID),
+                'display_name' => self::SALUTATION_DISPLAY_NAME_EN,
+                'letter_name' => '',
             ]
         );
 

@@ -25,67 +25,80 @@ class Migration1677470540AddProvincesForCanada extends MigrationStep
         [
             'nameEN' => 'Ontario',
             'nameDE' => 'Ontario',
+            'nameZH' => '安大略省',
             'shortCode' => 'CA-ON',
         ],
         [
             'nameEN' => 'Quebec',
             'nameDE' => 'Québec',
+            'nameZH' => '魁北克省',
             'shortCode' => 'CA-QC',
         ],
         [
             'nameEN' => 'Nova Scotia',
             'nameDE' => 'Nova Scotia',
+            'nameZH' => '新斯科舍省',
             'shortCode' => 'CA-NS',
         ],
         [
             'nameEN' => 'New Brunswick',
             'nameDE' => 'New Brunswick',
+            'nameZH' => '新不伦瑞克省',
             'shortCode' => 'CA-NB',
         ],
         [
             'nameEN' => 'Manitoba',
             'nameDE' => 'Manitoba',
+            'nameZH' => '马尼托巴省',
             'shortCode' => 'CA-MB',
         ],
         [
             'nameEN' => 'British Columbia',
             'nameDE' => 'British Columbia',
+            'nameZH' => '不列颠哥伦比亚省',
             'shortCode' => 'CA-BC',
         ],
         [
             'nameEN' => 'Prince Edward Island',
             'nameDE' => 'Prince Edward Island',
+            'nameZH' => '爱德华王子岛省',
             'shortCode' => 'CA-PE',
         ],
         [
             'nameEN' => 'Saskatchewan',
             'nameDE' => 'Saskatchewan',
+            'nameZH' => '萨斯喀彻温省',
             'shortCode' => 'CA-SK',
         ],
         [
             'nameEN' => 'Alberta',
             'nameDE' => 'Alberta',
+            'nameZH' => '艾伯塔省',
             'shortCode' => 'CA-AB',
         ],
         [
             'nameEN' => 'Newfoundland and Labrador',
             'nameDE' => 'Neufundland und Labrador',
+            'nameZH' => '纽芬兰与拉布拉多省',
             'shortCode' => 'CA-NL',
         ],
         // 3 Territories
         [
             'nameEN' => 'Northwest Territories',
             'nameDE' => 'Nordwest-Territorien',
+            'nameZH' => '西北地区',
             'shortCode' => 'CA-NT',
         ],
         [
             'nameEN' => 'Yukon',
             'nameDE' => 'Yukon',
+            'nameZH' => '育空地区',
             'shortCode' => 'CA-YT',
         ],
         [
             'nameEN' => 'Nunavut',
             'nameDE' => 'Nunavut',
+            'nameZH' => '努纳武特地区',
             'shortCode' => 'CA-NU',
         ],
     ];
@@ -141,6 +154,9 @@ class Migration1677470540AddProvincesForCanada extends MigrationStep
             ], [
                 'country_state_id' => $countryStateId,
                 'name' => $state['nameEN'],
+            ], [
+                'country_state_id' => $countryStateId,
+                'name' => $state['nameZH'],
             ]);
         }
 

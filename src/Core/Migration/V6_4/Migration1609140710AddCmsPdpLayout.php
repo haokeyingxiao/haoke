@@ -55,6 +55,10 @@ class Migration1609140710AddCmsPdpLayout extends MigrationStep
             [
                 'cms_page_id' => $page['id'],
                 'name' => 'Default product page Layout',
+            ],
+            [
+                'cms_page_id' => $page['id'],
+                'name' => '默认产品页布局',
             ]
         );
 
@@ -261,7 +265,7 @@ class Migration1609140710AddCmsPdpLayout extends MigrationStep
         }
 
         foreach ($slotTranslationData as $slotTranslationDatum) {
-            $slotTranslations = new Translations($slotTranslationDatum, $slotTranslationDatum);
+            $slotTranslations = new Translations($slotTranslationDatum, $slotTranslationDatum, $slotTranslationDatum);
 
             $this->importTranslation('cms_slot_translation', $slotTranslations, $connection);
         }

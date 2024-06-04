@@ -20,6 +20,7 @@ class Migration1672931011ReviewFormMailTemplate extends MigrationStep
     use ImportTranslationsTrait;
 
     private const LOCALE_EN_GB = 'en-GB';
+    private const LOCALE_ZH_CN = 'zh-CN';
     private const LOCALE_DE_DE = 'de-DE';
 
     public function getCreationTimestamp(): int
@@ -55,6 +56,10 @@ class Migration1672931011ReviewFormMailTemplate extends MigrationStep
                 [
                     'mail_template_type_id' => $typeId,
                     'name' => 'Product review',
+                ],
+                [
+                    'mail_template_type_id' => $typeId,
+                    'name' => '产品评价',
                 ]
             );
 
@@ -86,6 +91,13 @@ class Migration1672931011ReviewFormMailTemplate extends MigrationStep
                 'content_html' => $this->getMailTemplateContent(self::LOCALE_EN_GB, true),
                 'content_plain' => $this->getMailTemplateContent(self::LOCALE_EN_GB, false),
             ],
+            [
+                'mail_template_id' => $templateId,
+                'sender_name' => '{{ salesChannel.name }}',
+                'subject' => 'New product review',
+                'content_html' => $this->getMailTemplateContent(self::LOCALE_ZH_CN, true),
+                'content_plain' => $this->getMailTemplateContent(self::LOCALE_ZH_CN, false),
+            ],
         );
 
         $this->importTranslation('mail_template_translation', $translations, $connection);
@@ -106,6 +118,10 @@ class Migration1672931011ReviewFormMailTemplate extends MigrationStep
             self::LOCALE_DE_DE => [
                 'html' => $deHtml,
                 'plain' => $dePlain,
+            ],
+            self::LOCALE_ZH_CN => [
+                'html' => $enHtml,
+                'plain' => $enPlain,
             ],
         ];
 

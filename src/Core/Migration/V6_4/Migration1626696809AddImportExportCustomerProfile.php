@@ -85,6 +85,10 @@ class Migration1626696809AddImportExportCustomerProfile extends MigrationStep
             [
                 'import_export_profile_id' => $id,
                 'label' => 'Default customer',
+            ],
+            [
+                'import_export_profile_id' => $id,
+                'label' => '客户',
             ]
         );
 

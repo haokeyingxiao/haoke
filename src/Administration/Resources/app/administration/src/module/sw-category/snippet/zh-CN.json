@@ -1,0 +1,261 @@
+{
+  "sw-category": {
+    "general": {
+      "mainMenuItemIndex": "分类",
+      "mainMenuItemList": "概览",
+      "descriptionTextModule": "在此管理分类。",
+      "headlineCategories": "分类",
+      "placeholderSearchBar": "搜索分类...",
+      "buttonCreate": "创建分类",
+      "buttonSafeCategory": "保存",
+      "descriptionLabel": "描述",
+      "messageSaveSuccess": "分类 \"{name}\" 已保存。",
+      "useAsLogo": "用作显示图片",
+      "treeHeadline": "分类",
+      "treeHeadSelected": "{count} 已选",
+      "emptyStateHeadline": "未选择分类",
+      "errorNavigationEntryPoint": "该分类被定义为至少一个销售渠道的 {entryPointLabel}，因此无法删除。",
+      "errorNavigationEntryPointMultiple": "一个或多个分类被定义为至少一个销售渠道的主导航，因此无法删除。",
+      "actions": {
+        "actionsDisabledInLanguage": "分类只能在默认语言中创建。",
+        "createSub": "新建子分类",
+        "createBefore": "之前新建分类",
+        "createAfter": "之后新建分类"
+      }
+    },
+    "view": {
+      "general": "常规",
+      "cms": "布局",
+      "products": "产品",
+      "customEntity": "自定义实体",
+      "seo": "SEO",
+      "columnInfoHeader": "页脚元素",
+      "columnInfo": "该分类在页脚设置了一个专用栏目。分类名称将作为栏目标题显示。此分类下第一级的所有分类将显示在栏目标题下方。"
+    },
+    "base": {
+      "general": {
+        "categoryNameLabel": "名称",
+        "headlineInformationCard": "常规",
+        "isCategoryActiveLabel": "激活",
+        "useAsLink": "用作链接",
+        "labelCategoryTags": "标签",
+        "labelCategoryTagsPlaceholder": "单独输入标签...",
+        "types": {
+          "title": "分类类型",
+          "page": "页面 / 列表",
+          "folder": "结构元素 / 入口点",
+          "customEntity": "自定义实体",
+          "link": "链接",
+          "linkUnavailable": "链接（如果分类被定义为入口点则不可选）",
+          "help": "结构分类本身不可调用，仅用于结构目的。",
+          "helpText": {
+            "page": "页面 / 列表拥有相关联的产品，并且可以直接通过分配的布局访问。",
+            "folder": "结构元素 / 入口点仅在结构中显示，并且除非被分配为销售渠道的入口点，否则不可直接访问。",
+            "link": "链接允许引用产品、其他分类、落地页或外部网站。"
+          }
+        }
+      },
+      "entry-point-card": {
+        "cardTitle": "导航",
+        "labelEntryPoint": "入口点",
+        "placeholderEntryPoint": "选择入口点...",
+        "existingNavigationDescription": "您已将此分类指定为这些销售渠道的主导航入口点：",
+        "labelSalesChannelsAdd": "销售渠道分配",
+        "placeholderSalesChannels": "添加销售渠道...",
+        "buttonConfigureHome": "配置首页",
+        "types": {
+          "labelMainNavigation": "主导航",
+          "helpTextMainNavigation": "主导航的入口点是销售渠道的必填字段。如果您将此分类分配为一个或多个销售渠道的主导航入口点，只能在销售渠道本身更改此分配。",
+          "labelFooterNavigation": "页脚导航",
+          "helpTextFooterNavigation": "如果您将此分类作为一个或多个销售渠道的页脚导航入口点，下一级的分类将作为栏目显示。这允许您将页脚导航分为几个区域。",
+          "labelServiceNavigation": "页脚服务导航",
+          "helpTextServiceNavigation": "如果您将此分类作为一个或多个销售渠道的服务导航入口点，下一级的分类将在页脚区域显示为第二导航。"
+        }
+      },
+      "entry-point-modal": {
+        "modalTitle": "配置首页",
+        "salesChannelSelection": "销售渠道",
+        "showInMainNavigation": "在主导航中显示",
+        "mainNavigationName": "显示名称",
+        "mainNavigationNamePlaceholder": "输入替代首页名称...",
+        "mainNavigationNameHelpText": "默认情况下，此分类显示为“首页”。如果默认配置不适合当前销售渠道，请输入替代显示名称。",
+        "layoutHeadline": "布局",
+        "seoSettingsHeadline": "SEO 设置",
+        "metaTitleLabel": "元标题",
+        "metaTitlePlaceholder": "输入元标题...",
+        "metaDescriptionLabel": "元描述",
+        "metaDescriptionPlaceholder": "输入元描述...",
+        "seoKeywordsLabel": "SEO 关键词",
+        "seoKeywordsPlaceholder": "输入一个或多个关键词..."
+      },
+      "seo": {
+        "title": "SEO",
+        "labelMetaTitle": "元标题",
+        "labelMetaDescription": "描述",
+        "labelKeywords": "关键词",
+        "placeholderMetaTitle": "输入元标题...",
+        "placeholderMetaDescription": "输入描述...",
+        "placeholderKeywords": "输入一个或多个关键词..."
+      },
+      "menu": {
+        "title": "菜单设置",
+        "visible": "在导航中隐藏",
+        "imageLabel": "显示图片",
+        "descriptionLabel": "描述",
+        "descriptionPlaceholder": "输入描述..."
+      },
+      "customEntity": {
+        "cardTitle": "分配的文章",
+        "assignment": {
+          "label": "条目类型",
+          "helpText": "选择要在此分类中显示的帖子类型。"
+        },
+        "instanceAssignment": {
+          "title": "标题",
+          "label": "条目",
+          "placeholder": "搜索并分配条目...",
+          "emptyState": {
+            "title": "未分配条目"
+          }
+        }
+      },
+      "cms": {
+        "title": "布局分配",
+        "changeLayout": "更改布局",
+        "changeLayoutEmpty": "分配布局",
+        "editInPagebuilder": "在设计器中编辑",
+        "editInPagebuilderEmpty": "创建新布局",
+        "editContent": "编辑内容",
+        "defaultTitle": "默认布局",
+        "defaultDesc": "分类页面"
+      },
+      "link": {
+        "title": "自定义链接",
+        "mainTypeLabel": "链接类型",
+        "mainTypePlaceholder": "选择链接类型...",
+        "internalTypeLabel": "实体",
+        "internalTypePlaceholder": "选择实体...",
+        "categoryPlaceholder": "选择分类...",
+        "productPlaceholder": "选择产品...",
+        "landingPagePlaceholder": "选择落地页...",
+        "example": "示例：",
+        "internalExampleText": "/my-category",
+        "externalDesc": "设置外部链接，请插入完整的网址：",
+        "internalDesc": "如果您想创建一个内部链接，只需添加域名后的路径：",
+        "linkLabel": "链接目的地",
+        "linkNewTabLabel": "在新标签页中打开",
+        "type": {
+          "internal": "内部",
+          "external": "外部"
+        }
+      },
+      "products": {
+        "productAssignmentHeadline": "产品分配",
+        "productAssignmentPlaceholder": "搜索并分配产品...",
+        "productAssignmentLabel": "产品",
+        "productAssignmentEmptyStateDescription": "未分配产品",
+        "productStreamAssignmentEmptyStateDescription": "未分配动态产品组",
+        "columnNameLabel": "名称",
+        "columnManufacturerLabel": "制造商",
+        "productAssignmentTypeLabel": "类型",
+        "productAssignmentTypeManualLabel": "手动选择",
+        "productAssignmentTypeStreamLabel": "动态产品组",
+        "productAssignmentTypeStreamPlaceholder": "搜索并分配动态产品组...",
+        "alertManualAssignedProductsOnAssignmentTypeStream": "此分类中仍有手动分配的产品。这些产品在此分类中将不可见，但可能在父分类中可见。",
+        "dynamicProductGroupDetailLinkText": "动态产品组详情",
+        "dynamicProductGroupInvalidMessage": "选定的动态产品组无效。请验证您的动态产品组详情。",
+        "dynamicProductGroupHelpText": {
+          "label": "产品属于动态产品组，如果它们满足该产品组的条件。条件可以在 {link} 模块内定义。",
+          "linkText": "动态产品组",
+          "videoUrl": "",
+          "videoLink": ""
+        }
+      }
+    },
+    "modal": {
+      "textDeleteConfirm": "您确定真的要删除分类 \"{name}\" 吗？",
+      "textDeleteChildrenConfirm": "所有子分类也将被删除。",
+      "textDeleteMultipleConfirm": "您确定要删除 {count} 个选定的分类吗？"
+    },
+    "entry-point-overwrite-modal": {
+      "textBefore": "您已将入口点分配给以下销售渠道：| 您已将入口点分配给以下销售渠道：",
+      "textAfter": "这个分配应该被覆盖吗？| 这些分配应该被覆盖吗？"
+    }
+  },
+  "sw-landing-page": {
+    "view": {
+      "general": "常规",
+      "cms": "布局"
+    },
+    "general": {
+      "placeholderSearchBar": "搜索落地页...",
+      "treeHeadSelected": "{count} 已选",
+      "buttonCreate": "添加落地页",
+      "treeHeadline": "落地页",
+      "actions": {
+        "actionsDisabledInLanguage": "落地页只能在系统默认语言中创建。"
+      }
+    },
+    "base": {
+      "general": {
+        "labelName": "名称",
+        "headlineInformationCard": "常规",
+        "isActiveLabel": "激活",
+        "labelTags": "标签",
+        "labelTagsPlaceholder": "单独输入标签..."
+      },
+      "seo": {
+        "title": "SEO",
+        "titleGeneralInformation": "常规信息",
+        "titleSocialMedia": "社交媒体",
+        "labelSalesChannel": "销售渠道",
+        "labelMetaTitle": "元标题",
+        "labelSocialMediaTitle": "标题",
+        "labelMetaDescription": "元描述",
+        "labelSocialMediaDescription": "描述",
+        "labelKeywords": "SEO 关键词",
+        "labelUrl": "SEO URL",
+        "labelPreviewImage": "预览图片",
+        "placeholderSalesChannel": "选择销售渠道...",
+        "placeholderMetaTitle": "输入元标题...",
+        "placeholderSocialMediaTitle": "输入社交媒体标题...",
+        "placeholderMetaDescription": "输入元描述...",
+        "placeholderSocialMediaDescription": "输入描述...",
+        "placeholderKeywords": "输入一个或多个关键词...",
+        "placeholderUrl": "输入 URL...",
+        "socialMediaPreview": "社交媒体预览",
+        "searchResultPreview": "搜索结果预览",
+        "helpTextMetaTitle": "元标题不应超过70个字符。超出的文本将被谷歌截断，标题将不会完全显示在SERP摘要中。",
+        "helpTextMetaDescription": "谷歌上元描述的可能长度约为175个字符，并根据像素宽度进行裁剪。然而，建议目标长度约为150个字符，以便描述不会在SERP摘要中被截断。Shopware允许的最大长度为255个字符。",
+        "notification": {
+          "noLayoutAssigned": "这个落地页没有分配布局。没有布局，落地页无法通过SEO访问。"
+        }
+      },
+      "cms": {
+        "title": "布局分配",
+        "changeLayout": "更改布局",
+        "changeLayoutEmpty": "分配布局",
+        "editInPagebuilder": "在设计器中编辑",
+        "editInPagebuilderEmpty": "创建新布局",
+        "editContent": "编辑内容",
+        "defaultTitle": "默认布局",
+        "defaultDesc": "分类页面",
+        "cmsLayoutModalHeadline": "落地页"
+      }
+    },
+    "modal": {
+      "textDeleteConfirm": "您确定真的要删除落地页 \"{name}\" 吗？",
+      "textDeleteMultipleConfirm": "您确定要删除 {count} 个选定的落地页吗？"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "category": {
+        "label": "类目"
+      },
+      "landing_page": {
+        "label": "落地页"
+      }
+    }
+  }
+}

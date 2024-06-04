@@ -1,0 +1,53 @@
+{
+  "sw-newsletter-recipient": {
+    "general": {
+      "description": "在这里管理全部邮件订阅。",
+      "information": "信息",
+      "language": "语言",
+      "salutation": "称呼",
+      "salesChannel": "销售渠道",
+      "buttonSave": "保存",
+      "mainMenuItemGeneral": "邮件订阅",
+      "placeholderSearchBarSnippets": "搜索全部邮件订阅...",
+      "tags": "标签"
+    },
+    "detail": {
+      "messageSaveSuccess": "\"{key}\" 的数据已保存。",
+      "messageSaveError": "\"{key}\" 的数据无法保存。"
+    },
+    "list": {
+      "titleSidebarItemRefresh": "刷新",
+      "titleSidebarItemFilter": "过滤",
+      "status": "状态",
+      "textHeadline": "邮件订阅",
+      "email": "邮箱地址",
+      "name": "名称",
+      "title": "标题",
+      "firstName": "名",
+      "lastName": "姓",
+      "salesChannel": "销售渠道",
+      "zipCode": "邮政编码",
+      "city": "城市",
+      "street": "街道",
+      "notSet": "等待激活",
+      "createdAt": "创建时间",
+      "updatedAt": "更新时间",
+      "optIn": "已激活",
+      "optOut": "等待删除",
+      "direct": "立即激活",
+      "messageEmpty": "暂无邮件订阅"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "newsletter_recipient": {
+        "label": "邮件订阅"
+      }
+    },
+    "additional_permissions": {
+      "marketing": {
+        "send_newsletter": "发送邮件"
+      }
+    }
+  }
+}

@@ -33,6 +33,7 @@ class StateMachineMigrationImporter
             $stateMachineMigration->getTechnicalName(),
             $stateMachineMigration->getDe(),
             $stateMachineMigration->getEn(),
+            $stateMachineMigration->getZh(),
             $states,
             $transitions,
             $initialStateId
@@ -69,7 +70,8 @@ class StateMachineMigrationImporter
             StateMachineTranslationDefinition::ENTITY_NAME,
             new Translations(
                 ['state_machine_id' => $id, 'name' => $stateMachineMigration->getDe()],
-                ['state_machine_id' => $id, 'name' => $stateMachineMigration->getEn()]
+                ['state_machine_id' => $id, 'name' => $stateMachineMigration->getEn()],
+                ['state_machine_id' => $id, 'name' => $stateMachineMigration->getZh()]
             ),
             $this->connection
         );
@@ -95,6 +97,7 @@ class StateMachineMigrationImporter
             $technicalName = $state['technicalName'];
             $de = $state['de'];
             $en = $state['en'];
+            $zh = $state['zh'];
 
             $id = $this->getStateMachineStateIdByName($stateMachineId, $technicalName);
 
@@ -119,7 +122,8 @@ class StateMachineMigrationImporter
                 StateMachineStateTranslationDefinition::ENTITY_NAME,
                 new Translations(
                     ['state_machine_state_id' => $id, 'name' => $de],
-                    ['state_machine_state_id' => $id, 'name' => $en]
+                    ['state_machine_state_id' => $id, 'name' => $en],
+                    ['state_machine_state_id' => $id, 'name' => $zh]
                 ),
                 $this->connection
             );

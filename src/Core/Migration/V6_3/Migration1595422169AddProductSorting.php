@@ -50,7 +50,8 @@ class Migration1595422169AddProductSorting extends MigrationStep
 
             $translations = new Translations(
                 ['product_sorting_id' => $sorting['id'], 'label' => $translations['de-DE']],
-                ['product_sorting_id' => $sorting['id'], 'label' => $translations['en-GB']]
+                ['product_sorting_id' => $sorting['id'], 'label' => $translations['en-GB']],
+                ['product_sorting_id' => $sorting['id'], 'label' => $translations['zh-CN']]
             );
 
             $this->importTranslation('product_sorting_translation', $translations, $connection);
@@ -121,6 +122,7 @@ class Migration1595422169AddProductSorting extends MigrationStep
                 'translations' => [
                     'de-DE' => 'Name A-Z',
                     'en-GB' => 'Name A-Z',
+                    'zh-CN' => '名称 A-Z',
                 ],
             ],
             [
@@ -134,6 +136,7 @@ class Migration1595422169AddProductSorting extends MigrationStep
                 'translations' => [
                     'de-DE' => 'Name Z-A',
                     'en-GB' => 'Name Z-A',
+                    'zh-CN' => '名称 Z-A',
                 ],
             ],
             [
@@ -147,6 +150,7 @@ class Migration1595422169AddProductSorting extends MigrationStep
                 'translations' => [
                     'de-DE' => 'Preis aufsteigend',
                     'en-GB' => 'Price ascending',
+                    'zh-CN' => '价格从低到高',
                 ],
             ],
             [
@@ -160,6 +164,7 @@ class Migration1595422169AddProductSorting extends MigrationStep
                 'translations' => [
                     'de-DE' => 'Preis absteigend',
                     'en-GB' => 'Price descending',
+                    'zh-CN' => '价格从高到底',
                 ],
             ],
             [
@@ -173,6 +178,7 @@ class Migration1595422169AddProductSorting extends MigrationStep
                 'translations' => [
                     'de-DE' => 'Beste Ergebnisse',
                     'en-GB' => 'Top results',
+                    'zh-CN' => '最佳匹配',
                 ],
             ],
         ];
