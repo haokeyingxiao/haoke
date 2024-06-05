@@ -1,10 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Shopware\Core\Haoke;
+namespace Shopware\Core\Tools;
 
 use Shopware\Core\Framework\Bundle;
 use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\Kernel;
+use Shopware\Core\Tools\DependencyInjection\CompilerPass\QrCodeCompilerPass;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\Config\Loader\DelegatingLoader;
 use Symfony\Component\Config\Loader\LoaderResolver;
@@ -21,16 +22,17 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
  * @internal
  */
 #[Package('core')]
-class Haoke extends Bundle
+class Tools extends Bundle
 {
     public function build(ContainerBuilder $container): void
     {
         parent::build($container);
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__ . '/DependencyInjection'));
-        $loader->load('services.xml');
+        $loader->load('endroid_qr_code.xml');
         /** @var string $environment */
         $environment = $container->getParameter('kernel.environment');
         $this->buildConfig($container, $environment);
+        $container->addCompilerPass(new QrCodeCompilerPass());
     }
 
     private function buildConfig(ContainerBuilder $container, string $environment): void

@@ -2,91 +2,91 @@
   "sw-dashboard": {
     "general": {
       "mainMenuItemGeneral": "首页",
-      "descriptionTextModule": "The Administration's front page, displaying statistics and system information"
+      "descriptionTextModule": "管理界面的首页，显示统计和系统信息"
     },
     "introduction": {
-      "headlineUnkownUser": "Welcome to Shopware.",
+      "headlineUnkownUser": "欢迎使用 Shopware。",
       "daytimeHeadline": {
         "5h": [
-          "Good morning, {greetingName}.",
-          "Hi, {greetingName}!"
+          "早上好，{greetingName}。",
+          "你好，{greetingName}！"
         ],
         "11h": [
-          "Hello, {greetingName}.",
-          "Good day, {greetingName}.",
-          "Howdy, {greetingName}!"
+          "你好，{greetingName}。",
+          "您好，{greetingName}。",
+          "您好，{greetingName}！"
         ],
         "18h": [
-          "Good evening, {greetingName}.",
-          "Hi, {greetingName}!"
+          "晚上好，{greetingName}。",
+          "你好，{greetingName}！"
         ],
         "23h": [
-          "Good to see you, {greetingName}.",
-          "Still up, {greetingName}?"
+          "很高兴见到你，{greetingName}。",
+          "还没睡呢，{greetingName}？"
         ]
       },
       "daytimeWelcomeText": {
         "5h": [
-          "Time for coffee, right?",
-          "You’re off to a great start!",
-          "Too much to do today? Focus on those tasks that will have most of the impact.",
-          "You look stunning today!"
+          "喝咖啡的时间到了，对吗？",
+          "你今天的开始很好！",
+          "今天事情很多吗？专注于那些最有影响力的任务。",
+          "你今天看起来很棒！"
         ],
         "11h": [
-          "Another day, another chance to grow your business.",
-          "You can impact someone's life today.",
-          "You look fabulous today!",
-          "Today you've got the chance to shape the tomorrow you want."
+          "新的一天，又是一个发展业务的机会。",
+          "你今天可以影响某人的生活。",
+          "你今天看起来很棒！",
+          "今天你有机会塑造你想要的明天。"
         ],
         "18h": [
-          "The day is almost done, time to check your shop's latest activities.",
-          "Time to evaluate - Have a look at how your shop has been doing today.",
-          "Today's actions are tomorrow's result."
+          "一天快结束了，是时候检查一下你店铺的最新动态了。",
+          "是时候评估一下了 - 看看你今天店铺的表现。",
+          "今天的行动是明天的结果。"
         ],
         "23h": [
-          "Find beauty in everything to inspire yourself.",
-          "Look, outside someone has toggled the dark mode.",
-          "Almost everything will work again, if you unplug it for a few minutes - that includes you. Take a break."
+          "在一切事物中寻找美丽来激励自己。",
+          "看，外面有人切换了暗模式。",
+          "几乎所有东西都可以重新工作，如果你拔掉它几分钟 - 这包括你。休息一下。"
         ]
       }
     },
     "helpcard": {
-      "headline": "Get ready to sell your products.",
-      "helpcenter": "Shopware Help Center",
-      "helpcenterLink": "https://docs.snapadmin.net/en/shopware-6-en",
-      "takeOffTip": "Learn how to make your first sale",
-      "takeOffTipLink": "https://www.snapadmin.net/en/news/take-off-in-ecommerce-10-tips-for-your-initial-sales/",
-      "getToKnowSales": "Get to know Sales Channels",
+      "headline": "准备好销售你的产品。",
+      "helpcenter": "Shopware 帮助中心",
+      "helpcenterLink": "https://docs.haokeyingxiao.com/en/shopware-6-en",
+      "takeOffTip": "了解如何完成第一次销售",
+      "takeOffTipLink": "https://www.haokeyingxiao.com/en/news/take-off-in-ecommerce-10-tips-for-your-initial-sales/",
+      "getToKnowSales": "了解销售渠道",
       "getToKnowSalesLink": "https://www.youtube.com/watch?v=RsEeersOgIo"
     },
     "feedbackCard": {
-      "headline": "First impressions count.",
-      "text": "Share your first impressions and help us improve the overall Shopware experience.",
-      "feedback": "Give feedback",
-      "feedbackLink": "https://issues.snapadmin.net"
+      "headline": "第一印象很重要。",
+      "text": "分享你的第一印象，帮助我们改进 Shopware 的整体体验。",
+      "feedback": "提供反馈",
+      "feedbackLink": "https://issues.haokeyingxiao.com"
     },
     "todayStats": {
-      "headline": "Today's statistics",
-      "orders": "Orders",
-      "turnover": "Total value",
-      "orderTime": "Time"
+      "headline": "今天的统计数据",
+      "orders": "订单",
+      "turnover": "总金额",
+      "orderTime": "时间"
     },
     "monthStats": {
-      "headline": "Statistics",
+      "headline": "统计数据",
       "dateRanges": {
-        "30Days": "Last 30 days",
-        "14Days": "Last 14 days",
-        "7Days": "Last 7 days",
-        "24Hours": "Last 24 hours",
-        "yesterday": "Since yesterday"
+        "30Days": "过去30天",
+        "14Days": "过去14天",
+        "7Days": "过去7天",
+        "24Hours": "过去24小时",
+        "yesterday": "自昨天起"
       },
-      "orderNumber": "Orders",
-      "turnover": "Turnover",
-      "numberOfOrders": "Count",
-      "totalTurnover": "Total",
-      "helperText": "The turnover graph only displays orders in payment status \"paid\".",
-      "linkOrders": "View orders",
-      "linkPaidOrders": "View paid orders"
+      "orderNumber": "订单",
+      "turnover": "营业额",
+      "numberOfOrders": "数量",
+      "totalTurnover": "总计",
+      "helperText": "营业额图表仅显示支付状态为“已支付”的订单。",
+      "linkOrders": "查看订单",
+      "linkPaidOrders": "查看已支付订单"
     }
   }
 }

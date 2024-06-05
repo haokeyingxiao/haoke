@@ -91,9 +91,9 @@
       "message": "Shopware 账号是您与所有 Shopware 服务互动的主要中心。",
       "registerAccountText": "还没有 Shopware 账号？在这里注册",
       "registerAccountHere": "这里",
-      "registerAccountUrl": "https://account.snapadmin.net/register?lang=en",
+      "registerAccountUrl": "https://account.haokeyingxiao.com/register?lang=en",
       "forgotPasswordText": "忘记密码了吗？",
-      "forgotPasswordUrl": "https://account.snapadmin.net/recovery?lang=en"
+      "forgotPasswordUrl": "https://account.haokeyingxiao.com/recovery?lang=en"
     },
     "error": {
       "messageLoginDataInvalid": "登录凭据不正确，请重试。"
@@ -126,11 +126,11 @@
       "headlineUsefulLinks": "有用的链接",
       "loadingMessage": "正在重新启动应用<br>这可能需要一段时间...",
       "documentationLabel": "文档",
-      "documentationUrl": "https://docs.snapadmin.net/en",
+      "documentationUrl": "https://docs.haokeyingxiao.com/en",
       "forumLabel": "论坛",
-      "forumUrl": "https://forum.snapadmin.net/",
+      "forumUrl": "https://forum.haokeyingxiao.com/",
       "roadmapLabel": "路线图",
-      "roadmapUrl": "https://www.snapadmin.net/en/roadmap/",
+      "roadmapUrl": "https://www.haokeyingxiao.com/en/roadmap/",
       "modalTitle": "完成"
     },
     "stepItemTitle": {

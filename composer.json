@@ -155,7 +155,9 @@
         "twig/intl-extra": "^3.4",
         "twig/string-extra": "^3.4",
         "twig/twig": "^3.8.0",
-        "zircote/swagger-php": "^4.9.2"
+        "zircote/swagger-php": "^4.9.2",
+        "endroid/qr-code": "^5.0",
+        "symfony/form": "~7.0.0"
     },
     "require-dev": {
         "ext-tokenizer": "*",

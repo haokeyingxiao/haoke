@@ -15,6 +15,15 @@ https://sass-guidelin.es/#the-7-1-pattern
 @import 'abstract/functions/feature';
 
 /*
+ * icon
+ *------------- */
+
+$fa-font-path:         $app-css-relative-asset-path + '/font';
+@import '~vendor/fontawesome-free/scss/fontawesome';
+@import '~vendor/fontawesome-free/scss/solid';
+@import '~vendor/fontawesome-free/scss/regular';
+
+/*
  * Skin variables
  * ---------- */
 
