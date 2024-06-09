@@ -3,7 +3,7 @@ import Vuex from 'vuex_v2';
 import VueI18n from 'vue-i18n_v2';
 import enGBMessages from 'src/app/snippet/en-GB.json';
 
-const Haoke = require('src/core/shopware').default;
+const Shopware = require('src/core/shopware').default;
 
 // Expose shopware object globally
 global.Shopware = Shopware;

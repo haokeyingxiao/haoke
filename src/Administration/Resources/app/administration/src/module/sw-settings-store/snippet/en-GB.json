@@ -3,14 +3,14 @@
     "general": {
       "mainMenuItemGeneral": "Haoke Account",
       "textHeadline": "Haoke Account",
-      "description": "Change your Haoke Account settings here.",
+      "description": "Change your Shopware Account settings here.",
       "buttonSave": "Save",
-      "messageSaveSuccess": "Your Haoke Account information have been saved."
+      "messageSaveSuccess": "Your Shopware Account information have been saved."
     },
     "detail": {
       "titleCard": "Settings",
       "labelHost": "Licence domain",
-      "placeholderHost": "Enter the licence domain (shop domain), specified in your Haoke Account."
+      "placeholderHost": "Enter the licence domain (shop domain), specified in your Shopware Account."
     }
   }
 }

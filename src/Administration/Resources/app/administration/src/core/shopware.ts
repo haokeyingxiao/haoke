@@ -1,7 +1,7 @@
 /**
  * @package admin
  *
- * Haoke End Developer API
+ * Shopware End Developer API
  * @module Shopware
  * @ignore
  */

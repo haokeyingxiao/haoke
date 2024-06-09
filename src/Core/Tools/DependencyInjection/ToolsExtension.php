@@ -9,9 +9,6 @@ use Symfony\Component\DependencyInjection\Extension\Extension;
 #[Package('core')]
 class ToolsExtension extends Extension
 {
-    /**
-     * @return void
-     */
     public function load(array $configs, ContainerBuilder $container): void
     {
         $configuration = new Configuration();

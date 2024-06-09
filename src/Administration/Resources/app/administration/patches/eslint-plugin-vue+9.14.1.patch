@@ -40,7 +40,7 @@ index ef8cd0e..e63eb51 100644
      if (callee.type === 'MemberExpression') {
        const calleeObject = skipTSAsExpression(callee.object)
 
-+      /* Haoke Patch Part 1 */
++      /* Shopware Patch Part 1 */
 +      if (calleeObject.type === 'MemberExpression') {
 +          if (
 +              calleeObject &&
@@ -57,7 +57,7 @@ index ef8cd0e..e63eb51 100644
 +              return maybeFullVueComponentForVue2 ? propName : null;
 +          }
 +      }
-+      /* end of Haoke Patch Part 1 */
++      /* end of Shopware Patch Part 1 */
 +
        if (calleeObject.type === 'Identifier') {
          const propName = getStaticPropertyName(callee)
@@ -66,7 +66,7 @@ index ef8cd0e..e63eb51 100644
              : null
          }
 
-+        /* Haoke Patch Part 2 */
++        /* Shopware Patch Part 2 */
 +        if (calleeObject.name === 'Component') {
 +            const maybeFullVueComponentForVue2 =
 +                propName &&
@@ -74,7 +74,7 @@ index ef8cd0e..e63eb51 100644
 +                isObjectArgument(parent)
 +            return maybeFullVueComponentForVue2 ? propName : null;
 +        }
-+        /* end of Haoke Patch Part 2 */
++        /* end of Shopware Patch Part 2 */
 +
          // for Vue.js 3.x
          // app.component('xxx', {}) || app.mixin({})

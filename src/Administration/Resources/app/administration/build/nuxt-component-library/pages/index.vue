@@ -1,6 +1,6 @@
 <template>
     <div class="page--homepage">
-        <h1>Welcome to the Haoke Component library</h1>
+        <h1>Welcome to the Shopware Component library</h1>
 
         <p class="is--xl">
             Explore the look and feel of components to speed up your app development. The Haoke Administration is

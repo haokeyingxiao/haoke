@@ -170,10 +170,10 @@ describe('src/app/main.ts', () => {
         jest.mock('src/app/service/file-validation.service');
         serviceMocks.FileValidationService = (await import('src/app/service/file-validation.service')).default;
 
-        // Reset the Haoke object to make sure that the application is not already initialized
-        Haoke = undefined;
-        // Import the Haoke object
-        Haoke = (await import('src/core/shopware')).ShopwareInstance;
+        // Reset the Shopware object to make sure that the application is not already initialized
+        Shopware = undefined;
+        // Import the Shopware object
+        Shopware = (await import('src/core/shopware')).ShopwareInstance;
         // Initialize the main application
         await import('src/app/main');
         // Import the VueAdapter to check if it is set in the application
@@ -187,7 +187,7 @@ describe('src/app/main.ts', () => {
         });
     });
 
-    it('should create the global application DI container in the Haoke object', () => {
+    it('should create the global application DI container in the Shopware object', () => {
         expect(Shopware.Application).toBeDefined();
     });
 

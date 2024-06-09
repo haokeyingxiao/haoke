@@ -2,7 +2,7 @@
  * @package admin
  *
  * This is the initial start file for the whole administration. It loads
- * the Haoke Core with the Haoke object. And then starts to execute
+ * the Shopware Core with the Shopware object. And then starts to execute
  * the application.
  */
 // @ts-expect-error - we use an webpack alias for compat mode

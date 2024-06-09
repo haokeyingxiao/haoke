@@ -1998,7 +1998,7 @@ class EntityReaderTest extends TestCase
         $cat = $repo->search($criteria, Context::createDefaultContext())->first();
         $catTranslations = $cat->getTranslations();
         static::assertNotNull($catTranslations);
-        static::assertCount(2, $catTranslations);
+        static::assertCount(3, $catTranslations);
 
         /** @var CategoryTranslationEntity $transDe */
         $transDe = $catTranslations->filterByLanguageId($this->deLanguageId)->first();

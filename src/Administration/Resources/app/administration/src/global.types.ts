@@ -156,7 +156,7 @@ declare global {
     type Remove<T, K extends keyof T> = T&{[P in K]?: never};
 
     /**
-     * Make the Haoke object globally available
+     * Make the Shopware object globally available
      */
     const Shopware: ShopwareClass;
 
