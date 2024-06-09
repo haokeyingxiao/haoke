@@ -57,7 +57,7 @@
       }
     },
     "errors": {
-      "messageToTheSnapStoreDocumentation": "<a href=\"{documentationLink}\" target=\"_blank\">打开 SnapStore 文档</a>",
+      "messageToTheShopwareDocumentation": "<a href=\"{documentationLink}\" target=\"_blank\">打开 SnapStore 文档</a>",
       "messageGenericFailure": "操作失败。",
       "messageUploadFailureNotAZipFile": "上传的文件不是 ZIP 文件。",
       "messageUploadFailureUnzipFailed": "无法解压 ZIP 文件。",
@@ -321,7 +321,11 @@
           "titleEmptyState": "未安装主题",
           "textEmptyState": "您安装的所有的主题都会在这里列出。"
         },
-        "btnOpenStore": "打开商店"
+        "btnOpenStore": "打开商店",
+        "alertExtensionManagement": {
+          "title": "运行时扩展管理已禁用",
+          "description": "在此安装中，运行时扩展管理已被禁用。您只能在管理界面中更改扩展的设置。"
+        }
       },
       "sw-extension-removal-modal": {
         "titleCancel": "\"{extensionName}\" 取消并移除",

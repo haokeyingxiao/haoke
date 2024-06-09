@@ -12,7 +12,7 @@
     ],
     "conflict": {
         "haokeyingxiao/core": "*",
-        "shopware/storefront": "*"
+        "haokeyingxiao/storefront": "*"
     },
     "extra": {
         "shopware-plugin-class": "SwagTestValidateConflictsWildcardIncompatibility\\SwagTestValidateConflictsWildcardIncompatibility",

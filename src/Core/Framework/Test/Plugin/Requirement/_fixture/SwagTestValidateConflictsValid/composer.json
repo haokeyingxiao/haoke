@@ -11,7 +11,7 @@
         }
     ],
     "conflict": {
-        "shopware/storefront": "< 6.1.0"
+        "haokeyingxiao/storefront": "< 6.1.0"
     },
     "extra": {
         "shopware-plugin-class": "SwagTestValidateConflictsValid\\SwagTestValidateConflictsValid",

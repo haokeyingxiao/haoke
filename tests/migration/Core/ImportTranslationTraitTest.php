@@ -50,6 +50,11 @@ class ImportTranslationTraitTest extends TestCase
                     'category_id' => Uuid::fromHexToBytes($ids->get('category')),
                     'category_version_id' => Uuid::fromHexToBytes(Defaults::LIVE_VERSION),
                     'name' => 'en name',
+                ],
+                [
+                    'category_id' => Uuid::fromHexToBytes($ids->get('category')),
+                    'category_version_id' => Uuid::fromHexToBytes(Defaults::LIVE_VERSION),
+                    'name' => 'en name',
                 ]
             ),
             KernelLifecycleManager::getConnection()

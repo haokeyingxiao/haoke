@@ -109,7 +109,7 @@ class MappingServiceTest extends TestCase
 
         $this->profileRepository->create([
             [
-                'technicalName' => 'test_profile_with_mapping',
+                'name' => 'testProfileWithMapping',
                 'fileType' => $data['fileType'] ?? 'text/csv',
                 'delimiter' => ';',
                 'enclosure' => '"',
@@ -199,7 +199,7 @@ class MappingServiceTest extends TestCase
         yield 'Import/Export profile with mapping' => [
             [
                 'id' => Uuid::randomHex(),
-                'technicalName' => 'test_profile',
+                'name' => 'Test Profile',
                 'label' => 'Test Profile',
                 'sourceEntity' => 'product',
                 'type' => ImportExportProfileEntity::TYPE_IMPORT_EXPORT,
@@ -216,7 +216,7 @@ class MappingServiceTest extends TestCase
         yield 'Export profile with mapping' => [
             [
                 'id' => Uuid::randomHex(),
-                'technicalName' => 'test_profile',
+                'name' => 'Test Profile',
                 'label' => 'Test Profile',
                 'sourceEntity' => 'product',
                 'type' => ImportExportProfileEntity::TYPE_EXPORT,
@@ -234,7 +234,7 @@ class MappingServiceTest extends TestCase
         yield 'Export profile with 3 mappings' => [
             [
                 'id' => Uuid::randomHex(),
-                'technicalName' => 'test_profile',
+                'name' => 'Test Profile',
                 'label' => 'Test Profile',
                 'sourceEntity' => 'product',
                 'type' => ImportExportProfileEntity::TYPE_EXPORT,
@@ -253,7 +253,7 @@ class MappingServiceTest extends TestCase
         yield 'Export profile with empty mapping' => [
             [
                 'id' => Uuid::randomHex(),
-                'technicalName' => 'test_profile',
+                'name' => 'Test Profile',
                 'label' => 'Test Profile',
                 'sourceEntity' => 'product',
                 'type' => ImportExportProfileEntity::TYPE_EXPORT,
@@ -268,7 +268,7 @@ class MappingServiceTest extends TestCase
         yield 'Export profile with null mapping' => [
             [
                 'id' => Uuid::randomHex(),
-                'technicalName' => 'test_profile',
+                'name' => 'Test Profile',
                 'label' => 'Test Profile',
                 'sourceEntity' => 'product',
                 'type' => ImportExportProfileEntity::TYPE_EXPORT,
