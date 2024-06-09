@@ -1,5 +1,5 @@
 ---
-title: Resolve extension parameters in Shopware compiler passes
+title: Resolve extension parameters in Haoke compiler passes
 issue: NEXT-36143
 flag:
 author: Philip Standt

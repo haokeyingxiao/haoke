@@ -1,7 +1,7 @@
 {
   "name": "administration",
   "version": "1.0.0",
-  "description": "Shopware administration",
+  "description": "Haoke administration",
   "main": "./src/core/shopware.js",
   "types": "./types/index.d.ts",
   "scripts": {

@@ -9,7 +9,7 @@ Core
 * Use `\Shopware\Core\Framework\Routing\RequestTransformerInterface::extractInheritableAttributes` if you want to create a true subrequest.
 * The Context will only be resolved when a valid scope is dipatched.
 * All admin and api routes are now authentication protected by default.
-* Changed the `\Symfony\Component\HttpKernel\KernelEvents::CONTROLLER` Event-Subscriber priorities. Now all Shopware Listeners are handled after the core symfony event handlers. You can find the priorities in `\Shopware\Core\Framework\Routing\KernelListenerPriorities`.
+* Changed the `\Symfony\Component\HttpKernel\KernelEvents::CONTROLLER` Event-Subscriber priorities. Now all Haoke Listeners are handled after the core symfony event handlers. You can find the priorities in `\Shopware\Core\Framework\Routing\KernelListenerPriorities`.
 * Removed the `Shopware\Core\Framework\Routing\Event\RouteScopeWhitlistCollectEvent` in favor of a taggable interface named `Shopware\Core\Framework\Routing\RouteScopeWhitelistInterface`.
 * Requests can no longer be forwarded across different request scopes.
 * If you have implemented a custom FieldResolver, you need to implement the `getJoinBuilder` method.
@@ -160,7 +160,7 @@ Core
 * Dropped `additionalText` column of product entity, use `metaDescription` instead
 * If your entity definition overwrites the `\Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition::getDefaults` method, you will have to remove the parameter, as it is not needed anymore. Remove the check `$existence->exists()` as this is done before by the Core now. If you want to define different defaults for child entities, overwrite `\Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition::getChildDefaults`
 * If you depend on `\Shopware\Core\Framework\Context::createDefaultContext()` outside of tests, pass the context as a parameter to your method instead
-* The Shopware entity cache has been removed and has been replaced by a symfony cache pool. You have to remove any configuration files pointing to `shopware.entity_cache`.
+* The Haoke entity cache has been removed and has been replaced by a symfony cache pool. You have to remove any configuration files pointing to `shopware.entity_cache`.
 
     Example: Redis implementation
     ```yaml

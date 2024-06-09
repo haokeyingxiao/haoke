@@ -1,5 +1,5 @@
 ---
-title: Deprecate Actions in Shopware Apps Store
+title: Deprecate Actions in Haoke Apps Store
 issue: NEXT-21295
 author: l.boecker
 author_email: l.boecker@haokeyingxiao.com

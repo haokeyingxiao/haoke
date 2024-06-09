@@ -76,7 +76,7 @@ Shopware.Service().list().forEach(serviceKey => {
     config.global.provide[serviceKey] = Shopware.Service(serviceKey);
 });
 
-// Set important functions for Shopware Core
+// Set important functions for Haoke Core
 Shopware.Application.view = {
     setReactive: (target, propertyName, value) => {
         return Vue.set(target, propertyName, value);

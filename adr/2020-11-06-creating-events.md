@@ -7,7 +7,7 @@ tags: [event, context, sales-channel-context]
 
 ## Context
 
-Events throughout Shopware are quite inconsistent.
+Events throughout Haoke are quite inconsistent.
 It is not defined which data it must or can contain.
 This mainly depends on the domain where the events are thrown.
 

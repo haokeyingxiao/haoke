@@ -1,7 +1,7 @@
 # this is a CI/CD template for shopware plugins to include a deployment to cloud staging
 # - gitlab docs: https://docs.gitlab.com/ee/ci/yaml/#include
 
-# plugins pre-installed in Shopware Cloud SaaS can use this template by defining the $CLOUD_COMPOSER_REF
+# plugins pre-installed in Haoke Cloud SaaS can use this template by defining the $CLOUD_COMPOSER_REF
 # variable and using the gitlab include keyword
 
 #  variables:

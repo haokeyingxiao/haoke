@@ -1,6 +1,6 @@
 # Administration
 
-> Shopware Administration
+> Haoke Administration
 
 ## Build Setup
 

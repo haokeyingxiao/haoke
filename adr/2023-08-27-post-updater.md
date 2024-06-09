@@ -6,7 +6,7 @@ tags: [indexer, update, installer]
 ---
 
 ## Context
-We often need a way between the different Shopware versions to provide a one-time update for data. This is currently done on the way to extend an indexer to this logic and then trigger this via a migration. 
+We often need a way between the different Haoke versions to provide a one-time update for data. This is currently done on the way to extend an indexer to this logic and then trigger this via a migration. 
 This is of course a possible way to enable certain migrations of data, but this migration is also executed again and again when the indexer is executed. 
 With certain data this is critical and can lead to system errors. For example, the one-time migration of media path information.
 

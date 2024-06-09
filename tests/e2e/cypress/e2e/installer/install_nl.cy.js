@@ -23,7 +23,7 @@ describe('Minimal install', () => {
         cy.contains('option:checked', 'English');
         cy.get('#language').select('Dutch');
         cy.contains('Nederlands');
-        cy.contains('.welcome-title', 'Welkom bij Shopware 6');
+        cy.contains('.welcome-title', 'Welkom bij Haoke 6');
 
         cy.contains('.btn.btn-primary', 'Verder').click();
 
@@ -176,7 +176,7 @@ describe('Minimal install', () => {
         // @frw: skip account login
         cy.get('.sw-modal.sw-first-run-wizard-modal').should('be.visible');
         cy.get('.sw-step-display').should('be.visible');
-        cy.contains('.sw-step-display .sw-step-item.sw-step-item--active span', 'Shopware Account');
+        cy.contains('.sw-step-display .sw-step-item.sw-step-item--active span', 'Haoke Account');
         cy.contains('.sw-button span', 'Skip').click();
 
         // @frw: skip store page

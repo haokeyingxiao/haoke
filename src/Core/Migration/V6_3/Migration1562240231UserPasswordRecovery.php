@@ -117,7 +117,7 @@ SQL;
             $connection->insert('mail_template_translation', [
                 'mail_template_id' => Uuid::fromHexToBytes($mailTemplateId),
                 'language_id' => $defaultLangId,
-                'sender_name' => 'Shopware Administration',
+                'sender_name' => 'Haoke Administration',
                 'subject' => 'Password recovery',
                 'description' => '',
                 'content_html' => $this->getContentHtmlEn(),
@@ -130,7 +130,7 @@ SQL;
             $connection->insert('mail_template_translation', [
                 'mail_template_id' => Uuid::fromHexToBytes($mailTemplateId),
                 'language_id' => Uuid::fromHexToBytes(Defaults::LANGUAGE_SYSTEM),
-                'sender_name' => 'Shopware Administration',
+                'sender_name' => 'Haoke Administration',
                 'subject' => 'Password recovery',
                 'description' => '',
                 'content_html' => $this->getContentHtmlEn(),
@@ -143,7 +143,7 @@ SQL;
             $connection->insert('mail_template_translation', [
                 'mail_template_id' => Uuid::fromHexToBytes($mailTemplateId),
                 'language_id' => $deLangId,
-                'sender_name' => 'Shopware Administration',
+                'sender_name' => 'Haoke Administration',
                 'subject' => 'Password Wiederherstellung',
                 'description' => '',
                 'content_html' => $this->getContentHtmlDe(),

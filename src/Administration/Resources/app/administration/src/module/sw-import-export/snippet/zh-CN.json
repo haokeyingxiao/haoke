@@ -159,7 +159,7 @@
       "defaultTypeLabel": "默认",
       "propertyLabel": "属性",
       "mappingAutomatedDescription": "Shopware 已自动映射 {automatedCount} 个数据库条目。请通过手动将未映射的条目分配给正确的数据库条目来完成此过程。除非设置了默认值，否则在导入过程中留空的必填字段将导致错误。默认值还将用于填写空的数据库条目。",
-      "mappingDescription": "使用下表将 CSV 列名称映射到 Shopware 数据库条目。除非设置了默认值，否则留空的必填字段将在导入过程中导致错误。",
+      "mappingDescription": "使用下表将 CSV 列名称映射到 Haoke 数据库条目。除非设置了默认值，否则留空的必填字段将在导入过程中导致错误。",
       "mappingEmptyState": "尚未提供自定义映射。",
       "advancedDescription": "标识符用于明确确定可更新的实体，因此必须是唯一的。",
       "configuratorSettingLabel": "变体配置设置",

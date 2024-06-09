@@ -8,7 +8,7 @@ tags: ['entity', 'usage-data', 'ai', 'machine-learning']
 ## Context
 *shopware AG* aims to provide data-driven features to its merchants.
 The foundation for these features are data that our merchants provide to us with their consent.
-A subset and primary pillar of these data lies within the entities, stored within each and every Shopware shop.
+A subset and primary pillar of these data lies within the entities, stored within each and every Haoke shop.
 This ADR addresses main concepts of extracting the information out of the shops and transferring it to *shopware AG*.
 
 ## Decision
@@ -38,7 +38,7 @@ With this approach we are planning to use Shopware's Admin API to fetch the data
 
 ### Providing data-driven features via the app system
 The features built upon the data that is collected, will be rolled out as an extension based on the app system.
-This way, we make feature releases independent of the Shopware 6 release cycle and can provide new features faster.
+This way, we make feature releases independent of the Haoke 6 release cycle and can provide new features faster.
 
 ### Including entities and fields
 By default, entities are not considered for data collection.

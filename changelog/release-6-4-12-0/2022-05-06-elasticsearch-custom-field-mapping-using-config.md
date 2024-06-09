@@ -12,7 +12,7 @@ ___
 
 ## Only configured custom fields will be indexed in Elasticsearch
 
-With Shopware 6.5 only configured customFields in the YAML file will be indexed, to reduce issues with type errors.
+With Haoke 6.5 only configured customFields in the YAML file will be indexed, to reduce issues with type errors.
 The config can be created in the `config/packages/elasticsearch.yml` with the following config
 
 ```yaml

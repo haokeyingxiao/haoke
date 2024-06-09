@@ -4,7 +4,7 @@
 * The `onlyAvailable` flag in the `Shopware\Core\Checkout\Gateway\SalesChannel\CheckoutGatewayRoute` in the request will be removed in the next major version. The route will always filter the payment and shipping methods before calling the checkout gateway based on availability.
 ## AbstractCartOrderRoute::order method signature change
 * The `Shopware\Core\Checkout\Cart\SalesChannel\AbstractCartOrderRoute::order` method will change its signature in the next major version. A new mandatory `request` parameter will be introduced.
-## Shopware config changes:
+## Haoke config changes:
 ### cart
 Replace the `redis_url` parameter in `config/packages/shopware.yaml` file:
 ```yaml
@@ -1636,7 +1636,7 @@ The `Shopware\Core\Checkout\Customer\SalesChannel\AccountService::login` method 
 
 Unused constant `Shopware\Core\Checkout\Customer\CustomerException::CUSTOMER_IS_INACTIVE` and unused method `Shopware\Core\Checkout\Customer\CustomerException::inactiveCustomer` are removed.
 ## Deprecated comparison methods:
-* `floatMatch` and `arrayMatch` methods in `src/Core/Framework/Rule/CustomFieldRule.php` will be removed for Shopware 6.7.0.0
+* `floatMatch` and `arrayMatch` methods in `src/Core/Framework/Rule/CustomFieldRule.php` will be removed for Haoke 6.7.0.0
 
 ## Introduced in 6.5.7.0
 ## New `technicalName` property for payment and shipping methods

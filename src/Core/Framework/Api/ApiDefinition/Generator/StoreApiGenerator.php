@@ -149,7 +149,7 @@ class StoreApiGenerator implements ApiDefinitionGeneratorInterface
 
     private function addGeneralInformation(OpenApi $openApi): void
     {
-        $openApi->info->description = 'This endpoint reference contains an overview of all endpoints comprising the Shopware Store API';
+        $openApi->info->description = 'This endpoint reference contains an overview of all endpoints comprising the Haoke Store API';
         $openApi->info->license = new License([
             'name' => 'MIT',
             'url' => 'https://github.com/shopware/shopware/blob/trunk/LICENSE',

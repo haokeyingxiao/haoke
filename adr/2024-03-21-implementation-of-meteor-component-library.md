@@ -7,7 +7,7 @@ tags: [administration, vue, meteor, component library]
 
 ## Context
 
-We have decided to implement the Meteor Component Library within the Shopware platform. They will replace the current base components in the administration.
+We have decided to implement the Meteor Component Library within the Haoke platform. They will replace the current base components in the administration.
 
 ## Decision
 
@@ -29,7 +29,7 @@ To have both component implementations working at the same time, we will move ea
 
 Example:
 ```html
-<!-- Shopware 6.6 -->
+<!-- Haoke 6.6 -->
 
 <!-- Is working, emit a warning in console that this component usage is deprecated. -->
 <sw-example oldProperty="old">Example</sw-example>
@@ -38,7 +38,7 @@ Example:
 <!-- Is working. Uses directly the component from the Meteor Component Library. -->
 <mt-example newProperty="new">Example</mt-example>
 
-<!-- Shopware 6.7 -->
+<!-- Haoke 6.7 -->
 <!-- Not working anymore. -->
 <sw-example oldProperty="old">Example</sw-example>
 <!-- Is NOT working. -->

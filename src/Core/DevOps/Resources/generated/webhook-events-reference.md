@@ -19,7 +19,7 @@
 |`customer.recovery.request` | Triggers when a customer recovers his password | `customer_recovery:read` `customer:read` | {"entity":"customer","resetUrl":"string","shopName":"string"}
 |`mail.after.create.message` | __EMPTY__ | - | {"data":"array","message":"object"}
 |`mail.before.send` | Triggers before a mail is send | - | {"data":"array","templateData":"array"}
-|`mail.sent` | Triggers when a mail is send from Shopware | - | {"subject":"string","contents":"string","recipients":"array"}
+|`mail.sent` | Triggers when a mail is send from Haoke | - | {"subject":"string","contents":"string","recipients":"array"}
 |`newsletter.confirm` | __EMPTY__ | `newsletter_recipient:read` | {"entity":"newsletter_recipient"}
 |`newsletter.register` | __EMPTY__ | `newsletter_recipient:read` | {"entity":"newsletter_recipient","url":"string"}
 |`newsletter.unsubscribe` | __EMPTY__ | `newsletter_recipient:read` | {"entity":"newsletter_recipient"}

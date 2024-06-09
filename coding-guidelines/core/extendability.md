@@ -57,7 +57,7 @@ All the above requirements and approaches are based on different design patterns
 * Adapter
 
 ### Decoration
-With the Decoration pattern, we make it possible to replace or extend certain areas in Shopware completely. We often use this pattern for our Store API routes to provide more functionality in the Store API. Another use case is the **functional replacement market** case, where we can completely replace features with other technologies or external libraries.
+With the Decoration pattern, we make it possible to replace or extend certain areas in Haoke completely. We often use this pattern for our Store API routes to provide more functionality in the Store API. Another use case is the **functional replacement market** case, where we can completely replace features with other technologies or external libraries.
 
 An example Store API route is the CategoryRoute. For this route, there is an [Abstract class](https://github.com/haokeyingxiao/platform/blob/v6.4.12.0/src/Core/Content/Category/SalesChannel/AbstractCategoryRoute.php) to which we type behind a [Concrete implementation](https://github.com/haokeyingxiao/platform/blob/v6.4.12.0/src/Core/Content/Category/SalesChannel/CategoryRoute.php) and a [Cache decorator](https://github.com/haokeyingxiao/platform/blob/v6.4.12.0/src/Core/Content/Category/SalesChannel/CachedCategoryRoute.php)
 

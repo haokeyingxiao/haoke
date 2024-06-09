@@ -6,14 +6,14 @@ tags: [content, cms, blog, custom-entities]
 --- 
 
 ## Context
-A highly requested feature & expected for the CMS of Shopware 6 is the blog. In addition, this is an ideal use case and example for the use of [Custom Entities](../adr/2021-09-14-technical-concept-custom-entities.md).
+A highly requested feature & expected for the CMS of Haoke 6 is the blog. In addition, this is an ideal use case and example for the use of [Custom Entities](../adr/2021-09-14-technical-concept-custom-entities.md).
 
 ## Decision
 We want to implement blogs as part of the CMS. Since Custom Entities offers a good chance to implement such a feature, the blog is supposed to show the community how to handle Custom Entities in the Shopping Experiences.
 Therefore, we decided on the following:
 
 ### Blog posts & Content types
-Multiple types of content should be available in the future for our CMS and be directly accessible in the Content section of the administration. Using `admin-ui` as a flag in its specific xml file, Shopware will create a listing and a detail page into the Content section automatically for types of content (Custom Entities).
+Multiple types of content should be available in the future for our CMS and be directly accessible in the Content section of the administration. Using `admin-ui` as a flag in its specific xml file, Haoke will create a listing and a detail page into the Content section automatically for types of content (Custom Entities).
 In addition, the `cms-aware` flag also will bring some pre-defined fields, used as defaults in the CMS elements, to our entity. Those are always prefixed with `sw_` to avoid duplicates by the user:
 
 * `sw_title`

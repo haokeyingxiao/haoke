@@ -40,7 +40,7 @@ class DatabaseConnectionFactory
         if (\mb_stripos($version, 'mariadb') !== false) {
             if (version_compare($version, $mariaDBRequiredVersion, '<')) {
                 throw new DatabaseSetupException(sprintf(
-                    'Your database server is running MariaDB %s, but Shopware 6 requires at least MariaDB %s OR MySQL %s',
+                    'Your database server is running MariaDB %s, but Haoke 6 requires at least MariaDB %s OR MySQL %s',
                     $version,
                     $mariaDBRequiredVersion,
                     $mysqlRequiredVersion
@@ -52,7 +52,7 @@ class DatabaseConnectionFactory
 
         if (version_compare($version, $mysqlRequiredVersion, '<')) {
             throw new DatabaseSetupException(sprintf(
-                'Your database server is running MySQL %s, but Shopware 6 requires at least MySQL %s OR MariabDB %s',
+                'Your database server is running MySQL %s, but Haoke 6 requires at least MySQL %s OR MariabDB %s',
                 $version,
                 $mysqlRequiredVersion,
                 $mariaDBRequiredVersion

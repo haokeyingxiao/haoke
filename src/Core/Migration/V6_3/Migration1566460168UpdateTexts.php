@@ -34,15 +34,15 @@ class Migration1566460168UpdateTexts extends MigrationStep
     {
         $connection->executeStatement('
             UPDATE `payment_method_translation`
-            SET `description` = \'Payment by invoice. Shopware provides automatic invoicing for all customers on orders after the first. This is to avoid defaults on payment.\'
-            WHERE `description` = \'Payment by invoice. Shopware provides automatic invoicing for all customers on orders after the first, in order to avoid defaults on payment.\'
+            SET `description` = \'Payment by invoice. Haoke provides automatic invoicing for all customers on orders after the first. This is to avoid defaults on payment.\'
+            WHERE `description` = \'Payment by invoice. Haoke provides automatic invoicing for all customers on orders after the first, in order to avoid defaults on payment.\'
             AND `name` = \'Invoice\';
         ');
 
         $connection->executeStatement('
             UPDATE `payment_method_translation`
-            SET `description` = \'Sie zahlen einfach und bequem auf Rechnung. Shopware bietet z.B. auch die Möglichkeit, Rechnungen automatisiert erst ab der 2. Bestellung für Kunden zur Verfügung zu stellen, um Zahlungsausfälle zu vermeiden.\'
-            WHERE `description` = \'Sie zahlen einfach und bequem auf Rechnung. Shopware bietet z.B. auch die Möglichkeit, Rechnung automatisiert erst ab der 2. Bestellung für Kunden zur Verfügung zu stellen, um Zahlungsausfälle zu vermeiden.\'
+            SET `description` = \'Sie zahlen einfach und bequem auf Rechnung. Haoke bietet z.B. auch die Möglichkeit, Rechnungen automatisiert erst ab der 2. Bestellung für Kunden zur Verfügung zu stellen, um Zahlungsausfälle zu vermeiden.\'
+            WHERE `description` = \'Sie zahlen einfach und bequem auf Rechnung. Haoke bietet z.B. auch die Möglichkeit, Rechnung automatisiert erst ab der 2. Bestellung für Kunden zur Verfügung zu stellen, um Zahlungsausfälle zu vermeiden.\'
             AND `name` = \'Rechnung\';
         ');
     }

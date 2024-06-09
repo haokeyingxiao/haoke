@@ -15,7 +15,7 @@ body:
     - type: input
       id: shopware-version
       attributes:
-          label: Shopware Version
+          label: Haoke Version
       validations:
           required: true
     - type: textarea

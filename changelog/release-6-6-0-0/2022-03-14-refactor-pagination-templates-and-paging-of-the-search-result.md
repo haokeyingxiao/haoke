@@ -9,7 +9,7 @@ author_github: @aragon999
 * Changed return type of `Shopware\Core\Framework\DataAbstractionLayer\Search\EntitySearchResult::getPage` from `?int` to `int` as the page is always computed
 ___
 # Storefront
-* Deprecated `Shopware\Storefront\Framework\Page\StorefrontSearchResult` for Shopware v6.7.0
+* Deprecated `Shopware\Storefront\Framework\Page\StorefrontSearchResult` for Haoke v6.7.0
 * Changed template `@Storefront/storefront/component/pagination.html.twig` to use the already computed values of the `EntitySearchResult` and remove the variable `totalEntities` for the next major version v6.7.0, use `totalPages` instead, if you want to specify a custom current page you can now pass the variable `currentPage`
 * Changed template `@Storefront/storefront/component/product/listing.html.twig` to use the already computed value for `currentPage` of the `searchResult` and adapt to changes for the pagination for the next major version v6.7.0
 * Changed `@Storefront/storefront/component/review/review.html.twig` and use variable for the `reviewsPerPage` instead of a magic number and adapt to changes for the pagination for the next major version v6.7.0

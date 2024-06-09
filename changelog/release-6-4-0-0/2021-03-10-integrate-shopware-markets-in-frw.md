@@ -1,5 +1,5 @@
 ---
-title: Integrate Shopware Markets in FRW
+title: Integrate Haoke Markets in FRW
 issue: NEXT-14129
 ---
 # Administration

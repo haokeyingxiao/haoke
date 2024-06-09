@@ -86,7 +86,7 @@ class DecorationPatternRule implements Rule
 
         $parent = $class->getParentClass();
 
-        // only validate classes that extend from abstract Shopware classes
+        // only validate classes that extend from abstract Haoke classes
         if (!$parent || !\str_starts_with($parent->getName(), 'Shopware\\') || !$parent->isAbstract()) {
             return [];
         }

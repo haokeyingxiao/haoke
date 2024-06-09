@@ -4,7 +4,7 @@ import type { TabItem } from '@haokeyingxiao/meteor-component-library/dist/esm/c
 import template from './mt-tabs.html.twig';
 
 
-// Use the compatConfig from the Shopware object and disable all compatibilities
+// Use the compatConfig from the Haoke object and disable all compatibilities
 // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
 MtTabs.compatConfig = Object.fromEntries(Object.keys(Shopware.compatConfig).map(key => [key, false]));
 

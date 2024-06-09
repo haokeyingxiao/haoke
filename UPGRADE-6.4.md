@@ -21,7 +21,7 @@ The address elements are stored as a structured json in `country_translation.add
 * Use the respective mutations instead
 ## Deprecated manifest-1.0.xsd
 
-With the upcoming major release we are going to release a new XML-schema for Shopware Apps. In the new schema we remove two deprecations from the existing schema.
+With the upcoming major release we are going to release a new XML-schema for Haoke Apps. In the new schema we remove two deprecations from the existing schema.
 
 1. attribute `parent` for element `module` will be required.
 
@@ -407,7 +407,7 @@ Apps can now add custom field sets to the following additional entities:
 * tax
 ## Only configured custom fields will be indexed in Elasticsearch
 
-With Shopware 6.5 only configured customFields in the YAML file will be indexed, to reduce issues with type errors.
+With Haoke 6.5 only configured customFields in the YAML file will be indexed, to reduce issues with type errors.
 The config can be created in the `config/packages/elasticsearch.yml` with the following config
 
 ```yaml
@@ -775,7 +775,7 @@ You can find a full migration guide on the official Bootstrap website: [Migratin
 
 ## How to consider Bootstrap v5
 
-Because of the breaking changes inside Bootstrap v5 you will find several places with backward-compatibility code in the Shopware platform.
+Because of the breaking changes inside Bootstrap v5 you will find several places with backward-compatibility code in the Haoke platform.
 This code is being used to already provide the Bootstrap v5 implementation while keeping the Bootstrap v4 implementation for backward-compatibility.
 Depending, if you are an app/theme developer or a platform contributor you need to adapt the backward-compatibility for your use case.
 
@@ -905,8 +905,8 @@ The following list contains issues that we are aware of. We want to address this
 * **Styling**<br>
   There might be smaller styling issues here and there. Mostly spacing or slightly wrong colors.
 * **Bootstrap v5 OffCanvas**<br>
-  Bootstrap v5 ships its own OffCanvas component. Shopware is still using its custom OffCanvas at the moment.
-  It is planned to migrate the Shopware OffCanvas to the Bootstrap OffCanvas.
+  Bootstrap v5 ships its own OffCanvas component. Haoke is still using its custom OffCanvas at the moment.
+  It is planned to migrate the Haoke OffCanvas to the Bootstrap OffCanvas.
 * **Modifying SCSS $theme-colors**<br>
   Currently it is not possible to add or remove custom colors to $theme-colors like it is described in the [Bootstrap documentation](https://getbootstrap.com/docs/5.1/customize/sass/#add-to-map).
 ## Allow generating multiple document types at backend
@@ -1421,7 +1421,7 @@ App manufacturers who add action buttons which provide feedback to the Administr
 |---|---|---|
 | shop-id | KvhpuoEVXWmtjkQa | The ID of the shop where the action button was triggered. |
 | shop-url | https://haokeyingxiao.com | The URL of the shop where the action button was triggered. |
-| sw-version | 6.4.7.0 | The installed Shopware version of the shop where the action button was triggered. |
+| sw-version | 6.4.7.0 | The installed Haoke version of the shop where the action button was triggered. |
 | sw-context-language | 2fbb5fe2e29a4d70aa5854ce7ce3e20b | The language (UUID) of the context (`Context::getLanguageId()`). |
 | sw-user-language | en-GB | The language (ISO code) of the user who triggered the action button. |
 | shopware-shop-signature | `hash_hmac('sha256', $query, $shopSecret)` | The hash of the query, signed with the shop's secret. |
@@ -1866,7 +1866,7 @@ new Criteria([
 ## Added support for building administration without database
 
 In some setups it's common that the application is built with two steps in a `build` and `deploy` phase. The `build` process doesn't have any database connection.
-Currently, Shopware needs to build the administration a database connection, to discover which plugins are active. To avoid that behaviour we have added a new `ComposerPluginLoader` which loads all information from the installed composer plugins.
+Currently, Haoke needs to build the administration a database connection, to discover which plugins are active. To avoid that behaviour we have added a new `ComposerPluginLoader` which loads all information from the installed composer plugins.
 
 To use the `ComposerPluginLoader` you have to create a file like `bin/ci` and setup the cli application with loader. There is an example:
 
@@ -2164,7 +2164,7 @@ Array
 
 ## Deprecated of case-insensitive annotation parsing
 
-With Shopware 6.5.0.0 the annotation parsing will be case-sensitive.
+With Haoke 6.5.0.0 the annotation parsing will be case-sensitive.
 Make sure to check that all your annotation properties fit their respective name case.
 E.g.: In case of the `Route` annotation you can have a look into the name case of the constructor parameters of the `\Symfony\Component\Routing\Annotation\Route` class.
 
@@ -2326,10 +2326,10 @@ For a complete list of breaking changes please refer to the [bc changelog](/chan
 ---
 
 ## Minimum PHP version increased to 7.4
-The minimum required PHP version for Shopware 6.4.0.0 is now PHP 7.4.
+The minimum required PHP version for Haoke 6.4.0.0 is now PHP 7.4.
 Please make sure, that your system has at least this PHP version activated.
 
-We've also added support for PHP 8.0. While Shopware is de-facto ready for PHP 8.0,
+We've also added support for PHP 8.0. While Haoke is de-facto ready for PHP 8.0,
 some dependencies do not support PHP 8.0 in their `composer.json` in theory.
 Until these dependencies add official PHP 8.0 support in their `composer.json`, 
 we decided to set the `config.platform.php` of the development root composer.json to `7.4.0`.
@@ -2338,13 +2338,13 @@ This is to prevent composer failing to update dependencies, because of PHP versi
 ---
 
 ## Sodium is now a requirement
-The PHP extension `sodium` is now a requirement for Shopware 6.4.0.0.
+The PHP extension `sodium` is now a requirement for Haoke 6.4.0.0.
 
 ---
 
 ## Composer 2
-With Shopware 6.4 we are now requiring the `composer-runtime-api` with version 2.0.
-These means that Shopware is now only installable with Composer 2.
+With Haoke 6.4 we are now requiring the `composer-runtime-api` with version 2.0.
+These means that Haoke is now only installable with Composer 2.
 Installation with Composer 1 is no longer possible and supported.
 
 ---
@@ -2365,20 +2365,20 @@ Therefore we also removed the unnecessary version from the URL pattern.
 ```
 
 ### Upgrade flow for external API services
-With Shopware **6.3.5.0** we already made the new URL pattern available as an additional alias. 
+With Haoke **6.3.5.0** we already made the new URL pattern available as an additional alias. 
 This enables you to test your application with the new URL pattern within the 6.3 major cycle, before updating to the 6.4 version.
 
-### Detecting the current used Shopware / API
-Of course, it is still important for an external service to know, which version of Shopware is used. 
+### Detecting the current used Haoke / API
+Of course, it is still important for an external service to know, which version of Haoke is used. 
 Therefore we added a new information endpoint, which provides this information. 
-The new endpoint is also available with Shopware **6.3.5.0**, so you can switch to this pattern in the 6.3 major cycle.
+The new endpoint is also available with Haoke **6.3.5.0**, so you can switch to this pattern in the 6.3 major cycle.
 
 ```http request
 GET /api/_info/version
 ```
 
 ### API expectations
-To have the version within the URL pattern offered the advantage of telling Shopware which version requirement you expect with the request. 
+To have the version within the URL pattern offered the advantage of telling Haoke which version requirement you expect with the request. 
 To still fulfill this need, we extended the possibilities even further. 
 You can send additional expectations via headers within your request, which is not only limited to the version.
 
@@ -2387,7 +2387,7 @@ GET /api/test
 sw-expect-packages: haokeyingxiao/core:~6.4,swag/paypal:*
 ```
 
-This example expects that the Shopware version is at least 6.4, and the PayPal extension is installed in any version. 
+This example expects that the Haoke version is at least 6.4, and the PayPal extension is installed in any version. 
 If the conditions are not met, the backend will respond with a 417 HTTP error.
 
 ### Since flag on entities / fields

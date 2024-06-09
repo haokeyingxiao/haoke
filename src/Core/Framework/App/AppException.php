@@ -52,7 +52,7 @@ class AppException extends HttpException
         return new self(
             Response::HTTP_BAD_REQUEST,
             self::NOT_COMPATIBLE,
-            'App {{ name }} is not compatible with this Shopware version',
+            'App {{ name }} is not compatible with this Haoke version',
             ['name' => $pluginName]
         );
     }

@@ -206,7 +206,7 @@ EOL;
 /*
 Override variable defaults
 ==================================================
-This file is used to override default SCSS variables from the Shopware Storefront or Bootstrap.
+This file is used to override default SCSS variables from the Haoke Storefront or Bootstrap.
 
 Because of the !default flags, theme variable overrides have to be declared beforehand.
 https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults

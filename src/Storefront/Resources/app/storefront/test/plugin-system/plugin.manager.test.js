@@ -270,7 +270,7 @@ describe('Plugin manager', () => {
             <div data-cart="true"></div>
         `;
 
-        // Shopware core registers plugin
+        // Haoke core registers plugin
         PluginManager.register('CoreCart', CoreCartPluginClass, '[data-cart]');
 
         // App/plugin attempts to override core plugin
@@ -308,7 +308,7 @@ describe('Plugin manager', () => {
             }, 150);
         });
 
-        // Shopware core registers async plugin
+        // Haoke core registers async plugin
         PluginManager.register('AsyncCoreCart', () => asyncCoreCartImport, '[data-async-cart]');
 
         // App/plugin attempts to override async core plugin

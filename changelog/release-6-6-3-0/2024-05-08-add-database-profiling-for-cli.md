@@ -6,4 +6,4 @@ author_email: andreas.allacher@massiveart.com
 author_github: @AndreasA
 ---
 # Core
-* Changed `KernelFactory` to add database profiler when running Shopware via the CLI and "--profile" option is used.
+* Changed `KernelFactory` to add database profiler when running Haoke via the CLI and "--profile" option is used.

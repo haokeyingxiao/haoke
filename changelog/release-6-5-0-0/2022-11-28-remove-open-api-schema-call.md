@@ -6,5 +6,5 @@ author_email: j.leifeld@haokeyingxiao.com
 author_github: Jannis Leifeld
 ---
 # Administration
-* Removed the Shopware Entity Factory which was accessible via `Shopware.Entity`
+* Removed the Haoke Entity Factory which was accessible via `Shopware.Entity`
 * Changed the behavior of the CMS service to use the EntityDefinition instead of the Open-API schema

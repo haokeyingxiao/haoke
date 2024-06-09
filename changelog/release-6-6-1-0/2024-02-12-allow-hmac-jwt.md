@@ -12,7 +12,7 @@ ___
 # Upgrade Information
 ## HMAC JWT keys
 
-Usage of normal RSA JWT keys is deprecated. And will be removed with Shopware 6.7.0.0. Please use the new HMAC JWT keys instead using configuration:
+Usage of normal RSA JWT keys is deprecated. And will be removed with Haoke 6.7.0.0. Please use the new HMAC JWT keys instead using configuration:
 
 ```yaml
 shopware:

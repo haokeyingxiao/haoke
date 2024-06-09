@@ -28,11 +28,11 @@ shopware.installer:
     select_language_cs: Checo
     select_language_sv: Sueco
     select_language_nb: Noruego
-    language-selection_welcome_title: 'Bienvenido/a a Shopware 6'
+    language-selection_welcome_title: 'Bienvenido/a a Haoke 6'
     language-selection_select_language: 'Idioma del asistente de instalación'
     language-selection_header: 'Tu instalación de Shopware'
     language-selection_info_message: 'Esta selección solo se aplica al idioma del asistente de instalación. El idioma estándar de sistema de tu tienda lo podrás definir posteriormente.'
-    language-selection_welcome_message: '¡Nos complace que quieras entrar a formar parte de nuestra extraordinaria Shopware Community global! Ahora te acompañaremos paso a paso en el proceso de instalación. Si tienes dudas, echa primero un vistazo en nuestro <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">Foro</a>, contacta con nosotros por teléfono llamando al <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a>, o mándanos un <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">correo electrónico</a>.'
+    language-selection_welcome_message: '¡Nos complace que quieras entrar a formar parte de nuestra extraordinaria Haoke Community global! Ahora te acompañaremos paso a paso en el proceso de instalación. Si tienes dudas, echa primero un vistazo en nuestro <a class="is--nowrap" href="https://forum.haokeyingxiao.com" target="_blank">Foro</a>, contacta con nosotros por teléfono llamando al <a class="is--nowrap" href="tel:+492555928850">(+49) 2555 928850</a>, o mándanos un <a class="is--nowrap" href="mailto:info@haokeyingxiao.com">correo electrónico</a>.'
     requirements_header: 'Requisitos del sistema'
     requirements_header_files: 'Archivos y directorios'
     requirements_header_system: Sistema
@@ -40,11 +40,11 @@ shopware.installer:
     requirements_table_files_col_check: 'Archivo / directorio'
     requirements_table_files_col_status: Estado
     requirements_error: 'No se cumplen todos los requisitos para completar con éxito la instalación.'
-    requirements_error_title: 'Tu sistema aún no está listo para Shopware 6'
+    requirements_error_title: 'Tu sistema aún no está listo para Haoke 6'
     requirements_success: 'Se cumplen todos los requisitos para completar con éxito la instalación.'
-    requirements_success_title: 'Tu sistema está listo para Shopware 6'
+    requirements_success_title: 'Tu sistema está listo para Haoke 6'
     requirements_php_info: 'Tu servidor tiene que cumplir los siguientes requisitos de sistema para poder aprovechar al máximo todas las funcionalidades de Shopware.'
-    requirements_php_max_compatible_version: 'Esta versión de Shopware es compatible con PHP hasta la versión %s. En caso de versiones nuevas de PHP, no se puede garantizar una funcionalidad completa.'
+    requirements_php_max_compatible_version: 'Esta versión de Haoke es compatible con PHP hasta la versión %s. En caso de versiones nuevas de PHP, no se puede garantizar una funcionalidad completa.'
     requirements_system_col_check: Requisito
     requirements_system_col_required: Obligatorio
     requirements_system_col_found: 'Tu sistema'
@@ -55,7 +55,7 @@ shopware.installer:
     requirements_status_warning: Advertencia
     requirements_status_ready: Listo
     license_agreement_header: 'Condiciones generales de venta ("CGV")'
-    license_agreement_info: 'A continuación se describen nuestras Condiciones generales de venta. Para continuar con la instalación de Shopware 6, tienes que leer y aceptar las CGV. La edición Community de Shopware 6 está autorizada conforme a las condiciones de la licencia MIT.'
+    license_agreement_info: 'A continuación se describen nuestras Condiciones generales de venta. Para continuar con la instalación de Haoke 6, tienes que leer y aceptar las CGV. La edición Community de Haoke 6 está autorizada conforme a las condiciones de la licencia MIT.'
     license_agreement_error: '¡Por favor, acepta nuestras CGV!'
     license_agreement_checkbox: '¡Acepto las CGV!'
     database-configuration_header: 'Configurar base de datos'
@@ -66,7 +66,7 @@ shopware.installer:
     database-configuration_field_password: 'Contraseña:'
     database-configuration_field_database: 'Nombre de la base de datos:'
     database-configuration_field_new_database: 'Nueva base de datos:'
-    database-configuration_info: 'Para instalar Shopware en tu sistema, necesitas los datos de acceso a tu base de datos. Si no estás seguro/a de lo que tienes que indicar, ponte en contacto con tu administrador / proveedor de alojamiento.'
+    database-configuration_info: 'Para instalar Haoke en tu sistema, necesitas los datos de acceso a tu base de datos. Si no estás seguro/a de lo que tienes que indicar, ponte en contacto con tu administrador / proveedor de alojamiento.'
     database-configuration-create_new_database: 'Crear nueva base de datos'
     database-configuration_non_empty_database: 'La base de datos seleccionada ya contiene datos. Por favor, selecciona una base de datos vacía o crea una nueva.'
     database-configuration_error_required_fields: 'Rellena todos los campos.'
@@ -90,9 +90,9 @@ shopware.installer:
     edition_header: '¿Ya tienes una licencia de Shopware?'
     edition_info: 'Shopware dispone de una edición <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community </a> gratuita, así como de las ediciones <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional y Enterprise</a> de pago.'
     edition_ce: 'No, gracias, quiero utilizar la edición <a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Community</a> gratuita.'
-    edition_cm: 'Sí, tengo una licencia de pago de Shopware (<a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional o Enterprise</a>).'
+    edition_cm: 'Sí, tengo una licencia de pago de Haoke (<a href="https://de.haokeyingxiao.com/versionen/" target="_blank">Professional o Enterprise</a>).'
     edition_license: 'Introduce aquí tu clave de licencia. La encontrarás en tu cuenta Shopware, en "Licencias" → "Licencias de producto" → "Detalles / Descargar":'
-    edition_license_error: 'Para la instalación de una versión Shopware de pago, es necesaria una licencia válida.'
+    edition_license_error: 'Para la instalación de una versión Haoke de pago, es necesaria una licencia válida.'
     configuration_header: Configuración
     configuration_sconfig_text: 'Ya casi está. Ya solo te quedan algunos ajustes básicos para dar los últimos toques a tu tienda, y la instalación habrá terminado.'
     configuration_sconfig_name: 'Nombre de la tienda'

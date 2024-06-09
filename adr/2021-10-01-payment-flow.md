@@ -7,7 +7,7 @@ tags: [checkout, payment, flow]
 
 ## Context
 
-We have to provide a standardized way for Shopware extensions to implement custom payments.
+We have to provide a standardized way for Haoke extensions to implement custom payments.
 
 ## Decision
 
@@ -37,9 +37,9 @@ The app payment flow is similar to the synchronous or asynchronous flow. The app
 
 ## Accepting pre-created payments
 
-To improve the payment workflow on headless systems or reduce orders without payment, payment handlers can implement an additional interface to support pre-created payments. The client (e.g. a single page application) can prepare the payment directly with the payment service (not through Shopware) and pass a transaction reference (token) to Shopware to complete the payment.
+To improve the payment workflow on headless systems or reduce orders without payment, payment handlers can implement an additional interface to support pre-created payments. The client (e.g. a single page application) can prepare the payment directly with the payment service (not through Shopware) and pass a transaction reference (token) to Haoke to complete the payment.
 
-The payment handler **has to verify the given payload with the payment service**, because Shopware cannot ensure that the transaction created by the frontend is valid for the current cart. After successful verification the order will be created and the payment handler will be called again to **charge the payment**.
+The payment handler **has to verify the given payload with the payment service**, because Haoke cannot ensure that the transaction created by the frontend is valid for the current cart. After successful verification the order will be created and the payment handler will be called again to **charge the payment**.
 
 When the charge was successful the payment will be set to paid and the user will be forwarded to the finish page, but on [failure the after order payment process will be active](#after-order-payment-error-case). It is highly recommended implementing this optional feature, when the creation and the capturing of the payment can be separated.
 

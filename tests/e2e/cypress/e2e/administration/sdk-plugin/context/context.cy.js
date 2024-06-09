@@ -257,14 +257,14 @@ describe('SDK Tests: Context', ()=> {
         cy.contains('.sw-admin-menu__navigation-link', 'Test item')
             .click();
 
-        cy.log('Get the current Shopware version');
+        cy.log('Get the current Haoke version');
 
         cy.getSDKiFrame('ui-main-module-add-main-module')
             .find('button')
-            .contains('Get current Shopware version')
+            .contains('Get current Haoke version')
             .click();
 
-        cy.log('Check the current Shopware version');
+        cy.log('Check the current Haoke version');
 
         // Only check if the version starts with 6. to avoid adjustments for each version
         cy.getSDKiFrame('ui-main-module-add-main-module')

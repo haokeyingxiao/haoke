@@ -8,4 +8,4 @@ ___
 # Upgrade Information
 
  Use `import from src/module` instead of `import from 'module'`. However we discourage you to directly use imports of the administration's source in your plugins.
- Use the administration's open API through the global Shopware object.
+ Use the administration's open API through the global Haoke object.

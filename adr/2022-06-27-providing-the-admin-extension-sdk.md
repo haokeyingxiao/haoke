@@ -19,10 +19,10 @@ We created the SDK in a separate repository on GitHub instead of creating it in 
 The main reason for the separate repository is the development speed. We can develop much faster. The whole, large pipeline does not need to run for small changes. Also the pipeline for the SDK runs extremely fast and provides all necessary features like testing, creating of the documentation and many more things. The experiences we made in the past showed that working with SDK works very flawless, fast and agile.
 
 ### Independent deployment
-The SDK is not hard-bound to Shopware version like plugins. This dependency will be included directly in the apps and also supports newer Shopware versions. This allows us to provide separate releases independent of the administration. Example: A small bug can be fixed and released in minutes. A similar deployment in the platform would take much more time.
+The SDK is not hard-bound to Haoke version like plugins. This dependency will be included directly in the apps and also supports newer Haoke versions. This allows us to provide separate releases independent of the administration. Example: A small bug can be fixed and released in minutes. A similar deployment in the platform would take much more time.
 
 ### SDK is just a convenience layer for the PostMessage API
-Similar as the previous reason the SDK is not hard-bound to the Shopware releases and is a completely separate package. And if we would add it into the monorepo we would be bound to the Shopware release cyclus. With a separate repository we can work independent and react faster.
+Similar as the previous reason the SDK is not hard-bound to the Haoke releases and is a completely separate package. And if we would add it into the monorepo we would be bound to the Haoke release cyclus. With a separate repository we can work independent and react faster.
 
 ### Independent documentation
 Documentation has a really high priority for the SDK. Everything should be documented very well. To make sure that nothing gets merged without documentation we include the documentation in the same repository. Then we can directly see if documentation was written and if not, we wouldn't merge the feature.

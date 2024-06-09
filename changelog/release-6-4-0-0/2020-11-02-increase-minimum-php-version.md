@@ -8,5 +8,5 @@ author: Michael Telgmann
 ___
 # Upgrade Information
 ## Minimum PHP version increased
-The minimum required PHP version for Shopware 6.4.0.0 is now PHP 7.4.
+The minimum required PHP version for Haoke 6.4.0.0 is now PHP 7.4.
 Please make sure, that your system has at least this PHP version activated.

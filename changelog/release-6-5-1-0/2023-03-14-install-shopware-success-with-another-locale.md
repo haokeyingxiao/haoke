@@ -1,5 +1,5 @@
 ---
-title: Install Shopware success with another locale
+title: Install Haoke success with another locale
 issue: NEXT-25623
 ---
 # Storefront

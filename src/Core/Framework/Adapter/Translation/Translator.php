@@ -274,7 +274,7 @@ class Translator extends AbstractTranslator
     }
 
     /**
-     * Shopware uses dashes in all locales
+     * Haoke uses dashes in all locales
      * if the catalogue does not contain any dashes it means it is a symfony fallback catalogue
      * in that case we should not add the shopware fallback catalogue as it would result in circular references
      */

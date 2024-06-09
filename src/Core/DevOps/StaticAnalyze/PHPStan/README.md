@@ -1,4 +1,4 @@
-# Shopware Phpstan extension
+# Haoke Phpstan extension
 
 Shopware specific extension for phpstan. This extension provides additional rules and improves type detection for phpstan in shopware projects.
 

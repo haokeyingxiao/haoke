@@ -1,4 +1,4 @@
-# Shopware Acceptance Test Suite
+# Haoke Acceptance Test Suite
 
 ## Introduction
 
@@ -118,7 +118,7 @@ Because of its complexity, end-to-end testing can have different challenges, lik
 
 #### 2. Ensure user features that are essential for the product strategy of Shopware, which are:
 
--   Important differentiator features to set Shopware apart from its competitors.  
+-   Important differentiator features to set Haoke apart from its competitors.  
     **Examples**: Shopping Experiences, Flow Builder
 -   Features essential for choosing a paid plan, especially higher tier plans.  
     **Examples**: B2B components.
@@ -146,7 +146,7 @@ The end-to-end test should primarily be used for validating business requirement
 
 You should only use end-to-end tests if the functionality cannot be covered by other functional tests, like unit or integration tests. An end-to-end test often comes with longer execution times and should therefore be used wisely.
 
-**Note:** Keeping the rules in mind, validating business requirements via the Storefront interface makes much more sense than the Administration. The Administration of Shopware is just a user interface to the Admin API and mostly makes use of simple CRUD operations. As the API and data layer of Shopware are already covered by many other functional tests, an end-to-end test navigating the Administration will therefore primarily focus on the user interface. In addition, there are other types of functional tests to cover the Administration, for example, component unit tests with Jest.
+**Note:** Keeping the rules in mind, validating business requirements via the Storefront interface makes much more sense than the Administration. The Administration of Haoke is just a user interface to the Admin API and mostly makes use of simple CRUD operations. As the API and data layer of Haoke are already covered by many other functional tests, an end-to-end test navigating the Administration will therefore primarily focus on the user interface. In addition, there are other types of functional tests to cover the Administration, for example, component unit tests with Jest.
 
 ### Types of end-to-end tests
 

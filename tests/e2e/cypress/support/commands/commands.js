@@ -71,7 +71,7 @@ Cypress.Commands.add('createStorefrontProductVariantFixture', () => {
 });
 
 /**
- * Create customer fixture using Shopware API at the given endpoint, tailored for Storefront
+ * Create customer fixture using Haoke API at the given endpoint, tailored for Storefront
  * @memberOf Cypress.Chainable#
  * @name createCustomerFixtureStorefront
  * @function
@@ -496,7 +496,7 @@ Cypress.Commands.add('selectLanguageForSalesChannel', (language) => {
 });
 
 /**
- * Updates an existing entity using Shopware API at the given endpoint
+ * Updates an existing entity using Haoke API at the given endpoint
  * @memberOf Cypress.Chainable#
  * @name prepareAdminForScreenshot
  * @function

@@ -190,7 +190,7 @@ components:
             $ref: '#/components/schemas/Error'
 
     ImportPush:
-      description: Shopware Ids in the same order as the import batch
+      description: Haoke Ids in the same order as the import batch
       content:
         application/json:
           schema:

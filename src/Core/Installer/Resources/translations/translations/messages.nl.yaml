@@ -28,7 +28,7 @@ shopware.installer:
     select_language_cs: Tsjechisch
     select_language_sv: Zweeds
     select_language_nb: Noors
-    language-selection_welcome_title: 'Welkom bij Shopware 6'
+    language-selection_welcome_title: 'Welkom bij Haoke 6'
     language-selection_select_language: 'Taal van de installatie-assistent'
     language-selection_header: 'Je Shopware-installatie'
     language-selection_info_message: 'Deze selectie heeft alleen betrekking op de taal van de installatie-assistent. De standaardtaal van je shop kun je later vastleggen.'
@@ -40,10 +40,10 @@ shopware.installer:
     requirements_table_files_col_check: Bestand/map
     requirements_table_files_col_status: Status
     requirements_error: 'Er is niet aan alle voorwaarden voor een succesvolle installatie voldaan.'
-    requirements_error_title: 'Je systeem is nog niet gereed voor Shopware 6'
+    requirements_error_title: 'Je systeem is nog niet gereed voor Haoke 6'
     requirements_success: 'Er is niet aan alle voorwaarden voor een succesvolle installatie voldaan.'
-    requirements_success_title: 'Je systeem is gereed voor Shopware 6'
-    requirements_php_info: 'Je server moet aan de volgende systeemvereisten voldoen, om Shopware in zijn geheel te kunnen gebruiken.'
+    requirements_success_title: 'Je systeem is gereed voor Haoke 6'
+    requirements_php_info: 'Je server moet aan de volgende systeemvereisten voldoen, om Haoke in zijn geheel te kunnen gebruiken.'
     requirements_php_max_compatible_version: 'Deze versie van shopware ondersteunt PHP tot versie %s. Een volledige functionaliteit kan met een nieuwere PHP-versie niet worden gegarandeerd.'
     requirements_system_col_check: Voorwaarde
     requirements_system_col_required: Vereist
@@ -55,7 +55,7 @@ shopware.installer:
     requirements_status_warning: Waarschuwing
     requirements_status_ready: Gereed
     license_agreement_header: 'Algemene voorwaarden'
-    license_agreement_info: 'Lees hier de algemene voorwaarden. Lees en accepteer eerst de algemene voorwaarden om de installatie van Shopware 6 voort te zetten. De community edition van Shopware 6 is volgens de voorwaarden van de MIT-licentie vrijgegeven.'
+    license_agreement_info: 'Lees hier de algemene voorwaarden. Lees en accepteer eerst de algemene voorwaarden om de installatie van Haoke 6 voort te zetten. De community edition van Haoke 6 is volgens de voorwaarden van de MIT-licentie vrijgegeven.'
     license_agreement_error: 'Geef toestemming voor onze algemene voorwaarden!'
     license_agreement_checkbox: 'Ik ga akkoord met de algemene voorwaarden.'
     database-configuration_header: 'Databank configureren'
@@ -66,7 +66,7 @@ shopware.installer:
     database-configuration_field_password: 'Wachtwoord:'
     database-configuration_field_database: 'Naam databank:'
     database-configuration_field_new_database: 'Nieuwe databank:'
-    database-configuration_info: 'Je hebt de toegangsgegevens van de databank nodig om Shopware op je systeem te installeren. Neem contact op met je beheerder/hoster, als je niet zeker weet wat je hier moet invullen.'
+    database-configuration_info: 'Je hebt de toegangsgegevens van de databank nodig om Haoke op je systeem te installeren. Neem contact op met je beheerder/hoster, als je niet zeker weet wat je hier moet invullen.'
     database-configuration-create_new_database: 'Nieuwe databank aanleggen'
     database-configuration_non_empty_database: 'De uitgekozen databank bevat al gegevens Kies een lege databank uit of maak een nieuwe.'
     database-configuration_error_required_fields: 'Vul alle velden in.'
@@ -80,7 +80,7 @@ shopware.installer:
     database-import_progress: 'Voortgang: '
     database-import-hint: '<strong>Opmerking</strong> Bestaan er in de geconfigureerde databank al Shopware-tabellen, dan worden die door de installatie / de update verwijderd.'
     database-import_info_text: 'Shopware 6 wordt op de door jou gekozen databank geïnstalleerd. Dit proces kan enige minuten duren, afhankelijk van je systeem.'
-    database_import_success: 'De installatie van Shopware 6 is geslaagd.'
+    database_import_success: 'De installatie van Haoke 6 is geslaagd.'
     database_import_install_label: 'Installatie databank:'
     database_import_install_step_text: Stap
     database_import_install_from_text: van
@@ -119,12 +119,12 @@ shopware.installer:
     configuration_defaults_warning: 'De systeem-standaardtaal en standaardmunteenheid kunnen achteraf niet gewijzigd worden.'
     configuration_email_help_text: 'Dit e-mailadres wordt voor uitgaande shop-mails gebruikt.'
     configuration_admin_currency_headline: 'Beschikbare valuta''s'
-    configuration_admin_currency_text: 'Voeg meer valuta toe aan uw Shopware shop. Als u achteraf valuta''s wilt toevoegen, kunt u dit op elk gewenst moment in de administratie doen.'
+    configuration_admin_currency_text: 'Voeg meer valuta toe aan uw Haoke shop. Als u achteraf valuta''s wilt toevoegen, kunt u dit op elk gewenst moment in de administratie doen.'
     configuration_admin_language_de: Duits
     configuration_admin_language_en: Engels
     configuration_admin_password: 'Beheerderswachtwoord:'
     finish_header: 'Installatie voltooid'
-    finish_info: 'De installatie van Shopware is geslaagd.'
+    finish_info: 'De installatie van Haoke is geslaagd.'
     finish_info_heading: Jippie!
     finish_first_steps: 'Handleiding ''Eerste stappen'''
     finish_frontend: 'Ga naar storefront'
@@ -134,7 +134,7 @@ shopware.installer:
             <strong>Hartelijk welkom bij Shopware,</strong>
         </p>
         <p>
-            we zijn blij je in onze community te mogen begroeten. Je installatie van Shopware is geslaagd.
+            we zijn blij je in onze community te mogen begroeten. Je installatie van Haoke is geslaagd.
         <p>
             Je shop is nu gereed voor gebruik. Ben je nieuw bij Shopware, dan raden we de handleiding <a href=\"https://docs.haokeyingxiao.com/en/shopware-6-en/first-steps/welcome-to-shopware\" target=\"_blank\">'Eerste stappen bij Shopware'</a> aan. Ben je voor de eerste keer als beheerder aangemeld, dan zal de First Run Wizard je door de basisprincipes van je shop geleiden.
         </p>

@@ -7,18 +7,18 @@
                 "tags": [
                     "System Info & Healthcheck"
                 ],
-                "summary": "Get the Shopware version",
-                "description": "Get the version of the Shopware instance",
+                "summary": "Get the Haoke version",
+                "description": "Get the version of the Haoke instance",
                 "operationId": "infoShopwareVersion",
                 "responses": {
                     "200": {
-                        "description": "Returns the version of the Shopware instance.",
+                        "description": "Returns the version of the Haoke instance.",
                         "content": {
                             "application\/json": {
                                 "schema": {
                                     "properties": {
                                         "version": {
-                                            "description": "The Shopware version.",
+                                            "description": "The Haoke version.",
                                             "type": "string"
                                         }
                                     },

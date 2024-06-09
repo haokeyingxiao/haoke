@@ -23,29 +23,29 @@ The Slim Framework 2 is outdated and is not supported anymore. We also don't hav
 
 ### No Composer support
 
-- Due to the simple unpacking of a changeset of the Shopware update, the user cannot use Composer to install additional packages
-- Extensions have to package their own dependencies inside their extension zip and overwrite dependencies of Shopware or other extensions which can cause problems
+- Due to the simple unpacking of a changeset of the Haoke update, the user cannot use Composer to install additional packages
+- Extensions have to package their own dependencies inside their extension zip and overwrite dependencies of Haoke or other extensions which can cause problems
 
 ## Decision
 
 We will build a new Symfony based web updater which is packaged as an single phar file.
 The Phar file will be downloaded from our server for each update and runs the newest web updater for the process of the update.
-This allows us to react faster on bugs and implement new features, without having to wait for a new Shopware release.
+This allows us to react faster on bugs and implement new features, without having to wait for a new Haoke release.
 
 The new web updater will use the same update process as the CLI update using composer.
 
 So the process will be:
 
-- The Shopware Admin will do a basic update check that all extensions are compatible with the next Shopware version
+- The Haoke Admin will do a basic update check that all extensions are compatible with the next Haoke version
 - If the user clicks on the update button the web updater will be downloaded and executed
 - If the project is still based on the old structure, it will migrate it to Symfony Flex.
 - Enable the maintenance mode using `bin/console`
 - Run `composer update` to update Shopware
 - Run `bin/console` to update the database
 - Disable the maintenance mode
-- Delete the Phar and Redirect the user to the Shopware Admin
+- Delete the Phar and Redirect the user to the Haoke Admin
 
-The new way of managing a Shopware project will also allow us to setup a new project with the new tool.
+The new way of managing a Haoke project will also allow us to setup a new project with the new tool.
 So in the same way, we can provide an installer for new projects by utilising the `create-project` command of Composer.
 
 ## Consequences

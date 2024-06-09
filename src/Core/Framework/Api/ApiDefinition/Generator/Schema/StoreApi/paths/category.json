@@ -15,7 +15,7 @@
                     {
                         "name": "sw-language-id",
                         "in": "header",
-                        "description": "Instructs Shopware to return the response in the given language.",
+                        "description": "Instructs Haoke to return the response in the given language.",
                         "required": false,
                         "schema": {
                             "type": "string",
@@ -84,7 +84,7 @@
                     {
                         "name": "sw-include-seo-urls",
                         "in": "header",
-                        "description": "Instructs Shopware to try and resolve SEO URLs for the given navigation item",
+                        "description": "Instructs Haoke to try and resolve SEO URLs for the given navigation item",
                         "required": false,
                         "schema": {
                             "type": "boolean"
@@ -93,7 +93,7 @@
                     {
                         "name": "sw-language-id",
                         "in": "header",
-                        "description": "Instructs Shopware to return the response in the given language.",
+                        "description": "Instructs Haoke to return the response in the given language.",
                         "required": false,
                         "schema": {
                             "type": "string",

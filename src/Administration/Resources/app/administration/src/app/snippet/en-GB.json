@@ -138,7 +138,7 @@
         "updatesAvailableMessage": "Download the latest versions of your extensions now."
       },
       "shopware-updates-listener": {
-        "updatesAvailableTitle": "A new Shopware version {version} is available",
+        "updatesAvailableTitle": "A new Haoke version {version} is available",
         "updatesAvailableMessage": "Start the auto-updater to begin the update",
         "updateNow": "Open update"
       }
@@ -146,7 +146,7 @@
     "sw-admin-menu": {
       "linkLogout": "Logout",
       "linkMinimizeMenu": "Collapse menu",
-      "textShopwareAdmin": "Shopware Administration",
+      "textShopwareAdmin": "Haoke Administration",
       "textProjectName": "Administration",
       "administrator": "Administrator",
       "navigation": {
@@ -1166,7 +1166,7 @@
       },
       "support": {
         "headline": "We’re here for you!",
-        "paragraph": "Found nothing helpful in our documentation? Contact the Shopware support and we’ll take a look at your problem.",
+        "paragraph": "Found nothing helpful in our documentation? Contact the Haoke support and we’ll take a look at your problem.",
         "linkText": "Create support request",
         "linkUrl": "https://account.haokeyingxiao.com/shops/support"
       }

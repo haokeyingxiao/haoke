@@ -24,4 +24,4 @@ ArrayComparator::compare($arrayA, $arrayB, $operator)
 ___
 # Next Major Version Changes
 ## Deprecated comparison methods:
-* `floatMatch` and `arrayMatch` methods in `src/Core/Framework/Rule/CustomFieldRule.php` will be removed for Shopware 6.7.0.0
+* `floatMatch` and `arrayMatch` methods in `src/Core/Framework/Rule/CustomFieldRule.php` will be removed for Haoke 6.7.0.0

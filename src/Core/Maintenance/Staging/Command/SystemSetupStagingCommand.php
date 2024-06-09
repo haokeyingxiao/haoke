@@ -18,7 +18,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 #[AsCommand(
     name: 'system:setup:staging',
-    description: 'Installs the Shopware 6 system in staging mode',
+    description: 'Installs the Haoke 6 system in staging mode',
 )]
 #[Package('core')]
 class SystemSetupStagingCommand extends Command
@@ -34,7 +34,7 @@ class SystemSetupStagingCommand extends Command
     {
         $io = new ShopwareStyle($input, $output);
 
-        if (!$io->confirm('This command will install the Shopware 6 system in staging mode. It will overwrite existing data in this database, make sure you use a staging database and have a backup', false)) {
+        if (!$io->confirm('This command will install the Haoke 6 system in staging mode. It will overwrite existing data in this database, make sure you use a staging database and have a backup', false)) {
             return self::FAILURE;
         }
 

@@ -114,7 +114,7 @@ ___
 * Changed `src/Storefront/Resources/views/storefront/component/address/address-personal.html.twig` so the default salutation is filtered out
 ___
 # Upgrade information
-The salutation is now optional as far as the Shopware core is concerned. Validations are still in place for orders, so
+The salutation is now optional as far as the Haoke core is concerned. Validations are still in place for orders, so
 a salutation needs to be set by customers during checkout in case there's none defined.
 
 ## Plugin compatibility tasks

@@ -9,11 +9,11 @@
                 "properties": {
                     "version": {
                         "type": "string",
-                        "description": "The Shopware version."
+                        "description": "The Haoke version."
                     },
                     "versionRevision": {
                         "type": "string",
-                        "description": "The Shopware version revision."
+                        "description": "The Haoke version revision."
                     },
                     "adminWorker": {
                         "type": "object",

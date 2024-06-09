@@ -3,7 +3,7 @@ title: Prepare several methods to be native typed
 issue: NEXT-14973
 ---
 # Core
-* Deprecated the following methods. They will all have a native typehint for their parameters and/or return type with Shopware 6.5.0.0
+* Deprecated the following methods. They will all have a native typehint for their parameters and/or return type with Haoke 6.5.0.0
   * Shopware\Core\Framework\DataAbstractionLayer\Indexing\EntityIndexer::iterate
   * Shopware\Core\Checkout\Customer\DataAbstractionLayer\CustomerIndexer::iterate
   * Shopware\Core\Checkout\Promotion\DataAbstractionLayer\PromotionIndexer::iterate

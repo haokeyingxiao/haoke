@@ -40,6 +40,6 @@ describe('Theme: Visual tests', { tags: ['VUE3']}, () => {
         cy.changeElementText('.sw-select-selection-list__item-holder--0 > span > span > span', 'Sales Channel');
         cy.changeElementText('.sw-select-selection-list__item-holder--1 > span > span > span', 'Sales Channel');
         cy.prepareAdminForScreenshot();
-        cy.takeSnapshot('[Theme] Shopware default theme', '.sw-theme-manager-detail__info', null, {percyCSS: '.sw-notification-center__context-button--new-available:after { display: none; }'});
+        cy.takeSnapshot('[Theme] Haoke default theme', '.sw-theme-manager-detail__info', null, {percyCSS: '.sw-notification-center__context-button--new-available:after { display: none; }'});
     });
 });

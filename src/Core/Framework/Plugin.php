@@ -93,8 +93,8 @@ abstract class Plugin extends Bundle
 
     /**
      * Some plugins need to provide 3rd party dependencies.
-     * If needed, return true and Shopware will execute `composer require` during the plugin installation.
-     * When the plugins gets uninstalled, Shopware executes `composer remove`
+     * If needed, return true and Haoke will execute `composer require` during the plugin installation.
+     * When the plugins gets uninstalled, Haoke executes `composer remove`
      */
     public function executeComposerCommands(): bool
     {
@@ -105,7 +105,7 @@ abstract class Plugin extends Bundle
     {
         // namespace should not start with `shopware`
         if (str_starts_with(mb_strtolower($this->getMigrationNamespace()), 'shopware') && !str_starts_with(mb_strtolower($this->getMigrationNamespace()), 'shopware\commercial')) {
-            throw new \RuntimeException('Deleting Shopware migrations is not allowed');
+            throw new \RuntimeException('Deleting Haoke migrations is not allowed');
         }
 
         $class = addcslashes($this->getMigrationNamespace(), '\\_%') . '%';

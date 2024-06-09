@@ -22,7 +22,7 @@ Additionally, such a Scripting feature generally improves the capabilities of th
 ## Decision
 
 We use Twig as it brings a secure PHP sandbox and allows interacting directly with objects. The scripts will be saved in the database and mapped to a specific scripting event. 
-Scripting events are placed in many sections in Shopware to be able to adjust them. Apps can subscribe to the scripting events by placing their scripts into the correspondingly named folders.
+Scripting events are placed in many sections in Haoke to be able to adjust them. Apps can subscribe to the scripting events by placing their scripts into the correspondingly named folders.
 
 ### Scripting Events
 

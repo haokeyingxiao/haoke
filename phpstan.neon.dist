@@ -172,7 +172,7 @@ parameters:
                 - src/Core/Checkout/Payment/PaymentMethodDefinition.php
                 - src/Core/System/NumberRange/NumberRangeDefinition.php
 
-        # Internal deprecations of Shopware are handled in other places
+        # Internal deprecations of Haoke are handled in other places
         - '#deprecated.*class Shopware\\#'
 
         - # tests are allowed to add dummy classes in the same file

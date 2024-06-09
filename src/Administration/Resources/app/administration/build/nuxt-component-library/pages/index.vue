@@ -1,9 +1,9 @@
 <template>
     <div class="page--homepage">
-        <h1>Welcome to the Shopware Component library</h1>
-    
+        <h1>Welcome to the Haoke Component library</h1>
+
         <p class="is--xl">
-            Explore the look and feel of components to speed up your app development. The Shopware Administration is
+            Explore the look and feel of components to speed up your app development. The Haoke Administration is
             build with reusable components which you can use to build your own module
         </p>
     </div>

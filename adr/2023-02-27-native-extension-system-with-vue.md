@@ -6,7 +6,7 @@ tags: [vue, extensibility, performance, administration]
 ---
 
 ## Context
-Our current plugin extension system for the administration is based on our Component Factory. This factory generates native Vue components at runtime based on a base Shopware component which can be extended or overwritten by plugins. This approach offers flexibility to plugin developers to modify every component. For the template part, we use Twig.JS and compile the Vue template in the client at runtime.
+Our current plugin extension system for the administration is based on our Component Factory. This factory generates native Vue components at runtime based on a base Haoke component which can be extended or overwritten by plugins. This approach offers flexibility to plugin developers to modify every component. For the template part, we use Twig.JS and compile the Vue template in the client at runtime.
 
 However, this approach has its drawbacks. We cannot use the full power of Vue and its ecosystem because everything related to Vue is wrapped with our factories and generated at runtime. We cannot use Vue tools without custom modifications, like linting template files, providing good static analysis, and more. The other downside is that upgrading Vue is challenging, and the performance suffers because we cannot precompile components.
 

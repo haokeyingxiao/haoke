@@ -68,7 +68,7 @@ We propose the use of a handler pattern, to facilitate the execution of these co
 Commands will be executed in the order provided in the response.
 
 ### App-System
-For the initial release, Shopware will support a single implementation of the `CheckoutGatewayInterface`, provided by the app-system.
+For the initial release, Haoke will support a single implementation of the `CheckoutGatewayInterface`, provided by the app-system.
 The `AppCheckoutGateway` will sequentially call active apps, but only if the app has a defined `checkout-gateway-url` in its manifest.xml file.
 
 #### App Manifest

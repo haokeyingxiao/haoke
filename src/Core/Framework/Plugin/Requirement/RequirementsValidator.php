@@ -162,7 +162,7 @@ class RequirementsValidator
         $packages[] = $composer->getPackage();
 
         foreach ($packages as $package) {
-            // Ignore Shopware plugins. They are checked separately in `validateInstalledPlugins`
+            // Ignore Haoke plugins. They are checked separately in `validateInstalledPlugins`
             if ($package->getType() === PluginFinder::COMPOSER_TYPE) {
                 continue;
             }

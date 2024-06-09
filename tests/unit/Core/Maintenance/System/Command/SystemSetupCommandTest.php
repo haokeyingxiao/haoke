@@ -159,7 +159,7 @@ class SystemSetupCommandTest extends TestCase
 
         $tester->assertCommandIsSuccessful();
 
-        static::assertStringContainsString('It looks like you have installed Shopware with Symfony Flex', $tester->getDisplay());
+        static::assertStringContainsString('It looks like you have installed Haoke with Symfony Flex', $tester->getDisplay());
     }
 
     private function getApplicationTester(): ApplicationTester

@@ -33,7 +33,7 @@ When you are using Redis for number range storage, you should add the following 
 ```
 ___
 # Next Major Version Changes
-## Shopware config changes:
+## Haoke config changes:
 ### cart
 Replace the `redis_url` parameter in `config/packages/shopware.yaml` file:
 ```yaml

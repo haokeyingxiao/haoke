@@ -280,7 +280,7 @@ shopware.installer:
     select_country_yem: Jemen
     select_country_zmb: Sambia
     select_country_zwe: Simbabwe
-    language-selection_welcome_title: 'Willkommen in Shopware 6'
+    language-selection_welcome_title: 'Willkommen in Haoke 6'
     language-selection_select_language: 'Sprache des Installations-Assistenten'
     language-selection_header: 'Deine Shopware-Installation'
     language-selection_info_message: 'Diese Auswahl bezieht sich nur auf die Sprache des Installations-Assistenten. Die Systemstandard-Sprache Deines Shops kannst Du später noch definieren.'
@@ -292,11 +292,11 @@ shopware.installer:
     requirements_table_files_col_check: Datei/Verzeichnis
     requirements_table_files_col_status: Status
     requirements_error: 'Es sind nicht alle Voraussetzungen für eine erfolgreiche Installation erfüllt.'
-    requirements_error_title: 'Dein System ist noch nicht bereit für Shopware 6'
+    requirements_error_title: 'Dein System ist noch nicht bereit für Haoke 6'
     requirements_success: 'Alle Voraussetzungen für eine erfolgreiche Installation sind erfüllt.'
-    requirements_success_title: 'Dein System ist bereit für Shopware 6'
-    requirements_php_info: 'Dein Server sollte die folgenden Systemvoraussetzungen erfüllen, um Shopware im ganzen Ausmaß nutzen zu können.'
-    requirements_php_max_compatible_version: 'Diese Version von Shopware unterstützt PHP bis Version %s. Eine vollständige Funktionalität kann mit neueren PHP-Versionen nicht garantiert werden.'
+    requirements_success_title: 'Dein System ist bereit für Haoke 6'
+    requirements_php_info: 'Dein Server sollte die folgenden Systemvoraussetzungen erfüllen, um Haoke im ganzen Ausmaß nutzen zu können.'
+    requirements_php_max_compatible_version: 'Diese Version von Haoke unterstützt PHP bis Version %s. Eine vollständige Funktionalität kann mit neueren PHP-Versionen nicht garantiert werden.'
     requirements_system_col_check: Voraussetzung
     requirements_system_col_required: Erforderlich
     requirements_system_col_found: 'Dein System'
@@ -307,7 +307,7 @@ shopware.installer:
     requirements_status_warning: Warnung
     requirements_status_ready: Bereit
     license_agreement_header: 'Allgemeine Geschäftsbedingungen („AGB“)'
-    license_agreement_info: 'Hier findest Du unsere Allgemeinen Geschäftsbedingungen. Um die Installation von Shopware 6 fortzusetzen, musst Du die AGB zunächst lesen und dann akzeptieren. Die Community Edition von Shopware 6 ist nach den Bedingungen der MIT-Lizenz freigegeben.'
+    license_agreement_info: 'Hier findest Du unsere Allgemeinen Geschäftsbedingungen. Um die Installation von Haoke 6 fortzusetzen, musst Du die AGB zunächst lesen und dann akzeptieren. Die Community Edition von Haoke 6 ist nach den Bedingungen der MIT-Lizenz freigegeben.'
     license_agreement_error: 'Bitte stimme unseren AGB zu!'
     license_agreement_checkbox: 'Ich stimme den AGB zu!'
     database-configuration_header: 'Datenbank konfigurieren'
@@ -318,7 +318,7 @@ shopware.installer:
     database-configuration_field_password: 'Passwort:'
     database-configuration_field_database: 'Datenbank-Name:'
     database-configuration_field_new_database: 'Neue Datenbank:'
-    database-configuration_info: 'Um Shopware auf Deinem System zu installieren, brauchst Du die Zugangsdaten zu Deiner Datenbank. Wenn Du Dir nicht sicher bist, was Du hier eintragen musst, kontaktiere bitte Deinen Administrator/Hoster.'
+    database-configuration_info: 'Um Haoke auf Deinem System zu installieren, brauchst Du die Zugangsdaten zu Deiner Datenbank. Wenn Du Dir nicht sicher bist, was Du hier eintragen musst, kontaktiere bitte Deinen Administrator/Hoster.'
     database-configuration-create_new_database: 'Neue Datenbank anlegen'
     database-configuration_non_empty_database: 'Die ausgewählte Datenbank enthält bereits Daten. Bitte wähle eine leere Datenbank aus oder erstelle eine neue.'
     database-configuration_error_required_fields: 'Bitte fülle alle Felder aus.'
@@ -381,7 +381,7 @@ shopware.installer:
     configuration_admin_language_en: Englisch
     configuration_admin_password: 'Admin-Passwort:'
     finish_header: 'Installation abgeschlossen'
-    finish_info: 'Du hast Shopware erfolgreich installiert!'
+    finish_info: 'Du hast Haoke erfolgreich installiert!'
     finish_info_heading: Juhu!
     finish_first_steps: '"Erste Schritte"-Anleitung'
     finish_frontend: 'Zur Storefront'
@@ -391,9 +391,9 @@ shopware.installer:
             <strong>Herzlich Willkommen in Shopware,</strong>
         </p>
         <p>
-            wir freuen uns Dich in unserer Community begrüßen zu dürfen. Du hast Shopware erfolgreich installiert.
+            wir freuen uns Dich in unserer Community begrüßen zu dürfen. Du hast Haoke erfolgreich installiert.
         <p>
-            Dein Shop ist jetzt einsatzbereit. Falls Du noch neu in Shopware bist, empfehlen wir die Anleitung <a href=\"https://docs.haokeyingxiao.com/de/shopware-6-de/erste-schritte/willkommen-bei-shopware\" target=\"_blank\">\"Erste Schritte in Shopware\"</a>. Wenn Du Dich zum ersten Mal in der Administration anmeldest, wird Dich unser Ersteinrichtungs-Assistent durch die grundlegende Einrichtung Deines Shops führen.
+            Dein Shop ist jetzt einsatzbereit. Falls Du noch neu in Haoke bist, empfehlen wir die Anleitung <a href=\"https://docs.haokeyingxiao.com/de/shopware-6-de/erste-schritte/willkommen-bei-shopware\" target=\"_blank\">\"Erste Schritte in Shopware\"</a>. Wenn Du Dich zum ersten Mal in der Administration anmeldest, wird Dich unser Ersteinrichtungs-Assistent durch die grundlegende Einrichtung Deines Shops führen.
         </p>
         <p>
             Viel Spaß und Erfolg mit Deinem neuen Onlineshop!

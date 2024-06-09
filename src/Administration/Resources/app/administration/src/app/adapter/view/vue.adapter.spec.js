@@ -558,7 +558,7 @@ describe('ASYNC app/adapter/view/vue.adapter.js', () => {
                 locale.register('en-GB', {
                     global: {
                         'sw-admin-menu': {
-                            textShopwareAdmin: 'Text Shopware Admin',
+                            textShopwareAdmin: 'Text Haoke Admin',
                         },
                         my: {
                             mock: {
@@ -603,7 +603,7 @@ describe('ASYNC app/adapter/view/vue.adapter.js', () => {
                 });
             }
 
-            // add VueAdapter to Shopware object
+            // add VueAdapter to Haoke object
             Shopware.Application.setViewAdapter(vueAdapter);
 
             await vueAdapter.initDependencies();
@@ -647,7 +647,7 @@ describe('ASYNC app/adapter/view/vue.adapter.js', () => {
                 },
             }, 'Test');
 
-            expect(result).toBe('Test | Mock title | Text Shopware Admin');
+            expect(result).toBe('Test | Mock title | Text Haoke Admin');
         });
 
         it('should add the store to the rootComponent', () => {

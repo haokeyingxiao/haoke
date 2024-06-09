@@ -119,7 +119,7 @@ You can find a full migration guide on the official Bootstrap website: [Migratin
 
 ## How to consider Bootstrap v5
 
-Because of the breaking changes inside Bootstrap v5 you will find several places with backward-compatibility code in the Shopware platform.
+Because of the breaking changes inside Bootstrap v5 you will find several places with backward-compatibility code in the Haoke platform.
 This code is being used to already provide the Bootstrap v5 implementation while keeping the Bootstrap v4 implementation for backward-compatibility.
 Depending, if you are an app/theme developer or a platform contributor you need to adapt the backward-compatibility for your use case.
 
@@ -257,8 +257,8 @@ The following list contains issues that we are aware of. We want to address this
 * **Styling**<br>
   There might be smaller styling issues here and there. Mostly spacing or slightly wrong colors.
 * **Bootstrap v5 OffCanvas**<br>
-  Bootstrap v5 ships its own OffCanvas component. Shopware is still using its custom OffCanvas at the moment.
-  It is planned to migrate the Shopware OffCanvas to the Bootstrap OffCanvas.
+  Bootstrap v5 ships its own OffCanvas component. Haoke is still using its custom OffCanvas at the moment.
+  It is planned to migrate the Haoke OffCanvas to the Bootstrap OffCanvas.
 * **Modifying SCSS $theme-colors**<br>
   Currently it is not possible to add or remove custom colors to $theme-colors like it is described in the [Bootstrap documentation](https://getbootstrap.com/docs/5.1/customize/sass/#add-to-map).
 
@@ -266,7 +266,7 @@ ___
 # Next Major Version Changes
 
 Bootstrap v5 introduces breaking changes in HTML, (S)CSS and JavaScript.
-Below you can find a migration overview of the effected areas in the Shopware platform.
+Below you can find a migration overview of the effected areas in the Haoke platform.
 Please consider that we cannot provide code migration examples for every possible scenario of a UI-Framework like Bootstrap.
 You can find a full migration guide on the official Bootstrap website: [Migrating to v5](https://getbootstrap.com/docs/5.1/migration)
 
@@ -402,7 +402,7 @@ collapse.addEventListener('hide.bs.collapse', this._myMethod.bind(this));
 ### Still need jQuery?
 
 In case you still need jQuery, you can add it to your own app or theme.
-This is the recommended method for all apps/themes which do not have control over the Shopware environment in which they are running in.
+This is the recommended method for all apps/themes which do not have control over the Haoke environment in which they are running in.
 
 * Extend the file `platform/src/Storefront/Resources/views/storefront/layout/meta.html.twig`.
 * Use the block `layout_head_javascript_jquery` to add a `<script>` tag containing jQuery. **Only use this block to add jQuery**.

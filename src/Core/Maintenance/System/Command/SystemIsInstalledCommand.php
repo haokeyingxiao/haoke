@@ -11,12 +11,12 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
 /**
- * This command can be used to detect if the system is installed to script a Shopware installation or update.
+ * This command can be used to detect if the system is installed to script a Haoke installation or update.
  */
 #[Package('core')]
 #[AsCommand(
     name: 'system:is-installed',
-    description: 'Checks if the system is installed and returns exit code 0 if Shopware is installed',
+    description: 'Checks if the system is installed and returns exit code 0 if Haoke is installed',
 )]
 class SystemIsInstalledCommand extends Command
 {

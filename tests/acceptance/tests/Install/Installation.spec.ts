@@ -1,6 +1,6 @@
 import { test, expect } from '@fixtures/AcceptanceTest';
 
-test('Install a new Shopware instance. @install', async ({ page }) => {
+test('Install a new Haoke instance. @install', async ({ page }) => {
     await page.goto(process.env.APP_URL);
 
     await page.getByRole('link', { name: 'Next' }).click();

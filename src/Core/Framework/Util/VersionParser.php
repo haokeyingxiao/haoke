@@ -12,7 +12,7 @@ use Shopware\Core\Kernel;
 class VersionParser
 {
     /**
-     * @var string Regex pattern for validating Shopware versions
+     * @var string Regex pattern for validating Haoke versions
      */
     private const VALID_VERSION_PATTERN = '#^\d\.\d+\.\d+\.(\d+|x)(-\w+)?#';
 

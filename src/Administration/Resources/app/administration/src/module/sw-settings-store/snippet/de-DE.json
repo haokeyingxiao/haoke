@@ -1,16 +1,16 @@
 {
   "sw-settings-store": {
     "general": {
-      "mainMenuItemGeneral": "Shopware Account",
-      "textHeadline": "Shopware Account",
-      "description": "Hier können Einstellungen am Shopware Account vorgenommen werden.",
+      "mainMenuItemGeneral": "Haoke Account",
+      "textHeadline": "Haoke Account",
+      "description": "Hier können Einstellungen am Haoke Account vorgenommen werden.",
       "buttonSave": "Speichern",
-      "messageSaveSuccess": "Die Daten Deines Shopware Accounts wurden erfolgreich gespeichert."
+      "messageSaveSuccess": "Die Daten Deines Haoke Accounts wurden erfolgreich gespeichert."
     },
     "detail": {
       "titleCard": "Einstellungen",
       "labelHost": "Lizenzdomain",
-      "placeholderHost": "Trage hier die Lizenzdomain (Shopdomain) ein, die in Deinem Shopware Account hinterlegt ist."
+      "placeholderHost": "Trage hier die Lizenzdomain (Shopdomain) ein, die in Deinem Haoke Account hinterlegt ist."
     }
   }
 }

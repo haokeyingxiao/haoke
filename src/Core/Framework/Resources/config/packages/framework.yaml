@@ -98,7 +98,7 @@ framework:
             log_level: notice
         Symfony\Component\HttpFoundation\Exception\SuspiciousOperationException:
             log_level: notice
-        # Shopware exceptions
+        # Haoke exceptions
         Shopware\Core\Content\Product\Exception\ProductNotFoundException:
             log_level: notice
         Shopware\Core\Content\Category\Exception\CategoryNotFoundException:

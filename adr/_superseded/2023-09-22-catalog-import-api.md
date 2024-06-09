@@ -20,7 +20,7 @@ however:
 Resulting in increased effort to build and maintain middlewares.
 
 We want to provide an HTTP API and a PHP API for importing catalog related entities independent of the database schema.
-And reduce the amount of implementation details developers have to know about when integrating Shopware within existing
+And reduce the amount of implementation details developers have to know about when integrating Haoke within existing
 systems e.g., ProductVisibility, ProductMedia Entities, Media creation, errors, etc.
 
 ## Decision

@@ -44,7 +44,7 @@ class PromotionIndividualCodeRedeemerTest extends TestCase
     {
         $expectedEvent = CheckoutOrderPlacedEvent::class;
 
-        // we need to have a key for the Shopware event
+        // we need to have a key for the Haoke event
         static::assertArrayHasKey($expectedEvent, PromotionIndividualCodeRedeemer::getSubscribedEvents());
     }
 

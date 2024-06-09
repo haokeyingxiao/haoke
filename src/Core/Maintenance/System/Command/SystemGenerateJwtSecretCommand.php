@@ -48,12 +48,12 @@ class SystemGenerateJwtSecretCommand extends Command
 
         if ($this->useHmacJWT) {
             $io = new SymfonyStyle($input, $output);
-            $io->info('HMAC JWT is enabled. No need to generate a JWT secret. This command will be deleted with Shopware 6.7.0.0');
+            $io->info('HMAC JWT is enabled. No need to generate a JWT secret. This command will be deleted with Haoke 6.7.0.0');
 
             return self::SUCCESS;
         }
 
-        $io->warning('Using JWT rsa keys are deprecated and will be removed in the next major version. Consider enabling shopware.api.jwt_key.use_app_secret in your shopware.yaml file. This command will be deleted with Shopware 6.7.0.0');
+        $io->warning('Using JWT rsa keys are deprecated and will be removed in the next major version. Consider enabling shopware.api.jwt_key.use_app_secret in your shopware.yaml file. This command will be deleted with Haoke 6.7.0.0');
 
         $passphrase = $input->getOption('jwt-passphrase');
 

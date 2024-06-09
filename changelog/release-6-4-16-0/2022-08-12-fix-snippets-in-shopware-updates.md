@@ -1,8 +1,8 @@
 ---
-title: Fix snippets in Shopware updates
+title: Fix snippets in Haoke updates
 issue: NEXT-22815
 ---
 # Administration
-* Changed snippets in Shopware updates
+* Changed snippets in Haoke updates
 
 

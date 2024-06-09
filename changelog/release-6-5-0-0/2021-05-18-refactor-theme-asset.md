@@ -12,7 +12,7 @@ ___
 
 ## Storefront theme asset refactoring
 
-In previous Shopware versions the theme assets has been copied to both folders `bundles/[theme-name]/file.png` and `theme/[id]/file.png`.
+In previous Haoke versions the theme assets has been copied to both folders `bundles/[theme-name]/file.png` and `theme/[id]/file.png`.
 This was needed to be able to link the asset in the Storefront as the theme asset doesn't include the theme path prefix.
 
 To improve the performance of `theme:compile` and to reduce the confusion of the usage of assets we copy the files only to `theme/[id]`.

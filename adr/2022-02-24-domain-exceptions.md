@@ -7,7 +7,7 @@ tags: [architecture, exception, domain]
 
 ## Context
 
-Until now, we have implemented many different exception classes in Shopware to map different exception cases. 
+Until now, we have implemented many different exception classes in Haoke to map different exception cases. 
 However, this pattern is very cumbersome for developers to maintain properly, which is why we often fall back on the old \RuntimeException. 
 Another disadvantage of this pattern is that the system is overwhelmed with exception classes and therefore the overview of possible exceptions suffers.
 

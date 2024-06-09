@@ -56,7 +56,7 @@
   },
   "global": {
     "sw-admin-menu": {
-      "textShopwareAdmin": "Shopware Administration"
+      "textShopwareAdmin": "Haoke Administration"
     }
   }
 }

@@ -2,7 +2,7 @@
 
 All classes and elements (methods, properties, constants) that are defined as protected or public are initially Public API for third party developers.
 
-The Shopware Public API must be kept compatible with each release. This means that the following must not change for third party developers in a minor release:
+The Haoke Public API must be kept compatible with each release. This means that the following must not change for third party developers in a minor release:
 - The developer uses a service to use certain functions.
 - The developer decorates a service to extend its functionality.
 - The developer uses DTO to get or pass data.
@@ -17,7 +17,7 @@ Therefore, we mark the elements that we do not consider to be public API. To do 
 Classes that are intended for **service decoration** are provided with an abstract class. This class is then provided with a `getDecorated` function to pass unimplemented functions directly to the core classes. [Read more](https://github.com/haokeyingxiao/platform/blob/trunk/adr/2020-11-25-decoration-pattern.md)
 
 ## Final classes
-Tendentiously, just about all classes in Shopware should be declared as `final`. We do this for the following reasons:
+Tendentiously, just about all classes in Haoke should be declared as `final`. We do this for the following reasons:
 - We declare a DI container service as `final` so that it will not be extended. All services that can be exchanged via DI-Container have an `abstract class` implementation. Per `extends` from core services is not intended.
 - We declare **DTO classes** as `final` to indicate that we do not intend third party developers to derive from these classes. To append more data to DTO's we use the base `Struct` class which allows **Extensions**.
 - We declare **Event Subscriber** as `final` as we do not foresee deriving from them in order to leverage the events or extend their functionality.

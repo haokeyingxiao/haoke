@@ -1,5 +1,5 @@
 ---
-title: Fix extension list in administration during Shopware Community Store API communication issues
+title: Fix extension list in administration during Haoke Community Store API communication issues
 issue: NEXT-22054
 author: Joshua Behrens
 author_email: code@joshua-behrens.de

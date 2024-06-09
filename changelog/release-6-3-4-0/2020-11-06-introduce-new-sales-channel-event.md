@@ -32,14 +32,14 @@ author: Michael Telgmann
   * `Shopware\Core\System\SalesChannel\Event\SalesChannelContextPermissionsChangedEvent`
   * `Shopware\Core\System\SalesChannel\Event\SalesChannelContextSwitchEvent`
   * `Shopware\Core\System\SalesChannel\Event\SalesChannelContextTokenChangeEvent`
-* Deprecated following classes which will implement the `Shopware\Core\Framework\Event\ShopwareSalesChannelEvent` interface with Shopware 6.4.0.0
+* Deprecated following classes which will implement the `Shopware\Core\Framework\Event\ShopwareSalesChannelEvent` interface with Haoke 6.4.0.0
   * `Shopware\Core\Checkout\Cart\Event\CartDeletedEvent`
   * `Shopware\Core\Checkout\Cart\Event\CartMergedEvent`
   * `Shopware\Core\Checkout\Cart\Event\CartSavedEvent`
   * `Shopware\Core\Checkout\Cart\Event\LineItemAddedEvent`
   * `Shopware\Core\Checkout\Cart\Event\LineItemQuantityChangedEvent`
   * `Shopware\Core\Checkout\Cart\Event\LineItemRemovedEvent`
-* Deprecated following methods which will return `Shopware\Core\Framework\Context` with Shopware 6.4.0.0. Use `getSalesChannelContext()` to get the `Shopware\Core\System\SalesChannel\SalesChannelContext` instead.
+* Deprecated following methods which will return `Shopware\Core\Framework\Context` with Haoke 6.4.0.0. Use `getSalesChannelContext()` to get the `Shopware\Core\System\SalesChannel\SalesChannelContext` instead.
   * `Shopware\Core\Checkout\Cart\Event\CartDeletedEvent::getContext()`
   * `Shopware\Core\Checkout\Cart\Event\CartMergedEvent::getContext()`
   * `Shopware\Core\Checkout\Cart\Event\CartSavedEvent::getContext()`
@@ -58,9 +58,9 @@ ___
   * `Shopware\Storefront\Page\Product\CrossSelling\CrossSellingProductCriteriaEvent`
   * `Shopware\Storefront\Page\Product\Review\ProductReviewsLoadedEvent`
   * `Shopware\Storefront\Pagelet\PageletLoadedEvent`
-* Deprecated following classes which will implement the `Shopware\Core\Framework\Event\ShopwareSalesChannelEvent` interface with Shopware 6.4.0.0
+* Deprecated following classes which will implement the `Shopware\Core\Framework\Event\ShopwareSalesChannelEvent` interface with Haoke 6.4.0.0
   * `Shopware\Storefront\Page\Product\QuickView\MinimalQuickViewPageCriteriaEvent`
   * `Shopware\Storefront\Page\Product\ProductPageCriteriaEvent`
-* Deprecated following methods which will return the `Shopware\Core\Framework\Context` with Shopware 6.4.0.0. Use `getSalesChannelContext()` to get the `Shopware\Core\System\SalesChannel\SalesChannelContext` instead.
+* Deprecated following methods which will return the `Shopware\Core\Framework\Context` with Haoke 6.4.0.0. Use `getSalesChannelContext()` to get the `Shopware\Core\System\SalesChannel\SalesChannelContext` instead.
   * `Shopware\Storefront\Page\Product\QuickView\MinimalQuickViewPageCriteriaEvent::getContext()`
   * `Shopware\Storefront\Page\Product\ProductPageCriteriaEvent::getContext()`

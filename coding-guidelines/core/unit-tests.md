@@ -1,6 +1,6 @@
 # Unit tests
 
-Unit tests are an essential part of our software. The Shopware product grows and grows, the release cycles become shorter and shorter, more and more developers work with the software.
+Unit tests are an essential part of our software. The Haoke product grows and grows, the release cycles become shorter and shorter, more and more developers work with the software.
 
 **Therefore it is important that all functionalities and services are fully unit tested.**
 

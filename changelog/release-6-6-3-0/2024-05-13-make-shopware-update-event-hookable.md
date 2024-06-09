@@ -1,5 +1,5 @@
 ---
-title: Make Shopware update event hookable
+title: Make Haoke update event hookable
 issue: NEXT-36123
 ---
 # Core

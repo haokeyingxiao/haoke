@@ -196,7 +196,7 @@ describe('Minimal install', () => {
         // @frw: skip account login
         cy.get('.sw-modal.sw-first-run-wizard-modal').should('be.visible');
         cy.get('.sw-step-display').should('be.visible');
-        cy.get('.sw-step-display .sw-step-item.sw-step-item--active span').contains('Shopware Account');
+        cy.get('.sw-step-display .sw-step-item.sw-step-item--active span').contains('Haoke Account');
         cy.get('.sw-button span').contains('Skip').click();
 
         // @frw: skip store page

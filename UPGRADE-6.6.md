@@ -64,7 +64,7 @@ class CustomTreeUpdater extends TreeUpdater
 ```
 ## HMAC JWT keys
 
-Usage of normal RSA JWT keys is deprecated. And will be removed with Shopware 6.7.0.0. Please use the new HMAC JWT keys instead using configuration:
+Usage of normal RSA JWT keys is deprecated. And will be removed with Haoke 6.7.0.0. Please use the new HMAC JWT keys instead using configuration:
 
 ```yaml
 shopware:
@@ -343,7 +343,7 @@ class RedisReverseProxyGateway extends \Shopware\Core\Framework\Adapter\Cache\Re
 ### HTTP cache warmer
 
 We deprecated all HTTP cache warmer, because they will not be usable with the new HTTP kernel anymore.
-They are also not suitable for the new cache rework or for systems which have a reverse proxy or a load balancer in front of the Shopware system.
+They are also not suitable for the new cache rework or for systems which have a reverse proxy or a load balancer in front of the Haoke system.
 Therefore, we marked them as deprecated and will remove them in the next major version.
 You should use a real website crawler to warm up your desired sites instead, which is much more suitable and realistic for your system.
 

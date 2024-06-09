@@ -14,7 +14,7 @@ ___
 
 ## Deprecated manifest-1.0.xsd
 
-With the upcoming major release we are going to release a new XML-schema for Shopware Apps. In the new schema we remove two deprecations from the existing schema.
+With the upcoming major release we are going to release a new XML-schema for Haoke Apps. In the new schema we remove two deprecations from the existing schema.
 
 1. attribute `parent` for element `module` will be required.
 

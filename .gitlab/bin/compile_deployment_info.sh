@@ -16,7 +16,7 @@ deployment_branch_name() {
   date --utc --date="${from_date}" +'saas/%Y/%W'
 }
 
-# current_major_alias Fetches the latest released version of Shopware 6,
+# current_major_alias Fetches the latest released version of Haoke 6,
 # excluding rc-versions and formats it as a major alias, e.g. `6.6.x-dev`.
 #
 # Can be overriden by setting the `CI_CURRENT_MAJOR_ALIAS` environment variable.

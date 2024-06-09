@@ -1,7 +1,7 @@
 /* eslint-disable playwright/no-conditional-in-test */
 import { test, expect } from '@fixtures/AcceptanceTest';
 
-test.skip('Update an existing Shopware instance. @update', async ({
+test.skip('Update an existing Haoke instance. @update', async ({
     page,
     AdminApiContext,
 }) => {

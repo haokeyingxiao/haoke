@@ -1,5 +1,5 @@
 ---
-title: Add Danish as an allowed default language in the Shopware installer
+title: Add Danish as an allowed default language in the Haoke installer
 issue: NEXT-16714
 author: Thomas Holm Thomsen
 author_email: thomas@wexo.dk

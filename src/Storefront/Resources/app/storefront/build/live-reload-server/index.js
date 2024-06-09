@@ -1,5 +1,5 @@
 /**
- * This module creates a live reload server for the Shopware storefront.
+ * This module creates a live reload server for the Haoke storefront.
  */
 
 module.exports = function createLiveReloadServer() {

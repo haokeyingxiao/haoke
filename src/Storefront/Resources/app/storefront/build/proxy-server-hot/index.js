@@ -1,5 +1,5 @@
 /**
- * This module creates an proxy server. It is used in Shopware storefront for the
+ * This module creates an proxy server. It is used in Haoke storefront for the
  * hot module replacement to allow the server to automatically detect if the hot mode
  * is activated or not.
  */

@@ -35,7 +35,7 @@ App manufacturers who add action buttons which provide feedback to the Administr
 |---|---|---|
 | shop-id | KvhpuoEVXWmtjkQa | The ID of the shop where the action button was triggered. |
 | shop-url | https://haokeyingxiao.com | The URL of the shop where the action button was triggered. |
-| sw-version | 6.4.7.0 | The installed Shopware version of the shop where the action button was triggered. |
+| sw-version | 6.4.7.0 | The installed Haoke version of the shop where the action button was triggered. |
 | sw-context-language | 2fbb5fe2e29a4d70aa5854ce7ce3e20b | The language (UUID) of the context (`Context::getLanguageId()`). |
 | sw-user-language | en-GB | The language (ISO code) of the user who triggered the action button. |
 | shopware-shop-signature | `hash_hmac('sha256', $query, $shopSecret)` | The hash of the query, signed with the shop's secret. |

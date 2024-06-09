@@ -14,7 +14,7 @@
         },
         "welcome": {
             "modalTitle": "Welcome",
-            "headlineWelcome": "Welcome to the Shopware 6 Administration",
+            "headlineWelcome": "Welcome to the Haoke 6 Administration",
             "messageWelcome": "This wizard guides you through the setup and tries to be helpful with the most important settings.<br>Do you want to use your shop in a different language and reach customers in other countries? Then simply install the desired language packs here.",
             "headlineChangeLanguage": "Install additional languages",
             "switchLanguageModalTitle": "Select the interface language",
@@ -30,12 +30,12 @@
             "noConnectionMessage": "There seem to be connection issues, the language could not be installed."
         },
         "dataImport": {
-            "modalTitle": "Getting started with Shopware 6",
+            "modalTitle": "Getting started with Haoke 6",
             "headlineDemoData": "Use demo data",
-            "messageDemoData": "Start exploring Shopware 6 by adding a set of demo data. Demo data gives the impression of a fully working shop, but should strictly be used for testing purposes only.",
+            "messageDemoData": "Start exploring Haoke 6 by adding a set of demo data. Demo data gives the impression of a fully working shop, but should strictly be used for testing purposes only.",
             "buttonInstallDemoData": "Install demo data",
             "headlineMigration": "Migrate your shop data",
-            "messageMigration": "The Migration Assistant helps you connect to and transfer data from a previous shop system right into your new Shopware 6 environment.",
+            "messageMigration": "The Migration Assistant helps you connect to and transfer data from a previous shop system right into your new Haoke 6 environment.",
             "buttonInstallMigration": "Install Migration Assistant",
             "loadingMessage": "Installing extension<br>This may take a while..."
         },
@@ -59,7 +59,7 @@
         },
         "paypalInfo": {
             "modalTitle": "Setup PayPal",
-            "headline": "Now pre-integrated in Shopware with even easier and faster activation of the most popular payment methods*",
+            "headline": "Now pre-integrated in Haoke with even easier and faster activation of the most popular payment methods*",
             "paymethod": {
                 "paypal": "PayPal",
                 "debit": "Debit",
@@ -82,14 +82,14 @@
             "otherRecommendations": "Regional recommendations"
         },
         "shopwareAccount": {
-            "headline": "Shopware Account - Login",
+            "headline": "Haoke Account - Login",
             "passwordLabel": "Password",
             "passwordPlaceholder": "Enter your password...",
             "emailAddressLabel": "Email address",
             "emailAddressPlaceholder": "Enter your email address...",
-            "modalTitle": "Shopware Account",
-            "message": "The Shopware Account is your main hub for interaction with all Shopware services.",
-            "registerAccountText": "You don't have a Shopware Account yet? Sign up right",
+            "modalTitle": "Haoke Account",
+            "message": "The Haoke Account is your main hub for interaction with all Haoke services.",
+            "registerAccountText": "You don't have a Haoke Account yet? Sign up right",
             "registerAccountHere": "here",
             "registerAccountUrl": "https://account.haokeyingxiao.com/register?lang=en",
             "forgotPasswordText": "Did you forget your password?",
@@ -109,20 +109,20 @@
           "loadStatusCollect": "Collecting store information...",
           "takeMinutes": "This may take a few minutes.",
           "alreadyActivated": "Store has already been successfully activated.",
-          "enablingStore": "Enabling the Shopware Store ... ",
+          "enablingStore": "Enabling the Haoke Store ... ",
           "activationErrorTitle": "Error on activation",
           "activationErrorDescription": "Please ask your administrator for help.",
           "headingOne": "Explore and buy extensions easily -",
-          "headingTwo": "right from within your own Shopware shop.",
-          "description": "Activate the all new Shopware Store and get access to loads of helpful extensions and modern themes that can be integrated into your Shop seemlessly - without any programming skills."
+          "headingTwo": "right from within your own Haoke shop.",
+          "description": "Activate the all new Haoke Store and get access to loads of helpful extensions and modern themes that can be integrated into your Shop seemlessly - without any programming skills."
         },
         "defaults": {
             "modalTitle": "Setup default values"
         },
         "finish": {
             "headlineAllDone": "All done!",
-            "message": "Your Shopware 6 {edition} is now verified.",
-            "messageNotLicensed": "Your Shopware 6 is now prepared.",
+            "message": "Your Haoke 6 {edition} is now verified.",
+            "messageNotLicensed": "Your Haoke 6 is now prepared.",
             "headlineUsefulLinks": "Useful links",
             "loadingMessage": "Restarting application<br>This may take a while...",
             "documentationLabel": "Documentation",
@@ -138,7 +138,7 @@
             "mailer": "Mailer configuration",
             "setupPaypal": "PayPal setup",
             "plugins": "Extensions",
-            "shopware": "Shopware Account",
+            "shopware": "Haoke Account",
             "store": "Shopware Store",
             "defaults": "Default values"
         }

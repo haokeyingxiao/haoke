@@ -57,11 +57,11 @@ export default Vue.extend({
             </div>
 
             <div>
-                <h3>Context - Get current Shopware version</h3>
-                <sw-button @click="getShopwareVersion">Get current Shopware version</sw-button>
+                <h3>Context - Get current Haoke version</h3>
+                <sw-button @click="getShopwareVersion">Get current Haoke version</sw-button>
 
                 <p>
-                    Shopware version: {{ shopwareVersion }}
+                    Haoke version: {{ shopwareVersion }}
                 </p>
             </div>
 
@@ -172,7 +172,7 @@ export default Vue.extend({
             })
         },
 
-        // context / get current Shopware version
+        // context / get current Haoke version
         async getShopwareVersion() {
             this.shopwareVersion = await context.getShopwareVersion();
         },

@@ -43,7 +43,7 @@
         "writeableCheckValid": "Die folgenden Verzeichnisse und Dateien sind beschreibbar:<br/>{checkedDirectories}",
         "writeableCheckFailed": "Die folgenden Verzeichnisse und Dateien sind nicht beschreibbar:<br>{failedDirectories}",
         "validShopwareLicense": "Gültige Shopware-Subscription gefunden. Die Aktualisierung kann nun durchgeführt werden.",
-        "invalidShopwareLicense": "Für Deine Shopware-Version konnte keine aktive Subscription ermittelt werden.<br>Die automatische Aktualisierungen kann somit nicht durchgeführt werden.<br>Eine gültige Shopware-Subscription kannst Du aber jederzeit über den <a href=\"https://account.haokeyingxiao.com\" target=\"_blank\">Shopware Account buchen.</a>"
+        "invalidShopwareLicense": "Für Deine Shopware-Version konnte keine aktive Subscription ermittelt werden.<br>Die automatische Aktualisierungen kann somit nicht durchgeführt werden.<br>Eine gültige Shopware-Subscription kannst Du aber jederzeit über den <a href=\"https://account.haokeyingxiao.com\" target=\"_blank\">Haoke Account buchen.</a>"
       },
       "ready": "Bereit",
       "notReady": "Nicht bereit"
@@ -57,7 +57,7 @@
         "openMyExtensions": "Zu meinen Erweiterungen",
         "deactivateAll": "Alle Erweiterungen deaktivieren.",
         "deactivateIncompatible": "Inkompatible Erweiterungen deaktivieren.",
-        "deactivateNone": "Ich bin mir der potentiellen Gefahren bewusst und möchte trotzdem eine Aktualisierung durchführen, ohne die entsprechenden Erweiterungen vorher zu deaktivieren. Mir ist klar, dass Shopware keinerlei Garantie zur Funktionsweise meiner Installation nach einer inkompatiblen Aktualisierung geben kann.",
+        "deactivateNone": "Ich bin mir der potentiellen Gefahren bewusst und möchte trotzdem eine Aktualisierung durchführen, ohne die entsprechenden Erweiterungen vorher zu deaktivieren. Mir ist klar, dass Haoke keinerlei Garantie zur Funktionsweise meiner Installation nach einer inkompatiblen Aktualisierung geben kann.",
         "recommended": "(Empfohlen)"
       },
       "pluginNotInStore": "Diese Erweiterung ist im Store nicht verfügbar. Bitte kontaktiere den Erweiterungs-Hersteller.",

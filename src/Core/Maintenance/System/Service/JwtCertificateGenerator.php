@@ -17,7 +17,7 @@ class JwtCertificateGenerator
      */
     public function generateString(?string $passphrase = null): array
     {
-        Feature::triggerDeprecationOrThrow('v6.7.0.0', 'Using RSA JWT keys are deprecated and will be removed with Shopware 6.7.0.0. Consider enabling HMAC JWT keys using shopware.api.jwt_key.use_app_secret');
+        Feature::triggerDeprecationOrThrow('v6.7.0.0', 'Using RSA JWT keys are deprecated and will be removed with Haoke 6.7.0.0. Consider enabling HMAC JWT keys using shopware.api.jwt_key.use_app_secret');
 
         $key = \openssl_pkey_new([
             'private_key_bits' => 2048,
@@ -45,7 +45,7 @@ class JwtCertificateGenerator
 
     public function generate(string $privateKeyPath, string $publicKeyPath, ?string $passphrase = null): void
     {
-        Feature::triggerDeprecationOrThrow('v6.7.0.0', 'Using RSA JWT keys are deprecated and will be removed with Shopware 6.7.0.0. Consider enabling HMAC JWT keys using shopware.api.jwt_key.use_app_secret');
+        Feature::triggerDeprecationOrThrow('v6.7.0.0', 'Using RSA JWT keys are deprecated and will be removed with Haoke 6.7.0.0. Consider enabling HMAC JWT keys using shopware.api.jwt_key.use_app_secret');
 
         [$private, $public] = $this->generateString($passphrase);
 

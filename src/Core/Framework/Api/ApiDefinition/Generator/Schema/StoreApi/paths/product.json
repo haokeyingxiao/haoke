@@ -23,7 +23,7 @@
                     {
                         "name": "sw-language-id",
                         "in": "header",
-                        "description": "Instructs Shopware to return the response in the given language.",
+                        "description": "Instructs Haoke to return the response in the given language.",
                         "required": false,
                         "schema": {
                             "type": "string",
@@ -72,7 +72,7 @@
                     {
                         "name": "sw-language-id",
                         "in": "header",
-                        "description": "Instructs Shopware to return the response in the given language.",
+                        "description": "Instructs Haoke to return the response in the given language.",
                         "required": false,
                         "schema": {
                             "type": "string",
@@ -126,7 +126,7 @@
                     {
                         "name": "sw-language-id",
                         "in": "header",
-                        "description": "Instructs Shopware to return the response in the given language.",
+                        "description": "Instructs Haoke to return the response in the given language.",
                         "required": false,
                         "schema": {
                             "type": "string",
@@ -204,7 +204,7 @@
                     {
                         "name": "sw-language-id",
                         "in": "header",
-                        "description": "Instructs Shopware to return the response in the given language.",
+                        "description": "Instructs Haoke to return the response in the given language.",
                         "required": false,
                         "schema": {
                             "type": "string",
@@ -282,7 +282,7 @@
                     {
                         "name": "sw-language-id",
                         "in": "header",
-                        "description": "Instructs Shopware to return the response in the given language.",
+                        "description": "Instructs Haoke to return the response in the given language.",
                         "required": false,
                         "schema": {
                             "type": "string",
@@ -361,7 +361,7 @@
                     {
                         "name": "sw-language-id",
                         "in": "header",
-                        "description": "Instructs Shopware to return the response in the given language.",
+                        "description": "Instructs Haoke to return the response in the given language.",
                         "required": false,
                         "schema": {
                             "type": "string",

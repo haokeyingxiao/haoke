@@ -7,7 +7,7 @@ tags: [payment, shipping]
 
 ## Context
 In the current implementation, there exists a challenge for extension developers in uniquely identifying payment and shipping methods using identifiers.
-This issue is particularly significant for app servers, as it necessitates calls to the Shopware Admin API for the identification of payment and shipping methods based on their respective IDs.
+This issue is particularly significant for app servers, as it necessitates calls to the Haoke Admin API for the identification of payment and shipping methods based on their respective IDs.
 
 ## Decision
 We will introduce a new property called `technicalName` to both the `payment_method` and `shipping_method` entities.

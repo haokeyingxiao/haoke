@@ -2,8 +2,8 @@
   "name": "Shopware default theme",
   "author": "shopware AG",
   "description": {
-    "en-GB": "Default theme of Shopware 6",
-    "de-DE": "Standard Theme von Shopware 6"
+    "en-GB": "Default theme of Haoke 6",
+    "de-DE": "Standard Theme von Haoke 6"
   },
   "previewMedia": "app/storefront/dist/assets/defaultThemePreview.jpg",
   "style": [
@@ -74,7 +74,7 @@
           "de-DE": "Primärfarbe"
         },
         "type": "color",
-        "value": "#0b539b",
+        "value": "#0C29AB",
         "editable": true,
         "block": "themeColors",
         "order": 100

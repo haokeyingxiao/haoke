@@ -8,7 +8,7 @@ use Shopware\Elasticsearch\Framework\SystemUpdateListener;
 trait ElasticsearchTriggerTrait
 {
     /**
-     * This method triggers Elasticsearch indexing after Shopware Update
+     * This method triggers Elasticsearch indexing after Haoke Update
      */
     public function triggerElasticsearchIndexing(Connection $connection): void
     {

@@ -61,7 +61,7 @@ class AppLifecycleTest extends TestCase
         $appLifecycle = $this->getAppLifecycle($appRepository, new StaticEntityRepository([]), null, $this->createMock(AppLoader::class));
 
         $this->expectException(AppException::class);
-        $this->expectExceptionMessage('App test is not compatible with this Shopware version');
+        $this->expectExceptionMessage('App test is not compatible with this Haoke version');
         $appLifecycle->install($manifest, false, Context::createDefaultContext());
     }
 
@@ -76,7 +76,7 @@ class AppLifecycleTest extends TestCase
         $appLifecycle = $this->getAppLifecycle($appRepository, new StaticEntityRepository([]), null, $this->createMock(AppLoader::class));
 
         $this->expectException(AppException::class);
-        $this->expectExceptionMessage('App test is not compatible with this Shopware version');
+        $this->expectExceptionMessage('App test is not compatible with this Haoke version');
         $appLifecycle->update($manifest, ['id' => 'test', 'roleId' => 'test'], Context::createDefaultContext());
     }
 

@@ -22,7 +22,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 #[AsCommand(
     name: 'system:install',
-    description: 'Installs the Shopware 6 system',
+    description: 'Installs the Haoke 6 system',
 )]
 #[Package('core')]
 class SystemInstallCommand extends Command
