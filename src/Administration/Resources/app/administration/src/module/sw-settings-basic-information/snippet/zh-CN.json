@@ -1,0 +1,29 @@
+{
+  "sw-settings-basic-information": {
+    "general": {
+      "mainMenuItemGeneral": "基本信息",
+      "description": "在这里更改基本信息。",
+      "textHeadline": "基本信息",
+      "buttonSave": "保存",
+      "messageSaveSuccess": "配置已保存。"
+    },
+    "captcha": {
+      "label": {
+        "honeypot": "蜜罐",
+        "basicCaptcha": "基本验证码",
+        "googleReCaptchaV2": "Google reCAPTCHA v2",
+        "googleReCaptchaV2SiteKey": "Google reCAPTCHA v2 站点密钥",
+        "googleReCaptchaV2SecretKey": "Google reCAPTCHA v2 秘密密钥",
+        "googleReCaptchaV2Invisible": "隐形 Google reCAPTCHA v2",
+        "googleReCaptchaV3": "Google reCAPTCHA v3",
+        "googleReCaptchaV3SiteKey": "Google reCAPTCHA v3 站点密钥",
+        "googleReCaptchaV3SecretKey": "Google reCAPTCHA v3 秘密密钥",
+        "googleReCaptchaV3ThresholdScore": "Google reCAPTCHA v3 阈值分数",
+        "googleReCaptchaV2CheckboxDescription": "\"我不是机器人\" 复选框要求用户点击复选框，表明用户不是机器人。这将立即通过用户（无验证码）或挑战他们验证他们是否是人类。这是最简单的集成选项，只需两行 HTML 即可呈现复选框。",
+        "googleReCaptchaV2InvisibleDescription": "隐形 reCAPTCHA 徽章不需要用户点击复选框，而是在用户点击您网站上的现有按钮时直接调用，或者可以通过 JavaScript API 调用。集成需要在 reCAPTCHA 验证完成时调用 JavaScript 回调。默认情况下，只有最可疑的流量会被提示解决验证码。要更改此行为，请在高级设置中编辑您的站点安全首选项。",
+        "googleReCaptchaV3Description": "reCAPTCHA v3 允许您在没有任何用户交互的情况下验证互动是否合法。这是一个纯 JavaScript API 返回一个分数，让您可以在您网站的上下文中采取行动：例如要求额外的认证因素，发送帖子以供审核，或限制可能正在抓取内容的机器人。",
+        "googleReCaptchaV3DescriptionThresholdScore": "reCAPTCHA v3 在没有用户摩擦的情况下为每个请求返回一个分数。分数基于与您的网站的互动，使您能够为您的网站采取适当的行动。阈值分数值范围从 0.0 到 1.0。"
+      }
+    }
+  }
+}

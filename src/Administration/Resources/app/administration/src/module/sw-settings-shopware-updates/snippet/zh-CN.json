@@ -1,0 +1,88 @@
+{
+  "sw-settings-shopware-updates": {
+    "general": {
+      "menuTitle": "Shopware 更新",
+      "title": "Shopware 更新 ({version})",
+      "emptyTitle": "Shopware 更新",
+      "emptyState": "您正在运行最新版本。",
+      "checkForUpdates": "检查更新",
+      "currentVersion": "当前版本："
+    },
+    "cards": {
+      "info": "新功能介绍",
+      "requirements": "系统要求",
+      "extensions": "扩展兼容性",
+      "updating": "正在更新..."
+    },
+    "notifications": {
+      "updateStarted": "更新已开始。",
+      "updateStopped": "更新已停止。",
+      "downloadFailed": "下载失败。",
+      "unpackFailed": "解压失败。",
+      "deactivationFailed": "无法停用扩展。",
+      "alreadyUpToDate": "您正在运行最新版本。"
+    },
+    "infos": {
+      "backupCheckboxLabel": "我已经创建了备份，现在要执行更新。",
+      "startUpdate": "开始更新",
+      "requirementsNotMet": "并非所有系统要求都已满足。",
+      "progress": {
+        "download": "正在下载更新文件...",
+        "deactivate": "正在停用扩展...",
+        "unpack": "正在解压更新文件..."
+      }
+    },
+    "requirements": {
+      "columns": {
+        "message": "要求",
+        "status": "状态"
+      },
+      "message": {
+        "phpVersion": "最低 PHP 版本：{minVersion}。当前安装的 PHP 版本：{currentVersion}。",
+        "mysqlVersion": "最低 MySQL 版本：{minVersion}。当前安装的 MySQL 版本 {currentVersion}。",
+        "writeableCheckValid": "以下目录和文件可写入：<br/>{checkedDirectories}",
+        "writeableCheckFailed": "以下目录和文件不可写入：<br>{failedDirectories}",
+        "validShopwareLicense": "您当前的 Shopware 版本已过期。您可能需要考虑更新到最新版本。",
+        "invalidShopwareLicense": "未找到有效的 Shopware 订阅。<br>无法执行自动更新。<br>您可以通过<a target=\"_blank\" href=\"https://account.haokeyingxiao.com\">Shopware 账户页面</a>购买 Shopware 订阅。"
+      },
+      "ready": "准备就绪",
+      "notReady": "未准备好"
+    },
+    "plugins": {
+      "columns": {
+        "name": "扩展",
+        "available": "兼容性"
+      },
+      "actions": {
+        "openMyExtensions": "我的扩展",
+        "deactivateAll": "停用所有扩展。",
+        "deactivateIncompatible": "停用不兼容的扩展。",
+        "deactivateNone": "我了解隐含的风险，仍然希望在不先停用不兼容扩展的情况下更新 Shopware。我意识到，Shopware 不能保证更新后的安装功能。",
+        "recommended": "(推荐)"
+      },
+      "pluginNotInStore": "该扩展在商店中不可用。请联系扩展的作者。",
+      "pluginWillBeDeactivatedHint": "(此扩展将在更新时停用)"
+    },
+    "updateModal": {
+      "actions": {
+        "cancel": "取消",
+        "install": "安装",
+        "goToUpdate": "立即更新"
+      },
+      "messageIncompatible": "安装的一些扩展与最新的 Shopware 版本不兼容。如果继续更新，现在可能会出现未知问题并严重损害您的系统。Shopware 能够在更新过程中自动停用不兼容的扩展，以确保安装的持续功能。更新这些扩展后，您将可以手动重新激活它们。",
+      "messageNotInStore": "安装了一些无法成功测试兼容性的扩展。有关更多信息，请联系扩展的作者。在这种情况下，强烈建议在更新前创建备份。",
+      "messageOkay": "所有前提条件已满足。更新前不要忘记创建备份。",
+      "messageUpdateCheck": "您的当前版本可以更新到 {version}。您想做什么？",
+      "backupLabel": "是的，我已创建备份。"
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "core_update": "运行更新",
+        "plugin_maintain": "管理扩展",
+        "plugin_upload": "上传扩展"
+      }
+    }
+  }
+}

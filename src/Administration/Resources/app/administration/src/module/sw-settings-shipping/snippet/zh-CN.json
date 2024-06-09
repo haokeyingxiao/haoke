@@ -1,0 +1,135 @@
+{
+  "sw-settings-shipping": {
+    "general": {
+      "mainMenuItemGeneral": "运输",
+      "placeholderSearchBar": "搜索所有运输方式...",
+      "descriptionTextModule": "在此管理运输方式。"
+    },
+    "list": {
+      "textHeadline": "运输",
+      "buttonAddShippingMethod": "添加运输方式",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "columnName": "名称",
+      "columnDescription": "描述",
+      "columnActive": "激活",
+      "columnPosition": "位置",
+      "contextMenuEdit": "编辑",
+      "contextMenuDelete": "删除",
+      "contextMenuDuplicate": "复制",
+      "messageEmpty": "尚无运输方式",
+      "textDeleteConfirm": "您确定要删除运输方式 \"{name}\" 吗？",
+      "titleSidebarItemRefresh": "刷新",
+      "messageSaveSuccess": "运输方式 \"{name}\" 已保存。",
+      "messageSaveError": "运输方式 \"{name}\" 未能保存。",
+      "messageDeleteError": "运输方式 \"{name}\" 未能删除。",
+      "messageDeleteSuccess": "运输方式 \"{name}\" 已删除。",
+      "columnTaxType": "税收计算",
+      "columnTaxRate": "税率",
+      "placeholderTaxType": "选择税收类型"
+    },
+    "detail": {
+      "textHeadline": "新运输方式",
+      "titleCard": "设置",
+      "messageSaveSuccess": "运输费用 \"{name}\" 已保存。",
+      "messageSaveError": "运输方式 \"{name}\" 未能保存。",
+      "labelName": "名称",
+      "labelTechnicalName": "技术名称",
+      "labelActive": "激活",
+      "labelPosition": "位置",
+      "labelDeliveryTime": "交货时间",
+      "placeholderDeliveryTime": "搜索交货时间...",
+      "placeholderName": "输入名称...",
+      "placeholderTechnicalName": "输入技术名称...",
+      "placeholderPosition": "输入位置...",
+      "placeholderDescription": "输入描述...",
+      "labelDescription": "描述",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "labelSetRules": "选择规则",
+      "labelBasicInfo": "基本信息",
+      "topRule": "可用性",
+      "placeholderTopRule": "搜索或创建可用性规则...",
+      "labelLogoUpload": "上传徽标",
+      "labelTrackingUrl": "跟踪URL",
+      "placeholderTrackingUrl": "输入URL...",
+      "helpTextTrackingUrl": "输入运输提供商的跟踪URL，并在实际跟踪代码所在位置插入“%s”作为占位符。跟踪代码会自动从各个订单中插入。",
+      "helpTextTechnicalName": "技术名称用于唯一标识运输方式。随后对技术名称的更改可能导致依赖于它的运输集成无法正常工作。",
+      "hintTextTechnicalName": "从版本6.7.0开始将需要",
+      "tax": {
+        "fieldName": "税收计算",
+        "labelTaxType": "类型",
+        "labelTaxRate": "税率",
+        "placeholderTaxType": "选择税收类型...",
+        "placeholderTaxRate": "选择税率...",
+        "helpText": "从不同的模式中选择来计算运输费用的税收：<ul style='margin-left: 15px'><li>自动 - 基于购物车中所有税率的计算</li><li>最高 - 基于购物车中最高税率的计算</li><li>固定 - 基于手动选择的税率的计算</li></ul>"
+      }
+    },
+    "constants": {
+      "weight": "重量",
+      "price": "价格",
+      "lineItemCount": "产品数量"
+    },
+    "priceMatrix": {
+      "titleCard": "价格矩阵",
+      "noRestriction": "无限制",
+      "addNewRule": "添加新规则",
+      "addNewShippingPrice": "添加定价级别",
+      "duplicateMatrixContextLabel": "复制价格矩阵",
+      "deleteMatrixContextLabel": "删除价格矩阵",
+      "contextMenuDuplicatePrice": "复制定价级别",
+      "contextMenuDeletePrice": "删除定价级别",
+      "selectProperty": "选择购物车属性...",
+      "useRules": "构建规则",
+      "emptyText": "根据预定义的购物车属性和/或自定义规则创建价格矩阵。请选择：",
+      "chooseCustomRule": "选择自定义规则",
+      "calculationLineItemCount": "产品数量",
+      "calculationPrice": "购物车价格",
+      "calculationWeight": "重量",
+      "calculationVolume": "体积",
+      "columnQuantityStart": "数量从...",
+      "columnQuantityEnd": "至...",
+      "columnWeightStart": "重量从...",
+      "columnWeightEnd": "至...",
+      "columnPriceStart": "购物车价格从...",
+      "columnPriceEnd": "至...",
+      "columnVolumeStart": "体积从...",
+      "columnVolumeEnd": "至...",
+      "columnPrice": "价格",
+      "columnCalculationRule": "规则",
+      "buttonAddAdditionalPriceMatrix": "添加价格矩阵",
+      "any": "∞",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "textDeleteConfirm": "您确定要删除价格矩阵 \"{name}\" 吗？|您确定要删除这些价格矩阵吗？",
+      "deletionNotPossibleMessage": "至少需要一个价格层级。尝试删除整个定价规则。",
+      "labelGrossNet": "（总计/净值）",
+      "ruleAlreadyUsed": "此规则已在价格矩阵中使用。",
+      "ruleAlreadyUsedInMatrix": "此规则已在此价格矩阵中使用。",
+      "textOr": "或",
+      "chooseOrCreateRule": "选择或创建规则",
+      "unrestrictedRuleAlreadyExistsMessage": "已存在无限制的价格矩阵。",
+      "newMatrixAlreadyExists": "已经存在一个没有分配规则的新价格矩阵。",
+      "newMatrixAlertMessage": "必须分配一个规则才能保存此价格矩阵。",
+      "contextMenuModifyPrice": "更改价格规则"
+    },
+    "sidebar": {
+      "labelUseAsLogo": "用作徽标"
+    },
+    "shippingPriceModal": {
+      "modalTitle": "添加运费规则"
+    },
+    "shippingCostOptions": {
+      "auto": "自动",
+      "highest": "最高",
+      "fixed": "固定"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "shipping": {
+        "label": "运输"
+      }
+    }
+  }
+}

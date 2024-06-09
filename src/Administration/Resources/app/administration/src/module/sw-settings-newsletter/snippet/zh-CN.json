@@ -1,0 +1,11 @@
+{
+  "sw-settings-newsletter": {
+    "general": {
+      "mainMenuItemGeneral": "新闻通讯",
+      "description": "在此更改新闻通讯配置。",
+      "textHeadline": "新闻通讯",
+      "buttonSave": "保存",
+      "messageSaveSuccess": "配置已保存。"
+    }
+  }
+}

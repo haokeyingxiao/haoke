@@ -1,0 +1,53 @@
+{
+  "sw-settings-mailer": {
+    "general": {
+      "mainMenuItemGeneral": "邮件设置",
+      "textHeadline": "邮件设置",
+      "buttonSave": "保存",
+      "helpText": "更多信息请查看 <a href='https://docs.haokeyingxiao.com/en/shopware-6-en'>文档</a>"
+    },
+    "mailer-configuration": {
+      "card-title": "邮件配置",
+      "agent": "首选邮件代理",
+      "local-agent": "本地邮件代理",
+      "local-helptext": "此选项使用您的系统默认邮件发送程序（Sendmail）。请确保 Sendmail 能正常工作并且在您的托管环境中可用。",
+      "smtp-server": "SMTP 服务器",
+      "env-file": "使用环境配置"
+    },
+    "first-configuration": {
+      "headline": "建立电子邮件通信",
+      "description": "与客户沟通是日常电子商务中的关键因素。因此，尽快设置邮件方案应该是您的首要任务。"
+    },
+    "sendmail": {
+      "sync": "同步邮件发送",
+      "async": "异步邮件发送"
+    },
+    "card-smtp": {
+      "host": "主机",
+      "host-placeholder": "输入主机名...",
+      "port": "端口",
+      "port-placeholder": "输入端口号...",
+      "username": "用户名",
+      "username-placeholder": "输入用户名...",
+      "password": "密码",
+      "password-placeholder": "输入密码...",
+      "encryption": "加密",
+      "encryption-placeholder": "选择加密方式...",
+      "sender-address": "发件人地址",
+      "sender-address-placeholder": "填写您可以访问的电子邮件地址...",
+      "delivery-address": "收件人地址",
+      "delivery-address-placeholder": "填写用于测试的电子邮件地址...",
+      "delivery-address-helptext": "所有外发邮件将发送到目标收件人地址，同时也发送到此地址。仅用于测试目的。",
+      "disable-delivery": "禁用电子邮件发送",
+      "error": {
+        "notificationMessage": "您输入的 SMTP 配置似乎无效。"
+      }
+    },
+    "encryption": {
+      "no-encryption": "不加密",
+      "ssl": "SSL",
+      "tls": "TLS"
+    },
+    "helpText": "更多信息请查看 <a target=\"_blank\", href=\"https://docs.haokeyingxiao.com/en/shopware-6-en\">文档</a>。"
+  }
+}

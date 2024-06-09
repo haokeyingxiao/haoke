@@ -1,0 +1,104 @@
+{
+  "global": {
+    "error-codes": {
+      "DUPLICATED_SNIPPET_KEY": "“{key}” 的片段已存在。请选择一个新名称。"
+    }
+  },
+  "sw-settings-snippet": {
+    "general": {
+      "mainMenuItemGeneral": "片段",
+      "description": "在此管理片段。",
+      "copyName": "复制",
+      "errorBackRoutingTitle": "无效的页面请求",
+      "errorBackRoutingMessage": "请求的页面无法加载。您将被重定向。",
+      "placeholderSearchBarSets": "搜索片段集...",
+      "placeholderSearchBarSnippets": "搜索片段...",
+      "placeholderValue": "定义内容...",
+      "searchBarTitleSets": "片段集",
+      "searchBarTitleSnippets": "片段"
+    },
+    "detail": {
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "cardGeneralTitle": "信息",
+      "cardSnippetSetsTitle": "翻译",
+      "labelContent": "片段集：{name}",
+      "labelName": "名称",
+      "labelNamePlaceholder": "添加名称...",
+      "labelNamespace": "部分",
+      "labelNamespacePlaceholder": "选择部分",
+      "messageSaveError": "“{key}” 的片段无法保存。",
+      "messageSaveSuccess": "“{key}” 的片段已保存。",
+      "textHeadline": "新片段"
+    },
+    "list": {
+      "identifier": "{setName} | 片段集比较",
+      "buttonAdd": "新片段",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "buttonEmpty": "返回标准片段",
+      "columnKey": "名称",
+      "columnValue": "值",
+      "contextMenuDelete": "删除 | 重置",
+      "contextMenuEdit": "编辑",
+      "columnHeaderGridColumnTitleSet": "片段集",
+      "columnHeaderResetTo": "原始",
+      "emptyStateHeadLine": "还没有片段。",
+      "messageDeleteSuccess": "片段 “{key}” 已被重置。",
+      "messageSaveError": "片段 “{key}” 无法保存。 | “{key}” 的片段无法保存。",
+      "messageSaveSuccess": "片段 “{key}” 已保存。 | “{key}” 的片段已保存。",
+      "textDeleteConfirm": "您确定要删除“{key}” 的片段吗？",
+      "textResetConfirm": "您确定要重置片段 “{key}” 吗？ | 您确定要重置 “{key}” 的片段吗？",
+      "textSnippetList": "“{setName}” 的片段 | 片段",
+      "resetErrorMessage": "片段 “{key}” 无法重置。 | 片段 “{key}” 无法删除。",
+      "resetSuccessMessage": "片段 “{key}” 已重置为默认值。 | 片段 “{key}” 已删除。",
+      "titleSidebarCustomItems": "自定义片段",
+      "titleSidebarItemRefresh": "刷新",
+      "titleSidebarItemFilter": "过滤"
+    },
+    "setList": {
+      "title": "管理片段",
+      "description": "这是您的片段集概览。选择一个集并编辑各个片段。",
+      "cardTitle": "片段集",
+      "buttonAddSet": "添加片段集",
+      "buttonCancel": "取消",
+      "buttonClone": "复制",
+      "buttonDelete": "删除",
+      "buttonEditSet": "编辑片段",
+      "buttonExport": "导出",
+      "buttonImport": "导入",
+      "cloneErrorMessage": "复制片段集时出错。",
+      "cloneSuccessMessage": "片段集已复制。",
+      "columnBaseFile": "基础文件",
+      "columnChangedAt": "最后更新",
+      "columnName": "名称",
+      "contextMenuClone": "复制",
+      "contextMenuDelete": "删除",
+      "contextMenuEdit": "编辑",
+      "deleteNoteErrorMessage": "无法删除片段集。",
+      "deleteNoteSuccessMessage": "片段集已删除。",
+      "inlineEditErrorMessage": "片段集无法保存 | 片段集 “{name}” 无法保存。",
+      "inlineEditSuccessMessage": "片段集 “{name}” 已保存。",
+      "modalTitleClone": "复制片段集",
+      "notEditableNoteErrorMessage": "编辑片段集时出错。",
+      "placeholderName": "输入片段集名称...",
+      "splitButtonDuplicateContent": "复制自",
+      "textCloneConfirm": "您确定要复制片段集 “{name}” 吗？",
+      "textDeleteConfirm": "您确定要删除片段集 “{name}” 吗？"
+    },
+    "filter": {
+      "showOnlyEmpty": "仅显示空片段",
+      "showOnlyCustom": "仅显示编辑过的片段",
+      "showOnlyAdded": "仅显示添加的片段",
+      "author": "作者",
+      "more": "更多过滤器"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "snippet": {
+        "label": "片段"
+      }
+    }
+  }
+}

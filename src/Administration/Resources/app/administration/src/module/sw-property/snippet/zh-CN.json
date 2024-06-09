@@ -1,0 +1,76 @@
+{
+  "sw-property": {
+    "general": {
+      "placeholderSearchBar": "搜索属性...",
+      "mainMenuItemGeneral": "属性",
+      "descriptionTextModule": "在这里管理属性。"
+    },
+    "list": {
+      "textProperties": "属性",
+      "buttonAddProperty": "添加属性",
+      "columnName": "属性",
+      "columnOptions": "属性值",
+      "columnFilterable": "在产品筛选中显示",
+      "contextMenuView": "编辑",
+      "contextMenuDelete": "删除",
+      "titleSidebarItemRefresh": "刷新",
+      "messageEmpty": "尚无属性",
+      "columnDescription": "描述",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "textDeleteConfirm": "您确定要删除属性 \"{name}\" 吗？"
+    },
+    "detail": {
+      "mediaDisplayType": "图片",
+      "textDisplayType": "文本",
+      "selectDisplayType": "下拉菜单",
+      "colorDisplayType": "颜色",
+      "numericSortingType": "数值",
+      "alphanumericSortingType": "字母数字",
+      "positionSortingType": "自定义",
+      "cardTitleGroupInfo": "基本信息",
+      "labelName": "名称",
+      "placeholderName": "输入名称...",
+      "labelFilterable": "在产品筛选中显示",
+      "labelvisibleOnProductDetailPage": "在产品详情页显示",
+      "labelDisplayType": "值显示类型",
+      "labelSortingType": "排序",
+      "labelOptionName": "名称",
+      "labelOptionColor": "颜色",
+      "labelOptionMedia": "图片",
+      "labelPosition": "位置",
+      "placeholderPosition": "为此组排名...",
+      "placeholderOptionName": "输入名称...",
+      "labelOptionPosition": "位置",
+      "placeholderOptionPosition": "为此值排名...",
+      "addMediaCaption": "使用媒体",
+      "buttonApply": "应用",
+      "contextMenuOptionView": "编辑",
+      "contextMenuOptionDelete": "删除",
+      "textHeadline": "新属性",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "labelDescription": "描述",
+      "placeholderDescription": "输入描述...",
+      "placeholderOptionSearch": "搜索属性值...",
+      "cardTitle": "属性值",
+      "addOption": "添加值",
+      "addOptionNotPossible": "只能在默认语言中添加属性值",
+      "contextMenuOptionResetDelete": "恢复",
+      "textOptionHeadline": "新值",
+      "messageSaveSuccess": "属性 \"{name}\" 已保存。",
+      "messageSaveError": "属性 \"{name}\" 无法保存",
+      "messageOptionsEmpty": "尚无属性值",
+      "messageOptionsEmptySubline": "在这里添加属性值。",
+      "optionEmptyStateSubline": "填写基本信息，保存属性 - 然后添加值。",
+      "labelMediaUpload": "默认图片"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "property": {
+        "label": "属性"
+      }
+    }
+  }
+}

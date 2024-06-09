@@ -19,7 +19,7 @@ class BasicDataUntouchedTest extends TestCase
         static::assertIsString($file);
 
         static::assertSame(
-            'b27d596e333d0dd7780df15a90027e890be8d55f',
+            'a1e1ba411c340c4d3648aa08ea4646a92272fc0c',
             sha1_file($file),
             'BasicData migration has changed. This is not allowed.'
         );

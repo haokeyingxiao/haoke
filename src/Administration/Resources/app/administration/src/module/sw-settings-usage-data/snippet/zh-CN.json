@@ -1,0 +1,54 @@
+{
+  "sw-settings-usage-data": {
+    "general": {
+      "mainMenuItemGeneral": "数据共享",
+      "textHeadline": "数据共享",
+      "description": "配置以与我们共享使用数据，以改进Shopware。"
+    }
+  },
+  "sw-settings-usage-data-general": {
+    "tabHeadline": "常规"
+  },
+  "sw-usage-data-consent-banner": {
+    "headline": "塑造电子商务的未来",
+    "improvingDescription": "我们正在不断改进为您提供的服务。为了迈出下一步，我们将使用机器学习（例如模式识别）等技术分析您的数据，以开发和改进我们的产品。您的数据还将用于开发数据驱动的服务，旨在提升您的业务成功。这是我们正在收集的数据：",
+    "improvingDescriptionNotAccepted": "我们正在不断改进为您提供的服务。为了迈出下一步，我们希望使用机器学习（例如模式识别）等技术分析您的数据，以开发和改进我们的产品。您的数据还将用于开发数据驱动的服务，旨在提升您的业务成功。这是我们将收集的数据：",
+    "fullDetailsDescription": "此协议的详细信息请参见 {link}。 {fullDetailsDescriptionNotAccepted}",
+    "fullDetailsDescriptionNotAccepted": "您可以随时选择退出数据共享。",
+    "confirmAuthorization": "点击“同意”，即表示您确认您有权代表您的公司签署此协议。",
+    "privacyPolicy": "haokeyingxiao.com/en/data-use-details",
+    "privacyPolicyLink": "https://www.haokeyingxiao.com/en/data-use-details/",
+    "collectionInformation": {
+      "orderData": "订单数据",
+      "usageData": "使用数据",
+      "diagnosticData": "诊断数据",
+      "storeData": "店铺数据",
+      "helpText": {
+        "orderDataHelp": "<strong>订单数据</strong> 在Shopware中指的是平台上客户订单的详细信息。这包括产品订单、数量、价格、来源、支付方式、发货等具体信息。我们分析这些数据以了解趋势和模式，从而改进功能并开发新的服务，以提高您的业务成功。我们不收集能够识别单个人的客户个人数据。",
+        "usageDataHelp": "<strong>使用数据</strong> 在Shopware中指的是管理员用户和店铺访客与我们平台互动的相关信息。这包括与不同Shopware管理模块的互动、查看的页面、访问时长、点击路径以及平台和店铺内的用户操作。通过评估使用数据，我们可以识别平台中经常访问或避免访问的区域，以衡量功能的采用情况，从而潜在地改进布局、设计和功能。我们不收集能够识别管理员或店铺访客的个人数据。",
+        "diagnosticDataHelp": "<strong>诊断数据</strong> 在Shopware中指的是与系统健康、错误和平台性能指标相关的信息。这包括系统日志、错误消息、服务器响应时间以及其他技术指标。分析这些数据有助于我们快速识别、解决和部署常见问题或漏洞的修复，从而维护平台的完整性。",
+        "storeDataHelp": "<strong>店铺数据</strong> 在Shopware中指的是与您的在线店铺相关的所有信息。比如产品、列表、价格、图片、描述等，以及关于您的店铺设置的元数据，如主题和插件。我们不收集能够识别管理员用户或店铺访客的个人数据。通过使用聚合的店铺数据，我们可以通过机器学习提供市场趋势的洞察，允许您相应地调整产品供应或营销策略。"
+      }
+    },
+    "checkListDataSharing": {
+      "title": "我们可以向您保证：",
+      "gdprCompliant": "我们符合GDPR",
+      "personalData": "我们不收集个人数据",
+      "securelyProcessed": "您的数据已安全处理和存储",
+      "thirdParty": "我们不会将您的数据分享给第三方用于其自身目的",
+      "helpText": {
+        "shareDataHelpText": "<strong>“分享”</strong>指的是为接收方自身目的披露数据；我们可能会将数据披露给我们的服务提供商。"
+      }
+    },
+    "acceptDataCollection": "同意",
+    "declineDataCollection": "暂时不",
+    "togglePath": "设置",
+    "rejectedMessage": "您可以随时签署协议，从而通过在您的{link}中允许数据共享来为我们的服务不断发展做出贡献并从中受益。",
+    "thankYouMessage": "{thanksForParticipation} 您可以随时退出此协议，从而通过在您的{link}中禁用数据共享停止为我们的服务不断发展做出贡献并从中受益。",
+    "thanksForParticipation": "感谢您的参与！",
+    "settings": {
+      "deactivateDataCollection": "禁用数据共享",
+      "sharingInformation": "您正在与我们共享数据"
+    }
+  }
+}

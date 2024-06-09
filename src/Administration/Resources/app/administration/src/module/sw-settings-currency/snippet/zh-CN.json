@@ -1,0 +1,91 @@
+{
+  "sw-settings-currency": {
+    "general": {
+      "mainMenuItemGeneral": "货币",
+      "placeholderSearchBar": "搜索所有货币..."
+    },
+    "list": {
+      "textHeadline": "货币",
+      "textDeleteConfirm": "您确定要删除货币 \"{name}\" 吗？",
+      "columnName": "名称",
+      "columnIsoCode": "ISO 代码",
+      "columnShortName": "简称",
+      "columnSymbol": "符号",
+      "columnFactor": "汇率",
+      "columnDecimalPrecision": "小数位",
+      "buttonAddCurrency": "添加货币",
+      "contextMenuEdit": "编辑",
+      "contextMenuDelete": "删除",
+      "messageDeleteSuccess": "货币 \"{name}\" 已被删除。",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除"
+    },
+    "detail": {
+      "textHeadline": "新货币",
+      "labelPrecision": "小数位",
+      "placeholderPrecision": "输入显示的小数位数...",
+      "titleCard": "设置",
+      "messageSaveSuccess": "货币 \"{name}\" 已保存。",
+      "labelName": "名称",
+      "labelIsoCode": "ISO 代码",
+      "labelShortName": "简称",
+      "labelSymbol": "符号",
+      "labelFactor": "汇率",
+      "placeholderName": "输入名称...",
+      "placeholderIsoCode": "输入 ISO 代码...",
+      "placeholderShortName": "输入简称...",
+      "placeholderSymbol": "输入货币符号...",
+      "placeholderFactor": "输入汇率...",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "notificationErrorMessage": "保存货币时发生错误。",
+      "titleRoundingCard": "价格舍入",
+      "titleCountryRoundingCard": "国家",
+      "searchbarPlaceholder": "搜索国家...",
+      "notificationCountryErrorMessage": "保存国家货币设置时发生错误。",
+      "notificationCountrySuccessMessage": "国家货币设置保存成功。",
+      "currencyCountry": {
+        "countryColumn": "国家",
+        "itemDecimalsColumn": "商品小数位",
+        "itemIntervalColumn": "商品间隔",
+        "itemNetRoundingColumn": "商品净舍入",
+        "totalDecimalsColumn": "总计小数位",
+        "totalIntervalColumn": "总计间隔",
+        "totalNetRoundingColumn": "总计净舍入"
+      },
+      "emptyCountryRoundings": "为不同国家添加单独的小数位和舍入因子。",
+      "emptyCountryRoundingsNewCurrency": "填写基本信息，保存货币 - 然后添加值",
+      "buttonAddCountry": "添加国家",
+      "taxFreeFrom": "免税起点",
+      "taxFreeFromHelpText": "如果购物车总额高于“免税起点”中设置的值，则整个购物车将免税。仅适用于用 \"{currencyName}\" 支付的购物车。"
+    },
+    "currency-country-modal": {
+      "labelCountrySelect": "国家",
+      "titleNewCurrencyCountry": "国家",
+      "countryAlreadyAssigned": "该国家已经有此货币的设置。"
+    },
+    "price-rounding": {
+      "itemsHeadline": "商品",
+      "itemsSubline": "舍入适用于所有商品",
+      "labelDecimals": "小数位",
+      "labelInterval": "间隔",
+      "labelRoundForNet": "对净客户也舍入",
+      "grandHeadline": "总计",
+      "grandSubline": "舍入适用于总计",
+      "headerWarning": "不同的舍入间隔 - 请确保与您的个别服务提供商核对以避免会计问题。",
+      "headerInfo": "税收计算基于未舍入的总计。发生的舍入差异不属于税收计算范围。",
+      "helpTextDecimals": "小数位表示小数点后的最大位数。",
+      "helpTextInterval": "使用舍入间隔来应对已取消货币最低物理面额且现金舍入到位的市场。<br><br>提示：如果不想应用任何价格舍入，请选择“无”。例如，当使用大于 2 的小数位时。",
+      "helpTextRoundForNet": "另外为净客户组激活舍入。",
+      "labelIntervalNone": "无",
+      "tooltipIntervalDisabled": "如果配置了大于 2 的小数位，则不应用价格舍入。"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "currencies": {
+        "label": "货币"
+      }
+    }
+  }
+}

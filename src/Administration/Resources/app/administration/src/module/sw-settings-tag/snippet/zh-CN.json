@@ -1,0 +1,104 @@
+{
+  "sw-settings-tag": {
+    "general": {
+      "mainMenuItemGeneral": "标签",
+      "placeholderSearchBar": "搜索标签..."
+    },
+    "list": {
+      "textHeadline": "标签",
+      "textDeleteConfirm": "您确定要删除标签 \"{name}\" 吗？",
+      "columnName": "标签",
+      "columnConnections": "分配",
+      "buttonAddTag": "添加标签",
+      "contextMenuEdit": "编辑标签",
+      "contextMenuDuplicate": "复制标签",
+      "contextMenuDelete": "删除标签",
+      "messageDeleteSuccess": "标签 \"{name}\" 已删除。",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "titleEmptyStateList": "未找到标签。",
+      "searchPlaceholder": "搜索标签...",
+      "filter": "过滤",
+      "filterAssignemnt": "按分配实体过滤",
+      "placeholderFilterAssignemnt": "搜索分配...",
+      "filterEmpty": "仅显示未分配的标签",
+      "filterDuplicate": "仅显示重复的标签",
+      "resetFilters": "重置过滤器",
+      "bulkMerge": "合并",
+      "bulkMergeTitle": "合并标签",
+      "bulkMergeMessage": "您确定要合并",
+      "bulkMergeMessageAnd": "和",
+      "bulkMergeMessageFinal": "吗？",
+      "bulkMergeName": "新标签",
+      "bulkMerging": "合并中",
+      "bulkMergeNotice": "请等待合并过程完成。这可能需要一些时间。如果您关闭浏览器标签或提前取消过程，并非所有更改都会应用，现有标签将保持不变。您可以随时重新运行合并过程。",
+      "bulkMergeNoUndoNotice": "此操作无法撤销。",
+      "bulkMergeTimeNotice": "根据分配的实体数量，此过程可能需要一些时间。",
+      "bulkMergeInto": "合并到",
+      "placeholderTagName": "输入标签名称...",
+      "assignments": {
+        "header": {
+          "products": "产品分配",
+          "media": "媒体分配",
+          "categories": "类别分配",
+          "customers": "客户分配",
+          "orders": "订单分配",
+          "shippingMethods": "配送方式分配",
+          "newsletterRecipients": "新闻通讯收件人分配",
+          "landingPages": "登陆页面分配",
+          "rules": "规则分配"
+        },
+        "content": {
+          "products": "产品",
+          "media": "媒体",
+          "categories": "类别",
+          "customers": "客户",
+          "orders": "订单",
+          "shippingMethods": "配送方式",
+          "newsletterRecipients": "新闻通讯收件人",
+          "landingPages": "登陆页面",
+          "rules": "规则"
+        },
+        "filter": {
+          "products": "产品",
+          "media": "媒体",
+          "categories": "类别",
+          "customers": "客户",
+          "orders": "订单",
+          "shippingMethods": "配送方式",
+          "newsletterRecipients": "新闻通讯收件人",
+          "landingPages": "登陆页面",
+          "rules": "规则"
+        }
+      }
+    },
+    "detail": {
+      "editTitle": "编辑 \"{name}\"",
+      "generalTab": "常规",
+      "assignmentsTab": "分配",
+      "buttonSave": "保存",
+      "assignments": {
+        "searchPlaceholder": "搜索实体...",
+        "assignments": "已分配",
+        "selected": "已分配的实体",
+        "showSelected": "隐藏未分配的实体",
+        "products": "产品",
+        "media": "媒体",
+        "categories": "类别",
+        "customers": "客户",
+        "orders": "订单",
+        "shippingMethods": "配送方式",
+        "newsletterRecipients": "新闻通讯收件人",
+        "landingPages": "登陆页面",
+        "rules": "规则"
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "tag": {
+        "label": "标签"
+      }
+    }
+  }
+}

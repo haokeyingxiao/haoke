@@ -1,0 +1,43 @@
+{
+  "sw-settings-logging": {
+    "general": {
+      "mainMenuItemGeneral": "事件日志",
+      "placeholderSearchBar": "搜索日志..."
+    },
+    "list": {
+      "title": "日志",
+      "columnDate": "日期",
+      "columnMessage": "信息",
+      "columnLevel": "优先级",
+      "columnContent": "内容",
+      "actionShowInfo": "查看详情...",
+      "levelDebug": "调试",
+      "levelInfo": "信息",
+      "levelNotice": "通知",
+      "levelWarning": "警告",
+      "levelError": "错误",
+      "levelCritical": "严重",
+      "levelAlert": "警报",
+      "levelEmergency": "紧急",
+      "titleSidebarItemRefresh": "刷新"
+    },
+    "entryInfo": {
+      "title": "日志信息",
+      "tabRaw": "原始",
+      "actionClose": "关闭"
+    },
+    "mailInfo": {
+      "tabHTML": "HTML",
+      "tabPlain": "纯文本",
+      "recipientsTitle": "收件人",
+      "contentsTitle": "内容"
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "logging": "事件日志"
+      }
+    }
+  }
+}

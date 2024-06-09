@@ -1,0 +1,92 @@
+{
+  "sw-settings-tax": {
+    "general": {
+      "mainMenuItemGeneral": "税率",
+      "taxRateSymbol": "&#037;",
+      "placeholderSearchBar": "搜索税率..."
+    },
+    "list": {
+      "textHeadline": "税率",
+      "textDeleteConfirm": "您确定要删除税率 \"{name}\" 吗？",
+      "columnName": "名称",
+      "columnDefaultTaxRate": "税率",
+      "columnDefault": "默认",
+      "buttonAddTax": "添加税率",
+      "contextMenuEdit": "编辑",
+      "contextMenuDelete": "删除",
+      "messageDeleteSuccess": "税率 \"{name}\" 已被删除。",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "taxCardTitle": "税率",
+      "taxProvider": {
+        "cardTitle": "税务提供者",
+        "changePriorityButton": "更改优先级",
+        "editDetailsLink": "编辑详情",
+        "labelActive": "激活",
+        "messageEmptyTitle": "未找到税务提供者",
+        "statusChangedSuccess": {
+          "active": "税务提供者 \"{name}\" 现已激活。",
+          "inactive": "税务提供者 \"{name}\" 现已停用。"
+        },
+        "sorting-modal": {
+          "modalTitle": "更改税率计算优先级",
+          "subTitle": "使用拖放从上到下排序。顶部条目具有最高优先级。",
+          "saveSuccessful": "税务提供者优先级已保存。",
+          "errorMessage": "保存时出错。"
+        }
+      }
+    },
+    "detail": {
+      "textHeadline": "新税率",
+      "taxProviderInfoTitle": "税务提供者可能会覆盖您的税率",
+      "taxProviderInfoText": "税务提供者优先级高于固定税率。任何在此设置的固定税率可能会被覆盖。",
+      "titleCard": "设置",
+      "labelName": "名称",
+      "labelDefaultTaxRate": "税率",
+      "placeholderName": "输入名称...",
+      "placeholderDefaultTaxRate": "输入默认税率...",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "messageSaveError": "保存税率时出错。",
+      "messageSaveSuccess": "税率已保存。",
+      "defaultTaxLabel": "用作默认",
+      "defaultTaxHelpText": "创建新产品时将预先选择此税率。只能为一个单一税率设置。"
+    },
+    "taxRuleCard": {
+      "tooltipCountries": "如果未显示所有可用国家，请键入名称以访问未显示的国家。国家可以在设置/国家中创建或编辑。",
+      "labelTaxRate": "税率",
+      "labelAppliesOn": "适用于",
+      "labelCountryName": "国家",
+      "cardTitle": "国家",
+      "searchBarPlaceholder": "搜索国家...",
+      "labelCreateNew": "添加国家",
+      "labelCancel": "取消",
+      "labelStates": "州",
+      "labelZipCode": "邮政编码",
+      "labelFromZipCode": "从...",
+      "labelToZipCode": "到...",
+      "emptyStateDescription": "为不同国家添加单独的税率。",
+      "createStateDescription": "请先保存此税率，然后添加更多国家。",
+      "textDeleteConfirm": "您确定要删除此国家: \"{name}\" 吗？",
+      "placeholderStates": "添加州...",
+      "labelActiveFrom": "起始生效日期"
+    },
+    "taxProviderDetail": {
+      "textHeadline": "税务提供者",
+      "infoTitle": "仅在结账时进行最终税率计算",
+      "infoText": "这可能会影响您的购物车规则。检查配送方式、可用性规则等。",
+      "cardTitleSettings": "设置",
+      "cardTitleAvailability": "可用性",
+      "labelPriority": "优先级",
+      "labelActive": "激活",
+      "placeholderAvailabilityRule": "选择可用性规则..."
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "tax": {
+        "label": "税率"
+      }
+    }
+  }
+}

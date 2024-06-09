@@ -1,0 +1,89 @@
+{
+  "sw-settings-payment": {
+    "general": {
+      "mainMenuItemGeneral": "支付方式",
+      "placeholderSearchBar": "搜索所有支付方式..."
+    },
+    "overview": {
+      "openSortingModalButton": "编辑结账时的显示顺序",
+      "editDetails": "编辑详情",
+      "activeToggle": "激活",
+      "missingEditorPermission": "您没有权限编辑支付方式。",
+      "notification": {
+        "activationSuccess": "{name}已成功激活。",
+        "deactivationSuccess": "{name}已成功停用。",
+        "activationError": "{name}无法激活。",
+        "deactivationError": "{name}无法停用。"
+      }
+    },
+    "sorting-modal": {
+      "modalTitle": "结账时的显示顺序",
+      "subTitle": "使用拖放来定义结账时显示的支付方式顺序。",
+      "saveSuccessful": "支付方式的顺序已更新。",
+      "errorMessage": "更新支付方式顺序时发生错误。"
+    },
+    "list": {
+      "textHeadline": "支付",
+      "textDeleteConfirm": "您确定要删除支付方式“{name}”吗？",
+      "columnName": "名称",
+      "columnDescription": "描述",
+      "columnActive": "激活",
+      "columnPosition": "位置",
+      "columnExtension": "扩展",
+      "buttonAddPaymentMethod": "添加支付方式",
+      "contextMenuEdit": "编辑",
+      "contextMenuDelete": "删除",
+      "messageDeleteSuccess": "支付方式“{name}”已删除。",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "pluginDeleteTitleText": "无法删除插件支付方式。"
+    },
+    "detail": {
+      "textHeadline": "新支付方式",
+      "titleCard": "支付方式",
+      "messageSaveSuccess": "支付方式“{name}”已保存。",
+      "messageSaveError": "支付方式“{name}”未能保存。",
+      "labelName": "名称",
+      "labelTechnicalName": "技术名称",
+      "labelPosition": "位置",
+      "labelActive": "激活",
+      "labelAfterOrderEnabled": "允许结账后更改支付方式",
+      "labelDescription": "描述",
+      "labelLogoUpload": "上传标志",
+      "sidebar": {
+        "labelUseAsLogo": "用作标志"
+      },
+      "topRule": "可用性规则",
+      "placeholderName": "输入名称...",
+      "placeholderTechnicalName": "输入技术名称...",
+      "placeholderPosition": "输入位置...",
+      "placeholderDescription": "输入描述...",
+      "placeholderAvailabilityRule": "选择可用性规则...",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "helpTextTechnicalName": "技术名称用于唯一引用支付方式。后续更改技术名称可能会导致依赖它的支付集成不再工作。",
+      "hintTextTechnicalName": "将在6.7.0版本中需要",
+      "hintTextTechnicalNameIsProvided": "技术名称已由{name}提供。",
+      "delete": {
+        "textHeadline": "删除支付方式",
+        "textAlert": "此支付方式在规则、销售渠道或订单中使用，因此无法删除。",
+        "textButton": "删除支付方式",
+        "modal": {
+          "textConfirmation": "您真的要删除此支付方式吗？",
+          "buttonCancel": "取消",
+          "buttonDelete": "删除"
+        }
+      }
+    }
+  },
+  "sw-plugin-box": {
+    "buttonPluginSettings": "扩展设置"
+  },
+  "sw-privileges": {
+    "permissions": {
+      "payment": {
+        "label": "支付方式"
+      }
+    }
+  }
+}

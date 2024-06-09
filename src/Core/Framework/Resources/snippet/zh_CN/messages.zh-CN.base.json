@@ -1,0 +1,63 @@
+{
+  "document": {
+    "invoiceNumber": "发票 %invoiceNumber%",
+    "invoiceHeadline": "发票 %invoiceNumber%",
+    "stornoHeadline": "发票 %invoiceNumber% 的取消 %stornoNumber%",
+    "stornoNumber": "取消号 %stornoNumber%",
+    "stornoDate": "取消日期 %date%",
+    "deliveryNoteNumber": "送货单 %deliveryNoteNumber%",
+    "deliveryNoteHeadline": "订单 %orderNumber% 的送货单 %deliveryNoteNumber%",
+    "creditNoteNumber": "信用单 %creditNoteNumber%",
+    "creditNoteHeadline": "发票号 %invoiceNumber% 的信用单 %creditNoteNumber%",
+    "customerNumber": "客户号 %customerNumber%",
+    "date": "日期 %date%",
+    "comment": "备注: %comment%",
+    "orderDate": "订单日期 %orderDate%",
+    "deliveryDate": "交货日期: %deliveryDate%",
+    "page": "页 %pageNumber%",
+    "orderNumber": "订单号 %orderNumber%",
+    "taxNumber": "税号: %taxNumber%",
+    "vatId": "增值税号: %vatId%",
+    "taxOffice": "税务机关: %taxOffice%",
+    "bankAccount": "银行账户",
+    "bankIban": "IBAN: %bankIban%",
+    "bankBic": "BIC: %bankBic%",
+    "placeOfJurisdiction": "<strong>司法管辖地:</strong> %placeOfJurisdiction%",
+    "serviceDateNotice": "服务日期等同于发票日期",
+    "placeOfFulfillment": "<strong>履行地:</strong> %placeOfFulfillment%",
+    "intraCommunity": "欧盟境内交货",
+    "shippingAddress": "送货地址",
+    "phoneNumber": "电话 %phoneNumber%",
+    "email": "电子邮件地址: %email%",
+    "ceo": "首席执行官",
+    "lineItems": {
+      "header": {
+        "position": "位置",
+        "label": "产品 / 服务",
+        "tax": "增值税",
+        "quantity": "数量",
+        "unitPrice": "单价",
+        "productNumber": "产品编号",
+        "total": "总计"
+      },
+      "tax": "加 %taxRate%% 增值税:",
+      "total": "总计:",
+      "roundedTotal": "四舍五入总计:",
+      "totalNet": "净总计:",
+      "shippingCosts": "运费",
+      "inclVAT": "含增值税"
+    },
+    "paymentShippingInfo": {
+      "paymentMethod": "<strong>支付方式:</strong> %paymentMethod%",
+      "shippingMethod": "<strong>配送方式:</strong> %shippingMethod%",
+      "additionalInfo": "货物交付后，所有权在全额支付前仍属于我们。"
+    }
+  },
+  "filter": {
+    "sortByNameAscending": "名称，A-Z",
+    "sortByNameDescending": "名称，Z-A",
+    "sortByPriceAscending": "价格，升序",
+    "sortByPriceDescending": "价格，降序",
+    "sortByScore": "最佳结果"
+  }
+}

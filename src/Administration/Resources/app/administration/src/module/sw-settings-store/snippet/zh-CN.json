@@ -1,0 +1,16 @@
+{
+  "sw-settings-store": {
+    "general": {
+      "mainMenuItemGeneral": "好客账户",
+      "textHeadline": "好客账户",
+      "description": "在此更改您的Shopware账户设置。",
+      "buttonSave": "保存",
+      "messageSaveSuccess": "您的Shopware账户信息已保存。"
+    },
+    "detail": {
+      "titleCard": "设置",
+      "labelHost": "许可域名",
+      "placeholderHost": "输入在您的Shopware账户中指定的许可域名（商店域名）。"
+    }
+  }
+}

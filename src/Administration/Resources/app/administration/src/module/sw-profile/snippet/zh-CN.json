@@ -1,0 +1,151 @@
+{
+  "sw-profile": {
+    "general": {
+      "mainMenuItemGeneral": "个人资料",
+      "description": "在这里管理您的个人资料。",
+      "headlineProfile": "个人中心"
+    },
+    "index": {
+      "buttonSaveLabel": "保存",
+      "titleInfoCard": "个人信息",
+      "titleImageCard": "个人头像",
+      "titlePasswordCard": "密码",
+      "labelFirstNameField": "名字",
+      "labelLastNameField": "姓氏",
+      "labelUsernameField": "用户名",
+      "labelEmailField": "电子邮件地址",
+      "labelTimezoneField": "时区",
+      "labelOldPassword": "旧密码",
+      "placeholderOldPassword": "输入旧密码...",
+      "labelNewPassword": "新密码",
+      "placeholderNewPassword": "输入新密码...",
+      "labelNewPasswordConfirm": "确认密码",
+      "placeholderNewPasswordConfirm": "重新输入新密码...",
+      "notificationPasswordErrorMessage": "提交的密码不匹配。",
+      "notificationNewPasswordIsSameAsOldErrorMessage": "新密码与旧密码相同。请选择一个新密码。",
+      "notificationInvalidEmailErrorMessage": "请输入有效的电子邮件地址。",
+      "notificationSaveSuccessMessage": "个人信息已保存。",
+      "notificationSaveErrorMessage": "无法保存个人信息。",
+      "labelUploadAvatar": "上传头像",
+      "labelUseAsAvatar": "设为头像"
+    },
+    "tabGeneral": {
+      "title": "常规"
+    },
+    "tabSearchPreferences": {
+      "title": "搜索偏好",
+      "alert_elasticsearch": {
+        "title": "Elasticsearch 现已启用",
+        "text": "您已为管理员搜索启用了 Elasticsearch，这些字段是可搜索的，您无法关闭它，但您可以关闭哪些实体是可搜索的"
+      },
+      "cardSearchableElements": {
+        "title": "可搜索元素",
+        "description": "为每个模块和条目设置可搜索的内容。",
+        "buttonSelect": "全选",
+        "buttonDeselect": "全不选",
+        "buttonReset": "恢复默认"
+      },
+      "modules": {
+        "order": {
+          "countryName": "国家",
+          "city": "城市",
+          "street": "街道",
+          "company": "公司",
+          "zipcode": "邮政编码",
+          "lastName": "姓氏",
+          "firstName": "名字",
+          "phoneNumber": "电话号码",
+          "additionalAddressLine1": "附加地址行 1",
+          "additionalAddressLine2": "附加地址行 2",
+          "trackingCodes": "追踪代码",
+          "amountTotal": "总金额",
+          "orderNumber": "订单编号",
+          "email": "电子邮件地址",
+          "tagsName": "标签",
+          "customerNumber": "客户编号",
+          "documentNumber": "文档编号",
+          "promotionCode": "已应用的促销代码"
+        },
+        "customer": {
+          "tagsName": "标签",
+          "email": "电子邮件地址",
+          "company": "公司",
+          "firstName": "名字",
+          "lastName": "姓氏",
+          "customerNumber": "客户编号",
+          "countryName": "国家",
+          "city": "城市",
+          "street": "街道",
+          "zipcode": "邮政编码",
+          "phoneNumber": "电话号码",
+          "additionalAddressLine1": "附加地址行 1",
+          "additionalAddressLine2": "附加地址行 2"
+        },
+        "product": {
+          "ean": "GTIN/EAN",
+          "name": "名称",
+          "tagsName": "标签",
+          "productNumber": "产品编号",
+          "manufacturerNumber": "制造商编号",
+          "customSearchKeywords": "SEO 关键词"
+        },
+        "media": {
+          "alt": "替代文本",
+          "tagsName": "标签",
+          "title": "标题",
+          "fileName": "名称",
+          "mediaFolderName": "文件夹"
+        },
+        "landing_page": {
+          "name": "名称",
+          "tagsName": "标签"
+        },
+        "category": {
+          "name": "名称",
+          "tagsName": "标签"
+        },
+        "shipping_method": {
+          "name": "名称"
+        },
+        "payment_method": {
+          "name": "名称"
+        },
+        "customer_group": {
+          "name": "名称"
+        },
+        "sales_channel": {
+          "name": "名称"
+        },
+        "property": {
+          "name": "名称"
+        },
+        "property_group": {
+          "name": "名称"
+        },
+        "promotion": {
+          "name": "名称",
+          "code": "代码"
+        },
+        "product_stream": {
+          "name": "名称"
+        },
+        "newsletter_recipient": {
+          "email": "电子邮件地址"
+        },
+        "product_manufacturer": {
+          "name": "名称"
+        },
+        "cms_page": {
+          "name": "名称"
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "user": {
+        "update_profile": "更新自己的资料"
+      }
+    }
+  }
+}

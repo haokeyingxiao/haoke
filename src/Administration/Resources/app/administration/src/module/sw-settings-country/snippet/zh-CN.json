@@ -1,0 +1,128 @@
+{
+  "sw-settings-country": {
+    "page": {
+      "generalTab": "设置",
+      "stateTab": "州/地区",
+      "addressHandlingTab": "地址处理"
+    },
+    "general": {
+      "mainMenuItemGeneral": "国家",
+      "placeholderSearchBar": "搜索国家...",
+      "actions": {
+        "newSnippet": "添加新片段",
+        "createBefore": "在前面创建新行",
+        "createAfter": "在后面创建新行",
+        "moveTop": "将行移至顶部",
+        "moveBottom": "将行移至底部"
+      }
+    },
+    "list": {
+      "textHeadline": "国家",
+      "textDeleteConfirm": "您确定要删除国家 \"{name}\" 吗？",
+      "columnName": "名称",
+      "columnPosition": "位置",
+      "columnIso": "ISO2",
+      "columnIso3": "ISO3",
+      "columnActive": "激活",
+      "buttonAddCountry": "添加国家",
+      "contextMenuEdit": "编辑",
+      "contextMenuDelete": "删除",
+      "messageDeleteSuccess": "国家 \"{name}\" 已被删除。",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除"
+    },
+    "detail": {
+      "textHeadline": "新国家",
+      "titleCard": "一般信息",
+      "messageSaveSuccess": "国家 \"{name}\" 已保存。",
+      "messageSaveError": "国家 \"{name}\" 无法保存。",
+      "labelName": "名称",
+      "labelPosition": "位置",
+      "labelIso": "ISO2",
+      "labelIso3": "ISO3",
+      "labelActive": "激活",
+      "labelShippingAvailable": "运输",
+      "labelTaxFree": "免税 (B2C)",
+      "labelCompanyTaxFree": "免税 (B2B)",
+      "helpTextCompanyTaxFree": "为了进行免税 B2B 交易，相应的客户账户需要有一个有效的 VAT 注册号。",
+      "labelCheckVatIdFormat": "验证 VAT 注册号格式",
+      "helpTextCheckVatIdFormat": "验证欧盟成员国的 VAT 注册号格式。",
+      "labelForceStateInRegistration": "需要州/地区",
+      "placeholderName": "输入名称...",
+      "placeholderPosition": "1",
+      "placeholderStateSearch": "搜索州/地区...",
+      "placeholderIso": "输入 Alpha-2 ISO 代码...",
+      "placeholderIso3": "输入 Alpha-3 ISO 代码...",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "buttonAddCountryState": "添加州/地区",
+      "editAction": "编辑",
+      "columnStateNameLabel": "名称",
+      "columnStateShortCodeLabel": "ISO",
+      "taxFreeFrom": "最低购物车价值（净值）",
+      "baseCurrency": "基本货币",
+      "taxFreeFromHelpText": "如果购物车总额高于“最低购物车价值（净值）”中设置的值，则整个购物车将免税。",
+      "labelVatIdRequired": "需要 VAT 注册号",
+      "helpTextLabelVatIdRequired": "请注意“设置 > 登录/注册”中的全局开关。",
+      "titleOptions": "选项",
+      "currencyDependentValues": "依赖货币的值",
+      "labelPostalCodeRequired": "需要邮政编码",
+      "labelCheckPostalCodePattern": "邮政编码验证",
+      "labelCheckAdvancedPostalCodePattern": "高级验证规则",
+      "placeholderAdvancedPostalCodePattern": "输入邮政编码模式...",
+      "helpTextAdvancedPostalCodePattern": "可能使用的格式：<br><br>^\\d{5}$ - 精确 5 位数字，例如 12345<br><br>^(\\d{4})\\s*([A-Z]{2})$ - 精确 4 位数字和 2 个字母，例如 1234 AB",
+      "labelCheckDefaultAddressFormat": "自定义地址格式",
+      "labelAddressFormatPlain": "格式",
+      "titleFormatting": "地址标记",
+      "helpTextCheckPostalCodePattern": "启用对一系列国家的邮政编码验证",
+      "previewTitle": "预览",
+      "labelCustomer": "客户",
+      "placeholderSelectCustomer": "选择客户...",
+      "buttonResetMarkup": "重置地址标记",
+      "newSnippetModalTitle": "插入片段",
+      "buttonInsertSnippet": "插入片段",
+      "placeholderSearchSnippet": "搜索片段..."
+    }
+  },
+  "sw-country-state-detail": {
+    "titleNew": "新州/地区",
+    "titleEdit": "编辑州/地区",
+    "buttonSave": "保存",
+    "buttonCancel": "取消",
+    "labelName": "名称",
+    "labelPosition": "位置",
+    "labelShortCode": "ISO",
+    "tooltipPosition": "更改列表中州/地区的排序。",
+    "createNewStateError": "无法使用当前选择的语言创建地区。请首先使用系统默认语言创建地区。",
+    "emptyTitle": "无可用地区",
+    "emptySubline": "添加地区"
+  },
+  "sw-privileges": {
+    "permissions": {
+      "country": {
+        "label": "国家"
+      }
+    }
+  },
+  "sw-custom-snippet": {
+    "address": {
+      "countryState": "州",
+      "salutation": "称呼",
+      "country": "国家",
+      "zipcode": "邮政编码",
+      "lastName": "姓氏",
+      "firstName": "名字",
+      "street": "街道",
+      "city": "城市",
+      "company": "公司",
+      "phoneNumber": "电话号码",
+      "department": "部门",
+      "title": "标题"
+    },
+    "symbol": {
+      "tilde": "～",
+      "dash": "-",
+      "comma": ","
+    }
+  }
+}

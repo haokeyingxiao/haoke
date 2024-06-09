@@ -1,0 +1,119 @@
+{
+  "sw-settings-search": {
+    "general": {
+      "mainMenuItemGeneral": "搜索",
+      "textHeadline": "搜索设置"
+    },
+    "page": {
+      "generalTab": "通用",
+      "liveSearchTab": "实时搜索"
+    },
+    "generalTab": {
+      "labelSearchBehaviour": "搜索行为",
+      "textTitleSearchBehaviour": "预定义您的销售渠道的搜索行为。",
+      "labelSearchAndCondition": "“与”搜索",
+      "textSearchAndConditionExplain": "搜索结果匹配输入搜索词的每一个元素。\n例如：“Jeans summer”会找到包含“jeans”和“summer”这两个搜索词的搜索结果。",
+      "labelSearchOrCondition": "“或”搜索",
+      "textSearchOrConditionExplain": "搜索结果匹配输入搜索词的任意一个元素。\n例如：“Jeans summer”会找到包含“jeans”或“summer”任意一个搜索词的搜索结果。",
+      "labelMinimalSearchTerm": "最小搜索词长度",
+      "labelExcludedSearchTerms": "排除的搜索词",
+      "textEmptyStateExcludedSearchTerms": "尚未排除搜索词",
+      "buttonAddExcludedSearch": "排除搜索词",
+      "textPlaceholderTermsFilter": "搜索排除的搜索词...",
+      "buttonAddExcludedSearchTerms": "排除搜索词",
+      "labelExcludedSearchTermsNoResults": "未找到结果。",
+      "labelSearchableContent": "可搜索内容",
+      "textDescriptionSearchableContent": "所有可搜索内容都列在下表中。要自定义您的销售渠道中的搜索结果，可以排除某些内容或调整每个元素的排名。排名较高的元素将有更高的“搜索价值”，并在搜索结果中排名更高。",
+      "buttonResetDefault": "恢复默认",
+      "linkExample": "显示示例",
+      "buttonAddContent": "添加可搜索内容",
+      "labelGeneralTab": "通用",
+      "labelCustomFieldsTab": "自定义字段",
+      "textEmptyStateSearchableContent": "尚未添加可搜索内容。",
+      "titleExampleModal": "搜索排名示例",
+      "textColumnSearchTerm": "排除的搜索词",
+      "modal": {
+        "textExplain": "下面是三个虚构的搜索结果，搜索词为“jeans”。可搜索的内容包括产品标题（排名分数100）、产品描述（排名分数50）和产品标签（排名分数20）。",
+        "textTitle": "标题",
+        "textSuperJeans": "超级牛仔裤",
+        "textDescription": "描述",
+        "textFancyJeans": "花哨的牛仔裤",
+        "textTag": "标签",
+        "textJeans": "牛仔裤",
+        "textTotal": "总计",
+        "textProductRankedFirstScore": "排名第一的产品在每个可搜索实体中都有搜索命中，总排名分数为170。",
+        "textFancyPants": "花哨的裤子",
+        "textProductRankedSecondScore": "排名第二的产品在产品名称和产品标签中有搜索命中，总排名分数为120。",
+        "textSuperPants": "超级裤子",
+        "textProductRankedThirdScore": "排名第三的产品只有在产品标签中有命中，总排名分数为20。"
+      },
+      "labelSearchIndex": "搜索索引",
+      "buttonRebuildSearchIndex": "重建搜索索引",
+      "textWarningOpenTab": "请保持此窗口打开。",
+      "textRebuildSearchIndexDescription": "重建搜索索引需要一些时间。在此期间，必须保持此窗口打开，以成功重建搜索索引。完成后您会收到通知。",
+      "textRebuildingSearchIndex": "正在重建搜索索引",
+      "textLastedBuild": "最新构建：",
+      "textSearchNotIndexedYet": "尚未索引搜索。",
+      "list": {
+        "columnSearchable": "可搜索",
+        "columnRankingPoints": "排名分数",
+        "columnContent": "内容",
+        "columnSplitKeywords": "拆分搜索词",
+        "textResetRanking": "重置排名",
+        "textRemove": "移除"
+      },
+      "configFields": {
+        "name": "产品名称",
+        "description": "产品描述",
+        "productNumber": "产品编号",
+        "manufacturerNumber": "制造商编号",
+        "ean": "GTIN/EAN",
+        "customSearchKeywords": "自定义搜索词",
+        "manufacturerName": "制造商名称",
+        "manufacturerCustomFields": "制造商自定义字段",
+        "categoriesName": "类别名称",
+        "categoriesCustomFields": "类别自定义字段",
+        "tagsName": "产品标签",
+        "metaTitle": "产品元标题",
+        "metaDescription": "产品元描述",
+        "propertiesValue": "属性值",
+        "variantValue": "变体值"
+      }
+    },
+    "notification": {
+      "saveSuccess": "配置已保存。",
+      "excludedTermRequired": "排除的搜索词不能为空。",
+      "excludedTermAlreadyExists": "排除的搜索词已存在。",
+      "updateExcludedTermSuccess": "排除的搜索词已更新。",
+      "createExcludedTermSuccess": "排除的搜索词已创建。",
+      "deleteExcludedTermSuccess": "排除的搜索词已删除。",
+      "resetToDefaultExcludedTermSuccess": "排除的搜索词已恢复默认。",
+      "resetToDefaultExcludedTermError": "重置排除的搜索词时出错。",
+      "saveError": "保存配置时出错。",
+      "index": {
+        "started": "正在构建产品索引。",
+        "success": "产品索引已构建。"
+      },
+      "loadError": "加载配置时出错。",
+      "notSupportedLanguageError": "所选语言在所选销售渠道中不可用。"
+    },
+    "liveSearchTab": {
+      "titleCard": "销售渠道实时搜索",
+      "textDescription": "在下面测试您的自定义搜索设置。",
+      "labelSalesChannelSelect": "销售渠道",
+      "textPlaceholderSalesChannel": "选择销售渠道...",
+      "linkRebuildSearchIndex": "重建搜索索引",
+      "labelName": "搜索结果",
+      "labelScore": "排名分数",
+      "textNoResult": "未找到结果。请尝试其他搜索词。"
+    },
+    "textLeaveConfirm": "您在此页面上进行了更改。如果离开未保存，您的更改将会丢失。"
+  },
+  "sw-privileges": {
+    "permissions": {
+      "product_search_config": {
+        "label": "搜索"
+      }
+    }
+  }
+}

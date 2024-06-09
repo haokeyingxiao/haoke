@@ -1,0 +1,77 @@
+{
+  "sw-settings-product-feature-sets": {
+    "general": {
+      "mainMenuItemGeneral": "关键特性",
+      "placeholderSearchBar": "搜索模板...",
+      "searchType": "关键特性"
+    },
+    "list": {
+      "textHeadline": "关键特性",
+      "textDeleteConfirm": "您确定要删除关键特性“{name}”吗？",
+      "columnValues": "值",
+      "columnTemplate": "模板",
+      "columnDescription": "描述",
+      "buttonAddEssentialCharacteristics": "创建新的",
+      "contextMenuEdit": "编辑",
+      "contextMenuDelete": "删除",
+      "messageDeleteSuccess": "关键特性“{name}”已删除。",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除"
+    },
+    "detail": {
+      "textHeadline": "新模板",
+      "titleCard": "常规信息",
+      "titleCardValues": "值",
+      "messageSaveSuccess": "特性模板“{name}”已保存。",
+      "messageSaveError": "保存产品关键特性模板时发生错误。",
+      "labelName": "名称",
+      "labelDescription": "描述",
+      "labelValues": "值",
+      "placeholderName": "输入模板名称...",
+      "placeholderDescription": "输入描述...",
+      "buttonSave": "保存",
+      "notificationErrorMessage": "保存产品关键特性模板时发生错误。",
+      "labelCreateNew": "添加值"
+    },
+    "valuesCard": {
+      "createStateDescription": "添加值以定义针对您的产品范围量身定制的关键特性。",
+      "labelCreateNew": "添加字段",
+      "cardTitle": "值",
+      "labelValue": "值",
+      "labelType": "类型",
+      "labelPosition": "位置",
+      "emptyStateDescription": "添加值以定义针对您的产品范围量身定制的关键特性。"
+    },
+    "modal": {
+      "buttonAdd": "添加",
+      "textPropertyLabel": "属性",
+      "textCustomFieldLabel": "自定义字段",
+      "textProductInfoLabel": "产品信息",
+      "textReferencePriceLabel": "单价",
+      "labelTitlePageOne": "选择您要添加到模板的字段类型",
+      "labelTitleModal": "添加值",
+      "labelName": "名称",
+      "buttonNext": "下一步",
+      "buttonCancel": "取消",
+      "label": {
+        "property": "属性",
+        "width": "宽度",
+        "height": "高度",
+        "length": "长度",
+        "weight": "重量",
+        "releaseDate": "发布日期",
+        "description": "描述",
+        "manufacturerNumber": "生产商产品编号",
+        "ean": "GTIN/EAN",
+        "referencePrice": "单价"
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "product_feature_sets": {
+        "label": "关键特性"
+      }
+    }
+  }
+}

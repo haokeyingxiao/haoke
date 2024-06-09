@@ -462,6 +462,10 @@ class GenerateDocumentActionTest extends TestCase
             [
                 'number_range_id' => $numberRangeId,
                 'name' => 'Example',
+            ],
+            [
+                'number_range_id' => $numberRangeId,
+                'name' => 'Example',
             ]
         );
 
@@ -469,6 +473,10 @@ class GenerateDocumentActionTest extends TestCase
             [
                 'number_range_type_id' => $numberRangeTypeId,
                 'type_name' => 'Beispiel',
+            ],
+            [
+                'number_range_type_id' => $numberRangeTypeId,
+                'type_name' => 'Example',
             ],
             [
                 'number_range_type_id' => $numberRangeTypeId,
@@ -511,6 +519,10 @@ class GenerateDocumentActionTest extends TestCase
             [
                 'document_type_id' => $documentTypeId,
                 'name' => $germanName,
+            ],
+            [
+                'document_type_id' => $documentTypeId,
+                'name' => $englishName,
             ],
             [
                 'document_type_id' => $documentTypeId,

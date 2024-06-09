@@ -1,0 +1,51 @@
+{
+  "global": {
+    "error-codes": {
+      "DELIVERY_TIME_MIN_INVALID": "最小值不应高于最大值。"
+    }
+  },
+  "sw-settings-delivery-time": {
+    "general": {
+      "mainMenuItemGeneral": "交货时间",
+      "description": "用于管理交货时间的设置模块",
+      "buttonCancel": "取消",
+      "buttonCreate": "添加交货时间",
+      "buttonSave": "保存",
+      "placeholder": "搜索所有交货时间..."
+    },
+    "list": {
+      "textHeadline": "交货时间",
+      "columnName": "名称",
+      "columnUnit": "单位",
+      "columnMin": "最小值",
+      "columnMax": "最大值",
+      "columnUnit_hour": "小时",
+      "columnUnit_day": "天",
+      "columnUnit_week": "周",
+      "columnUnit_month": "月",
+      "columnUnit_year": "年",
+      "errorLoad": "无法加载交货时间列表。"
+    },
+    "detail": {
+      "textHeadlineNew": "新交货时间",
+      "labelName": "名称",
+      "labelUnit": "单位",
+      "labelMin": "最小值",
+      "labelMax": "最大值",
+      "selectionUnitHour": "小时",
+      "selectionUnitDay": "天",
+      "selectionUnitWeek": "周",
+      "selectionUnitMonth": "月",
+      "selectionUnitYear": "年",
+      "errorLoad": "无法加载交货时间。",
+      "errorSave": "交货时间无法保存。"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "delivery_times": {
+        "label": "交货时间"
+      }
+    }
+  }
+}

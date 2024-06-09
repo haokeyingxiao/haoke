@@ -1,0 +1,36 @@
+{
+  "sw-settings-units": {
+    "detail": {
+      "fieldLabels": {
+        "name": "度量单位名称",
+        "shortCode": "缩写"
+      }
+    },
+    "general": {
+      "mainMenuItemGeneral": "度量单位",
+      "placeholderSearchBar": "搜索度量单位...",
+      "createNewUnit": "添加度量单位",
+      "disableAddNewUnitMessage": "只能在系统默认语言中添加新的度量单位。"
+    },
+    "grid": {
+      "columnName": "度量单位",
+      "columnShortCode": "缩写",
+      "contextMenuDelete": "删除"
+    },
+    "empty-state": {
+      "title": "暂无度量单位",
+      "subline": "在此管理度量单位。"
+    },
+    "notification": {
+      "successMessage": "度量单位已保存。",
+      "errorMessage": "无法保存度量单位。请填写所有必填字段。"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "scale_unit": {
+        "label": "度量单位"
+      }
+    }
+  }
+}

@@ -1,9 +1,9 @@
 {
   "sw-privilege-error": {
     "general": {
-      "mainMenuItemGeneral": "Access denied",
-      "descriptionTextModule": "Looks like you don’t have permission to access this page. Reach out to an administrator to gain access.",
-      "goBack": "Go back"
+      "mainMenuItemGeneral": "访问被拒绝",
+      "descriptionTextModule": "看起来您没有权限访问此页面。请联系管理员以获取访问权限。",
+      "goBack": "返回"
     }
   }
 }

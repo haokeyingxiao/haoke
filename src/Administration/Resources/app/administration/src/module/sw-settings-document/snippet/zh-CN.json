@@ -1,0 +1,81 @@
+{
+  "sw-settings-document": {
+    "general": {
+      "mainMenuItemGeneral": "文档",
+      "description": "设置模块中的文档配置部分",
+      "placeholderSearchBar": "搜索所有文档..."
+    },
+    "list": {
+      "textHeadline": "文档",
+      "textDeleteConfirm": "您确定要删除文档 \"{name}\" 吗？",
+      "columnName": "技术名称",
+      "columnType": "类型",
+      "columnUsedIn": "分配到",
+      "columnAssignment": "分配",
+      "buttonAddDocument": "添加文档",
+      "contextMenuEdit": "编辑",
+      "messageDeleteSuccess": "文档 \"{name}\" 已删除。",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "global": "全局"
+    },
+    "detail": {
+      "textHeadline": "新文档",
+      "configCard": "设置",
+      "companyCard": "公司设置",
+      "assignmentCard": "分配",
+      "messageSaveSuccess": "文档 \"{name}\" 已保存。",
+      "labelName": "技术名称",
+      "labelFileNamePrefix": "文件名前缀",
+      "labelFileNameSuffix": "文件名后缀",
+      "labelDisplayPrices": "显示价格",
+      "labelDisplayHeader": "显示页眉",
+      "labelDisplayLineItems": "显示行项目",
+      "labelDisplayLineItemPosition": "显示行项目位置",
+      "labelDisplayPageCount": "显示页数",
+      "labelPageOrientation": "页面方向",
+      "labelPageSize": "页面格式",
+      "labelItemsPerPage": "每页项目数",
+      "labelDisplayCompanyAddress": "显示公司地址",
+      "labelCompanyAddress": "公司地址",
+      "labelCompanyName": "名称",
+      "labelCompanyEmail": "电子邮箱",
+      "labelCompanyPhone": "电话号码",
+      "labelCompanyUrl": "网站",
+      "labelTaxNumber": "税号",
+      "labelTaxOffice": "税务局",
+      "labelVatId": "增值税号",
+      "labelBankName": "银行",
+      "labelBankIban": "IBAN",
+      "labelBankBic": "BIC",
+      "labelType": "文档类型",
+      "labelSalesChannel": "销售渠道",
+      "labelDisplayFooter": "显示页脚",
+      "labelPlaceOfJurisdiction": "司法管辖地 / 商业登记号",
+      "labelPlaceOfFulfillment": "履行地",
+      "labelExecutiveDirector": "业务主管",
+      "labelDisplayAdditionalNoteDelivery": "显示 \"欧盟内交货\" 标签",
+      "labelDeliveryCountries": "成员国",
+      "labelDisplayCustomerVatId": "显示客户增值税号",
+      "placeholderDisplayDeliveryCountries": "搜索并添加适用于欧盟内交货的国家...",
+      "labelOptionMedia": "公司标志",
+      "placeholderName": "输入名称...",
+      "buttonCancel": "取消",
+      "buttonSave": "保存",
+      "disabledSalesChannel": "此销售渠道中已有相同类型的另一个文档。",
+      "disabledSalesChannelSelect": "请先选择一个文档类型。",
+      "disabledTypeSelect": "全局文档的类型无法更改。",
+      "labelDisplayDocumentInCustomerAccount": "在“我的账户”中显示文档",
+      "labelDisplayDivergentDeliveryAddress": "显示不同的送货地址",
+      "helpTextDisplayDocumentInCustomerAccount": "文档显示在相应客户账户的“订单”下。请注意，只有实际发送给客户的文档才会显示在客户账户中。",
+      "helpTextDisplayDeliveryCountries": "在发票文档上为选定国家显示“欧盟内交货”指示。"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "document": {
+        "label": "文档"
+      }
+    }
+  }
+}

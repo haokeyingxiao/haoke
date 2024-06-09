@@ -1,0 +1,26 @@
+{
+  "sw-settings": {
+    "general": {
+      "mainMenuItemGeneral": "设置"
+    },
+    "index": {
+      "title": "设置",
+      "tabShop": "商店",
+      "tabSystem": "系统",
+      "tabPlugins": "扩展"
+    },
+    "system-config": {
+      "labelSalesChannelSelect": "销售渠道",
+      "inherited": "继承",
+      "compileNotice": "此配置包含可在主题中使用的字段。请编译主题以使这些更改可见。",
+      "scssHelpText": "SCSS 变量名："
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "system_config": "基本配置"
+      }
+    }
+  }
+}

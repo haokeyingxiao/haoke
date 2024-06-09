@@ -1,0 +1,235 @@
+{
+  "sw-users-permissions": {
+    "general": {
+      "label": "用户与权限"
+    },
+    "permissions": {},
+    "roles": {
+      "general": {
+        "labelCreateNewRole": "创建角色",
+        "cardLabel": "角色"
+      },
+      "role-grid": {
+        "labelName": "名称",
+        "labelDescription": "描述",
+        "messageEmptyTitle": "暂无角色",
+        "messageEmptySubline": "创建角色以开始管理用户权限。",
+        "contextMenuEdit": "编辑",
+        "contextMenuDelete": "删除",
+        "titleModalDelete": "删除角色",
+        "textModalDelete": "您真的要删除角色\"{name}\"吗？",
+        "labelButtonCancel": "取消",
+        "labelButtonDelete": "删除",
+        "notification": {
+          "deleteSuccess": {
+            "message": "角色\"{name}\"已删除。"
+          },
+          "deleteError": {
+            "message": "角色\"{name}\"无法删除。"
+          }
+        }
+      },
+      "detail": {
+        "role": "角色",
+        "basicInformation": "基本信息",
+        "labelName": "名称",
+        "labelDescription": "描述",
+        "permissions": "权限"
+      },
+      "grid": {
+        "title": "权限",
+        "disabledCheckboxMessage": "要禁用此选项，您必须首先禁用其他活动选项。"
+      },
+      "additional-permissions": {
+        "title": "附加权限"
+      },
+      "detailed-additional-permissions": {
+        "title": "附加权限"
+      },
+      "view": {
+        "detailed": {
+          "alertText": "详细配置权限。所有停用的复选框都是在“常规”选项卡中已分配的权限，不可配置。如果使用的扩展添加了新数据集但没有权限，可以在此配置。"
+        }
+      },
+      "tabs": {
+        "general": "常规",
+        "detailed": "详细权限"
+      }
+    },
+    "users": {
+      "general": {
+        "mainMenuItemGeneral": "用户与权限",
+        "placeholderSearchBar": "查找用户...",
+        "labelUserList": "用户与权限",
+        "labelCreateNewUser": "创建新用户",
+        "cardLabel": "用户"
+      },
+      "user-grid": {
+        "labelUsername": "用户名",
+        "labelFirstName": "名字",
+        "labelLastName": "姓氏",
+        "labelRoles": "角色",
+        "labelEmail": "电子邮件地址",
+        "contextMenuEdit": "编辑",
+        "contextMenuDelete": "删除",
+        "contextMenuDuplicate": "复制",
+        "titleModalDelete": "删除用户",
+        "textModalDelete": "您真的要删除用户\"{name}\"吗？",
+        "labelButtonCancel": "取消",
+        "labelButtonDelete": "删除",
+        "notification": {
+          "deleteSuccess": {
+            "message": "用户\"{name}\"已删除。"
+          },
+          "deleteError": {
+            "message": "用户\"{name}\"无法删除。"
+          },
+          "deleteUserLoggedInError": {
+            "message": "用户不能删除自己。"
+          }
+        }
+      },
+      "user-detail": {
+        "labelCard": "基本信息",
+        "labelIntegrationsCard": "集成",
+        "labelFirstName": "名字",
+        "labelLastName": "姓氏",
+        "labelEmail": "电子邮件地址",
+        "errorEmailUsed": "此电子邮件地址已被使用。",
+        "errorUsernameUsed": "此用户名已被使用。",
+        "labelUsername": "用户名",
+        "labelPassword": "密码",
+        "labelProfilePicture": "个人资料图片",
+        "labelLanguage": "用户界面语言",
+        "labelLanguagePlaceholder": "选择语言...",
+        "labelChangePassword": "更改密码",
+        "labelAdministrator": "管理员",
+        "labelTimezone": "时区",
+        "labelJobTitle": "职位",
+        "labelRoles": "角色",
+        "labelNewPassword": "新密码",
+        "labelNewUser": "新用户",
+        "placeholderNewPassword": "输入新密码...",
+        "placeholderNewPasswordConfirm": "确认新密码...",
+        "labelButtonCancel": "取消",
+        "labelButtonChangePassword": "更改",
+        "labelButtonSave": "保存",
+        "writeAccess": "写入",
+        "readAccess": "读取",
+        "contextMenuEdit": "编辑",
+        "contextMenuDelete": "删除",
+        "textChangePassword": "按下“更改”按钮将立即保存新密码！",
+        "addAccessKey": "创建访问密钥",
+        "noAccessKeysTitle": "暂无访问密钥",
+        "noAccessKeysSubline": "在此创建访问密钥",
+        "labelAccessKey": "访问密钥",
+        "labelPermissions": "权限",
+        "disabledRoleSelectWarning": "只有没有管理员权限的用户可以选择角色。",
+        "passwordConfirmation": {
+          "titleConfirmPasswordModal": "确认密码",
+          "labelConfirmPassword": "密码",
+          "placeholderConfirmPassword": "输入您的当前密码...",
+          "labelButtonCancel": "取消",
+          "labelButtonConfirm": "确认",
+          "notificationPasswordErrorTitle": "错误",
+          "notificationPasswordErrorMessage": "请正确提交您的当前密码。"
+        },
+        "modal": {
+          "detailModalTitle": "创建集成",
+          "detailModalTitleEdit": "编辑",
+          "confirmDelete": "您确定要删除此集成吗？",
+          "buttonApply": "保存集成",
+          "buttonApplyEdit": "保存更改",
+          "buttonCancel": "取消",
+          "buttonDelete": "删除",
+          "buttonCreateNewApiKeys": "创建新API密钥",
+          "hintCreateNewApiKeys": "建议生成新的API访问密钥后，更新所有相关脚本和应用程序。",
+          "labelFieldLabel": "名称",
+          "idFieldLabel": "访问密钥ID",
+          "secretFieldLabel": "安全访问密钥",
+          "secretHelpText": "请立即复制您的访问密钥。出于安全原因，保存后将不再可见。",
+          "messageSaveSuccess": "集成已保存。",
+          "messageSaveError": "集成无法保存。",
+          "messageCreateNewError": "集成无法保存。"
+        },
+        "notification": {
+          "saveError": {
+            "message": "用户\"{name}\"无法保存。"
+          },
+          "saveSuccess": {
+            "message": "用户\"{name}\"已保存。"
+          },
+          "invalidEmailErrorMessage": "请输入有效的电子邮件地址。",
+          "duplicateEmailErrorMessage": "此电子邮件地址已注册。"
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "roles": {
+      "all": "全部",
+      "viewer": "查看",
+      "editor": "编辑",
+      "creator": "创建",
+      "deleter": "删除"
+    },
+    "permissionType": {
+      "read": "读取",
+      "update": "更新",
+      "create": "创建",
+      "delete": "删除"
+    },
+    "permissions": {
+      "parents": {
+        "catalogues": "目录",
+        "content": "内容",
+        "customers": "客户",
+        "marketing": "营销",
+        "other": "其他",
+        "orders": "订单",
+        "settings": "设置"
+      },
+      "users_and_permissions": {
+        "label": "用户与权限"
+      },
+      "routes": {
+        "label": "路由"
+      }
+    },
+    "additional_permissions": {
+      "system": {
+        "label": "设置"
+      },
+      "user": {
+        "label": "用户"
+      },
+      "marketing": {
+        "label": "营销"
+      },
+      "orders": {
+        "label": "订单"
+      },
+      "routes": {
+        "label": "路由",
+        "api_action_access-key_integration": "创建API密钥",
+        "api_acl_privileges_get": "读取所有ACL权限",
+        "api_acl_privileges_route_get": "读取ACL路由权限",
+        "api_action_cache_info": "读取缓存信息",
+        "api_action_cache_index": "触发索引器",
+        "api_action_cache_delete": "删除缓存",
+        "api_action_cache_cleanup": "清理缓存",
+        "api_action_container-cache_delete": "删除容器缓存",
+        "api_info_me": "读取自己的api用户信息",
+        "api_info_ping": "刷新身份验证令牌",
+        "system:clear:cache": "清除缓存",
+        "api_proxy_switch-customer": "代表客户操作",
+        "api_feature_flag_toggle": "切换功能标志"
+      },
+      "app": {
+        "label": "应用程序",
+        "all": "全部",
+        "disabledCheckboxMessage": "要禁用此选项，您必须先禁用全部选项。"
+      }
+    }
+  }
+}
