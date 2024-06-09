@@ -57,7 +57,7 @@
         "openMyExtensions": "Zu meinen Erweiterungen",
         "deactivateAll": "Alle Erweiterungen deaktivieren.",
         "deactivateIncompatible": "Inkompatible Erweiterungen deaktivieren.",
-        "deactivateNone": "Ich bin mir der potentiellen Gefahren bewusst und möchte trotzdem eine Aktualisierung durchführen, ohne die entsprechenden Erweiterungen vorher zu deaktivieren. Mir ist klar, dass Haoke keinerlei Garantie zur Funktionsweise meiner Installation nach einer inkompatiblen Aktualisierung geben kann.",
+        "deactivateNone": "Ich bin mir der potentiellen Gefahren bewusst und möchte trotzdem eine Aktualisierung durchführen, ohne die entsprechenden Erweiterungen vorher zu deaktivieren. Mir ist klar, dass Shopware keinerlei Garantie zur Funktionsweise meiner Installation nach einer inkompatiblen Aktualisierung geben kann.",
         "recommended": "(Empfohlen)"
       },
       "pluginNotInStore": "Diese Erweiterung ist im Store nicht verfügbar. Bitte kontaktiere den Erweiterungs-Hersteller.",

@@ -435,7 +435,7 @@ const mtCheckboxInvalidTests = [
         output: `
             <template>
                 <mt-checkbox>
-                    <!-- Slot "label" was removed and should be replaced with "label" prop. Previous value was:  Hello Haoke  -->
+                    <!-- Slot "label" was removed and should be replaced with "label" prop. Previous value was:  Hello Shopware  -->
                 </mt-checkbox>
             </template>`,
         errors: [{
@@ -472,7 +472,7 @@ const mtCheckboxInvalidTests = [
         output: `
             <template>
                 <mt-checkbox>
-                    <!-- Slot "label" was removed and should be replaced with "label" prop. Previous value was:  Hello Haoke  -->
+                    <!-- Slot "label" was removed and should be replaced with "label" prop. Previous value was:  Hello Shopware  -->
                 </mt-checkbox>
             </template>`,
         errors: [{
@@ -509,7 +509,7 @@ const mtCheckboxInvalidTests = [
         output: `
             <template>
                 <mt-checkbox>
-                    <!-- Slot "hint" was removed and should be replaced with "label" prop. Previous value was:  Hello Haoke  -->
+                    <!-- Slot "hint" was removed and should be replaced with "label" prop. Previous value was:  Hello Shopware  -->
                 </mt-checkbox>
             </template>`,
         errors: [{
@@ -546,7 +546,7 @@ const mtCheckboxInvalidTests = [
         output: `
             <template>
                 <mt-checkbox>
-                    <!-- Slot "hint" was removed and should be replaced with "label" prop. Previous value was:  Hello Haoke  -->
+                    <!-- Slot "hint" was removed and should be replaced with "label" prop. Previous value was:  Hello Shopware  -->
                 </mt-checkbox>
             </template>`,
         errors: [{

@@ -9,9 +9,9 @@ import 'vite/modulepreload-polyfill';
 import { configureCompat } from 'vue';
 import './app/assets/scss/all.scss';
 
-// Import the Haoke instance
+// Import the Shopware instance
 void import('src/core/shopware').then(async ({ ShopwareInstance }) => {
-    // Set the global Haoke instance
+    // Set the global Shopware instance
     window.Shopware = ShopwareInstance;
 
     // Take all keys out of Shopware.compatConfig but set them to true

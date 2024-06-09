@@ -30,8 +30,8 @@
         "isLoggedIn": "Haoke Account succesfully connected. Go to the \"App\" or \"Themes\" tab and check if your purchased extensions are listed. If not, check head over to your Showare Account and make sure the correct domain for extensions has been set.",
         "login": "Login",
         "logout": "Logout",
-        "loginMessage": "Login with you Haoke Account to access extensions you bought on store.haokeyingxiao.com",
-        "register": "Sign up now and become part of the Haoke community!",
+        "loginMessage": "Login with you Shopware Account to access extensions you bought on store.haokeyingxiao.com",
+        "register": "Sign up now and become part of the Shopware community!",
         "registerNow": "Sign up now",
         "registerUrl": "https://account.haokeyingxiao.com/register?lang=en",
         "mailLabel": "Email address",
@@ -40,7 +40,7 @@
         "passwordPlaceholder": "Enter your password...",
         "recoveryUrl": "https://account.haokeyingxiao.com/recovery?lang=en",
         "passwordForgot": "Did you forget your password?",
-        "loginNotificationMessage": "You are logged in to the Haoke Account."
+        "loginNotificationMessage": "You are logged in to the Shopware Account."
       },
       "tabs": {
         "app": "Apps",
@@ -52,19 +52,19 @@
         "buttonFileUpload": "Upload extension",
         "messageUploadSuccess": "Extension uploaded.",
         "titleWarningModal": "Warning",
-        "descriptionWarningModal": "Extensions from outside the Haoke Store have not been reviewed by us and could potentially pose a risk to your store. We recommend using extensions from the Haoke Store whenever possible.",
+        "descriptionWarningModal": "Extensions from outside the Shopware Store have not been reviewed by us and could potentially pose a risk to your store. We recommend using extensions from the Shopware Store whenever possible.",
         "textHideWarning": "Do not show again"
       }
     },
     "errors": {
-      "messageToTheShopwareDocumentation": "<a href=\"{documentationLink}\" target=\"_blank\">Open Haoke Documentation</a>",
+      "messageToTheShopwareDocumentation": "<a href=\"{documentationLink}\" target=\"_blank\">Open Shopware Documentation</a>",
       "messageGenericFailure": "That didn't work.",
       "messageUploadFailureNotAZipFile": "Uploaded file is not a ZIP file.",
       "messageUploadFailureUnzipFailed": "Unable to extract ZIP file.",
       "messageUploadFailureNoPluginFoundInZipFile": "No extension found in ZIP file.",
       "messageLoginDataInvalid": "Login data incomplete.",
-      "messageStoreLicenseDomainMissing": "Login failed. Did you provide the correct licence domain from your Haoke Account in \"Settings/Haoke Account\"?",
-      "messageStoreNotAvailable": "The Haoke Store is not available.",
+      "messageStoreLicenseDomainMissing": "Login failed. Did you provide the correct licence domain from your Shopware Account in \"Settings/Haoke Account\"?",
+      "messageStoreNotAvailable": "The Shopware Store is not available.",
       "messagePluginBaseClassNotFound": "The extension base class could not be loaded. Check the composer.json of the extension regarding the class autoloading.",
       "messagePluginInstallationFailed": "The extension could not be installed: \"{message}\".",
       "messagePluginUninstallationFailed": "The extension could not be uninstalled: \"{message}\".",
@@ -74,11 +74,11 @@
       "messageDeactivationFailedThemeAssignment": "Unable to deactivate or uninstall theme \"{themeName}\". Please remove the following theme assignments: {assignments}.",
       "messagePluginUpdateFailed": "The extension could not be updated: \"{message}\". {pluginDeactivatedHint}",
       "pluginDeactivatedHint": "Extension deactivated.",
-      "messagePluginRequirementMismatch": "The extension has technical requirements that are not compatible with those of the installed Haoke version. Please contact the manufacturer.",
-      "appIsNotCompatible": "Extension \"{name}\" is not compatible with this Haoke version",
+      "messagePluginRequirementMismatch": "The extension has technical requirements that are not compatible with those of the installed Shopware version. Please contact the manufacturer.",
+      "appIsNotCompatible": "Extension \"{name}\" is not compatible with this Shopware version",
       "appLicenseCouldNotBeVerified": {
         "title": "The licence of this extension could not be verified",
-        "message": "Ensure that your licence domain is set correctly and that you are logged in with your Haoke Account to which this extension is licensed.",
+        "message": "Ensure that your licence domain is set correctly and that you are logged in with your Shopware Account to which this extension is licensed.",
         "actionSetLicenseDomain": "Set licence domain",
         "actionLogin": "Login"
       },
@@ -105,17 +105,17 @@
   },
   "sw-extension-store": {
     "landing-page": {
-      "enablingShopwareStore": "Activating the Haoke Store...",
+      "enablingShopwareStore": "Activating the Shopware Store...",
       "takeMinutes": "This may take a few minutes.",
       "activationErrorTitle": "Error during activation",
       "activationErrorDescription": "Please try again. If that doesn't work, ask your administrator for help.",
       "retryButton": "Retry",
       "activationSuccessTitle": "Activated successfully",
-      "activationSuccessDescription": "Have fun exploring the Haoke Store.",
+      "activationSuccessDescription": "Have fun exploring the Shopware Store.",
       "label": "Now available",
       "activationDescriptionTitleFirst": "Explore and buy extensions easily -",
-      "activationDescriptionTitleSecond": "right from within your own Haoke shop.",
-      "activationDescriptionTitleDescription": "Activate the Haoke Store and get access to loads of helpful extensions and modern themes that can be integrated into your shop seemlessly - without any programming skills.",
+      "activationDescriptionTitleSecond": "right from within your own Shopware shop.",
+      "activationDescriptionTitleDescription": "Activate the Shopware Store and get access to loads of helpful extensions and modern themes that can be integrated into your shop seemlessly - without any programming skills.",
       "activate": "Activate"
     },
     "title": "Store",
@@ -197,7 +197,7 @@
           "labelButtonBack": "Back to details"
         },
         "alertCanNotBuy": {
-          "text": "You need to be logged in to the Haoke Store to do this"
+          "text": "You need to be logged in to the Shopware Store to do this"
         }
       },
       "sw-extension-adding-failed": {
@@ -207,7 +207,7 @@
           "titleFailure": "Installation failed",
           "textProblem": "A problem occurred while installing your extension. We will inform the manufacturer.",
           "notificationLicense": "Please note that the subscription to this extension remains active.",
-          "textSupport": "If you have any questions about the licence, please contact Haoke Financial Services. Available via email at {0} or via phone at {1}.",
+          "textSupport": "If you have any questions about the licence, please contact Shopware Financial Services. Available via email at {0} or via phone at {1}.",
           "supportEmail": "financial.services{'@'}haokeyingxiao.com",
           "supportPhone": "+49 (0)2555 / 9288510"
         }

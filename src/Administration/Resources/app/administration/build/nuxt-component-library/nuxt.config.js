@@ -32,7 +32,7 @@ module.exports = {
         '~/modules/parser/index'
     ],
     head: {
-        titleTemplate: '%s - Haoke Component library',
+        titleTemplate: '%s - Shopware Component library',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },

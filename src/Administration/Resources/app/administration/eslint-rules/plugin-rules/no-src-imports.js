@@ -14,8 +14,8 @@ module.exports = {
                     context.report({
                         loc: node.source.loc.start,
                         message: `\
-You can't use imports directly from the Haoke Core via "${node.source.value}". \
-Use the global Haoke object directly instead (https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/administration/the-shopware-object)`,
+You can't use imports directly from the Shopware Core via "${node.source.value}". \
+Use the global Shopware object directly instead (https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/administration/the-shopware-object)`,
                     });
                 }
             },

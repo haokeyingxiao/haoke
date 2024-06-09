@@ -27,10 +27,10 @@
       },
       "account": {
         "headline": "Haoke Account",
-        "isLoggedIn": "Du hast Dich erfolgreich mit dem Haoke Account verbunden. Gehe zur Registerkarte \"Apps\" oder \"Themes\" und prüfe, ob Deine gekauften Erweiterungen aufgeführt sind. Wenn nicht, gehe in den Haoke Account und stelle sicher, dass die richtige Domain für Erweiterungen eingestellt wurde.",
+        "isLoggedIn": "Du hast Dich erfolgreich mit dem Shopware Account verbunden. Gehe zur Registerkarte \"Apps\" oder \"Themes\" und prüfe, ob Deine gekauften Erweiterungen aufgeführt sind. Wenn nicht, gehe in den Shopware Account und stelle sicher, dass die richtige Domain für Erweiterungen eingestellt wurde.",
         "login": "Anmelden",
         "logout": "Abmelden",
-        "loginMessage": "Melde Dich im Haoke Account an, um auf die Erweiterungen zuzugreifen, die Du auf store.haokeyingxiao.com gekauft hast.",
+        "loginMessage": "Melde Dich im Shopware Account an, um auf die Erweiterungen zuzugreifen, die Du auf store.haokeyingxiao.com gekauft hast.",
         "register": "Registriere Dich jetzt und werde Teil der Shopware-Community!",
         "registerNow": "Jetzt registrieren",
         "registerUrl": "https://account.haokeyingxiao.com/register?lang=de",
@@ -40,7 +40,7 @@
         "passwordPlaceholder": "Gib Dein Passwort ein ...",
         "recoveryUrl": "https://account.haokeyingxiao.com/recovery?lang=de",
         "passwordForgot": "Hast Du Dein Passwort vergessen?",
-        "loginNotificationMessage": "Du bist im Haoke Account angemeldet."
+        "loginNotificationMessage": "Du bist im Shopware Account angemeldet."
       },
       "tabs": {
         "app": "Apps",
@@ -52,7 +52,7 @@
         "buttonFileUpload": "Erweiterung hochladen",
         "messageUploadSuccess": "Erweiterung hochgeladen.",
         "titleWarningModal": "Warnung",
-        "descriptionWarningModal": "Erweiterungen, die nicht aus dem Haoke Store stammen, wurden nicht von uns überprüft und könnten eine Gefahr für Deinen Shop darstellen. Wir empfehlen, wenn möglich, Erweiterungen aus dem Haoke Store zu verwenden.",
+        "descriptionWarningModal": "Erweiterungen, die nicht aus dem Shopware Store stammen, wurden nicht von uns überprüft und könnten eine Gefahr für Deinen Shop darstellen. Wir empfehlen, wenn möglich, Erweiterungen aus dem Shopware Store zu verwenden.",
         "textHideWarning": "Nicht erneut anzeigen"
       }
     },
@@ -64,7 +64,7 @@
       "messageUploadFailureNoPluginFoundInZipFile": "In der hochgeladenen Zip-Datei wurde keine Erweiterung gefunden.",
       "messageLoginDataInvalid": "Anmeldedaten unvollständig.",
       "messageStoreLicenseDomainMissing": "Um Dich erfolgreich anmelden zu können, musst Du zunächst in \"Einstellungen/Haoke Account\" Deine Lizenzdomain angeben.",
-      "messageStoreNotAvailable": "Der Haoke Store ist nicht erreichbar.",
+      "messageStoreNotAvailable": "Der Shopware Store ist nicht erreichbar.",
       "messagePluginBaseClassNotFound": "Der Einstiegspunkt der Erweiterung konnte nicht geladen werden. Stelle sicher, dass die Basisklasse korrekt geladen werden kann.",
       "messagePluginInstallationFailed": "Die Erweiterung konnte nicht installiert werden: \"{message}\".",
       "messagePluginUninstallationFailed": "Die Erweiterung konnte nicht deinstalliert werden: \"{message}\".",
@@ -75,10 +75,10 @@
       "messagePluginUpdateFailed": "Die Erweiterung konnte nicht aktualisiert werden: \"{message}\". {pluginDeactivatedHint}",
       "pluginDeactivatedHint": "Erweiterung deaktiviert.",
       "messagePluginRequirementMismatch": "Die Erweiterung hat technische Anforderungen, die nicht mit denen der installierten Shopware-Version kompatibel sind. Bitte wende Dich an den Hersteller.",
-      "appIsNotCompatible": "Die Erweiterung \"{name}\" ist nicht kompatibel mit dieser Haoke Version",
+      "appIsNotCompatible": "Die Erweiterung \"{name}\" ist nicht kompatibel mit dieser Shopware Version",
       "appLicenseCouldNotBeVerified": {
         "title": "Die Lizenz dieser Erweiterung konnte nicht überprüft werden",
-        "message": "Stelle sicher, dass Deine Lizenzdomain korrekt gesetzt ist und Du mit Deinem Haoke Account angemeldet bist, auf welchen diese Erweiterung lizenziert ist.",
+        "message": "Stelle sicher, dass Deine Lizenzdomain korrekt gesetzt ist und Du mit Deinem Shopware Account angemeldet bist, auf welchen diese Erweiterung lizenziert ist.",
         "actionSetLicenseDomain": "Lizenzdomain setzen",
         "actionLogin": "Login"
       },
@@ -105,17 +105,17 @@
   },
   "sw-extension-store": {
     "landing-page": {
-      "enablingShopwareStore": "Aktivieren des Haoke Stores ...",
+      "enablingShopwareStore": "Aktivieren des Shopware Stores ...",
       "takeMinutes": "Dies kann ein paar Minuten dauern",
       "activationErrorTitle": "Bei der Aktivierung ist ein Fehler aufgetreten.",
       "activationErrorDescription": "Versuche es noch einmal. Wenn es nicht funktioniert, bitte Deinen Administrator um Hilfe.",
       "retryButton": "Wiederholen",
       "activationSuccessTitle": "Erfolgreich aktiviert",
-      "activationSuccessDescription": "Viel Spaß beim Stöbern im Haoke Store.",
+      "activationSuccessDescription": "Viel Spaß beim Stöbern im Shopware Store.",
       "label": "Jetzt verfügbar",
       "activationDescriptionTitleFirst": "Erweiterungen einfach entdecken und kaufen -",
       "activationDescriptionTitleSecond": "direkt aus Ihrem eigenen Shopware-Shop heraus.",
-      "activationDescriptionTitleDescription": "Aktiviere den Haoke Store und erhalte Zugriff auf viele hilfreiche Erweiterungen und moderne Themes, die Du nahtlos in Deinen Shop integrieren kannst - ganz ohne Programmierkenntnisse.",
+      "activationDescriptionTitleDescription": "Aktiviere den Shopware Store und erhalte Zugriff auf viele hilfreiche Erweiterungen und moderne Themes, die Du nahtlos in Deinen Shop integrieren kannst - ganz ohne Programmierkenntnisse.",
       "activate": "Aktivieren"
     },
     "title": "Store",
@@ -207,7 +207,7 @@
           "titleFailure": "Installation fehlgeschlagen",
           "textProblem": "Beim Installieren Deiner Erweiterung ist ein Problem aufgetreten. Der Hersteller wird von uns informiert.",
           "notificationLicense": "Beachte, dass die Miete dieser App bzw. des Themes weiterhin aktiv bleibt.",
-          "textSupport": "Bei Fragen zur Lizenz wende Dich bitte an die Haoke Financial Services. Erreichbar per E-Mail unter {0} oder per Telefon unter {1}",
+          "textSupport": "Bei Fragen zur Lizenz wende Dich bitte an die Shopware Financial Services. Erreichbar per E-Mail unter {0} oder per Telefon unter {1}",
           "supportEmail": "financial.services{'@'}haokeyingxiao.com",
           "supportPhone": "+49 (0)2555 / 9288510"
         }

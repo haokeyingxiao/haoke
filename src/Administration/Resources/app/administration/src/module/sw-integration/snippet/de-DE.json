@@ -5,7 +5,7 @@
       "headlineIntegrations": "Integrationen",
       "buttonCreateIntegration": "Integration anlegen",
       "heroHeadlineIntegrations": "Integrationen verwalten",
-      "heroDescriptionIntegrations": "Shopware bietet eine leistungsstarke API um andere Systeme und Anwendungen nahtlos in Deine eigenen Prozesse zu integrieren. Damit ein anderes System mit Haoke kommunizieren kann, werden zur Authentifizierung entsprechende Sicherheitsschlüssel benötigt. Du kannst Zugänge für jede einzelne Anwendung erstellen und so im Auge behalten, welche Änderungen von welcher Anwendung durchgeführt wurden."
+      "heroDescriptionIntegrations": "Shopware bietet eine leistungsstarke API um andere Systeme und Anwendungen nahtlos in Deine eigenen Prozesse zu integrieren. Damit ein anderes System mit Shopware kommunizieren kann, werden zur Authentifizierung entsprechende Sicherheitsschlüssel benötigt. Du kannst Zugänge für jede einzelne Anwendung erstellen und so im Auge behalten, welche Änderungen von welcher Anwendung durchgeführt wurden."
     },
     "list": {
       "contextMenuEdit": "Bearbeiten",
