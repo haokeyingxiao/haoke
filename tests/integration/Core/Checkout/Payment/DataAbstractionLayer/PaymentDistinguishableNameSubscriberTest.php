@@ -138,7 +138,7 @@ class PaymentDistinguishableNameSubscriberTest extends TestCase
 
         /** @var PaymentMethodEntity $invoicePaymentByShopwarePlugin */
         $invoicePaymentByShopwarePlugin = $payments->get($invoicePaymentByShopwarePluginId);
-        static::assertEquals('Invoice | Haoke (English)', $invoicePaymentByShopwarePlugin->getDistinguishableName());
+        static::assertEquals('Invoice | Shopware (English)', $invoicePaymentByShopwarePlugin->getDistinguishableName());
 
         /** @var PaymentMethodEntity $invoicePaymentByPlugin */
         $invoicePaymentByPlugin = $payments->get($invoicePaymentByPluginId);

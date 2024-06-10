@@ -1,4 +1,4 @@
 framework:
-    default_locale: en
+    default_locale: zh
     translator:
-        fallbacks: [ 'en' ]
+        fallbacks: [ 'zh' ]

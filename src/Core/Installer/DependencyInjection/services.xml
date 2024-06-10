@@ -5,22 +5,13 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <parameters>
         <parameter key="shopware.installer.supportedLanguages" type="collection">
+            <parameter key="zh">zh-CN</parameter>
             <parameter key="de">de-DE</parameter>
             <parameter key="en">en-GB</parameter>
-            <parameter key="us">en-US</parameter>
-            <parameter key="cs">cs-CZ</parameter>
-            <parameter key="es">es-ES</parameter>
-            <parameter key="fr">fr-FR</parameter>
-            <parameter key="it">it-IT</parameter>
-            <parameter key="nl">nl-NL</parameter>
-            <parameter key="pl">pl-PL</parameter>
-            <parameter key="pt">pt-PT</parameter>
-            <parameter key="sv">sv-SE</parameter>
-            <parameter key="da">da-DK</parameter>
-            <parameter key="nb">nb-NO</parameter>
         </parameter>
 
         <parameter key="shopware.installer.supportedCurrencies" type="collection">
+            <parameter>CNY</parameter>
             <parameter>EUR</parameter>
             <parameter>USD</parameter>
             <parameter>GBP</parameter>

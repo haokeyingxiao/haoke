@@ -39,7 +39,7 @@ return [
 
         // Internal flag added
         'The number of required arguments for Shopware\\\\Core\\\\Framework\\\\Api\\\\ApiDefinition\\\\Generator\\\\StoreApiGenerator#generate\(\) increased from 3 to 4',
-        'The number of required arguments for Shopware\\\\Core\\\\Migration\\\\Traits\\\\Translations#__construct() increased from 2 to 3',
+        'The number of required arguments for Shopware\\\\Core\\\\Migration\\\\Traits\\\\Translations#__construct\(\) increased from 2 to 3',
         'Shopware\\\\Core\\\\Framework\\\\Api\\\\ApiDefinition\\\\Generator\\\\StoreApiGenerator was marked \"@internal\"',
         'Shopware\\\\Core\\\\Framework\\\\App\\\\Manifest\\\\Xml\\\\Storefront',
         'Shopware\\\\Core\\\\Framework\\\\App\\\\Manifest\\\\Xml\\\\MainModule',
