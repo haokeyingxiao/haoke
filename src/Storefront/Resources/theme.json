@@ -74,7 +74,7 @@
           "de-DE": "Primärfarbe"
         },
         "type": "color",
-        "value": "#0C29AB",
+        "value": "#0b539b",
         "editable": true,
         "block": "themeColors",
         "order": 100
