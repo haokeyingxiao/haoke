@@ -111,9 +111,11 @@ $sw-login-error-animation-duration: 0.15s;
         transition:
             top $sw-login-media-query-animation-duration ease-in-out,
             right $sw-login-media-query-animation-duration ease-in-out;
+
         svg {
             fill: $color-white;
         }
+
         @media screen and (max-width: 600px) {
             top: 0;
             right: 0;
@@ -175,6 +177,7 @@ $sw-login-error-animation-duration: 0.15s;
         font-size: 60px;
         font-weight: $font-weight-semi-bold;
         transition: font-size $sw-login-media-query-animation-duration ease-in-out;
+
         @media screen and (max-width: 1100px) {
             font-size: 40px;
         }
