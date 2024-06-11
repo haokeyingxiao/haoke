@@ -170,8 +170,8 @@ class Migration1536233560BasicData extends MigrationStep
         $connection->insert('locale_translation', [
             'locale_id' => $localeEn,
             'language_id' => $languageZh,
-            'name' => '中文',
-            'territory' => '中国',
+            'name' => '英文',
+            'territory' => '英国',
             'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT),
         ]);
         $connection->insert('locale_translation', [
@@ -184,8 +184,8 @@ class Migration1536233560BasicData extends MigrationStep
         $connection->insert('locale_translation', [
             'locale_id' => $localeDe,
             'language_id' => $languageZh,
-            'name' => '中文',
-            'territory' => '中国',
+            'name' => '德语',
+            'territory' => '德国',
             'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT),
         ]);
         $connection->insert('locale_translation', [
