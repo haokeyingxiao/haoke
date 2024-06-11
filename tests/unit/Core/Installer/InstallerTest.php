@@ -26,17 +26,7 @@ class InstallerTest extends TestCase
             [
                 'de' => 'de-DE',
                 'en' => 'en-GB',
-                'us' => 'en-US',
-                'cs' => 'cs-CZ',
-                'es' => 'es-ES',
-                'fr' => 'fr-FR',
-                'it' => 'it-IT',
-                'nl' => 'nl-NL',
-                'pl' => 'pl-PL',
-                'pt' => 'pt-PT',
-                'sv' => 'sv-SE',
-                'da' => 'da-DK',
-                'nb' => 'nb-NO',
+                'zh' => 'zh-CN',
             ],
             $container->getParameter('shopware.installer.supportedLanguages')
         );
