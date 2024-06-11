@@ -16,7 +16,6 @@ $bundles = [
     Shopware\Core\Maintenance\Maintenance::class => ['all' => true],
     Shopware\Administration\Administration::class => ['all' => true],
     Shopware\Storefront\Storefront::class => ['all' => true],
-    Shopware\Core\Tools\Tools::class => ['all' => true],
     Shopware\Elasticsearch\Elasticsearch::class => ['all' => true],
 ];
 

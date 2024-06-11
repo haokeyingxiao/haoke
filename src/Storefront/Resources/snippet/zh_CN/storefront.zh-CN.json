@@ -641,8 +641,7 @@
     "newsletter": "立即订阅我们的定期新闻，保持关注最新产品和特价优惠。",
     "includeVatText": "* 所有价格包含增值税加上 <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">送货费用</a> 和可能的送货费用，除非另有说明。",
     "excludeVatText": "* 所有价格不含增值税加上 <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">送货费用</a> 和可能的送货费用，除非另有说明。",
-    "copyrightInfo": "由好客实现",
-    "mobilePreview": "手机浏览"
+    "copyrightInfo": "由好客实现"
   },
   "captcha": {
     "googleReCaptcha": {
