@@ -139,7 +139,7 @@ class PaymentMethodIndexerTest extends TestCase
 
         /** @var PaymentMethodEntity $invoicePaymentByShopwarePlugin */
         $invoicePaymentByShopwarePlugin = $payments->get($invoicePaymentByShopwarePluginId);
-        static::assertEquals('Invoice | Haoke (English)', $invoicePaymentByShopwarePlugin->getDistinguishableName());
+        static::assertEquals('Invoice | Shopware (English)', $invoicePaymentByShopwarePlugin->getDistinguishableName());
 
         /** @var PaymentMethodEntity $invoicePaymentByPlugin */
         $invoicePaymentByPlugin = $payments->get($invoicePaymentByPluginId);
@@ -174,7 +174,7 @@ class PaymentMethodIndexerTest extends TestCase
 
         /** @var PaymentMethodEntity $invoicePaymentByShopwarePlugin */
         $invoicePaymentByShopwarePlugin = $payments->get($invoicePaymentByShopwarePluginId);
-        static::assertEquals('Rechnungskauf | Haoke (Deutsch)', $invoicePaymentByShopwarePlugin->getDistinguishableName());
+        static::assertEquals('Rechnungskauf | Shopware (Deutsch)', $invoicePaymentByShopwarePlugin->getDistinguishableName());
 
         /** @var PaymentMethodEntity $invoicePaymentByPlugin */
         $invoicePaymentByPlugin = $payments->get($invoicePaymentByPluginId);
