@@ -85,7 +85,7 @@ class CustomFieldSubscriberTest extends TestCase
 
         $snippetCount = $this->connection->executeQuery('SELECT count(*) FROM snippet')->fetchFirstColumn();
 
-        static::assertSame($expectedCount, (int)$snippetCount[0]);
+        static::assertSame($expectedCount, (int) $snippetCount[0]);
         foreach ($snippets as $locale => $languageSnippets) {
             foreach ($languageSnippets as $snippet) {
                 static::assertSame($expectedSnippets[$locale][$snippet['translation_key']], $snippet['value']);
