@@ -496,6 +496,7 @@
     "filterRatingActiveLabelEndSingular": "星",
     "filterRatingActiveLabelEnd": "星",
     "filterRatingAndMore": "最少 %points%/%maxPoints%",
+    "filterRatingMinAltText": "添加过滤器：最少 %maxPoints% 星中的 %points% 星的评分",
     "filterRangeMinLabel": "最低",
     "filterRangeMaxLabel": "最高",
     "filterRangeActiveMinLabel": "%displayName% 从",
@@ -604,6 +605,8 @@
     "reviewLoginCancelButton": "取消",
     "reviewAvgRate": "共计",
     "reviewAvgRateElements": "星",
+    "reviewAvgRatingAltText": "平均评分：%maxPoints% 星中的 %points% 星",
+    "reviewRatingAltText": "评分为 %maxPoints% 星中的 %points% 星的评论",
     "reviewNotPublicYetAlert": "您的评论尚未公开"
   },
   "spatial": {

@@ -689,6 +689,8 @@
         "customerDaysSinceFirstLogin": "自首次登录的时间",
         "customerAffiliateCodeRule": "附属代码",
         "customerCampaignCodeRule": "活动代码",
+        "orderAffiliateCodeRule": "联盟代码（订单）",
+        "orderCampaignCodeRule": "活动代码（订单）",
         "cartAmountRule": "总金额",
         "cartPositionPrice": "总计",
         "goodsCountRule": "不同产品的总数量",

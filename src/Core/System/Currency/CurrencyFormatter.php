@@ -35,7 +35,7 @@ class CurrencyFormatter implements ResetInterface
         );
         $formatter->setAttribute(\NumberFormatter::FRACTION_DIGITS, $decimals);
 
-        return preg_replace('/^[A-Z]{2}/','',(string) $formatter->formatCurrency($price, $currency));
+        return preg_replace('/^[A-Z]{2}/', '', (string) $formatter->formatCurrency($price, $currency));
     }
 
     public function reset(): void
