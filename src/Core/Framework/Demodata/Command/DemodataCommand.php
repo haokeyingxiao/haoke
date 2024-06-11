@@ -171,7 +171,7 @@ class DemodataCommand extends Command
 
         foreach ($classes as $class) {
             if (!class_exists($class)) {
-                throw new \RuntimeException('Please install composer package "shopware/dev-tools" to use the demo-data command.');
+                throw new \RuntimeException('Please install composer package "haokeyingxiao/dev-tools" to use the demo-data command.');
             }
         }
     }
