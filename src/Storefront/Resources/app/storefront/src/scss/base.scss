@@ -10,9 +10,9 @@ https://sass-guidelin.es/#the-7-1-pattern
 /*
  * Variables, Mixins, Functions
  * ---------------------------- */
+@import 'abstract/functions/feature';
 @import 'variables';
 @import 'abstract/mixins/truncate-multiline';
-@import 'abstract/functions/feature';
 
 /*
  * icon
@@ -85,6 +85,7 @@ $fa-font-path:         $app-css-relative-asset-path + '/font';
 @import 'component/line-item';
 @import 'component/visibility';
 @import 'component/ar-overlay';
+@import 'component/ar-splash-screen';
 
 /*
  * Layout-related sections
