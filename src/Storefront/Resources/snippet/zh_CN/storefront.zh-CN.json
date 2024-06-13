@@ -69,6 +69,7 @@
     "VIOLATION::IS_BLANK_ERROR": "输入不能为空。",
     "VIOLATION::TOO_LOW_ERROR": "输入不能为空。",
     "VIOLATION::STRICT_CHECK_FAILED_ERROR": "输入无效",
+    "VIOLATION::TOO_LONG_ERROR": "输入必须少于 {{ limit }} 个字符",
     "VIOLATION::CUSTOMER_EMAIL_NOT_UNIQUE": "此电子邮件地址已被注册。",
     "VIOLATION::CUSTOMER_PASSWORD_NOT_CORRECT": "密码错误。",
     "VIOLATION::VAT_ID_FORMAT_NOT_CORRECT": "您输入的增值税号格式不正确。",
