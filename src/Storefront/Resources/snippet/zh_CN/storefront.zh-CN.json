@@ -615,7 +615,9 @@
     "arSupportInFollowingDevices": "\"增强现实\" 体验支持以下设备：",
     "arSupportDevices": "iOS11+，支持 ARCore 1.9 的 Android 8.0+",
     "moveTheDeviceToStart": "移动设备以开始",
-    "tapToPlaceTheObject": "点击以放置对象"
+    "tapToPlaceTheObject": "点击以放置对象",
+    "openAugmentedRealityView": "打开增强现实视图",
+    "openArView": "打开 AR 视图"
   },
   "wishlist": {
     "cartTitle": "您的心愿单",
