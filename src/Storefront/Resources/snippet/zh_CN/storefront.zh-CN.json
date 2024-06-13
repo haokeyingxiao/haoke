@@ -612,8 +612,8 @@
   },
   "spatial": {
     "scanQrCode": "扫描二维码",
-    "pointToQrCode": "将移动设备对准二维码，以 \"增强现实\" 模式显示项目",
-    "arSupportInFollowingDevices": "\"增强现实\" 体验支持以下设备：",
+    "pointToQrCode": "将移动设备对准 QR 码，以在\"增强现实\"模式下显示产品",
+    "arSupportInFollowingDevices": "增强现实体验\"支持以下设备：",
     "arSupportDevices": "iOS11+，支持 ARCore 1.9 的 Android 8.0+",
     "moveTheDeviceToStart": "移动设备以开始",
     "tapToPlaceTheObject": "点击以放置对象",

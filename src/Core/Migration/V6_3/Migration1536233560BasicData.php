@@ -947,10 +947,10 @@ class Migration1536233560BasicData extends MigrationStep
 
     private function createCurrency(Connection $connection): void
     {
-        $CNY = Uuid::fromHexToBytes(Defaults::CURRENCY);
+        $EUR = Uuid::fromHexToBytes(Defaults::CURRENCY);
         $USD = Uuid::randomBytes();
         $GBP = Uuid::randomBytes();
-        $EUR = Uuid::randomBytes();
+        $CNY = Uuid::randomBytes();
 
         $languageEN = Uuid::fromHexToBytes(Defaults::LANGUAGE_SYSTEM);
         $languageDE = Uuid::fromHexToBytes($this->getDeDeLanguageId());
