@@ -28,7 +28,7 @@ class ShopConfigurationServiceTest extends TestCase
             'name' => 'test-shop',
             'locale' => 'de-DE',
             'currency' => 'USD',
-            'additionalCurrencies' => ['CNY', 'CHF'],
+            'additionalCurrencies' => ['EUR', 'CHF'],
             'country' => 'DEU',
             'email' => 'test@test.com',
             'host' => 'localhost',
@@ -44,7 +44,7 @@ class ShopConfigurationServiceTest extends TestCase
 
         $currencies = $connection->fetchAllKeyValue('SELECT `id`, `iso_code` from `currency`');
         // assert that not configured currencies are deleted
-        static::assertEqualsCanonicalizing(['USD', 'CNY', 'CHF'], array_values($currencies));
+        static::assertEqualsCanonicalizing(['USD', 'EUR', 'CHF'], array_values($currencies));
 
         // assert that sales channel was created
         $id = $connection->fetchOne('SELECT `sales_channel_id` FROM `sales_channel_translation` WHERE `name` = ?', ['test-shop']);
