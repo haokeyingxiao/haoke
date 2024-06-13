@@ -43,11 +43,11 @@ class Migration1575021466AddCurrencies extends MigrationStep
 
     private function createCurrencies(Connection $connection): void
     {
-        $this->addCurrency($connection, Uuid::randomBytes(), 'PLN', 0.557, 'zł', 'PLN', 'PLN', 'Złoty', 'Złoty');
-        $this->addCurrency($connection, Uuid::randomBytes(), 'CHF', 0.1233, 'Fr', 'CHF', 'CHF', 'Schweizer Franken', 'Swiss francs');
-        $this->addCurrency($connection, Uuid::randomBytes(), 'SEK', 1.4442, 'kr', 'SEK', 'SEK', 'Schwedische Kronen', 'Swedish krone');
-        $this->addCurrency($connection, Uuid::randomBytes(), 'DKK', 0.9558, 'kr', 'DKK', 'DKK', 'Dänische Kronen', 'Danish krone');
-        $this->addCurrency($connection, Uuid::randomBytes(), 'NOK', 1.4687, 'nkr', 'NOK', 'NOK', 'Norwegische Kronen', 'Norwegian krone');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'PLN', 4.33, 'zł', 'PLN', 'PLN', 'Złoty', 'Złoty');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'CHF', 1.1, 'Fr', 'CHF', 'CHF', 'Schweizer Franken', 'Swiss francs');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'SEK', 10.51, 'kr', 'SEK', 'SEK', 'Schwedische Kronen', 'Swedish krone');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'DKK', 7.47, 'kr', 'DKK', 'DKK', 'Dänische Kronen', 'Danish krone');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'NOK', 0.099, 'nkr', 'NOK', 'NOK', 'Norwegische Kronen', 'Norwegian krone');
     }
 
     private function addCurrency(

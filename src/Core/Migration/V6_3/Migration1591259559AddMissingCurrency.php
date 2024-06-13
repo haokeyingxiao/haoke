@@ -31,7 +31,7 @@ class Migration1591259559AddMissingCurrency extends MigrationStep
             return;
         }
 
-        $this->addCurrency($connection, Uuid::randomBytes(), 'CZK', 3.15017, 'Kč', 'CZK', 'CZK', 'Tschechische Krone', 'Czech koruna');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'CZK', 26.735, 'Kč', 'CZK', 'CZK', 'Tschechische Krone', 'Czech koruna');
     }
 
     public function updateDestructive(Connection $connection): void
