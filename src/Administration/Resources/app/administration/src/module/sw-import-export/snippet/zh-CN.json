@@ -229,6 +229,9 @@
       "startImportLabel": "开始导入",
       "startImportDryrunLabel": "开始干运行",
       "startExportLabel": "开始导出"
+    },
+    "errors": {
+      "CONTENT__IMPORT_EXPORT__DUPLICATE_TECHNICAL_NAME": "技术名称不是唯一."
     }
   },
   "sw-privileges": {
