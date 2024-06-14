@@ -14,7 +14,7 @@
     },
     "welcome": {
       "modalTitle": "欢迎",
-      "headlineWelcome": "欢迎来到 SnapStore 6 管理后台",
+      "headlineWelcome": "欢迎来到好客数字化营销管理后台",
       "messageWelcome": "此向导将引导您完成设置，并帮助您进行最重要的设置。<br>您想用不同的语言使用您的商店并吸引其他国家的客户吗？那么请在这里安装所需的语言包。",
       "headlineChangeLanguage": "安装其他语言",
       "switchLanguageModalTitle": "选择界面语言",
@@ -32,10 +32,10 @@
     "dataImport": {
       "modalTitle": "开始使用 Shopware 6",
       "headlineDemoData": "使用演示数据",
-      "messageDemoData": "通过添加一组演示数据开始探索 Shopware 6。演示数据给人以一个完全正常工作的商店的印象，但应仅用于测试目的。",
+      "messageDemoData": "通过添加一组演示数据开始探索好客数字化营销平台。演示数据给人以一个完全正常工作的商店的印象，但应仅用于测试目的。",
       "buttonInstallDemoData": "安装演示数据",
       "headlineMigration": "迁移您的商店数据",
-      "messageMigration": "迁移助手帮助您连接并将数据从以前的商店系统转移到您的新 Shopware 6 环境中。",
+      "messageMigration": "迁移助手帮助您连接并将数据从以前的商店系统转移到您的新好客数字化营销平台环境中。",
       "buttonInstallMigration": "安装迁移助手",
       "loadingMessage": "正在安装扩展<br>这可能需要一段时间..."
     },
@@ -82,14 +82,14 @@
       "otherRecommendations": "地区推荐"
     },
     "shopwareAccount": {
-      "headline": "Shopware 账号 - 登录",
+      "headline": "好客平台官方账号 - 登录",
       "passwordLabel": "密码",
       "passwordPlaceholder": "输入您的密码...",
       "emailAddressLabel": "邮箱地址",
       "emailAddressPlaceholder": "输入您的邮箱地址...",
-      "modalTitle": "Shopware 账号",
-      "message": "Shopware 账号是您与所有 Shopware 服务互动的主要中心。",
-      "registerAccountText": "还没有 Shopware 账号？在这里注册",
+      "modalTitle": "官方账号",
+      "message": "官方账号是您与所有好客营销平台服务互动的主要中心。",
+      "registerAccountText": "还没有账号？在这里注册",
       "registerAccountHere": "这里",
       "registerAccountUrl": "https://account.haokeyingxiao.com/register?lang=en",
       "forgotPasswordText": "忘记密码了吗？",
@@ -105,24 +105,24 @@
       "testEnvironment": "测试环境"
     },
     "store": {
-      "modalTitle": "Shopware 商店",
+      "modalTitle": "扩展商店",
       "loadStatusCollect": "正在收集商店信息...",
       "takeMinutes": "这可能需要几分钟。",
       "alreadyActivated": "商店已成功激活。",
-      "enablingStore": "正在启用 Shopware 商店...",
+      "enablingStore": "正在启用好客平台商店...",
       "activationErrorTitle": "激活时出错",
       "activationErrorDescription": "请向管理员寻求帮助。",
       "headingOne": "方便快捷购买扩展 -",
-      "headingTwo": "直接在您的 Shopware 商店中。",
-      "description": "激活全新的 Shopware 商店，访问大量有用的扩展和现代主题，这些扩展和主题可以无缝集成到您的商店中 - 无需任何编程技能。"
+      "headingTwo": "直接在您的好客平台商店中。",
+      "description": "激活全新的好客平台商店，访问大量有用的扩展和现代主题，这些扩展和主题可以无缝集成到您的商店中 - 无需任何编程技能。"
     },
     "defaults": {
       "modalTitle": "设置默认值"
     },
     "finish": {
       "headlineAllDone": "全部完成！",
-      "message": "您的 Shopware 6 {edition} 现已验证。",
-      "messageNotLicensed": "您的 Shopware 6 现已准备就绪。",
+      "message": "您的好客营销平台{edition} 现已验证。",
+      "messageNotLicensed": "您的好客营销平台现已准备就绪。",
       "headlineUsefulLinks": "有用的链接",
       "loadingMessage": "正在重新启动应用<br>这可能需要一段时间...",
       "documentationLabel": "文档",
@@ -136,10 +136,10 @@
     "stepItemTitle": {
       "dataImport": "数据导入",
       "mailer": "邮件配置",
-      "setupPaypal": "设置 PayPal",
+      "setupPaypal": "设置微信支付",
       "plugins": "扩展",
-      "shopware": "Shopware 账号",
-      "store": "Shopware 商店",
+      "shopware": "官方账号",
+      "store": "官方商店",
       "defaults": "默认值"
     }
   },

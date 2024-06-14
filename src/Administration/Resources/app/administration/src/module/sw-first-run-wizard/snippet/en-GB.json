@@ -14,7 +14,7 @@
         },
         "welcome": {
             "modalTitle": "Welcome",
-            "headlineWelcome": "Welcome to the Shopware 6 Administration",
+            "headlineWelcome": "Welcome to the Haoke 6 Administration",
             "messageWelcome": "This wizard guides you through the setup and tries to be helpful with the most important settings.<br>Do you want to use your shop in a different language and reach customers in other countries? Then simply install the desired language packs here.",
             "headlineChangeLanguage": "Install additional languages",
             "switchLanguageModalTitle": "Select the interface language",
@@ -30,9 +30,9 @@
             "noConnectionMessage": "There seem to be connection issues, the language could not be installed."
         },
         "dataImport": {
-            "modalTitle": "Getting started with Shopware 6",
+            "modalTitle": "Getting started with Haoke 6",
             "headlineDemoData": "Use demo data",
-            "messageDemoData": "Start exploring Shopware 6 by adding a set of demo data. Demo data gives the impression of a fully working shop, but should strictly be used for testing purposes only.",
+            "messageDemoData": "Start exploring Haoke 6 by adding a set of demo data. Demo data gives the impression of a fully working shop, but should strictly be used for testing purposes only.",
             "buttonInstallDemoData": "Install demo data",
             "headlineMigration": "Migrate your shop data",
             "messageMigration": "The Migration Assistant helps you connect to and transfer data from a previous shop system right into your new Shopware 6 environment.",
@@ -88,8 +88,8 @@
             "emailAddressLabel": "Email address",
             "emailAddressPlaceholder": "Enter your email address...",
             "modalTitle": "Haoke Account",
-            "message": "The Shopware Account is your main hub for interaction with all Shopware services.",
-            "registerAccountText": "You don't have a Shopware Account yet? Sign up right",
+            "message": "The Haoke Account is your main hub for interaction with all Shopware services.",
+            "registerAccountText": "You don't have a Haoke Account yet? Sign up right",
             "registerAccountHere": "here",
             "registerAccountUrl": "https://account.haokeyingxiao.com/register?lang=en",
             "forgotPasswordText": "Did you forget your password?",
@@ -105,7 +105,7 @@
             "testEnvironment": "Test environment"
         },
         "store": {
-          "modalTitle": "Shopware Store",
+          "modalTitle": "Haoke Store",
           "loadStatusCollect": "Collecting store information...",
           "takeMinutes": "This may take a few minutes.",
           "alreadyActivated": "Store has already been successfully activated.",
@@ -113,8 +113,8 @@
           "activationErrorTitle": "Error on activation",
           "activationErrorDescription": "Please ask your administrator for help.",
           "headingOne": "Explore and buy extensions easily -",
-          "headingTwo": "right from within your own Shopware shop.",
-          "description": "Activate the all new Shopware Store and get access to loads of helpful extensions and modern themes that can be integrated into your Shop seemlessly - without any programming skills."
+          "headingTwo": "right from within your own Haoke shop.",
+          "description": "Activate the all new Haoke Store and get access to loads of helpful extensions and modern themes that can be integrated into your Shop seemlessly - without any programming skills."
         },
         "defaults": {
             "modalTitle": "Setup default values"
@@ -136,10 +136,10 @@
         "stepItemTitle": {
             "dataImport": "Data import",
             "mailer": "Mailer configuration",
-            "setupPaypal": "PayPal setup",
+            "setupPaypal": "Wechat Pay",
             "plugins": "Extensions",
             "shopware": "Haoke Account",
-            "store": "Shopware Store",
+            "store": "Haoke Store",
             "defaults": "Default values"
         }
     },

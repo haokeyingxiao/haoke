@@ -220,7 +220,7 @@ const coreConfig = {
             })(),
         ],
     },
-    name: 'shopware-6-storefront',
+    name: 'haoke-6-storefront',
     optimization: {
         moduleIds: 'deterministic',
         chunkIds: 'named',

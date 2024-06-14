@@ -105,7 +105,7 @@
   },
   "sw-extension-store": {
     "landing-page": {
-      "enablingShopwareStore": "Activating the Shopware Store...",
+      "enablingShopwareStore": "Activating the Haoke Store...",
       "takeMinutes": "This may take a few minutes.",
       "activationErrorTitle": "Error during activation",
       "activationErrorDescription": "Please try again. If that doesn't work, ask your administrator for help.",

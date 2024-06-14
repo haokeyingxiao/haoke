@@ -105,7 +105,7 @@
   },
   "sw-extension-store": {
     "landing-page": {
-      "enablingShopwareStore": "Aktivieren des Shopware Stores ...",
+      "enablingShopwareStore": "Aktivieren des Haoke Stores ...",
       "takeMinutes": "Dies kann ein paar Minuten dauern",
       "activationErrorTitle": "Bei der Aktivierung ist ein Fehler aufgetreten.",
       "activationErrorDescription": "Versuche es noch einmal. Wenn es nicht funktioniert, bitte Deinen Administrator um Hilfe.",

@@ -14,7 +14,7 @@
         },
         "welcome": {
             "modalTitle": "Willkommen",
-            "headlineWelcome": "Willkommen in der Shopware 6 Administration",
+            "headlineWelcome": "Willkommen in der Haoke 6 Administration",
             "messageWelcome": "Dieser Einrichtungs-Assistent begleitet Dich durch die wichtigsten Einstellungen und gibt Dir wertvolle Tipps zur Konfiguration.<br>Willst Du Deinen Shop in einer anderen Sprache verwenden und dadurch auch Kunden in anderen Ländern erreichen? Dann kannst Du hier einfach die gewünschten Sprachpakete installieren.",
             "headlineChangeLanguage": "Installiere zusätzliche Sprachpakete",
             "switchLanguageModalTitle": "Wähle die Sprache der Benutzeroberfläche",
@@ -30,12 +30,12 @@
             "noConnectionMessage": "Verbindungsprobleme, die gewünschte Sprache kann derzeit nicht installiert werden."
         },
         "dataImport": {
-            "modalTitle": "Dein Start in Shopware 6",
+            "modalTitle": "Dein Start in Haoke 6",
             "headlineDemoData": "Demodaten benutzen",
-            "messageDemoData": "Statte Deinen Shop mit Demodaten aus und erkunde Shopware 6. Demodaten sollten ausschließlich zu Testzwecken verwendet werden.",
+            "messageDemoData": "Statte Deinen Shop mit Demodaten aus und erkunde Haoke 6. Demodaten sollten ausschließlich zu Testzwecken verwendet werden.",
             "buttonInstallDemoData": "Demodaten installieren",
             "headlineMigration": "Eigenen Shop migrieren",
-            "messageMigration": "Der Migrations-Assistent hilft Dir, Dein Shopsystem mit Shopware 6 zu verbinden und vorhandene Daten zu übertragen.",
+            "messageMigration": "Der Migrations-Assistent hilft Dir, Dein Shopsystem mit Haoke 6 zu verbinden und vorhandene Daten zu übertragen.",
             "buttonInstallMigration": "Migrations-Assistenten installieren",
             "loadingMessage": "Installiere Erweiterung<br>Das könnte eine Weile dauern ..."
         },
@@ -105,7 +105,7 @@
             "testEnvironment": "Test-Umgebung"
         },
         "store": {
-          "modalTitle": "Shopware Store",
+          "modalTitle": "Haoke Store",
           "loadStatusCollect": "Store-Informationen werden abgerufen ...",
           "takeMinutes": "Dies kann ein paar Minuten dauern.",
           "alreadyActivated": "Store ist bereits erfolgreich aktiviert.",
@@ -113,16 +113,16 @@
           "activationErrorTitle": "Fehler bei der Aktivierung",
           "activationErrorDescription": "Bitte frage Deinen Administrator um Hilfe.",
           "headingOne": "Erkunde und kaufe Erweiterungen einfach -",
-          "headingTwo": "direkt aus Deinem eigenen Shopware-Shop.",
-          "description": "Aktiviere den neuen Shopware Store und erhalte Zugriff auf viele hilfreiche Erweiterungen und moderne Themes, die Du nahtlos in Deinen Shop integrieren kannst - ganz ohne Programmierkenntnisse."
+          "headingTwo": "direkt aus Deinem eigenen Haoke-Shop.",
+          "description": "Aktiviere den neuen Haoke Store und erhalte Zugriff auf viele hilfreiche Erweiterungen und moderne Themes, die Du nahtlos in Deinen Shop integrieren kannst - ganz ohne Programmierkenntnisse."
         },
         "defaults": {
             "modalTitle": "Standardwerte definieren"
         },
         "finish": {
             "headlineAllDone": "Herzlichen Glückwunsch!",
-            "message": "Deine Shopware 6 {edition} ist jetzt verifiziert.",
-            "messageNotLicensed": "Dein Shopware 6 ist jetzt vorbereitet.",
+            "message": "Deine Haoke 6 {edition} ist jetzt verifiziert.",
+            "messageNotLicensed": "Dein Haoke 6 ist jetzt vorbereitet.",
             "headlineUsefulLinks": "Nützliche Links",
             "loadingMessage": "Anwendung wird neu gestartet<br>Das könnte einen Moment dauern ...",
             "documentationLabel": "Dokumentation",
@@ -136,10 +136,10 @@
         "stepItemTitle": {
             "dataImport": "Daten-Import",
             "mailer": "Mailer-Einstellungen",
-            "setupPaypal": "PayPal einrichten",
+            "setupPaypal": "Wechat Pay",
             "plugins": "Erweiterungen",
             "shopware": "Haoke Account",
-            "store": "Shopware Store",
+            "store": "Haoke Store",
             "defaults": "Standardwerte"
         }
     },
