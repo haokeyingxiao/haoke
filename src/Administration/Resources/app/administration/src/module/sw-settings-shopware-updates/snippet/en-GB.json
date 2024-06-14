@@ -1,9 +1,9 @@
 {
   "sw-settings-shopware-updates": {
     "general": {
-      "menuTitle": "Shopware updates",
-      "title": "Shopware update ({version})",
-      "emptyTitle": "Shopware updates",
+      "menuTitle": "System updates",
+      "title": "System update ({version})",
+      "emptyTitle": "System updates",
       "emptyState": "You are running the latest version.",
       "checkForUpdates": "Check for updates",
       "currentVersion": "Current version:"

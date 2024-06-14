@@ -76,8 +76,7 @@ export function currency(
             result = val.toLocaleString((additionalOptions.language ?? Shopware.State.get('session').currentLocale) ?? 'en-US', opts);
         }
     }
-
-    return result;
+    return result.replace(/^[A-Za-z]{2}\s?/, '');
 }
 
 interface DateFilterOptions extends Intl.DateTimeFormatOptions {
