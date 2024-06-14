@@ -22,7 +22,6 @@ jobs:
         suite:
           # some suites are merged to reduce the number of jobs
           - integration
-          - storefront
           - content
           - framework
           - unit
