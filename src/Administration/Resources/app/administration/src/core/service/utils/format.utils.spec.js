@@ -158,7 +158,7 @@ describe('src/core/service/utils/format.utils.js', () => {
         it('should fallback to a different system currency', async () => {
             Shopware.Context.app.systemCurrencyISOCode = 'USD';
 
-            expect(currencyFilter(42, undefined, 0)).toBe('US$42');
+            expect(currencyFilter(42, undefined, 0)).toBe('$42');
 
             Shopware.Context.app.systemCurrencyISOCode = 'EUR';
         });
