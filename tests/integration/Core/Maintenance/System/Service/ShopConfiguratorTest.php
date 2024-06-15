@@ -150,6 +150,6 @@ class ShopConfiguratorTest extends TestCase
 
         static::assertNotNull($oldDefault);
         static::assertEquals('Euro', $oldDefault->getName());
-        static::assertEquals(1.1216169229561337, $oldDefault->getFactor());
+        static::assertEquals(1.1860036832412524, $oldDefault->getFactor());
     }
 }

@@ -3,7 +3,7 @@
     "description": "{{ composerName }}",
     "type": "shopware-platform-plugin",
     "version": "1.0.0",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "require": {
         "haokeyingxiao/core": "~6.6.0"
     },
@@ -11,7 +11,8 @@
         "shopware-plugin-class": "{{ namespace }}\\{{ className }}",
         "label": {
             "de-DE": "Skeleton plugin",
-            "en-GB": "Skeleton plugin"
+            "en-GB": "Skeleton plugin",
+            "zh-CN": "Skeleton plugin"
         }
     },
     "autoload": {
