@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Run all PHP Unit tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-    <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" directory="$PROJECT_DIR$/tests/unit" options="--exclude-group=quarantined" use_alternative_configuration_file="true" />
+    <TestRunner bootstrap_file="$PROJECT_DIR$/src/Core/TestBootstrap.php" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" directory="$PROJECT_DIR$/tests/unit" paratest_binary_path="$PROJECT_DIR$/vendor/bin/paratest_for_phpstorm" options="--exclude-group=quarantined" use_alternative_bootstrap_file="true" use_alternative_configuration_file="true" />
     <method v="2" />
   </configuration>
 </component>
