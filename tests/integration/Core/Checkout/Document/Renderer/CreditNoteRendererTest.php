@@ -211,7 +211,7 @@ class CreditNoteRendererTest extends TestCase
                 }
 
                 static::assertStringContainsString(
-                    sprintf('€%s', number_format((float) -array_sum([-100, -200, -300]), 2)),
+                    sprintf('¥%s', number_format((float) -array_sum([-100, -200, -300]), 2)),
                     $rendered->getHtml()
                 );
             },

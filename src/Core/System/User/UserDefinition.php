@@ -67,7 +67,7 @@ class UserDefinition extends EntityDefinition
     public function getDefaults(): array
     {
         return [
-            'timeZone' => 'UTC',
+            'timeZone' => 'Asia/Shanghai',
         ];
     }
 

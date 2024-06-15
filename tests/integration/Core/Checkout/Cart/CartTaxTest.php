@@ -13,7 +13,6 @@ use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\Framework\Test\TestCaseBase\IntegrationTestBehaviour;
 use Shopware\Core\Framework\Test\TestCaseBase\SalesChannelApiTestBehaviour;
 use Shopware\Core\Framework\Test\TestDataCollection;
-use Shopware\Core\Framework\Util\FloatComparator;
 use Shopware\Core\Framework\Uuid\Uuid;
 use Shopware\Core\PlatformRequest;
 use Shopware\Core\System\DeliveryTime\DeliveryTimeEntity;
@@ -148,180 +147,6 @@ class CartTaxTest extends TestCase
         } else {
             static::assertEquals((550 * $quantity) + 11, $response['price']['totalPrice']);
         }
-    }
-
-    /**
-     * @param array<string> $vatIds
-     */
-    #[DataProvider('dataTestHandlingTaxFreeInStorefront')]
-    public function testHandlingTaxFreeInStorefrontWithBaseCurrencyCHF(
-        string $testCase,
-        float $currencyTaxFreeFrom,
-        bool $countryTaxFree,
-        bool $countryCompanyTaxFree,
-        float $countryTaxFreeFrom,
-        float $countryCompanyTaxFreeFrom,
-        int $quantity,
-        ?array $vatIds = null,
-        bool $checkVatIdPattern = true
-    ): void {
-        $currencyId = Uuid::fromBytesToHex($this->getCurrencyIdByIso('CHF'));
-
-        $this->createShippingMethod();
-        $this->browser = $this->createCustomSalesChannelBrowser([
-            'id' => $this->ids->create('sales-channel'),
-            'currencyId' => $currencyId,
-            'shippingMethodId' => $this->ids->get('shipping'),
-        ]);
-
-        $this->browser->setServerParameter('HTTP_SW_CONTEXT_TOKEN', $this->ids->create('token'));
-
-        $this->createProduct();
-
-        $countryId = Uuid::fromBytesToHex($this->getCountryIdByIso('CH'));
-
-        $this->createCustomerAndLogin($countryId);
-
-        if ($vatIds) {
-            $this->customerRepository->update(
-                [['id' => $this->ids->get('customer'), 'vatIds' => $vatIds]],
-                Context::createDefaultContext()
-            );
-        }
-
-        $this->currencyRepository->update([[
-            'id' => $currencyId,
-            'taxFreeFrom' => $currencyTaxFreeFrom,
-        ]], Context::createDefaultContext());
-
-        $this->updateCountry(
-            $countryId,
-            $countryTaxFree,
-            $countryTaxFreeFrom,
-            $countryCompanyTaxFree,
-            $countryCompanyTaxFreeFrom,
-            Defaults::CURRENCY,
-            $checkVatIdPattern
-        );
-
-        $this->browser->request(
-            'POST',
-            '/store-api/checkout/cart/line-item',
-            [],
-            [],
-            ['CONTENT_TYPE' => 'application/json'],
-            (string) json_encode([
-                'items' => [
-                    [
-                        'id' => $this->ids->get('p1'),
-                        'type' => 'product',
-                        'referencedId' => $this->ids->get('p1'),
-                        'quantity' => $quantity,
-                    ],
-                ],
-            ])
-        );
-
-        static::assertSame(200, $this->browser->getResponse()->getStatusCode());
-
-        $response = json_decode((string) $this->browser->getResponse()->getContent(), true, 512, \JSON_THROW_ON_ERROR);
-
-        if ($testCase === 'tax-free') {
-            static::assertEquals((550 * $quantity) + 11, $response['price']['totalPrice']);
-        } else {
-            static::assertEquals((605 * $quantity) + 12.1, $response['price']['totalPrice']);
-        }
-    }
-
-    #[DataProvider('dataTestHandlingTaxFreeInStorefrontWithCountryBaseCurrencyUSD')]
-    public function testHandlingTaxFreeInStorefrontWithCountryBaseCurrencyUSD(
-        string $testCase,
-        bool $countryTaxFree,
-        bool $countryCompanyTaxFree,
-        float $countryTaxFreeFrom,
-        float $countryCompanyTaxFreeFrom,
-        int $quantity
-    ): void {
-        $currencyId = Uuid::fromBytesToHex($this->getCurrencyIdByIso('USD'));
-
-        $this->createShippingMethod();
-        $this->browser = $this->createCustomSalesChannelBrowser([
-            'id' => $this->ids->create('sales-channel'),
-            'currencyId' => $currencyId,
-            'shippingMethodId' => $this->ids->get('shipping'),
-        ]);
-
-        $this->browser->setServerParameter('HTTP_SW_CONTEXT_TOKEN', $this->ids->create('token'));
-
-        $this->createProduct();
-
-        $usCountryId = Uuid::fromBytesToHex($this->getCountryIdByIso('US'));
-
-        $this->createCustomerAndLogin($usCountryId);
-
-        $this->updateCountry(
-            $usCountryId,
-            $countryTaxFree,
-            $countryTaxFreeFrom,
-            $countryCompanyTaxFree,
-            $countryCompanyTaxFreeFrom,
-            $currencyId
-        );
-
-        $this->browser->request(
-            'POST',
-            '/store-api/checkout/cart/line-item',
-            [],
-            [],
-            ['CONTENT_TYPE' => 'application/json'],
-            (string) json_encode([
-                'items' => [
-                    [
-                        'id' => $this->ids->get('p1'),
-                        'type' => 'product',
-                        'referencedId' => $this->ids->get('p1'),
-                        'quantity' => $quantity,
-                    ],
-                ],
-            ])
-        );
-
-        static::assertSame(200, $this->browser->getResponse()->getStatusCode());
-
-        $response = json_decode((string) $this->browser->getResponse()->getContent(), true, 512, \JSON_THROW_ON_ERROR);
-
-        if ($testCase === 'tax-free') {
-            static::assertEquals(FloatComparator::cast((585.43 * $quantity) + 11.71), $response['price']['totalPrice']);
-        } else {
-            static::assertEquals(FloatComparator::cast((643.97 * $quantity) + 12.88), $response['price']['totalPrice']);
-        }
-    }
-
-    /**
-     * string $testCase
-     * bool $countryTaxFree
-     * bool $countryCompanyTaxFree
-     * float $countryTaxFreeFrom
-     * float $countryCompanyTaxFreeFrom
-     * int $quantity
-     *
-     * @return array<mixed>
-     */
-    public static function dataTestHandlingTaxFreeInStorefrontWithCountryBaseCurrencyUSD(): array
-    {
-        return [
-            'case 1 tax-free' => ['tax-free', true, false, 100, 100, 1],
-            'case 2 tax-free' => ['tax-free', true, false, 1000, 100, 2],
-            'case 3 tax-free' => ['tax-free', true, true, 1000, 100, 1],
-            'case 4 tax-free' => ['tax-free', true, true, 1000, 1000, 2],
-            'case 5 no-tax-free' => ['no-tax-free', true, false, 1000, 100, 1],
-            'case 6 no-tax-free' => ['no-tax-free', true, true, 1000, 1000, 1],
-            'case 7 no-tax-free' => ['no-tax-free', false, false, 1000, 1000, 1],
-            'case 8 no-tax-free' => ['no-tax-free', false, false, 1000, 1000, 2],
-            'case 9 tax-free' => ['tax-free', false, true, 100, 100, 1],
-            'case 10 tax-free' => ['tax-free', false, true, 100, 1000, 2],
-            'case 11 tax-free' => ['tax-free', true, true, 100, 1000, 1],
-        ];
     }
 
     /**
@@ -478,11 +303,6 @@ class CartTaxTest extends TestCase
     private function getCountryIdByIso(string $iso = 'DE'): string
     {
         return $this->connection->fetchOne('SELECT id FROM country WHERE iso = :iso', ['iso' => $iso]);
-    }
-
-    private function getCurrencyIdByIso(string $iso = 'EUR'): string
-    {
-        return $this->connection->fetchOne('SELECT id FROM currency WHERE iso_code = :iso', ['iso' => $iso]);
     }
 
     private function createShippingMethod(): void

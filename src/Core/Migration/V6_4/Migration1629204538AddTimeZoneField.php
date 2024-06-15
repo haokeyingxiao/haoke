@@ -21,7 +21,7 @@ class Migration1629204538AddTimeZoneField extends MigrationStep
 
     public function update(Connection $connection): void
     {
-        $connection->executeStatement('ALTER TABLE `user` ADD `time_zone` varchar(255) NOT NULL DEFAULT \'UTC\' AFTER `last_updated_password_at`;');
+        $connection->executeStatement('ALTER TABLE `user` ADD `time_zone` varchar(255) NOT NULL DEFAULT \'Asia/Shanghai\' AFTER `last_updated_password_at`;');
     }
 
     public function updateDestructive(Connection $connection): void

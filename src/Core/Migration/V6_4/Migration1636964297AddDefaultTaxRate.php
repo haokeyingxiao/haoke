@@ -29,7 +29,7 @@ class Migration1636964297AddDefaultTaxRate extends MigrationStep
             return;
         }
 
-        $id = $connection->fetchOne('SELECT `id` FROM `tax` WHERE `name` = ? LIMIT 1', ['Standard rate']);
+        $id = $connection->fetchOne('SELECT `id` FROM `tax` WHERE `name` = ? LIMIT 1', ['Reduced rate 2']);
         if ($id) {
             $connection->insert('system_config', [
                 'id' => Uuid::randomBytes(),

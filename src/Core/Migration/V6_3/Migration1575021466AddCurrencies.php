@@ -18,6 +18,8 @@ class Migration1575021466AddCurrencies extends MigrationStep
 {
     private ?string $deLanguage = null;
 
+    private ?string $zhLanguage = null;
+
     private ?string $defaultLanguage = null;
 
     public function getCreationTimestamp(): int
@@ -43,11 +45,11 @@ class Migration1575021466AddCurrencies extends MigrationStep
 
     private function createCurrencies(Connection $connection): void
     {
-        $this->addCurrency($connection, Uuid::randomBytes(), 'PLN', 0.56, 'zł', 'PLN', 'PLN', 'Złoty', 'Złoty');
-        $this->addCurrency($connection, Uuid::randomBytes(), 'CHF', 0.1, 'Fr', 'CHF', 'CHF', 'Schweizer Franken', 'Swiss francs');
-        $this->addCurrency($connection, Uuid::randomBytes(), 'SEK', 0.69, 'kr', 'SEK', 'SEK', 'Schwedische Kronen', 'Swedish krone');
-        $this->addCurrency($connection, Uuid::randomBytes(), 'DKK', 0.96, 'kr', 'DKK', 'DKK', 'Dänische Kronen', 'Danish krone');
-        $this->addCurrency($connection, Uuid::randomBytes(), 'NOK', 1.471, 'nkr', 'NOK', 'NOK', 'Norwegische Kronen', 'Norwegian krone');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'PLN', 0.56, 'zł', 'PLN', 'PLN', 'PLN', 'Złoty', 'Złoty', '波兰兹罗特');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'CHF', 0.1, 'Fr', 'CHF', 'CHF', 'CHF', 'Schweizer Franken', 'Swiss francs', '瑞士法郎');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'SEK', 0.69, 'kr', 'SEK', 'SEK', 'SEK', 'Schwedische Kronen', 'Swedish krone', '瑞典克朗');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'DKK', 0.96, 'kr', 'DKK', 'DKK', 'DKK', 'Dänische Kronen', 'Danish krone', '丹麦克朗');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'NOK', 1.471, 'nkr', 'NOK', 'NOK', 'NOK', 'Norwegische Kronen', 'Norwegian krone', '挪威克朗');
     }
 
     private function addCurrency(
@@ -58,11 +60,14 @@ class Migration1575021466AddCurrencies extends MigrationStep
         string $symbol,
         string $shortNameDe,
         string $shortNameEn,
+        string $shortNameZh,
         string $nameDe,
-        string $nameEn
+        string $nameEn,
+        string $nameZh,
     ): void {
         $languageEN = $this->getEnLanguageId($connection);
         $languageDE = $this->getDeLanguageId($connection);
+        $languageZH = $this->getZhLanguageId($connection);
 
         $langId = $connection->fetchOne('
         SELECT `currency`.`id` FROM `currency` WHERE `iso_code` = :code LIMIT 1
@@ -70,10 +75,12 @@ class Migration1575021466AddCurrencies extends MigrationStep
 
         if (!$langId) {
             $connection->insert('currency', ['id' => $id, 'iso_code' => $isoCode, 'factor' => $factor, 'symbol' => $symbol, 'position' => 1, 'decimal_precision' => 2, 'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT)]);
-            if ($languageEN !== $languageDE) {
+            if ($languageEN !== $languageDE && $languageEN !== $languageZH) {
                 $connection->insert('currency_translation', ['currency_id' => $id, 'language_id' => $languageEN, 'short_name' => $shortNameEn, 'name' => $nameEn, 'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT)]);
             }
-
+            if ($languageZH) {
+                $connection->insert('currency_translation', ['currency_id' => $id, 'language_id' => $languageZH, 'short_name' => $shortNameZh, 'name' => $nameZh, 'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT)]);
+            }
             if ($languageDE) {
                 $connection->insert('currency_translation', ['currency_id' => $id, 'language_id' => $languageDE, 'short_name' => $shortNameDe, 'name' => $nameDe, 'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT)]);
             }
@@ -87,6 +94,15 @@ class Migration1575021466AddCurrencies extends MigrationStep
         }
 
         return $this->deLanguage;
+    }
+
+    private function getZhLanguageId(Connection $connection): ?string
+    {
+        if (!$this->zhLanguage) {
+            $this->zhLanguage = $this->fetchLanguageId('zh-CN', $connection);
+        }
+
+        return $this->zhLanguage;
     }
 
     private function getEnLanguageId(Connection $connection): ?string

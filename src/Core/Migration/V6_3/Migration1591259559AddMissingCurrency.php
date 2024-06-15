@@ -20,6 +20,8 @@ class Migration1591259559AddMissingCurrency extends MigrationStep
 
     private ?string $enLanguage = null;
 
+    private ?string $zhLanguage = null;
+
     public function getCreationTimestamp(): int
     {
         return 1591259559;
@@ -31,7 +33,7 @@ class Migration1591259559AddMissingCurrency extends MigrationStep
             return;
         }
 
-        $this->addCurrency($connection, Uuid::randomBytes(), 'CZK', 3.1868, 'Kč', 'CZK', 'CZK', 'Tschechische Krone', 'Czech koruna');
+        $this->addCurrency($connection, Uuid::randomBytes(), 'CZK', 3.1868, 'Kč', 'CZK', 'CZK', 'CZK', 'Tschechische Krone', 'Czech koruna', '捷克克朗');
     }
 
     public function updateDestructive(Connection $connection): void
@@ -47,11 +49,14 @@ class Migration1591259559AddMissingCurrency extends MigrationStep
         string $symbol,
         string $shortNameDe,
         string $shortNameEn,
+        string $shortNameZh,
         string $nameDe,
-        string $nameEn
+        string $nameEn,
+        string $nameZh
     ): void {
         $languageDefault = $this->getEnLanguageId($connection);
         $languageDE = $this->getDeLanguageId($connection);
+        $languageZh = $this->getZhLanguageId($connection);
 
         $langId = $connection->fetchOne('
         SELECT `currency`.`id` FROM `currency` WHERE `iso_code` = :code LIMIT 1
@@ -59,8 +64,11 @@ class Migration1591259559AddMissingCurrency extends MigrationStep
 
         if (!$langId) {
             $connection->insert('currency', ['id' => $id, 'iso_code' => $isoCode, 'factor' => $factor, 'symbol' => $symbol, 'position' => 1, 'decimal_precision' => 2, 'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT)]);
-            if ($languageDefault !== $languageDE) {
+            if ($languageDefault !== $languageDE && $languageDE !== $languageZh) {
                 $connection->insert('currency_translation', ['currency_id' => $id, 'language_id' => $languageDefault, 'short_name' => $shortNameEn, 'name' => $nameEn, 'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT)]);
+            }
+            if ($languageZh) {
+                $connection->insert('currency_translation', ['currency_id' => $id, 'language_id' => $languageZh, 'short_name' => $shortNameZh, 'name' => $nameZh, 'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT)]);
             }
             if ($languageDE) {
                 $connection->insert('currency_translation', ['currency_id' => $id, 'language_id' => $languageDE, 'short_name' => $shortNameDe, 'name' => $nameDe, 'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT)]);
@@ -84,6 +92,15 @@ class Migration1591259559AddMissingCurrency extends MigrationStep
         }
 
         return $this->enLanguage;
+    }
+
+    private function getZhLanguageId(Connection $connection): ?string
+    {
+        if (!$this->zhLanguage) {
+            $this->zhLanguage = $this->fetchLanguageId('zh-CN', $connection);
+        }
+
+        return $this->zhLanguage;
     }
 
     private function fetchLanguageId(string $code, Connection $connection): ?string
