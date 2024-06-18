@@ -608,7 +608,9 @@
     "reviewAvgRateElements": "星",
     "reviewAvgRatingAltText": "平均评分：%maxPoints% 星中的 %points% 星",
     "reviewRatingAltText": "评分为 %maxPoints% 星中的 %points% 星的评论",
-    "reviewNotPublicYetAlert": "您的评论尚未公开"
+    "reviewNotPublicYetAlert": "您的评论尚未公开",
+    "unavailable": "不可用",
+    "unavailableTooltip": "此选项当前不可用."
   },
   "spatial": {
     "scanQrCode": "扫描二维码",
