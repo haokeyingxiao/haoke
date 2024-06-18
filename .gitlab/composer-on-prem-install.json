@@ -4,11 +4,11 @@
   "type": "project",
   "require": {
     "composer-runtime-api": "^2.0",
-    "shopware/administration": "*",
+    "haokeyingxiao/administration": "*",
     "haokeyingxiao/core": "*",
-    "shopware/elasticsearch": "*",
-    "shopware/storefront": "*",
-    "shopware/dev-tools": "*",
+    "haokeyingxiao/elasticsearch": "*",
+    "haokeyingxiao/storefront": "*",
+    "haokeyingxiao/dev-tools": "*",
     "symfony/flex": "~2",
     "symfony/runtime": "^5.0|^6.0|^7.0"
   },
