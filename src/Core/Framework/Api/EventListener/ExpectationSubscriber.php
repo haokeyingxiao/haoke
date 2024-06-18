@@ -25,9 +25,9 @@ class ExpectationSubscriber implements EventSubscriberInterface
     private const SHOPWARE_CORE_PACKAGES = [
         'haokeyingxiao/platform',
         'haokeyingxiao/core',
-        'shopware/administration',
-        'shopware/elasticsearch',
-        'shopware/storefront',
+        'haokeyingxiao/administration',
+        'haokeyingxiao/elasticsearch',
+        'haokeyingxiao/storefront',
     ];
 
     /**

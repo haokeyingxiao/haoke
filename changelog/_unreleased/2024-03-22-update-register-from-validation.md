@@ -2,7 +2,7 @@
 title: 2024-03-22-update-register-from-validation
 issue: NEXT-34217
 author: Florian Keller
-author_email: f.keller@shopware.com
+author_email: f.keller@haokeyingxiao.com
 ---
 # Core
 * Changed `Checkout/Customer/SalesChannel/RegisterRoute.php` to correctly set first and last name for address and customer profile validation with next major.

@@ -2,7 +2,7 @@
 title: Added autostart for spatial via qr code
 issue: NEXT-33827
 author: Luke Wenkers
-author_email: l.wenkers@shopware.com
+author_email: l.wenkers@haokeyingxiao.com
 ---
 # Storefront
 * Changed `cms-element-image-gallery.html.twig`, `product-detail.html.twig` and `qr-code-modal` to enable an autostart feature for spatial via qr code

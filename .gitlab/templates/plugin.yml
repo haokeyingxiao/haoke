@@ -172,7 +172,7 @@ default:
         - composer dump-autoload
         - mkdir -p vendor/shopware
         - ln -s $PROJECT_ROOT/src/Core vendor/haokeyingxiao/core
-        - ln -s $PROJECT_ROOT/src/Storefront vendor/shopware/storefront
+        - ln -s $PROJECT_ROOT/src/Storefront vendor/haokeyingxiao/storefront
         - rm /usr/local/etc/php/conf.d/99-memory-limit.ini
 
 .build-js: &build-js

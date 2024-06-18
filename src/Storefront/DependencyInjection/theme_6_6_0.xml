@@ -9,7 +9,7 @@
             <argument type="service" id="Doctrine\DBAL\Connection"/>
 
             <tag name="kernel.reset" method="reset"/>
-            <deprecated package="shopware/storefront" version="6.7.0.0">tag:v6.7.0 - The %service_id% service will be removed in v6.7.0.0 use "DatabaseSalesChannelThemeLoader" instead.</deprecated>
+            <deprecated package="haokeyingxiao/storefront" version="6.7.0.0">tag:v6.7.0 - The %service_id% service will be removed in v6.7.0.0 use "DatabaseSalesChannelThemeLoader" instead.</deprecated>
         </service>
 
     </services>

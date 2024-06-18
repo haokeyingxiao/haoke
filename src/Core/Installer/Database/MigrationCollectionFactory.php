@@ -58,8 +58,8 @@ class MigrationCollectionFactory
             $adminBasePath = $this->projectDir . '/vendor/haokeyingxiao/platform/src/Administration';
         } else {
             $coreBasePath = $this->projectDir . '/vendor/haokeyingxiao/core';
-            $storefrontBasePath = $this->projectDir . '/vendor/shopware/storefront';
-            $adminBasePath = $this->projectDir . '/vendor/shopware/administration';
+            $storefrontBasePath = $this->projectDir . '/vendor/haokeyingxiao/storefront';
+            $adminBasePath = $this->projectDir . '/vendor/haokeyingxiao/administration';
         }
 
         $hasStorefrontMigrations = is_dir($storefrontBasePath);

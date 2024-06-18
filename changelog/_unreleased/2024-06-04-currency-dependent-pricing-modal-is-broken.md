@@ -2,7 +2,7 @@
 title: Currency dependent pricing modal is broken
 issue: NEXT-36477
 author: Thuan Le
-author_email: th.le@shopware.com
+author_email: th.le@haokeyingxiao.com
 author_github: Thuan Le
 ---
 # Administration

@@ -52,7 +52,7 @@
         "buttonFileUpload": "Upload extension",
         "messageUploadSuccess": "Extension uploaded.",
         "titleWarningModal": "Warning",
-        "descriptionWarningModal": "Extensions from outside the Shopware Store have not been reviewed by us and could potentially pose a risk to your store. We recommend using extensions from the Shopware Store whenever possible.",
+        "descriptionWarningModal": "Extensions from outside the Haoke Store have not been reviewed by us and could potentially pose a risk to your store. We recommend using extensions from the Shopware Store whenever possible.",
         "textHideWarning": "Do not show again"
       }
     },
@@ -64,7 +64,7 @@
       "messageUploadFailureNoPluginFoundInZipFile": "No extension found in ZIP file.",
       "messageLoginDataInvalid": "Login data incomplete.",
       "messageStoreLicenseDomainMissing": "Login failed. Did you provide the correct licence domain from your Shopware Account in \"Settings/Haoke Account\"?",
-      "messageStoreNotAvailable": "The Shopware Store is not available.",
+      "messageStoreNotAvailable": "The Haoke Store is not available.",
       "messagePluginBaseClassNotFound": "The extension base class could not be loaded. Check the composer.json of the extension regarding the class autoloading.",
       "messagePluginInstallationFailed": "The extension could not be installed: \"{message}\".",
       "messagePluginUninstallationFailed": "The extension could not be uninstalled: \"{message}\".",
@@ -111,11 +111,11 @@
       "activationErrorDescription": "Please try again. If that doesn't work, ask your administrator for help.",
       "retryButton": "Retry",
       "activationSuccessTitle": "Activated successfully",
-      "activationSuccessDescription": "Have fun exploring the Shopware Store.",
+      "activationSuccessDescription": "Have fun exploring the Haoke Store.",
       "label": "Now available",
       "activationDescriptionTitleFirst": "Explore and buy extensions easily -",
-      "activationDescriptionTitleSecond": "right from within your own Shopware shop.",
-      "activationDescriptionTitleDescription": "Activate the Shopware Store and get access to loads of helpful extensions and modern themes that can be integrated into your shop seemlessly - without any programming skills.",
+      "activationDescriptionTitleSecond": "right from within your own Haoke shop.",
+      "activationDescriptionTitleDescription": "Activate the Haoke Store and get access to loads of helpful extensions and modern themes that can be integrated into your shop seemlessly - without any programming skills.",
       "activate": "Activate"
     },
     "title": "Store",
@@ -197,7 +197,7 @@
           "labelButtonBack": "Back to details"
         },
         "alertCanNotBuy": {
-          "text": "You need to be logged in to the Shopware Store to do this"
+          "text": "You need to be logged in to the Haoke Store to do this"
         }
       },
       "sw-extension-adding-failed": {
@@ -644,7 +644,7 @@
   "sw-privileges": {
     "additional_permissions": {
       "system": {
-        "extension_store": "Shopware Store"
+        "extension_store": "Haoke Store"
       }
     }
   }

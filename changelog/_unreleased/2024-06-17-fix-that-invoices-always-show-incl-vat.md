@@ -2,7 +2,7 @@
 title: Fix that invoices always show incl vat
 issue: NEXT-34393
 author: p.dinkhoff
-author_email: p.dinkhoff@shopware.com
+author_email: p.dinkhoff@haokeyingxiao.com
 author_github: p.dinkhoff
 ---
 # Core

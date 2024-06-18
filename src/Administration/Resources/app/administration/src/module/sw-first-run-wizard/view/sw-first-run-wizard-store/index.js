@@ -109,7 +109,7 @@ export default {
             this.loadStatus = true;
 
             try {
-                this.extensionStatus = await this.extensionHelperService.getStatusOfExtension('HaokeExtensionStore');
+                this.extensionStatus = await this.extensionHelperService.getStatusOfExtension('HkagExtensionStore');
             } catch (error) {
                 Shopware.Utils.debug.error(error);
             } finally {
@@ -143,7 +143,7 @@ export default {
         },
 
         async installExtensionStore() {
-            const response = await this.extensionHelperService.downloadAndActivateExtension('HaokeExtensionStore');
+            const response = await this.extensionHelperService.downloadAndActivateExtension('HkagExtensionStore');
 
             this.$emit('extension-activated');
 

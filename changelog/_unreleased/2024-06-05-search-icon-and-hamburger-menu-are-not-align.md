@@ -2,7 +2,7 @@
 title: Search icon and hamburger menu are not align
 issue: NEXT-33111
 author: Thuan Le
-author_email: th.le@shopware.com
+author_email: th.le@haokeyingxiao.com
 author_github: Thuan Le
 ---
 # Administration

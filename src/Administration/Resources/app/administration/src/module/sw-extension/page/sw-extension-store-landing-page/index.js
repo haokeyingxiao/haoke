@@ -20,7 +20,7 @@ export default {
 
     computed: {
         extensionName() {
-            return 'HaokeExtensionStore';
+            return 'HkagExtensionStore';
         },
 
         assetFilter() {

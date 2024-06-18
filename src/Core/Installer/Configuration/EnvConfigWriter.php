@@ -43,7 +43,7 @@ BLUE_GREEN_DEPLOYMENT=0
 DATABASE_URL=mysql://root:root@localhost/shopware
 ###< haokeyingxiao/core ###
 
-###> shopware/elasticsearch ###
+###> haokeyingxiao/elasticsearch ###
 OPENSEARCH_URL=http://localhost:9200
 SHOPWARE_ES_ENABLED=0
 SHOPWARE_ES_INDEXING_ENABLED=0
@@ -53,13 +53,13 @@ ADMIN_OPENSEARCH_URL=http://localhost:9200
 SHOPWARE_ADMIN_ES_INDEX_PREFIX=sw-admin
 SHOPWARE_ADMIN_ES_ENABLED=0
 SHOPWARE_ADMIN_ES_REFRESH_INDICES=0
-###< shopware/elasticsearch ###
+###< haokeyingxiao/elasticsearch ###
 
-###> shopware/storefront ###
+###> haokeyingxiao/storefront ###
 STOREFRONT_PROXY_URL=http://localhost
 SHOPWARE_HTTP_CACHE_ENABLED=1
 SHOPWARE_HTTP_DEFAULT_TTL=7200
-###< shopware/storefront ###
+###< haokeyingxiao/storefront ###
 EOT;
 
     public function __construct(

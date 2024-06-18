@@ -82,10 +82,10 @@ push split repositories (gitlab):
 
       ```shell
       composer require \
-        "shopware/administration:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
-        "shopware/storefront:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
+        "haokeyingxiao/administration:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
+        "haokeyingxiao/storefront:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
         "haokeyingxiao/core:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev" \
-        "shopware/elasticsearch:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev"
+        "haokeyingxiao/elasticsearch:dev-tmp-${CI_COMMIT_SHORT_SHA} as 6.6.x-dev"
       ```
   script:
     - *push-split-repositories-script

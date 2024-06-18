@@ -2,7 +2,7 @@
 title: Changed default recipient for mails send via the Flow Builder on the product review send trigger
 issue: NEXT-34301
 author: Simon Fiebranz
-author_email: s.fiebranz@shopware.com
+author_email: s.fiebranz@haokeyingxiao.com
 author_github: CR0YD
 ---
 # Core
