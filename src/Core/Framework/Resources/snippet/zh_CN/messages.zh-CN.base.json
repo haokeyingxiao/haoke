@@ -45,7 +45,8 @@
       "roundedTotal": "四舍五入总计:",
       "totalNet": "净总计:",
       "shippingCosts": "运费",
-      "inclVAT": "含增值税"
+      "inclVAT": "含增值税",
+      "exclVAT": "不含增值税"
     },
     "paymentShippingInfo": {
       "paymentMethod": "<strong>支付方式:</strong> %paymentMethod%",
