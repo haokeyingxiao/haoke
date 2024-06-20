@@ -3,6 +3,7 @@ import type { uiModulePaymentOverviewCard } from '@haokeyingxiao/meteor-admin-sd
 
 /**
  * @package checkout
+ * @deprecated tag:v6.7.0 - Will be replaced with Pinia store
  */
 
 type PaymentOverviewCard = Omit<uiModulePaymentOverviewCard, 'responseType'>

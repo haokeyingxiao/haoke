@@ -1,5 +1,6 @@
 /**
  * @package admin
+ * @deprecated tag:v6.7.0 - Will be replaced with Pinia store
  */
 
 import type { privileges } from '@haokeyingxiao/meteor-admin-sdk/es/_internals/privileges';
