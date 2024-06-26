@@ -206,7 +206,8 @@ export default {
                 // convert from user timezone (represented as Asia/Shanghai) to Asia/Shanghai timezone
                 const utcDate = zonedTimeToUtc(new Date(newValue), this.userTimeZone);
 
-                // emit the Asia/Shanghai time so that the v-model value always work in Asia/Shanghai time (which is needed for the server)
+                // emit the Asia/Shanghai time so that the v-model value always work in Asia/Shanghai time
+                // (which is needed for the server)
                 this.$emit('update:value', utcDate.toISOString());
             },
         },

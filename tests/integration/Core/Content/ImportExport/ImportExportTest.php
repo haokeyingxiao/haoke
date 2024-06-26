@@ -1122,7 +1122,7 @@ SWTEST;1;' . $productName . ';9.35;10;0c17372fe6aa46059a97fc28b40f46c4;7;7%%;%s'
         static::assertSame('foo', $record['custom_field_1']);
         static::assertSame('23', $record['custom_field_2']);
         static::assertSame('1', $record['custom_field_3']);
-        static::assertSame('2021-12-12T12:00:00+00:00', $record['custom_field_4']);
+        static::assertSame('2021-12-12T12:00:00+08:00', $record['custom_field_4']);
         static::assertSame('["abc8b8f701034e8dbea72ac0fc32521e","c5c8b8f701034e8dbea72ac0fc32521e"]', $record['custom_field_5']);
         static::assertSame(
             '{"custom_field_1":"foo","custom_field_2":23,"custom_field_3":true,"custom_field_4":"2021-12-12T12:00:00+08:00","custom_field_5":["abc8b8f701034e8dbea72ac0fc32521e","c5c8b8f701034e8dbea72ac0fc32521e"],"custom_field_6":"bar"}',
