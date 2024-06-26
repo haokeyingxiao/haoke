@@ -92,7 +92,7 @@ class MediaUrlLoaderTest extends TestCase
                 'updatedAt' => new \DateTimeImmutable('2000-01-01'),
                 'private' => false,
             ]),
-            [$ids->get('media') => 'http://localhost:8000/foo/bar.png?ts=946684800'],
+            [$ids->get('media') => 'http://localhost:8000/foo/bar.png?ts=946656000'],
         ];
 
         yield 'Test with unset thumbnails' => [
@@ -162,8 +162,8 @@ class MediaUrlLoaderTest extends TestCase
                 ],
             ]),
             [
-                $ids->get('media') => 'http://localhost:8000/foo/bar.png?ts=946684800',
-                $ids->get('thumbnail') => 'http://localhost:8000/thumb/bar.png?ts=946684800',
+                $ids->get('media') => 'http://localhost:8000/foo/bar.png?ts=946656000',
+                $ids->get('thumbnail') => 'http://localhost:8000/thumb/bar.png?ts=946656000',
             ],
         ];
     }

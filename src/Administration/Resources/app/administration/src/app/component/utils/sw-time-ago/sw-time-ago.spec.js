@@ -3,7 +3,7 @@ import 'src/app/component/utils/sw-time-ago';
 
 // mock Date.now() to 2025-06-24 15:00
 Date.now = jest.fn(
-    () => new Date(Date.Asia/Shanghai(2025, 5, 24, 15, 0)).valueOf(),
+    () => new Date(Date.UTC(2025, 5, 24, 15, 0)).valueOf(),
 );
 
 async function createWrapper(props = {}) {
@@ -42,7 +42,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
         jest.useFakeTimers();
 
         Date.now = jest.fn(
-            () => new Date(Date.Asia/Shanghai(2025, 5, 24, 15, 0)).valueOf(),
+            () => new Date(Date.UTC(2025, 5, 24, 15, 0)).valueOf(),
         );
 
         const wrapper = await createWrapper({
@@ -52,7 +52,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
         expect(wrapper.vm.now).toBe(1750777200000);
 
         Date.now = jest.fn(
-            () => new Date(Date.Asia/Shanghai(2025, 5, 24, 15, 1)).valueOf(),
+            () => new Date(Date.UTC(2025, 5, 24, 15, 1)).valueOf(),
         );
 
         jest.advanceTimersByTime(30000);
@@ -91,7 +91,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
 
     describe('date property as string', () => {
         it('should be a Vue.JS component', async () => {
-            const wrapper = await createWrapper({ date: '2025-06-24T15:00:00.000+00:00' });
+            const wrapper = await createWrapper({ date: '2025-06-24T15:00:00.000+08:00' });
 
             expect(wrapper.vm).toBeTruthy();
         });
@@ -118,7 +118,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
                     date: '2025-06-24T08:25:00.000+00:00',
                 });
 
-                expect(wrapper.text()).toContain('8:25');
+                expect(wrapper.text()).toContain('16:25');
             });
 
             it('should show the correct time for days more than one day ago', async () => {
@@ -126,7 +126,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
                     date: '2025-06-16T15:00:00.000+00:00',
                 });
 
-                expect(wrapper.text()).toContain('16 June 2025 at 15:00');
+                expect(wrapper.text()).toContain('16 June 2025 at 23:00');
             });
 
             it('should show a tooltip when day is today', async () => {
@@ -165,7 +165,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
 
             it('should show the correct time for today', async () => {
                 const wrapper = await createWrapper({
-                    date: '2025-06-24T17:25:00.000+00:00',
+                    date: '2025-06-24T17:25:00.000+08:00',
                 });
 
                 expect(wrapper.text()).toContain('17:25');
@@ -176,12 +176,12 @@ describe('src/app/component/utils/sw-time-ago', () => {
                     date: '2025-06-30T15:00:00.000+00:00',
                 });
 
-                expect(wrapper.text()).toContain('30 June 2025 at 15:00');
+                expect(wrapper.text()).toContain('30 June 2025 at 23:00');
             });
 
             it('should show a tooltip when day is today', async () => {
                 const wrapper = await createWrapper({
-                    date: '2025-06-24T17:30:00.000+00:00',
+                    date: '2025-06-24T17:30:00.000+08:00',
                 });
 
                 expect(wrapper.find('span').attributes('data-tooltip-disabled')).toBe('false');
@@ -226,7 +226,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
                     date: new Date('2025-06-24T08:25:00.000+00:00'),
                 });
 
-                expect(wrapper.text()).toContain('8:25');
+                expect(wrapper.text()).toContain('16:25');
             });
 
             it('should show the correct time for days more than one day ago', async () => {
@@ -234,7 +234,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
                     date: new Date('2025-06-16T15:00:00.000+00:00'),
                 });
 
-                expect(wrapper.text()).toContain('16 June 2025 at 15:00');
+                expect(wrapper.text()).toContain('16 June 2025 at 23:00');
             });
 
             it('should show a tooltip when day is today', async () => {
@@ -273,7 +273,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
 
             it('should show the correct time for today', async () => {
                 const wrapper = await createWrapper({
-                    date: new Date('2025-06-24T17:25:00.000+00:00'),
+                    date: new Date('2025-06-24T17:25:00.000+08:00'),
                 });
 
                 expect(wrapper.text()).toContain('17:25');
@@ -284,12 +284,12 @@ describe('src/app/component/utils/sw-time-ago', () => {
                     date: new Date('2025-06-30T15:00:00.000+00:00'),
                 });
 
-                expect(wrapper.text()).toContain('30 June 2025 at 15:00');
+                expect(wrapper.text()).toContain('30 June 2025 at 23:00');
             });
 
             it('should show a tooltip when day is today', async () => {
                 const wrapper = await createWrapper({
-                    date: new Date('2025-06-24T17:30:00.000+00:00'),
+                    date: new Date('2025-06-24T17:30:00.000+0800'),
                 });
 
                 expect(wrapper.find('span').attributes('data-tooltip-disabled')).toBe('false');

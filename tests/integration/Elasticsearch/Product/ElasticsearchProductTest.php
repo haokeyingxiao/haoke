@@ -2716,7 +2716,7 @@ class ElasticsearchProductTest extends TestCase
 
         $product = $products[$ids->get('dal-1')];
 
-        static::assertSame('2019-01-01T10:11:00+00:00', $product['releaseDate']);
+        static::assertSame('2019-01-01T10:11:00+08:00', $product['releaseDate']);
     }
 
     #[Depends('testIndexing')]

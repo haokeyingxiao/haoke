@@ -73,7 +73,7 @@ describe('src/app/component/filter/sw-date-filter', () => {
         expect(wrapper.emitted()['filter-update'][0]).toEqual([
             'releaseDate',
             [Criteria.range('releaseDate', { lte: '2021-01-25' })],
-            { from: null, to: '2021-01-25T23:59:59.000Z', timeframe: 'custom' },
+            { from: null, to: '2021-01-25T15:59:59.000Z', timeframe: 'custom' },
         ]);
     });
 
@@ -101,7 +101,7 @@ describe('src/app/component/filter/sw-date-filter', () => {
         expect(wrapper.emitted()['filter-update'][1]).toEqual([
             'releaseDate',
             [Criteria.range('releaseDate', { gte: '2021-01-19', lte: '2021-01-25' })],
-            { from: '2021-01-19', to: '2021-01-25T23:59:59.000Z', timeframe: 'custom' },
+            { from: '2021-01-19', to: '2021-01-25T15:59:59.000Z', timeframe: 'custom' },
         ]);
     });
 
@@ -215,28 +215,28 @@ describe('src/app/component/filter/sw-date-filter', () => {
     const cases = {
         'a year': {
             timeframe: -365,
-            expectedFrom: '1336-12-31T00:00:00.000Z',
-            expectedTo: '1337-12-31T00:00:00.000Z',
+            expectedFrom: '1336-12-30T15:54:17.000Z',
+            expectedTo: '1337-12-30T15:54:17.000Z',
         },
         'a quarter': {
             timeframe: 'lastQuarter',
-            expectedFrom: '1337-07-01T00:00:00.000Z',
-            expectedTo: '1337-09-30T23:59:59.000Z',
+            expectedFrom: '1337-06-30T15:54:17.000Z',
+            expectedTo: '1337-09-30T15:54:16.000Z',
         },
         'a month': {
             timeframe: -30,
-            expectedFrom: '1337-12-01T00:00:00.000Z',
-            expectedTo: '1337-12-31T00:00:00.000Z',
+            expectedFrom: '1337-11-30T15:54:17.000Z',
+            expectedTo: '1337-12-30T15:54:17.000Z',
         },
         'a week': {
             timeframe: -7,
-            expectedFrom: '1337-12-24T00:00:00.000Z',
-            expectedTo: '1337-12-31T00:00:00.000Z',
+            expectedFrom: '1337-12-23T15:54:17.000Z',
+            expectedTo: '1337-12-30T15:54:17.000Z',
         },
         'a day': {
             timeframe: -1,
-            expectedFrom: '1337-12-30T00:00:00.000Z',
-            expectedTo: '1337-12-31T00:00:00.000Z',
+            expectedFrom: '1337-12-29T15:54:17.000Z',
+            expectedTo: '1337-12-30T15:54:17.000Z',
         },
     };
 

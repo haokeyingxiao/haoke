@@ -93,7 +93,7 @@ class DownloadServiceTest extends TestCase
             'fileEntity' => (new ImportExportFileEntity())->assign([
                 'id' => Uuid::randomHex(),
                 'accessToken' => 'validAccessToken',
-                'updatedAt' => new \DateTimeImmutable('+' . 600),
+                'updatedAt' => new \DateTimeImmutable('+' . 900),
             ]),
             'accessToken' => 'validAccessToken',
         ];

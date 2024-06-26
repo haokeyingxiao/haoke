@@ -93,6 +93,7 @@
     },
     "CHECKOUT__ORDER_ORDER_ALREADY_PAID": "订单编号 \"%orderNumber%\" 的订单已付款，不能再编辑。",
     "CHECKOUT__ORDER_ORDER_NOT_FOUND": "未找到此订单。",
+    "CHECKOUT__CART_HASH_MISMATCH":  "您的购物车中的产品或价格可能已更改。请在下单前检查您的购物车。",
     "CHECKOUT__CART_INVALID_LINE_ITEM_QUANTITY": "数量 (%quantity%) 不正确。"
   },
   "account": {

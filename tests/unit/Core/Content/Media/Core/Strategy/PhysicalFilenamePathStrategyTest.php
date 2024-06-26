@@ -47,7 +47,7 @@ class PhysicalFilenamePathStrategyTest extends TestCase
 
         yield 'Test with extension and cache buster' => [
             new MediaLocationStruct('foo', 'jpg', 'test', new \DateTimeImmutable('2021-01-01')),
-            'media/49/6b/53/1609459200/test.jpg',
+            'media/1b/1d/92/1609430400/test.jpg',
         ];
 
         yield 'Test with thumbnail' => [
@@ -57,11 +57,11 @@ class PhysicalFilenamePathStrategyTest extends TestCase
                 100,
                 new MediaLocationStruct('foo', 'jpg', 'test', new \DateTimeImmutable('2021-01-01'))
             ),
-            'thumbnail/49/6b/53/1609459200/test_100x100.jpg',
+            'thumbnail/1b/1d/92/1609430400/test_100x100.jpg',
         ];
         yield 'Test file name results into /ad' => [
             new MediaLocationStruct('foo', 'jpg', '018b3c6d2ddf726fb12ee582f5caba40', new \DateTimeImmutable('2021-01-01')),
-            'media/5c/4d/dc/1609459200/018b3c6d2ddf726fb12ee582f5caba40.jpg',
+            'media/d2/62/a4/1609430400/018b3c6d2ddf726fb12ee582f5caba40.jpg',
         ];
     }
 }

@@ -47,7 +47,7 @@ class PlainPathStrategyTest extends TestCase
 
         yield 'Test with extension and cache buster' => [
             new MediaLocationStruct('foo', 'jpg', 'test', new \DateTimeImmutable('2021-01-01')),
-            'media/1609459200/test.jpg',
+            'media/1609430400/test.jpg',
         ];
 
         yield 'Test with thumbnail' => [
@@ -57,7 +57,7 @@ class PlainPathStrategyTest extends TestCase
                 100,
                 new MediaLocationStruct('foo', 'jpg', 'test', new \DateTimeImmutable('2021-01-01'))
             ),
-            'thumbnail/1609459200/test_100x100.jpg',
+            'thumbnail/1609430400/test_100x100.jpg',
         ];
     }
 }

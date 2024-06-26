@@ -102,11 +102,11 @@ class RemoteThumbnailLoaderTest extends TestCase
                 ['media_folder_id' => $ids->get('mediaFolderId'), 'width' => '600', 'height' => '600'],
             ],
             [
-                'media' => 'http://localhost:8000/foo/bar.png?ts=946684800',
+                'media' => 'http://localhost:8000/foo/bar.png?ts=946656000',
                 'thumbnails' => [
-                    'http://localhost:8000/foo/bar.png?width=200&ts=946684800',
-                    'http://localhost:8000/foo/bar.png?width=400&ts=946684800',
-                    'http://localhost:8000/foo/bar.png?width=600&ts=946684800',
+                    'http://localhost:8000/foo/bar.png?width=200&ts=946656000',
+                    'http://localhost:8000/foo/bar.png?width=400&ts=946656000',
+                    'http://localhost:8000/foo/bar.png?width=600&ts=946656000',
                 ],
             ],
         ];

@@ -67,7 +67,7 @@ class DateTimeFieldSerializerTest extends TestCase
             ],
             [
                 new \DateTime('2020-05-15 22:00:00', new \DateTimeZone('America/New_York')),
-                new \DateTime('2020-05-16 02:00:00', new \DateTimeZone('Asia/Shanghai')),
+                new \DateTime('2020-05-16 10:00:00', new \DateTimeZone('Asia/Shanghai')),
             ],
         ];
     }
@@ -77,15 +77,15 @@ class DateTimeFieldSerializerTest extends TestCase
         return [
             [
                 '2020-05-15T00:00:00+0000',
-                '2020-05-15T00:00:00+00:00',
+                '2020-05-15T08:00:00+08:00',
             ],
             [
                 '2020-05-15T00:00:00+0200',
-                '2020-05-14T22:00:00+00:00',
+                '2020-05-15T06:00:00+08:00',
             ],
             [
                 '2020-05-15T22:00:00+0400',
-                '2020-05-15T18:00:00+00:00',
+                '2020-05-16T02:00:00+08:00',
             ],
         ];
     }

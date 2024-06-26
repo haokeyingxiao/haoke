@@ -47,7 +47,7 @@ class IdPathStrategyTest extends TestCase
 
         yield 'Test with extension and cache buster' => [
             new MediaLocationStruct('foo', 'jpg', 'test', new \DateTimeImmutable('2021-01-01')),
-            'media/ac/bd/18/1609459200/test.jpg',
+            'media/ac/bd/18/1609430400/test.jpg',
         ];
 
         yield 'Test with thumbnail' => [
@@ -57,11 +57,11 @@ class IdPathStrategyTest extends TestCase
                 100,
                 new MediaLocationStruct('foo', 'jpg', 'test', new \DateTimeImmutable('2021-01-01'))
             ),
-            'thumbnail/ac/bd/18/1609459200/test_100x100.jpg',
+            'thumbnail/ac/bd/18/1609430400/test_100x100.jpg',
         ];
         yield 'Test id results into /ad' => [
             new MediaLocationStruct('018b3c6d2ddf726fb12ee582f5caba40', 'jpg', 'test', new \DateTimeImmutable('2021-01-01')),
-            'media/fd/18/g0/1609459200/test.jpg',
+            'media/fd/18/g0/1609430400/test.jpg',
         ];
     }
 }

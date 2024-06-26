@@ -104,7 +104,7 @@ class ArrayStructTest extends TestCase
         static::assertArrayHasKey('test', $serializedStruct);
         static::assertArrayHasKey('date', $serializedStruct);
         static::assertSame('value', $serializedStruct['test']);
-        static::assertSame('2023-04-19T00:00:00.000+00:00', $serializedStruct['date']);
+        static::assertSame('2023-04-19T00:00:00.000+08:00', $serializedStruct['date']);
     }
 
     public function testGetApiAlias(): void

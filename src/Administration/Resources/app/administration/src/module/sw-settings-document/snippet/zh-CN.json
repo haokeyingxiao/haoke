@@ -68,7 +68,8 @@
       "labelDisplayDocumentInCustomerAccount": "在“我的账户”中显示文档",
       "labelDisplayDivergentDeliveryAddress": "显示不同的送货地址",
       "helpTextDisplayDocumentInCustomerAccount": "文档显示在相应客户账户的“订单”下。请注意，只有实际发送给客户的文档才会显示在客户账户中。",
-      "helpTextDisplayDeliveryCountries": "在发票文档上为选定国家显示“欧盟内交货”指示。"
+      "helpTextDisplayDeliveryCountries": "在发票文档上为选定国家显示“欧盟内交货”指示。",
+      "helpTextCompanyAddress": "使用连字符（\"-\"）来分隔地址的不同部分。这有助于在页眉的多个位置同时显示地址。"
     }
   },
   "sw-privileges": {

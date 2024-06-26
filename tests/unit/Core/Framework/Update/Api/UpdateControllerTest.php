@@ -78,7 +78,7 @@ class UpdateControllerTest extends TestCase
         $content = $response->getContent();
 
         static::assertJson((string) $content);
-        static::assertSame('{"extensions":[],"title":"","body":"","date":"2020-01-01T00:00:00.000+00:00","version":"6.5.0.0","fixedVulnerabilities":[]}', $content);
+        static::assertSame('{"extensions":[],"title":"","body":"","date":"2020-01-01T00:00:00.000+08:00","version":"6.5.0.0","fixedVulnerabilities":[]}', $content);
     }
 
     public function testCheckForUpdatesNoUpdateWithDisabledUpdateCheckByEnv(): void

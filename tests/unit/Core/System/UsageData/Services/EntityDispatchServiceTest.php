@@ -213,7 +213,7 @@ class EntityDispatchServiceTest extends TestCase
 
     public function testItCanStartSecondRunAfterGivenAmountOfTime(): void
     {
-        $lastConsentDate = new \DateTimeImmutable('2023-07-25T07:00:19.803422+0000');
+        $lastConsentDate = new \DateTimeImmutable('2023-07-25T07:00:19.803422+0800');
 
         $consentService = $this->createMock(ConsentService::class);
         $consentService->method('getLastConsentIsAcceptedDate')->willReturnOnConsecutiveCalls(
