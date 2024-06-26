@@ -43,6 +43,7 @@ jobs:
         env:
           discovery.type: single-node
           plugins.security.disabled: 'true'
+          TZ: Asia/Shanghai
         ports:
           - "9200:9200"
 
