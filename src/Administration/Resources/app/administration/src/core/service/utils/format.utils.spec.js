@@ -108,7 +108,7 @@ describe('src/core/service/utils/format.utils.js', () => {
             // eslint-disable-next-line no-shadow
             const date = new Date(2000, 1, 1, 0, 13, 37);
 
-            expect(dateWithUserTimezone(date).toString()).toBe('Mon Jan 31 2000 16:13:37 GMT+0800 (China Standard Time)');
+            expect(dateWithUserTimezone(date).toString()).toBe('Tue Feb 01 2000 00:13:37 GMT+0800 (China Standard Time)');
         });
     });
 

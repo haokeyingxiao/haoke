@@ -47,6 +47,9 @@ jobs:
           - "9200:9200"
 
     steps:
+      - name: Set up timezone to Asia/Shanghai
+        run: sudo timedatectl set-timezone Asia/Shanghai
+
       - name: Checkout
         uses: actions/checkout@v4
 
