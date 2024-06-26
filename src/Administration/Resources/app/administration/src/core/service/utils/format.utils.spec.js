@@ -24,30 +24,30 @@ describe('src/core/service/utils/format.utils.js', () => {
 
         beforeEach(async () => {
             setLocale('en-GB');
-            setTimeZone('UTC');
+            setTimeZone('Asia/Shanghai');
         });
 
         it('should return empty string for null value', async () => {
             expect(date(null)).toBe('');
         });
 
-        it('should convert the date correctly with timezone UTC in en-GB', async () => {
+        it('should convert the date correctly with timezone Asia/Shanghai in en-GB', async () => {
             setLocale('en-GB');
-            setTimeZone('UTC');
+            setTimeZone('Asia/Shanghai');
 
             expect(date('2000-06-18T08:30:00.000+00:00')).toBe('18 June 2000 at 08:30');
         });
 
-        it('should convert the date correctly with timezone UTC in en-US', async () => {
+        it('should convert the date correctly with timezone Asia/Shanghai in en-US', async () => {
             setLocale('en-US');
-            setTimeZone('UTC');
+            setTimeZone('Asia/Shanghai');
 
             expect(date('2000-06-18T08:30:00.000+00:00')).toBe('June 18, 2000 at 8:30 AM');
         });
 
-        it('should convert the date correctly with timezone UTC in de-DE', async () => {
+        it('should convert the date correctly with timezone Asia/Shanghai in de-DE', async () => {
             setLocale('de-DE');
-            setTimeZone('UTC');
+            setTimeZone('Asia/Shanghai');
 
             expect(date('2000-06-18T08:30:00.000+00:00')).toBe('18. Juni 2000 um 08:30');
         });
@@ -92,7 +92,7 @@ describe('src/core/service/utils/format.utils.js', () => {
 
         beforeEach(async () => {
             setLocale('en-GB');
-            setTimeZone('UTC');
+            setTimeZone('Asia/Shanghai');
         });
 
         it('should convert the date correctly with timezone Pacific/Pago_Pago', async () => {
@@ -103,7 +103,7 @@ describe('src/core/service/utils/format.utils.js', () => {
             expect(dateWithUserTimezone(date).toString()).toBe('Tue Feb 01 2000 00:13:37 GMT+0000 (Coordinated Universal Time)');
         });
 
-        it('should convert the date correctly with timezone UTC as fallback', async () => {
+        it('should convert the date correctly with timezone Asia/Shanghai as fallback', async () => {
             setTimeZone(null);
             // eslint-disable-next-line no-shadow
             const date = new Date(2000, 1, 1, 0, 13, 37);
@@ -180,13 +180,13 @@ describe('src/core/service/utils/format.utils.js', () => {
 
     describe('toISODate', () => {
         it('formats the date with time', async () => {
-            const dateWithTime = new Date(Date.UTC(2021, 0, 1, 13, 37, 0));
+            const dateWithTime = new Date(Date.Asia/Shanghai(2021, 0, 1, 13, 37, 0));
 
             expect(toISODate(dateWithTime)).toBe('2021-01-01T13:37:00.000Z');
         });
 
         it('formats the date without time', async () => {
-            const dateWithoutTime = new Date(Date.UTC(2021, 0, 1, 13, 37, 0));
+            const dateWithoutTime = new Date(Date.Asia/Shanghai(2021, 0, 1, 13, 37, 0));
 
             expect(toISODate(dateWithoutTime, false)).toBe('2021-01-01');
         });

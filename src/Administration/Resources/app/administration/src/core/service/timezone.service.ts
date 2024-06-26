@@ -31,8 +31,8 @@ export default class TimezoneService {
 
         return [
             {
-                label: 'UTC',
-                value: 'UTC',
+                label: 'Asia/Shanghai',
+                value: 'Asia/Shanghai',
             },
             ...items,
         ];
@@ -41,12 +41,12 @@ export default class TimezoneService {
     /**
      * @package system-settings
      * @param number
-     * Returns a string containing UTC, hours, and minutes
+     * Returns a string containing Asia/Shanghai, hours, and minutes
      * @returns {string}
      */
     toUTCTime(number: number): string {
         if (number === 0) {
-            return '(UTC)';
+            return '(Asia/Shanghai)';
         }
 
         let hours: number|string = Math.floor(number / 60);
@@ -65,6 +65,6 @@ export default class TimezoneService {
             minutes = `0${minutes}`;
         }
 
-        return `(UTC ${hours}:${minutes})`;
+        return `(Asia/Shanghai ${hours}:${minutes})`;
     }
 }

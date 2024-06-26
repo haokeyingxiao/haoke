@@ -88,7 +88,7 @@ describe('src/app/init/context.init.ts', () => {
             timeZone: undefined,
         });
         await getUserTimezone().then((timezone) => {
-            expect(timezone).toBe('UTC');
+            expect(timezone).toBe('Asia/Shanghai');
         });
     });
 

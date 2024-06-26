@@ -56,8 +56,8 @@ async function createWrapper(privileges = []) {
             },
             timezoneOptions: [
                 {
-                    label: 'UTC',
-                    value: 'UTC',
+                    label: 'Asia/Shanghai',
+                    value: 'Asia/Shanghai',
                 },
             ],
         },
@@ -135,6 +135,6 @@ describe('src/module/sw-profile/view/sw-profile-index-general', () => {
         const results = wrapper.findAll('.sw-select-result');
         const resultNames = results.map(result => result.text());
 
-        expect(resultNames).toContain('UTC');
+        expect(resultNames).toContain('Asia/Shanghai');
     });
 });

@@ -9,7 +9,7 @@ const { join, resolve } = require('path');
 
 process.env.PROJECT_ROOT = process.env.PROJECT_ROOT || process.env.INIT_CWD || '.';
 process.env.ADMIN_PATH = process.env.ADMIN_PATH || __dirname;
-process.env.TZ = process.env.TZ || 'UTC';
+process.env.TZ = process.env.TZ || 'Asia/Shanghai';
 
 // Check if ADMIN_PATH/test/_helper_/component-imports.js exists
 if (!existsSync(join(process.env.ADMIN_PATH, '/test/_helper_/componentWrapper/component-imports.js'))) {

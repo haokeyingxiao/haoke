@@ -38,8 +38,8 @@ class TwigDateRequestListener implements EventSubscriberInterface
     {
         $timezone = (string) $event->getRequest()->cookies->get(self::TIMEZONE_COOKIE);
 
-        if (!$timezone || !\in_array($timezone, timezone_identifiers_list(), true) || $timezone === 'UTC') {
-            // Default will be UTC @see https://symfony.com/doc/current/reference/configuration/twig.html#timezone
+        if (!$timezone || !\in_array($timezone, timezone_identifiers_list(), true) || $timezone === 'Asia/Shanghai') {
+            // Default will be Asia/Shanghai @see https://symfony.com/doc/current/reference/configuration/twig.html#timezone
             return;
         }
 

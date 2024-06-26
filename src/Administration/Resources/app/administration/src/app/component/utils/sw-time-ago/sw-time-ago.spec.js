@@ -3,7 +3,7 @@ import 'src/app/component/utils/sw-time-ago';
 
 // mock Date.now() to 2025-06-24 15:00
 Date.now = jest.fn(
-    () => new Date(Date.UTC(2025, 5, 24, 15, 0)).valueOf(),
+    () => new Date(Date.Asia/Shanghai(2025, 5, 24, 15, 0)).valueOf(),
 );
 
 async function createWrapper(props = {}) {
@@ -42,7 +42,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
         jest.useFakeTimers();
 
         Date.now = jest.fn(
-            () => new Date(Date.UTC(2025, 5, 24, 15, 0)).valueOf(),
+            () => new Date(Date.Asia/Shanghai(2025, 5, 24, 15, 0)).valueOf(),
         );
 
         const wrapper = await createWrapper({
@@ -52,7 +52,7 @@ describe('src/app/component/utils/sw-time-ago', () => {
         expect(wrapper.vm.now).toBe(1750777200000);
 
         Date.now = jest.fn(
-            () => new Date(Date.UTC(2025, 5, 24, 15, 1)).valueOf(),
+            () => new Date(Date.Asia/Shanghai(2025, 5, 24, 15, 1)).valueOf(),
         );
 
         jest.advanceTimersByTime(30000);

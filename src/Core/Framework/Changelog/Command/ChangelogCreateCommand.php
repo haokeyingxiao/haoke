@@ -111,7 +111,7 @@ class ChangelogCreateCommand extends Command
         $gitEmail = trim($process->getOutput());
 
         return [
-            'date' => (new \DateTime())->setTimezone(new \DateTimeZone('UTC'))->format('Y-m-d'),
+            'date' => (new \DateTime())->setTimezone(new \DateTimeZone('Asia/Shanghai'))->format('Y-m-d'),
             'author' => $gitUser,
             'authorEmail' => $gitEmail,
             'authorGithub' => $gitUser,

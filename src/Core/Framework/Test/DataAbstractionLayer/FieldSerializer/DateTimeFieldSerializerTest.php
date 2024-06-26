@@ -58,16 +58,16 @@ class DateTimeFieldSerializerTest extends TestCase
     {
         return [
             [
-                new \DateTime('2020-05-15 00:00:00', new \DateTimeZone('UTC')),
-                new \DateTime('2020-05-15 00:00:00', new \DateTimeZone('UTC')),
+                new \DateTime('2020-05-15 00:00:00', new \DateTimeZone('Asia/Shanghai')),
+                new \DateTime('2020-05-15 00:00:00', new \DateTimeZone('Asia/Shanghai')),
             ],
             [
-                new \DateTime('2099-05-18 00:00:00', new \DateTimeZone('UTC')),
-                new \DateTime('2099-05-18 00:00:00', new \DateTimeZone('UTC')),
+                new \DateTime('2099-05-18 00:00:00', new \DateTimeZone('Asia/Shanghai')),
+                new \DateTime('2099-05-18 00:00:00', new \DateTimeZone('Asia/Shanghai')),
             ],
             [
                 new \DateTime('2020-05-15 22:00:00', new \DateTimeZone('America/New_York')),
-                new \DateTime('2020-05-16 02:00:00', new \DateTimeZone('UTC')),
+                new \DateTime('2020-05-16 02:00:00', new \DateTimeZone('Asia/Shanghai')),
             ],
         ];
     }

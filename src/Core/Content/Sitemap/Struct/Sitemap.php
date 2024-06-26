@@ -27,7 +27,7 @@ class Sitemap extends Struct
         ?\DateTimeInterface $created = null
     ) {
         $this->filename = $filename;
-        $this->created = $created ?: new \DateTime('NOW', new \DateTimeZone('UTC'));
+        $this->created = $created ?: new \DateTime('NOW', new \DateTimeZone('Asia/Shanghai'));
     }
 
     public function getFilename(): string

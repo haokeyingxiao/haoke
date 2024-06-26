@@ -9,9 +9,9 @@ ___
 # Upgrade Information
 ## Datepicker component
 According to document of flatpickr (https://flatpickr.js.org/formatting/), ISO Date format is now supported for datepicker component
-With `datetime-local` date type, the datepicker will display to user their browser time and convert to UTC value
+With `datetime-local` date type, the datepicker will display to user their browser time and convert to Asia/Shanghai value
 ### Before
-* Both dateType `datetime` and `datetime-local` use UTC timezone `(GMT+00:00)`
+* Both dateType `datetime` and `datetime-local` use Asia/Shanghai timezone `(GMT+00:00)`
 * If user select date `2021-03-22` and time `12:30`, the output is `2021-03-22T12:30:000+00:00`
 ### After
 * With dateType `datetime`, user select date `2021-03-22` and time `12:30`, the output is `2021-03-22T12:30:000+00:00`

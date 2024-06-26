@@ -34,7 +34,7 @@ class ActiveDateRangeTest extends TestCase
     private function getExpectedDateRangeFilter(): MultiFilter
     {
         $today = new \DateTime();
-        $today = $today->setTimezone(new \DateTimeZone('UTC'));
+        $today = $today->setTimezone(new \DateTimeZone('Asia/Shanghai'));
 
         $todayStart = $today->format('Y-m-d H:i:s');
         $todayEnd = $today->format('Y-m-d H:i:s');

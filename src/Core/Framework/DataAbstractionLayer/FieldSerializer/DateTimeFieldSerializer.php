@@ -49,7 +49,7 @@ class DateTimeFieldSerializer extends AbstractFieldSerializer
             return;
         }
 
-        $value = $value->setTimezone(new \DateTimeZone('UTC'));
+        $value = $value->setTimezone(new \DateTimeZone('Asia/Shanghai'));
 
         yield $field->getStorageName() => $value->format(Defaults::STORAGE_DATE_TIME_FORMAT);
     }

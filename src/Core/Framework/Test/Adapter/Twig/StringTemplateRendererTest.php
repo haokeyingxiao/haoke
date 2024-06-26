@@ -33,7 +33,7 @@ class StringTemplateRendererTest extends TestCase
     public function testInitialization(): void
     {
         $templateMock = '{{ testDate|format_date(pattern="HH:mm") }}';
-        $testDate = new \DateTimeImmutable('now', new \DateTimeZone('UTC'));
+        $testDate = new \DateTimeImmutable('now', new \DateTimeZone('Asia/Shanghai'));
         $context = Context::createDefaultContext();
 
         /** @var CoreExtension $coreExtension */

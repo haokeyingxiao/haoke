@@ -25,7 +25,7 @@ describe('src/app/component/form/sw-datepicker', () => {
 
     beforeEach(async () => {
         Shopware.State.get('session').currentUser = {
-            timeZone: 'UTC',
+            timeZone: 'Asia/Shanghai',
         };
     });
 
@@ -132,7 +132,7 @@ describe('src/app/component/form/sw-datepicker', () => {
         expect(hint.exists()).toBe(false);
     });
 
-    it('should show the UTC timezone as a hint when no timezone was selected and when datetime is datetime', async () => {
+    it('should show the Asia/Shanghai timezone as a hint when no timezone was selected and when datetime is datetime', async () => {
         wrapper = await createWrapper({
             props: {
                 dateType: 'datetime',
@@ -143,7 +143,7 @@ describe('src/app/component/form/sw-datepicker', () => {
         const hint = wrapper.find('.sw-field__hint');
         const clockIcon = hint.find('sw-icon-stub[name="solid-clock"]');
 
-        expect(hint.text()).toContain('UTC');
+        expect(hint.text()).toContain('Asia/Shanghai');
         expect(clockIcon.isVisible()).toBe(true);
     });
 

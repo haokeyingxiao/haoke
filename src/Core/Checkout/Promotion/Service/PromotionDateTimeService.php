@@ -17,7 +17,7 @@ class PromotionDateTimeService implements PromotionDateTimeServiceInterface
     public function getNow(): string
     {
         $now = new \DateTime();
-        $now->setTimezone(new \DateTimeZone('UTC'));
+        $now->setTimezone(new \DateTimeZone('Asia/Shanghai'));
 
         return $now->format(Defaults::STORAGE_DATE_FORMAT);
     }

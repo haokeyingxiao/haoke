@@ -35,21 +35,21 @@ class DashboardControllerTest extends TestCase
             'request' => new Request(),
             'since' => 'today',
             'paid' => true,
-            'timezone' => 'UTC',
+            'timezone' => 'Asia/Shanghai',
         ];
 
         yield 'Since today, paid true, timezone fallback' => [
             'request' => new Request(['paid' => 'true']),
             'since' => 'today',
             'paid' => true,
-            'timezone' => 'UTC',
+            'timezone' => 'Asia/Shanghai',
         ];
 
         yield 'Since today, paid false, timezone fallback' => [
             'request' => new Request(['paid' => 'false']),
             'since' => 'today',
             'paid' => false,
-            'timezone' => 'UTC',
+            'timezone' => 'Asia/Shanghai',
         ];
 
         yield 'Since today, paid fallback, timezone Europe/Berlin' => [
@@ -77,7 +77,7 @@ class DashboardControllerTest extends TestCase
             'request' => new Request([], ['paid' => 'false', 'timezone' => 'Europe/Berlin']),
             'since' => 'today',
             'paid' => true,
-            'timezone' => 'UTC',
+            'timezone' => 'Asia/Shanghai',
         ];
     }
 }

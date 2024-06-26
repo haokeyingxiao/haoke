@@ -78,7 +78,7 @@ class TimeZoneFieldTest extends TestCase
     public static function validTimeZones(): array
     {
         return [
-            ['UTC'],
+            ['Asia/Shanghai'],
             ['Europe/Berlin'],
         ];
     }
@@ -87,7 +87,7 @@ class TimeZoneFieldTest extends TestCase
     {
         return [
             ['+01:00'],
-            ['UTC+1'],
+            ['Asia/Shanghai+1'],
         ];
     }
 }

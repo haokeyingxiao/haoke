@@ -69,7 +69,7 @@ class Kernel extends HttpKernel
         Connection $connection,
         protected string $projectDir
     ) {
-        date_default_timezone_set('UTC');
+        date_default_timezone_set('Asia/Shanghai');
 
         parent::__construct($environment, $debug);
         self::$connection = $connection;
@@ -337,7 +337,7 @@ class Kernel extends HttpKernel
 
             $timeZoneSupportEnabled = (bool) EnvironmentHelper::getVariable('SHOPWARE_DBAL_TIMEZONE_SUPPORT_ENABLED', false);
             if ($timeZoneSupportEnabled) {
-                $connectionVariables[] = 'SET @@session.time_zone = "UTC"';
+                $connectionVariables[] = 'SET @@session.time_zone = "Asia/Shanghai"';
             }
 
             if ($setSessionVariables) {

@@ -26,7 +26,7 @@ class OrderAmountService
     /**
      * @return list<array{date:string, amount:float, count:int}>
      */
-    public function load(string $since, bool $paid, string $timezone = 'UTC'): array
+    public function load(string $since, bool $paid, string $timezone = 'Asia/Shanghai'): array
     {
         $rounding = (int) $this->connection->fetchOne(
             'SELECT currency.total_rounding FROM currency WHERE id = :id',

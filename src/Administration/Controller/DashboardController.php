@@ -25,7 +25,7 @@ class DashboardController extends AbstractController
     {
         $paid = $request->query->getBoolean('paid', true);
 
-        $timezone = $request->query->get('timezone', 'UTC');
+        $timezone = $request->query->get('timezone', 'Asia/Shanghai');
 
         $amount = $this->orderAmountService->load($since, $paid, $timezone);
 

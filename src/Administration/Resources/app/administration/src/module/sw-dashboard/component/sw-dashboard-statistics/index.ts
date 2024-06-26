@@ -339,7 +339,7 @@ export default Shopware.Component.wrapComponentConfig({
 
             const initContainer = Shopware.Application.getContainer('init');
             const httpClient = initContainer.httpClient;
-            const timezone = Shopware.State.get('session').currentUser?.timeZone ?? 'UTC';
+            const timezone = Shopware.State.get('session').currentUser?.timeZone ?? 'Asia/Shanghai';
 
             return httpClient
                 .get<undefined, {

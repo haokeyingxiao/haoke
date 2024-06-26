@@ -277,7 +277,7 @@ class EntityAggregator implements EntityAggregatorInterface
         $accessor = $this->queryHelper->getFieldAccessor($aggregation->getField(), $definition, $definition->getEntityName(), $context);
 
         if ($this->timeZoneSupportEnabled && $aggregation->getTimeZone()) {
-            $accessor = 'CONVERT_TZ(' . $accessor . ', "UTC", "' . $aggregation->getTimeZone() . '")';
+            $accessor = 'CONVERT_TZ(' . $accessor . ', "Asia/Shanghai", "' . $aggregation->getTimeZone() . '")';
         }
 
         $groupBy = match ($aggregation->getInterval()) {

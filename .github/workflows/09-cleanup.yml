@@ -15,7 +15,7 @@ jobs:
         with:
           image-names: ${{ github.event.repository.name }}/ci-e2e
           skip-tags: latest, trunk, main, master, v*
-          cut-off: two days ago UTC
+          cut-off: two days ago Asia/Shanghai
           keep-at-least: 1
           account-type: personal
           token: ${{ secrets.TOKEN }}

@@ -33,7 +33,7 @@
     "lint:twig": "eslint --ext .html.twig src",
     "lint:types": "tsc",
     "security-check": "./node_modules/.bin/nsp check",
-    "test-debug": "node --inspect-brk TZ=UTC node_modules/.bin/jest --watch --config jest.config.js --runInBand --no-cache",
+    "test-debug": "node --inspect-brk TZ=Asia/Shanghai node_modules/.bin/jest --watch --config jest.config.js --runInBand --no-cache",
     "unit": "jest --config jest.config.js --ci",
     "unit-setup": "npm run generate-component-import-resolver-map",
     "unit-watch": "jest --config jest.config.js --watch",

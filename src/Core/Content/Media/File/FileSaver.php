@@ -69,7 +69,9 @@ class FileSaver
         Context $context
     ): void {
         $currentMedia = $this->findMediaById($mediaId, $context);
+
         $destination = $this->validateFileName($destination);
+
         $this->ensureFileNameIsUnique(
             $currentMedia,
             $destination,
@@ -399,7 +401,6 @@ class FileSaver
             ) {
                 continue;
             }
-
             throw MediaException::duplicatedMediaFileName($destination, $fileExtension);
         }
     }

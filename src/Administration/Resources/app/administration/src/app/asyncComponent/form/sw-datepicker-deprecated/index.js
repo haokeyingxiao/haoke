@@ -171,7 +171,7 @@ export default {
         },
 
         userTimeZone() {
-            return Shopware?.State?.get('session')?.currentUser?.timeZone ?? 'UTC';
+            return Shopware?.State?.get('session')?.currentUser?.timeZone ?? 'Asia/Shanghai';
         },
 
         timezoneFormattedValue: {
@@ -184,7 +184,7 @@ export default {
                     return this.value;
                 }
 
-                // convert from UTC timezone to user timezone (represented as UTC)
+                // convert from Asia/Shanghai timezone to user timezone (represented as Asia/Shanghai)
                 const userTimezoneDate = utcToZonedTime(this.value, this.userTimeZone);
 
                 // get the time converted to the user timezone
@@ -203,10 +203,10 @@ export default {
                     return;
                 }
 
-                // convert from user timezone (represented as UTC) to UTC timezone
+                // convert from user timezone (represented as Asia/Shanghai) to Asia/Shanghai timezone
                 const utcDate = zonedTimeToUtc(new Date(newValue), this.userTimeZone);
 
-                // emit the UTC time so that the v-model value always work in UTC time (which is needed for the server)
+                // emit the Asia/Shanghai time so that the v-model value always work in Asia/Shanghai time (which is needed for the server)
                 this.$emit('update:value', utcDate.toISOString());
             },
         },

@@ -27,7 +27,7 @@ const logDataExport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -82,7 +82,7 @@ const logDataExport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -136,7 +136,7 @@ const logDataExport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -194,7 +194,7 @@ const logDataExport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -248,7 +248,7 @@ const logDataExport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -302,7 +302,7 @@ const logDataExport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -359,7 +359,7 @@ const logDataImport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -414,7 +414,7 @@ const logDataImport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -468,7 +468,7 @@ const logDataImport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -526,7 +526,7 @@ const logDataImport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -580,7 +580,7 @@ const logDataImport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -634,7 +634,7 @@ const logDataImport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
@@ -688,7 +688,7 @@ const logDataImport = {
                 active: true,
                 admin: true,
                 lastUpdatedPasswordAt: null,
-                timeZone: 'UTC',
+                timeZone: 'Asia/Shanghai',
             },
             profile: {
                 name: 'Default category',
