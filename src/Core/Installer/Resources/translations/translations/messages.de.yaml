@@ -336,8 +336,8 @@ shopware.installer:
     database-import_skip_import: Überspringen
     database-import_progress: 'Fortschritt: '
     database-import-hint: '<strong>Hinweis:</strong> Falls in der konfigurierten Datenbank bereits Shopware-Tabellen bestehen, werden diese durch die Installation/das Update entfernt!'
-    database-import_info_text: 'Shopware 6 wird auf der von Dir ausgewählten Datenbank installiert. Dieser Vorgang kann einige Minuten dauern, abhängig von Deinem System.'
-    database_import_success: 'Shopware 6 wurde erfolgreich installiert!'
+    database-import_info_text: 'Haoke 6 wird auf der von Dir ausgewählten Datenbank installiert. Dieser Vorgang kann einige Minuten dauern, abhängig von Deinem System.'
+    database_import_success: 'Haoke 6 wurde erfolgreich installiert!'
     database_import_install_label: 'Datenbank-Installation:'
     database_import_install_step_text: Schritt
     database_import_install_from_text: von

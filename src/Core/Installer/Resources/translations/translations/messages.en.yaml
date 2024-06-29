@@ -337,7 +337,7 @@ shopware.installer:
     database-import_progress: 'Progress: '
     database-import-hint: '<strong>Note:</strong> If there are any Haoke tables found in the configured database, they will be removed by the installation/update!'
     database-import_info_text: 'Installing Haoke 6 using the selected database. This process may take several minutes, depending on your overall system.'
-    database_import_success: 'Shopware 6 has been installed!'
+    database_import_success: 'Haoke 6 has been installed!'
     database_import_install_label: 'Database installation:'
     database_import_install_step_text: Step
     database_import_install_from_text: of
