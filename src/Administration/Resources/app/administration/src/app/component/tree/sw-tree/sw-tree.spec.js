@@ -4,7 +4,7 @@
  */
 
 import { mount } from '@vue/test-utils';
-import { mtTextField, mtCheckbox } from '@shopware-ag/meteor-component-library';
+import { mtTextField, mtCheckbox } from '@haokeyingxiao/meteor-component-library';
 // eslint-disable-next-line import/no-named-as-default,import/no-named-as-default-member
 import getTreeItems from './fixtures/treeItems';
 
