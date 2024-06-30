@@ -1,0 +1,132 @@
+{
+  "sw-theme-manager": {
+    "general": {
+      "mainMenuItemGeneral": "主题",
+      "placeholderSearchBar": "搜索可用的主题...",
+      "descriptionTextModule": "在这里管理主题。",
+      "mainMenuHeader": "你的主题",
+      "captionMediaUpload": "上传图片",
+      "lockedToolTip": "通过插件安装的主题被锁定，无法删除",
+      "titleError": "错误",
+      "messageSaveError": "无法将主题分配给销售渠道。",
+      "defaultTab": "常规"
+    },
+    "sorting": {
+      "labelSort": "排序方式:",
+      "labelSortByCreatedAsc": "按创建日期，升序",
+      "labelSortByCreatedDsc": "按创建日期，降序",
+      "labelSortByUpdatedAsc": "按修改日期，升序",
+      "labelSortByUpdatedDsc": "按修改日期，降序"
+    },
+    "themeListItem": {
+      "edit": "编辑",
+      "delete": "删除",
+      "rename": "重命名",
+      "duplicate": "复制",
+      "emptyText": "未分配主题",
+      "addPreviewImage": "添加预览",
+      "removePreviewImage": "移除预览",
+      "notificationDeleteErrorTitle": "错误",
+      "notificationDeleteErrorMessage": "你想删除的主题仍然分配给至少一个销售渠道。"
+    },
+    "modal": {
+      "textDeleteInfo": "你确定要删除主题 \"{themeName}\" 吗？",
+      "buttonCancel": "取消",
+      "buttonDelete": "删除",
+      "buttonClose": "关闭",
+      "errorModalTitle": "无法编译主题",
+      "modalTitleDuplicate": "创建副本",
+      "textDuplicateInfo": "如果你创建一个副本，你可以为其他销售渠道使用不同颜色配置的主题。",
+      "labelDuplicateThemeName": "副本名称",
+      "placeholderDuplicateThemeName": "输入名称",
+      "buttonDuplicateTheme": "创建副本",
+      "modalTitleRename": "重命名",
+      "textRenameInfo": "为主题输入一个新名称。",
+      "labelRenameThemeName": "新主题名称",
+      "placeholderRenameThemeName": "输入名称",
+      "buttonRenameTheme": "保存",
+      "modalTitleReset": "重置主题",
+      "modalTextResetInfo": "你确定要将主题重置为默认设置吗？",
+      "modalTextResetAssigned": "这将改变你的商店外观。",
+      "buttonSave": "保存",
+      "modalTitleSave": "保存主题",
+      "textSaveInfo": "你真的要保存更改吗？这将改变你的商店外观。",
+      "addToMediaLabel": "添加到{name}",
+      "salesChannelAlreadyAssignedModal": {
+        "descriptionSingle": "此销售渠道已分配给一个主题。如果继续保存，主题分配将替换为 <b>{newThemeName}</b>：",
+        "descriptionMultiple": "你选择的一些销售渠道已分配给一个主题。如果继续保存，以下主题分配将替换为 <b>{newThemeName}</b>："
+      },
+      "salesChannelRemovedModal": {
+        "descriptionSingle": "你已移除一个主题分配。如果继续保存，主题分配将替换为 <b>{defaultThemeName}</b>：",
+        "descriptionMultiple": "你已移除一些主题分配。如果继续保存，以下主题分配将替换为 <b>{defaultThemeName}</b>："
+      }
+    },
+    "list": {
+      "titleSidebarItemRefresh": "刷新",
+      "textThemeOverview": "主题",
+      "gridHeaderName": "名称",
+      "gridHeaderCreated": "创建时间",
+      "gridHeaderAssignment": "分配的销售渠道"
+    },
+    "actions": {
+      "edit": "编辑",
+      "save": "保存",
+      "saveClean": "干净保存",
+      "saveCleanToolTip": "当前值将被完全重写。使用此功能可以在字段删除或更改类型后进行干净的条目。",
+      "rename": "重命名",
+      "delete": "删除",
+      "duplicate": "创建副本",
+      "useImageAs": "使用图片作为",
+      "buttonReset": "重置为默认",
+      "buttonCancel": "取消",
+      "buttonUseTheme": "使用主题",
+      "deleteDisabledToolTip": "主题仍然分配给销售渠道。"
+    },
+    "detail": {
+      "description": "描述",
+      "salesChannel": "分配给以下销售渠道",
+      "inheritanceInfo": "此主题源自\"{parentThemeName}\"主题。",
+      "showFullError": "显示完整错误",
+      "salesChannelHelpText": "这里无法移除这些分配。如果你想更改销售渠道的主题，请访问相应的销售渠道设置。",
+      "label": {
+        "media": "媒体",
+        "colors": "颜色",
+        "generalColors": "常规颜色",
+        "moreColors": "更多颜色",
+        "fonts": "字体",
+        "links": "链接",
+        "textcolor": "文字颜色",
+        "surface": "表面",
+        "frame": "框架",
+        "text": "文字",
+        "headlines": "标题",
+        "socialMediaLinks": "社交媒体链接",
+        "favicon": "网站图标",
+        "shopLogo": "商店标志"
+      },
+      "placeholder": {
+        "selectSalesChannel": "选择销售渠道..."
+      },
+      "error": {
+        "themeCompile": {
+          "title": "编译主题时出错",
+          "message": "无法编译主题。请检查完整错误消息以解决此问题。"
+        }
+      }
+    },
+    "themeModal": {
+      "actionCancel": "取消",
+      "actionConfirm": "更改主题",
+      "modalTitle": "选择主题",
+      "modalSubtitle": "更改主题可能会更改你的商店显示方式。",
+      "headline": "可用主题"
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "theme": {
+        "label": "主题"
+      }
+    }
+  }
+}

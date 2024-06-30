@@ -31,7 +31,7 @@ Component.register('sw-admin-menu-item', {
         },
         iconSize: {
             type: String,
-            default: '20px',
+            default: '18px',
             required: false,
         },
         collapsibleText: {

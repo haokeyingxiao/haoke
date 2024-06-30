@@ -45,16 +45,16 @@ $color-darkgray-900: #0a0d0f;
 
 // Shopware brand
 // Color description: Vivid blue
-$color-shopware-brand-50: #e3f3ff;
-$color-shopware-brand-100: #bae2ff;
-$color-shopware-brand-200: #8ccfff;
-$color-shopware-brand-300: #5dbbff;
-$color-shopware-brand-400: #3badff;
-$color-shopware-brand-500: #189eff;
-$color-shopware-brand-600: #1596ff;
-$color-shopware-brand-700: #118cff;
-$color-shopware-brand-800: #0e82ff;
-$color-shopware-brand-900: #0870ff;
+$color-shopware-brand-50: #F5E8FF;
+$color-shopware-brand-100: #DDBEF6;
+$color-shopware-brand-200: #C396ED;
+$color-shopware-brand-300: #A871E3;
+$color-shopware-brand-400: #8D4EDA;
+$color-shopware-brand-500: #722ED1;
+$color-shopware-brand-600: #551DB0;
+$color-shopware-brand-700: #3C108F;
+$color-shopware-brand-800: #27066E;
+$color-shopware-brand-900: #16004D;
 
 // Menu
 // Color description: Very dark desaturated blue
@@ -214,9 +214,9 @@ $gradient-action-button: linear-gradient(to bottom, #7793ae 0%, #6a849c 100%);
  * ------------------------------------ */
 
 // font-family
-$font-family-default: "Inter", -apple-system, blinkmacsystemfont, "San Francisco", "Segoe UI", roboto, "Helvetica Neue", sans-serif;
-$font-family-variables: "Inter var", -apple-system, blinkmacsystemfont, "San Francisco", "Segoe UI", roboto, "Helvetica Neue", sans-serif;
-$font-family-default-feature-settings: "cv05" on, "cv02" on, "cv07" on, "cv09" on, "cv04" on, "cv03" on;
+$font-family-default: "Microsoft YaHei", "PingFang SC", "SimSun", "SimHei", "Arial", "Inter", -apple-system, blinkmacsystemfont, "San Francisco", "Segoe UI", roboto, "Helvetica Neue", sans-serif;
+$font-family-variables: "Microsoft YaHei", "PingFang SC", "SimSun", "SimHei", "Arial", "Inter var", -apple-system, blinkmacsystemfont, "San Francisco", "Segoe UI", roboto, "Helvetica Neue", sans-serif;
+$font-family-default-feature-settings: "cv05" on, "cv02" on, "cv07" on, "cv04" on, "cv03" on;
 
 // font-size
 $font-size-xxs: 12px;
