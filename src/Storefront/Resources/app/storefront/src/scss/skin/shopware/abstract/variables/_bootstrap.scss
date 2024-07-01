@@ -7,11 +7,15 @@ https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults
 */
 
 // Color system
-$gray-100: #f9f9f9 !default;
-$gray-200: #eee !default;
-$gray-300: #bcc1c7 !default;
-$gray-600: #798490 !default;
-$gray-800: #4a545b !default;
+$gray-100: #f9fbfd !default;
+$gray-200: #f1f4f8 !default;
+$gray-300: #d9e2ef !default;
+$gray-400: #c6d3e6 !default;
+$gray-500: #abbcd5 !default;
+$gray-600: #869ab8 !default;
+$gray-700: #506690 !default;
+$gray-800: #384c74 !default;
+$gray-900: #1b2a4e !default;
 
 $primary: $sw-color-brand-primary !default;
 $secondary: $sw-color-brand-secondary !default;
@@ -88,6 +92,14 @@ $btn-font-weight: 600 !default;
 $btn-link-disabled-color: $gray-300 !default;
 $btn-disabled-opacity: 1 !default;
 
+// Icon buttons
+
+$btn-icon-size:                             2.5rem;
+$btn-icon-xs-size:                          2rem;
+$btn-icon-sm-size:                          2.25rem;
+$btn-icon-lg-size:                          3rem;
+$btn-icon-xl-size:                          3.5rem;
+
 // Forms
 $enable-validation-icons: false !default;
 $input-color: $sw-text-color !default;
@@ -162,3 +174,33 @@ $alert-border-width: if(feature('ACCESSIBILITY_TWEAKS'), 1px, 0) !default;
 $badge-border-radius: 50px !default;
 $badge-padding-x: 5px !default;
 $badge-padding-y: 0 !default;
+
+// Components
+$border-style: solid;
+$border-width: 1px;
+$border-radius: 0.313rem;
+$border-radius-sm: .2rem;
+$border-radius-lg: .4rem;
+$border-radius-xl: .6rem;
+$border-radius-2xl: 1rem;
+
+$box-shadow: 0px 0px 40px rgba(29, 58, 83, .10);
+$box-shadow-sm: 0 .125rem .25rem rgba(29, 58, 83, .15);
+$box-shadow-lg: 0 1rem 3rem rgba(29, 58, 83, .15);
+
+// Nav
+$nav-link-font-size:                0.875rem;
+$navbar-color: $gray-700;
+
+// Typography
+$font-weight-semi-bold:       600;
+$font-weight-bold:            700;
+
+// Avatar
+$avatar-size-base: 3rem;
+$avatar-size-xs: 2.1875rem;
+$avatar-size-sm: 2.5rem;
+$avatar-size-lg: 4rem;
+$avatar-size-xl: 5.125rem;
+$avatar-size-xxl: 8rem;
+$avatar-size-xxxl: 11rem;

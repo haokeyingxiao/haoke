@@ -85,7 +85,7 @@
           "de-DE": "Sekundärfarbe"
         },
         "type": "color",
-        "value": "#474a57",
+        "value": "#506690",
         "editable": true,
         "block": "themeColors",
         "order": 200
@@ -118,7 +118,7 @@
           "de-DE": "Erfolg"
         },
         "type": "color",
-        "value": "#007e4e",
+        "value": "#42ba96",
         "editable": true,
         "block": "statusColors",
         "order": 100
@@ -129,7 +129,7 @@
           "de-DE": "Information"
         },
         "type": "color",
-        "value": "#005b99",
+        "value": "#7c69ef",
         "editable": true,
         "block": "statusColors",
         "order": 200
@@ -140,7 +140,7 @@
           "de-DE": "Hinweis"
         },
         "type": "color",
-        "value": "#974200",
+        "value": "#fad776",
         "editable": true,
         "block": "statusColors",
         "order": 300
@@ -151,7 +151,7 @@
           "de-DE": "Fehler"
         },
         "type": "color",
-        "value": "#c20017",
+        "value": "#df4759",
         "editable": true,
         "block": "statusColors",
         "order": 400
