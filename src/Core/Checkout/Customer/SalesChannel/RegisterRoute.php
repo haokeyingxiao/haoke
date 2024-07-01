@@ -105,14 +105,12 @@ class RegisterRoute extends AbstractRegisterRoute
         /** @var DataBag $billing */
         $billing = $data->get('billingAddress');
 
-        if (Feature::isActive('v6.7.0.0')) {
-            if ($billing->has('firstName') && !$data->has('firstName')) {
-                $data->set('firstName', $billing->get('firstName'));
-            }
+        if ($billing->has('firstName') && !$data->has('firstName')) {
+            $data->set('firstName', $billing->get('firstName'));
+        }
 
-            if ($billing->has('lastName') && !$data->has('lastName')) {
-                $data->set('lastName', $billing->get('lastName'));
-            }
+        if ($billing->has('lastName') && !$data->has('lastName')) {
+            $data->set('lastName', $billing->get('lastName'));
         }
 
         $this->validateRegistrationData($data, $isGuest, $context, $additionalValidationDefinitions, $validateStorefrontUrl);

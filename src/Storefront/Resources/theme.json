@@ -74,7 +74,7 @@
           "de-DE": "Primärfarbe"
         },
         "type": "color",
-        "value": "#0042a0",
+        "value": "#335eea",
         "editable": true,
         "block": "themeColors",
         "order": 100
@@ -217,7 +217,7 @@
           "de-DE": "Kaufen-Button"
         },
         "type": "color",
-        "value": "#0042a0",
+        "value": "#335eea",
         "editable": true,
         "block": "eCommerce",
         "order": 200
