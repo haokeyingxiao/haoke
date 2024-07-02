@@ -235,6 +235,10 @@
       "labelCreatedByAdmin": "管理员创建"
     },
     "filter": {
+      "customerNumber": {
+        "label": "客户编号",
+        "placeholder": "输入客户编号..."
+      },
       "salutation": {
         "label": "称呼",
         "placeholder": "选择称呼..."

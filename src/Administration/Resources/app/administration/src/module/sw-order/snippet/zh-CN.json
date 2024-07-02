@@ -520,6 +520,14 @@
         "label": "销售渠道",
         "placeholder": "选择销售渠道..."
       },
+      "orderNumberFilter": {
+        "label": "订单号",
+        "placeholder": "输入订单号..."
+      },
+      "customerNumberFilter": {
+        "label": "客户编号",
+        "placeholder": "输入客户编号..."
+      },
       "billingCountryFilter": {
         "label": "账单国家",
         "placeholder": "选择账单国家..."
