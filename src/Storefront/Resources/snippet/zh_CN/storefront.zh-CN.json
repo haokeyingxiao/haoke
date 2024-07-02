@@ -106,6 +106,7 @@
     "myAccount": "您的帐户",
     "registerTitle": "注册",
     "registerMetaTitle": "注册",
+    "loginMetaTitle": "登陆",
     "loginHeader": "我已有帐户！",
     "loginFormDescription": "使用电子邮件地址和密码登录",
     "loginMailLabel": "您的电子邮件地址",

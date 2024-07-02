@@ -4,7 +4,6 @@ namespace Shopware\Storefront\Page\Account\Login;
 
 use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\System\Country\CountryCollection;
-use Shopware\Core\System\Salutation\SalutationCollection;
 use Shopware\Storefront\Page\Page;
 
 #[Package('checkout')]
@@ -15,11 +14,6 @@ class AccountLoginPage extends Page
      */
     protected $countries;
 
-    /**
-     * @var SalutationCollection
-     */
-    protected $salutations;
-
     public function getCountries(): CountryCollection
     {
         return $this->countries;
@@ -28,15 +22,5 @@ class AccountLoginPage extends Page
     public function setCountries(CountryCollection $countries): void
     {
         $this->countries = $countries;
-    }
-
-    public function getSalutations(): SalutationCollection
-    {
-        return $this->salutations;
-    }
-
-    public function setSalutations(SalutationCollection $salutations): void
-    {
-        $this->salutations = $salutations;
     }
 }

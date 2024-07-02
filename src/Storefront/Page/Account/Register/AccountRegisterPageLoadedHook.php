@@ -25,7 +25,7 @@ class AccountRegisterPageLoadedHook extends PageLoadedHook
     final public const HOOK_NAME = 'account-register-page-loaded';
 
     public function __construct(
-        private readonly AccountLoginPage $page,
+        private readonly AccountRegisterPage $page,
         SalesChannelContext $context
     ) {
         parent::__construct($context->getContext());
@@ -37,7 +37,7 @@ class AccountRegisterPageLoadedHook extends PageLoadedHook
         return self::HOOK_NAME;
     }
 
-    public function getPage(): AccountLoginPage
+    public function getPage(): AccountRegisterPage
     {
         return $this->page;
     }

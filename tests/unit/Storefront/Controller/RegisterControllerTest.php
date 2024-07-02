@@ -23,9 +23,9 @@ use Shopware\Storefront\Framework\Routing\RequestTransformer;
 use Shopware\Storefront\Page\Account\CustomerGroupRegistration\CustomerGroupRegistrationPage;
 use Shopware\Storefront\Page\Account\CustomerGroupRegistration\CustomerGroupRegistrationPageLoadedHook;
 use Shopware\Storefront\Page\Account\CustomerGroupRegistration\CustomerGroupRegistrationPageLoader;
-use Shopware\Storefront\Page\Account\Login\AccountLoginPage;
-use Shopware\Storefront\Page\Account\Login\AccountLoginPageLoader;
+use Shopware\Storefront\Page\Account\Register\AccountRegisterPage;
 use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoadedHook;
+use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoader;
 use Shopware\Storefront\Page\Checkout\Register\CheckoutRegisterPage;
 use Shopware\Storefront\Page\Checkout\Register\CheckoutRegisterPageLoadedHook;
 use Shopware\Storefront\Page\Checkout\Register\CheckoutRegisterPageLoader;
@@ -43,7 +43,7 @@ class RegisterControllerTest extends TestCase
 {
     private RegisterControllerTestClass $controller;
 
-    private MockObject&AccountLoginPageLoader $accountLoginPageLoader;
+    private MockObject&AccountRegisterPageLoader $accountRegisterPageLoader;
 
     private MockObject&CheckoutRegisterPageLoader $checkoutRegisterPageLoader;
 
@@ -55,7 +55,7 @@ class RegisterControllerTest extends TestCase
 
     protected function setUp(): void
     {
-        $this->accountLoginPageLoader = $this->createMock(AccountLoginPageLoader::class);
+        $this->accountRegisterPageLoader = $this->createMock(AccountRegisterPageLoader::class);
         $this->registerRoute = $this->createMock(RegisterRoute::class);
         $registerConfirmRoute = $this->createMock(RegisterConfirmRoute::class);
         $this->cartService = $this->createMock(CartService::class);
@@ -66,7 +66,7 @@ class RegisterControllerTest extends TestCase
         $domainRepository = $this->createMock(EntityRepository::class);
 
         $this->controller = new RegisterControllerTestClass(
-            $this->accountLoginPageLoader,
+            $this->accountRegisterPageLoader,
             $this->registerRoute,
             $registerConfirmRoute,
             $this->cartService,
@@ -85,9 +85,9 @@ class RegisterControllerTest extends TestCase
         $request = new Request();
         $request->attributes->set('_route', 'frontend.account.register.page');
         $dataBag = new RequestDataBag();
-        $page = new AccountLoginPage();
+        $page = new AccountRegisterPage();
 
-        $this->accountLoginPageLoader->expects(static::once())
+        $this->accountRegisterPageLoader->expects(static::once())
             ->method('load')
             ->with($request, $context)
             ->willReturn($page);

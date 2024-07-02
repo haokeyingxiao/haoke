@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Shopware\Storefront\Page\Account\Login;
+namespace Shopware\Storefront\Page\Account\Register;
 
 use Shopware\Core\Content\Category\Exception\CategoryNotFoundException;
 use Shopware\Core\Framework\Adapter\Translation\AbstractTranslator;
@@ -12,6 +12,9 @@ use Shopware\Core\Framework\Routing\RoutingException;
 use Shopware\Core\System\Country\CountryCollection;
 use Shopware\Core\System\Country\SalesChannel\AbstractCountryRoute;
 use Shopware\Core\System\SalesChannel\SalesChannelContext;
+use Shopware\Core\System\Salutation\AbstractSalutationsSorter;
+use Shopware\Core\System\Salutation\SalesChannel\AbstractSalutationRoute;
+use Shopware\Core\System\Salutation\SalutationCollection;
 use Shopware\Storefront\Page\GenericPageLoaderInterface;
 use Shopware\Storefront\Page\MetaInformation;
 use Symfony\Component\HttpFoundation\Request;
@@ -21,7 +24,7 @@ use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
  * Do not use direct or indirect repository calls in a PageLoader. Always use a store-api route to get or put data.
  */
 #[Package('checkout')]
-class AccountLoginPageLoader
+class AccountRegisterPageLoader
 {
     /**
      * @internal
@@ -32,6 +35,8 @@ class AccountLoginPageLoader
         private readonly GenericPageLoaderInterface $genericLoader,
         private readonly EventDispatcherInterface $eventDispatcher,
         private readonly AbstractCountryRoute $countryRoute,
+        private readonly AbstractSalutationRoute $salutationRoute,
+        private readonly AbstractSalutationsSorter $salutationsSorter,
         private readonly ?AbstractTranslator $translator = null
     ) {
     }
@@ -41,25 +46,27 @@ class AccountLoginPageLoader
      * @throws InconsistentCriteriaIdsException
      * @throws RoutingException
      */
-    public function load(Request $request, SalesChannelContext $salesChannelContext): AccountLoginPage
+    public function load(Request $request, SalesChannelContext $salesChannelContext): AccountRegisterPage
     {
         $page = $this->genericLoader->load($request, $salesChannelContext);
 
-        $page = AccountLoginPage::createFrom($page);
+        $page = AccountRegisterPage::createFrom($page);
         $this->setMetaInformation($page);
 
         $page->setCountries($this->getCountries($salesChannelContext));
 
+        $page->setSalutations($this->getSalutations($salesChannelContext));
+
         $this->eventDispatcher->dispatch(
-            new AccountLoginPageLoadedEvent($page, $salesChannelContext, $request)
+            new AccountRegisterPageLoadedEvent($page, $salesChannelContext, $request)
         );
 
         return $page;
     }
 
-    protected function setMetaInformation(AccountLoginPage $page): void
+    protected function setMetaInformation(AccountRegisterPage $page): void
     {
-        $page->getMetaInformation()?->setRobots('noindex,follow');
+        $page->getMetaInformation()?->setRobots('noindex,folw');
 
         if ($this->translator !== null && $page->getMetaInformation() === null) {
             $page->setMetaInformation(new MetaInformation());
@@ -67,9 +74,19 @@ class AccountLoginPageLoader
 
         if ($this->translator !== null) {
             $page->getMetaInformation()?->setMetaTitle(
-                $this->translator->trans('account.loginMetaTitle') . ' | ' . $page->getMetaInformation()->getMetaTitle()
+                $this->translator->trans('account.registerMetaTitle') . ' | ' . $page->getMetaInformation()->getMetaTitle()
             );
         }
+    }
+
+    /**
+     * @throws InconsistentCriteriaIdsException
+     */
+    private function getSalutations(SalesChannelContext $salesChannelContext): SalutationCollection
+    {
+        $salutations = $this->salutationRoute->load(new Request(), $salesChannelContext, new Criteria())->getSalutations();
+
+        return $this->salutationsSorter->sort($salutations);
     }
 
     private function getCountries(SalesChannelContext $salesChannelContext): CountryCollection

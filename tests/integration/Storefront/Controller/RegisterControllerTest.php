@@ -36,8 +36,8 @@ use Shopware\Storefront\Controller\RegisterController;
 use Shopware\Storefront\Framework\Routing\RequestTransformer;
 use Shopware\Storefront\Page\Account\CustomerGroupRegistration\CustomerGroupRegistrationPageLoadedHook;
 use Shopware\Storefront\Page\Account\CustomerGroupRegistration\CustomerGroupRegistrationPageLoader;
-use Shopware\Storefront\Page\Account\Login\AccountLoginPageLoader;
 use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoadedHook;
+use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoader;
 use Shopware\Storefront\Page\Checkout\Register\CheckoutRegisterPageLoadedHook;
 use Shopware\Storefront\Page\Checkout\Register\CheckoutRegisterPageLoader;
 use Shopware\Storefront\Test\Controller\StorefrontControllerTestBehaviour;
@@ -91,7 +91,7 @@ class RegisterControllerTest extends TestCase
             });
 
         $registerController = new RegisterController(
-            $container->get(AccountLoginPageLoader::class),
+            $container->get(AccountRegisterPageLoader::class),
             $container->get(RegisterRoute::class),
             $container->get(RegisterConfirmRoute::class),
             $container->get(CartService::class),
@@ -145,7 +145,7 @@ class RegisterControllerTest extends TestCase
         $this->catchEvent(CustomerDoubleOptInRegistrationEvent::class, $event);
 
         $registerController = new RegisterController(
-            $container->get(AccountLoginPageLoader::class),
+            $container->get(AccountRegisterPageLoader::class),
             $container->get(RegisterRoute::class),
             $container->get(RegisterConfirmRoute::class),
             $container->get(CartService::class),
@@ -199,7 +199,7 @@ class RegisterControllerTest extends TestCase
         $this->catchEvent(CustomerDoubleOptInRegistrationEvent::class, $event);
 
         $registerController = new RegisterController(
-            $container->get(AccountLoginPageLoader::class),
+            $container->get(AccountRegisterPageLoader::class),
             $container->get(RegisterRoute::class),
             $container->get(RegisterConfirmRoute::class),
             $container->get(CartService::class),
@@ -256,7 +256,7 @@ class RegisterControllerTest extends TestCase
         $this->catchEvent(CustomerDoubleOptInRegistrationEvent::class, $event);
 
         $registerController = new RegisterController(
-            $container->get(AccountLoginPageLoader::class),
+            $container->get(AccountRegisterPageLoader::class),
             $container->get(RegisterRoute::class),
             $container->get(RegisterConfirmRoute::class),
             $container->get(CartService::class),

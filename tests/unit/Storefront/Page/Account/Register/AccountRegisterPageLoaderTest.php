@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Shopware\Tests\Unit\Storefront\Page\Account\Login;
+namespace Shopware\Tests\Unit\Storefront\Page\Account\Register;
 
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\MockObject\MockObject;
@@ -16,10 +16,16 @@ use Shopware\Core\System\Country\CountryEntity;
 use Shopware\Core\System\Country\SalesChannel\CountryRoute;
 use Shopware\Core\System\Country\SalesChannel\CountryRouteResponse;
 use Shopware\Core\System\SalesChannel\SalesChannelContext;
+use Shopware\Core\System\Salutation\SalesChannel\SalutationRoute;
+use Shopware\Core\System\Salutation\SalesChannel\SalutationRouteResponse;
+use Shopware\Core\System\Salutation\SalutationCollection;
+use Shopware\Core\System\Salutation\SalutationDefinition;
+use Shopware\Core\System\Salutation\SalutationEntity;
+use Shopware\Core\System\Salutation\SalutationSorter;
 use Shopware\Core\Test\Stub\EventDispatcher\CollectingEventDispatcher;
 use Shopware\Storefront\Page\Account\Login\AccountLoginPage;
 use Shopware\Storefront\Page\Account\Login\AccountLoginPageLoadedEvent;
-use Shopware\Storefront\Page\Account\Login\AccountLoginPageLoader;
+use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoader;
 use Shopware\Storefront\Page\GenericPageLoader;
 use Shopware\Storefront\Page\MetaInformation;
 use Shopware\Storefront\Page\Page;
@@ -28,14 +34,18 @@ use Symfony\Component\HttpFoundation\Request;
 /**
  * @internal
  */
-#[CoversClass(AccountLoginPageLoader::class)]
-class AccountLoginPageLoaderTest extends TestCase
+#[CoversClass(AccountRegisterPageLoader::class)]
+class AccountRegisterPageLoaderTest extends TestCase
 {
     private CollectingEventDispatcher $eventDispatcher;
 
     private CountryRoute&MockObject $countryRoute;
 
-    private AccountLoginPageLoader $pageLoader;
+    private AccountRegisterPageLoader $pageLoader;
+
+    private SalutationRoute&MockObject $salutationRoute;
+
+    private SalutationSorter&MockObject $salutationSorter;
 
     private AbstractTranslator&MockObject $translator;
 
@@ -46,13 +56,17 @@ class AccountLoginPageLoaderTest extends TestCase
         $this->eventDispatcher = new CollectingEventDispatcher();
 
         $this->countryRoute = $this->createMock(CountryRoute::class);
+        $this->salutationRoute = $this->createMock(SalutationRoute::class);
+        $this->salutationSorter = $this->createMock(SalutationSorter::class);
         $this->translator = $this->createMock(AbstractTranslator::class);
         $this->genericLoader = $this->createMock(GenericPageLoader::class);
 
-        $this->pageLoader = new AccountLoginPageLoader(
+        $this->pageLoader = new AccountRegisterPageLoader(
             $this->genericLoader,
             $this->eventDispatcher,
             $this->countryRoute,
+            $this->salutationRoute,
+            $this->salutationSorter,
             $this->translator
         );
     }
@@ -84,6 +98,37 @@ class AccountLoginPageLoaderTest extends TestCase
             ->method('load')
             ->willReturn($countryResponse);
 
+        $salutation = new SalutationEntity();
+        $salutation->setId(Uuid::randomHex());
+
+        $salutation2Id = Uuid::randomHex();
+        $salutation2 = new SalutationEntity();
+        $salutation2->setId($salutation2Id);
+
+        $salutations = new SalutationCollection([$salutation, $salutation2]);
+        $salutationResponse = new SalutationRouteResponse(
+            new EntitySearchResult(
+                SalutationDefinition::ENTITY_NAME,
+                2,
+                $salutations,
+                null,
+                new Criteria(),
+                Context::createDefaultContext()
+            )
+        );
+
+        $salutationsSorted = new SalutationCollection([$salutation2, $salutation]);
+
+        $this->salutationRoute
+            ->expects(static::once())
+            ->method('load')
+            ->willReturn($salutationResponse);
+
+        $this->salutationSorter
+            ->expects(static::once())
+            ->method('sort')
+            ->willReturn($salutationsSorted);
+
         $page = new Page();
         $page->setMetaInformation(new MetaInformation());
         $page->getMetaInformation()?->setMetaTitle('testshop');
@@ -100,6 +145,7 @@ class AccountLoginPageLoaderTest extends TestCase
         $page = $this->pageLoader->load(new Request(), $this->createMock(SalesChannelContext::class));
 
         static::assertEquals($countries, $page->getCountries());
+        static::assertSame($salutationsSorted, $page->getSalutations());
         static::assertEquals('translated | testshop', $page->getMetaInformation()?->getMetaTitle());
         static::assertEquals('noindex,follow', $page->getMetaInformation()?->getRobots());
         $events = $this->eventDispatcher->getEvents();
@@ -110,10 +156,12 @@ class AccountLoginPageLoaderTest extends TestCase
 
     public function testSetStandardMetaDataIfTranslatorIsSet(): void
     {
-        $pageLoader = new TestAccountLoginPageLoader(
+        $pageLoader = new TestAccountRegisterPageLoader(
             $this->genericLoader,
             $this->eventDispatcher,
             $this->countryRoute,
+            $this->salutationRoute,
+            $this->salutationSorter,
             $this->translator
         );
 
@@ -128,10 +176,12 @@ class AccountLoginPageLoaderTest extends TestCase
 
     public function testNotSetStandardMetaDataIfTranslatorIsNotSet(): void
     {
-        $pageLoader = new TestAccountLoginPageLoader(
+        $pageLoader = new TestAccountRegisterPageLoader(
             $this->genericLoader,
             $this->eventDispatcher,
             $this->countryRoute,
+            $this->salutationRoute,
+            $this->salutationSorter,
             null
         );
 
@@ -148,7 +198,7 @@ class AccountLoginPageLoaderTest extends TestCase
 /**
  * @internal
  */
-class TestAccountLoginPageLoader extends AccountLoginPageLoader
+class TestAccountRegisterPageLoader extends AccountRegisterPageLoader
 {
     public function setMetaInformationAccess(AccountLoginPage $page): void
     {

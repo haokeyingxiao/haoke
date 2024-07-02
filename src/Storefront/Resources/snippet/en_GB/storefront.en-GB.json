@@ -106,6 +106,7 @@
     "myAccount": "Your account",
     "registerTitle": "Sign up",
     "registerMetaTitle": "Sign up",
+    "loginMetaTitle": "Sign in",
     "loginHeader": "I'm a customer already!",
     "loginFormDescription": "Log in with email address and password",
     "loginMailLabel": "Your email address",

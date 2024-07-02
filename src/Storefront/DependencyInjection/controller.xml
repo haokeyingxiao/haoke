@@ -270,7 +270,7 @@
         </service>
 
         <service id="Shopware\Storefront\Controller\RegisterController">
-            <argument type="service" id="Shopware\Storefront\Page\Account\Login\AccountLoginPageLoader"/>
+            <argument type="service" id="Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoader"/>
             <argument type="service" id="Shopware\Core\Checkout\Customer\SalesChannel\RegisterRoute"/>
             <argument type="service" id="Shopware\Core\Checkout\Customer\SalesChannel\RegisterConfirmRoute"/>
             <argument type="service" id="Shopware\Core\Checkout\Cart\SalesChannel\CartService"/>
@@ -279,7 +279,6 @@
             <argument type="service" id="customer.repository"/>
             <argument type="service" id="Shopware\Storefront\Page\Account\CustomerGroupRegistration\CustomerGroupRegistrationPageLoader"/>
             <argument type="service" id="sales_channel_domain.repository"/>
-
             <call method="setContainer">
                 <argument type="service" id="service_container"/>
             </call>

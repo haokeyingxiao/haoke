@@ -26,8 +26,8 @@ use Shopware\Storefront\Framework\AffiliateTracking\AffiliateTrackingListener;
 use Shopware\Storefront\Framework\Routing\RequestTransformer;
 use Shopware\Storefront\Page\Account\CustomerGroupRegistration\AbstractCustomerGroupRegistrationPageLoader;
 use Shopware\Storefront\Page\Account\CustomerGroupRegistration\CustomerGroupRegistrationPageLoadedHook;
-use Shopware\Storefront\Page\Account\Login\AccountLoginPageLoader;
 use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoadedHook;
+use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoader;
 use Shopware\Storefront\Page\Checkout\Register\CheckoutRegisterPageLoadedHook;
 use Shopware\Storefront\Page\Checkout\Register\CheckoutRegisterPageLoader;
 use Symfony\Component\HttpFoundation\Request;
@@ -49,7 +49,7 @@ class RegisterController extends StorefrontController
      * @internal
      */
     public function __construct(
-        private readonly AccountLoginPageLoader $loginPageLoader,
+        private readonly AccountRegisterPageLoader $basePageLoader,
         private readonly AbstractRegisterRoute $registerRoute,
         private readonly AbstractRegisterConfirmRoute $registerConfirmRoute,
         private readonly CartService $cartService,
@@ -75,7 +75,7 @@ class RegisterController extends StorefrontController
         $redirect = $request->query->get('redirectTo', 'frontend.account.home.page');
         $errorRoute = $request->attributes->get('_route');
 
-        $page = $this->loginPageLoader->load($request, $context);
+        $page = $this->basePageLoader->load($request, $context);
 
         $this->hook(new AccountRegisterPageLoadedHook($page, $context));
 
