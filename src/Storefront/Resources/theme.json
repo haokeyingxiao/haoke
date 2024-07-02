@@ -1,6 +1,6 @@
 {
-  "name": "Shopware default theme",
-  "author": "shopware AG",
+  "name": "Hoake default theme",
+  "author": "Hoake AG",
   "description": {
     "en-GB": "Default theme of Haoke 6",
     "de-DE": "Standard Theme von Haoke 6"
@@ -96,7 +96,7 @@
           "de-DE": "Rahmen"
         },
         "type": "color",
-        "value": "#798490",
+        "value": "#d2dee6",
         "editable": true,
         "block": "themeColors",
         "order": 300

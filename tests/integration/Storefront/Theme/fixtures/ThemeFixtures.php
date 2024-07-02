@@ -731,7 +731,7 @@ class ThemeFixtures
                         'de-DE' => 'Rahmen',
                     ],
                     'type' => 'color',
-                    'value' => '#798490',
+                    'value' => '#d2dee6',
                     'editable' => true,
                     'block' => 'themeColors',
                     'section' => null,
@@ -1033,7 +1033,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-border-color' => [
-                    'value' => '#798490',
+                    'value' => '#d2dee6',
                     'isInherited' => false,
                 ],
                 'sw-background-color' => [
@@ -1115,7 +1115,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-border-color' => [
-                    'value' => '#798490',
+                    'value' => '#d2dee6',
                     'isInherited' => false,
                 ],
                 'sw-background-color' => [
@@ -1398,7 +1398,7 @@ class ThemeFixtures
                         'de-DE' => 'Rahmen',
                     ],
                     'type' => 'color',
-                    'value' => '#798490',
+                    'value' => '#d2dee6',
                     'editable' => true,
                     'block' => 'themeColors',
                     'section' => null,
@@ -1782,7 +1782,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-border-color' => [
-                    'value' => '#798490',
+                    'value' => '#d2dee6',
                     'isInherited' => false,
                 ],
                 'sw-background-color' => [
@@ -2065,7 +2065,7 @@ class ThemeFixtures
                         'de-DE' => 'Rahmen',
                     ],
                     'type' => 'color',
-                    'value' => '#798490',
+                    'value' => '#d2dee6',
                     'editable' => true,
                     'block' => 'themeColors',
                     'section' => null,
@@ -2364,7 +2364,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-border-color' => [
-                    'value' => '#798490',
+                    'value' => '#d2dee6',
                     'isInherited' => false,
                 ],
                 'sw-background-color' => [
@@ -2446,7 +2446,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-border-color' => [
-                    'value' => '#798490',
+                    'value' => '#d2dee6',
                     'isInherited' => false,
                 ],
                 'sw-background-color' => [

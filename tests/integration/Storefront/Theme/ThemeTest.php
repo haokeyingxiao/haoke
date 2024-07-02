@@ -76,10 +76,10 @@ class ThemeTest extends TestCase
             $this->themeRepository->create([
                 [
                     'id' => $this->createdStorefrontTheme,
-                    'name' => 'Shopware default theme',
+                    'name' => 'Hoake default theme',
                     'technicalName' => 'Storefront',
                     'active' => true,
-                    'author' => 'Shopware AG',
+                    'author' => 'Hoake AG',
                     'labels' => [
                         'en-GB' => [
                             'sw-color-brand-primary' => 'Primary colour',
