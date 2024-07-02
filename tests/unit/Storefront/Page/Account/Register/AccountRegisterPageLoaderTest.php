@@ -23,8 +23,8 @@ use Shopware\Core\System\Salutation\SalutationDefinition;
 use Shopware\Core\System\Salutation\SalutationEntity;
 use Shopware\Core\System\Salutation\SalutationSorter;
 use Shopware\Core\Test\Stub\EventDispatcher\CollectingEventDispatcher;
-use Shopware\Storefront\Page\Account\Login\AccountLoginPage;
-use Shopware\Storefront\Page\Account\Login\AccountLoginPageLoadedEvent;
+use Shopware\Storefront\Page\Account\Register\AccountRegisterPage;
+use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoadedEvent;
 use Shopware\Storefront\Page\Account\Register\AccountRegisterPageLoader;
 use Shopware\Storefront\Page\GenericPageLoader;
 use Shopware\Storefront\Page\MetaInformation;
@@ -151,7 +151,7 @@ class AccountRegisterPageLoaderTest extends TestCase
         $events = $this->eventDispatcher->getEvents();
 
         static::assertCount(1, $events);
-        static::assertInstanceOf(AccountLoginPageLoadedEvent::class, $events[0]);
+        static::assertInstanceOf(AccountRegisterPageLoadedEvent::class, $events[0]);
     }
 
     public function testSetStandardMetaDataIfTranslatorIsSet(): void
@@ -165,7 +165,7 @@ class AccountRegisterPageLoaderTest extends TestCase
             $this->translator
         );
 
-        $page = new AccountLoginPage();
+        $page = new AccountRegisterPage();
 
         static::assertNull($page->getMetaInformation());
 
@@ -185,7 +185,7 @@ class AccountRegisterPageLoaderTest extends TestCase
             null
         );
 
-        $page = new AccountLoginPage();
+        $page = new AccountRegisterPage();
 
         static::assertNull($page->getMetaInformation());
 
@@ -200,7 +200,7 @@ class AccountRegisterPageLoaderTest extends TestCase
  */
 class TestAccountRegisterPageLoader extends AccountRegisterPageLoader
 {
-    public function setMetaInformationAccess(AccountLoginPage $page): void
+    public function setMetaInformationAccess(AccountRegisterPage $page): void
     {
         self::setMetaInformation($page);
     }

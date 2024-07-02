@@ -66,7 +66,7 @@ class AccountRegisterPageLoader
 
     protected function setMetaInformation(AccountRegisterPage $page): void
     {
-        $page->getMetaInformation()?->setRobots('noindex,folw');
+        $page->getMetaInformation()?->setRobots('noindex,follow');
 
         if ($this->translator !== null && $page->getMetaInformation() === null) {
             $page->setMetaInformation(new MetaInformation());
