@@ -93,7 +93,7 @@ class RegisterRoute extends AbstractRegisterRoute
             'core.systemWideLoginRegistration.isCustomerNameAndAddressRequired',
             $context->getSalesChannelId()
         );
-
+        $isCustomerNameAndAddressRequired = !$isCustomerNameAndAddressRequired || !$data->has('billingAddress');
         if (!$isCustomerNameAndAddressRequired) {
             $faker = Factory::create();
             $defaultCountry = $this->connection->executeQuery('SELECT id FROM country WHERE active = 1 and iso3="CHN" limit 1')->fetchOne();
