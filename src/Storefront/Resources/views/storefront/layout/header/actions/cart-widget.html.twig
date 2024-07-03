@@ -1,6 +1,6 @@
 {% block layout_header_actions_cart_widget %}
     <span class="header-cart-icon">
-        <i class="fa-solid fa-cart-shopping"></i>
+        {% sw_icon 'bag' style { size: 'sm' } %}
     </span>
     {% if page.cart.lineItems|length > 0 %}
         <span class="badge bg-primary header-cart-badge">{{ page.cart.lineItems|length }}</span>

@@ -62,7 +62,7 @@
                         title="{{ "account.addressCreateBtn"|trans|striptags }}"
                         class="btn {% if feature('v6.7.0.0') %}btn-link py-2 px-3 border address-action-create{% else %}btn-primary{% endif %}"
                     >
-                        <i class="fa-solid fa-plus"></i>
+                        {% sw_icon 'plus'  style {'size': 'xs', 'pack':'solid'} %}
                         {{ "account.addressCreateBtn"|trans|sw_sanitize }}
                     </a>
                 </div>
@@ -152,8 +152,8 @@
 
                                         {% if feature('v6.7.0.0') %}
                                             <div class="address-actions">
-                                            {% sw_include '@Storefront/storefront/page/account/addressbook/default-address-actions.html.twig' with { 'address': defaultShippingAddress } %}
-                                        </div>
+                                                {% sw_include '@Storefront/storefront/page/account/addressbook/default-address-actions.html.twig' with { 'address': defaultShippingAddress } %}
+                                            </div>
                                         {% endif %}
 
                                         {% if not feature('v6.7.0.0') %}
