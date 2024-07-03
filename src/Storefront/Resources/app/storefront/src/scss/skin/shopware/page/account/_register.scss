@@ -3,3 +3,11 @@
         text-align: right;
     }
 }
+
+.account-register{
+    background-color: var(--#{$prefix}primary);
+
+    .register-card {
+        background-color: $white;
+    }
+}

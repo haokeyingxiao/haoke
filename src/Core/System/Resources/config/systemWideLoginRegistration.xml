@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/haokeyingxiao/haoke/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
     <card>
         <title>Customer scope</title>
         <title lang="de-DE">Kunden-Zuweisung</title>
-
+        <title lang="zh-CN">客户</title>
         <input-field type="bool">
             <name>isCustomerBoundToSalesChannel</name>
             <label>Bind customers to Sales Channel</label>
             <label lang="de-DE">Kunden an Verkaufskanal binden</label>
             <helpText>If activated, customers can sign up separately for each Sales Channel. Existing customers are not affected by this setting.</helpText>
             <helpText lang="de-DE">Wenn die Einstellung aktiviert ist, können sich Kunden separat in jedem Verkaufskanal registrieren. Bestehende Kunden sind von dieser Einstellung nicht betroffen.</helpText>
+        </input-field>
+        <input-field type="bool">
+            <name>isCustomerNameAndAddressRequired</name>
+            <label>Customer name and address are required for registration.</label>
+            <label lang="de-DE">Name und Adresse des Kunden sind bei der Registrierung erforderlich.</label>
+            <label lang="zh-CN">注册时必须填写客户姓名和地址</label>
+            <helpText>By default, customer registration generates a virtual name and address.</helpText>
+            <helpText lang="de-DE">Standardmäßig erstellt die Kundenregistrierung einen virtuellen Namen und eine virtuelle Adresse.</helpText>
+            <helpText lang="zh-CN">默认情况下，客户注册由系统生成虚拟名称和地址。</helpText>
         </input-field>
     </card>
 </config>

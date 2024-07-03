@@ -121,6 +121,7 @@ $fa-font-path:         $app-css-relative-asset-path + '/font';
 @import 'page/account/order';
 @import 'page/account/edit-order';
 @import 'page/account/order-detail';
+@import 'page/account/login';
 
 @import 'page/checkout/checkout';
 @import 'page/checkout/aside';

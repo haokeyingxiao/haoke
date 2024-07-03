@@ -64,8 +64,10 @@ https://sass-guidelin.es/#the-7-1-pattern
 @import 'page/account/register';
 @import 'page/account/address';
 @import 'page/account/profile';
+@import 'page/account/login';
 @import 'page/account/order';
 @import 'page/account/order-detail';
+@import "page/account/recover-password";
 
 @import 'page/checkout/aside';
 @import 'page/checkout/cart';

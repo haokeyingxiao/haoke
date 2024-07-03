@@ -29,6 +29,7 @@ class CustomerEntity extends Entity implements \Stringable
 
     final public const ACCOUNT_TYPE_PRIVATE = 'private';
     final public const ACCOUNT_TYPE_BUSINESS = 'business';
+    final public const VIRTUAL_PROFILE = 'virtualProfile';
 
     protected string $groupId;
 

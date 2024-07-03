@@ -17,10 +17,11 @@
                     <div class="list-group list-group-flush account-aside-list-group">
                         {% block page_account_sidebar_menu_inner %}
                             {% block page_account_sidebar_link_home %}
+
                                 <a href="{{ path('frontend.account.home.page') }}"
                                    title="{{ 'account.overviewLink'|trans|striptags }}"
                                    class="list-group-item list-group-item-action account-aside-item{% if activeRoute is same as('frontend.account.home.page') %} is-active{% endif %}">
-                                    {{ 'account.overviewLink'|trans|sw_sanitize }}
+                                    <i class="fa-solid fa-house-user"></i> {{ 'account.overviewLink'|trans|sw_sanitize }}
                                 </a>
                             {% endblock %}
 
@@ -28,7 +29,7 @@
                                 <a href="{{ path('frontend.account.profile.page') }}"
                                    title="{{ 'account.profileLink'|trans|striptags }}"
                                    class="list-group-item list-group-item-action account-aside-item{% if activeRoute is same as('frontend.account.profile.page') %} is-active{% endif %}">
-                                    {{ 'account.profileLink'|trans|sw_sanitize }}
+                                    <i class="fa-solid fa-user"></i> {{ 'account.profileLink'|trans|sw_sanitize }}
                                 </a>
                             {% endblock %}
 
@@ -36,7 +37,7 @@
                                 <a href="{{ path('frontend.account.address.page') }}"
                                    title="{{ 'account.addressLink'|trans|striptags }}"
                                    class="list-group-item list-group-item-action account-aside-item{% if activeRoute is same as('frontend.account.address.page') %} is-active{% endif %}">
-                                    {{ 'account.addressLink'|trans|sw_sanitize }}
+                                    <i class="fa-solid fa-address-card"></i> {{ 'account.addressLink'|trans|sw_sanitize }}
                                 </a>
                             {% endblock %}
 
@@ -44,7 +45,7 @@
                                 <a href="{{ path('frontend.account.payment.page') }}"
                                    title="{{ 'account.paymentLink'|trans|striptags }}"
                                    class="list-group-item list-group-item-action account-aside-item{% if activeRoute is same as('frontend.account.payment.page') %} is-active{% endif %}">
-                                    {{ 'account.paymentLink'|trans|sw_sanitize }}
+                                    <i class="fa-solid fa-address-card"></i> {{ 'account.paymentLink'|trans|sw_sanitize }}
                                 </a>
                             {% endblock %}
 
@@ -52,7 +53,7 @@
                                 <a href="{{ path('frontend.account.order.page') }}"
                                    title="{{ 'account.ordersLink'|trans|striptags }}"
                                    class="list-group-item list-group-item-action account-aside-item{% if activeRoute is same as('frontend.account.order.page') %} is-active{% endif %}">
-                                    {{ 'account.ordersLink'|trans|sw_sanitize }}
+                                    <i class="fa-solid fa-bag-shopping"></i> {{ 'account.ordersLink'|trans|sw_sanitize }}
                                 </a>
                             {% endblock %}
                         {% endblock %}
@@ -67,7 +68,7 @@
                             {% block page_account_sidebar_logout %}
                                 <a href="{{ path('frontend.account.logout.page') }}"
                                    class="btn btn-link account-aside-btn">
-                                    {% sw_icon 'log-out' %}
+                                    <i class="fa-solid fa-right-from-bracket"></i>
                                     {{ 'account.logout'|trans|sw_sanitize }}
                                 </a>
                             {% endblock %}

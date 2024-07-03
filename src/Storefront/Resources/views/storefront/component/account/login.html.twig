@@ -1,7 +1,12 @@
 {% block component_account_login %}
-    <div class="card login-card mb-3">
+    <div class="login-card card mb-3 border-0 rounded-4 p-3 p-md-4 p-xl-5">
         <div class="card-body">
             {% block component_account_login_header %}
+                {% block component_account_login_logo %}
+                    <div class="text-center mb-4">
+                        {% sw_include '@Storefront/storefront/layout/header/logo.html.twig' %}
+                    </div>
+                {% endblock %}
                 {% if cardTitle %}
                     <h2 class="card-title">
                         {{ cardTitle }}
@@ -52,9 +57,8 @@
                     {% endblock %}
 
                     {% block component_account_login_form_fields %}
-                        <div class="row g-2">
                             {% block component_account_login_form_mail %}
-                                <div class="form-group col-md-6">
+                                <div class="form-group">
                                     {% block component_account_login_form_mail_label %}
                                         <label class="form-label"
                                                for="loginMail">
@@ -75,7 +79,7 @@
                             {% endblock %}
 
                             {% block component_account_login_form_password %}
-                                <div class="form-group col-md-6">
+                                <div class="form-group">
                                     {% block component_account_login_form_password_label %}
                                         <label class="form-label"
                                                for="loginPassword">
@@ -94,21 +98,35 @@
                                     {% endblock %}
                                 </div>
                             {% endblock %}
-                        </div>
                     {% endblock %}
 
-                    {% block component_account_login_password_recover %}
-                        <div class="login-password-recover mb-3">
-                            {% block component_account_login_password_recover_link %}
-                                <a href="{{ seoUrl('frontend.account.recover.page') }}">
-                                    {{ 'account.loginPasswordRecover'|trans }}
-                                </a>
+                    {% block component_account_login_action %}
+                        <div class="d-flex justify-content-between">
+                            {% block component_account_login_password_recover %}
+                                <div class="login-password-recover mb-3">
+                                    {% block component_account_login_password_recover_link %}
+                                        <a href="{{ seoUrl('frontend.account.recover.page') }}">
+                                            {{ 'account.loginPasswordRecover'|trans }}
+                                        </a>
+                                    {% endblock %}
+                                </div>
+                            {% endblock %}
+
+                            {% block component_account_login_password_sign_up %}
+                                <div class="login-register mb-3">
+                                    {% block component_account_login_password_sign_up_link %}
+                                        <a href="{{ seoUrl('frontend.account.register.page') }}">
+                                            {{ 'account.loginRegisterLabel'|trans|striptags }}
+                                        </a>
+                                    {% endblock %}
+                                </div>
                             {% endblock %}
                         </div>
                     {% endblock %}
 
+
                     {% block component_account_login_submit %}
-                        <div class="login-submit">
+                        <div class="login-submit d-grid">
                             <button type="submit"
                                     class="btn btn-primary">
                                 {{ 'account.loginSubmit'|trans|sw_sanitize }}

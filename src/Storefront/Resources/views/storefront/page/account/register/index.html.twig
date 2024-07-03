@@ -4,20 +4,27 @@
     {% sw_include '@Storefront/storefront/page/account/register/meta.html.twig' %}
 {% endblock %}
 
-{% block base_content %}
+{% block base_body%}
     {% block page_account_register %}
         <div class="account-register">
-            {% block page_account_register_inner %}
-                <div class="row justify-content-center">
-                    {% block page_account_register_container %}
-                        <div class="col-lg-8">
-                            {% sw_include '@Storefront/storefront/component/account/register.html.twig' with {
-                                cardTitle: 'account.registerPersonalHeader'|trans|sw_sanitize
-                            } %}
-                        </div>
-                    {% endblock %}
-                </div>
-            {% endblock %}
+            <div class="container">
+                {% block page_account_register_inner %}
+                    <div class="row vh-100 justify-content-center align-items-center">
+                        {% block page_account_register_container %}
+                            <div class="col-lg-5">
+                                {% set isCustomerNameAndAddressRequired = config('core.systemWideLoginRegistration.isCustomerNameAndAddressRequired') != 1 %}
+                                {% sw_include '@Storefront/storefront/component/account/register'~ (isCustomerNameAndAddressRequired ? '-mini' : '') ~ '.html.twig' with {
+                                    cardTitle: 'account.registerPersonalHeader'|trans|sw_sanitize
+                                } %}
+                            </div>
+                        {% endblock %}
+                    </div>
+                {% endblock %}
+            </div>
         </div>
+    {% endblock %}
+
+    {% block base_pseudo_modal %}
+        {% sw_include '@Storefront/storefront/component/pseudo-modal.html.twig' %}
     {% endblock %}
 {% endblock %}
