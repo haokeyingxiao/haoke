@@ -32,11 +32,9 @@
         {% block base_header %}
             {% sw_include '@Storefront/storefront/utilities/staging-info.html.twig' %}
 
-            <header class="header-main">
+            <header class="header-main header-sticky ">
                 {% block base_header_inner %}
-                    <div class="container">
-                        {% sw_include '@Storefront/storefront/layout/header/header.html.twig' %}
-                    </div>
+                    {% sw_include '@Storefront/storefront/layout/header/header.html.twig' %}
                 {% endblock %}
             </header>
         {% endblock %}
