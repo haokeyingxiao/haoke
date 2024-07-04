@@ -70,7 +70,30 @@
         />
         {% endblock %}
     </sw-container>
+    <!-- eslint-disable-next-line sw-deprecation-rules/no-twigjs-blocks -->
+    {% block sw_product_basic_form_short_description_field %}
+        <sw-inherit-wrapper
+            v-model:value="product.shortDescription"
+            class="sw-product-basic-form__inheritance-wrapper-shortDescription"
+            :has-parent="!!parentProduct.id"
+            :inherited-value="getInheritValue('translated', 'shortDescription')"
+            :label="$tc('sw-product.basicForm.labelShortDescription')"
+        >
+            <template #content="{ currentValue, updateCurrentValue, isInherited }">
 
+                <mt-textarea
+                    :key="isInherited"
+                    :placeholder="placeholder(product, 'shortDescription', $tc('sw-product.basicForm.placeholderShortDescriptionLong'))"
+                    :disabled="isInherited || !allowEdit"
+                    :modelValue="currentValue"
+                    sanitize-input
+                    sanitize-field-name="product_translation.shortDescription"
+                    @update:modelValue="updateCurrentValue"
+                />
+
+            </template>
+        </sw-inherit-wrapper>
+    {% endblock %}
     <!-- eslint-disable-next-line sw-deprecation-rules/no-twigjs-blocks -->
     {% block sw_product_basic_form_description_field %}
     <sw-inherit-wrapper

@@ -57,6 +57,7 @@ class ProductTranslationDefinition extends EntityTranslationDefinition
             (new StringField('name', 'name'))->addFlags(new ApiAware(), new Required()),
             (new LongTextField('keywords', 'keywords'))->addFlags(new ApiAware()),
             (new LongTextField('description', 'description'))->addFlags(new ApiAware(), new AllowHtml()),
+            (new StringField('short_description', 'shortDescription'))->addFlags(new ApiAware(), new AllowHtml()),
             (new StringField('meta_title', 'metaTitle'))->addFlags(new ApiAware()),
             (new StringField('pack_unit', 'packUnit'))->addFlags(new ApiAware()),
             (new StringField('pack_unit_plural', 'packUnitPlural'))->addFlags(new ApiAware()),

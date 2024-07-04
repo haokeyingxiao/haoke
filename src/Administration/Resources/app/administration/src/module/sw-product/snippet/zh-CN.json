@@ -32,11 +32,13 @@
     "basicForm": {
       "labelTitle": "名称",
       "labelDescription": "描述",
+      "labelShortDescription": "简短描述",
       "labelProductNumber": "产品编号",
       "labelManufacturer": "生产商",
       "labelManufacturerCreation": "生产商",
       "placeholderName": "产品标题...",
       "placeholderDescriptionLong": "产品描述...",
+      "placeholderShortDescriptionLong": "产品简短描述...",
       "placeholderId": "产品编号...",
       "placeholderManufacturer": "产品生产商...",
       "productNumberHelpText": {

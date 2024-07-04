@@ -32,11 +32,13 @@
     "basicForm": {
       "labelTitle": "Name",
       "labelDescription": "Description",
+      "labelShortDescription": "Short description",
       "labelProductNumber": "Product number",
       "labelManufacturer": "Manufacturer",
       "labelManufacturerCreation": "manufacturer",
       "placeholderName": "Enter product title...",
       "placeholderDescriptionLong": "Enter product description...",
+      "placeholderShortDescriptionLong": "Enter product short description...",
       "placeholderId": "Enter product number...",
       "placeholderManufacturer": "Enter product manufacturer...",
       "productNumberHelpText": {
