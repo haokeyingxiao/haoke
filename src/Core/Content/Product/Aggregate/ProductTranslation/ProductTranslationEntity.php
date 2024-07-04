@@ -45,6 +45,11 @@ class ProductTranslationEntity extends TranslationEntity
     /**
      * @var string|null
      */
+    protected $shortDescription;
+
+    /**
+     * @var string|null
+     */
     protected $metaTitle;
 
     /**
@@ -110,6 +115,16 @@ class ProductTranslationEntity extends TranslationEntity
     public function setDescription(?string $description): void
     {
         $this->description = $description;
+    }
+
+    public function getShortDescription(): ?string
+    {
+        return $this->shortDescription;
+    }
+
+    public function setShortDescription(?string $shortDescription): void
+    {
+        $this->shortDescription = $shortDescription;
     }
 
     public function getMetaTitle(): ?string
