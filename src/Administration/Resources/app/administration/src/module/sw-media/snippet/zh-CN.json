@@ -21,7 +21,8 @@
         "move": "移动",
         "replace": "替换",
         "settings": "设置",
-        "ar": "激活 AR 视图"
+        "ar": "激活 AR 视图",
+        "arHelpText": "在店面展示时启用AR功能。您可以在<a href=\"{settingsLink}\">3D设置</a>中更改默认设置。"
       },
       "sections": {
         "actions": "操作",

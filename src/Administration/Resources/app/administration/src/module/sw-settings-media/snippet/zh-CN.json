@@ -1,0 +1,9 @@
+{
+  "sw-settings-media": {
+    "general": {
+      "title": "媒体库",
+      "description": "在这里管理媒体库设置.",
+      "buttonSave": "保存"
+    }
+  }
+}
