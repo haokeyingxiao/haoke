@@ -102,7 +102,7 @@ class Migration1570459127AddCmsSidebarLayout extends MigrationStep
             ['name' => 'Default category layout']
         );
 
-        return $result === false ? null : (string)$result;
+        return $result === false ? null : (string) $result;
     }
 
     private function addDefaultLayoutWithSidebar(Connection $connection): void
@@ -149,7 +149,7 @@ class Migration1570459127AddCmsSidebarLayout extends MigrationStep
             'cms_page_id' => $page['id'],
             'position' => 1,
             'type' => 'sidebar',
-            'sizing_mode'=> 'full_width',
+            'sizing_mode' => 'full_width',
             'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT),
         ];
 
@@ -309,6 +309,6 @@ class Migration1570459127AddCmsSidebarLayout extends MigrationStep
             return null;
         }
 
-        return (string)$result;
+        return (string) $result;
     }
 }
