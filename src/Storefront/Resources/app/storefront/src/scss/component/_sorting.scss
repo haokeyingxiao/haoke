@@ -1,4 +1,11 @@
 .sorting {
-    display: inline-block;
-    width: 260px;
+    margin-top: 0 !important;
+    width: auto;
+}
+
+.product-listing-sort-by-label{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: $spacer-sm;
 }

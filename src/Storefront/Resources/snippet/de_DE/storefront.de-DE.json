@@ -511,6 +511,7 @@
     "filterRangeErrorMessage": "Der Mindestwert darf nicht höher sein als der Höchstwert.",
     "filterRangeLowerBoundErrorMessage": "Der Mindest- und Höchstwert muss größer oder gleich %lowerBound% sein.",
     "filterSubmitText": "Filter",
+    "filterResultTotal": "Insgesamt %total% Artikel",
     "defaultProductSortingLabel": "Name A-Z",
     "disabledFilterTooltip": "Dieser Filter zeigt in Kombination mit den ausgewählten Filtern keine weiteren Ergebnisse an.",
     "beforeListPrice": "",

@@ -511,6 +511,7 @@
     "filterRangeErrorMessage": "最低值不能高于最高值。",
     "filterRangeLowerBoundErrorMessage": "最低值和最高值必须大于或等于 %lowerBound%。",
     "filterSubmitText": "筛选",
+    "filterResultTotal": "总共 %total% 条",
     "defaultProductSortingLabel": "名称，升序",
     "disabledFilterTooltip": "此筛选器与所选筛选器组合时不会显示任何进一步的结果。",
     "beforeListPrice": "",

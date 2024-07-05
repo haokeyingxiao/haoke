@@ -30,10 +30,10 @@
     <div class="cms-element-product-listing-wrapper"
          data-listing-pagination="true"
         {% if feature('v6.7.0.0') %}
-         data-listing-pagination-options="{{ paginationConfig|json_encode }}"
+            data-listing-pagination-options="{{ paginationConfig|json_encode }}"
         {% else %}
-         {# ludtwig-ignore html-string-quotation #}
-         data-listing-pagination-options='{{ paginationConfig }}'
+            {# ludtwig-ignore html-string-quotation #}
+            data-listing-pagination-options='{{ paginationConfig }}'
         {% endif %}
          data-listing="true"
          data-listing-options="{{ listingPagination|json_encode }}">
@@ -42,21 +42,41 @@
                 {% if searchResult.total > 0 %}
                     {% block element_product_listing_pagination_nav_actions %}
                         <div class="cms-element-product-listing-actions row justify-content-between">
-                            <div class="col-md-auto">
-                                {% block element_product_listing_pagination_nav_top %}
-                                    {# @deprecated tag:v6.7.0 - variable `criteria` will be removed #}
-                                    {% if feature('v6.7.0.0') %}
-                                        {% sw_include '@Storefront/storefront/component/pagination.html.twig' with {entities: searchResult} %}
-                                    {% else %}
-                                        {% sw_include '@Storefront/storefront/component/pagination.html.twig' with {
-                                            entities: searchResult,
-                                            criteria: searchResult.criteria
-                                        } %}
-                                    {% endif %}
+                            <div class="col-12 col-md-auto">
+                                {% block element_product_listing_filter %}
+                                    <div class="d-flex justify-content-between">
+                                        {% block element_product_listing_filter_toggle %}
+                                            <div class="filter-panel-wrapper-toggle-content">
+                                                {% block element_product_listing_filter_button %}
+                                                    <button
+                                                        class="btn btn-outline-primary filter-panel-wrapper-toggle"
+                                                        type="button"
+                                                        data-off-canvas-filter="true"
+                                                        aria-haspopup="true"
+                                                        aria-expanded="false"
+                                                        aria-label="{{ 'general.menuLink'|trans }}">
+                                                        {% block element_product_listing_filter_button_icon %}
+                                                            {% sw_icon 'sliders-horizontal' %}
+                                                        {% endblock %}
+                                                        {{ 'listing.filterTitleText'|trans }}
+                                                    </button>
+                                                {% endblock %}
+                                            </div>
+                                        {% endblock %}
+                                        {% block element_product_listing_filter_result %}
+                                            <div class="d-inline-flex justify-content-between align-items-center">
+                                                {% block element_product_listing_filter_result_total %}
+                                                    <div class="product-listing-search-result-total-header">
+                                                        {{ 'listing.filterResultTotal'|trans({'%total%': searchResult.total})|sw_sanitize }}
+                                                    </div>
+                                                {% endblock %}
+                                            </div>
+                                        {% endblock %}
+                                    </div>
                                 {% endblock %}
                             </div>
 
-                            <div class="col-md-auto">
+                            <div class="col-12 col-md-auto">
                                 {% block element_product_listing_sorting %}
                                     {% sw_include '@Storefront/storefront/component/sorting.html.twig' with {
                                         current: searchResult.sorting,

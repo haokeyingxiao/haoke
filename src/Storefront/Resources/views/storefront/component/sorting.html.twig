@@ -6,15 +6,17 @@
         <div class="product-listing-sort-by-label">
             {{ 'general.sortingByLabel'|trans|striptags }}
         </div>
-        <div class="sorting"
-             data-listing-sorting="true"
-             data-listing-sorting-options="{{ config|json_encode }}">
-            <select class="sorting form-select" aria-label="{{ 'general.sortingLabel'|trans|striptags }}">
-                {% for sorting in sortings %}
-                    {% set key = sorting.key %}
-                    <option value="{{ key }}"{% if key == current %} selected{% endif %}>{{ sorting.translated.label|sw_sanitize }}</option>
-                {% endfor %}
-            </select>
+        <div class="product-listing-sort-top">
+            <div class="sorting"
+                 data-listing-sorting="true"
+                 data-listing-sorting-options="{{ config|json_encode }}">
+                <select class="sorting form-select" aria-label="{{ 'general.sortingLabel'|trans|striptags }}">
+                    {% for sorting in sortings %}
+                        {% set key = sorting.key %}
+                        <option value="{{ key }}"{% if key == current %} selected{% endif %}>{{ sorting.translated.label|sw_sanitize }}</option>
+                    {% endfor %}
+                </select>
+            </div>
         </div>
     </div>
 {% endif %}
