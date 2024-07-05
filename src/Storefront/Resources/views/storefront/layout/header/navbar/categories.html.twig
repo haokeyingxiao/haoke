@@ -10,7 +10,7 @@
             {% set link = category_url(treeItem.category) %}
 
             {% block layout_navbar_categories_item %}
-                <div class="{% if level == 0 %}{% if navigationMedia %}col-4 {% else %}col-3 {% endif %}{% endif %}{% if ((loop.index % 4 != 0) and (loop.index != 1)) %}navigation-flyout-col{% endif %}">
+                <div class="{% if level == 0 %}{% if navigationMedia %}col-5 {% else %}col-4 {% endif %}{% endif %}{% if ((loop.index % 4 != 0) and (loop.index != 1)) %}navigation-flyout-col{% endif %}">
                     {% block layout_navbar_categories_item_link %}
                         {% if treeItem.category.type == 'folder' %}
                             <div class="nav-item nav-link navigation-flyout-link is-level-{{ level }}"

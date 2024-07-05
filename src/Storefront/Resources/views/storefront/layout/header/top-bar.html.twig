@@ -1,4 +1,5 @@
 {% block layout_header_top_bar %}
+<div class="container">
     <div class="top-bar d-none d-lg-block">
         {% block layout_header_top_bar_inner %}
             {% if page.header.languages.count > 1 or page.header.currencies.count > 1 or not feature('ACCESSIBILITY_TWEAKS') %}
@@ -14,4 +15,5 @@
             {% endif %}
         {% endblock %}
     </div>
+</div>
 {% endblock %}

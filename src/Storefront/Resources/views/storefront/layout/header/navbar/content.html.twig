@@ -27,7 +27,7 @@
                     <div class="navigation-flyout-close js-close-flyout-menu">
                         {% block layout_navbar_content_row_close_content %}
                             {% block layout_utilities_offcanvas_close_icon %}
-                                {% sw_icon 'x' %}
+                                {% sw_icon 'x' style { size: 'sm' }  %}
                             {% endblock %}
                         {% endblock %}
                     </div>
@@ -42,7 +42,7 @@
                 <div class="{% if category.media %}col-8 col-xl-9{% else %}col{% endif %}">
                     <div class="">
                         {% block layout_navbar_content_row_content_categories_recoursion %}
-                            {% sw_include '@Storefront/storefront/layout/navbar/categories.html.twig' with {
+                            {% sw_include '@Storefront/storefront/layout/header/navbar/categories.html.twig' with {
                                 navigationTree: navigationTree.children,
                                 navigationMedia: category.media,
                                 page: page
