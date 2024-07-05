@@ -3,7 +3,7 @@
         {% block layout_footer_navigation %}
             <div
                 id="footerColumns"
-                class="row footer-columns px-3"
+                class="row footer-columns"
                 data-collapse-footer-columns="true"
                 role="list"
             >
@@ -54,7 +54,7 @@
                 {% block layout_footer_navigation_columns %}
                     {% for root in page.footer.navigation.tree %}
                         {% block layout_footer_navigation_column %}
-                            <div class="col-md-2 footer-column js-footer-column">
+                            <div class="col-md-4 footer-column js-footer-column">
                                 {% block layout_footer_navigation_information_headline %}
                                     <div class="footer-column-headline footer-headline js-collapse-footer-column-trigger"
                                          data-bs-target="#collapseFooterTitle{{ loop.index }}"
@@ -220,7 +220,7 @@
 
             {% block layout_footer_copyright %}
                 <div class="footer-copyright">
-                    {% sw_icon 'heart-fill' style {size:'xs'} %}
+                    {% sw_icon 'shopware' style {size:'xs'} %}
                     {{ 'footer.copyrightInfo'|trans|sw_sanitize }}
                 </div>
             {% endblock %}

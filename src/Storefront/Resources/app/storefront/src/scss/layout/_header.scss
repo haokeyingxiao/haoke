@@ -6,19 +6,16 @@ The header contains the shop logo, the search form and various actions like the 
 */
 
 .header-row {
-    position: relative;
-    gap: 0 $spacer-md;
+    padding: $spacer-sm 0;
 }
 
 .header-logo-col {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin: $spacer 0;
 }
 
 .header-logo-main {
     text-align: center;
     display: block;
-    min-height: 34px;
 }
 
 .header-logo-main-link {
@@ -59,63 +56,37 @@ The header contains the shop logo, the search form and various actions like the 
 .header-actions-btn {
     position: relative;
 }
-.col-menu-button {
-    order: 0;
-}
-@include media-breakpoint-up(xl) {
-    .header-row {
-        gap: 0 $spacer-lg;
-    }
-}
-
-@include media-breakpoint-up(md) {
-    .header-row {
-        padding: 0;
-    }
-    .header-logo-col {
-        order: 0;
-    }
-
-}
-@include media-breakpoint-down(md){
-    .col-menu-button {
-        order: 1;
-    }
-
-}
-
-@include media-breakpoint-down(lg){
-    .header-actions-col{
-        order:2;
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    .header-logo-col {
-        padding-right: $spacer;
-    }
-
-}
 
 @include media-breakpoint-up(sm) {
+    .header-row {
+        padding-bottom: $spacer;
+    }
+
+    .header-logo-col {
+        padding-bottom: $spacer-sm;
+    }
+
     .header-search-col {
         .collapse:not(.show) {
             display: block;
         }
     }
+
     .header-search {
         max-width: 400px;
         margin: auto;
     }
+
     .header-cart-total {
         display: inline-block;
         margin-left: $spacer-sm;
     }
-    .header-logo-col {
-        padding-top: 19px;
-        padding-bottom: 19px;
-    }
+}
 
+@include media-breakpoint-up(lg) {
+    .header-logo-col {
+        margin: 0;
+    }
 }
 
 .storefront-staging-info {
@@ -128,11 +99,3 @@ The header contains the shop logo, the search form and various actions like the 
     }
 }
 
-.header-actions-col {
-    margin-left: auto;
-}
-.header-search-main-wrapper .header-search {
-    margin: $spacer-xs 0;
-    display: block;
-    max-width: 600px;
-}

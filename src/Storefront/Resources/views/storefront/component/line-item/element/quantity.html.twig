@@ -41,10 +41,10 @@
                             <form action="{{ formAction }}"
                                   class="line-item-quantity-container {% if isDigital %}disabled{% endif %}"
                                   method="post"
-                                {% if displayMode == 'default' %}
-                                    data-form-auto-submit="true"
-                                    data-form-auto-submit-options="{{ autoSubmitOptions|json_encode }}"
-                                {% endif %}
+                                  {% if displayMode == 'default' %}
+                                  data-form-auto-submit="true"
+                                  data-form-auto-submit-options="{{ autoSubmitOptions|json_encode }}"
+                                  {% endif %}
                             >
                                 {% block component_line_item_quantity_redirect %}
                                     <input type="hidden"

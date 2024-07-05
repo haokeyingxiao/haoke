@@ -9,6 +9,23 @@
 
     {% if listing.aggregations.elements|length > 0 %}
         <div class="cms-element-sidebar-filter">
+            {% block element_product_listing_filter_button %}
+                <button
+                    class="btn btn-outline-primary filter-panel-wrapper-toggle"
+                    type="button"
+                    data-off-canvas-filter="true"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-label="{{ 'general.menuLink'|trans }}"
+                >
+                    {% block element_product_listing_filter_button_icon %}
+                        {% sw_icon 'sliders-horizontal' %}
+                    {% endblock %}
+
+                    {{ 'listing.filterTitleText'|trans }}
+                </button>
+            {% endblock %}
+
             {% block element_sidebar_filter_panel %}
                 <div
                     id="filter-panel-wrapper"

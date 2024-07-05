@@ -1,49 +1,49 @@
 {% sw_extends '@Storefront/storefront/base.html.twig' %}
-{% block base_body %}
+{% block base_content %}
     {% block page_account_login %}
-        <div class="account-login  d-flex align-items-center">
-            {% block page_account_login_container %}
-                <div class="container">
-                    <div class="row align-items-center">
-                        {% block page_account_login_image %}
-                            <div class="col-lg-6 text-bg-primary">
-                                {% block page_account_login_image_img %}
-                                    <img class="img-fluid mb-4" loading="lazy"
-                                         src="{{ asset('assets/illustration/illustration.png', 'theme') }}"
-                                         width="550"
-                                         height="80" alt="Logo">
-                                {% endblock %}
-                                {% block page_account_login_advantages_list %}
-                                    <ul>
-                                        {% block page_account_login_advantages_entry1 %}
-                                            <li>{{ 'account.registerAdvantage1'|trans|sw_sanitize }}</li>
-                                        {% endblock %}
+        <div class="account-login">
+            {% block page_account_login_inner %}
+                <div class="row">
+                    {% block page_account_login_container %}
+                        <div class="col-lg-4">
+                            {% sw_include '@Storefront/storefront/component/account/login.html.twig' with {
+                                cardTitle: 'account.loginHeader'|trans|sw_sanitize
+                            } %}
 
-                                        {% block page_account_login_advantages_entry2 %}
-                                            <li>{{ 'account.registerAdvantage2'|trans|sw_sanitize }}</li>
-                                        {% endblock %}
+                            {% block page_account_register_advantages %}
+                                <div class="login-advantages d-none d-lg-block">
+                                    {% block page_account_register_advantages_title %}
+                                        <div class="h5 login-advantages-header">
+                                            {{ 'account.registerAdvantagesHeader'|trans|sw_sanitize }}
+                                        </div>
+                                    {% endblock %}
 
-                                        {% block page_account_login_advantages_entry3 %}
-                                            <li>{{ 'account.registerAdvantage3'|trans|sw_sanitize }}</li>
-                                        {% endblock %}
+                                    {% block page_account_register_advantages_list %}
+                                        <ul>
+                                            {% block page_account_register_advantages_entry1 %}
+                                                <li>{{ 'account.registerAdvantage1'|trans|sw_sanitize }}</li>
+                                            {% endblock %}
 
-                                        {% block page_account_login_advantages_entry4 %}
-                                            <li>{{ 'account.registerAdvantage4'|trans|sw_sanitize }}</li>
-                                        {% endblock %}
-                                    </ul>
-                                {% endblock %}
-                            </div>
-                        {% endblock %}
-                        {% block page_account_login_inner %}
-                            <div class="col-lg-4">
-                                {% sw_include '@Storefront/storefront/component/account/login.html.twig' with {
-                                    cardTitle: 'account.loginHeader'|trans|sw_sanitize
-                                } %}
-                            </div>
-                        {% endblock %}
-                    </div>
+                                            {% block page_account_register_advantages_entry2 %}
+                                                <li>{{ 'account.registerAdvantage2'|trans|sw_sanitize }}</li>
+                                            {% endblock %}
+
+                                            {% block page_account_register_advantages_entry3 %}
+                                                <li>{{ 'account.registerAdvantage3'|trans|sw_sanitize }}</li>
+                                            {% endblock %}
+
+                                            {% block page_account_register_advantages_entry4 %}
+                                                <li>{{ 'account.registerAdvantage4'|trans|sw_sanitize }}</li>
+                                            {% endblock %}
+                                        </ul>
+                                    {% endblock %}
+                                </div>
+                            {% endblock %}
+                        </div>
+                    {% endblock %}
                 </div>
             {% endblock %}
         </div>
     {% endblock %}
+
 {% endblock %}

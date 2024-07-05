@@ -8,7 +8,7 @@
 
         <div class="card product-box box-{{ layout }}" data-product-information="{{ {id, name}|json_encode }}">
             {% block component_product_box_content %}
-                <div class="card-body rounded-4">
+                <div class="card-body">
                     {% block component_product_box_badges %}
                         {% sw_include '@Storefront/storefront/component/product/card/badges.html.twig' %}
                     {% endblock %}

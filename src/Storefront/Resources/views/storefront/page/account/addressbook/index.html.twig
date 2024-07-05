@@ -152,8 +152,8 @@
 
                                         {% if feature('v6.7.0.0') %}
                                             <div class="address-actions">
-                                                {% sw_include '@Storefront/storefront/page/account/addressbook/default-address-actions.html.twig' with { 'address': defaultShippingAddress } %}
-                                            </div>
+                                            {% sw_include '@Storefront/storefront/page/account/addressbook/default-address-actions.html.twig' with { 'address': defaultShippingAddress } %}
+                                        </div>
                                         {% endif %}
 
                                         {% if not feature('v6.7.0.0') %}

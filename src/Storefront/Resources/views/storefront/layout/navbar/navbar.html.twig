@@ -53,7 +53,7 @@
                                             </a>
                                             {% if (treeItem.children|length > 0) %}
                                                 <div class="dropdown-menu w-100 p-4" role="menu">
-                                                    {% sw_include '@Storefront/storefront/layout/header/navbar/content.html.twig' with {
+                                                    {% sw_include '@Storefront/storefront/layout/navbar/content.html.twig' with {
                                                         themeIconConfig: themeIconConfig,
                                                         navigationTree: treeItem,
                                                         level: level+1,
