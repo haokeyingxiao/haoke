@@ -7,6 +7,7 @@ use Doctrine\DBAL\Exception as DBALException;
 use Shopware\Core\DevOps\Environment\EnvironmentHelper;
 use Shopware\Core\Framework\Adapter\Database\MySQLFactory;
 use Shopware\Core\Framework\Api\Controller\FallbackController;
+use Shopware\Core\Framework\Feature;
 use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\Framework\Plugin\KernelPluginLoader\KernelPluginLoader;
 use Shopware\Core\Framework\Util\VersionParser;
@@ -335,10 +336,7 @@ class Kernel extends HttpKernel
             $setSessionVariables = (bool) EnvironmentHelper::getVariable('SQL_SET_DEFAULT_SESSION_VARIABLES', true);
             $connectionVariables = [];
 
-            $timeZoneSupportEnabled = (bool) EnvironmentHelper::getVariable('SHOPWARE_DBAL_TIMEZONE_SUPPORT_ENABLED', false);
-            if ($timeZoneSupportEnabled) {
-                $connectionVariables[] = 'SET @@session.time_zone = "Asia/Shanghai"';
-            }
+            $connectionVariables[] = 'SET @@session.time_zone = "Asia/Shanghai"';
 
             if ($setSessionVariables) {
                 $connectionVariables[] = 'SET @@group_concat_max_len = CAST(IF(@@group_concat_max_len > 320000, @@group_concat_max_len, 320000) AS UNSIGNED)';
