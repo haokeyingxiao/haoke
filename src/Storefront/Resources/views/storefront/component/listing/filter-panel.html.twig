@@ -1,5 +1,5 @@
 {% block component_filter_panel %} {# merge 16.11.20 #}
-    {% block component_filter_panel_header %}
+    {% block component_filter_panel_offcanvas_header %}
         <div class="filter-panel-offcanvas-header">
             <div class="filter-panel-offcanvas-only filter-panel-offcanvas-title">{{ "listing.filterTitleText"|trans }}</div>
 
@@ -14,6 +14,15 @@
         <div class="filter-panel{% if sidebar %} is--sidebar{% endif %}">
             {% block component_filter_panel_items_container %}
                 <div class="filter-panel-items-container">
+                    {% block component_filter_panel_header %}
+                    <div class="filter-panel-header-wrapper d-flex align-items-center">
+                        {% block component_filter_panel_header_title %}
+                        <h5 class="filter-panel-header">
+                            {{ 'general.filterTitle'|trans|sw_sanitize }}
+                        </h5>
+                        {% endblock %}
+                    </div>
+                    {% endblock %}
                     {% block component_filter_panel_items %}
 
                         {% block component_filter_panel_item_manufacturer %}

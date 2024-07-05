@@ -53,7 +53,9 @@
     "next": "下一页",
     "previous": "上一页",
     "formSubmit": "提交",
-    "listPricePreviously": "以前的价格 %price%"
+    "listPricePreviously": "以前的价格 %price%",
+    "categoryNavigationTitle": "分类",
+    "filterTitle": "筛选"
   },
   "header": {
     "logoLink": "前往首页",
