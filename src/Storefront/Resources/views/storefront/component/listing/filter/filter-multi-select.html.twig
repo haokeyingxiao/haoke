@@ -14,22 +14,23 @@
 {% endif %}
 
 {% block component_filter_multi_select %}
-    <div class="filter-multi-select filter-multi-select-{{ name }} filter-panel-item{% if sidebar %} d-grid{% else %} dropdown{% endif %}"
-         data-{{ pluginSelector }}="true"
-         data-{{ pluginSelector }}-options='{{ dataPluginSelectorOptions|json_encode }}'>
+    <div
+        class="filter-multi-select filter-multi-select-{{ name }} filter-panel-item{% if sidebar %} d-grid{% else %} dropdown{% endif %}"
+        data-{{ pluginSelector }}="true"
+        data-{{ pluginSelector }}-options='{{ dataPluginSelectorOptions|json_encode }}'>
 
         {% block component_filter_multi_select_toggle %}
             <button class="filter-panel-item-toggle btn"
-                    aria-expanded="false"
-                    {% if sidebar %}
-                    data-bs-toggle="collapse"
-                    data-bs-target="#{{ filterItemId }}"
-                    {% else %}
-                    data-bs-toggle="dropdown"
-                    data-boundary="viewport"
-                    data-bs-offset="0,8"
-                    aria-haspopup="true"
-                    {% endif %}>
+                    aria-expanded="{% if sidebar %}true{% else %}false{% endif %}"
+                {% if sidebar %}
+                data-bs-toggle="collapse"
+                data-bs-target="#{{ filterItemId }}"
+            {% else %}
+                data-bs-toggle="dropdown"
+                data-boundary="viewport"
+                data-bs-offset="0,8"
+                aria-haspopup="true"
+                {% endif %}>
 
                 {% block component_filter_multi_select_display_name %}
                     {{ displayName }}
@@ -48,20 +49,25 @@
         {% endblock %}
 
         {% block component_filter_multi_select_dropdown %}
-            <div class="filter-multi-select-dropdown filter-panel-item-dropdown{% if sidebar %} collapse{% else %} dropdown-menu{% endif %}"
-                 id="{{ filterItemId }}">
-                {% block component_filter_multi_select_list %}
-                    <ul class="filter-multi-select-list">
-                        {% for element in elements %}
-                            {% block component_filter_multi_select_list_item %}
-                                <li class="filter-multi-select-list-item">
-                                    {% block component_filter_multi_select_list_item_inner %}
-                                        {% sw_include '@Storefront/storefront/component/listing/filter/filter-multi-select-list-item.html.twig' %}
+            <div
+                class="filter-multi-select-dropdown filter-panel-item-dropdown{% if sidebar %} collapse show{% else %} dropdown-menu{% endif %}"
+                id="{{ filterItemId }}">
+                {% block component_filter_multi_select_list_wapper %}
+                    <div class="filter-multi-select-list-wrapper filter-scroll-area">
+                        {% block component_filter_multi_select_list %}
+                            <ul class="filter-multi-select-list">
+                                {% for element in elements %}
+                                    {% block component_filter_multi_select_list_item %}
+                                        <li class="filter-multi-select-list-item">
+                                            {% block component_filter_multi_select_list_item_inner %}
+                                                {% sw_include '@Storefront/storefront/component/listing/filter/filter-multi-select-list-item.html.twig' %}
+                                            {% endblock %}
+                                        </li>
                                     {% endblock %}
-                                </li>
-                            {% endblock %}
-                        {% endfor %}
-                    </ul>
+                                {% endfor %}
+                            </ul>
+                        {% endblock %}
+                    </div>
                 {% endblock %}
             </div>
         {% endblock %}

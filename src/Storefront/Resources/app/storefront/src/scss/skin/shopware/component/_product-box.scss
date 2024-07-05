@@ -12,6 +12,11 @@ Styling for productbox component.
         --#{$prefix}card-spacer-y: #{$spacer};
         --#{$prefix}card-spacer-x: #{$spacer};
     }
+    .card-body{
+        &:hover{
+            background-color:$gray-50;
+        }
+    }
 }
 
 .product-name {

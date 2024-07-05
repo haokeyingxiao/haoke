@@ -6,8 +6,9 @@ Styling for category navigation component.
 .category-navigation-box {
     padding: $spacer-lg;
     border-radius: 6px;
-    margin-bottom: $spacer-lg;
-    box-shadow:0 1px 4px 0 rgba(51, 68, 91, 0.2);
+    background:#fff;
+    margin-bottom: $spacer-xs;
+    box-shadow: 0 1px 4px 0 rgba(51, 68, 91, 0.2);
 }
 
 .category-navigation {
