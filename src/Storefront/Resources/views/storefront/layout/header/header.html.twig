@@ -46,6 +46,22 @@
                     </div>
                 {% endblock %}
 
+                {% block layout_header_search %}
+                    <div class="col-12 col-lg header-search-col">
+                        <div class="row">
+                            <div class="col">
+                                {% block layout_header_search_wrapper %}
+                                    <div class="header-search-main-wrapper">
+                                        {% block layout_header_search_inner %}
+                                            {% sw_include '@Storefront/storefront/layout/header/search.html.twig' %}
+                                        {% endblock %}
+                                    </div>
+                                {% endblock %}
+                            </div>
+                        </div>
+                    </div>
+                {% endblock %}
+
                 {% block layout_header_actions %}
                     <div class="col-auto header-actions-col">
                         <div class="row g-0">
