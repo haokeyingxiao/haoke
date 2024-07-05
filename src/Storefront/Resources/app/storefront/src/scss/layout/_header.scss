@@ -75,11 +75,13 @@ The header contains the shop logo, the search form and various actions like the 
     .header-logo-col {
         order: 0;
     }
+
 }
 @include media-breakpoint-down(md){
     .col-menu-button {
         order: 1;
     }
+
 }
 
 @include media-breakpoint-down(lg){
@@ -92,6 +94,7 @@ The header contains the shop logo, the search form and various actions like the 
     .header-logo-col {
         padding-right: $spacer;
     }
+
 }
 
 @include media-breakpoint-up(sm) {
@@ -127,4 +130,9 @@ The header contains the shop logo, the search form and various actions like the 
 
 .header-actions-col {
     margin-left: auto;
+}
+.header-search-main-wrapper .header-search {
+    margin: $spacer-xs 0;
+    display: block;
+    max-width: 600px;
 }

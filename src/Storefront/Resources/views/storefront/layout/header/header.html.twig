@@ -17,7 +17,7 @@
                         <div class="menu-button">
                             {% block layout_header_navigation_toggle_button %}
                                 <button
-                                    class="btn btn-lg btn-outline-2secondary nav-main-toggle-btn header-actions-btn"
+                                    class="btn btn-lg btn-outline-2 secondary nav-main-toggle-btn header-actions-btn"
                                     type="button"
                                     data-off-canvas-menu="true"
                                     aria-label="{{ 'general.menuLink'|trans|striptags }}"
@@ -47,7 +47,7 @@
                 {% endblock %}
 
                 {% block layout_header_search %}
-                    <div class="col-12 col-lg header-search-col">
+                    <div class="col-12 col-sm order-md-0 order-sm-2 order-xs-3 header-search-col">
                         <div class="row">
                             <div class="col">
                                 {% block layout_header_search_wrapper %}
@@ -66,7 +66,7 @@
                     <div class="col-auto header-actions-col">
                         <div class="row g-0">
                             {% block layout_header_search_toggle %}
-                                <div class="col-auto d-lg-none header-search-toggle-col">
+                                <div class="col-auto d-sm-none header-search-toggle-col">
                                     <div class="search-toggle">
                                         <button
                                             class="btn header-actions-btn search-toggle-btn js-search-toggle-btn collapsed"
@@ -97,6 +97,14 @@
                                 {% endblock %}
                             {% endif %}
 
+                            {% block layout_header_actions_account %}
+                                <div class="col-auto">
+                                    <div class="account-menu">
+                                        {% sw_include '@Storefront/storefront/layout/header/actions/account-widget.html.twig' %}
+                                    </div>
+                                </div>
+                            {% endblock %}
+
                             {% block layout_header_actions_cart %}
                                 <div class="col-auto">
                                     <div
@@ -110,14 +118,6 @@
                                            aria-label="{{ 'checkout.cartTitle'|trans|striptags }}">
                                             {% sw_include '@Storefront/storefront/layout/header/actions/cart-widget.html.twig' %}
                                         </a>
-                                    </div>
-                                </div>
-                            {% endblock %}
-
-                            {% block layout_header_actions_account %}
-                                <div class="col-auto">
-                                    <div class="account-menu">
-                                        {% sw_include '@Storefront/storefront/layout/header/actions/account-widget.html.twig' %}
                                     </div>
                                 </div>
                             {% endblock %}
