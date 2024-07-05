@@ -6,16 +6,19 @@ The header contains the shop logo, the search form and various actions like the 
 */
 
 .header-row {
-    padding: $spacer-sm 0;
+    position: relative;
+    gap: 0 $spacer-md;
 }
 
 .header-logo-col {
-    margin: $spacer 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .header-logo-main {
     text-align: center;
     display: block;
+    min-height: 34px;
 }
 
 .header-logo-main-link {
@@ -56,37 +59,60 @@ The header contains the shop logo, the search form and various actions like the 
 .header-actions-btn {
     position: relative;
 }
-
-@include media-breakpoint-up(sm) {
+.col-menu-button {
+    order: 0;
+}
+@include media-breakpoint-up(xl) {
     .header-row {
-        padding-bottom: $spacer;
+        gap: 0 $spacer-lg;
     }
+}
 
+@include media-breakpoint-up(md) {
+    .header-row {
+        padding: 0;
+    }
     .header-logo-col {
-        padding-bottom: $spacer-sm;
+        order: 0;
     }
-
-    .header-search-col {
-        .collapse:not(.show) {
-            display: block;
-        }
+}
+@include media-breakpoint-down(md){
+    .col-menu-button {
+        order: 1;
     }
+}
 
-    .header-search {
-        max-width: 400px;
-        margin: auto;
-    }
-
-    .header-cart-total {
-        display: inline-block;
-        margin-left: $spacer-sm;
+@include media-breakpoint-down(lg){
+    .header-actions-col{
+        order:2;
     }
 }
 
 @include media-breakpoint-up(lg) {
     .header-logo-col {
-        margin: 0;
+        padding-right: $spacer;
     }
+}
+
+@include media-breakpoint-up(sm) {
+    .header-search-col {
+        .collapse:not(.show) {
+            display: block;
+        }
+    }
+    .header-search {
+        max-width: 400px;
+        margin: auto;
+    }
+    .header-cart-total {
+        display: inline-block;
+        margin-left: $spacer-sm;
+    }
+    .header-logo-col {
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+
 }
 
 .storefront-staging-info {
@@ -97,4 +123,8 @@ The header contains the shop logo, the search form and various actions like the 
             top: 0;
         }
     }
+}
+
+.header-actions-col {
+    margin-left: auto;
 }

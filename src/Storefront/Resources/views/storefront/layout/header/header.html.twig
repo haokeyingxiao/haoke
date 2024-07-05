@@ -11,9 +11,27 @@
 
     {% block layout_header_navigation %}
         <div class="container">
-            <div class="row align-items-center header-row">
+            <div class="row align-items-center header-row g-0">
+                {% block layout_header_navigation_toggle %}
+                    <div class="col col-auto col-menu-button d-block d-xl-none">
+                        <div class="menu-button">
+                            {% block layout_header_navigation_toggle_button %}
+                                <button
+                                    class="btn btn-lg btn-outline-2secondary nav-main-toggle-btn header-actions-btn"
+                                    type="button"
+                                    data-off-canvas-menu="true"
+                                    aria-label="{{ 'general.menuLink'|trans|striptags }}"
+                                >
+                                    {% block layout_header_navigation_toggle_button_icon %}
+                                        {% sw_icon 'stack' %}
+                                    {% endblock %}
+                                </button>
+                            {% endblock %}
+                        </div>
+                    </div>
+                {% endblock %}
                 {% block layout_header_logo %}
-                    <div class="col-12 col-lg-auto header-logo-col">
+                    <div class="col-12 col-md-auto header-logo-col">
                         {% sw_include '@Storefront/storefront/layout/header/logo.html.twig' %}
                     </div>
                 {% endblock %}
@@ -31,27 +49,8 @@
                 {% block layout_header_actions %}
                     <div class="col-auto header-actions-col">
                         <div class="row g-0">
-                            {% block layout_header_navigation_toggle %}
-                                <div class="col d-sm-none">
-                                    <div class="menu-button">
-                                        {% block layout_header_navigation_toggle_button %}
-                                            <button
-                                                class="btn nav-main-toggle-btn header-actions-btn"
-                                                type="button"
-                                                data-off-canvas-menu="true"
-                                                aria-label="{{ 'general.menuLink'|trans|striptags }}"
-                                            >
-                                                {% block layout_header_navigation_toggle_button_icon %}
-                                                    {% sw_icon 'stack' %}
-                                                {% endblock %}
-                                            </button>
-                                        {% endblock %}
-                                    </div>
-                                </div>
-                            {% endblock %}
-
                             {% block layout_header_search_toggle %}
-                                <div class="col-auto d-sm-none">
+                                <div class="col-auto d-lg-none header-search-toggle-col">
                                     <div class="search-toggle">
                                         <button
                                             class="btn header-actions-btn search-toggle-btn js-search-toggle-btn collapsed"
@@ -81,20 +80,6 @@
                                     </div>
                                 {% endblock %}
                             {% endif %}
-
-                            {% block layout_header_actions_search %}
-                                <div class="col-auto">
-                                    <div
-                                        class="header-cart"
-                                        data-off-canvas-cart="true"
-                                    >
-                                        <a class="btn header-cart-btn header-actions-btn"
-                                           href="{{ path('frontend.checkout.cart.page') }}"
-                                        {% sw_include '@Storefront/storefront/layout/header/actions/search-widget.html.twig' %}
-                                        </a>
-                                    </div>
-                                </div>
-                            {% endblock %}
 
                             {% block layout_header_actions_cart %}
                                 <div class="col-auto">
