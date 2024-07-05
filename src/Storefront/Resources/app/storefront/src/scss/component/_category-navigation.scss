@@ -41,14 +41,17 @@ Styling for category navigation component.
     padding: 8px 20px;
     font-weight: $font-weight-normal;
     color: $sw-text-color;
-
+    border-radius: $border-radius-lg;
     &:hover {
         text-decoration: none;
     }
 
     &.is-active {
-        color: $sw-color-brand-primary;
+        color: $gray-800;
         font-weight: $font-weight-bold;
+        font-size: 16px;
+        line-height: 27px;
+        background-color: $gray-50;
     }
 
     &.in-path {

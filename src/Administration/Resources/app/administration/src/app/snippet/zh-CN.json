@@ -144,7 +144,7 @@
       }
     },
     "sw-admin-menu": {
-      "linkLogout": "登出",
+      "linkLogout": "注销",
       "linkMinimizeMenu": "折叠菜单",
       "textShopwareAdmin": "Shopware管理",
       "textProjectName": "好客数字化营销管理平台",
