@@ -63,6 +63,7 @@
       "baseCurrency": "基本货币",
       "taxFreeFromHelpText": "如果购物车总额高于“最低购物车价值（净值）”中设置的值，则整个购物车将免税。",
       "labelVatIdRequired": "需要 VAT 注册号",
+      "labelIsEu": "欧盟成员国",
       "helpTextLabelVatIdRequired": "请注意“设置 > 登录/注册”中的全局开关。",
       "titleOptions": "选项",
       "currencyDependentValues": "依赖货币的值",
