@@ -841,7 +841,7 @@ class ThemeFixtures
                         'de-DE' => 'Schriftart Text',
                     ],
                     'type' => 'fontFamily',
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'editable' => true,
                     'block' => 'typography',
                     'section' => null,
@@ -863,7 +863,7 @@ class ThemeFixtures
                         'de-DE' => 'Schriftart Überschrift',
                     ],
                     'type' => 'fontFamily',
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'editable' => true,
                     'block' => 'typography',
                     'section' => null,
@@ -1057,7 +1057,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-base' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-text-color' => [
@@ -1065,7 +1065,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-headline' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-headline-color' => [
@@ -1139,7 +1139,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-base' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-text-color' => [
@@ -1147,7 +1147,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-headline' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-headline-color' => [
@@ -1508,7 +1508,7 @@ class ThemeFixtures
                         'de-DE' => 'Schriftart Text',
                     ],
                     'type' => 'fontFamily',
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'editable' => true,
                     'block' => 'typography',
                     'section' => null,
@@ -1530,7 +1530,7 @@ class ThemeFixtures
                         'de-DE' => 'Schriftart Überschrift',
                     ],
                     'type' => 'fontFamily',
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'editable' => true,
                     'block' => 'typography',
                     'section' => null,
@@ -1806,7 +1806,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-base' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-text-color' => [
@@ -1814,7 +1814,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-headline' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-headline-color' => [
@@ -2175,7 +2175,7 @@ class ThemeFixtures
                         'de-DE' => 'Schriftart Text',
                     ],
                     'type' => 'fontFamily',
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'editable' => true,
                     'block' => 'typography',
                     'section' => null,
@@ -2197,7 +2197,7 @@ class ThemeFixtures
                         'de-DE' => 'Schriftart Überschrift',
                     ],
                     'type' => 'fontFamily',
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'editable' => true,
                     'block' => 'typography',
                     'section' => null,
@@ -2388,7 +2388,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-base' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-text-color' => [
@@ -2396,7 +2396,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-headline' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-headline-color' => [
@@ -2470,7 +2470,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-base' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-text-color' => [
@@ -2478,7 +2478,7 @@ class ThemeFixtures
                     'isInherited' => false,
                 ],
                 'sw-font-family-headline' => [
-                    'value' => '\'Inter\', sans-serif',
+                    'value' => 'system-ui, -apple-system, \'Segoe UI\', Roboto, \'Helvetica Neue\', \'Noto Sans\', \'Liberation Sans\', Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\', \'Noto Color Emoji\'',
                     'isInherited' => false,
                 ],
                 'sw-headline-color' => [
