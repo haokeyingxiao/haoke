@@ -71,7 +71,9 @@
                                             aria-expanded="false"
                                             aria-controls="searchCollapse"
                                             aria-label="{{ 'header.searchButton'|trans|striptags }}">
-                                        {% sw_icon 'search' %}
+                                        {% block layout_header_search_toggle_button_icon %}
+                                            {% sw_icon 'search' %}
+                                        {% endblock %}
                                     </button>
                                 </div>
                             </div>

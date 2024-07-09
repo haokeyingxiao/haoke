@@ -3,7 +3,9 @@
 
     {% if showCounter %}
         <span class="header-wishlist-icon">
-            {% sw_icon 'heart' %}
+            {% block layout_header_actions_wishlist_widget_icon %}
+                {% sw_icon 'heart' %}
+            {% endblock %}
         </span>
     {% endif %}
 

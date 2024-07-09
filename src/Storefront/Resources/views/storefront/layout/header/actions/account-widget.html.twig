@@ -10,7 +10,9 @@
                     aria-expanded="false"
                     aria-label="{{ 'account.myAccount'|trans|striptags }}"
                     title="{{ 'account.myAccount'|trans|striptags }}">
-                {% sw_icon 'avatar' %}
+                {% block layout_header_actions_account_widget_button_icon %}
+                    {% sw_icon 'avatar' %}
+                {% endblock %}
             </button>
         {% endblock %}
 
