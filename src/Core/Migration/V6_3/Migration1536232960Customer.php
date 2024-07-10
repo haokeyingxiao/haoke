@@ -77,6 +77,9 @@ class Migration1536232960Customer extends MigrationStep
 SQL;
 
         $connection->executeStatement($sql);
+        $connection->executeStatement('ALTER TABLE `media` ADD `customer_id` BINARY(16) NULL;');
+        $connection->executeStatement('CREATE INDEX `fk.media.customer_id` ON media (customer_id)');
+        $connection->executeStatement('ALTER TABLE `media` ADD CONSTRAINT `fk.media.customer_id` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`id`) ON DELETE SET NULL ON UPDATE CASCADE;');
     }
 
     public function updateDestructive(Connection $connection): void
