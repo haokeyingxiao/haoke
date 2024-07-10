@@ -10,6 +10,7 @@ use Shopware\Core\Checkout\Customer\Aggregate\CustomerWishlist\CustomerWishlistC
 use Shopware\Core\Checkout\Order\Aggregate\OrderCustomer\OrderCustomerCollection;
 use Shopware\Core\Checkout\Payment\PaymentMethodEntity;
 use Shopware\Core\Checkout\Promotion\PromotionCollection;
+use Shopware\Core\Content\Media\MediaEntity;
 use Shopware\Core\Content\Product\Aggregate\ProductReview\ProductReviewCollection;
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityCustomFieldsTrait;
@@ -186,6 +187,10 @@ class CustomerEntity extends Entity implements \Stringable
     protected ?string $updatedById = null;
 
     protected ?UserEntity $updatedBy = null;
+
+    protected ?string $avatarId = null;
+
+    protected ?MediaEntity $avatarMedia = null;
 
     public function __toString(): string
     {
@@ -447,9 +452,9 @@ class CustomerEntity extends Entity implements \Stringable
     }
 
     /**
-     * @internal
-     *
      * @return array<string>|null
+     *
+     * @internal
      */
     public function getNewsletterSalesChannelIds(): ?array
     {
@@ -459,9 +464,9 @@ class CustomerEntity extends Entity implements \Stringable
     }
 
     /**
-     * @internal
-     *
      * @param array<string>|null $newsletterSalesChannelIds
+     *
+     * @internal
      */
     public function setNewsletterSalesChannelIds(?array $newsletterSalesChannelIds): void
     {
@@ -889,5 +894,25 @@ class CustomerEntity extends Entity implements \Stringable
     public function setUpdatedBy(UserEntity $updatedBy): void
     {
         $this->updatedBy = $updatedBy;
+    }
+
+    public function getAvatarId(): ?string
+    {
+        return $this->avatarId;
+    }
+
+    public function setAvatarId(?string $avatarId): void
+    {
+        $this->avatarId = $avatarId;
+    }
+
+    public function getAvatarMedia(): ?MediaEntity
+    {
+        return $this->avatarMedia;
+    }
+
+    public function setAvatarMedia(?MediaEntity $avatarMedia): void
+    {
+        $this->avatarMedia = $avatarMedia;
     }
 }

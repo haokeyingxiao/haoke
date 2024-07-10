@@ -37,6 +37,7 @@ class Migration1536232960Customer extends MigrationStep
               `first_name` VARCHAR(255) COLLATE utf8mb4_unicode_ci NOT NULL,
               `last_name` VARCHAR(255) COLLATE utf8mb4_unicode_ci NOT NULL,
               `company`     VARCHAR(255) COLLATE utf8mb4_unicode_ci NULL,
+              `avatar_id`       BINARY(16)                              NULL,
               `password` VARCHAR(1024) COLLATE utf8mb4_unicode_ci NULL,
               `legacy_password` VARCHAR(255) COLLATE utf8mb4_unicode_ci NULL,
               `legacy_encoder` VARCHAR(255) COLLATE utf8mb4_unicode_ci NULL,
@@ -69,7 +70,9 @@ class Migration1536232960Customer extends MigrationStep
               CONSTRAINT `fk.customer.sales_channel_id` FOREIGN KEY (`sales_channel_id`)
                 REFERENCES `sales_channel` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE,
               CONSTRAINT `fk.customer.salutation_id` FOREIGN KEY (`salutation_id`)
-                REFERENCES `salutation` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE
+                REFERENCES `salutation` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+              CONSTRAINT `fk.customer.avatar_id` FOREIGN KEY (avatar_id)
+                REFERENCES `media` (id) ON DELETE SET NULL
             ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 SQL;
 
