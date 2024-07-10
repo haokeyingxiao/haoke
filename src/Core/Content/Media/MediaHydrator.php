@@ -66,6 +66,7 @@ class MediaHydrator extends EntityHydrator
             $entity->updatedAt = new \DateTimeImmutable($row[$root . '.updatedAt']);
         }
         $entity->user = $this->manyToOne($row, $root, $definition->getField('user'), $context);
+        $entity->customer = $this->manyToOne($row, $root, $definition->getField('customer'), $context);
         $entity->mediaFolder = $this->manyToOne($row, $root, $definition->getField('mediaFolder'), $context);
 
         $this->translate($definition, $entity, $row, $root, $context, $definition->getTranslatedFields());
