@@ -2,6 +2,8 @@
 
 namespace Shopware\Core\Content\Media;
 
+use Shopware\Core\Checkout\Customer\CustomerCollection;
+use Shopware\Core\Checkout\Customer\CustomerEntity;
 use Shopware\Core\Checkout\Document\Aggregate\DocumentBaseConfig\DocumentBaseConfigCollection;
 use Shopware\Core\Checkout\Document\DocumentCollection;
 use Shopware\Core\Checkout\Order\Aggregate\OrderLineItem\OrderLineItemCollection;
@@ -46,6 +48,11 @@ class MediaEntity extends Entity
      * @var string|null
      */
     protected $userId;
+
+    /**
+     * @var string|null
+     */
+    protected $customerId;
 
     /**
      * @var string|null
@@ -115,6 +122,11 @@ class MediaEntity extends Entity
     protected $user;
 
     /**
+     * @var CustomerEntity|null
+     */
+    protected $customer;
+
+    /**
      * @var MediaTranslationCollection|null
      */
     protected $translations;
@@ -138,6 +150,11 @@ class MediaEntity extends Entity
      * @var UserCollection|null
      */
     protected $avatarUsers;
+
+    /**
+     * @var CustomerCollection|null
+     */
+    protected $avatarCustomers;
 
     /**
      * @var MediaThumbnailCollection|null
@@ -760,5 +777,35 @@ class MediaEntity extends Entity
     public function isSpatialObject(): bool
     {
         return $this->mediaType instanceof SpatialObjectType;
+    }
+
+    public function getCustomerId(): ?string
+    {
+        return $this->customerId;
+    }
+
+    public function setCustomerId(?string $customerId): void
+    {
+        $this->customerId = $customerId;
+    }
+
+    public function getCustomer(): ?CustomerEntity
+    {
+        return $this->customer;
+    }
+
+    public function setCustomer(?CustomerEntity $customer): void
+    {
+        $this->customer = $customer;
+    }
+
+    public function getAvatarCustomers(): ?CustomerCollection
+    {
+        return $this->avatarCustomers;
+    }
+
+    public function setAvatarCustomers(?CustomerCollection $avatarCustomers): void
+    {
+        $this->avatarCustomers = $avatarCustomers;
     }
 }

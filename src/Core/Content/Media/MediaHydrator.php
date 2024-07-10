@@ -20,6 +20,9 @@ class MediaHydrator extends EntityHydrator
         if (isset($row[$root . '.userId'])) {
             $entity->userId = Uuid::fromBytesToHex($row[$root . '.userId']);
         }
+        if (isset($row[$root . '.customerId'])) {
+            $entity->userId = Uuid::fromBytesToHex($row[$root . '.customerId']);
+        }
         if (isset($row[$root . '.mediaFolderId'])) {
             $entity->mediaFolderId = Uuid::fromBytesToHex($row[$root . '.mediaFolderId']);
         }

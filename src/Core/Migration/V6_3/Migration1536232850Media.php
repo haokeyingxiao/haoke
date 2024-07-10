@@ -25,6 +25,7 @@ class Migration1536232850Media extends MigrationStep
             CREATE TABLE `media` (
               `id`              BINARY(16)                                  NOT NULL,
               `user_id`         BINARY(16)                                  NULL,
+              `customer_id`     BINARY(16)                                  NULL,
               `media_folder_id` BINARY(16)                                  NULL,
               `mime_type`       VARCHAR(255)    COLLATE utf8mb4_unicode_ci  NULL,
               `file_extension`  VARCHAR(50)     COLLATE utf8mb4_unicode_ci  NULL,
@@ -38,9 +39,12 @@ class Migration1536232850Media extends MigrationStep
               `created_at`      DATETIME(3)                                 NOT NULL,
               `updated_at`      DATETIME(3)                                 NULL,
                PRIMARY KEY (`id`),
+               KEY `fk.media.customer_id` (`customer_id`),
                CONSTRAINT `json.media.meta_data` CHECK (JSON_VALID(`meta_data`)),
                CONSTRAINT `fk.media.user_id` FOREIGN KEY (`user_id`)
                  REFERENCES `user` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+               CONSTRAINT `fk.media.customer_id` FOREIGN KEY (`customer_id`)
+                 REFERENCES `customer` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
                CONSTRAINT `fk.media.media_folder_id` FOREIGN KEY (`media_folder_id`)
                  REFERENCES `media_folder` (`id`) ON DELETE SET NULL
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
