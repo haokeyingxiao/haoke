@@ -91,7 +91,7 @@ class MediaDefinition extends EntityDefinition
         $fields = new FieldCollection([
             (new IdField('id', 'id'))->addFlags(new ApiAware(), new PrimaryKey(), new Required()),
             new FkField('user_id', 'userId', UserDefinition::class),
-            new FkField('customer', 'customerId', CustomerDefinition::class),
+            new FkField('customer_id', 'customerId', CustomerDefinition::class),
 
             new FkField('media_folder_id', 'mediaFolderId', MediaFolderDefinition::class),
             (new StringField('mime_type', 'mimeType'))->addFlags(new ApiAware(), new WriteProtected(Context::SYSTEM_SCOPE), new SearchRanking(SearchRanking::LOW_SEARCH_RANKING)),
