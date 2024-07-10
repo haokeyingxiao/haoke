@@ -10,6 +10,7 @@ use Shopware\Core\Checkout\Customer\Aggregate\CustomerWishlist\CustomerWishlistC
 use Shopware\Core\Checkout\Order\Aggregate\OrderCustomer\OrderCustomerCollection;
 use Shopware\Core\Checkout\Payment\PaymentMethodEntity;
 use Shopware\Core\Checkout\Promotion\PromotionCollection;
+use Shopware\Core\Content\Media\MediaCollection;
 use Shopware\Core\Content\Media\MediaEntity;
 use Shopware\Core\Content\Product\Aggregate\ProductReview\ProductReviewCollection;
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
@@ -191,6 +192,11 @@ class CustomerEntity extends Entity implements \Stringable
     protected ?string $avatarId = null;
 
     protected ?MediaEntity $avatarMedia = null;
+
+    /**
+     * @var MediaCollection|null
+     */
+    protected $media;
 
     public function __toString(): string
     {
@@ -914,5 +920,15 @@ class CustomerEntity extends Entity implements \Stringable
     public function setAvatarMedia(?MediaEntity $avatarMedia): void
     {
         $this->avatarMedia = $avatarMedia;
+    }
+
+    public function getMedia(): ?MediaCollection
+    {
+        return $this->media;
+    }
+
+    public function setMedia(MediaCollection $media): void
+    {
+        $this->media = $media;
     }
 }

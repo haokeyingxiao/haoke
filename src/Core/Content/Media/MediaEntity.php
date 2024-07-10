@@ -804,7 +804,7 @@ class MediaEntity extends Entity
         return $this->avatarCustomers;
     }
 
-    public function setAvatarCustomers(?CustomerCollection $avatarCustomers): void
+    public function setAvatarCustomers(CustomerCollection $avatarCustomers): void
     {
         $this->avatarCustomers = $avatarCustomers;
     }
