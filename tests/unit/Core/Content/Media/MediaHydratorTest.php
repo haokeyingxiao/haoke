@@ -4,6 +4,7 @@ namespace Shopware\Tests\Unit\Core\Content\Media;
 
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
+use Shopware\Core\Checkout\Customer\CustomerDefinition;
 use Shopware\Core\Content\Media\Aggregate\MediaFolder\MediaFolderDefinition;
 use Shopware\Core\Content\Media\Aggregate\MediaTranslation\MediaTranslationDefinition;
 use Shopware\Core\Content\Media\MediaDefinition;
@@ -38,6 +39,7 @@ class MediaHydratorTest extends TestCase
             [
                 MediaDefinition::class,
                 UserDefinition::class,
+                CustomerDefinition::class,
                 MediaFolderDefinition::class,
                 MediaTranslationDefinition::class,
             ],
@@ -54,6 +56,7 @@ class MediaHydratorTest extends TestCase
 
         $id = Uuid::randomBytes();
         $userId = Uuid::randomBytes();
+        $customerId = Uuid::randomBytes();
         $mediaFolderId = Uuid::randomBytes();
         $date = new \DateTime();
 
@@ -61,6 +64,7 @@ class MediaHydratorTest extends TestCase
             [
                 'test.id' => $id,
                 'test.userId' => $userId,
+                'test.customerId' => $customerId,
                 'test.mediaFolderId' => $mediaFolderId,
                 'test.mimeType' => 'image/jpeg',
                 'test.fileExtension' => 'jpg',

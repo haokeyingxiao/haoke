@@ -24,6 +24,19 @@ class MediaCollection extends EntityCollection
         return $this->filter(fn (MediaEntity $media) => $media->getUserId() === $id);
     }
 
+    /**
+     * @return array<array-key, string>
+     */
+    public function getCustomerIds(): array
+    {
+        return $this->fmap(fn (MediaEntity $media) => $media->getCustomerId());
+    }
+
+    public function filterByCustomerId(string $id): self
+    {
+        return $this->filter(fn (MediaEntity $media) => $media->getCustomerId() === $id);
+    }
+
     public function getApiAlias(): string
     {
         return 'media_collection';
