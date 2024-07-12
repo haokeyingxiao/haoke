@@ -30,6 +30,7 @@
       }
     },
     "card": {
+      "buttonImitateCustomer": "以客户身份登录",
       "placeholderTitle": "标题",
       "placeholderFirstName": "名",
       "placeholderLastName": "姓",
@@ -190,6 +191,13 @@
       "emptySubline": "在这里管理客户的订单",
       "buttonCreateOrder": "添加订单"
     },
+    "imitateCustomerModal": {
+      "modalTitle": "以 {firstname} {lastname} 的身份登录",
+      "modalDescription": "选择您想以 {firstname} {lastname} 的身份登录的销售渠道。",
+      "modalInfo": "完成工作后请记得{logout}。",
+      "modalInfoLogout": "登出",
+      "labelCancel": "关闭"
+    },
     "addressForm": {
       "labelCompany": "公司",
       "labelDepartment": "部门",
@@ -232,6 +240,7 @@
       "messageSaveError": "无法保存客户。",
       "messageSaveSuccess": "客户 \"{name}\" 已保存。",
       "notificationPasswordErrorMessage": "提交的密码不匹配。",
+      "notificationImitateCustomerErrorMessage": "以客户身份登录时出错。请确保允许打开弹出窗口。",
       "labelCreatedByAdmin": "管理员创建"
     },
     "filter": {

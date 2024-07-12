@@ -223,6 +223,7 @@
         "api_info_ping": "刷新身份验证令牌",
         "system:clear:cache": "清除缓存",
         "api_proxy_switch-customer": "代表客户操作",
+        "api_proxy_imitate-customer": "模拟客户登录",
         "api_feature_flag_toggle": "切换功能标志"
       },
       "app": {
