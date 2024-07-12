@@ -149,7 +149,6 @@ class Migration1570459127AddCmsSidebarLayout extends MigrationStep
             'cms_page_id' => $page['id'],
             'position' => 1,
             'type' => 'sidebar',
-            'sizing_mode' => 'full_width',
             'created_at' => (new \DateTime())->format(Defaults::STORAGE_DATE_TIME_FORMAT),
         ];
 
@@ -181,10 +180,7 @@ class Migration1570459127AddCmsSidebarLayout extends MigrationStep
                 'position' => 1,
                 'type' => 'category-navigation',
                 'name' => 'Sidebar navigation',
-                'margin_bottom' => '20px',
-                'margin_right' => '20px',
-                'margin_left' => '20px',
-                'margin_top' => '20px',
+                'margin_bottom' => '30px',
                 'background_media_mode' => 'cover',
             ],
             [
@@ -196,8 +192,6 @@ class Migration1570459127AddCmsSidebarLayout extends MigrationStep
                 'position' => 2,
                 'type' => 'sidebar-filter',
                 'name' => 'Sidebar filter',
-                'margin_right' => '20px',
-                'margin_left' => '20px',
                 'background_media_mode' => 'cover',
             ],
             [
