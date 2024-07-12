@@ -1190,6 +1190,7 @@
       "labelLink": "链接",
       "labelProduct": "产品",
       "labelCategory":"类别",
+      "labelMedia": "文件",
       "labelEmail": "电子邮件地址",
       "labelPhoneNumber": "电话号码",
       "placeholderPhoneNumber": "输入电话号码...",
