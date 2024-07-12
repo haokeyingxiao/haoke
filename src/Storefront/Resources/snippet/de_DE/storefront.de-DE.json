@@ -658,7 +658,7 @@
     "newsletter": "Abonnieren Sie jetzt unseren regelmäßig erscheinenden Newsletter, um rechtzeitig über neue Produkte und Angebote informiert zu werden.",
     "includeVatText": "* Alle Preise inkl. gesetzl. Mehrwertsteuer zzgl. <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">Versandkosten</a> und ggf. Nachnahmegebühren, wenn nicht anders angegeben.",
     "excludeVatText": "* Alle Preise exkl. gesetzl. Mehrwertsteuer zzgl. <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">Versandkosten</a> und ggf. Nachnahmegebühren, wenn nicht anders angegeben.",
-    "copyrightInfo": "Realisiert mit Haoke"
+    "copyrightInfo": "Copyright © Haoke AG - All rights reserved"
   },
   "captcha": {
     "googleReCaptcha": {

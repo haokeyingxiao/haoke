@@ -145,6 +145,7 @@ $sw-login-error-animation-duration: 0.15s;
         display: flex;
         flex-direction: row;
         overflow: hidden;
+        height: 600px;
         background-color: lighten($sw-login-color-background, 10%);
         background-image: url("../img/sw-login-background.png");
         background-position: center center;
@@ -164,7 +165,7 @@ $sw-login-error-animation-duration: 0.15s;
         padding-bottom: 10px;
         align-self: flex-end;
         white-space: nowrap;
-        color: $color-white;
+        color: $color-shopware-brand-500;
         transition: opacity $sw-login-media-query-animation-duration ease-in-out;
         opacity: 1;
 
