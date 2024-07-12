@@ -13,6 +13,8 @@ const { Component } = Shopware;
 Component.register('sw-admin', {
     template,
 
+    compatConfig: Shopware.compatConfig,
+
     inject: ['userActivityService', 'loginService', 'feature'],
 
     metaInfo() {
@@ -67,7 +69,7 @@ Component.register('sw-admin', {
         };
     },
 
-    beforeDestroy() {
+    beforeUnmount() {
         this.channel?.close();
     },
 
