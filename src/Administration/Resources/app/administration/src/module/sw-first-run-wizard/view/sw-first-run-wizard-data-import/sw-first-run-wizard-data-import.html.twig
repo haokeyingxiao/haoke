@@ -3,7 +3,7 @@
 <div class="sw-first-run-wizard-data-import">
     <sw-container
         v-if="!isInstallingPlugin"
-        columns="1fr 1fr"
+        columns="1fr"
         gap="24px 0"
     >
         <div class="sw-first-run-wizard-data-import__card">
@@ -46,45 +46,6 @@
             </div>
         </div>
 
-        <div class="sw-first-run-wizard-data-import__card">
-            <img
-                class="sw-first-run-wizard-data-import__icon-migration"
-                :src="assetFilter('/administration/static/img/first-run-wizard/plugin-migration-assistant.svg')"
-                alt=""
-            >
-            <h5 class="sw-first-run-wizard-import-data__headline">
-                {{ $tc('sw-first-run-wizard.dataImport.headlineMigration') }}
-            </h5>
-            <p
-                class="sw-first-run-wizard-data-import__message"
-                v-html="$tc('sw-first-run-wizard.dataImport.messageMigration')"
-            ></p>
-
-            <sw-button-process
-                v-if="notInstalled('migration')"
-                variant="primary"
-                size="small"
-                :is-loading="isInstallingPlugin"
-                :disabled="isInstallingPlugin"
-                :process-success="pluginInstalledSuccessfully.migration"
-                class="button-plugin-install"
-                @click="onInstall('migration')"
-            >
-                {{ $tc('sw-first-run-wizard.dataImport.buttonInstallMigration') }}
-            </sw-button-process>
-            <div
-                v-else
-                class="plugin-status"
-            >
-                <span class="plugin-installed">
-                    <sw-icon
-                        name="regular-check-circle-s"
-                        size="16"
-                    />
-                    {{ $tc('sw-first-run-wizard.general.pluginInstalled') }}
-                </span>
-            </div>
-        </div>
     </sw-container>
 
     <div
