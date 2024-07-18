@@ -463,7 +463,17 @@
         "columnCustomerName": "名称",
         "columnCustomerNumber": "客户编号",
         "columnSalesChannel": "销售渠道",
-        "columnEmailAddress": "电子邮件地址"
+        "columnEmailAddress": "电子邮件地址",
+        "titleSelectSalesChannel": "选择销售渠道",
+        "descriptionSelectSalesChannel": "所选客户有多个销售渠道的权限，请选择您希望用于此订单的销售渠道。",
+        "alertSelectSalesChannel": "由于所选销售渠道决定了可用的产品和选项，改变它将会移除产品并重置选项。",
+        "labelSalesChannel": "使用销售渠道",
+        "placeholderSalesChannel": "选择一个销售渠道...",
+        "buttonSelectSalesChannel": "选择",
+        "labelAllChannel": "所有渠道",
+        "titleCustomerChanges": "更改客户",
+        "descriptionCustomerChanges": "您确定要更改此订单的客户吗？此客户有不同的销售渠道，这将移除产品并重置选项。",
+        "buttonChangeCustomer": "更改客户"
       },
       "options": {
         "textHeadlineOrder": "订单",
@@ -473,6 +483,9 @@
         "labelSameAsBillingAddress": "送货地址与账单地址相同",
         "textSameAsBillingAddress": "与账单地址相同",
         "labelShippingCosts": "运费"
+      },
+      "tooltip": {
+        "customerUnavailable": "此客户只能使用一个销售渠道。该销售渠道当前处于非活跃状态或已不存在。"
       }
     },
     "filters": {

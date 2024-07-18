@@ -637,9 +637,7 @@
     "additional_privileges": {
       "title": "附加权限",
       "entities": {
-        "api_feature_flag_toggle": "API 功能标志切换",
-        "api_service_toggle": "服务切换 API",
-        "api_service_list": "服务列表 API"
+        "api_feature_flag_toggle": "API 功能标志切换"
       }
     }
   },
