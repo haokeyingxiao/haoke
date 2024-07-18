@@ -126,7 +126,7 @@ class OrderRouteTest extends TestCase
                 ['CONTENT_TYPE' => 'application/json'],
                 \json_encode([
                     'email' => $this->email,
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                 ], \JSON_THROW_ON_ERROR) ?: ''
             );
 

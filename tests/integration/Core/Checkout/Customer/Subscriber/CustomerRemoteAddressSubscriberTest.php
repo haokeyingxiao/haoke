@@ -55,7 +55,7 @@ class CustomerRemoteAddressSubscriberTest extends TestCase
 
         $this->browser->request('POST', '/store-api/account/login', [
             'username' => $email,
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
         ]);
 
         $response = $this->browser->getResponse();

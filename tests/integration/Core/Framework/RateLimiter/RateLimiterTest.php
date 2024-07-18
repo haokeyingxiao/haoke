@@ -136,12 +136,12 @@ class RateLimiterTest extends TestCase
 
         $this->getContainer()->get('request_stack')->push(new Request([
             'email' => 'loginTest@example.com',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
         ]));
 
         $route->login(new RequestDataBag([
             'email' => 'loginTest@example.com',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
         ]), $this->salesChannelContextFactory->create(Uuid::randomHex(), TestDefaults::SALES_CHANNEL));
     }
 

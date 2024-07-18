@@ -59,7 +59,7 @@ class ChangePaymentMethodRouteTest extends TestCase
                 '/store-api/account/login',
                 [
                     'email' => $email,
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                 ]
             );
 

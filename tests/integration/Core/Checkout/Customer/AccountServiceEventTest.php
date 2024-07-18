@@ -75,7 +75,7 @@ class AccountServiceEventTest extends TestCase
         $dataBag = new DataBag();
         $dataBag->add([
             'username' => '',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
         ]);
 
         try {
@@ -116,7 +116,7 @@ class AccountServiceEventTest extends TestCase
             $dataBag = new DataBag();
             $dataBag->add([
                 'username' => 'info@example.com',
-                'password' => 'shopware',
+                'password' => 'haokeyingxiao.com',
             ]);
 
             $this->loginRoute->login($dataBag->toRequestDataBag(), $this->salesChannelContext);

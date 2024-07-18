@@ -68,7 +68,7 @@ class UpsertAddressRouteTest extends TestCase
                 ['CONTENT_TYPE' => 'application/json'],
                 \json_encode([
                     'email' => $email,
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                 ], \JSON_THROW_ON_ERROR)
             );
 

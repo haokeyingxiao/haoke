@@ -104,7 +104,7 @@ class LoginRouteTest extends TestCase
                 '/store-api/account/login',
                 [
                     'email' => $email,
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                 ]
             );
 
@@ -125,7 +125,7 @@ class LoginRouteTest extends TestCase
                 '/store-api/account/login',
                 [
                     'email' => $email,
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                 ],
             );
 
@@ -152,7 +152,7 @@ class LoginRouteTest extends TestCase
                 '/store-api/account/login',
                 [
                     'email' => $email,
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                 ]
             );
 
@@ -179,7 +179,7 @@ class LoginRouteTest extends TestCase
 
         $loginRoute = $this->getContainer()->get(LoginRoute::class);
 
-        $requestDataBag = new RequestDataBag(['email' => $email, 'password' => 'shopware']);
+        $requestDataBag = new RequestDataBag(['email' => $email, 'password' => 'haokeyingxiao.com']);
 
         $success = $loginRoute->login($requestDataBag, $salesChannelContext);
         static::assertInstanceOf(ContextTokenResponse::class, $success);
@@ -198,7 +198,7 @@ class LoginRouteTest extends TestCase
 
         $loginRoute = $this->getContainer()->get(LoginRoute::class);
 
-        $request = new RequestDataBag(['email' => $email, 'password' => 'shopware']);
+        $request = new RequestDataBag(['email' => $email, 'password' => 'haokeyingxiao.com']);
 
         $response = $loginRoute->login($request, $salesChannelContext);
 
@@ -259,7 +259,7 @@ class LoginRouteTest extends TestCase
 
         $loginRoute = $this->getContainer()->get(LoginRoute::class);
 
-        $request = new RequestDataBag(['email' => $email, 'password' => 'shopware']);
+        $request = new RequestDataBag(['email' => $email, 'password' => 'haokeyingxiao.com']);
 
         $responseSalesChannel1 = $loginRoute->login($request, $salesChannelContext1);
 

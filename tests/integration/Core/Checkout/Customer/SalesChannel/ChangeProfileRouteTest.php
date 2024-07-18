@@ -67,7 +67,7 @@ class ChangeProfileRouteTest extends TestCase
                 '/store-api/account/login',
                 [
                     'email' => $email,
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                 ]
             );
 

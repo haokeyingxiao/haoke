@@ -55,7 +55,7 @@ class AppLocaleProviderTest extends TestCase
             'firstName' => 'first',
             'lastName' => 'last',
             'email' => 'first@last.de',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'locale' => [
                 'code' => $userLocale,
                 'name' => 'testLocale',

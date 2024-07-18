@@ -350,7 +350,7 @@ class WishlistControllerTest extends TestCase
             EnvironmentHelper::getVariable('APP_URL') . '/account/login',
             $this->tokenize('frontend.account.login', [
                 'username' => $customer->getEmail(),
-                'password' => 'shopware',
+                'password' => 'haokeyingxiao.com',
             ])
         );
         $response = $browser->getResponse();

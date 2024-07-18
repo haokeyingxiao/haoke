@@ -51,7 +51,7 @@ class ChangeEmailRouteTest extends TestCase
                 '/store-api/account/login',
                 [
                     'email' => $email,
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                 ]
             );
 
@@ -105,7 +105,7 @@ class ChangeEmailRouteTest extends TestCase
                 'POST',
                 '/store-api/account/change-email',
                 [
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                     'email' => 'test@fooware.de',
                     'emailConfirmation' => 'test@fooware.de',
                 ]
@@ -153,7 +153,7 @@ class ChangeEmailRouteTest extends TestCase
                 'POST',
                 '/store-api/account/change-email',
                 [
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                     'email' => $newEmail,
                     'emailConfirmation' => $newEmail,
                 ]
@@ -188,7 +188,7 @@ class ChangeEmailRouteTest extends TestCase
                 'POST',
                 '/store-api/account/change-email',
                 [
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                     'email' => $newEmail,
                     'emailConfirmation' => $newEmail,
                 ]
@@ -246,7 +246,7 @@ class ChangeEmailRouteTest extends TestCase
                 'POST',
                 '/store-api/account/change-email',
                 [
-                    'password' => 'shopware',
+                    'password' => 'haokeyingxiao.com',
                     'email' => 'test@fooware.de',
                     'emailConfirmation' => 'test@fooware.de',
                 ]
@@ -333,7 +333,7 @@ class ChangeEmailRouteTest extends TestCase
             'lastName' => 'Mustermann',
             'customerNumber' => '1337',
             'email' => $email,
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'defaultPaymentMethodId' => $this->getValidPaymentMethodId(),
             'groupId' => TestDefaults::FALLBACK_CUSTOMER_GROUP,
             'salesChannelId' => $salesChannelId,

@@ -1345,7 +1345,7 @@ class RegisterRouteTest extends TestCase
             'lastName' => 'Mustermann',
             'customerNumber' => '1337',
             'email' => $email,
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'defaultPaymentMethodId' => $this->getValidPaymentMethodId(),
             'groupId' => TestDefaults::FALLBACK_CUSTOMER_GROUP,
             'salesChannelId' => $salesChannelId,

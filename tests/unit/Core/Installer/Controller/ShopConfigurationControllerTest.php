@@ -185,7 +185,7 @@ class ShopConfigurationControllerTest extends TestCase
             'username' => 'admin',
             'firstName' => 'first',
             'lastName' => 'last',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'locale' => 'de-DE',
         ];
         $this->adminConfigService->expects(static::once())->method('createAdmin')->with($expectedAdmin, $this->connection);

@@ -409,7 +409,7 @@ class AccountOrderControllerTest extends TestCase
             $_SERVER['APP_URL'] . '/account/login',
             $this->tokenize('frontend.account.login', [
                 'username' => $email,
-                'password' => 'shopware',
+                'password' => 'haokeyingxiao.com',
             ])
         );
         $response = $browser->getResponse();

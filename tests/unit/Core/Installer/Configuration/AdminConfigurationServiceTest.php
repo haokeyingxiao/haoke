@@ -45,7 +45,7 @@ class AdminConfigurationServiceTest extends TestCase
 
         $user = [
             'username' => 'admin',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'firstName' => 'first',
             'lastName' => 'last',
             'email' => 'test@test.com',
