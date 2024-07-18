@@ -173,7 +173,7 @@ trait AdminApiTestBehaviour
             'grant_type' => 'password',
             'client_id' => 'administration',
             'username' => $username,
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
         ];
 
         if (!empty($scopes)) {
@@ -243,7 +243,7 @@ trait AdminApiTestBehaviour
         $authPayload = [
             'grant_type' => 'client_credentials',
             'client_id' => $accessKey,
-            'client_secret' => 'shopware',
+            'client_secret' => 'haokeyingxiao.com',
         ];
 
         $browser->request('POST', '/api/oauth/token', $authPayload, [], [], json_encode($authPayload, \JSON_THROW_ON_ERROR));

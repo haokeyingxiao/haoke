@@ -59,7 +59,7 @@ class AuthControllerTest extends TestCase
         $authPayload = [
             'grant_type' => 'password',
             'client_id' => 'administration',
-            'username' => 'shopware',
+            'username' => 'haokeyingxiao.com',
             'password' => 'not_a_real_password',
         ];
 
@@ -172,7 +172,7 @@ class AuthControllerTest extends TestCase
             'grant_type' => 'password',
             'client_id' => 'administration',
             'username' => 'admin',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'scopes' => [],
         ];
 
@@ -237,7 +237,7 @@ class AuthControllerTest extends TestCase
             'grant_type' => 'password',
             'client_id' => 'administration',
             'username' => $username,
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
         ];
 
         $client->request('POST', '/api/oauth/token', $authPayload, [], [], json_encode($authPayload, \JSON_THROW_ON_ERROR));
@@ -311,7 +311,7 @@ class AuthControllerTest extends TestCase
             'grant_type' => 'password',
             'client_id' => 'administration',
             'username' => 'admin',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'scope' => [],
         ];
 
@@ -336,7 +336,7 @@ class AuthControllerTest extends TestCase
             'grant_type' => 'password',
             'client_id' => 'administration',
             'username' => 'admin',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'scope' => ['admin', 'write', 'admin', 'admin', 'write', 'write', 'admin'],
         ];
 
@@ -361,7 +361,7 @@ class AuthControllerTest extends TestCase
             'grant_type' => 'password',
             'client_id' => 'administration',
             'username' => 'admin',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'scope' => ['admin', 'write'],
         ];
 
@@ -398,7 +398,7 @@ class AuthControllerTest extends TestCase
             'grant_type' => 'password',
             'client_id' => 'administration',
             'username' => 'admin',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'scope' => ['admin', 'write', UserVerifiedScope::IDENTIFIER],
         ];
 
@@ -439,7 +439,7 @@ class AuthControllerTest extends TestCase
             'grant_type' => 'password',
             'client_id' => 'administration',
             'username' => 'admin',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'scope' => ['admin', 'write'],
         ];
 

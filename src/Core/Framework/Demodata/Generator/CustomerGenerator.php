@@ -91,7 +91,7 @@ class CustomerGenerator implements DemodataGeneratorInterface
             'firstName' => 'Max',
             'lastName' => 'Mustermann',
             'email' => 'test@example.com',
-            'password' => 'shopware',
+            'password' => 'haokeyingxiao.com',
             'defaultPaymentMethodId' => $this->getDefaultPaymentMethod(),
             'groupId' => TestDefaults::FALLBACK_CUSTOMER_GROUP,
             'salesChannelId' => $salesChannelIds[array_rand($salesChannelIds)],
@@ -177,7 +177,7 @@ class CustomerGenerator implements DemodataGeneratorInterface
                 'email' => $id . $context->getFaker()->format('safeEmail'),
                 // use dummy hashed password, so not need to compute the hash for every customer
                 // password is `shopware`
-                'password' => '$2y$10$XFRhv2TdOz9GItRt6ZgHl.e/HpO5Mfea6zDNXI9Q8BasBRtWbqSTS',
+                'password' => '$2y$10$g.p5R3utp8BaQl4S2xu07.gDCe90x7T2zY3vt.YuU9YPihH0TmUua',
                 'defaultPaymentMethodId' => $this->getDefaultPaymentMethod(),
                 'groupId' => $customerGroups[array_rand($customerGroups)],
                 'salesChannelId' => $salesChannelIds[array_rand($salesChannelIds)],

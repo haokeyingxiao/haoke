@@ -22,7 +22,7 @@ class TestUser
 
     public static function getAdmin(): TestUser
     {
-        return new TestUser('shopware', 'admin', Uuid::randomHex());
+        return new TestUser('haokeyingxiao.com', 'admin', Uuid::randomHex());
     }
 
     /**
@@ -70,7 +70,7 @@ class TestUser
             );
         }
 
-        return new TestUser('shopware', $username, Uuid::fromBytesToHex($userId));
+        return new TestUser('haokeyingxiao.com', $username, Uuid::fromBytesToHex($userId));
     }
 
     public function authorizeBrowser(KernelBrowser $browser): void
