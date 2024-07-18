@@ -25,9 +25,7 @@ export default Shopware.Component.wrapComponentConfig({
         welcomeMessage() {
             const greetingName = this.greetingName;
             const welcomeMessage = this.$tc(
-                this.cachedHeadlineGreetingKey,
-                1,
-                { greetingName },
+                this.cachedHeadlineGreetingKey
             );
 
             // in the headline we want to greet the user by his firstname
@@ -43,17 +41,6 @@ export default Shopware.Component.wrapComponentConfig({
 
         welcomeSubline() {
             return this.$tc(this.getGreetingTimeKey('daytimeWelcomeText'));
-        },
-
-        greetingName() {
-            const { currentUser } = Shopware.State.get('session');
-
-            // if currentUser?.firstName returns a loose falsy value
-            // like `""`, `0`, `false`, `null`, `undefined`
-            // we want to use `null` in the ongoing process chain,
-            // otherwise we would need to take care of `""` and `null`
-            // or `undefined` in tests and other places
-            return currentUser?.firstName || null;
         },
     },
 

@@ -53,15 +53,15 @@
     "helpcard": {
       "headline": "Mach Dich bereit, Deine Produkte zu verkaufen.",
       "helpcenter": "Haoke-Hilfe-Zentrum",
-      "helpcenterLink": "https://docs.haokeyingxiao.com/de/shopware-6-de",
+      "helpcenterLink": "https://haokeyingxiao.com",
       "takeOffTip": "Tipps für Deinen ersten Verkauf",
-      "takeOffTipLink": "https://www.haokeyingxiao.com/de/news/durchstarten-im-e-commerce-10-tipps-fuer-deine-ersten-verkaeufe/",
+      "takeOffTipLink": "https://haokeyingxiao.com",
       "getToKnowSales": "Lerne Verkaufskanäle kennen",
-      "getToKnowSalesLink": "https://www.youtube.com/watch?v=vFORvXev624"
+      "getToKnowSalesLink": "https://haokeyingxiao.com"
     },
     "feedbackCard": {
       "headline": "Der erste Eindruck zählt.",
-      "text": "Berichte uns von Deinen ersten Erfahrungen und hilf uns, Shopware besser zu machen.",
+      "text": "Berichte uns von Deinen ersten Erfahrungen und hilf uns, Haoke besser zu machen.",
       "feedback": "Feedback geben",
       "feedbackLink": "https://issues.haokeyingxiao.com"
     },

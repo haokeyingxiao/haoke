@@ -307,10 +307,6 @@ shopware.installer:
     requirements_status_error: 错误
     requirements_status_warning: 警告
     requirements_status_ready: 准备就绪
-    license_agreement_header: '通用条款和条件（“GTC”）'
-    license_agreement_info: '这些是我们的通用条款和条件。您必须阅读并接受 GTC 才能成功安装好客 6。社区版完全免费，并已在 MIT 许可证下发布。'
-    license_agreement_error: '请接受我们的 GTC。'
-    license_agreement_checkbox: '我同意通用条款和条件（GTC）'
     database-configuration_header: '配置数据库'
     database-configuration_field_host: '服务器：'
     database-configuration_advanced_settings: '高级设置'
@@ -319,7 +315,7 @@ shopware.installer:
     database-configuration_field_password: '密码：'
     database-configuration_field_database: '数据库名：'
     database-configuration_field_new_database: '新数据库：'
-    database-configuration_info: '为了在您的系统上安装好客，您需要数据库的访问凭证。如果您不确定在此处填写什么，请联系您的管理员/托管服务。'
+    database-configuration_info: '为了在您的系统上安装好客平台，您需要数据库的访问凭证。如果您不确定在此处填写什么，请联系您的管理员/托管服务。'
     database-configuration-create_new_database: '创建新数据库'
     database-configuration_non_empty_database: '所选数据库已包含数据。请选择一个空数据库或从头创建一个新数据库。'
     database-configuration_error_required_fields: '请填写所有空白处。'

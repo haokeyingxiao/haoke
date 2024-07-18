@@ -1,6 +1,6 @@
 @import "~scss/variables";
 
-$sw-login-color-background: #1c232c;
+$sw-login-color-background: $color-gray-300;
 $sw-login-container-color-background: $color-white;
 $sw-login-badge-color-background: $color-shopware-brand-500;
 $sw-login-back-color: $color-darkgray-200;
@@ -161,11 +161,11 @@ $sw-login-error-animation-duration: 0.15s;
     }
 
     .sw-login__image-headlines {
-        padding-left: 120px;
-        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-bottom: 115px;
         align-self: flex-end;
         white-space: nowrap;
-        color: $color-shopware-brand-500;
+        color: $color-white;
         transition: opacity $sw-login-media-query-animation-duration ease-in-out;
         opacity: 1;
 

@@ -5,24 +5,24 @@
       "descriptionTextModule": "管理界面的首页，显示统计和系统信息"
     },
     "introduction": {
-      "headlineUnkownUser": "欢迎使用 Shopware。",
+      "headlineUnkownUser": "欢迎使用好客平台。",
       "daytimeHeadline": {
         "5h": [
-          "早上好，{greetingName}。",
-          "你好，{greetingName}！"
+          "早上好",
+          "您好"
         ],
         "11h": [
-          "你好，{greetingName}。",
-          "您好，{greetingName}。",
-          "您好，{greetingName}！"
+          "您好",
+          "您好",
+          "您好"
         ],
         "18h": [
-          "晚上好，{greetingName}。",
-          "你好，{greetingName}！"
+          "晚上好",
+          "您好"
         ],
         "23h": [
-          "很高兴见到你，{greetingName}。",
-          "还没睡呢，{greetingName}？"
+          "很高兴见到你",
+          "还没睡呢？"
         ]
       },
       "daytimeWelcomeText": {
@@ -45,25 +45,25 @@
         ],
         "23h": [
           "在一切事物中寻找美丽来激励自己。",
-          "看，外面有人切换了暗模式。",
-          "几乎所有东西都可以重新工作，如果你拔掉它几分钟 - 这包括你。休息一下。"
+          "看，外面天黑了，像是有人把环境切换成了黑暗模式。",
+          "几乎所有东西在断电几分钟后都能重新工作，包括你自己，放松一下。"
         ]
       }
     },
     "helpcard": {
       "headline": "准备好销售你的产品。",
       "helpcenter": "好客平台帮助中心",
-      "helpcenterLink": "https://docs.haokeyingxiao.com/en/shopware-6-en",
+      "helpcenterLink": "https://haokeyingxiao.com",
       "takeOffTip": "了解如何完成第一次销售",
-      "takeOffTipLink": "https://www.haokeyingxiao.com/en/news/take-off-in-ecommerce-10-tips-for-your-initial-sales/",
+      "takeOffTipLink": "https://haokeyingxiao.com",
       "getToKnowSales": "了解销售渠道",
-      "getToKnowSalesLink": "https://www.youtube.com/watch?v=RsEeersOgIo"
+      "getToKnowSalesLink": "https://haokeyingxiao.com"
     },
     "feedbackCard": {
       "headline": "第一印象很重要。",
       "text": "分享你的第一印象，帮助我们改进 Shopware 的整体体验。",
       "feedback": "提供反馈",
-      "feedbackLink": "https://issues.haokeyingxiao.com"
+      "feedbackLink": "https://haokeyingxiao.com"
     },
     "todayStats": {
       "headline": "今天的统计数据",

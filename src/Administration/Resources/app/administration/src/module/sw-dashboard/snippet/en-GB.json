@@ -53,17 +53,17 @@
     "helpcard": {
       "headline": "Get ready to sell your products.",
       "helpcenter": "Haoke Help Center",
-      "helpcenterLink": "https://docs.haokeyingxiao.com/en/shopware-6-en",
+      "helpcenterLink": "https://haokeyingxiao.com",
       "takeOffTip": "Learn how to make your first sale",
-      "takeOffTipLink": "https://www.haokeyingxiao.com/en/news/take-off-in-ecommerce-10-tips-for-your-initial-sales/",
+      "takeOffTipLink": "https://haokeyingxiao.com",
       "getToKnowSales": "Get to know Sales Channels",
-      "getToKnowSalesLink": "https://www.youtube.com/watch?v=RsEeersOgIo"
+      "getToKnowSalesLink": "https://haokeyingxiao.com"
     },
     "feedbackCard": {
       "headline": "First impressions count.",
-      "text": "Share your first impressions and help us improve the overall Shopware experience.",
+      "text": "Share your first impressions and help us improve the overall Haoke experience.",
       "feedback": "Give feedback",
-      "feedbackLink": "https://issues.haokeyingxiao.com"
+      "feedbackLink": "https://haokeyingxiao.com"
     },
     "todayStats": {
       "headline": "Today's statistics",

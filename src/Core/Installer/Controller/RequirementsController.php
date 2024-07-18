@@ -45,7 +45,7 @@ class RequirementsController extends InstallerController
                 $this->jwtDir . '/public.pem'
             );
 
-            return $this->redirectToRoute('installer.license');
+            return $this->redirectToRoute('installer.database-configuration');
         }
 
         return $this->renderInstaller('@Installer/installer/requirements.html.twig', ['requirementChecks' => $checks]);

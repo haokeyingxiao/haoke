@@ -307,10 +307,6 @@ shopware.installer:
     requirements_status_error: Fehler
     requirements_status_warning: Warnung
     requirements_status_ready: Bereit
-    license_agreement_header: 'Allgemeine Geschäftsbedingungen („AGB“)'
-    license_agreement_info: 'Hier findest Du unsere Allgemeinen Geschäftsbedingungen. Um die Installation von Haoke 6 fortzusetzen, musst Du die AGB zunächst lesen und dann akzeptieren. Die Community Edition von Haoke 6 ist nach den Bedingungen der MIT-Lizenz freigegeben.'
-    license_agreement_error: 'Bitte stimme unseren AGB zu!'
-    license_agreement_checkbox: 'Ich stimme den AGB zu!'
     database-configuration_header: 'Datenbank konfigurieren'
     database-configuration_field_host: 'Server:'
     database-configuration_advanced_settings: 'Erweiterte Einstellungen'

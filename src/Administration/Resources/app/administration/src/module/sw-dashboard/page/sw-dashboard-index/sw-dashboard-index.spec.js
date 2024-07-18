@@ -79,19 +79,6 @@ describe('module/sw-dashboard/page/sw-dashboard-index', () => {
         expect(wrapper.find('.sw-dashboard-index__welcome-title').text()).toStrictEqual(snippetPathGreeting);
     });
 
-    it('should display users firstName', async () => {
-        const firstName = 'John';
-        wrapper = await createWrapper();
-        await flushPromises();
-
-        Shopware.State.commit('setCurrentUser', {
-            firstName: firstName,
-        });
-        await flushPromises();
-
-        expect(wrapper.find('.sw-dashboard-index__welcome-title').text()).toBe(`${snippetPathGreeting}, ${firstName}`);
-    });
-
     it('shall not print a personal message if username but not firstName is set', async () => {
         wrapper = await createWrapper();
         await flushPromises();

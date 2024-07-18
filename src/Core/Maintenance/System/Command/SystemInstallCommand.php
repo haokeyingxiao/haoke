@@ -130,7 +130,7 @@ class SystemInstallCommand extends Command
                 'command' => 'user:create',
                 'username' => 'admin',
                 '--admin' => true,
-                '--password' => 'shopware',
+                '--password' => 'haokeyingxiao.com',
             ];
 
             if ($application->has('sales-channel:create:storefront')) {
