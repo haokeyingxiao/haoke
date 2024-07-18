@@ -75,8 +75,8 @@ class RequirementsControllerTest extends TestCase
 
         $router = $this->createMock(RouterInterface::class);
         $router->expects(static::once())->method('generate')
-            ->with('installer.license', [], UrlGeneratorInterface::ABSOLUTE_PATH)
-            ->willReturn('/installer/license');
+            ->with('installer.database-configuration', [], UrlGeneratorInterface::ABSOLUTE_PATH)
+            ->willReturn('/installer/database-configuration');
 
         $jwtCertificateGenerator = $this->createMock(JwtCertificateGenerator::class);
         $jwtCertificateGenerator->expects(static::once())->method('generate')
@@ -87,7 +87,7 @@ class RequirementsControllerTest extends TestCase
 
         $response = $controller->requirements($request);
         static::assertInstanceOf(RedirectResponse::class, $response);
-        static::assertSame('/installer/license', $response->getTargetUrl());
+        static::assertSame('/installer/database-configuration', $response->getTargetUrl());
     }
 
     public function testRequirementsRouteDoesNotRedirectIfValidationFails(): void

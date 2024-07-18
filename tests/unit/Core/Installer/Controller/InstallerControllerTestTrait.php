@@ -24,7 +24,7 @@ trait InstallerControllerTestTrait
         $requestStack = new RequestStack();
         $requestStack->push(new Request([], [], ['_route' => 'installer.language-selection']));
         $container->set('request_stack', $requestStack);
-        $container->setParameter('shopware.installer.supportedLanguages', ['en' => 'en-GB', 'de' => 'de-DE']);
+        $container->setParameter('shopware.installer.supportedLanguages', ['en' => 'en-GB', 'de' => 'de-DE','zh'=>'zh-CN']);
         $container->setParameter('kernel.shopware_version', Kernel::SHOPWARE_FALLBACK_VERSION);
 
         foreach ($services as $id => $service) {
@@ -52,11 +52,6 @@ trait InstallerControllerTestTrait
                     'isCompleted' => false,
                 ],
                 [
-                    'label' => 'license',
-                    'active' => false,
-                    'isCompleted' => false,
-                ],
-                [
                     'label' => 'database-configuration',
                     'active' => false,
                     'isCompleted' => false,
@@ -77,7 +72,7 @@ trait InstallerControllerTestTrait
                     'isCompleted' => false,
                 ],
             ],
-            'supportedLanguages' => ['en', 'de'],
+            'supportedLanguages' => ['en', 'de','zh'],
             'shopware' => [
                 'version' => Kernel::SHOPWARE_FALLBACK_VERSION,
             ],

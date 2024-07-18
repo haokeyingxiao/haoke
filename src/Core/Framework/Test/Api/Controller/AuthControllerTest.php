@@ -488,7 +488,7 @@ class AuthControllerTest extends TestCase
         $authPayload = [
             'grant_type' => 'client_credentials',
             'client_id' => $accessKey,
-            'client_secret' => 'shopware',
+            'client_secret' => 'haokeyingxiao.com',
         ];
 
         $client->request('POST', '/api/oauth/token', $authPayload, [], [], json_encode($authPayload, \JSON_THROW_ON_ERROR));

@@ -82,7 +82,7 @@ class SetCustomerCustomFieldActionTest extends TestCase
             ],
         ]], Context::createDefaultContext());
 
-        $this->login($email, 'shopware');
+        $this->login($email, 'haokeyingxiao.com');
 
         static::assertNotNull($this->customerRepository);
         /** @var CustomerEntity $customer */

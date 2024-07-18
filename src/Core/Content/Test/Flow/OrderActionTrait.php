@@ -43,7 +43,7 @@ trait OrderActionTrait
         $email = Uuid::randomHex() . '@example.com';
         $this->prepareCustomer($email);
 
-        $this->login($email, 'shopware');
+        $this->login($email, 'haokeyingxiao.com');
     }
 
     /**
