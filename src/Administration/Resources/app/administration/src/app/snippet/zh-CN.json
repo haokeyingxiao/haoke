@@ -240,7 +240,7 @@
       "maximumSelectionExceed": "选择的项目数量已达上限"
     },
     "sw-pagination": {
-      "labelItemsPerPage": "每页项目数："
+      "labelItemsPerPage": "每页条数："
     },
     "sw-modal": {
       "labelClose": "关闭"

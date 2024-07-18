@@ -27,11 +27,11 @@
       },
       "account": {
         "headline": "官方账号",
-        "isLoggedIn": "SnapStore 账号成功连接。前往“应用”或“主题”标签并检查您购买的扩展是否列出。如果没有，请查看您的 Showare 账号并确保已设置正确的扩展域名。",
+        "isLoggedIn": "好客平台账号成功连接。前往“应用”或“主题”标签并检查您购买的扩展是否列出。如果没有，请查看您的 Showare 账号并确保已设置正确的扩展域名。",
         "login": "登录",
         "logout": "注销",
-        "loginMessage": "使用 SnapStore 账号登录以访问您在 store.haokeyingxiao.com 购买的扩展",
-        "register": "立即注册成为 SnapStore 社区的一员！",
+        "loginMessage": "使用好客平台账号登录以访问您在 store.haokeyingxiao.com 购买的扩展",
+        "register": "立即注册成为好客平台社区的一员！",
         "registerNow": "立即注册",
         "registerUrl": "https://account.haokeyingxiao.com/register?lang=en",
         "mailLabel": "邮箱",
@@ -52,19 +52,19 @@
         "buttonFileUpload": "上传扩展",
         "messageUploadSuccess": "上传扩展成功。",
         "titleWarningModal": "警告",
-        "descriptionWarningModal": "来自 SnapStore 商店外部的扩展未经我们审核，可能会对您的商店构成风险。我们建议尽可能使用 SnapStore 商店中的扩展。",
+        "descriptionWarningModal": "来自好客平台商店外部的扩展未经我们审核，可能会对您的商店构成风险。我们建议尽可能使用好客平台商店中的扩展。",
         "textHideWarning": "不再显示"
       }
     },
     "errors": {
-      "messageToTheShopwareDocumentation": "<a href=\"{documentationLink}\" target=\"_blank\">打开 SnapStore 文档</a>",
+      "messageToTheShopwareDocumentation": "<a href=\"{documentationLink}\" target=\"_blank\">打开好客平台文档</a>",
       "messageGenericFailure": "操作失败。",
       "messageUploadFailureNotAZipFile": "上传的文件不是 ZIP 文件。",
       "messageUploadFailureUnzipFailed": "无法解压 ZIP 文件。",
       "messageUploadFailureNoPluginFoundInZipFile": "ZIP 文件中未找到扩展。",
       "messageLoginDataInvalid": "登录数据不完整。",
-      "messageStoreLicenseDomainMissing": "登录失败。您是否在“设置/ SnapStore 账号”中提供了正确的许可证域名？",
-      "messageStoreNotAvailable": "SnapStore 商店不可用。",
+      "messageStoreLicenseDomainMissing": "登录失败。您是否在“设置/平台账号”中提供了正确的许可证域名？",
+      "messageStoreNotAvailable": "好客平台商店不可用。",
       "messagePluginBaseClassNotFound": "无法加载扩展基类。请检查扩展的 composer.json 以了解类自动加载。",
       "messagePluginInstallationFailed": "无法安装扩展：“{message}”。",
       "messagePluginUninstallationFailed": "无法卸载扩展：“{message}”。",
@@ -74,11 +74,11 @@
       "messageDeactivationFailedThemeAssignment": "无法停用或卸载主题 \"{themeName}\"。请删除以下主题分配：{assignments}。",
       "messagePluginUpdateFailed": "无法更新扩展：“{message}”。 {pluginDeactivatedHint}",
       "pluginDeactivatedHint": "扩展已停用。",
-      "messagePluginRequirementMismatch": "扩展的技术要求与安装的 SnapStore 版本不兼容。请联系制造商。",
-      "appIsNotCompatible": "扩展 \"{name}\" 与此 SnapStore 版本不兼容",
+      "messagePluginRequirementMismatch": "扩展的技术要求与安装的好客平台版本不兼容。请联系制造商。",
+      "appIsNotCompatible": "扩展 \"{name}\" 与此好客平台版本不兼容",
       "appLicenseCouldNotBeVerified": {
         "title": "无法验证此扩展的许可证",
-        "message": "确保您的许可证域名设置正确，并且您使用与此扩展授权的 SnapStore 账号登录。",
+        "message": "确保您的许可证域名设置正确，并且您使用与此扩展授权的好客平台账号登录。",
         "actionSetLicenseDomain": "设置许可证域名",
         "actionLogin": "登录"
       },
@@ -115,7 +115,7 @@
       "label": "未激活",
       "activationDescriptionTitleFirst": "非常方便的浏览并购买扩展",
       "activationDescriptionTitleSecond": "",
-      "activationDescriptionTitleDescription": "激活 SnapStore 商店并访问大量有用的扩展和现代主题，这些扩展和现代主题可以无缝集成到您的商店中 - 无需任何编程技能。",
+      "activationDescriptionTitleDescription": "激活好客平台商店并访问大量有用的扩展和现代主题，这些扩展和现代主题可以无缝集成到您的商店中 - 无需任何编程技能。",
       "activate": "激活"
     },
     "title": "商店",
@@ -197,7 +197,7 @@
           "labelButtonBack": "返回详情"
         },
         "alertCanNotBuy": {
-          "text": "您需要登录 SnapStore 商店才能执行此操作"
+          "text": "您需要登录好客平台商店才能执行此操作"
         }
       },
       "sw-extension-adding-failed": {

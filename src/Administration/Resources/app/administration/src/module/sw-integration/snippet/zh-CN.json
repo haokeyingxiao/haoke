@@ -5,7 +5,7 @@
       "headlineIntegrations": "集成",
       "buttonCreateIntegration": "添加",
       "heroHeadlineIntegrations": "集成管理",
-      "heroDescriptionIntegrations": "SnapStore 提供强大的应用程序接口（API），可将第三方系统完美地集成到您的流程中。为了建立正确的通信，SnapStore 要求外部应用程序首先通过单独的安全密钥进行验证。您可以在这里创建这些单独的密钥，这样就可以分别跟踪外部应用程序引入的更改。"
+      "heroDescriptionIntegrations": "好客平台提供强大的应用程序接口（API），可将第三方系统完美地集成到您的流程中。为了建立正确的通信，好客平台要求外部应用程序首先通过单独的安全密钥进行验证。您可以在这里创建这些单独的密钥，这样就可以分别跟踪外部应用程序引入的更改。"
     },
     "list": {
       "contextMenuEdit": "编辑",
