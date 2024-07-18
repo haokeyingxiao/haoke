@@ -1,5 +1,5 @@
 import initTopbarButtons from 'src/app/init/topbar-button.init';
-import { send } from '@shopware-ag/meteor-admin-sdk/es/channel';
+import { send } from '@haokeyingxiao/meteor-admin-sdk/es/channel';
 import 'src/app/state/topbar-button.store';
 
 describe('src/app/init/topbar-button.init.ts', () => {
