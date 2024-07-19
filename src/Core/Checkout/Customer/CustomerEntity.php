@@ -66,6 +66,8 @@ class CustomerEntity extends Entity implements \Stringable
 
     protected ?string $title = null;
 
+    protected ?string $nickName = null;
+
     /**
      * @var array<string>|null
      */
@@ -931,4 +933,15 @@ class CustomerEntity extends Entity implements \Stringable
     {
         $this->media = $media;
     }
+
+    public function getNickName(): ?string
+    {
+        return $this->nickName;
+    }
+
+    public function setNickName(?string $nickName): void
+    {
+        $this->nickName = $nickName;
+    }
+
 }

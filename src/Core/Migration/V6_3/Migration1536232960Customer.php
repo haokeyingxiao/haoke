@@ -38,6 +38,7 @@ class Migration1536232960Customer extends MigrationStep
               `last_name` VARCHAR(255) COLLATE utf8mb4_unicode_ci NOT NULL,
               `company`     VARCHAR(255) COLLATE utf8mb4_unicode_ci NULL,
               `avatar_id`       BINARY(16)                              NULL,
+              `nick_name` VARCHAR(100) COLLATE utf8mb4_unicode_ci NULL,
               `password` VARCHAR(1024) COLLATE utf8mb4_unicode_ci NULL,
               `legacy_password` VARCHAR(255) COLLATE utf8mb4_unicode_ci NULL,
               `legacy_encoder` VARCHAR(255) COLLATE utf8mb4_unicode_ci NULL,
