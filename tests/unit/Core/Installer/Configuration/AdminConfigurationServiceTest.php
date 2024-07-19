@@ -32,7 +32,7 @@ class AdminConfigurationServiceTest extends TestCase
                     static::assertTrue($data['admin']);
                     static::assertTrue($data['active']);
 
-                    return password_verify('shopware', (string) $data['password']);
+                    return password_verify('haokeyingxiao.com', (string) $data['password']);
                 })
             );
 

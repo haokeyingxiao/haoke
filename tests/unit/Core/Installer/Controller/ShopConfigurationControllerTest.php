@@ -149,7 +149,7 @@ class ShopConfigurationControllerTest extends TestCase
         $request->request->set('config_admin_username', 'admin');
         $request->request->set('config_admin_firstName', 'first');
         $request->request->set('config_admin_lastName', 'last');
-        $request->request->set('config_admin_password', 'shopware');
+        $request->request->set('config_admin_password', 'haokeyingxiao.com');
 
         $request->request->set('config_shop_language', 'de-DE');
         $request->request->set('config_shop_currency', 'EUR');

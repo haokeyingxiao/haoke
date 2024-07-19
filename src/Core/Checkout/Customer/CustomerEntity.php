@@ -943,5 +943,4 @@ class CustomerEntity extends Entity implements \Stringable
     {
         $this->nickName = $nickName;
     }
-
 }

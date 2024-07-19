@@ -99,7 +99,7 @@ class ChangeCustomerStatusActionTest extends TestCase
             ],
         ], Context::createDefaultContext());
 
-        $this->login($email, 'shopware');
+        $this->login($email, 'haokeyingxiao.com');
 
         /** @var CustomerEntity $customer */
         $customer = $this->customerRepository->search(
