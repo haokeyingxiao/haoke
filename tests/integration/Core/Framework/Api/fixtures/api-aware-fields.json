@@ -1099,6 +1099,7 @@
     "customer.reviewCount",
     "customer.customFields",
     "customer.group",
+    "customer.nickName",
     "customer.defaultPaymentMethod",
     "customer.language",
     "customer.lastPaymentMethod",

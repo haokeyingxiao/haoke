@@ -59,7 +59,7 @@ class ChangeProfileRouteTest extends TestCase
         $this->customerRepository = $this->getContainer()->get('customer.repository');
 
         $email = Uuid::randomHex() . '@example.com';
-        $this->customerId = $this->createCustomer('shopware', $email);
+        $this->customerId = $this->createCustomer('haokeyingxiao.com', $email);
 
         $this->browser
             ->request(
