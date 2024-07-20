@@ -360,7 +360,7 @@ class RegisterRouteTest extends TestCase
             ->expects(static::once())
             ->method('create')
             ->willReturnCallback(function (array $create) {
-                static::assertSame(['mapped' => 1, 'virtualProfile' => false], $create[0]['customFields']);
+                static::assertSame(['mapped' => 1], $create[0]['customFields']);
 
                 return new EntityWrittenContainerEvent(Context::createDefaultContext(), new NestedEventCollection([]), []);
             });

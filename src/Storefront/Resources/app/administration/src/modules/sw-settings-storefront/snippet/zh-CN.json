@@ -1,0 +1,20 @@
+{
+  "sw-settings-storefront": {
+    "general": {
+      "mainMenuItemGeneral": "店铺",
+      "textHeadline": "店铺",
+      "description": "店铺设置",
+      "helpText": "更多信息请参阅 <a target=\"_blank\" href='https://haokeyingxiao.com'>文档</a>"
+    },
+    "configuration": {
+      "cardTitle": "店铺配置",
+      "iconCache": "激活图标缓存",
+      "iconCacheToolTip": "控制图标是否只在每个店面页面交付一次，额外的使用将仅通过图标ID引用。",
+      "theme": {
+        "async": "在后台编译主题",
+        "asyncTooltip": "控制主题编译是否通过消息队列而不是直接在更改时处理。"
+      }
+    },
+    "helpText": "更多信息请参阅 <a target=\"_blank\" href=\"https://haokeyingxiao.com\">文档</a>。"
+  }
+}

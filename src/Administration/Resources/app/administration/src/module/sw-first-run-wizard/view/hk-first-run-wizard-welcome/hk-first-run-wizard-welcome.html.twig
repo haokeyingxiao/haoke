@@ -1,0 +1,56 @@
+<!-- eslint-disable-next-line hk-deprecation-rules/no-twigjs-blocks -->
+{% block hk_first_run_wizard_welcome %}
+<div class="hk-first-run-wizard-welcome">
+    <div class="center">
+        <img
+            class="hk-first-run-wizard__welcome-image"
+            :src="assetFilter('/administration/static/img/first-run-wizard/welcome.svg')"
+            alt=""
+        >
+        <h4 class="headline-welcome">
+            {{ $tc('sw-first-run-wizard.welcome.headlineWelcome') }}
+        </h4>
+        <p
+            class="text-welcome"
+            v-html="$tc('hk-first-run-wizard.welcome.messageWelcome')"
+        ></p>
+    </div>
+
+    <hk-container
+        columns="1fr"
+        gap="24px"
+    >
+        <div class="hk-first-run-wizard-welcome__card">
+            <img
+                class="hk-first-run-wizard-welcome__icon-base"
+                :src="assetFilter('/administration/static/img/first-run-wizard/plugin-base.svg')"
+                alt=""
+            >
+            <span class="hk-first-run-wizard-welcome__headline">
+                {{ $tc('hk-first-run-wizard.base.headlineBase') }}
+            </span>
+            <p
+                class="hk-first-run-wizard-welcome__message"
+                v-html="$tc('hk-first-run-wizard.base.messageBase')"
+            ></p>
+            <sw-button-process
+                v-if="notInstalled('base')"
+                variant="primary"
+                size="small"
+                :is-loading="isInstallingPlugin"
+                :disabled="isInstallingPlugin"
+                :process-success="pluginInstalledSuccessfully.base"
+                class="button-plugin-install"
+                @click="onInstall('base')"
+            >
+                {{ $tc('hk-first-run-wizard.base.buttonInstallBase') }}
+            </sw-button-process>
+            <sw-status v-if="!notInstalled('base')"
+                       color="green"
+            >
+                {{ $tc('hk-first-run-wizard.base.status.installed') }}
+            </sw-status>
+        </div>
+    </hk-container>
+</div>
+{% endblock %}

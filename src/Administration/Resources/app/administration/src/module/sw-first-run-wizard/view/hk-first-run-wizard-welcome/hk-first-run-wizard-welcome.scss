@@ -1,0 +1,53 @@
+@import "~scss/variables";
+
+.hk-first-run-wizard-welcome {
+    width: 100%;
+    align-self: flex-start;
+
+    .center {
+        text-align: center;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+
+    .headline-welcome {
+        font-size: 32px;
+        font-weight: normal;
+        text-align: center;
+        letter-spacing: 0.2px;
+        line-height: 45px;
+    }
+    &__headline {
+        font-size: $font-size-s;
+        font-weight: $font-weight-semi-bold;
+        letter-spacing: 0.1px;
+        line-height: 25px;
+        margin-bottom:0;
+    }
+    .text-welcome {
+        width: 675px;
+        font-size: $font-size-xs;
+        font-weight: normal;
+        text-align: center;
+        letter-spacing: 0.1px;
+        margin: 0 auto 30px;
+    }
+}
+
+.hk-first-run-wizard__welcome-image {
+    height: 120px;
+}
+
+.hk-first-run-wizard-confirmLanguageSwitch-modal {
+    z-index: 1002 !important;
+
+    .hk-first-run-wizard-welcome__modal-text {
+        margin-bottom: 22px;
+    }
+}

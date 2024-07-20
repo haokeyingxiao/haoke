@@ -30,7 +30,7 @@
       "noConnectionMessage": "似乎有连接问题，语言无法安装。"
     },
     "dataImport": {
-      "modalTitle": "开始使用 Shopware 6",
+      "modalTitle": "开始使用好客平台",
       "headlineDemoData": "使用演示数据",
       "messageDemoData": "通过添加一组演示数据开始探索好客数字化营销平台。演示数据给人以一个完全正常工作的商店的印象，但应仅用于测试目的。",
       "buttonInstallDemoData": "安装演示数据",
@@ -147,6 +147,19 @@
     "additional_permissions": {
       "system": {
         "frw": "首次运行向导"
+      }
+    }
+  },
+  "hk-first-run-wizard": {
+    "welcome": {
+      "messageWelcome": "此向导将引导您完成设置，并帮助您进行最重要的设置。<br>在开始之前，请务必安装下面插件以确保系统能够更好的运行"
+    },
+    "base": {
+      "headlineBase": "好客平台基础插件（不要删除）",
+      "messageBase": "提供系统运行基本功能包",
+      "buttonInstallBase": "安装基础插件",
+      "status": {
+        "installed": "已安装"
       }
     }
   }

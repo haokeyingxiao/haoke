@@ -4,7 +4,7 @@
       "mainMenuItemGeneral": "Storefront",
       "textHeadline": "Storefront",
       "description": "Einstellungen für die Storefront",
-      "helpText": "Für weitere Informationen schaue bitte in die <a target=\"_blank\" href=\"https://docs.haokeyingxiao.com/de/shopware-6-de\">Dokumentation</a>"
+      "helpText": "Für weitere Informationen schaue bitte in die <a target=\"_blank\" href=\"https://haokeyingxiao.com\">Dokumentation</a>"
     },
     "configuration": {
       "cardTitle": "Storefront-Konfiguration",
@@ -15,7 +15,7 @@
         "asyncTooltip": "Steuert ob die Kompilierung des Themes über die message queue oder direkt erfolgt."
       }
     },
-    "helpText": "Für weitere Informationen schaue bitte in die <a target=\"_blank\" href=\"https://docs.haokeyingxiao.com/de/shopware-6-de\">Dokumentation</a>"
+    "helpText": "Für weitere Informationen schaue bitte in die <a target=\"_blank\" href=\"https://haokeyingxiao.com\">Dokumentation</a>"
   }
 }
 

@@ -25,7 +25,7 @@ export default Shopware.Component.wrapComponentConfig({
         welcomeMessage() {
             const greetingName = this.greetingName;
             const welcomeMessage = this.$tc(
-                this.cachedHeadlineGreetingKey
+                this.cachedHeadlineGreetingKey,
             );
 
             // in the headline we want to greet the user by his firstname

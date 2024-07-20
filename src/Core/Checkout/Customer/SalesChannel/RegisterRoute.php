@@ -24,6 +24,7 @@ use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Filter\EqualsFilter;
 use Shopware\Core\Framework\DataAbstractionLayer\Validation\EntityExists;
 use Shopware\Core\Framework\Event\DataMappingEvent;
+use Shopware\Core\Framework\Feature;
 use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\Framework\Plugin\Exception\DecorationPatternException;
 use Shopware\Core\Framework\Uuid\Uuid;
@@ -89,24 +90,6 @@ class RegisterRoute extends AbstractRegisterRoute
     {
         $isGuest = $data->getBoolean('guest');
 
-        $isCustomerNameAndAddressRequired = $this->systemConfigService->get(
-            'core.systemWideLoginRegistration.isCustomerNameAndAddressRequired',
-            $context->getSalesChannelId()
-        );
-        $isCustomerNameAndAddressRequired = !$isCustomerNameAndAddressRequired && !$data->has('billingAddress');
-        if ($isCustomerNameAndAddressRequired) {
-            $defaultCountry = $this->connection->executeQuery('SELECT id FROM country WHERE active = 1 and iso3="CHN" limit 1')->fetchOne();
-            $billingAddress = new RequestDataBag([
-                'countryId' => Uuid::fromBytesToHex($defaultCountry),
-                'street' => $data->get('email'),
-                'city' => $data->get('email'),
-                'zipcode' => (string) mt_rand(10000, 99999),
-            ]);
-            $data->set('billingAddress', $billingAddress);
-            $data->set('firstName', (string) mt_rand(10000, 99999));
-            $data->set('lastName', CustomerDefinition::ENTITY_NAME);
-        }
-
         if (!$data->has('billingAddress')) {
             $data->set('billingAddress', new RequestDataBag());
         }
@@ -122,14 +105,15 @@ class RegisterRoute extends AbstractRegisterRoute
         /** @var DataBag $billing */
         $billing = $data->get('billingAddress');
 
-        if ($billing->has('firstName') && !$data->has('firstName')) {
-            $data->set('firstName', $billing->get('firstName'));
-        }
+        if (Feature::isActive('v6.7.0.0')) {
+            if ($billing->has('firstName') && !$data->has('firstName')) {
+                $data->set('firstName', $billing->get('firstName'));
+            }
 
-        if ($billing->has('lastName') && !$data->has('lastName')) {
-            $data->set('lastName', $billing->get('lastName'));
+            if ($billing->has('lastName') && !$data->has('lastName')) {
+                $data->set('lastName', $billing->get('lastName'));
+            }
         }
-
 
         $this->validateRegistrationData($data, $isGuest, $context, $additionalValidationDefinitions, $validateStorefrontUrl);
 
@@ -175,7 +159,7 @@ class RegisterRoute extends AbstractRegisterRoute
         if ($data->get('customFields') instanceof RequestDataBag) {
             $customer['customFields'] = $this->customFieldMapper->map(CustomerDefinition::ENTITY_NAME, $data->get('customFields'));
         }
-        $customer['customFields'][CustomerEntity::VIRTUAL_PROFILE] = $isCustomerNameAndAddressRequired;
+
         // Convert all DataBags to array
         $customer = array_map(static function (mixed $value) {
             if ($value instanceof DataBag) {

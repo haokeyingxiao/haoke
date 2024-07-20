@@ -9,17 +9,10 @@
             <name>isCustomerBoundToSalesChannel</name>
             <label>Bind customers to Sales Channel</label>
             <label lang="de-DE">Kunden an Verkaufskanal binden</label>
+            <label lang="zh-CN">将客户绑定到特定的销售渠道</label>
             <helpText>If activated, customers can sign up separately for each Sales Channel. Existing customers are not affected by this setting.</helpText>
             <helpText lang="de-DE">Wenn die Einstellung aktiviert ist, können sich Kunden separat in jedem Verkaufskanal registrieren. Bestehende Kunden sind von dieser Einstellung nicht betroffen.</helpText>
-        </input-field>
-        <input-field type="bool">
-            <name>isCustomerNameAndAddressRequired</name>
-            <label>Customer name and address are required for registration.</label>
-            <label lang="de-DE">Name und Adresse des Kunden sind bei der Registrierung erforderlich.</label>
-            <label lang="zh-CN">注册时必须填写客户姓名和地址</label>
-            <helpText>By default, customer registration generates a virtual name and address.</helpText>
-            <helpText lang="de-DE">Standardmäßig erstellt die Kundenregistrierung einen virtuellen Namen und eine virtuelle Adresse.</helpText>
-            <helpText lang="zh-CN">默认情况下，客户注册由系统生成虚拟名称和地址。</helpText>
+            <helpText lang="zh-CN">如果启用了该功能，客户可以为每个销售渠道单独注册。现有客户不会受到此设置的影响。</helpText>
         </input-field>
     </card>
 </config>
