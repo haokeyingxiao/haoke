@@ -49,13 +49,11 @@
     "maintenanceModeDescription": "Wir aktualisieren derzeit die Inhalte dieser Seite. Bitte schauen Sie später wieder vorbei.",
     "stagingModeDescription": "Der Shop befindet sich im Staging-Modus.",
     "sortingLabel": "Sortierung",
-    "sortingByLabel": "Sortierung",
     "next": "Nächstes",
     "previous": "Vorheriges",
     "formSubmit": "Absenden",
     "listPricePreviously": "vorher %price%",
-    "categoryNavigationTitle": "Kategorien",
-    "filterTitle": "Filters"
+    "skipToContentLink": "Zum Hauptinhalt springen"
   },
   "header": {
     "logoLink": "Zur Startseite gehen",
@@ -109,8 +107,6 @@
     "myAccount": "Ihr Konto",
     "registerTitle": "Registrierung",
     "registerMetaTitle": "Registrierung",
-    "loginMetaTitle": "Anmelden",
-    "loginRegisterLabel": "Registrierung",
     "loginHeader": "Ich bin bereits Kunde",
     "loginFormDescription": "Einloggen mit E-Mail-Adresse und Passwort",
     "loginMailLabel": "Ihre E-Mail-Adresse",
@@ -127,8 +123,6 @@
     "registerAdvantage3": "Bestellübersicht und Versandinformationen",
     "registerAdvantage4": "Verwalten Sie Ihr Newsletter-Abonnement",
     "registerPersonalHeader": "Ich bin Neukunde!",
-    "registerHaveAccountLabel": "Bereits ein Konto?",
-    "registerHaveAccountToLoginLabel": "Anmelden",
     "registerAddressBillingHeader": "Ihre Adresse",
     "registerAddressShippingHeader": "Abweichende Lieferadresse",
     "personalTypeLabel": "Kontotyp",
@@ -513,7 +507,6 @@
     "filterRangeErrorMessage": "Der Mindestwert darf nicht höher sein als der Höchstwert.",
     "filterRangeLowerBoundErrorMessage": "Der Mindest- und Höchstwert muss größer oder gleich %lowerBound% sein.",
     "filterSubmitText": "Filter",
-    "filterResultTotal": "Insgesamt %total% Artikel",
     "defaultProductSortingLabel": "Name A-Z",
     "disabledFilterTooltip": "Dieser Filter zeigt in Kombination mit den ausgewählten Filtern keine weiteren Ergebnisse an.",
     "beforeListPrice": "",
@@ -658,7 +651,7 @@
     "newsletter": "Abonnieren Sie jetzt unseren regelmäßig erscheinenden Newsletter, um rechtzeitig über neue Produkte und Angebote informiert zu werden.",
     "includeVatText": "* Alle Preise inkl. gesetzl. Mehrwertsteuer zzgl. <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">Versandkosten</a> und ggf. Nachnahmegebühren, wenn nicht anders angegeben.",
     "excludeVatText": "* Alle Preise exkl. gesetzl. Mehrwertsteuer zzgl. <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">Versandkosten</a> und ggf. Nachnahmegebühren, wenn nicht anders angegeben.",
-    "copyrightInfo": "Copyright © Haoke AG - All rights reserved"
+    "copyrightInfo": "Realisiert mit Shopware"
   },
   "captcha": {
     "googleReCaptcha": {

@@ -49,13 +49,11 @@
     "maintenanceModeDescription": "We are currently updating this site. Please check back later.",
     "stagingModeDescription": "The Shop is in staging mode.",
     "sortingLabel": "Sorting",
-    "sortingByLabel": "Sort by",
     "next": "Next",
     "previous": "Previous",
     "formSubmit": "Submit",
     "listPricePreviously": "previously %price%",
-    "categoryNavigationTitle": "Categories",
-    "filterTitle": "Filters"
+    "skipToContentLink": "Skip to main content"
   },
   "header": {
     "logoLink": "Go to homepage",
@@ -109,8 +107,6 @@
     "myAccount": "Your account",
     "registerTitle": "Sign up",
     "registerMetaTitle": "Sign up",
-    "loginMetaTitle": "Sign in",
-    "loginRegisterLabel": "Sign up",
     "loginHeader": "I'm a customer already!",
     "loginFormDescription": "Log in with email address and password",
     "loginMailLabel": "Your email address",
@@ -127,8 +123,6 @@
     "registerAdvantage3": "Order overview and shipping information",
     "registerAdvantage4": "Manage your newsletter subscription",
     "registerPersonalHeader": "I'm a new customer!",
-    "registerHaveAccountLabel": "Already have an account?",
-    "registerHaveAccountToLoginLabel": "Sigin in",
     "registerAddressBillingHeader": "Your address",
     "registerAddressShippingHeader": "Alternative shipping address",
     "personalTypeLabel": "Account type",
@@ -513,7 +507,6 @@
     "filterRangeErrorMessage": "The minimum value cannot be higher than the maximum value.",
     "filterRangeLowerBoundErrorMessage": "The minimum and maximum value must be greater or equal to %lowerBound%.",
     "filterSubmitText": "Filter",
-    "filterResultTotal": "Total of %total% items",
     "defaultProductSortingLabel": "Name, ascending",
     "disabledFilterTooltip": "This filter does not display any further results in combination with the selected filters.",
     "beforeListPrice": "",
@@ -658,7 +651,7 @@
     "newsletter": "Subscribe to our regular newsletter now to stay tuned on the latest products and special offers.",
     "includeVatText": "* All prices incl. VAT plus <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">shipping costs</a> and possible delivery charges, if not stated otherwise.",
     "excludeVatText": "* All prices excl. VAT plus <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">shipping costs</a> and possible delivery charges, if not stated otherwise.",
-    "copyrightInfo": "Copyright © Haoke AG - All rights reserved"
+    "copyrightInfo": "Realised with Shopware"
   },
   "captcha": {
     "googleReCaptcha": {
