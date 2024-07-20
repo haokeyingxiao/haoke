@@ -53,7 +53,7 @@
     "previous": "Previous",
     "formSubmit": "Submit",
     "listPricePreviously": "previously %price%",
-    "skipToContentLink": "Skip to main content"
+    "skipToContentLink": "跳到主要内容"
   },
   "header": {
     "logoLink": "Go to homepage",
@@ -107,6 +107,8 @@
     "myAccount": "Your account",
     "registerTitle": "Sign up",
     "registerMetaTitle": "Sign up",
+    "loginMetaTitle": "Login",
+    "loginRegisterLabel": "Register",
     "loginHeader": "I'm a customer already!",
     "loginFormDescription": "Log in with email address and password",
     "loginMailLabel": "Your email address",
@@ -651,7 +653,7 @@
     "newsletter": "Subscribe to our regular newsletter now to stay tuned on the latest products and special offers.",
     "includeVatText": "* All prices incl. VAT plus <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">shipping costs</a> and possible delivery charges, if not stated otherwise.",
     "excludeVatText": "* All prices excl. VAT plus <a data-ajax-modal=\"true\" href=\"%url%\" data-url=\"%url%\">shipping costs</a> and possible delivery charges, if not stated otherwise.",
-    "copyrightInfo": "Realised with Shopware"
+    "copyrightInfo": "Realised with Haoke"
   },
   "captcha": {
     "googleReCaptcha": {
