@@ -79,7 +79,7 @@ export default {
                     position: 'right',
                     variant: 'primary',
                     action: `sw.first.run.wizard.index.${nextRoute}`,
-                    disabled: !this.isInstallingPlugin,
+                    disabled: !this.plugins.base.isInstalled,
                 },
             ];
 
@@ -99,7 +99,7 @@ export default {
                 })
                 .then(() => {
                     this.$emit('extension-activated');
-                    this.isInstallingPlugin = true;
+                    this.isInstallingPlugin = false;
                     this.plugins[pluginKey].isInstalled = true;
 
                     return false;
@@ -134,7 +134,6 @@ export default {
                         if (!plugin.active || plugin.installedAt === null) {
                             return;
                         }
-                        this.isInstallingPlugin = true;
                         const key = this.findPluginKeyByName(plugin.name);
 
                         this.plugins[key].isInstalled = true;

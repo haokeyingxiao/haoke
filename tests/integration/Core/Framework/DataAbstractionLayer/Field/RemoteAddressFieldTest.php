@@ -113,7 +113,7 @@ class RemoteAddressFieldTest extends TestCase
         $customerId = $this->createCustomer();
 
         $this->getContainer()->get(AccountService::class)
-            ->loginByCredentials('test@example.com', 'shopware', $this->createSalesChannelContext());
+            ->loginByCredentials('test@example.com', 'haokeyingxiao.com', $this->createSalesChannelContext());
 
         $criteria = new Criteria([$customerId]);
 

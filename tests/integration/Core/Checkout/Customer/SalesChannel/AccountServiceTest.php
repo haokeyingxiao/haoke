@@ -64,7 +64,7 @@ class AccountServiceTest extends TestCase
     {
         $salesChannelContext = $this->createSalesChannelContext();
         $customerId = $this->createCustomerOfSalesChannel($salesChannelContext->getSalesChannelId(), 'foo@bar.com');
-        $token = $this->accountService->loginByCredentials('foo@bar.com', 'shopware', $salesChannelContext);
+        $token = $this->accountService->loginByCredentials('foo@bar.com', 'haokeyingxiao.com', $salesChannelContext);
 
         $customer = $this->getCustomerFromToken($token, $salesChannelContext->getSalesChannelId());
 
@@ -88,7 +88,7 @@ class AccountServiceTest extends TestCase
         ]);
         $this->createCustomerOfSalesChannel($context->getSalesChannel()->getId(), $email);
 
-        $customer = $this->accountService->getCustomerByLogin($email, 'shopware', $context);
+        $customer = $this->accountService->getCustomerByLogin($email, 'haokeyingxiao.com', $context);
         static::assertEquals($email, $customer->getEmail());
         static::assertEquals($context->getSalesChannel()->getId(), $customer->getSalesChannelId());
     }
@@ -135,7 +135,7 @@ class AccountServiceTest extends TestCase
         $this->createCustomerOfSalesChannel($context->getSalesChannel()->getId(), $email, true, true, $idCustomer1, '2022-10-21 10:00:00');
         $this->createCustomerOfSalesChannel($context->getSalesChannel()->getId(), $email, true, true, $idCustomer2, '2022-10-22 10:00:00');
 
-        $customer = $this->accountService->getCustomerByLogin($email, 'shopware', $context);
+        $customer = $this->accountService->getCustomerByLogin($email, 'haokeyingxiao.com', $context);
         static::assertEquals($idCustomer2, $customer->getId());
     }
 
@@ -168,11 +168,11 @@ class AccountServiceTest extends TestCase
 
         $this->createCustomerOfSalesChannel($context2->getSalesChannel()->getId(), $email);
 
-        $customer1 = $this->accountService->getCustomerByLogin($email, 'shopware', $context1);
+        $customer1 = $this->accountService->getCustomerByLogin($email, 'haokeyingxiao.com', $context1);
 
         static::assertEquals($context1->getSalesChannel()->getId(), $customer1->getSalesChannelId());
 
-        $customer2 = $this->accountService->getCustomerByLogin($email, 'shopware', $context2);
+        $customer2 = $this->accountService->getCustomerByLogin($email, 'haokeyingxiao.com', $context2);
         static::assertEquals($context2->getSalesChannel()->getId(), $customer2->getSalesChannelId());
     }
 

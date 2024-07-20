@@ -134,7 +134,7 @@ class CustomerValueResolverTest extends TestCase
         $this->createCustomer($email);
 
         try {
-            return $this->accountService->loginByCredentials($email, 'shopware', $this->salesChannelContext);
+            return $this->accountService->loginByCredentials($email, 'haokeyingxiao.com', $this->salesChannelContext);
         } catch (BadCredentialsException) {
             // nth
         }
