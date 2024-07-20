@@ -13,7 +13,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap:10px;
+        gap: 10px;
     }
 
     .headline-welcome {
@@ -23,13 +23,15 @@
         letter-spacing: 0.2px;
         line-height: 45px;
     }
+
     &__headline {
         font-size: $font-size-s;
         font-weight: $font-weight-semi-bold;
         letter-spacing: 0.1px;
         line-height: 25px;
-        margin-bottom:0;
+        margin-bottom: 0;
     }
+
     .text-welcome {
         width: 675px;
         font-size: $font-size-xs;

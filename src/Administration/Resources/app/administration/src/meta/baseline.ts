@@ -468,6 +468,7 @@ const missingTests = [
     'src/module/sw-first-run-wizard/index.js',
     'src/module/sw-first-run-wizard/page/index/index.js',
     'src/module/sw-first-run-wizard/view/sw-first-run-wizard-data-import/index.js',
+    'src/module/sw-first-run-wizard/view/hk-first-run-wizard-welcome/index.js',
     'src/module/sw-first-run-wizard/view/sw-first-run-wizard-defaults/index.js',
     'src/module/sw-first-run-wizard/view/sw-first-run-wizard-finish/index.js',
     'src/module/sw-first-run-wizard/view/sw-first-run-wizard-mailer-base/index.js',

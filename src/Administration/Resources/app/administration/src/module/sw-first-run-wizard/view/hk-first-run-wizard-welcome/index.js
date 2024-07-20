@@ -9,8 +9,6 @@ const { Criteria } = Shopware.Data;
 export default {
     template,
     inject: [
-        'userService',
-        'loginService',
         'repositoryFactory',
         'extensionStoreActionService',
     ],
@@ -34,17 +32,9 @@ export default {
                 base: false,
             },
             latestTouchedPlugin: null,
-            newLocaleId: null,
-            user: { localeId: '', pw: '' },
-            userProfile: {},
-            userPromise: null,
             isLoading: false,
         };
     },
-    beforeMount() {
-        this.beforeMountComponent();
-    },
-
     created() {
         this.createdComponent();
     },
@@ -67,27 +57,13 @@ export default {
         },
     },
     methods: {
-        beforeMountComponent() {
-            this.userPromise.then((user) => {
-                this.user = user;
-            });
-        },
         createdComponent() {
             this.setTitle();
             this.getInstalledPlugins();
             this.updateButtons();
-            this.userPromise = this.userService.getUser().then((response) => {
-                return this.setUserData(response.data);
-            });
         },
         setTitle() {
             this.$emit('frw-set-title', this.$tc('sw-first-run-wizard.welcome.modalTitle'));
-        },
-        setUserData(userProfile) {
-            this.userProfile = userProfile;
-            return new Promise((resolve) => {
-                resolve(this.userRepository.get(this.userProfile.id));
-            });
         },
         notInstalled(pluginKey) {
             return !this.plugins[pluginKey].isInstalled;
