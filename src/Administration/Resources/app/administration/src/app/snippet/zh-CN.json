@@ -150,9 +150,10 @@
       "textProjectName": "好客数字化营销管理平台",
       "administrator": "管理员",
       "navigation": {
-        "mainMenuItemCatalogue": "目录",
+        "mainMenuItemCatalogue": "产品",
         "mainMenuItemContent": "内容",
-        "mainMenuItemMarketing": "营销"
+        "mainMenuItemMarketing": "营销",
+        "mainMenuItemOperations": "运营"
       }
     },
     "entity-components": {

@@ -150,9 +150,10 @@
       "textProjectName": "Administration",
       "administrator": "Administrator",
       "navigation": {
-        "mainMenuItemCatalogue": "Kataloge",
+        "mainMenuItemCatalogue": "Produkte",
         "mainMenuItemContent": "Inhalte",
-        "mainMenuItemMarketing": "Marketing"
+        "mainMenuItemMarketing": "Marketing",
+        "mainMenuItemOperations": "Betrieb"
       }
     },
     "entity-components": {

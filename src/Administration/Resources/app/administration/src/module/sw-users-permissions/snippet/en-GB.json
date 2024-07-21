@@ -181,13 +181,14 @@
     },
     "permissions": {
       "parents": {
-        "catalogues": "Catalogues",
+        "catalogues": "Products",
         "content": "Content",
         "customers": "Customers",
         "marketing": "Marketing",
         "other": "Other",
         "orders": "Orders",
-        "settings": "Settings"
+        "settings": "Settings",
+        "operations": "Operations"
       },
       "users_and_permissions": {
         "label": "Users & permissions"

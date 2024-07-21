@@ -181,13 +181,14 @@
     },
     "permissions": {
       "parents": {
-        "catalogues": "目录",
+        "catalogues": "产品",
         "content": "内容",
         "customers": "客户",
         "marketing": "营销",
         "other": "其他",
         "orders": "订单",
-        "settings": "设置"
+        "settings": "设置",
+        "operations": "运营"
       },
       "users_and_permissions": {
         "label": "用户与权限"

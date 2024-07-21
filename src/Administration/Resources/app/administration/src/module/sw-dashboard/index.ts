@@ -32,12 +32,21 @@ Shopware.Module.register('sw-dashboard', {
         },
     },
 
-    navigation: [{
-        id: 'sw-dashboard',
-        label: 'sw-dashboard.general.mainMenuItemGeneral',
-        color: '#6AD6F0',
-        icon: 'regular-tachometer',
-        path: 'sw.dashboard.index',
-        position: 10,
-    }],
+    navigation: [
+        {
+            id: 'sw-operations',
+            label: 'global.sw-admin-menu.navigation.mainMenuItemOperations',
+            color: '#6AD6F0',
+            icon: 'regular-tachometer',
+            position: 10,
+        },
+        {
+            id: 'sw-dashboard',
+            label: 'sw-dashboard.general.mainMenuItemGeneral',
+            color: '#6AD6F0',
+            parent: 'sw-operations',
+            icon: 'regular-tachometer',
+            path: 'sw.dashboard.index',
+            position: 10,
+        }],
 });
