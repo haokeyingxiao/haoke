@@ -112,7 +112,7 @@
         "blockCategoryTextImage": "文本和图片",
         "blockCategorySidebar": "侧边栏",
         "blockCategoryImage": "图片",
-        "blockCategoryCommerce": "商务",
+        "blockCategoryCommerce": "电子商务",
         "blockCategoryVideo": "视频",
         "blockCategoryForm": "表单",
         "blockCategoryHtml": "HTML",
@@ -122,7 +122,7 @@
         "blockNameField": "块名称",
         "blockNameFieldPlaceholder": "输入名称...",
         "blockSizingField": "尺寸模式",
-        "blockSizingOptionBoxed": "盒装内容",
+        "blockSizingOptionBoxed": "容器",
         "blockSizingOptionFull": "全宽",
         "backgroundColorField": "颜色",
         "backgroundColorLabel": "背景颜色",
@@ -139,7 +139,7 @@
         "blockRightMarginField": "右侧边距",
         "blockBottomMarginField": "底部边距",
         "blockLeftMarginField": "左侧边距",
-        "sizingOptionBoxed": "盒装内容",
+        "sizingOptionBoxed": "容器",
         "sizingOptionFull": "全宽",
         "buttonMappingAction": "数据映射",
         "buttonMappingRemoveAction": "移除数据映射",
@@ -176,7 +176,7 @@
         "titleBlockSettings": "块设置",
         "headerBlockSettings": "块：",
         "titleNavigator": "导航",
-        "titleSectionSettings": "部分设置",
+        "titleSectionSettings": "段设置",
         "titleLayoutAssignment": "布局分配",
         "confirmTextNavigator": "进入块导航器时，当前页面将被保存。确定要继续吗？",
         "confirmReminderNavigator": "不要再问我",
@@ -610,7 +610,7 @@
       },
       "image": {
         "image": {
-          "label": "图片，盒装"
+          "label": "图片，容器"
         },
         "imageBubbleRow": {
           "label": "三列，圆形"
@@ -619,13 +619,13 @@
           "label": "图片，全尺寸"
         },
         "imageFourColumn": {
-          "label": "四列，盒装"
+          "label": "四列，容器"
         },
         "imageGallery": {
           "label": "图片画廊"
         },
         "imageHighlightRow": {
-          "label": "三列，盒装和背景"
+          "label": "三列，容器和背景"
         },
         "imageSimpleGrid": {
           "label": "图片网格"
@@ -634,13 +634,13 @@
           "label": "图片滑块"
         },
         "imageThreeColumn": {
-          "label": "三列，盒装"
+          "label": "三列，容器"
         },
         "imageThreeCover": {
           "label": "三列，全尺寸"
         },
         "imageTwoColumn": {
-          "label": "两列，盒装"
+          "label": "两列，容器"
         }
       },
       "sidebar": {
@@ -678,10 +678,10 @@
       },
       "textImage": {
         "centerText": {
-          "label": "三列，盒装图片和文本"
+          "label": "三列，容器图片和文本"
         },
         "imageText": {
-          "label": "两列，盒装图片和文本"
+          "label": "两列，容器图片和文本"
         },
         "imageTextBubble": {
           "label": "三列，带标题和圆形"

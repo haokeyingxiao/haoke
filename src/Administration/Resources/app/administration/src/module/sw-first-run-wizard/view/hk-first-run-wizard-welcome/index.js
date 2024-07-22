@@ -79,7 +79,7 @@ export default {
                     position: 'right',
                     variant: 'primary',
                     action: `sw.first.run.wizard.index.${nextRoute}`,
-                    disabled: !this.plugins.base.isInstalled,
+                    disabled: !this.notInstalled('base'),
                 },
             ];
 

@@ -26,12 +26,12 @@
       "textUrlNoEntitiesForPreview": "没有可用的{entity}。",
       "textUrlPreviewEmptyTemplate": "模板为空，将不会为{entity}生成SEO URL。",
       "headlineInfoMessageBoxEmptyProperties": "信息",
-      "textInfoMessageBoxEmptyProperties": "使用变量时，请确保实体（产品、登录页面或类别）的所有相关字段中都有数据。如果变量引用了空字段，则不会为相应的实体创建SEO URL。"
+      "textInfoMessageBoxEmptyProperties": "使用变量时，请确保实体（产品、落地页面或类别）的所有相关字段中都有数据。如果变量引用了空字段，则不会为相应的实体创建SEO URL。"
     },
     "routeNames": {
       "frontend-detail-page": "产品详情页",
       "frontend-navigation-page": "类别页",
-      "frontend-landing-page": "登录页"
+      "frontend-landing-page": "落地页"
     }
   },
   "sw-seo-url": {

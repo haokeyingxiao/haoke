@@ -4,13 +4,16 @@
     <card>
         <title>Settings</title>
         <title lang="de-DE">Einstellungen</title>
+        <title lang="zh-CN">设置</title>
 
         <input-field type="bool">
             <name>redirectToCanonicalUrl</name>
             <label>Instead of setting canonical URLs, redirect to the most recent URL via HTTP 301.</label>
             <label lang="de-DE">Statt canonical URLs zu verwenden, per HTTP 301 auf die aktuellste URL umleiten</label>
+            <label lang="zh-CN">不使用规范 URL（canonical URLs），而是通过 HTTP 301 重定向到最新的 URL</label>
             <helpText>This option affects all entities whose name can change. If deactivated, one of the possible URLs is tagged as canonical. If activated, redirects to the most recent URL are performed directly via HTTP 301.</helpText>
             <helpText lang="de-DE">Diese Option betrifft alle Entitäten, deren Name sich ändern kann. Wenn deaktiviert, wird eine der möglichen URLs als canonical markiert. Wenn aktiviert, wird direkt über HTTP 301 auf die aktuellste URL weitergeleitet.</helpText>
+            <helpText lang="zh-CN">此选项影响所有名称可能会变化的实体。如果未激活，则会将其中一个可能的 URL 标记为规范 URL。如果激活，则会直接通过 HTTP 301 重定向到最新的 URL。</helpText>
         </input-field>
     </card>
 </config>
