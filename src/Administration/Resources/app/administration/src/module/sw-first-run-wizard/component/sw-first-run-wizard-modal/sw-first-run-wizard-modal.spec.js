@@ -123,7 +123,7 @@ describe('module/sw-first-run-wizard/component/sw-first-run-wizard-modal', () =>
     it('stepper has less steps with disabled extension management', async () => {
         const wrapper = await createWrapper();
 
-        expect(Object.keys(wrapper.vm.stepper)).toHaveLength(13);
+        expect(Object.keys(wrapper.vm.stepper)).toHaveLength(10);
 
         Shopware.State.get('context').app.config.settings.disableExtensionManagement = true;
 
@@ -483,9 +483,6 @@ describe('module/sw-first-run-wizard/component/sw-first-run-wizard-modal', () =>
             'mailer.selection',
             'mailer.smtp',
             'mailer.local',
-            'paypal.info',
-            'paypal.credentials',
-            'plugins',
             'shopware.account',
             'shopware.domain',
             'store',

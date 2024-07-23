@@ -45,8 +45,9 @@
             >
                 {{ $tc('hk-first-run-wizard.base.buttonInstallBase') }}
             </sw-button-process>
-            <sw-status v-if="!notInstalled('base')"
-                       color="green"
+            <sw-status
+                v-if="!notInstalled('base')"
+                color="green"
             >
                 {{ $tc('hk-first-run-wizard.base.status.installed') }}
             </sw-status>

@@ -74,7 +74,7 @@ export default {
         },
 
         testCredentials() {
-            const {shopwareId, password} = this;
+            const { shopwareId, password } = this;
 
             return this.firstRunWizardService.checkShopwareId({
                 shopwareId,
