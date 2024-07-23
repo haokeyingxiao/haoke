@@ -55,6 +55,9 @@ export default {
         isInstallingPlugin() {
             this.updateButtons();
         },
+        'plugins.base.isInstalled'() {
+            this.updateButtons();
+        },
     },
     methods: {
         createdComponent() {
@@ -79,7 +82,7 @@ export default {
                     position: 'right',
                     variant: 'primary',
                     action: `sw.first.run.wizard.index.${nextRoute}`,
-                    disabled: !this.notInstalled('base'),
+                    disabled: this.notInstalled('base'),
                 },
             ];
 

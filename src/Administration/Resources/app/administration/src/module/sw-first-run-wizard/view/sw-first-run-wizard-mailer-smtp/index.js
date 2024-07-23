@@ -30,11 +30,7 @@ export default {
 
     computed: {
         nextAction() {
-            if (Shopware.State.get('context').app.config.settings.disableExtensionManagement) {
-                return 'sw.first.run.wizard.index.shopware.account';
-            }
-
-            return 'sw.first.run.wizard.index.paypal.info';
+            return 'sw.first.run.wizard.index.shopware.account';
         },
 
         buttonConfig() {

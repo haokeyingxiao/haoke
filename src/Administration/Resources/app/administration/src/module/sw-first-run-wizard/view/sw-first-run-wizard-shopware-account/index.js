@@ -40,7 +40,7 @@ export default {
 
         updateButtons() {
             const disabledExtensionManagement = Shopware.State.get('context').app.config.settings.disableExtensionManagement;
-            const prevRoute = disabledExtensionManagement ? 'mailer.selection' : 'plugins';
+            const prevRoute = 'mailer.selection';
             const skipRoute = disabledExtensionManagement ? 'finish' : 'store';
 
             const buttonConfig = [
@@ -74,7 +74,7 @@ export default {
         },
 
         testCredentials() {
-            const { shopwareId, password } = this;
+            const {shopwareId, password} = this;
 
             return this.firstRunWizardService.checkShopwareId({
                 shopwareId,
