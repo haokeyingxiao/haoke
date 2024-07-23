@@ -1,15 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace Shopware\Core\Content\Test\Flow;
+namespace Shopware\Tests\Integration\Core\Content\Flow;
 
-use Doctrine\DBAL\ArrayParameterType;
 use Doctrine\DBAL\Connection;
 use PHPUnit\Framework\TestCase;
 use Shopware\Core\Checkout\Cart\Rule\AlwaysValidRule;
 use Shopware\Core\Checkout\Customer\Event\CustomerLoginEvent;
-use Shopware\Core\Content\Flow\Dispatching\Action\AddCustomerTagAction;
+use Shopware\Core\Content\Flow\Dispatching\Action\AddOrderTagAction;
+use Shopware\Core\Content\Flow\Dispatching\Action\RemoveCustomerTagAction;
 use Shopware\Core\Framework\Context;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityRepository;
+use Shopware\Core\Framework\Feature;
 use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\Framework\Test\TestCaseBase\CountryAddToSalesChannelTestBehaviour;
 use Shopware\Core\Framework\Test\TestCaseBase\IntegrationTestBehaviour;
@@ -24,7 +25,7 @@ use Symfony\Bundle\FrameworkBundle\KernelBrowser;
  * @internal
  */
 #[Package('services-settings')]
-class AddCustomerTagActionTest extends TestCase
+class RemoveCustomerTagActionTest extends TestCase
 {
     use CountryAddToSalesChannelTestBehaviour;
     use IntegrationTestBehaviour;
@@ -57,7 +58,7 @@ class AddCustomerTagActionTest extends TestCase
         $this->browser->setServerParameter('HTTP_SW_CONTEXT_TOKEN', $this->ids->create('token'));
     }
 
-    public function testAddCustomerTagAction(): void
+    public function testRemoveCustomerTagAction(): void
     {
         $this->createDataTest();
 
@@ -68,7 +69,7 @@ class AddCustomerTagActionTest extends TestCase
         $ruleId = Uuid::randomHex();
 
         $this->flowRepository->create([[
-            'name' => 'Create Order',
+            'name' => 'Customer login',
             'eventName' => CustomerLoginEvent::EVENT_NAME,
             'priority' => 1,
             'active' => true,
@@ -93,7 +94,7 @@ class AddCustomerTagActionTest extends TestCase
                     'id' => Uuid::randomHex(),
                     'parentId' => $sequenceId,
                     'ruleId' => null,
-                    'actionName' => AddCustomerTagAction::getName(),
+                    'actionName' => RemoveCustomerTagAction::getName(),
                     'config' => [
                         'tagIds' => [
                             $this->ids->get('tag_id') => 'test tag',
@@ -107,7 +108,7 @@ class AddCustomerTagActionTest extends TestCase
                     'id' => Uuid::randomHex(),
                     'parentId' => $sequenceId,
                     'ruleId' => null,
-                    'actionName' => AddCustomerTagAction::getName(),
+                    'actionName' => AddOrderTagAction::getName(),
                     'config' => [
                         'tagIds' => [
                             $this->ids->get('tag_id3') => 'test tag3',
@@ -119,15 +120,21 @@ class AddCustomerTagActionTest extends TestCase
             ],
         ]], Context::createDefaultContext());
 
-        $this->login($email, 'haokeyingxiao.com');
-
         $customerTag = $this->connection->fetchAllAssociative(
-            'SELECT tag_id FROM customer_tag WHERE tag_id IN (:ids)',
-            ['ids' => [Uuid::fromHexToBytes($this->ids->get('tag_id')), Uuid::fromHexToBytes($this->ids->get('tag_id2')), Uuid::fromHexToBytes($this->ids->get('tag_id3'))]],
-            ['ids' => ArrayParameterType::BINARY]
+            'SELECT lower(hex(tag_id)) FROM customer_tag WHERE customer_id = (:customerId)',
+            ['customerId' => Uuid::fromHexToBytes($this->ids->get('customer'))]
         );
 
-        static::assertCount(3, $customerTag);
+        static::assertCount(2, $customerTag);
+
+        $this->login($email, 'shopware');
+
+        $customerTag = $this->connection->fetchAllAssociative(
+            'SELECT * FROM customer_tag WHERE customer_id = (:customerId)',
+            ['customerId' => Uuid::fromHexToBytes($this->ids->get('tag_id'))]
+        );
+
+        static::assertCount(0, $customerTag);
     }
 
     private function login(?string $email = null, ?string $password = null): void
@@ -153,33 +160,40 @@ class AddCustomerTagActionTest extends TestCase
 
     private function createCustomer(?string $email = null): void
     {
-        $this->customerRepository->create([
-            [
-                'id' => $this->ids->create('customer'),
-                'salesChannelId' => $this->ids->get('sales-channel'),
-                'defaultShippingAddress' => [
-                    'id' => $this->ids->create('address'),
-                    'firstName' => 'Max',
-                    'lastName' => 'Mustermann',
-                    'street' => 'Musterstraße 1',
-                    'city' => 'Schöppingen',
-                    'zipcode' => '12345',
-                    'salutationId' => $this->getValidSalutationId(),
-                    'countryId' => $this->getValidCountryId($this->ids->get('sales-channel')),
-                ],
-                'defaultBillingAddressId' => $this->ids->get('address'),
-                'defaultPaymentMethodId' => $this->getValidPaymentMethodId(),
-                'groupId' => TestDefaults::FALLBACK_CUSTOMER_GROUP,
-                'email' => $email,
-                'password' => TestDefaults::HASHED_PASSWORD,
+        $customer = [
+            'id' => $this->ids->create('customer'),
+            'salesChannelId' => $this->ids->get('sales-channel'),
+            'defaultShippingAddress' => [
+                'id' => $this->ids->create('address'),
                 'firstName' => 'Max',
                 'lastName' => 'Mustermann',
+                'street' => 'Musterstraße 1',
+                'city' => 'Schöppingen',
+                'zipcode' => '12345',
                 'salutationId' => $this->getValidSalutationId(),
-                'customerNumber' => '12345',
-                'vatIds' => ['DE123456789'],
-                'company' => 'Test',
+                'countryId' => $this->getValidCountryId($this->ids->get('sales-channel')),
             ],
-        ], Context::createDefaultContext());
+            'defaultBillingAddressId' => $this->ids->get('address'),
+            'groupId' => TestDefaults::FALLBACK_CUSTOMER_GROUP,
+            'email' => $email,
+            'password' => TestDefaults::HASHED_PASSWORD,
+            'firstName' => 'Max',
+            'lastName' => 'Mustermann',
+            'salutationId' => $this->getValidSalutationId(),
+            'customerNumber' => '12345',
+            'vatIds' => ['DE123456789'],
+            'company' => 'Test',
+            'tags' => [
+                ['tagId' => $this->ids->get('tag_id'), 'name' => 'tag'],
+                ['tagId' => $this->ids->get('tag_id2'), 'name' => 'tag2'],
+            ],
+        ];
+
+        if (!Feature::isActive('v6.7.0.0')) {
+            $customer['defaultPaymentMethodId'] = $this->getValidPaymentMethodId();
+        }
+
+        $this->customerRepository->create([$customer], Context::createDefaultContext());
     }
 
     private function createDataTest(): void
