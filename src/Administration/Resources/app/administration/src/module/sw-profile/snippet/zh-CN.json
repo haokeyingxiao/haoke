@@ -94,7 +94,8 @@
           "tagsName": "标签",
           "title": "标题",
           "fileName": "名称",
-          "mediaFolderName": "文件夹"
+          "mediaFolderName": "文件夹",
+          "path": "路径"
         },
         "landing_page": {
           "name": "名称",
