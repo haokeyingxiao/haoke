@@ -136,7 +136,7 @@ class CustomerDefinition extends EntityDefinition
             (new FloatField('order_total_amount', 'orderTotalAmount'))->addFlags(new ApiAware(), new WriteProtected(Context::SYSTEM_SCOPE)),
             (new IntField('review_count', 'reviewCount'))->addFlags(new ApiAware(), new WriteProtected(Context::SYSTEM_SCOPE)),
             (new CustomFields())->addFlags(new ApiAware()),
-            new FkField('avatar_id', 'avatarId', MediaDefinition::class),
+            (new FkField('avatar_id', 'avatarId', MediaDefinition::class))->addFlags(new ApiAware()),
             new ManyToOneAssociationField('avatarMedia', 'avatar_id', MediaDefinition::class),
             (new StringField('legacy_password', 'legacyPassword'))->removeFlag(ApiAware::class),
             (new StringField('legacy_encoder', 'legacyEncoder'))->removeFlag(ApiAware::class),

@@ -4,7 +4,7 @@
  */
 
 import { mount } from '@vue/test-utils';
-import { MtTextField } from '@shopware-ag/meteor-component-library';
+import { MtTextField } from '@haokeyingxiao/meteor-component-library';
 
 async function createWrapper() {
     return mount(await wrapTestComponent('sw-simple-search-field', { sync: true }), {

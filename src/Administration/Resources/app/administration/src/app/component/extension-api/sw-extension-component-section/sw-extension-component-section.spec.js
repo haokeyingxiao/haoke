@@ -4,7 +4,7 @@
  */
 
 import { mount } from '@vue/test-utils';
-import { MtCard, MtTabs } from '@shopware-ag/meteor-component-library';
+import { MtCard, MtTabs } from '@haokeyingxiao/meteor-component-library';
 
 describe('src/app/component/extension-api/sw-extension-component-section', () => {
     let wrapper = null;

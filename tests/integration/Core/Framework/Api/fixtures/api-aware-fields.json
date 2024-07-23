@@ -639,6 +639,7 @@
   "product.name",
   "product.keywords",
   "product.description",
+  "product.shortDescription",
   "product.metaTitle",
   "product.packUnit",
   "product.packUnitPlural",

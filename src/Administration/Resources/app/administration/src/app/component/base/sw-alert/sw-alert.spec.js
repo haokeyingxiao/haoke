@@ -4,7 +4,7 @@
  */
 
 import { mount } from '@vue/test-utils';
-import { MtBanner } from '@shopware-ag/meteor-component-library';
+import { MtBanner } from '@haokeyingxiao/meteor-component-library';
 
 async function createWrapper(additionalOptions = {}) {
     return mount(await wrapTestComponent('sw-alert', { sync: true }), {

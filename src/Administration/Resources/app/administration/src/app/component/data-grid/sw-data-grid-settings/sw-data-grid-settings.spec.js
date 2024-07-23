@@ -4,7 +4,7 @@
  */
 
 import { mount } from '@vue/test-utils';
-import { MtSwitch } from '@shopware-ag/meteor-component-library';
+import { MtSwitch } from '@haokeyingxiao/meteor-component-library';
 
 describe('components/data-grid/sw-data-grid-settings', () => {
     let wrapper;
