@@ -422,7 +422,8 @@
         "singleRestrictionAddTitle": "排除值",
         "surchargeNotice": "对附加费/折扣的更改不会对已生成的变体产生影响。请转到变体的详细页面并更改已生成变体的价格。",
         "digitalVariantSwitch": "使所有变体成为数字变体",
-        "removeAllButton": "从所有变体中删除文件"
+        "removeAllButton": "从所有变体中删除文件",
+        "addVariantsOnly": "仅添加变体"
       },
       "deliveryModal": {
         "modalHeadline": "店面展示",

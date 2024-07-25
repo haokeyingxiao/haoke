@@ -570,7 +570,7 @@
     "deliveryTimeRestock": "{1} 1 天内有货，交货时间 %name%|]1,Inf[ %restockTime% 天内有货，交货时间 %name%",
     "soldOut": "不再有货",
     "tabsReview": "评论",
-    "reviewTitle": "%count% 的 %total% 评论",
+    "reviewTitle": "%total% 条评论中的 %count% 条",
     "reviewVerifiedItemTooltip": "已验证的买家",
     "reviewCommentLabel": "我们的反馈：",
     "reviewLinkText": "{1} 评论|]1,Inf[ 评论",
