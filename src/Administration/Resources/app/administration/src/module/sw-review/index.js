@@ -48,7 +48,7 @@ Module.register('sw-review', {
         label: 'sw-review.general.mainMenuItemList',
         color: '#57D9A3',
         path: 'sw.review.index',
-        icon: 'regular-products',
+        icon: 'regular-comment',
         parent: 'sw-catalogue',
         position: 20,
         privilege: 'review.viewer',

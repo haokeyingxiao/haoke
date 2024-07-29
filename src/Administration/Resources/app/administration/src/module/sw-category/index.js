@@ -190,7 +190,9 @@ Module.register('sw-category', {
         path: 'sw.category.index',
         label: 'sw-category.general.mainMenuItemIndex',
         parent: 'sw-catalogue',
+        icon: 'regular-layer-group',
         privilege: 'category.viewer',
+        color: '#57D9A3',
         position: 20,
     }],
 

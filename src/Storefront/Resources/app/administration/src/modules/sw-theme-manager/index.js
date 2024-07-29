@@ -44,7 +44,7 @@ Module.register('sw-theme-manager', {
         id: 'sw-theme-manager',
         label: 'sw-theme-manager.general.mainMenuItemGeneral',
         color: '#ff68b4',
-        icon: 'default-object-image',
+        icon: 'regular-tshirt',
         path: 'sw.theme.manager.index',
         privilege: 'theme.viewer',
         position: 80,
