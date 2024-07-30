@@ -4,7 +4,7 @@
  */
 import { config, mount } from '@vue/test-utils';
 import { createRouter, createWebHashHistory } from 'vue-router';
-import { MtButton } from '@shopware-ag/meteor-component-library';
+import { MtButton } from '@haokeyingxiao/meteor-component-library';
 
 async function createWrapper() {
     delete config.global.mocks.$router;
