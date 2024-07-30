@@ -1,3 +1,6 @@
+/**
+ * @group disabledCompat
+ */
 import { mount } from '@vue/test-utils';
 import { MtTextField } from '@haokeyingxiao/meteor-component-library';
 
