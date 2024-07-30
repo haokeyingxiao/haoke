@@ -8,7 +8,8 @@
       "notificationTestMailErrorMessage": "发送测试邮件时出错。",
       "notificationTestMailSuccessMessage": "测试邮件已发送。",
       "notificationSyntaxValidationErrorMessage": "无效的模板，请检查语法: {errorMsg}",
-      "notificationGeneralSyntaxValidationErrorMessage": "无效的模板，请检查语法。"
+      "notificationGeneralSyntaxValidationErrorMessage": "无效的模板，请检查语法。",
+      "missingMailTemplateTypeErrorMessage": "缺少必需的邮件模板类型。"
     },
     "list": {
       "textMailTemplateOverview": "邮件模板",
