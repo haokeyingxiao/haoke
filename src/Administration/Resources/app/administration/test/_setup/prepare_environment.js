@@ -40,7 +40,7 @@ import {
     MtTextarea,
     MtToast,
     MtUrlField,
-} from '@shopware-ag/meteor-component-library';
+} from '@haokeyingxiao/meteor-component-library';
 import aclService from './_mocks_/acl.service.mock';
 import feature from './_mocks_/feature.service.mock';
 import repositoryFactory from './_mocks_/repositoryFactory.service.mock';
