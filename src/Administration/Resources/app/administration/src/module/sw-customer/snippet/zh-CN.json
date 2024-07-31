@@ -136,7 +136,9 @@
       "emptyTextBirthday": "无信息",
       "labelBoundSalesChannel": "销售渠道",
       "emptyBoundSalesChannel": "全部",
-      "helpTextBoundSalesChannel": "该客户可以登录到以下销售渠道"
+      "helpTextBoundSalesChannel": "该客户可以登录到以下销售渠道",
+      "placeholderCustomerAffiliateCode": "输入推广代码...",
+      "placeholderCustomerCampaignCode": "输入活动代码..."
     },
     "detailBase": {
       "labelAccountCard": "帐户",

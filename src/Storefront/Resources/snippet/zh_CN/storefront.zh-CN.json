@@ -64,7 +64,8 @@
     "supportInfo": "<strong>关于您的订单有问题吗？</strong><br /><strong><a href=\"tel:+4912345-123456789\">12345-123456789</a></strong> <small>每日 7:30 am - 10:00 pm</small>",
     "indexLinkService": "服务/帮助",
     "searchNoResult": "未找到结果。",
-    "wishlist": "心愿单"
+    "wishlist": "心愿单",
+    "navigationAriaLabel": "主导航"
   },
   "error": {
     "VIOLATION::IS_BLANK_ERROR": "输入不能为空。",
