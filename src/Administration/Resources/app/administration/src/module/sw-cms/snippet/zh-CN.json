@@ -25,7 +25,7 @@
       "gridHeaderName": "名称",
       "gridHeaderType": "类型",
       "gridHeaderAssignment": "分配的类别",
-      "gridHeaderAssignments": "分配",
+      "gridHeaderAssignments": "已分配",
       "gridHeaderAssignedPages": "分配的页面",
       "gridHeaderCreated": "创建时间",
       "gridHeaderUpdated": "更新时间"
