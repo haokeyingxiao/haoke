@@ -114,7 +114,7 @@ class ServiceDefinitionTest extends TestCase
             \PREG_OFFSET_CAPTURE | \PREG_SET_ORDER
         );
 
-        if (!$result) {
+        if (!$result || empty($matches)) {
             return [];
         }
 
@@ -146,8 +146,8 @@ class ServiceDefinitionTest extends TestCase
             \PREG_OFFSET_CAPTURE | \PREG_SET_ORDER
         );
 
-        // only continue if a Haoke service definition doesn't start with class followed by id
-        if (!$result) {
+        // only continue if a Shopware service definition doesn't start with class followed by id
+        if (!$result || empty($matches)) {
             return [];
         }
 
