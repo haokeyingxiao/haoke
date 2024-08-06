@@ -83,3 +83,33 @@ a[target="_blank"]:not(.sw-external-link, .sw-internal-link, .sw-button) {
         background-color: $color-shopware-brand-500;
     }
 }
+
+
+
+.sw-block-field,
+{
+    margin-bottom: 16px;
+    input,
+    textarea,
+    select {
+        padding: 8px 16px;
+    }
+}
+.sw-contextual-field  {
+    .sw-field__addition{
+        padding: 8px 16px;
+    }
+}
+.sw-entity-single-select  {
+    .sw-entity-single-select__selection-input{
+        padding: 8px 0;
+    }
+    .sw-entity-single-select__selection-input.is--expanded{
+        padding: 8px 8px;
+    }
+}
+.sw-category-tree-field{
+    .sw-label {
+        margin-top: 3px;
+    }
+}
