@@ -11,6 +11,8 @@ use Shopware\Core\Framework\DataAbstractionLayer\EntityRepository;
 use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\Framework\Uuid\Uuid;
 use Shopware\Core\System\CustomField\Aggregate\CustomFieldSet\CustomFieldSetCollection;
+use Shopware\Core\System\CustomField\Aggregate\CustomFieldSetRelation\CustomFieldSetRelationCollection;
+use Shopware\Core\System\CustomField\CustomFieldCollection;
 
 /**
  * @internal only for use by the app-system
@@ -22,10 +24,14 @@ class CustomFieldPersister
 {
     /**
      * @param EntityRepository<CustomFieldSetCollection> $customFieldSetRepository
+     * @param EntityRepository<CustomFieldSetRelationCollection> $customFieldSetRelationRepository
+     * @param EntityRepository<CustomFieldCollection> $customFieldRepository
      */
     public function __construct(
         private readonly EntityRepository $customFieldSetRepository,
-        private readonly Connection $connection
+        private readonly Connection $connection,
+        private readonly EntityRepository $customFieldSetRelationRepository,
+        private readonly EntityRepository $customFieldRepository,
     ) {
     }
 
@@ -35,27 +41,11 @@ class CustomFieldPersister
     public function updateCustomFields(Manifest $manifest, string $appId, Context $context): void
     {
         $context->scope(Context::SYSTEM_SCOPE, function (Context $context) use ($manifest, $appId): void {
-            $obsoleteIds = $this->upsertCustomFieldSets($manifest->getCustomFields(), $appId, $context);
-            $this->deleteObsoleteIds($obsoleteIds, $context);
+            $this->upsertCustomFieldSets($manifest->getCustomFields(), $appId, $context);
         });
     }
 
-    /**
-     * @param list<string> $obsoleteIds
-     */
-    private function deleteObsoleteIds(array $obsoleteIds, Context $context): void
-    {
-        if (!empty($obsoleteIds)) {
-            $ids = array_map(static fn (string $id): array => ['id' => $id], $obsoleteIds);
-
-            $this->customFieldSetRepository->delete($ids, $context);
-        }
-    }
-
-    /**
-     * @return list<string> the obsolete custom field sets that need to be deleted
-     */
-    private function upsertCustomFieldSets(?CustomFields $customFields, string $appId, Context $context): array
+    private function upsertCustomFieldSets(?CustomFields $customFields, string $appId, Context $context): void
     {
         $existingCustomFieldSets = Uuid::fromBytesToHexList(
             $this->connection->fetchAllKeyValue(
@@ -65,14 +55,26 @@ class CustomFieldPersister
         );
 
         if (!$customFields || empty($customFields->getCustomFieldSets())) {
-            return array_values($existingCustomFieldSets);
+            if (!empty($existingCustomFieldSets)) {
+                $this->deleteObsoleteIds(
+                    array_values($existingCustomFieldSets),
+                    [],
+                    [],
+                    $context
+                );
+            }
+
+            return;
         }
 
         $payload = [];
+        $obsoleteRelations = [];
+        $obsoleteFields = [];
 
         foreach ($customFields->getCustomFieldSets() as $customFieldSet) {
             if (!\array_key_exists($customFieldSet->getName(), $existingCustomFieldSets)) {
-                $payload[] = $customFieldSet->toEntityArray($appId, []);
+                $existingRelations = $existingFields = [];
+                $payload[] = $customFieldSet->toEntityArray($appId, $existingRelations, $existingFields);
 
                 continue;
             }
@@ -83,15 +85,55 @@ class CustomFieldPersister
                     ['setId' => Uuid::fromHexToBytes($existingCustomFieldSets[$customFieldSet->getName()])]
                 )
             );
-            $entityData = $customFieldSet->toEntityArray($appId, $existingRelations);
+            $existingFields = Uuid::fromBytesToHexList(
+                $this->connection->fetchAllKeyValue(
+                    'SELECT name, id FROM custom_field WHERE set_id = :setId',
+                    ['setId' => Uuid::fromHexToBytes($existingCustomFieldSets[$customFieldSet->getName()])]
+                )
+            );
+            $entityData = $customFieldSet->toEntityArray($appId, $existingRelations, $existingFields);
             $entityData['id'] = $existingCustomFieldSets[$customFieldSet->getName()];
+
+            $obsoleteRelations = array_merge($obsoleteRelations, array_values($existingRelations));
+            $obsoleteFields = array_merge($obsoleteFields, array_values($existingFields));
 
             $payload[] = $entityData;
             unset($existingCustomFieldSets[$customFieldSet->getName()]);
         }
 
-        $this->customFieldSetRepository->upsert($payload, $context);
+        $this->deleteObsoleteIds(
+            array_values($existingCustomFieldSets),
+            $obsoleteRelations,
+            $obsoleteFields,
+            $context
+        );
 
-        return array_values($existingCustomFieldSets);
+        $this->customFieldSetRepository->upsert($payload, $context);
+    }
+
+    /**
+     * @param list<string> $obsoleteFieldSets
+     * @param list<string> $obsoleteRelations
+     * @param list<string> $obsoleteFields
+     */
+    private function deleteObsoleteIds(array $obsoleteFieldSets, array $obsoleteRelations, array $obsoleteFields, Context $context): void
+    {
+        if (!empty($obsoleteFieldSets)) {
+            $ids = array_map(static fn (string $id): array => ['id' => $id], $obsoleteFieldSets);
+
+            $this->customFieldSetRepository->delete($ids, $context);
+        }
+
+        if (!empty($obsoleteRelations)) {
+            $ids = array_map(static fn (string $id): array => ['id' => $id], $obsoleteRelations);
+
+            $this->customFieldSetRelationRepository->delete($ids, $context);
+        }
+
+        if (!empty($obsoleteFields)) {
+            $ids = array_map(static fn (string $id): array => ['id' => $id], $obsoleteFields);
+
+            $this->customFieldRepository->delete($ids, $context);
+        }
     }
 }

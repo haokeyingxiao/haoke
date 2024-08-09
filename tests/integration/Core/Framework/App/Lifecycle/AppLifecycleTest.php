@@ -580,6 +580,33 @@ class AppLifecycleTest extends TestCase
                 [
                     'id' => $customFieldSetId,
                     'name' => 'custom_field_test',
+                    'relations' => [
+                        [
+                            'entityName' => 'product',
+                        ],
+                        [
+                            'entityName' => 'to be deleted',
+                        ],
+                    ],
+                    'customFields' => [
+                        [
+                            'name' => 'bla_test',
+                            'type' => 'text',
+                        ],
+                        [
+                            'name' => 'to be deleted',
+                            'type' => 'text',
+                        ],
+                    ],
+                ],
+                [
+                    'name' => 'to be deleted',
+                    'customFields' => [
+                        [
+                            'name' => 'bla_test2',
+                            'type' => 'text',
+                        ],
+                    ],
                 ],
             ],
             'aclRole' => [
