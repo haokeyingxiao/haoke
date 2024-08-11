@@ -1,6 +1,6 @@
-/* eslint-disable max-len, sw-deprecation-rules/private-feature-declarations */
-
 const { Module } = Shopware;
+
+/* eslint-disable max-len, sw-deprecation-rules/private-feature-declarations */
 Shopware.Component.register('sw-first-run-wizard-modal', () => import('./component/sw-first-run-wizard-modal'));
 Shopware.Component.register('sw-plugin-card', () => import('./component/sw-plugin-card'));
 Shopware.Component.register('sw-first-run-wizard', () => import('./page/index'));
@@ -20,7 +20,6 @@ Shopware.Component.register('sw-first-run-wizard-shopware-domain', () => import(
 Shopware.Component.register('sw-first-run-wizard-defaults', () => import('./view/sw-first-run-wizard-defaults'));
 Shopware.Component.register('sw-first-run-wizard-store', () => import('./view/sw-first-run-wizard-store'));
 Shopware.Component.register('sw-first-run-wizard-finish', () => import('./view/sw-first-run-wizard-finish'));
-Shopware.Component.register('hk-first-run-wizard-welcome', () => import('./view/hk-first-run-wizard-welcome'));
 /* eslint-enable max-len, sw-deprecation-rules/private-feature-declarations */
 
 /**
@@ -48,7 +47,7 @@ Module.register('sw-first-run-wizard', {
             },
             children: {
                 welcome: {
-                    component: 'hk-first-run-wizard-welcome',
+                    component: 'sw-first-run-wizard-welcome',
                     path: '',
                     meta: {
                         privilege: 'admin',

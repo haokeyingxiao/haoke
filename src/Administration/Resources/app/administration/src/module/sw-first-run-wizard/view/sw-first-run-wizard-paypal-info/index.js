@@ -17,7 +17,7 @@ export default {
             isInstallingPlugin: false,
             pluginInstallationFailed: false,
             pluginError: null,
-            pluginName: 'SwagPayPal',
+            pluginName: 'HkagPayPal',
             installPromise: Promise.resolve(),
         };
     },

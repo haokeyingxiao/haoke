@@ -21,7 +21,7 @@ export default {
         return {
             plugins: {
                 demodata: {
-                    name: 'HkagPlatformDemoData',
+                    name: 'SwagPlatformDemoData',
                     isInstalled: false,
                 },
                 migration: {
@@ -29,7 +29,7 @@ export default {
                     isInstalled: false,
                 },
             },
-            demoDataPluginName: 'HkagPlatformDemoData',
+            demoDataPluginName: 'SwagPlatformDemoData',
             migrationPluginName: 'SwagMigrationAssistant',
             isPluginAlreadyInstalled: false,
             isInstallingPlugin: false,

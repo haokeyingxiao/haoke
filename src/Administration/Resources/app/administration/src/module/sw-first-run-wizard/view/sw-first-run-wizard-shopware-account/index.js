@@ -42,7 +42,7 @@ export default {
 
         updateButtons() {
             const disabledExtensionManagement = Shopware.State.get('context').app.config.settings.disableExtensionManagement;
-            const prevRoute = 'mailer.selection';
+            const prevRoute = disabledExtensionManagement ? 'mailer.selection' : 'plugins';
             const skipRoute = disabledExtensionManagement ? 'finish' : 'store';
 
             const buttonConfig = [
