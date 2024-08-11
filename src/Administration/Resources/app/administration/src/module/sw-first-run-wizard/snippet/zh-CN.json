@@ -149,18 +149,5 @@
         "frw": "首次运行向导"
       }
     }
-  },
-  "hk-first-run-wizard": {
-    "welcome": {
-      "messageWelcome": "此向导将引导您完成设置，并帮助您进行最重要的设置。<br>在开始之前，请务必安装下面插件以确保系统能够更好的运行"
-    },
-    "base": {
-      "headlineBase": "好客平台基础插件（不要删除）",
-      "messageBase": "提供系统运行基本功能包",
-      "buttonInstallBase": "安装基础插件",
-      "status": {
-        "installed": "已安装"
-      }
-    }
   }
 }
