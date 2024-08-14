@@ -79,6 +79,7 @@
     "VIOLATION::VAT_ID_FORMAT_NOT_CORRECT": "您输入的增值税号格式不正确。",
     "VIOLATION::ZIP_CODE_INVALID": "您输入的邮政编码格式不正确。",
     "VIOLATION::INVALID_FORMAT_ERROR": "输入格式不正确。",
+    "VIOLATION::NOT_EQUAL_ERROR": "输入不一致.",
     "message-default": "很抱歉，发生了错误。",
     "message-404": "请求的页面无法找到。",
     "addToCartError": "将商品添加到购物车时发生错误。",
