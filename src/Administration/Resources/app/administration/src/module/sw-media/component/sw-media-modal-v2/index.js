@@ -16,6 +16,8 @@ export default {
 
     inject: ['repositoryFactory', 'mediaService'],
 
+    emits: ['modal-close', 'media-modal-selection-change'],
+
     props: {
         initialFolderId: {
             type: String,
@@ -275,6 +277,10 @@ export default {
             }
 
             return upload.id === this.selectedMediaItem.id;
+        },
+
+        onSearchTermChange(searchTerm) {
+            this.term = searchTerm;
         },
     },
 };
