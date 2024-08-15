@@ -1616,5 +1616,16 @@
         }
       }
     }
+  },
+  "sw-datepicker": {
+    "date": {
+      "placeholder": "选择日期..."
+    },
+    "time": {
+      "placeholder": "选择时间..."
+    },
+    "datetime": {
+      "placeholder": "选择日期和时间..."
+    }
   }
 }
