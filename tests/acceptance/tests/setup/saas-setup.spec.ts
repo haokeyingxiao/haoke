@@ -1,5 +1,5 @@
 import { test } from '@fixtures/AcceptanceTest';
 
-test('setup saas shop @setup', async ({ SaaSInstanceSetup }) => {
+test('Setup a saas instance.', { tag: ['@SaaS', '@Setup'] }, async ({ SaaSInstanceSetup }) => {
     await SaaSInstanceSetup();
 });
