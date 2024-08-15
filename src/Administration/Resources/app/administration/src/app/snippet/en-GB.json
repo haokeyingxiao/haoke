@@ -1616,5 +1616,16 @@
         }
       }
     }
+  },
+  "sw-datepicker": {
+    "date": {
+      "placeholder": "Select date..."
+    },
+    "time": {
+      "placeholder": "Select time..."
+    },
+    "datetime": {
+      "placeholder": "Select date and time..."
+    }
   }
 }
