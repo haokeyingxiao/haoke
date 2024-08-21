@@ -506,7 +506,7 @@ Shopware 6.5 introduces a new more flexible stock management system. Please see 
 
 It is disabled by default, but you can opt in to the new system by enabling the `STOCK_HANDLING` feature flag.
 
-When you opt in and Haoke is your main source of truth for stock values, you might want to migrate the available_stock field to the `stock` field so that the `stock` value takes into account open orders.
+When you opt in and Shopware is your main source of truth for stock values, you might want to migrate the available_stock field to the `stock` field so that the `stock` value takes into account open orders.
 
 You can use the following SQL:
 
@@ -602,7 +602,7 @@ class SomeService
 
 ## Loading stock information from a different source
 
-If Haoke is not the source of truth for your stock data, you can decorate `\Shopware\Core\Content\Product\Stock\AbstractStockStorage` and implement the `load` method. When products are loaded in Haoke the `load` method will be invoked with the loaded product ID's. You can return a collection of `\Shopware\Core\Content\Product\Stock\StockData` objects, each representing a products stock level and configuration. This data will be merged with the Haoke stock levels and configuration from the product. Any data specified will override the product's data.
+If Shopware is not the source of truth for your stock data, you can decorate `\Shopware\Core\Content\Product\Stock\AbstractStockStorage` and implement the `load` method. When products are loaded in Shopware the `load` method will be invoked with the loaded product ID's. You can return a collection of `\Shopware\Core\Content\Product\Stock\StockData` objects, each representing a products stock level and configuration. This data will be merged with the Shopware stock levels and configuration from the product. Any data specified will override the product's data.
 
 For example, you can use an API to fetch the stock data:
 
@@ -798,7 +798,7 @@ class MyService
     }
 ```
 ## Clean duplicated theme images
-With [NEXT-25804](https://issues.haokeyingxiao.com/issues/NEXT-25804) we fixed an issue with duplicated theme images on `system:update` and `theme:refresh`.
+With [4457](https://github.com/shopware/shopware/issues/4457) we fixed an issue with duplicated theme images on `system:update` and `theme:refresh`.
 This fix will only prevent future duplicates. In order to remove already existing duplicates from your setup, follow these steps:
 
 1. Open the administration media section
@@ -812,7 +812,7 @@ This fix will only prevent future duplicates. In order to remove already existin
 9. Now you should be able to delete these duplicates in the administration media section in the folder `Theme Media`
 10. Now do a `composer theme:refresh`
 
-This comment on github could also be helpful: [github how to clean theme media](https://github.com/haokeyingxiao/platform/discussions/3254#discussioncomment-6666360)
+This comment on github could also be helpful: [github how to clean theme media](https://github.com/shopware/platform/discussions/3254#discussioncomment-6666360)
 The images should not be doubled again.
 
 
@@ -1574,7 +1574,7 @@ Therefore, the `psalm` dev-dependency was removed.
 If you used the dev-dependency from platform in your project, please install the `psalm` package directly into your project.
 
 ## Double OptIn customers will be active by default
-If the double opt in feature for the customer registration is enabled the customer accounts will be set active by default starting from Haoke 6.6.0.0. The validation now only considers if the customer has the double opt in registration enabled, i.e. the database value `customer.double_opt_in_registration` equals `1` and if there exists an double opt in date in `customer.double_opt_in_confirm_date`.
+If the double opt in feature for the customer registration is enabled the customer accounts will be set active by default starting from Shopware 6.6.0.0. The validation now only considers if the customer has the double opt in registration enabled, i.e. the database value `customer.double_opt_in_registration` equals `1` and if there exists an double opt in date in `customer.double_opt_in_confirm_date`.
 
 ## Custom fields in cart
 Custom fields will now be removed from the cart for performance reasons. Add the to the allow list with CartBeforeSerializationEvent if you need them in cart.
@@ -1808,7 +1808,7 @@ The class `StringTemplateRenderer` should not be extended and will become `final
 ## Bootstrap 5 upgrade
 
 Bootstrap v5 introduces breaking changes in HTML, (S)CSS and JavaScript.
-Below you can find a migration overview of the effected areas in the Haoke platform.
+Below you can find a migration overview of the effected areas in the Shopware platform.
 Please consider that we can't provide code migration examples for every possible scenario of a UI-Framework like Bootstrap.
 You can find a full migration guide on the official Bootstrap website: [Migrating to v5](https://getbootstrap.com/docs/5.1/migration)
 
@@ -1944,7 +1944,7 @@ collapse.addEventListener('hide.bs.collapse', this._myMethod.bind(this));
 #### Still need jQuery?
 
 In case you still need jQuery, you can add it to your own app or theme.
-This is the recommended method for all apps/themes which don't have control over the Haoke environment in which they're running in.
+This is the recommended method for all apps/themes which don't have control over the Shopware environment in which they're running in.
 
 * Extend the file `platform/src/Storefront/Resources/views/storefront/layout/meta.html.twig`.
 * Use the block `layout_head_javascript_jquery` to add a `<script>` tag containing jQuery. **Only use this block to add jQuery**.
@@ -1952,7 +1952,7 @@ This is the recommended method for all apps/themes which don't have control over
 * Don't** use the `{{ parent() }}` call. This prevents multiple usages of jQuery. Even if multiple other plugins/apps use this method, the jQuery script will only be added once.
 * Please use jQuery version `3.5.1` (slim minified) to avoid compatibility issues between different plugins/apps.
 * If you don't want to use a CDN for jQuery, [download jQuery from the official website](https://releases.jquery.com/jquery/) (jQuery Core 3.5.1 - slim minified) and add it to `MyExtension/src/Resources/public/assets/jquery-3.5.1.slim.min.js`
-* After executing `bin/console asset:install`, you can reference the file using the `assset()` function. See also: https://developer.haokeyingxiao.com/docs/guides/plugins/plugins/storefront/add-custom-assets
+* After executing `bin/console asset:install`, you can reference the file using the `assset()` function. See also: https://developer.shopware.com/docs/guides/plugins/plugins/storefront/add-custom-assets
 
 ```html
 {% sw_extends '@Storefront/storefront/layout/meta.html.twig' %}
@@ -1977,7 +1977,7 @@ The block `base_script_jquery` will be moved to `layout/meta.html.twig` with the
 ## Storefront bundled JavaScript
 
 With the major version 6.5, we've updated to webpack v5 and Bootstrap to v5. Because of these changes to the JavaScript bundling and vendor libraries,
-previously bundled JavaScript which was created with Haoke 6.4.x is not compatible with Haoke 6.5.
+previously bundled JavaScript which was created with Shopware 6.4.x is not compatible with Shopware 6.5.
 
 Please re-build your bundled JavaScript inside `<YourPlugin>/src/Resources/app/storefront/dist/storefront/js/<your-plugin>.js` using `bin/build-storefront.sh`
 
@@ -2005,7 +2005,7 @@ To access the cart via storefront javascript, you can use the `/checkout/cart.js
 
 ## Storefront theme asset refactoring
 
-In previous Haoke versions the theme assets has been copied to both folders `bundles/[theme-name]/file.png` and `theme/[id]/file.png`.
+In previous Shopware versions the theme assets has been copied to both folders `bundles/[theme-name]/file.png` and `theme/[id]/file.png`.
 This was needed to be able to link the asset in the Storefront as the theme asset doesn't include the theme path prefix.
 
 To improve the performance of `theme:compile` and to reduce the confusion of the usage of assets we copy the files only to `theme/[id]`.
@@ -2262,16 +2262,16 @@ If you ship dependencies with your plugins within the plugin ZIP file, you shoul
 
 ## Deprecated manifest-1.0.xsd
 
-With the upcoming major release, we're going to release a new XML-schema for Haoke Apps.
+With the upcoming major release, we're going to release a new XML-schema for Shopware Apps.
 In the new schema we remove two deprecations from the existing schema.
 
 1. attribute `parent` for element `module` will be required.
 
    Please make sure that every of your admin modules has this attribute set
-   like described in [our documentation](https://developer.haokeyingxiao.com/docs/guides/plugins/apps/administration/add-custom-modules)
+   like described in [our documentation](https://developer.shopware.com/docs/guides/plugins/apps/administration/add-custom-modules)
 2. attribute `openNewTab` for element `action-button` will be removed.
 
-   Make sure to remove the attribute `openNewTab` from your `action-button` elements in your `manifest.xml` and use ActionButtonResponses as described in our [documentation](https://developer.haokeyingxiao.com/docs/guides/plugins/apps/administration/add-custom-action-button) instead.
+   Make sure to remove the attribute `openNewTab` from your `action-button` elements in your `manifest.xml` and use ActionButtonResponses as described in our [documentation](https://developer.shopware.com/docs/guides/plugins/apps/administration/add-custom-action-button) instead.
 3. Deprecation of `manifest-1.0.xsd`
 
-   Update the `xsi:noNamespaceSchemaLocation` attribute of your `manifest` root element to `https://raw.githubusercontent.com/haokeyingxiao/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-2.0.xsd`
+   Update the `xsi:noNamespaceSchemaLocation` attribute of your `manifest` root element to `https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-2.0.xsd`

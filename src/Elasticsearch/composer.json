@@ -2,7 +2,7 @@
     "name": "haokeyingxiao/elasticsearch",
     "description": "Elasticsearch for Shopware",
     "type": "library",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Shopware\\Elasticsearch\\": ""

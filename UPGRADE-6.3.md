@@ -146,13 +146,13 @@ $criteria->addFilter(
 *  Customer email is not unique from all customers anymore, instead it will unique from other customers' email in a same sales channel.
 *  The `$context` property in `Shopware\Core\Checkout\Customer\Validation\Constraint\CustomerEmailUnique` is deprecated, using `SalesChannelContext $salesChannelContext` to get the context instead.
 Use `import from src/module` instead of `import from 'module'`. However we discourage you to directly use imports of the administration's source in your plugins.
- Use the administration's open API through the global Haoke object.
+ Use the administration's open API through the global Shopware object.
 ## Usage of DBAL connection methods in migrations
 For compatibility with main/replica database environments and blue green deployment,
 it is important to use the correct methods of the DBAL connection in migrations.
 Use `Doctrine\DBAL\Connection::executeUpdate` for these operations: `UPDATE|ALTER|BACKUP|CREATE|DELETE|DROP|EXEC|INSERT|TRUNCATE`
 For everything else `Doctrine\DBAL\Connection::executeQuery` could be used.
-Using `executeQuery` for the mentioned operations above is deprecated and will throw an exception with Haoke 6.4.0.0.
+Using `executeQuery` for the mentioned operations above is deprecated and will throw an exception with Shopware 6.4.0.0.
 ## Removed associations in customer group criteria
 We have to remove the associations `salesChannels` and `customers` 
 in these computed properties: `allCustomerGroupsCriteria` and `customerGroupCriteriaWithFilter`
@@ -315,10 +315,10 @@ by calling loginService.verifyUserToken(userPassword) and provide the current us
 fetched from the session.
 ## `name` attribute of `ProductFeatureSetTranslationDefinition` will be non-nullable
 
-With [NEXT-11000](https://issues.haokeyingxiao.com/issues/NEXT-11000), the `name` attribute in
-[ProductFeatureSetTranslationDefinition](https://github.com/haokeyingxiao/platform/blob/master/src/Core/Content/Product/Aggregate/ProductFeatureSetTranslation/ProductFeatureSetTranslationDefinition.php)
+With [4456](https://github.com/shopware/shopware/issues/4456), the `name` attribute in
+[ProductFeatureSetTranslationDefinition](https://github.com/shopware/platform/blob/master/src/Core/Content/Product/Aggregate/ProductFeatureSetTranslation/ProductFeatureSetTranslationDefinition.php)
 was marked non-nullable. This change is also implemented on database-level with
-[Migration1601388975RequireFeatureSetName.php](https://github.com/haokeyingxiao/platform/blob/master/src/Core/Migration/Migration1601388975RequireFeatureSetName.php).
+[Migration1601388975RequireFeatureSetName.php](https://github.com/shopware/platform/blob/master/src/Core/Migration/Migration1601388975RequireFeatureSetName.php).
 For blue-green deployment compatibility, the now non-nullable field will have an empty string as default value.
 The upcoming **6.4.0.0** release will contain major **breaking changes** to the payment and shipping method selection templates in the storefront.
 The modal to select payment or shipping methods was removed entirely.
@@ -477,7 +477,7 @@ We have now created a solution for this, but we have to change the format of the
 API
 ----
 ## Drop support of API version V1
-With Haoke 6.3.0.0 we increased the API version to `v3` and therefore dropped the API version `v1` and removed all corresponding deprecations which where marked for the 6.3 version tag. This mainly affects deprecations which where made during the development of the 6.1 version. As we try to keep the downwards compatibility always one API version backwards, there are now two available API versions: `v3` and `v2`.
+With Shopware 6.3.0.0 we increased the API version to `v3` and therefore dropped the API version `v1` and removed all corresponding deprecations which where marked for the 6.3 version tag. This mainly affects deprecations which where made during the development of the 6.1 version. As we try to keep the downwards compatibility always one API version backwards, there are now two available API versions: `v3` and `v2`.
 
 Core
 ----
@@ -729,7 +729,7 @@ Refactorings
 ## Flysystem adapters
 With 6.3 we have refactored the url handling of including resources like images, js, css etc. We have also created three new adapters: `asset` (plugin public files), `theme` (theme resources) and `sitemap`.
 For comparability reason they inherit from the `public` filesytem. So after the update all new filesystem are using the config from public filesystem.
-[See the updated documentation to how to configure all filesystems.](https://docs.haokeyingxiao.com/en/shopware-platform-dev-en/how-to/use-s3-datastorage)
+[See the updated documentation to how to configure all filesystems.](https://docs.shopware.com/en/shopware-platform-dev-en/how-to/use-s3-datastorage)
 All file system configuration have now an `url` config option, this url will be used for url generation to the files.
 
 ## Usage of the Symfony asset

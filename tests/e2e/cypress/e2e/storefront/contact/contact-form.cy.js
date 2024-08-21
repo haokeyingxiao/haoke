@@ -79,7 +79,7 @@ describe('Contact form', () => {
 
     it('@contact @package: Should be possible to fill out and submit the contact form', { tags: ['pa-customers-orders', 'quarantined'] }, () => {
         /**
-         * This is a regression test for NEXT-12092.
+         * This is a regression test for 4460.
          *
          * @see https://issues.haokeyingxiao.com/issues/NEXT-12092
          */
