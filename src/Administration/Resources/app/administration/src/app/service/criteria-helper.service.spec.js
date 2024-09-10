@@ -1,3 +1,6 @@
+/**
+ * @package services-settings
+ */
 import Criteria from '@haokeyingxiao/meteor-admin-sdk/es/data/Criteria';
 import createCriteriaFromArray from './criteria-helper.service';
 

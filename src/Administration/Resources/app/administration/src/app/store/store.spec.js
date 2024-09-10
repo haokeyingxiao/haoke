@@ -1,3 +1,6 @@
+/**
+ * @package admin
+ */
 import Store from 'src/app/store/index';
 
 describe('src/app/store/index.ts', () => {
@@ -80,5 +83,31 @@ describe('src/app/store/index.ts', () => {
         expect(() => {
             root.get('foo');
         }).toThrow('Store with id "foo" not found');
+    });
+
+    it('should wrap a store config', () => {
+        const root = Store.instance;
+        const fooStore = root.wrapStoreDefinition({
+            id: 'foo',
+            state: () => ({
+                data: 'value',
+            }),
+            actions: {
+                setData(newData) {
+                    this.data = newData;
+                },
+            },
+            getters: {
+                reverseData: () => {
+                    return this.data.reverse();
+                },
+            },
+        });
+
+        expect(fooStore).toBeDefined();
+        expect(fooStore.state).toBeInstanceOf(Function);
+        expect(fooStore.state().data).toBe('value');
+        expect(fooStore.getters.reverseData).toBeInstanceOf(Function);
+        expect(fooStore.actions.setData).toBeInstanceOf(Function);
     });
 });

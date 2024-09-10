@@ -221,7 +221,9 @@ Component.register('sw-grid', {
         registerInlineEditingEvents() {
             // New way is using the provide/inject
             if (this.isCompatEnabled('INSTANCE_EVENT_EMITTER')) {
+                // eslint-disable-next-line vue/no-deprecated-events-api
                 this.$on('sw-row-inline-edit-start', this.inlineEditingStart);
+                // eslint-disable-next-line vue/no-deprecated-events-api
                 this.$on('sw-row-inline-edit-cancel', this.disableActiveInlineEditing);
             }
         },
@@ -315,6 +317,25 @@ Component.register('sw-grid', {
 
         setColumns(columns) {
             this.columns = columns;
+        },
+
+        getKey(item) {
+            if (item.id === undefined || item.id === null) {
+                // see https://vuejs.org/api/built-in-special-attributes.html#key
+                // we use child components with state
+                // (at least sw-grid-row, maybe even form elements, depending on the slot usage)
+                // means not having a proper unique identifier for each row likely causes issues.
+                // For example the child components may not be properly destroyed and created and just
+                // "patched" in place with a completely different item / row
+                Shopware.Utils.debug.error(
+                    'sw-grid item without `id` property',
+                    item,
+                    'more info here: https://vuejs.org/api/built-in-special-attributes.html#key',
+                );
+                return undefined;
+            }
+
+            return item.id;
         },
     },
 });

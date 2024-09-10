@@ -1,3 +1,6 @@
+/**
+ * @package admin
+ */
 import initMenuItems from 'src/app/init/menu-item.init';
 import { ui } from '@haokeyingxiao/meteor-admin-sdk';
 

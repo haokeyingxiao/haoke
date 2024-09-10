@@ -116,16 +116,6 @@ class CustomerEntity extends Entity implements \Stringable
     protected int $reviewCount;
 
     /**
-     * @var \DateTimeInterface|null
-     */
-    protected $createdAt;
-
-    /**
-     * @var \DateTimeInterface|null
-     */
-    protected $updatedAt;
-
-    /**
      * @internal
      */
     protected ?string $legacyEncoder = null;

@@ -1,6 +1,5 @@
 /**
  * @package services-settings
- * @group disabledCompat
  */
 
 import ImportExportService from 'src/module/sw-import-export/service/importExport.service';
@@ -1007,6 +1006,7 @@ describe('module/sw-import-export/components/sw-import-export-activity', () => {
             otherError: 1,
         });
         expect(resultModal.vm.result).toEqual([{
+            id: 'tax',
             entityName: 'tax',
             insert: 7,
             update: 8,

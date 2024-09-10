@@ -1,3 +1,6 @@
+/**
+ * @package admin
+ */
 import initializeModal from 'src/app/init/modals.init';
 import { ui } from '@haokeyingxiao/meteor-admin-sdk';
 

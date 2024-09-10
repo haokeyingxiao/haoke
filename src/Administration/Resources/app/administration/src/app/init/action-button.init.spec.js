@@ -1,3 +1,6 @@
+/**
+ * @package admin
+ */
 import initActionButtons from 'src/app/init/action-button.init';
 import { add } from '@haokeyingxiao/meteor-admin-sdk/es/ui/action-button';
 import actionButtonStore from '../state/action-button.store';

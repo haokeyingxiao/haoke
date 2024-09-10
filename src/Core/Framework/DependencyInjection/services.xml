@@ -16,7 +16,6 @@
 
         <!-- Migration config -->
         <parameter key="core.migration.directories" type="collection"/>
-        <parameter key="migration.active" type="collection"/>
 
         <parameter key="shopware.security.csp_templates" type="collection">
             <parameter key="default">
@@ -392,6 +391,10 @@ base-uri 'self';
 
         <service id="Shopware\Core\Framework\Adapter\Twig\Filter\CurrencyFilter">
             <argument type="service" id="Shopware\Core\System\Currency\CurrencyFormatter"/>
+            <tag name="twig.extension"/>
+        </service>
+
+        <service id="Shopware\Core\Framework\Adapter\Twig\Filter\EmailIdnTwigFilter">
             <tag name="twig.extension"/>
         </service>
 

@@ -1,3 +1,6 @@
+/**
+ * @package admin
+ */
 import { send } from '@haokeyingxiao/meteor-admin-sdk/es/channel';
 import MissingPrivilegesError from '@haokeyingxiao/meteor-admin-sdk/es/_internals/privileges/missing-privileges-error';
 import api from './extension-api';

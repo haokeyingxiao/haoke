@@ -1,8 +1,7 @@
 import { mount } from '@vue/test-utils';
 
-/*
+/**
  * @package inventory
- * @group disabledCompat
  */
 
 const salesChannelFixture = {
@@ -125,6 +124,7 @@ describe('src/module/sw-settings-listing/component/sw-product-visibility-detail'
         createStateMapper({
             visibilities: [
                 {
+                    id: salesChannelFixture.id,
                     salesChannel: {
                         ...salesChannelFixture,
                         translated: {

@@ -1,3 +1,6 @@
+/**
+ * @package admin
+ */
 import initializeNotifications from 'src/app/init/notification.init';
 import { notification } from '@haokeyingxiao/meteor-admin-sdk';
 

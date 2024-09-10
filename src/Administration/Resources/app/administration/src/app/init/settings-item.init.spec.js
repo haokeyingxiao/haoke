@@ -1,3 +1,6 @@
+/**
+ * @package admin
+ */
 import initializeSettingItems from 'src/app/init/settings-item.init';
 import { ui } from '@haokeyingxiao/meteor-admin-sdk';
 

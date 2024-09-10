@@ -139,7 +139,7 @@ export default class SearchWidgetPlugin extends Plugin {
      * @private
      */
     _clearSuggestResults() {
-        // reseet arrow navigation helper to enable form submit on enter
+        // reset arrow navigation helper to enable form submit on enter
         this._navigationHelper.resetIterator();
 
         // remove all result popovers
@@ -182,15 +182,15 @@ export default class SearchWidgetPlugin extends Plugin {
     }
 
     /**
-     * When the suggest is shown, trigger the focus on the input field
+     * When the suggestion is shown, trigger the focus on the input field
      * @private
      */
     _registerInputFocus() {
         this._toggleButton = DomAccess.querySelector(document, this.options.searchWidgetCollapseButtonSelector, false);
 
-        if(!this._toggleButton) {
+        if (!this._toggleButton) {
             console.warn(`Called selector '${this.options.searchWidgetCollapseButtonSelector}' for the search toggle button not found. Autofocus has been disabled on mobile.`);
-            return
+            return;
         }
 
         const event = (DeviceDetection.isTouchDevice()) ? 'touchstart' : 'click';
