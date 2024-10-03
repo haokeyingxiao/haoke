@@ -78,6 +78,11 @@ class ServiceRegistryClient implements ResetInterface
         }
     }
 
+    public function reset(): void
+    {
+        $this->services = null;
+    }
+
     /**
      * @param array<mixed> $content
      */
@@ -94,10 +99,5 @@ class ServiceRegistryClient implements ResetInterface
         }
 
         return true;
-    }
-
-    public function reset(): void
-    {
-        $this->services = [];
     }
 }

@@ -11,6 +11,7 @@ use Shopware\Core\Framework\Adapter\Cache\Event\HttpCacheCookieEvent;
 use Shopware\Core\Framework\Feature;
 use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\Framework\Routing\MaintenanceModeResolver;
+use Shopware\Core\Framework\Util\Hasher;
 use Shopware\Core\PlatformRequest;
 use Shopware\Core\System\SalesChannel\Context\SalesChannelContextService;
 use Shopware\Core\System\SalesChannel\SalesChannelContext;
@@ -182,21 +183,6 @@ class CacheResponseSubscriber implements EventSubscriberInterface
         $response->headers->set(AbstractSessionListener::NO_AUTO_CACHE_CONTROL_HEADER, '1');
     }
 
-    /**
-     * @param list<string> $cacheStates
-     * @param list<string> $states
-     */
-    private function hasInvalidationState(array $cacheStates, array $states): bool
-    {
-        foreach ($states as $state) {
-            if (\in_array($state, $cacheStates, true)) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
     public function onCustomerLogin(CustomerLoginEvent $event): void
     {
         $request = $this->requestStack->getCurrentRequest();
@@ -218,6 +204,21 @@ class CacheResponseSubscriber implements EventSubscriberInterface
         $context->assign(['customer' => null]);
 
         $request->attributes->set(PlatformRequest::ATTRIBUTE_SALES_CHANNEL_CONTEXT_OBJECT, $context);
+    }
+
+    /**
+     * @param list<string> $cacheStates
+     * @param list<string> $states
+     */
+    private function hasInvalidationState(array $cacheStates, array $states): bool
+    {
+        foreach ($states as $state) {
+            if (\in_array($state, $cacheStates, true)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private function buildCacheHash(Request $request, SalesChannelContext $context): string
@@ -242,16 +243,16 @@ class CacheResponseSubscriber implements EventSubscriberInterface
             $event = new HttpCacheCookieEvent($request, $context, $parts);
             $this->dispatcher->dispatch($event);
 
-            return md5(json_encode($event->getParts(), \JSON_THROW_ON_ERROR));
+            return Hasher::hash($event->getParts());
         }
 
-        return md5(json_encode([
+        return Hasher::hash([
             $context->getRuleIds(),
             $context->getContext()->getVersionId(),
             $context->getCurrency()->getId(),
             $context->getTaxState(),
             $context->getCustomer() ? 'logged-in' : 'not-logged-in',
-        ], \JSON_THROW_ON_ERROR));
+        ]);
     }
 
     /**

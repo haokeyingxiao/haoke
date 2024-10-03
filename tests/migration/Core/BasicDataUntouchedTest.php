@@ -5,6 +5,7 @@ namespace Shopware\Tests\Migration\Core;
 use PHPUnit\Framework\Attributes\CoversNothing;
 use PHPUnit\Framework\TestCase;
 use Shopware\Core\Framework\Test\TestCaseBase\KernelLifecycleManager;
+use Shopware\Core\Framework\Util\Hasher;
 use Shopware\Core\Migration\V6_3\Migration1536233560BasicData;
 
 /**
@@ -20,7 +21,7 @@ class BasicDataUntouchedTest extends TestCase
 
         static::assertSame(
             'e6011e92562f9ff7e1f67928886194d812a0de9f',
-            sha1_file($file),
+            Hasher::hashFile($file),
             'BasicData migration has changed. This is not allowed.'
         );
     }

@@ -1,8 +1,8 @@
 {% block layout_header_actions_cart_widget %}
     <span class="header-cart-icon">
-        {% block layout_header_actions_cart_widget_icon %}
-            {% sw_icon 'bag' %}
-        {% endblock %}
+        {% sw_icon 'bag' style {
+            ariaLabel: 'checkout.cartTitle'|trans
+        } %}
     </span>
     {% if page.cart.lineItems|length > 0 %}
         <span class="badge bg-primary header-cart-badge">{{ page.cart.lineItems|length }}</span>

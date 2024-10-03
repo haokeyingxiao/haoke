@@ -13,6 +13,7 @@ use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Filter\EqualsFilter;
 use Shopware\Core\Framework\Log\Package;
 use Shopware\Core\Framework\Util\Filesystem;
+use Shopware\Core\Framework\Util\Hasher;
 use Symfony\Contracts\Service\ResetInterface;
 
 /**
@@ -63,26 +64,6 @@ class SourceResolver implements ResetInterface
         return $this->filesystem($app);
     }
 
-    private function filesystem(AppEntity|Manifest $app): Filesystem
-    {
-        $cacheKey = $this->cacheKey($app);
-
-        if (isset($this->appFilesystemCache[$cacheKey])) {
-            return $this->appFilesystemCache[$cacheKey];
-        }
-
-        foreach ($this->sources as $source) {
-            if ($source->supports($app)) {
-                $filesystem = $source->filesystem($app);
-                $this->cacheResolvedFileSystem($app, $filesystem, $source::class);
-
-                return $filesystem;
-            }
-        }
-
-        throw AppException::noSourceSupports();
-    }
-
     /**
      * For where we don't have an app instance
      */
@@ -103,6 +84,36 @@ class SourceResolver implements ResetInterface
             // if we don't have a db, try to load it from the local filesystem
             return $this->noDbSourceResolver->filesystem($appName);
         }
+    }
+
+    public function reset(): void
+    {
+        foreach ($this->sourceFilesystemCache as $sourceClass => $filesystems) {
+            $this->getSourceByClassName($sourceClass)->reset($filesystems);
+        }
+
+        $this->sourceFilesystemCache = [];
+        $this->appFilesystemCache = [];
+    }
+
+    private function filesystem(AppEntity|Manifest $app): Filesystem
+    {
+        $cacheKey = $this->cacheKey($app);
+
+        if (isset($this->appFilesystemCache[$cacheKey])) {
+            return $this->appFilesystemCache[$cacheKey];
+        }
+
+        foreach ($this->sources as $source) {
+            if ($source->supports($app)) {
+                $filesystem = $source->filesystem($app);
+                $this->cacheResolvedFileSystem($app, $filesystem, $source::class);
+
+                return $filesystem;
+            }
+        }
+
+        throw AppException::noSourceSupports();
     }
 
     /**
@@ -130,19 +141,9 @@ class SourceResolver implements ResetInterface
         throw AppException::sourceDoesNotExist($className);
     }
 
-    public function reset(): void
-    {
-        foreach ($this->sourceFilesystemCache as $sourceClass => $filesystems) {
-            $this->getSourceByClassName($sourceClass)->reset($filesystems);
-        }
-
-        $this->sourceFilesystemCache = [];
-        $this->appFilesystemCache = [];
-    }
-
     private function cacheKey(AppEntity|Manifest $app): string
     {
-        return md5(match (true) {
+        return Hasher::hash(match (true) {
             $app instanceof AppEntity => $app->getName() . '-' . $app->getVersion(),
             $app instanceof Manifest => $app->getMetadata()->getName() . '-' . $app->getMetadata()->getVersion(),
         });
