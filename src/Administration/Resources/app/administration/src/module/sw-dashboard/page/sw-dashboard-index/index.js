@@ -26,9 +26,9 @@ export default Shopware.Component.wrapComponentConfig({
     computed: {
         welcomeMessage() {
             const greetingName = this.greetingName;
-            const welcomeMessage = this.$tc(
-                this.cachedHeadlineGreetingKey,
-            );
+            const welcomeMessage = this.$tc(this.cachedHeadlineGreetingKey, 1, {
+                greetingName,
+            });
 
             // in the headline we want to greet the user by his firstname
             // if his first name is not available, we remove the personalized greeting part
@@ -43,6 +43,17 @@ export default Shopware.Component.wrapComponentConfig({
 
         welcomeSubline() {
             return this.$tc(this.getGreetingTimeKey('daytimeWelcomeText'));
+        },
+
+        greetingName() {
+            const { currentUser } = Shopware.State.get('session');
+
+            // if currentUser?.firstName returns a loose falsy value
+            // like `""`, `0`, `false`, `null`, `undefined`
+            // we want to use `null` in the ongoing process chain,
+            // otherwise we would need to take care of `""` and `null`
+            // or `undefined` in tests and other places
+            return currentUser?.firstName || null;
         },
     },
 
@@ -91,12 +102,12 @@ export default Shopware.Component.wrapComponentConfig({
             // to find the right timeslot, we user array.find() which will stop after first match
             // for that reason the greetingTimes must be ordered from latest to earliest hour
             const greetingTimes = Object.keys(greetings)
-                .map(entry => parseInt(entry.replace('h', ''), 10))
+                .map((entry) => parseInt(entry.replace('h', ''), 10))
                 .sort((a, b) => a - b)
                 .reverse();
 
             /* find the current time slot */
-            const greetingTime = greetingTimes.find(time => hourNow >= time) || greetingTimes[0];
+            const greetingTime = greetingTimes.find((time) => hourNow >= time) || greetingTimes[0];
             const greetingIndex = Math.floor(Math.random() * greetings[`${greetingTime}h`].length);
 
             return `${translateKey}.${greetingTime}h[${greetingIndex}]`;

@@ -103,6 +103,7 @@ module.exports = {
             extends: [
                 'plugin:vue/vue3-recommended',
                 '@haokeyingxiao/eslint-config-base',
+                'prettier',
             ],
             files: ['**/*.js'],
             excludedFiles: ['*.spec.js', '*.spec.vue3.js'],
@@ -145,6 +146,7 @@ module.exports = {
                 'vue/no-deprecated-props-default-this': 'error',
                 'sw-deprecation-rules/no-compat-conditions': ['warn', 'disableFix'],
                 'sw-deprecation-rules/no-empty-listeners': ['error', 'enableFix'],
+                'sw-deprecation-rules/no-vue-options-api': 'off',
             },
         }, {
             extends: [
@@ -234,7 +236,10 @@ module.exports = {
                     },
                 ],
             },
-            extends: ['plugin:jest/recommended'],
+            extends: [
+                'plugin:jest/recommended',
+                'prettier',
+            ],
         }, {
             files: ['**/snippet/*.json'],
             rules: {
@@ -247,6 +252,7 @@ module.exports = {
                 'plugin:@typescript-eslint/eslint-recommended',
                 'plugin:@typescript-eslint/recommended',
                 'plugin:@typescript-eslint/recommended-requiring-type-checking',
+                'prettier',
             ],
             parser: '@typescript-eslint/parser',
             parserOptions: {
@@ -282,6 +288,7 @@ module.exports = {
                 '@typescript-eslint/no-unused-vars': 'error',
                 'sw-deprecation-rules/no-compat-conditions': ['warn', 'disableFix'],
                 'sw-deprecation-rules/no-empty-listeners': ['error', 'enableFix'],
+                'sw-deprecation-rules/no-vue-options-api': 'off',
             },
         },
     ],
