@@ -1,5 +1,5 @@
 import { type PropType } from 'vue';
-import type EntityCollection from '@shopware-ag/meteor-admin-sdk/es/_internals/data/EntityCollection';
+import type EntityCollection from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/EntityCollection';
 import template from './sw-cms-sidebar.html.twig';
 import CMS from '../../constant/sw-cms.constant';
 import './sw-cms-sidebar.scss';

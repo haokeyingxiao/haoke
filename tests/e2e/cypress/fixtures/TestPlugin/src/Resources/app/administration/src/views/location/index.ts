@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import { location } from "@shopware-ag/meteor-admin-sdk";
-import { SwButton, SwNumberField } from '@shopware-ag/meteor-component-library';
+import { location } from "@haokeyingxiao/meteor-admin-sdk";
+import { SwButton, SwNumberField } from '@haokeyingxiao/meteor-component-library';
 
 export default Vue.extend({
     components: {

@@ -1,4 +1,4 @@
-import EntityCollection from '@shopware-ag/meteor-admin-sdk/es/_internals/data/EntityCollection';
+import EntityCollection from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/EntityCollection';
 import { difference } from 'lodash';
 import { type PropType } from 'vue';
 import template from './sw-cms-layout-assignment-modal.html.twig';

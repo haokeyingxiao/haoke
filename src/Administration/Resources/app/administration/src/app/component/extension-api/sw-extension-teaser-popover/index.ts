@@ -1,5 +1,5 @@
 import type { PropType } from 'vue';
-import { MtPopover } from '@shopware-ag/meteor-component-library';
+import { MtPopover } from '@haokeyingxiao/meteor-component-library';
 import template from './sw-extension-teaser-popover.html.twig';
 import './sw-extension-teaser-popover.scss';
 

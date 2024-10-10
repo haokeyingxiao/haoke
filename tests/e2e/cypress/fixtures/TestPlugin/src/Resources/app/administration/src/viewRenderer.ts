@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueI18n from 'vue-i18n'
 import { location } from '@shopware-ag/meteor-admin-sdk';
-import '@shopware-ag/meteor-component-library/dist/style.css';
+import '@haokeyingxiao/meteor-component-library/dist/style.css';
 
 Vue.use(VueI18n);
 

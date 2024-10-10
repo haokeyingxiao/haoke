@@ -9,8 +9,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@shopware-ag/meteor-admin-sdk": "^4.0.0",
-    "@shopware-ag/meteor-component-library": "2.1.1",
+    "@haokeyingxiao/meteor-admin-sdk": "^4.0.0",
+    "@haokeyingxiao/meteor-component-library": "2.1.1",
     "regenerator-runtime": "^0.13.9",
     "vue": "2.7.14",
     "vue-i18n": "^8.26.8",

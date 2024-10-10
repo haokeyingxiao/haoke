@@ -1,5 +1,5 @@
 import initTeaserButtons from 'src/app/init/teaser-popover.init';
-import { send } from '@shopware-ag/meteor-admin-sdk/es/channel';
+import { send } from '@haokeyingxiao/meteor-admin-sdk/es/channel';
 
 describe('src/app/init/teaser-popover.init.ts', () => {
     it('should handle __upsellingTeaserPopover', async () => {

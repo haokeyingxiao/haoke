@@ -1,7 +1,7 @@
 import { reactive } from 'vue';
-import type Criteria from '@shopware-ag/meteor-admin-sdk/es/data/Criteria';
-import type EntityCollection from '@shopware-ag/meteor-admin-sdk/es/_internals/data/EntityCollection';
-import type { Entity } from '@shopware-ag/meteor-admin-sdk/es/_internals/data/Entity';
+import type Criteria from '@haokeyingxiao/meteor-admin-sdk/es/data/Criteria';
+import type EntityCollection from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/EntityCollection';
+import type { Entity } from '@haokeyingxiao/meteor-admin-sdk/es/_internals/data/Entity';
 
 const { Application } = Shopware;
 
