@@ -34,6 +34,8 @@
     "mainMenu": "显示所有类别",
     "closeMenu": "关闭菜单",
     "back": "返回",
+    "expand": "展开",
+    "collapse": "折叠",
     "categories": "分类",
     "showCategory": "显示 %category%",
     "required": "*",
@@ -54,6 +56,7 @@
     "formSubmit": "提交",
     "listPricePreviously": "以前的价格 %price%",
     "skipToContentLink": "跳到主要内容",
+    "scrollUpBtn": "返回页面顶部",
     "pagination": {
       "first": "第一页",
       "prev": "上一页",
@@ -75,7 +78,12 @@
     "indexLinkService": "服务/帮助",
     "searchNoResult": "未找到结果。",
     "wishlist": "心愿单",
-    "navigationAriaLabel": "主导航"
+    "navigationAriaLabel": "主导航",
+    "topBarAriaLabel": "商店设置",
+    "languageTrigger": "切换语言（当前语言为 %lang%）",
+    "languageList": "可用语言",
+    "currencyTrigger": "切换货币（当前货币为 %currency%）",
+    "currencyList": "可用货币"
   },
   "error": {
     "VIOLATION::IS_BLANK_ERROR": "输入不能为空。",
@@ -87,7 +95,21 @@
     "VIOLATION::VAT_ID_FORMAT_NOT_CORRECT": "您输入的增值税号格式不正确。",
     "VIOLATION::ZIP_CODE_INVALID": "您输入的邮政编码格式不正确。",
     "VIOLATION::INVALID_FORMAT_ERROR": "输入格式不正确。",
+    "VIOLATION::INVALID_EMAIL_FORMAT_ERROR": "Invalid email address. Email addresses must use this format `user@example.com` and include an `@` and an `.`.",
     "VIOLATION::NOT_EQUAL_ERROR": "输入不一致.",
+    "VIOLATION::FIRST_NAME_IS_BLANK_ERROR": "未输入内容。请填写您的名字。",
+    "VIOLATION::LAST_NAME_IS_BLANK_ERROR": "未输入内容。请填写您的姓氏。",
+    "VIOLATION::STREET_IS_BLANK_ERROR": "未输入内容。请填写您的街道地址。",
+    "VIOLATION::CITY_IS_BLANK_ERROR": "未输入内容。请填写您所在的城市。",
+    "VIOLATION::COUNTRY_IS_BLANK_ERROR": "未输入内容。请填写您所在的国家。",
+    "VIOLATION::ADDITIONAL_ADDR1_IS_BLANK_ERROR": "未输入内容。请填写附加地址信息。",
+    "VIOLATION::ADDITIONAL_ADDR2_IS_BLANK_ERROR": "未输入内容。请填写附加地址信息。",
+    "VIOLATION::PHONE_NUMBER_IS_BLANK_ERROR": "未输入内容。请填写您的电话号码。",
+    "VIOLATION::PHONE_NUMBER_IS_TOO_LONG": "输入过长。请输入有效的电话号码。",
+    "VIOLATION::FIRST_NAME_IS_TOO_LONG": "输入过长。请输入名字或其简写。",
+    "VIOLATION::LAST_NAME_IS_TOO_LONG": "输入过长。请输入简写的姓氏。",
+    "VIOLATION::TITLE_IS_TOO_LONG": "输入过长。请输入主要标题或使用缩写。",
+    "VIOLATION::ZIPCODE_IS_TOO_LONG": "输入过长。请输入有效的邮政编码。",
     "message-default": "很抱歉，发生了错误。",
     "message-404": "请求的页面无法找到。",
     "addToCartError": "将商品添加到购物车时发生错误。",
@@ -343,7 +365,13 @@
     "colonCharacter": "：",
     "orderGuestLoginTitle": "身份验证",
     "orderGuestLoginDescription": "要查看您的订单，请输入您的邮件地址和账单地址中的邮政编码。",
-    "orderGuestLoginWrongCredentials": "提供的数据无法关联到订单。"
+    "orderGuestLoginWrongCredentials": "提供的数据无法关联到订单。",
+    "orderLineItemsListAriaLabel": "订单商品列表",
+    "orderItemAriaLabel": "订单号 %order_number%",
+    "orderDocumentsAriaLabel": "此订单的文件",
+    "orderSummaryAriaLabel": "此订单的摘要",
+    "orderInfoAriaLabel": "此订单的信息",
+    "orderTrackingNotAvailable": "不可用"
   },
   "address": {
     "streetLabel": "街道地址",
@@ -535,6 +563,7 @@
     "filterByManufacturerAriaLabel": "按制造商筛选",
     "filterByPriceAriaLabel": "按价格筛选",
     "filterByRatingAriaLabel": "按最低评分筛选",
+    "filterClose": "关闭",
     "defaultProductSortingLabel": "名称，升序",
     "disabledFilterTooltip": "此筛选器与所选筛选器组合时不会显示任何进一步的结果。",
     "beforeListPrice": "",
@@ -666,7 +695,8 @@
     "wishlistEmptyHeader": "您的心愿单是空的",
     "wishlistEmptyDescription": "通过将喜欢的产品添加到心愿单，随时关注它们。",
     "deliveryTimeRestock": "{1} 1 天内有货，交货时间 %name%|]1,Inf[ %restockTime% 天内有货，交货时间 %name%",
-    "deliveryShipping": "此产品将于"
+    "deliveryShipping": "此产品将于",
+    "remove": "将 %product_name% 从愿望清单中移除"
   },
   "footer": {
     "serviceHotlineHeadline": "服务热线",

@@ -231,7 +231,8 @@
           "message": {
             "template-applied-message": "模板数据已应用，但尚未保存。请保存此销售渠道以保留更改。"
           }
-        }
+        },
+        "cliCommand": "CLI Command to generate the product export"
       },
       "hreflang": {
         "title": "Hreflang",

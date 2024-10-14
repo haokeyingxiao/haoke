@@ -95,15 +95,6 @@ class Migration1536233560BasicData extends MigrationStep
     {
     }
 
-    private function getDeDeLanguageId(): string
-    {
-        if (!$this->deDeLanguageId) {
-            $this->deDeLanguageId = Uuid::randomHex();
-        }
-
-        return $this->deDeLanguageId;
-    }
-
     public function getZhCnLanguageId(): string
     {
         if (!$this->zhCnLanguageId) {
@@ -111,6 +102,15 @@ class Migration1536233560BasicData extends MigrationStep
         }
 
         return $this->zhCnLanguageId;
+    }
+
+    private function getDeDeLanguageId(): string
+    {
+        if (!$this->deDeLanguageId) {
+            $this->deDeLanguageId = Uuid::randomHex();
+        }
+
+        return $this->deDeLanguageId;
     }
 
     private function createLanguage(Connection $connection): void

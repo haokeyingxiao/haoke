@@ -53,6 +53,7 @@
       "textCustomers": "客户",
       "textCustomersTotal": "无客户 | 一个客户 | {count} 个客户",
       "buttonAddCustomer": "添加客户",
+      "columnCompany": "公司",
       "columnCustomerNumber": "客户编号",
       "columnName": "名称",
       "columnGroup": "客户组",

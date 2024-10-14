@@ -134,7 +134,7 @@ class ServiceLifecycleTest extends TestCase
         $this->logger
             ->expects(static::once())
             ->method('error')
-            ->with('Cannot install service "MyCoolService" because of error: "App MyCoolService is not compatible with this Shopware version"');
+            ->with('Cannot install service "MyCoolService" because of error: "App MyCoolService is not compatible with this Haoke version"');
 
         $lifecycle = new ServiceLifecycle(
             $this->serviceRegistryClient,
@@ -461,7 +461,7 @@ class ServiceLifecycleTest extends TestCase
         $this->logger
             ->expects(static::once())
             ->method('error')
-            ->with('Cannot update service "MyCoolService" because of error: "App MyCoolService is not compatible with this Shopware version"');
+            ->with('Cannot update service "MyCoolService" because of error: "App MyCoolService is not compatible with this Haoke version"');
 
         $this->serviceRegistryClient->expects(static::once())->method('get')->with('MyCoolService')->willReturn($this->entry);
 

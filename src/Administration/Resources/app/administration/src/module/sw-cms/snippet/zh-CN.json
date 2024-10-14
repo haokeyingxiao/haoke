@@ -223,7 +223,8 @@
           "helpText": {
             "autoSlide": "幻灯片将自动滑动。",
             "autoplayTimeout": "幻灯片应静止的毫秒时长。",
-            "speed": "滑动动画的毫秒时长。"
+            "speed": "滑动动画的毫秒时长。",
+            "displayMode": "<strong>原始：</strong> 图像以其原始分辨率显示或缩小至当前 CMS 页面的宽度。<br><br><strong>缩放：</strong> 图像缩放至 CMS 页面的宽度，没有高度限制。<br><br><strong>裁剪：</strong> 图像缩放至当前 CMS 页面的宽度，任何垂直溢出部分将裁剪至配置的最大高度。"
           },
           "tab": {
             "content": "内容",
@@ -268,6 +269,9 @@
             "keepAspectRatioOnZoom": "缩放时保持宽高比",
             "magnifierOverGallery": "在画廊上显示放大镜",
             "magnifierOverGalleryHelpText": "在画廊上方显示放大镜，而不是在画廊旁边显示"
+          },
+          "helpText": {
+            "displayMode": "<strong>原始：</strong> 图像以原始分辨率显示或缩小至滑块的高度。<br><br><strong>固定高度：</strong> 图像以原始分辨率显示或缩小至配置的高度。<br><br><strong>裁剪：</strong> 图像缩放至当前 CMS 页面的宽度，任何垂直溢出部分将裁剪至配置的高度。"
           }
         }
       },
@@ -280,6 +284,9 @@
             "navigationPositionInside": "内部",
             "navigationPositionOutside": "外部",
             "navigationDots": "点导航"
+          },
+          "helpText": {
+            "displayMode": "<strong>原始：</strong> 图像缩放至 CMS 页面的宽度，没有高度限制。滑块的高度会动态调整。<br><br><strong>固定高度：</strong> 图像缩放至 CMS 页面的宽度，没有高度限制。滑块保持最高图像的高度。<br><br><strong>裁剪：</strong> 图像缩放至当前 CMS 页面的宽度，任何垂直溢出部分将裁剪至配置的高度。"
           }
         }
       },

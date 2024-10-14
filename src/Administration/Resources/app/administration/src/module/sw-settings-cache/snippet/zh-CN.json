@@ -16,6 +16,9 @@
       "clearCachesHeadline": "清除缓存",
       "clearCachesText": "缓存会立即同步清除所有使用的适配器。",
       "clearCachesButton": "清除缓存",
+      "clearDataCachesHeadline": "清除数据缓存",
+      "clearDataCachesText": "对非必要商店数据（与价格计算无关的所有内容）的更改不会立即可见。清除数据缓存以查看您最近的更改。",
+      "clearDataCachesButton": "清除数据缓存",
       "indexesHeadline": "索引",
       "indexesText": "所有索引将异步更新。通过监控通知来跟踪进度。",
       "indexesButton": "更新索引",
@@ -32,6 +35,11 @@
         "started": "正在清除缓存。",
         "success": "所有缓存已清除。",
         "error": "无法清除缓存。"
+      },
+      "clearDataCache": {
+        "started": "正在清除数据缓存。",
+        "success": "所有待处理的更改已应用。",
+        "error": "无法清除数据缓存。"
       },
       "index": {
         "started": "正在构建索引。",

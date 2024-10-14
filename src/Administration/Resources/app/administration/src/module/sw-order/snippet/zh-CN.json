@@ -7,6 +7,7 @@
       "placeholderSearchBar": "搜索全部订单..."
     },
     "list": {
+      "columnCustomerCompany": "公司",
       "columnCustomerName": "客户名称",
       "columnBillingAddress": "账单地址",
       "columnDeliveryAddress": "送货地址",
@@ -105,6 +106,7 @@
         "labelPhoneNumber": "电话号码",
         "placeholderEmail": "邮箱地址...",
         "placeholderPhoneNumber": "电话号码...",
+        "labelAddressCompany": "公司地址",
         "labelBillingAddress": "账单地址",
         "labelShippingAddress": "送货地址",
         "placeholder": "请先选择或添加客户...",

@@ -48,10 +48,7 @@
       "placeholderStart": "输入起始编号...",
       "placeholderPleaseSelect": "请选择...",
       "placeholderSimpleModeImpossible": "高级模式激活",
-      "buttonCancel": "取消",
-      "buttonSave": "保存",
       "helpTextAdvancedField": "高级模式定义：<br/>{prefix}_{n}_{suffix}<br/>'n' 是定义的起始编号<br/>('_' 是任意选择的分隔符)<br/><br/>例如使用 PHP 参数 'date': <br/>{date}:<br/>国际日期格式 (YYYY-MM-DD)<br/>{date_dmy}:<br/>用户定义的日期格式 (DD-MM-YY)<br/><br/>",
-      "errorSalesChannelNeededMessage": "未选择销售渠道。请至少分配一个销售渠道。",
       "errorPatternNeededMessage": "未定义模式。请至少定义一个起始值。",
       "infoStartDecrementMessage": "对起始编号的更改仅在起始编号大于当前编号时生效。"
     }
