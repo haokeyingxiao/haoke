@@ -31,6 +31,7 @@
     },
     "card": {
       "buttonImitateCustomer": "以客户身份登录",
+      "tooltipImitateCustomerGuest": "游客账户无法被模拟。",
       "placeholderTitle": "标题",
       "placeholderFirstName": "名",
       "placeholderLastName": "姓",
