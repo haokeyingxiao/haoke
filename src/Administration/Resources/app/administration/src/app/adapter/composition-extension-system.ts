@@ -1,10 +1,10 @@
 import type { ComputedRef, Reactive, Ref, ToRefs } from 'vue';
-import { computed, isReactive, isReadonly, isRef, reactive, toRefs, watch } from 'vue';
+import { computed, getCurrentInstance, isReactive, isReadonly, isRef, reactive, toRefs, watch } from 'vue';
 import { syncRef } from '@vueuse/core';
 import type { SetupContext, PublicProps } from '@vue/runtime-core';
 
 /**
- * @experimental stableVersion:v6.7.0 feature:ADMIN_COMPOSITION_API_EXTENSION_SYSTEM
+ * @experimental stableVersion:v6.8.0 feature:ADMIN_COMPOSITION_API_EXTENSION_SYSTEM
  * @package admin
  *
  * Extendable Setup Utility for Vue Components
@@ -33,7 +33,7 @@ import type { SetupContext, PublicProps } from '@vue/runtime-core';
 /* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-argument */
 declare global {
     /**
-     * @experimental stableVersion:v6.7.0 feature:ADMIN_COMPOSITION_API_EXTENSION_SYSTEM
+     * @experimental stableVersion:v6.8.0 feature:ADMIN_COMPOSITION_API_EXTENSION_SYSTEM
      *
      * This interface defines the public API mapping for each component that can be extended.
      * It will be used to get the correct types for the overrides and to ensure that the
@@ -119,13 +119,32 @@ const checkNestedStructure = ({
     return result;
 };
 
+const getComponentContext = (): SetupContext => {
+    // Get the component instance
+    const instance = getCurrentInstance();
+
+    // Construct a context object
+    return (
+        // @ts-expect-error - "setupContext" is available in the instance when using the setup function
+        instance?.setupContext ??
+        ({
+            attrs: instance?.attrs,
+            slots: instance?.slots,
+            emit: instance?.emit,
+            expose: () => {
+                console.error('expose is not available in the current context');
+            },
+        } as SetupContext)
+    );
+};
+
 /**
  * This utility type is used to require the the exact shape of a type.
  */
 type Exact<T, Shape> = T extends Shape ? (Exclude<keyof T, keyof Shape> extends never ? T : never) : never;
 
 /**
- * @experimental stableVersion:v6.7.0 feature:ADMIN_COMPOSITION_API_EXTENSION_SYSTEM
+ * @experimental stableVersion:v6.8.0 feature:ADMIN_COMPOSITION_API_EXTENSION_SYSTEM
  * Main function to extend the setup of a component
  */
 // eslint-disable-next-line sw-deprecation-rules/private-feature-declarations
@@ -139,7 +158,7 @@ export function createExtendableSetup<
     options: {
         name: COMPONENT_NAME;
         props: PROPS;
-        context: CONTEXT;
+        context?: CONTEXT;
     },
     originalSetup: (
         props: PROPS,
@@ -149,8 +168,9 @@ export function createExtendableSetup<
         private?: PRIVATE_SETUP_RESULT;
     },
 ): ToRefs<Reactive<Exact<SETUP_RESULT, ComponentPublicApiMapping[COMPONENT_NAME]> & PRIVATE_SETUP_RESULT>> {
+    const componentContext = options.context ? options.context : (getComponentContext() as CONTEXT);
     // Call the original setup function
-    const originalSetupResultRaw = originalSetup(options.props, options.context);
+    const originalSetupResultRaw = originalSetup(options.props, componentContext);
 
     // Stop execution and throw an error if the original setup function does not return a public or private property
     if (!originalSetupResultRaw.public && !originalSetupResultRaw.private) {
@@ -245,7 +265,7 @@ export function createExtendableSetup<
             }, {}) as PRIVATE_SETUP_RESULT;
 
             // Apply the override with a destructured copy of the wrapped state to prevent calling himself
-            const overrideResult = override({ ...previousStateResultForExtensions }, options.props, options.context);
+            const overrideResult = override({ ...previousStateResultForExtensions }, options.props, componentContext);
 
             // Process each property in the override result
             Object.keys(overrideResult).forEach((key) => {
@@ -332,7 +352,7 @@ type ExtractedProps<T> = Omit<
 >;
 
 /**
- * @experimental stableVersion:v6.7.0 feature:ADMIN_COMPOSITION_API_EXTENSION_SYSTEM
+ * @experimental stableVersion:v6.8.0 feature:ADMIN_COMPOSITION_API_EXTENSION_SYSTEM
  * Function to add an override for a specific component
  */
 // eslint-disable-next-line sw-deprecation-rules/private-feature-declarations
