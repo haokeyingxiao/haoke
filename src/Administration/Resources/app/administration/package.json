@@ -53,7 +53,7 @@
     "safari >= 7"
   ],
   "dependencies": {
-    "@haokeyingxiao/meteor-admin-sdk": "5.5.2",
+    "@haokeyingxiao/meteor-admin-sdk": "5.5.3",
     "@haokeyingxiao/meteor-component-library": "3.14.0",
     "@haokeyingxiao/meteor-icon-kit": "5.4.1",
     "@haokeyingxiao/webpack-copy-after-build": "1.0.1",
