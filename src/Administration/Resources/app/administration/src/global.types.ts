@@ -173,7 +173,7 @@ declare global {
     /**
      * Define global container for the bottle.js containers
      */
-    // eslint-disable-next-line @typescript-eslint/no-empty-interface
+        // eslint-disable-next-line @typescript-eslint/no-empty-interface
     interface ServiceContainer extends SubContainer<'service'> {
         loginService: LoginService;
         feature: FeatureService;
@@ -311,7 +311,7 @@ declare global {
      * Define global state for the Vuex store
      * @deprecated tag:v6.8.0 - Will be removed use PiniaRootState instead
      */
-    // eslint-disable-next-line @typescript-eslint/no-empty-interface
+        // eslint-disable-next-line @typescript-eslint/no-empty-interface
     interface VuexRootState {
         context: ContextState;
         extensions: ExtensionsState;
@@ -441,9 +441,9 @@ declare module 'vue' {
             [key: string]:
                 | string
                 | {
-                      active: boolean | ((this: App) => boolean);
-                      method: string;
-                  };
+                active: boolean | ((this: App) => boolean);
+                method: string;
+            };
         };
 
         extensionApiDevtoolInformation?: {
