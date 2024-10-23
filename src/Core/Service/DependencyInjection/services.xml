@@ -5,7 +5,7 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <parameters>
         <parameter key="env(SERVICE_REGISTRY_URL)" type="string">https://services.shopware.io/services.json</parameter>
-        <parameter key="env(ENABLE_SERVICES)" type="string">false</parameter>
+        <parameter key="env(ENABLE_SERVICES)" type="string">true</parameter>
     </parameters>
 
     <services>
@@ -43,8 +43,9 @@
         <service id="Shopware\Core\Service\ServiceClientFactory">
             <argument type="service" id="Symfony\Contracts\HttpClient\HttpClientInterface"/>
             <argument type="service" id="Shopware\Core\Service\ServiceRegistryClient"/>
-
             <argument>%kernel.shopware_version%</argument>
+            <argument type="service" id="shopware.app_system.guzzle.middleware"/>
+            <argument type="service" id="Shopware\Core\Framework\App\Payload\AppPayloadServiceHelper"/>
         </service>
 
         <service id="Shopware\Core\Service\AllServiceInstaller">
@@ -103,5 +104,16 @@
         <service id="Shopware\Core\Service\TemporaryDirectoryFactory">
             <argument>%kernel.project_dir%</argument>
         </service>
+
+        <service id="Shopware\Core\Service\Subscriber\LicenseSyncSubscriber">
+            <argument type="service" id="Shopware\Core\System\SystemConfig\SystemConfigService"/>
+            <argument type="service" id="Shopware\Core\Service\ServiceRegistryClient"/>
+            <argument type="service" id="app.repository"/>
+            <argument type="service" id="logger"/>
+            <argument type="service" id="Shopware\Core\Service\ServiceClientFactory"/>
+
+            <tag name="kernel.event_subscriber"/>
+        </service>
+
     </services>
 </container>
